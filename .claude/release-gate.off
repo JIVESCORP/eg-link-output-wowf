@@ -1,0 +1,6 @@
+Turns off the jc-core release gate for this repo (the hook checks only that this file
+exists; this text is for humans).
+
+This repo holds published data, not a versioned release. Efficient Games' processing job
+commits new data to main daily without a tag, and nothing pins this repo's version, so
+no push to main needs a version bump or a tag.
