@@ -5,9 +5,6 @@ from the game's own data and from what players' **EG Link** addon records as the
 are quests, profession trainers and the ranks recipes are learned at, and where things are on the
 map.
 
-Status: no datasets published yet. Efficient Games' processing job will publish them here once it
-runs.
-
 ## Datasets
 
 Each client build gets a folder, `data/<product>/<clientBuild>/`, holding what players recorded on
