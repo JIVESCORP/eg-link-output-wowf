@@ -6,8 +6,9 @@ commits only when something changed. Don't edit them by hand: the next run repla
 ## Layout
 
 ```
-data/index.json                                   every product, build and dataset, with counts
-data/<product>/<clientBuild>/<dataset>.json       one file per dataset that has records
+data/index.json                                          every product, build and dataset, with counts
+data/<product>/<clientBuild>/<dataset>.json              one file per dataset that has records
+data/<product>/<clientBuild>/<dataset>.<locale>.json     the datasets from the game's caches, per language
 ```
 
 - `<product>` is the Battle.net product code of the client the data came from. World of Warcraft:
@@ -15,6 +16,10 @@ data/<product>/<clientBuild>/<dataset>.json       one file per dataset that has 
   4 November 2026.
 - `<clientBuild>` is the client's version, such as `1.60.1.70009`. A build's data is only what
   players recorded on that build, so compare builds to see what a patch changed.
+- `<locale>` is the game client's language, such as `enUS`. The four datasets read from the game's
+  caches (`quests`, `creature_details`, `object_details`, `item_hotfixes`) are mostly the server's
+  text, so each language gets its own file. Names in the other datasets are in whatever language the
+  contributing players' clients use.
 
 Every file is UTF-8 JSON with one space of indent. Object keys are sorted: numerically when every
 key is a number, otherwise alphabetically. A field with nothing to say is left out, never `null`.
@@ -27,6 +32,7 @@ Each dataset file starts with a `meta` block:
 | `schemaVersion` | the file's shape; it changes only when a field changes meaning or is removed |
 | `sources` | how many players' saved files (a game account on one computer) contributed |
 | `combatLogUploads` | `creatures` only: how many combat-log uploads contributed |
+| `locale`, `cacheFiles`, `cachesLeftOut` | the cache datasets only: the language, how many cache files were read, and how many weren't (a layout the game changed, which Efficient Games must learn before reading it) |
 | `collectedOn.first`, `collectedOn.last` | the days of the oldest and newest contribution used |
 | `license`, `attribution` | CC BY 4.0, and the credit line to use |
 
@@ -164,3 +170,84 @@ are open.
 
 - `described[questId]`: `title`, and how many players' scans got it (`sources`).
 - `noData`: quests some scan asked about and none got an answer for.
+
+## The cache datasets
+
+The game keeps the server's answers in cache files: what a quest says, what a creature or object is,
+and the rows of the game's tables the server changed after the client shipped ("hotfixes"). EG
+Link's app uploads them as the game wrote them. A cache holds what the game asked about since it last
+started one, so every upload adds to what's known, and a player's newer upload replaces only the
+records it has. For each record, the newest player's answer wins (for a pushed item, the newest push
+first), then the one most players have. `sources` counts the players who had it.
+
+A cache is read only when it's from the upload's build and language, and only when its record layout
+has been checked record by record. Otherwise the whole file is left out and counted in
+`meta.cachesLeftOut`.
+
+### quests.&lt;locale&gt;
+
+`quests[questId]`, every quest a player's game asked the server about, as the server described it.
+IDs aren't joined to names here: the client's own tables name zones, items, factions and spells.
+
+- `title`, `level`, `minLevel`, `zoneAreaId` (the zone, an `AreaTable` ID) or `categoryId` (a
+  `QuestSort` ID), `questInfoId`, `questType`, `flags`, `flagsEx`, `flagsEx2`, `nextQuestId`,
+  `startItemId`, `timeLimitSeconds`
+- `raceMask`: the races allowed, as 16 hex digits. Each bit is a race's `ChrRaces.PlayableRaceBit`,
+  and every bit set means every race.
+- the text: `objectivesText`, `description`, `completionText`, `areaDescription`, and the portraits'
+  `portraitGiverText`, `portraitGiverName`, `portraitTurnInText`, `portraitTurnInName`. `$n`, `$r`,
+  `$c` and `$g...;` are the game's placeholders for the reader's name, race, class and gender.
+- `objectives`: `id`, `typeId` and `type` (`monster`, `item`, `gameObject`, `talkTo`, `areaTrigger`,
+  `criteriaTree`, `areaTriggerEnter`; left out for a type not yet identified), `objectId`, `amount`,
+  `storageIndex`, `text`
+- `itemDrops`: items that drop for the quest (`itemId`, `count`)
+- `rewards`: `xpDifficulty` and `xpMultiplier` (the XP is the client's `QuestXP` row for the quest's
+  level at that difficulty, times the multiplier), `money` (copper), `spellId`, `displaySpells`
+  (`spellId`, `type`), `items` and `choices` (`itemId`, `count`), `reputation` (`factionId`, `tier`,
+  and `override`, an explicit amount stored times 100 that replaces the tier's), `currencies`
+  (`currencyId`, `amount`)
+- `conditionalDescriptions` and `conditionalCompletionTexts` (`playerConditionId`, `creatureId`,
+  `text`), `treasurePickerIds`
+- `sources`
+
+### creature_details.&lt;locale&gt;
+
+`creatures[npcId]`, every creature a player's game asked about:
+
+- `name`, `femaleName`, `otherNames`, `title` (the line under the name, such as "Druid Trainer"),
+  `femaleTitle`, `cursor` (the cursor shown over it), `leader`
+- `type` (a `CreatureType` ID: 1 Beast, 7 Humanoid ...), `family` (a `CreatureFamily` ID for beasts
+  and demons: 1 Wolf, 2 Cat ...), `classification` (0 normal, 1 elite, 2 rare elite, 3 world boss,
+  4 rare, 5 trivial, 6 minus), `unitClass` (1 warrior, 2 paladin, 4 rogue or 8 mage, as the game
+  classes creatures)
+- `flags` (three flag words; 0x1 in the first marks a tameable beast), `proxyCreatureIds` (creatures
+  whose kill credit it gives)
+- `displays` (`displayId`, a `CreatureDisplayInfo` ID, with `scale` and `probability`) and
+  `totalProbability`
+- `hpMultiplier`, `energyMultiplier`
+- `questItems`: items it drops only for players on the quest that needs them. `questCurrencies`
+  likewise.
+- `movementInfoId`, `healthScalingExpansion`, `requiredExpansion`, `vignetteId`, `widgetSetId`,
+  `widgetSetUnitConditionId`
+- `creatureDifficultyId`: the server's difficulty record for it, which the client doesn't have. It
+  equals the creature's own ID for Classic's creatures.
+- `sources`
+
+### object_details.&lt;locale&gt;
+
+`objects[objectId]`, every game object a player's game asked about (chests, herbs, veins, doors,
+boats ...): `type`, `displayId`, `name`, `size`, `data` (35 numbers whose meaning depends on the type:
+for a boat or zeppelin, type 15, the first is its `TaxiPath` ID and the next two its speed and
+acceleration), `questItems`, `sources`.
+
+### item_hotfixes.&lt;locale&gt;
+
+`items[itemId]`: what the server said about an item's `ItemSparse` row, the table holding an item's
+name and figures. WoW Forever ships thousands of items without one and sends it when it's ready, so
+this is how an item missing from the client files gets its name.
+
+- `status`: `valid` (the server sent the row), `removed` (it said there's no such item) or `invalid`
+  (the game asked and the server refused: the item exists, and the server doesn't show it yet)
+- `pushId`: which of the server's hotfix pushes said so (-1 for an answer to the game's own request)
+- `name` and `description`, for a `valid` row
+- `sources`

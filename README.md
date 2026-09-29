@@ -11,7 +11,8 @@ runs.
 ## Datasets
 
 Each client build gets a folder, `data/<product>/<clientBuild>/`, holding what players recorded on
-that build:
+that build. The last four datasets come from the game's caches of the server's answers, one file per
+client language (`quests.enUS.json`):
 
 | Dataset | What it holds |
 |---|---|
@@ -24,6 +25,10 @@ that build:
 | `turn_ins` | What each quest's turn-in paid: XP, money and reputation |
 | `objectives` | Where each quest objective's count went up |
 | `quest_scan` | Which quests the server describes (open content) and which it doesn't yet |
+| `quests.<locale>` | Every quest as the server describes it: text, levels, objectives, rewards |
+| `creature_details.<locale>` | Every creature's name, title, type, family, rank, models and quest drops |
+| `object_details.<locale>` | Every game object's name, type, model, size and quest drops |
+| `item_hotfixes.<locale>` | Items the server sent, removed or withheld, with the names the client files lack |
 
 `data/index.json` lists every product, build and dataset with its record count. [DATASETS.md](DATASETS.md)
 documents every field and how players' contributions are combined.
