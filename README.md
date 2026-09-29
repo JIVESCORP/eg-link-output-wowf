@@ -5,7 +5,28 @@ from the game's own data and from what players' **EG Link** addon records as the
 are quests, profession trainers and the ranks recipes are learned at, and where things are on the
 map.
 
-Status: no datasets published yet. The first will appear here as they are compiled.
+Status: no datasets published yet. Efficient Games' processing job will publish them here once it
+runs.
+
+## Datasets
+
+Each client build gets a folder, `data/<product>/<clientBuild>/`, holding what players recorded on
+that build:
+
+| Dataset | What it holds |
+|---|---|
+| `vendors` | Every vendor: where it stands, what it sells, stock limits, and prices at each standing |
+| `trainers` | Every trainer: where it stands, what it teaches, the level and skill each needs, and prices |
+| `npcs` | Every NPC and object with a window: what it offers (quests given and ended, gossip, services), levels, where it is; and objects walked up to, such as herbs and veins |
+| `flights` | Flight masters' flight points, and every route's stops, prices, flight times and landing spots |
+| `loot` | Loot and kill totals per creature, node, chest and container, with each item's drop chance |
+| `creatures` | Creatures' levels, classifications, reactions, where they die, the XP and reputation a kill pays, and, from combat logs, their spells, health and melee hits |
+| `turn_ins` | What each quest's turn-in paid: XP, money and reputation |
+| `objectives` | Where each quest objective's count went up |
+| `quest_scan` | Which quests the server describes (open content) and which it doesn't yet |
+
+`data/index.json` lists every product, build and dataset with its record count. [DATASETS.md](DATASETS.md)
+documents every field and how players' contributions are combined.
 
 ## License
 
