@@ -162,6 +162,15 @@
    "sources": 1,
    "unknown": 0
   },
+  "npc:2958": {
+   "deaths": 1,
+   "empty": 0,
+   "levels": {
+    "6": 1
+   },
+   "sources": 1,
+   "unknown": 0
+  },
   "npc:2958|quest": {
    "deaths": 2,
    "empty": 0,
@@ -505,6 +514,72 @@
    "sources": 1,
    "unknown": 0
   },
+  "npc:3242|quest": {
+   "deaths": 10,
+   "empty": 3,
+   "levels": {
+    "13": 5,
+    "14": 5
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:3254|quest": {
+   "deaths": 1,
+   "empty": 0,
+   "levels": {
+    "11": 1
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:3255": {
+   "deaths": 1,
+   "empty": 1,
+   "levels": {
+    "13": 1
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:3255|quest": {
+   "deaths": 3,
+   "empty": 0,
+   "levels": {
+    "14": 3
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:3266|quest": {
+   "deaths": 8,
+   "empty": 0,
+   "levels": {
+    "12": 4,
+    "13": 4
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:3269": {
+   "deaths": 1,
+   "empty": 0,
+   "levels": {
+    "13": 1
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:3269|quest": {
+   "deaths": 6,
+   "empty": 0,
+   "levels": {
+    "12": 2,
+    "13": 4
+   },
+   "sources": 1,
+   "unknown": 0
+  },
   "npc:3281|quest": {
    "deaths": 1,
    "empty": 0,
@@ -514,11 +589,86 @@
    "sources": 1,
    "unknown": 0
   },
+  "npc:3381|quest": {
+   "deaths": 12,
+   "empty": 0,
+   "levels": {
+    "12": 4,
+    "13": 8
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:3382": {
+   "deaths": 1,
+   "empty": 0,
+   "levels": {
+    "13": 1
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:3382|quest": {
+   "deaths": 6,
+   "empty": 0,
+   "levels": {
+    "13": 2,
+    "14": 4
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:3383": {
+   "deaths": 7,
+   "empty": 0,
+   "levels": {
+    "14": 4,
+    "15": 3
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:3384": {
+   "deaths": 3,
+   "empty": 0,
+   "levels": {
+    "15": 3
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:3438|quest": {
+   "deaths": 1,
+   "empty": 0,
+   "levels": {
+    "15": 1
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:3467|quest": {
+   "deaths": 2,
+   "empty": 0,
+   "levels": {
+    "16": 2
+   },
+   "sources": 1,
+   "unknown": 0
+  },
   "npc:3566|quest": {
    "deaths": 4,
    "empty": 0,
    "levels": {
     "9": 4
+   },
+   "sources": 1,
+   "unknown": 0
+  },
+  "npc:4127": {
+   "deaths": 1,
+   "empty": 0,
+   "levels": {
+    "15": 1
    },
    "sources": 1,
    "unknown": 0
@@ -537,8 +687,8 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70009",
   "collectedOn": {
-   "first": "2026-09-29",
-   "last": "2026-09-29"
+   "first": "2026-09-30",
+   "last": "2026-09-30"
   },
   "dataset": "loot",
   "license": "CC BY 4.0",
@@ -572,6 +722,84 @@
    },
    "sources": 1,
    "windows": 1
+  },
+  "npc:1725|group": {
+   "coins": 1,
+   "items": {
+    "2781": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:1729|group": {
+   "coins": 3,
+   "items": {
+    "1764": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 1
+    },
+    "1929": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2589": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 2
+    },
+    "2592": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 3
+    },
+    "6575": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 3
+  },
+  "npc:1731|group": {
+   "coins": 1,
+   "items": {
+    "2589": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:1732|group": {
+   "coins": 2,
+   "items": {
+    "1811": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2592": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 3
+    },
+    "3211": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 2
   },
   "npc:268558|quest": {
    "items": {
@@ -4178,6 +4406,27 @@
    "sources": 1,
    "windows": 25
   },
+  "npc:3035|spell:8617": {
+   "items": {
+    "2318": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4029,
+     "mapY": 0.4815,
+     "uiMap": 1412,
+     "worldX": -1708.6,
+     "worldY": -0.3
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
   "npc:3051|quest": {
    "coins": 1,
    "items": {
@@ -5013,6 +5262,451 @@
    "sources": 1,
    "windows": 8
   },
+  "npc:3242|quest": {
+   "items": {
+    "5086": {
+     "chance": 0.4,
+     "drops": 4,
+     "quantity": 4,
+     "quest": true
+    },
+    "5118": {
+     "chance": 0.2,
+     "drops": 2,
+     "quantity": 2
+    },
+    "5119": {
+     "chance": 0.3,
+     "drops": 3,
+     "quantity": 3
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6403,
+     "mapY": 0.3585,
+     "uiMap": 1413,
+     "worldX": -809.7,
+     "worldY": -3865.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6478,
+     "mapY": 0.3431,
+     "uiMap": 1413,
+     "worldX": -705.5,
+     "worldY": -3941.8
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6381,
+     "mapY": 0.3218,
+     "uiMap": 1413,
+     "worldX": -561.5,
+     "worldY": -3843.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6389,
+     "mapY": 0.3151,
+     "uiMap": 1413,
+     "worldX": -516.3,
+     "worldY": -3850.9
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6358,
+     "mapY": 0.3128,
+     "uiMap": 1413,
+     "worldX": -500.5,
+     "worldY": -3820.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.599,
+     "mapY": 0.224,
+     "uiMap": 1413,
+     "worldX": 99.1,
+     "worldY": -3447.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5925,
+     "mapY": 0.2224,
+     "uiMap": 1413,
+     "worldX": 110.1,
+     "worldY": -3381.6
+    }
+   ],
+   "sources": 1,
+   "windows": 7
+  },
+  "npc:3242|spell:8617|quest": {
+   "items": {
+    "2318": {
+     "chance": 0.6667,
+     "drops": 2,
+     "quantity": 3
+    },
+    "2934": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6401,
+     "mapY": 0.3587,
+     "uiMap": 1413,
+     "worldX": -810.7,
+     "worldY": -3863.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6476,
+     "mapY": 0.3436,
+     "uiMap": 1413,
+     "worldX": -709.3,
+     "worldY": -3939.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6478,
+     "mapY": 0.3373,
+     "uiMap": 1413,
+     "worldX": -666.4,
+     "worldY": -3941.3
+    }
+   ],
+   "sources": 1,
+   "windows": 3
+  },
+  "npc:3244|spell:8617": {
+   "items": {
+    "2934": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5292,
+     "mapY": 0.3064,
+     "uiMap": 1413,
+     "worldX": -457.9,
+     "worldY": -2739.3
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:3254|quest": {
+   "items": {
+    "5062": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1,
+     "quest": true
+    },
+    "5123": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5302,
+     "mapY": 0.2713,
+     "uiMap": 1413,
+     "worldX": -220.5,
+     "worldY": -2750.2
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:3255|quest": {
+   "items": {
+    "5062": {
+     "chance": 1.0,
+     "drops": 3,
+     "quantity": 3,
+     "quest": true
+    },
+    "5123": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 1
+    },
+    "14116": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 1
+    },
+    "250187": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5979,
+     "mapY": 0.4063,
+     "uiMap": 1413,
+     "worldX": -1132.3,
+     "worldY": -3435.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5891,
+     "mapY": 0.4055,
+     "uiMap": 1413,
+     "worldX": -1127,
+     "worldY": -3346.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6108,
+     "mapY": 0.2329,
+     "uiMap": 1413,
+     "worldX": 38.9,
+     "worldY": -3566.5
+    }
+   ],
+   "sources": 1,
+   "windows": 3
+  },
+  "npc:3255|spell:8617": {
+   "items": {
+    "2934": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5985,
+     "mapY": 0.4178,
+     "uiMap": 1413,
+     "worldX": -1209.9,
+     "worldY": -3442.1
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:3255|spell:8617|quest": {
+   "items": {
+    "2934": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 1
+    },
+    "249427": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 2
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5979,
+     "mapY": 0.4064,
+     "uiMap": 1413,
+     "worldX": -1133,
+     "worldY": -3436.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5891,
+     "mapY": 0.4055,
+     "uiMap": 1413,
+     "worldX": -1127,
+     "worldY": -3346.6
+    }
+   ],
+   "sources": 1,
+   "windows": 2
+  },
+  "npc:3266|quest": {
+   "coins": 6,
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5913,
+     "mapY": 0.2653,
+     "uiMap": 1413,
+     "worldX": -180.1,
+     "worldY": -3368.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5936,
+     "mapY": 0.2565,
+     "uiMap": 1413,
+     "worldX": -120.4,
+     "worldY": -3392.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5906,
+     "mapY": 0.2467,
+     "uiMap": 1413,
+     "worldX": -54.4,
+     "worldY": -3361.4
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5915,
+     "mapY": 0.2461,
+     "uiMap": 1413,
+     "worldX": -50.1,
+     "worldY": -3370.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5926,
+     "mapY": 0.2459,
+     "uiMap": 1413,
+     "worldX": -49.1,
+     "worldY": -3381.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5908,
+     "mapY": 0.2417,
+     "uiMap": 1413,
+     "worldX": -20.5,
+     "worldY": -3363.5
+    }
+   ],
+   "sources": 1,
+   "windows": 6
+  },
+  "npc:3269": {
+   "coins": 2,
+   "items": {
+    "2589": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 2
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5888,
+     "mapY": 0.251,
+     "uiMap": 1413,
+     "worldX": -83,
+     "worldY": -3344
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5897,
+     "mapY": 0.2499,
+     "uiMap": 1413,
+     "worldX": -75.6,
+     "worldY": -3352.7
+    }
+   ],
+   "sources": 1,
+   "windows": 2
+  },
+  "npc:3269|quest": {
+   "coins": 7,
+   "copper": 4,
+   "copperWindows": 1,
+   "items": {
+    "1516": {
+     "chance": 0.1429,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2589": {
+     "chance": 0.2857,
+     "drops": 2,
+     "quantity": 6
+    },
+    "3286": {
+     "chance": 0.1429,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5924,
+     "mapY": 0.255,
+     "uiMap": 1413,
+     "worldX": -110.3,
+     "worldY": -3380
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5936,
+     "mapY": 0.2545,
+     "uiMap": 1413,
+     "worldX": -107.3,
+     "worldY": -3392.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5918,
+     "mapY": 0.2523,
+     "uiMap": 1413,
+     "worldX": -92,
+     "worldY": -3374.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5913,
+     "mapY": 0.2483,
+     "uiMap": 1413,
+     "worldX": -64.9,
+     "worldY": -3369.4
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5925,
+     "mapY": 0.2464,
+     "uiMap": 1413,
+     "worldX": -52.1,
+     "worldY": -3381.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5942,
+     "mapY": 0.2454,
+     "uiMap": 1413,
+     "worldX": -45.3,
+     "worldY": -3398.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5925,
+     "mapY": 0.2452,
+     "uiMap": 1413,
+     "worldX": -43.8,
+     "worldY": -3381.5
+    }
+   ],
+   "sources": 1,
+   "windows": 7
+  },
   "npc:3281|quest": {
    "items": {
     "4905": {
@@ -5035,6 +5729,474 @@
      "uiMap": 1411,
      "worldX": -520.8,
      "worldY": -4114.9
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:3381|quest": {
+   "coins": 12,
+   "copper": 24,
+   "copperWindows": 1,
+   "items": {
+    "414": {
+     "chance": 0.0833,
+     "drops": 1,
+     "quantity": 1
+    },
+    "858": {
+     "chance": 0.0833,
+     "drops": 1,
+     "quantity": 1
+    },
+    "1516": {
+     "chance": 0.0833,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2589": {
+     "chance": 0.4167,
+     "drops": 5,
+     "quantity": 9
+    },
+    "5107": {
+     "chance": 0.0833,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6336,
+     "mapY": 0.4927,
+     "uiMap": 1413,
+     "worldX": -1716.1,
+     "worldY": -3797.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6368,
+     "mapY": 0.487,
+     "uiMap": 1413,
+     "worldX": -1677.8,
+     "worldY": -3830
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6361,
+     "mapY": 0.4847,
+     "uiMap": 1413,
+     "worldX": -1662.4,
+     "worldY": -3823.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6376,
+     "mapY": 0.4827,
+     "uiMap": 1413,
+     "worldX": -1648.6,
+     "worldY": -3838.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.638,
+     "mapY": 0.4804,
+     "uiMap": 1413,
+     "worldX": -1633,
+     "worldY": -3841.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6396,
+     "mapY": 0.4746,
+     "uiMap": 1413,
+     "worldX": -1594.2,
+     "worldY": -3858
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6417,
+     "mapY": 0.4735,
+     "uiMap": 1413,
+     "worldX": -1586.5,
+     "worldY": -3880.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6388,
+     "mapY": 0.4666,
+     "uiMap": 1413,
+     "worldX": -1539.8,
+     "worldY": -3850
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6458,
+     "mapY": 0.4665,
+     "uiMap": 1413,
+     "worldX": -1539.3,
+     "worldY": -3921.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6381,
+     "mapY": 0.4649,
+     "uiMap": 1413,
+     "worldX": -1528.5,
+     "worldY": -3843.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6363,
+     "mapY": 0.4636,
+     "uiMap": 1413,
+     "worldX": -1519.8,
+     "worldY": -3825
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6381,
+     "mapY": 0.4556,
+     "uiMap": 1413,
+     "worldX": -1465.6,
+     "worldY": -3842.9
+    }
+   ],
+   "sources": 1,
+   "windows": 12
+  },
+  "npc:3382": {
+   "coins": 1,
+   "items": {
+    "2589": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 3
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6368,
+     "mapY": 0.4616,
+     "uiMap": 1413,
+     "worldX": -1506.4,
+     "worldY": -3830
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:3382|quest": {
+   "coins": 6,
+   "copper": 16,
+   "copperWindows": 1,
+   "items": {
+    "414": {
+     "chance": 0.1667,
+     "drops": 1,
+     "quantity": 1
+    },
+    "955": {
+     "chance": 0.1667,
+     "drops": 1,
+     "quantity": 1
+    },
+    "1503": {
+     "chance": 0.1667,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6275,
+     "mapY": 0.4984,
+     "uiMap": 1413,
+     "worldX": -1754.5,
+     "worldY": -3736.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6378,
+     "mapY": 0.4917,
+     "uiMap": 1413,
+     "worldX": -1709.4,
+     "worldY": -3840.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6416,
+     "mapY": 0.4759,
+     "uiMap": 1413,
+     "worldX": -1602.8,
+     "worldY": -3878.4
+    },
+    {
+     "instance": 1,
+     "mapX": 0.641,
+     "mapY": 0.471,
+     "uiMap": 1413,
+     "worldX": -1569.4,
+     "worldY": -3872.4
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6442,
+     "mapY": 0.4702,
+     "uiMap": 1413,
+     "worldX": -1564.4,
+     "worldY": -3904.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6295,
+     "mapY": 0.4405,
+     "uiMap": 1413,
+     "worldX": -1363.5,
+     "worldY": -3756.5
+    }
+   ],
+   "sources": 1,
+   "windows": 6
+  },
+  "npc:3383": {
+   "coins": 8,
+   "items": {
+    "414": {
+     "chance": 0.125,
+     "drops": 1,
+     "quantity": 1
+    },
+    "858": {
+     "chance": 0.375,
+     "drops": 3,
+     "quantity": 3
+    },
+    "1179": {
+     "chance": 0.125,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2589": {
+     "chance": 0.5,
+     "drops": 4,
+     "quantity": 10
+    },
+    "14097": {
+     "chance": 0.125,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6201,
+     "mapY": 0.4774,
+     "uiMap": 1413,
+     "worldX": -1612.7,
+     "worldY": -3660.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6215,
+     "mapY": 0.4751,
+     "uiMap": 1413,
+     "worldX": -1597.7,
+     "worldY": -3674.8
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6261,
+     "mapY": 0.4731,
+     "uiMap": 1413,
+     "worldX": -1583.8,
+     "worldY": -3721.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6144,
+     "mapY": 0.4431,
+     "uiMap": 1413,
+     "worldX": -1381,
+     "worldY": -3603.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.617,
+     "mapY": 0.4429,
+     "uiMap": 1413,
+     "worldX": -1379.9,
+     "worldY": -3629.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6218,
+     "mapY": 0.4417,
+     "uiMap": 1413,
+     "worldX": -1371.9,
+     "worldY": -3678.4
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6235,
+     "mapY": 0.4382,
+     "uiMap": 1413,
+     "worldX": -1347.8,
+     "worldY": -3694.8
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6211,
+     "mapY": 0.4333,
+     "uiMap": 1413,
+     "worldX": -1315.2,
+     "worldY": -3670.4
+    }
+   ],
+   "sources": 1,
+   "windows": 8
+  },
+  "npc:3384": {
+   "coins": 5,
+   "items": {
+    "2589": {
+     "chance": 0.8,
+     "drops": 4,
+     "quantity": 8
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.622,
+     "mapY": 0.4787,
+     "uiMap": 1413,
+     "worldX": -1621.9,
+     "worldY": -3679.8
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6208,
+     "mapY": 0.4748,
+     "uiMap": 1413,
+     "worldX": -1595.1,
+     "worldY": -3668.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6181,
+     "mapY": 0.4466,
+     "uiMap": 1413,
+     "worldX": -1404.9,
+     "worldY": -3640.9
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6144,
+     "mapY": 0.4426,
+     "uiMap": 1413,
+     "worldX": -1378,
+     "worldY": -3603.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6212,
+     "mapY": 0.4416,
+     "uiMap": 1413,
+     "worldX": -1371,
+     "worldY": -3671.8
+    }
+   ],
+   "sources": 1,
+   "windows": 5
+  },
+  "npc:3425|spell:8617|quest": {
+   "items": {
+    "2318": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5887,
+     "mapY": 0.3744,
+     "uiMap": 1413,
+     "worldX": -917.4,
+     "worldY": -3342.3
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:3438|quest|group": {
+   "coins": 1,
+   "items": {
+    "5063": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1,
+     "quest": true
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5892,
+     "mapY": 0.2715,
+     "uiMap": 1413,
+     "worldX": -222.1,
+     "worldY": -3348.1
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:3461|spell:8617": {
+   "items": {
+    "2318": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5617,
+     "mapY": 0.4351,
+     "uiMap": 1413,
+     "worldX": -1327.3,
+     "worldY": -3068.6
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:3467|quest": {
+   "coins": 1,
+   "items": {
+    "5084": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1,
+     "quest": true
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6366,
+     "mapY": 0.477,
+     "uiMap": 1413,
+     "worldX": -1610.2,
+     "worldY": -3827.6
     }
    ],
    "sources": 1,
@@ -5146,6 +6308,282 @@
    "sources": 1,
    "windows": 4
   },
+  "npc:3947|group": {
+   "coins": 4,
+   "items": {
+    "858": {
+     "chance": 0.2,
+     "drops": 1,
+     "quantity": 1
+    },
+    "1210": {
+     "chance": 0.2,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2589": {
+     "chance": 0.2,
+     "drops": 1,
+     "quantity": 4
+    }
+   },
+   "sources": 1,
+   "windows": 5
+  },
+  "npc:4127": {
+   "items": {
+    "3301": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5816,
+     "mapY": 0.4209,
+     "uiMap": 1413,
+     "worldX": -1231.2,
+     "worldY": -3271.1
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:4416|group": {
+   "coins": 8,
+   "items": {
+    "414": {
+     "chance": 0.1111,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2589": {
+     "chance": 0.2222,
+     "drops": 2,
+     "quantity": 2
+    },
+    "211854": {
+     "chance": 0.1111,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 9
+  },
+  "npc:4417|group": {
+   "coins": 1,
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:598|group": {
+   "coins": 7,
+   "items": {
+    "1179": {
+     "chance": 0.125,
+     "drops": 1,
+     "quantity": 1
+    },
+    "1930": {
+     "chance": 0.125,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2589": {
+     "chance": 0.25,
+     "drops": 2,
+     "quantity": 4
+    },
+    "2592": {
+     "chance": 0.125,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2770": {
+     "chance": 0.125,
+     "drops": 1,
+     "quantity": 4
+    },
+    "7997": {
+     "chance": 0.125,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 8
+  },
+  "npc:622|group": {
+   "coins": 3,
+   "items": {
+    "1210": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2592": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 3
+    },
+    "2780": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 1
+    },
+    "4361": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 3
+  },
+  "npc:634|group": {
+   "coins": 1,
+   "items": {
+    "2455": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:636|group": {
+   "coins": 1,
+   "items": {
+    "1769": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2589": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:639|group": {
+   "coins": 1,
+   "items": {
+    "2874": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1,
+     "quest": 373
+    },
+    "5202": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:641|group": {
+   "coins": 3,
+   "items": {
+    "1789": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 1
+    },
+    "1794": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2592": {
+     "chance": 0.6667,
+     "drops": 2,
+     "quantity": 3
+    }
+   },
+   "sources": 1,
+   "windows": 3
+  },
+  "npc:642|group": {
+   "coins": 1,
+   "items": {
+    "285292": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:643|group": {
+   "coins": 1,
+   "items": {
+    "5194": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:644|group": {
+   "items": {
+    "273289": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:646|group": {
+   "items": {
+    "5196": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:657|group": {
+   "coins": 3,
+   "items": {
+    "1210": {
+     "chance": 0.4,
+     "drops": 2,
+     "quantity": 2
+    },
+    "2592": {
+     "chance": 0.2,
+     "drops": 1,
+     "quantity": 2
+    },
+    "3040": {
+     "chance": 0.2,
+     "drops": 1,
+     "quantity": 1
+    },
+    "3193": {
+     "chance": 0.2,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 5
+  },
   "npc:8554|quest|group": {
    "items": {
     "10459": {
@@ -5253,6 +6691,35 @@
    "sources": 1,
    "windows": 3
   },
+  "object:106319|spell:3365": {
+   "coins": 1,
+   "copper": 70,
+   "copperWindows": 1,
+   "items": {
+    "1737": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    },
+    "2318": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 2
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6354,
+     "mapY": 0.4617,
+     "uiMap": 1413,
+     "worldX": -1507.1,
+     "worldY": -3816.1
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
   "object:1617|spell:2366": {
    "items": {
     "765": {
@@ -5359,6 +6826,27 @@
    "sources": 1,
    "windows": 4
   },
+  "object:1619|spell:2366": {
+   "items": {
+    "2449": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4678,
+     "mapY": 0.7443,
+     "uiMap": 1412,
+     "worldX": -2786.6,
+     "worldY": -400
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
   "object:171938|spell:22810": {
    "items": {
     "11583": {
@@ -5444,6 +6932,28 @@
    ],
    "sources": 1,
    "windows": 10
+  },
+  "object:175708|spell:22810": {
+   "items": {
+    "12708": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1,
+     "quest": true
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5938,
+     "mapY": 0.2472,
+     "uiMap": 1413,
+     "worldX": -57.8,
+     "worldY": -3394.4
+    }
+   ],
+   "sources": 1,
+   "windows": 1
   },
   "object:178087|spell:22810": {
    "items": {
@@ -5578,6 +7088,27 @@
    "sources": 1,
    "windows": 2
   },
+  "object:407566|spell:6477": {
+   "items": {
+    "208800": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6268,
+     "mapY": 0.3626,
+     "uiMap": 1413,
+     "worldX": -837.6,
+     "worldY": -3728.5
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
   "object:562111|spell:2575": {
    "items": {
     "2770": {
@@ -5661,6 +7192,60 @@
    ],
    "sources": 1,
    "windows": 1
+  },
+  "object:660930|spell:22810": {
+   "items": {
+    "277331": {
+     "chance": 1.0,
+     "drops": 5,
+     "quantity": 5,
+     "quest": true
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6223,
+     "mapY": 0.4748,
+     "uiMap": 1413,
+     "worldX": -1595.2,
+     "worldY": -3682.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.622,
+     "mapY": 0.4739,
+     "uiMap": 1413,
+     "worldX": -1589.2,
+     "worldY": -3680.4
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6138,
+     "mapY": 0.4418,
+     "uiMap": 1413,
+     "worldX": -1372.1,
+     "worldY": -3596.9
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6209,
+     "mapY": 0.4403,
+     "uiMap": 1413,
+     "worldX": -1362.4,
+     "worldY": -3668.8
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6227,
+     "mapY": 0.439,
+     "uiMap": 1413,
+     "worldX": -1353.5,
+     "worldY": -3687.2
+    }
+   ],
+   "sources": 1,
+   "windows": 5
   },
   "object:673476|spell:22810": {
    "items": {
