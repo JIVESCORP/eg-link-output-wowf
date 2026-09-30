@@ -1,0 +1,860 @@
+{
+ "meta": {
+  "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
+  "cacheFiles": 2,
+  "cachesLeftOut": 0,
+  "clientBuild": "1.60.1.70124",
+  "collectedOn": {
+   "first": "2026-09-30",
+   "last": "2026-09-30"
+  },
+  "dataset": "quests",
+  "license": "CC BY 4.0",
+  "locale": "enUS",
+  "product": "wow_classic_beta",
+  "schemaVersion": 1,
+  "sources": 1
+ },
+ "quests": {
+  "30": {
+   "categoryId": 263,
+   "description": "For the second trial, you'll need the two halves that make the Pendant of the Sea Lion.  One half draws power from the agility of the sea lion aspect, gliding through water; the other draws power from the incredible endurance of the sea lion aspect.  Druids draw on both these traits equally to embody the aspect of their aquatic form.$B$BSpeak with the locals of Moonglade to learn where the parts may lie, and bring both here to join them together.  Once formed, take the pendant to Dendrite Starblaze.",
+   "flags": 8,
+   "itemDrops": [
+    {
+     "count": 1,
+     "itemId": 15883
+    },
+    {
+     "count": 1,
+     "itemId": 15882
+    }
+   ],
+   "level": 16,
+   "minLevel": 16,
+   "nextQuestId": 31,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380090,
+     "objectId": 15885,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Find the Half Pendant of Aquatic Agility and the Half Pendant of Aquatic Endurance.  Speak with the residents of Moonglade to learn clues as to where these items may be located.$B$BForm the Pendant of the Sea Lion from the two pendant halves.  You need to be in proximity of the Shrine of Remulos to do this.$B$BBring the joined pendant to Dendrite Starblaze in the village of Nighthaven, Moonglade.",
+   "questType": 2,
+   "raceMask": "00000002000000a0",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 609,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Trial of the Sea Lion"
+  },
+  "744": {
+   "description": "$n, my brother soon stands before Chief Bloodhoof, and it is my honor to make his headdress for him.$B$BI want to ask a favor of you while I finish tanning these leather straps. There is not time for me to find enough feathers, and I was wondering, would you gather more for me?$B$BYou can find feathers of the correct size from the harpies residing far to the north and northwest of Thunder Bluff. I need only 6 azure and 6 bronze feathers to complete the design.",
+   "flags": 8,
+   "level": 11,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 6,
+     "id": 380827,
+     "objectId": 4752,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 6,
+     "id": 380828,
+     "objectId": 4753,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Collect 6 Azure Feathers and 6 Bronze Feathers, and bring them to Eyahn Eagletalon in Thunder Bluff.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 4968
+     },
+     {
+      "count": 1,
+      "itemId": 4967
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Preparation for Ceremony",
+   "zoneAreaId": 1638
+  },
+  "845": {
+   "description": "The zhevra, although not the fiercest beast in the Barrens, are a shade tougher than the plainstriders.  Don't worry -- we'll send you against bigger prey in good time, but for now your teeth could use a little more cutting.$B$BHunt the zhevra to the north and south, and collect their hooves.  Bring them to me and perhaps we'll next send you against something tougher.",
+   "flags": 8,
+   "level": 13,
+   "minLevel": 10,
+   "nextQuestId": 903,
+   "objectives": [
+    {
+     "amount": 4,
+     "id": 380610,
+     "objectId": 5086,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Slay Zhevra Runners to collect 4 Zhevra Hooves for Sergra Darkthorn in the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 600,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Zhevra",
+   "zoneAreaId": 17
+  },
+  "848": {
+   "description": "The oases of the Barrens hide a mystery.  Life energy flows from their waters, invigorating the plants and beasts that drink it.$B$BInvigorating, and altering.$B$BThere is a mushroom that grows near these oases.  Its spores hold properties that we, the apothecaries of Lordaeron, find useful.$B$BBring me these spores and you will earn our gratitude.",
+   "flags": 8,
+   "level": 15,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 4,
+     "id": 380742,
+     "objectId": 5012,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 4 Fungal Spores to Apothecary Helbrim at the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 700,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Fungal Spores",
+   "zoneAreaId": 17
+  },
+  "869": {
+   "description": "Not long ago, a shipment of silver was stolen from our guard tower.  It was meant as payroll to the Crossroads' guards, and we want that silver back.$B$BThe strange thing is... we caught one of the thieves on the night of the theft.  And... it was a raptor!  Unbelievable!$B$BI don't know what raptors would want with silver.  But I don't care -- I want the raptors dead so they won't steal from us again!$B$BHunt raptors in the Barrens.  Collect for me their heads!",
+   "flags": 8,
+   "level": 13,
+   "minLevel": 9,
+   "nextQuestId": 3281,
+   "objectives": [
+    {
+     "amount": 12,
+     "id": 381221,
+     "objectId": 5062,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 12 Raptor Heads to Gazrog at the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 600,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Raptor Thieves",
+   "zoneAreaId": 17
+  },
+  "872": {
+   "description": "One of my scouts witnessed an attack on a caravan from Durotar, $n. The culprits are indeed the Razormane tribe of quilboars. One of the quilboars in particular is leading the raids: Kreenig Snarlsnout. He was seen northeast of here, just south of the road from Durotar. If the threat is to be ended, then Kreenig must die.$B$BTo be sure the attacks cease, though, I say we add insult to their injury. Kill Kreenig along with more of their tribe, and return to me when you have his tusk.",
+   "flags": 8,
+   "level": 15,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380876,
+     "objectId": 3269,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 8,
+     "id": 380877,
+     "objectId": 3266,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 380878,
+     "objectId": 5063,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Kill 8 Razormane Geomancers, 8 Razormane Defenders, and Kreenig Snarlsnout.$B$BThen bring Kreenig Snarlsnout's Tusk to Thork at the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 5275
+     },
+     {
+      "count": 1,
+      "itemId": 5328
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Disruption Ends",
+   "zoneAreaId": 17
+  },
+  "875": {
+   "description": "Hahaha, $n. Back for more? Good, I like to hear that.$B$BThis time I want you to assassinate some of the harpy lieutenants in the Dry Hills. Only Witchwing Slayers can be lieutenants, and you can tell them apart by the rings they carry. They are a nasty bunch, but they lead some of the underlings in that area. Taking out 6 of them will be a decisive strike against their matriarchy.$B$BMake sure they die painfully, $n. We want those harpy wenches to know the idiocy of picking fights with the Horde.",
+   "flags": 8,
+   "level": 16,
+   "minLevel": 12,
+   "nextQuestId": 876,
+   "objectives": [
+    {
+     "amount": 6,
+     "id": 380657,
+     "objectId": 5065,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Collect 6 Harpy Lieutenant Rings from Witchwing Slayers and return them to Darsok Swiftdagger at the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 800,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Harpy Lieutenants",
+   "zoneAreaId": 17
+  },
+  "877": {
+   "description": "Like the one you found at the Forgotten Pools, there may be fissures at the other oases in the Barrens.  If so, then perhaps the fissures are the oases' source of life.$B$BWe must test this.$B$BHere, take these seeds.  They are dead and infertile, but take them to the Stagnant Oasis to the southeast.  If there is a fissure there, then place the seeds within it...and observe.",
+   "flags": 0,
+   "level": 16,
+   "minLevel": 10,
+   "nextQuestId": 880,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380853,
+     "objectId": 3737,
+     "storageIndex": 0,
+     "text": "Test the Dried Seeds",
+     "type": "gameObject",
+     "typeId": 2
+    }
+   ],
+   "objectivesText": "Return to Tonga at The Crossroads, after investigating the Stagnant Oasis.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 5068,
+   "title": "The Stagnant Oasis",
+   "zoneAreaId": 17
+  },
+  "899": {
+   "description": "Perhaps you know the pain of uncertainty, perhaps not, $c. But know this: I stand here every day, from the sun's rising till its decline, scouring the horizon for more of those monsters. I've killed every pig man I've come across since, but my thirst for their blood is far from quenched. Perhaps instead of heading north to the Crossroads I should have headed to Taurajo.$B$BYou, $c--you  could help me.$B$BKill them. Kill as many as you can. Bring me their tusks, and we will celebrate their deaths together.",
+   "flags": 8,
+   "level": 20,
+   "minLevel": 14,
+   "objectives": [
+    {
+     "amount": 60,
+     "id": 380760,
+     "objectId": 5085,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 60 Bristleback Quilboar Tusks to Mankrik at the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 5314
+     },
+     {
+      "count": 1,
+      "itemId": 6477
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Consumed by Hatred",
+   "zoneAreaId": 17
+  },
+  "1061": {
+   "description": "The spirits of the Stonetalon Mountains are angered, for goblins and their servants are plundering and burning the land.  So the land has cried out, and those who listen for such things... have heard.$B$BSeereth Stonebreak, a promising shaman of the Horde, was sent to Stonetalon.  She reports massive deforestation at the hands of the goblins, and requests aid.$B$BMeet Seereth in Stonetalon.  To reach her, follow the road west of the Barrens' Crossroads.  She is camped near the Greatwood Vale.",
+   "flags": 8,
+   "level": 17,
+   "minLevel": 13,
+   "nextQuestId": 1062,
+   "objectivesText": "Speak with Seereth Stonebreak in the Stonetalon Mountains.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Spirits of Stonetalon",
+   "zoneAreaId": 406
+  },
+  "1492": {
+   "description": "I have need to send a crate of potions, reagents and other items to my associates in the Old World. Little time I have to actually see them to the dock at Ratchet, and the last caravan has already left.$b$bIf you could, please take this to Wharfmaster Dizzywig. He will ensure that it is placed on the next boat to Blackwater Cove.",
+   "flags": 0,
+   "level": 11,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381516,
+     "objectId": 6462,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Secure Crate to Wharfmaster Dizzywig in Ratchet.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 6462,
+   "title": "Wharfmaster Dizzywig",
+   "zoneAreaId": 17
+  },
+  "4921": {
+   "description": "We battled in a small tauren camp when we were separated--she held three of the Bristlebacks off by herself. But the odds began to overwhelm us. I led some away only to see her overwhelmed by newcomers. In my rage, I turned to face my enemies, but they brought me down easily with their vast numbers.$B$BI awoke to a tauren druid tending my wounds--he had come across me on the Gold Road as I fell.$B$BPlease, $c, find some sign of my wife.",
+   "flags": 8,
+   "level": 20,
+   "minLevel": 14,
+   "nextQuestId": 95774,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 382932,
+     "objectId": 10668,
+     "storageIndex": 0,
+     "text": "Find Mankrik's Wife",
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Find Mankrik's wife and then return to him in the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 900,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Lost in Battle",
+   "zoneAreaId": 17
+  },
+  "5041": {
+   "description": "That attack on the caravan contained supplies we desperately needed.$B$BYou've been brave enough to take on the Razormane tribe so far, and I will ask you to do so again, but this time, I wonder if I could ask you to keep your eyes open for some of our lost supplies. You can probably find them throughout their camps, the quilboar getting fat off their dishonorable acts.$B$BThe people of the Crossroads would be in your debt.",
+   "flags": 8,
+   "level": 14,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 382828,
+     "objectId": 12708,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Find and return Crossroads' Supply Crates to Thork in the Barrens.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 600,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Supplies for the Crossroads",
+   "zoneAreaId": 17
+  },
+  "6127": {
+   "categoryId": 263,
+   "description": "Dreadmist Peak to the northwest of the Crossroads is most likely a primary candidate as to the source of the spread of the poison.  Its airy peaks have pools of water that influence the weather patterns.  I suspect the water is now tainted by the demon-worshipping Burning Blade.$B$BUse this sampler to draw water from the pool at the very top of the peak.  Once filled, deliver it to Tonga Runetotem at the Crossroads.  He is the one that requested our aid, and you will work with him to address this malady.",
+   "flags": 0,
+   "level": 14,
+   "minLevel": 14,
+   "nextQuestId": 6128,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380443,
+     "objectId": 15843,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Use the Empty Dreadmist Peak Sampler to draw a sample of water from a pool at the top of the peak.$B$BDeliver the Filled Dreadmist Peak Sampler to Tonga Runetotem at the Crossroads, Barrens.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 609,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 15842,
+   "title": "The Principal Source"
+  },
+  "92401": {
+   "areaDescription": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
+   "description": "It's my husband Edward...\r\n\r\nHe has not returned from his weekly journey to the graveyard in the Lordaeron ruins. Our son was lost when Arthas razed the city, and my dear Edward is still filled with guilt and sorrow that we never found his body. I've tried to warn him against searching those overrun ruins, but he refuses to give up. I try not worry, but it's been days.\r\n\r\nThere are things there I cannot contend with but if you are willing, I need to know the fate of my husband.",
+   "flags": 8,
+   "level": 22,
+   "minLevel": 15,
+   "objectives": [
+    {
+     "amount": 0,
+     "id": 464558,
+     "objectId": 39396,
+     "storageIndex": 1,
+     "type": "areaTriggerEnter",
+     "typeId": 19
+    }
+   ],
+   "objectivesText": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 251485
+     },
+     {
+      "count": 1,
+      "itemId": 251486
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 3.2
+   },
+   "sources": 1,
+   "title": "A Frightened Request",
+   "zoneAreaId": 1497
+  },
+  "92422": {
+   "description": "Reports have come in from the Lordamere Overlook deep within the Ruins of Lordaeron. An unholy fog has taken over the streets and graveyard, affording the scourge up there some measure of stealth. \r\n\r\nOur scouts indicate they're being conjured by a new power within their ranks, a necromancer known as Rath'mael. We do not have the luxury of waiting this one out, $n.\r\n\r\nIf you have allies, summon them and their aid to the Forsaken. Drive this creature out of our lands.",
+   "flags": 8,
+   "level": 22,
+   "minLevel": 15,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 464644,
+     "objectId": 250657,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill Rath'mael in the Ruins of Lordaeron for Deathguard Kristof in Brill.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 251533
+     },
+     {
+      "count": 1,
+      "itemId": 251534
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 8,
+    "xpMultiplier": 3.2
+   },
+   "sources": 1,
+   "title": "The Wrath of Rath'mael",
+   "zoneAreaId": 16611
+  },
+  "93746": {
+   "description": "The High Order has been warned of the consequences of meddling with the Windshaper's affairs. I think we need to make an example out of Belathaan and send him back to the High Order with a few bruises and a healthy respect for the boundaries we set.\r\n\r\nBelathaan was seen leaving town, traveling north towards the Shrine of Akir. I don't know why he was going there, but confronting him alone on the road is the safest option. Find him, and put a bit of fear into his heart.",
+   "flags": 2097160,
+   "level": 9,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 467315,
+     "objectId": 256247,
+     "storageIndex": 0,
+     "text": "Confront Belathaan Brightwish",
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Confront Belthaan Brightwish along the road to the Shrine of Akir.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 263305
+     },
+     {
+      "count": 5,
+      "itemId": 250339
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 2778,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "A Firm Response",
+   "zoneAreaId": 16593
+  },
+  "96875": {
+   "description": "Orgrimmar is always expanding, $c. And when the peons need hides to line the walls and roofs of our new buildings, they come to me!\r\n\r\nThe hides of the lizards in Thunder Ridge are typically too thick for armor, but they make excellent building material. Bring me some of their hides, along with a few lighter cured hides. Let's see your skill with leather!",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 6,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 474490,
+     "objectId": 275720,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 2,
+     "id": 474491,
+     "objectId": 4231,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Kamari in Orgrimmar wants you to collect 5 Rough Lizard Hide from beasts in Thunder Ridge, along with 2 Cured Light Hides.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 277716
+     }
+    ],
+    "money": 250,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Beasts of Thunder Ridge",
+   "zoneAreaId": 14
+  },
+  "97291": {
+   "description": "With the head reattached, all we need now is to bind it to the Dark Lady's will. This should not be a problem. The beast barely has brains left as it is after all the beatings it's taken.\r\n\r\nWe simply need to motivate it.\r\n\r\nFetch me a Toxic Skullcap from Miss Grisette in the Trade Quarter. Oh, and some Blisterweed from our local herbalist trainers, the Alliestars. Feel free to just take some, they owe me. And lastly a bit of Essence of Agony. Any old poison vendor should do.\r\n\r\nWe have a potion to make!",
+   "flags": 3145736,
+   "level": 21,
+   "minLevel": 16,
+   "nextQuestId": 97292,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 477805,
+     "objectId": 281246,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 475748,
+     "objectId": 281300,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 477806,
+     "objectId": 8923,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Collect a Toxic Skullcap from Tawny Grisette in the Trade Quarter, Blisterweed near the Herbalism Trainer, and Essence of Agony from the poison vendor in the Rogues' Quarter for Master Apothecary Faranell in Undercity.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "money": 1300,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Unending Torment",
+   "zoneAreaId": 16611
+  },
+  "97485": {
+   "conditionalDescriptions": [
+    {
+     "playerConditionId": 158458,
+     "text": "Blessings of An'she, child.\r\n\r\nWe have a tradition of scattering incense to the winds, and I was wondering if you'd be interested in honoring our tradition.\r\n\r\nYou will need to craft the incense by purchasing herbs from Nida, cedar from Nata, sinew thread from Mahu in the mid rise, and ceremonial flint and tinder from Naal on the upper rise. Once you have these items, combine them and spread them off the south facing cliff of Hunter's Rise.\r\n\r\nYou will find a mat and incense at the ceremonial site."
+    }
+   ],
+   "description": "Blessings of An'she, friend.\r\n\r\nWe tauren have a tradition of scattering incense to the winds and I was hoping you'd be interested in honoring this tradition.\r\n\r\nYou will need to craft the incense by purchasing herbs from Nida, cedar from Nata, sinew thread from Mahu in the mid rise, and ceremonial flint and tinder from Naal on the upper rise. Once you have these items, combine them and spread them off the south facing cliff of Hunter's Rise.\r\n\r\nYou will find a mat and incense at the ceremonial site.",
+   "flags": 8,
+   "itemDrops": [
+    {
+     "count": 1,
+     "itemId": 278078
+    }
+   ],
+   "level": 10,
+   "minLevel": 3,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 476015,
+     "objectId": 278078,
+     "storageIndex": 0,
+     "text": "Incense created",
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 476016,
+     "objectId": 269255,
+     "storageIndex": 2,
+     "text": "Spread incense",
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Purchase a Bundle of Herbs from Nida the herbalist, a Bundle of Ceder Twigs from Nata the enchanting supplier, and Sinew Thread from Mahu the leatherworking supplier and Ceremonial Flint and Tinder from Naal the cooking supplier.\r\n\r\nCombine the items and sprinkle the incense off of Hunter's Rise.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "items": [
+     {
+      "count": 5,
+      "itemId": 281040
+     }
+    ],
+    "money": 175,
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Traditions of the Bluff",
+   "zoneAreaId": 1638
+  },
+  "98512": {
+   "description": "You there, stranger. Get low and keep quiet. We are not alone here.\r\n\r\nI was on patrol near the border and noticed that there are a number of Al'Aketh skulking around the house just up the hill there to the north. I don't know what they are doing here, but it can't be good.\r\n\r\nIf you want to make yourself useful, get in there and take them out. I'll wait here and watch your back.",
+   "flags": 2097160,
+   "level": 11,
+   "minLevel": 6,
+   "nextQuestId": 92644,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 477937,
+     "objectId": 254626,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill 10 Al'Aketh Assassins in the Shen'dar Highlands.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 2778,
+      "tier": 3
+     },
+     {
+      "factionId": 2779,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Al'Aketh Assassins",
+   "zoneAreaId": 16593
+  }
+ }
+}

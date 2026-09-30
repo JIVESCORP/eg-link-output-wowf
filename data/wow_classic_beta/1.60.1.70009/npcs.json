@@ -635,6 +635,29 @@
    "sources": 1,
    "times": 4
   },
+  "3725": {
+   "name": "Silverleaf",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5551,
+     "mapY": 0.4108,
+     "uiMap": 1413,
+     "worldX": -1162.9,
+     "worldY": -3002.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5549,
+     "mapY": 0.4099,
+     "uiMap": 1413,
+     "worldX": -1156.6,
+     "worldY": -3000
+    }
+   ],
+   "sources": 1,
+   "times": 3
+  },
   "3737": {
    "name": "Bubbling Fissure",
    "positions": [
@@ -905,6 +928,22 @@
    "positions": [
     {
      "instance": 1,
+     "mapX": 0.521,
+     "mapY": 0.3063,
+     "uiMap": 1413,
+     "worldX": -456.8,
+     "worldY": -2656.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5204,
+     "mapY": 0.3052,
+     "uiMap": 1413,
+     "worldX": -449.4,
+     "worldY": -2650.1
+    },
+    {
+     "instance": 1,
      "mapX": 0.5189,
      "mapY": 0.3047,
      "uiMap": 1413,
@@ -926,10 +965,18 @@
      "uiMap": 1413,
      "worldX": -434.3,
      "worldY": -2660.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5204,
+     "mapY": 0.3022,
+     "uiMap": 1413,
+     "worldX": -429,
+     "worldY": -2650.3
     }
    ],
    "sources": 1,
-   "times": 5
+   "times": 9
   },
   "143984": {
    "name": "Mailbox",
@@ -4755,7 +4802,7 @@
    "interactions": [
     "QuestGiver"
    ],
-   "lastSeen": "2026-09-29",
+   "lastSeen": "2026-09-30",
    "levels": [
     60
    ],
@@ -4763,6 +4810,9 @@
    "offers": {
     "844": {
      "title": "Plainstrider Menace"
+    },
+    "881": {
+     "title": "Echeyakee"
     },
     "903": {
      "title": "Prowlers of the Barrens"
@@ -4776,6 +4826,14 @@
      "uiMap": 1413,
      "worldX": -483.6,
      "worldY": -2668
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5226,
+     "mapY": 0.3097,
+     "uiMap": 1413,
+     "worldX": -479.9,
+     "worldY": -2672.6
     }
    ],
    "side": "Horde",
@@ -4786,6 +4844,9 @@
     },
     "860": {
      "title": "Sergra Darkthorn"
+    },
+    "903": {
+     "title": "Prowlers of the Barrens"
     }
    },
    "windows": 0
@@ -5110,7 +5171,7 @@
     "Gossip",
     "QuestGiver"
    ],
-   "lastSeen": "2026-09-29",
+   "lastSeen": "2026-09-30",
    "levels": [
     22
    ],
@@ -5119,21 +5180,30 @@
     "870": {
      "level": 13,
      "title": "The Forgotten Pools"
+    },
+    "880": {
+     "title": "Altered Beings"
     }
    },
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.5223,
-     "mapY": 0.3191,
+     "mapX": 0.5222,
+     "mapY": 0.3192,
      "uiMap": 1413,
-     "worldX": -543.2,
-     "worldY": -2669.5
+     "worldX": -543.9,
+     "worldY": -2668.9
     }
    ],
    "side": "Horde",
    "sources": 1,
-   "windows": 1
+   "takes": {
+    "877": {
+     "level": 16,
+     "title": "The Stagnant Oasis"
+    }
+   },
+   "windows": 2
   },
   "3449": {
    "interactions": [
@@ -5208,7 +5278,7 @@
    "interactions": [
     "QuestGiver"
    ],
-   "lastSeen": "2026-09-29",
+   "lastSeen": "2026-09-30",
    "levels": [
     25
    ],
@@ -5216,6 +5286,9 @@
    "offers": {
     "869": {
      "title": "Raptor Thieves"
+    },
+    "3281": {
+     "title": "Stolen Silver"
     }
    },
    "positions": [
@@ -5230,6 +5303,11 @@
    ],
    "side": "Horde",
    "sources": 1,
+   "takes": {
+    "869": {
+     "title": "Raptor Thieves"
+    }
+   },
    "windows": 0
   },
   "3486": {
@@ -5254,6 +5332,29 @@
    "side": "Horde",
    "sources": 1,
    "windows": 2
+  },
+  "3487": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-09-30",
+   "levels": [
+    23
+   ],
+   "name": "Kalyimah Stormcloud",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5223,
+     "mapY": 0.3197,
+     "uiMap": 1413,
+     "worldX": -547.5,
+     "worldY": -2670
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
   },
   "3489": {
    "interactions": [
@@ -5539,6 +5640,44 @@
    "side": "Horde",
    "sources": 1,
    "windows": 1
+  },
+  "3934": {
+   "interactions": [
+    "Binder",
+    "Gossip"
+   ],
+   "lastSeen": "2026-09-30",
+   "levels": [
+    30
+   ],
+   "name": "Innkeeper Boorand Plainswind",
+   "options": {
+    "96518": {
+     "icon": 132053,
+     "name": "Tell me about dungeons I could explore."
+    },
+    "96519": {
+     "icon": 132060,
+     "name": "Let me browse your goods."
+    },
+    "96520": {
+     "icon": 132052,
+     "name": "Make this inn your home."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5201,
+     "mapY": 0.2995,
+     "uiMap": 1413,
+     "worldX": -410.9,
+     "worldY": -2647
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 3
   },
   "4550": {
    "interactions": [
