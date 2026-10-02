@@ -32,7 +32,7 @@ Each dataset file starts with a `meta` block:
 | `dataset`, `product`, `clientBuild` | what the file is |
 | `schemaVersion` | the file's shape; it changes only when a field changes meaning or is removed |
 | `sources` | how many players' saved files (a game account on one computer) contributed |
-| `combatLogUploads` | `creatures` only: how many combat-log uploads contributed |
+| `combatLogUploads` | `creatures` and `encounters` only: how many combat-log uploads contributed |
 | `locale` | the per-language datasets only: the client's language |
 | `cacheFiles`, `cachesLeftOut` | the cache datasets only: how many cache files were read, and how many weren't (a layout the game changed, which Efficient Games must learn before reading it) |
 | `collectedOn.first`, `collectedOn.last` | the days of the oldest and newest contribution used |
@@ -56,7 +56,10 @@ their earlier ones. Players' contributions are then combined:
 Positions are `{instance, uiMap, mapX, mapY, worldX, worldY}`: `mapX`/`mapY` are 0-1 across the
 `uiMap` map (x right, y down), and `worldX`/`worldY` are the game's world coordinates in yards on
 `instance`. They're where the player's character stood: at an NPC when its window opened, at a
-corpse when it was looted, and so on. Combat-log positions are `{uiMap, x, y}` in world yards.
+corpse when it was looted, and so on. Combat-log positions are `{map, uiMap, x, y}` in world yards:
+`map` is the map the creature is on (0 Eastern Kingdoms, 1 Kalimdor, else an instance's map ID), and
+`uiMap` is 0 inside an instance, where the game has no map. Positions from logs read before
+2026-10-02 have no `map`.
 
 Standings (the keys of `costs`) are the game's reaction numbers: 4 Neutral, 5 Friendly, 6 Honored,
 7 Revered, 8 Exalted. A price is in copper, for the item's `stack`, as the game showed it at that
@@ -147,10 +150,24 @@ up to 4 decimals. With few kills it is rough; the counts are there to judge it.
 - `combatLog`, from the game's combat log where players switched it on: `name`, `entries` (logging
   sessions it appeared in), `spawns`, `deaths`, `levels[level]`, `maxHealth[level]`,
   `maxPower[powerType]`, `casts[spellId]` (`name`, `starts`, `successes`), `melee[level]` (`hits` and
-  the `low` and `high` hit before armor; level `"?"` when unknown), `positions` (`{uiMap, x, y}`),
+  the `low` and `high` hit before armor; level `"?"` when unknown), `positions` (`{map, uiMap, x, y}`),
   and `sources`, which here counts players rather than saved files. Players, their pets and anything a player summoned are never included.
 
 A creature only the combat log saw has only `combatLog`.
+
+## encounters
+
+`encounters[encounterId]`, the boss encounters players fought with the game's combat log switched on
+(`ENCOUNTER_START` to `ENCOUNTER_END`): `name`, `map` (the instance's map ID), `pulls` and `kills`,
+`difficulties[difficultyId]` (pulls), `bosses` (the IDs of the creatures named as the encounter is),
+`positions` (`{map, uiMap, x, y}`: where pulls began, the boss's first position in the fight), `runs`
+and `sameRun[encounterId]`, `entries` and `sources` (players).
+
+A run is one copy of an instance that a player's log fought encounters in. `runs` counts the runs an
+encounter was fought in, and `sameRun` how many of those each other encounter was fought in too. A
+dungeon's wings are each a copy of their own, so encounters that share runs are one wing's: Dire
+Maul's three wings are all map 429. A run that spans two logs (the game restarted mid-dungeon) counts
+as two.
 
 ## turn_ins
 
