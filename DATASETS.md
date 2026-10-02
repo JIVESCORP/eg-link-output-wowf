@@ -162,8 +162,38 @@ it), and `diplomat` (the talent's rank).
 
 ## objectives
 
-`quests[questId][objective]`: `type` (`monster`, `item`, `object`, `event` ...), `required`, `gains`
-(times the count went up), `positions` (where the character stood each time), `sources`.
+- `quests[questId][objective]`: `type` (`monster`, `item`, `object`, `event` ...), `required`, `gains`
+  (times the count went up), `positions` (where the character stood each time), `sources`.
+
+Escorts and scripted events often have no count: the quest just becomes complete, or fails,
+somewhere. Recorded from EG Link 0.2.5:
+
+- `completed[questId]`: the quest became complete with no count going up just before. `times`,
+  `positions` (where the character stood: where the escort or event ends), `sources`.
+- `failed[questId]`: `times` the quest failed (an escort lost, a timer run out), `sources`.
+- `gossip[questId][choice]`: a gossip option a player chose before the quest moved. `choice` is
+  `npc:<npcId>|option:<option>` (or `object:<objectId>|...`), where `<option>` is the
+  `gossipOptionId`, or `name:<text>` in the player's language when the game gave none, as in `npcs`'
+  `options`. `soon` counts the times the quest moved within seconds of the choice (speaking with
+  someone was the step), `before` the times it later completed with no count, or failed, and this
+  was the last choice made since (the "I'm ready" that starts an escort). Either is left out when no
+  player saw it. `sources`.
+
+## item_uses
+
+The items players used for their quests, recorded from EG Link 0.2.5. A quest's objectives never say
+that an item has to be used first (Morbent's Bane on Morbent Fel, a Taming Rod on a beast); this does.
+A use is a successful cast of the item's spell. An item counts when the quest tracker shows it for a
+quest, when a quest handed it over, or when it's a Quest item.
+
+- `quests[questId][itemId]`: `spellId` (the item's spell, a fact), `uses`, `targets` (what the uses
+  were cast on: `npc:<npcId>`, `object:<objectId>`, `none` when there was no target or it was the
+  player's own character, and `other` for another player, a pet or a target the game kept hidden,
+  never named), `progressed` (uses after which the quest moved: a count went up or it became
+  complete), `objectives[objective]` (which counts went up after a use), `positions` (where the
+  character stood), `sources`. Counts add up.
+- `untied[itemId]`: the same, without `progressed` and `objectives`, for a Quest item no quest in the
+  player's log claimed, and after which no one quest moved.
 
 ## quest_scan
 
@@ -181,6 +211,18 @@ side's, and for neither otherwise.
 
 `title` is in whichever language the newest scan's client used. `quests.<locale>` has each language's
 text.
+
+What the game said of a quest, recorded by EG Link releases after 0.2.6, each as how many players'
+files had the answer, so any disagreement shows:
+
+- `pushable[questId]`: `true` and `false`, the game's answer to whether the quest can be shared
+  (`C_QuestLog.IsPushableQuest`), read when the scan found the quest described.
+- `frequency[questId][frequency]`: what the quest log said: `1` Daily, `2` Weekly, `3` resets on a
+  schedule.
+- `repeatable[questId]`: the game called the quest repeatable.
+
+`frequency` and `repeatable` are read only for quests in a player's log, so a quest with neither may
+still be daily or repeatable.
 
 ## talent_scan.&lt;locale&gt;
 
