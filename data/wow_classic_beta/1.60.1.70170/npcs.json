@@ -377,6 +377,64 @@
   "sources": 1
  },
  "npcs": {
+  "1568": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Undertaker Mordo",
+   "offers": {
+    "363": {
+     "title": "Rude Awakening"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3021,
+     "mapY": 0.7163,
+     "uiMap": 1420,
+     "worldX": 1679.7,
+     "worldY": 1668
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 0
+  },
+  "1569": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Shadow Priest Sarvis",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3083,
+     "mapY": 0.662,
+     "uiMap": 1420,
+     "worldX": 1843.3,
+     "worldY": 1640.3
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "363": {
+     "level": 1,
+     "title": "Rude Awakening"
+    }
+   },
+   "windows": 1
+  },
   "2995": {
    "interactions": [
     "Gossip",
@@ -406,6 +464,45 @@
    "side": "Horde",
    "sources": 1,
    "windows": 2
+  },
+  "3143": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Gornek",
+   "offers": {
+    "788": {
+     "title": "Cutting Teeth"
+    },
+    "97279": {
+     "level": 2,
+     "title": "Wayward Weapons"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4207,
+     "mapY": 0.6836,
+     "uiMap": 1411,
+     "worldX": -601.2,
+     "worldY": -4187.1
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "4641": {
+     "level": 1,
+     "title": "Your Place in the World"
+    }
+   },
+   "windows": 1
   },
   "3448": {
    "interactions": [
@@ -443,6 +540,34 @@
    },
    "windows": 3
   },
+  "5667": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    10
+   ],
+   "name": "Venya Marthand",
+   "offers": {
+    "1470": {
+     "title": "Piercing the Veil"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3098,
+     "mapY": 0.6641,
+     "uiMap": 1420,
+     "worldX": 1837,
+     "worldY": 1633.3
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 0
+  },
   "5769": {
    "interactions": [
     "Gossip"
@@ -465,6 +590,34 @@
    "side": "Horde",
    "sources": 1,
    "windows": 1
+  },
+  "10176": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    20
+   ],
+   "name": "Kaltunk",
+   "offers": {
+    "4641": {
+     "title": "Your Place in the World"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4328,
+     "mapY": 0.6863,
+     "uiMap": 1411,
+     "worldX": -610.8,
+     "worldY": -4251
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 0
   }
  },
  "objects": {}
