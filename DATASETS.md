@@ -8,7 +8,7 @@ commits only when something changed. Don't edit them by hand: the next run repla
 ```
 data/index.json                                          every product, build and dataset, with counts
 data/<product>/<clientBuild>/<dataset>.json              one file per dataset that has records
-data/<product>/<clientBuild>/<dataset>.<locale>.json     the datasets from the game's caches, per language
+data/<product>/<clientBuild>/<dataset>.<locale>.json     the datasets in the game's own words, per language
 ```
 
 - `<product>` is the Battle.net product code of the client the data came from. World of Warcraft:
@@ -18,8 +18,9 @@ data/<product>/<clientBuild>/<dataset>.<locale>.json     the datasets from the g
   players recorded on that build, so compare builds to see what a patch changed.
 - `<locale>` is the game client's language, such as `enUS`. The four datasets read from the game's
   caches (`quests`, `creature_details`, `object_details`, `item_hotfixes`) are mostly the server's
-  text, so each language gets its own file. Names in the other datasets are in whatever language the
-  contributing players' clients use.
+  text, and the three scans of the game's tooltips (`talent_scan`, `stat_scan`, `tooltip_scan`) are
+  the game's text, so each language gets its own file. Names in the other datasets are in whatever
+  language the contributing players' clients use.
 
 Every file is UTF-8 JSON with one space of indent. Object keys are sorted: numerically when every
 key is a number, otherwise alphabetically. A field with nothing to say is left out, never `null`.
@@ -32,7 +33,8 @@ Each dataset file starts with a `meta` block:
 | `schemaVersion` | the file's shape; it changes only when a field changes meaning or is removed |
 | `sources` | how many players' saved files (a game account on one computer) contributed |
 | `combatLogUploads` | `creatures` only: how many combat-log uploads contributed |
-| `locale`, `cacheFiles`, `cachesLeftOut` | the cache datasets only: the language, how many cache files were read, and how many weren't (a layout the game changed, which Efficient Games must learn before reading it) |
+| `locale` | the per-language datasets only: the client's language |
+| `cacheFiles`, `cachesLeftOut` | the cache datasets only: how many cache files were read, and how many weren't (a layout the game changed, which Efficient Games must learn before reading it) |
 | `collectedOn.first`, `collectedOn.last` | the days of the oldest and newest contribution used |
 | `license`, `attribution` | CC BY 4.0, and the credit line to use |
 
@@ -168,8 +170,55 @@ it), and `diplomat` (the talent's rank).
 EG Link asks the server about every quest the client lists. The server describes only quests that
 are open.
 
-- `described[questId]`: `title`, and how many players' scans got it (`sources`).
+- `described[questId]`: `title`, how many players' scans got it (`sources`), and per faction
+  (`Alliance`, `Horde`) how many scans of that side got it (`factions`) and how many got no data for it
+  (`noDataFactions`). A quest one side gets and the other doesn't shows in those two.
 - `noData`: quests some scan asked about and none got an answer for.
+
+A scan's side is the side of the character that asked. A scan from before EG Link 0.2.6 doesn't say
+which side got each answer, so its answers count for its characters' side when they were all one
+side's, and for neither otherwise.
+
+`title` is in whichever language the newest scan's client used. `quests.<locale>` has each language's
+text.
+
+## talent_scan.&lt;locale&gt;
+
+What the game shows for every class talent at each rank and for every class spell, read from its
+tooltips. The game writes a tooltip's numbers for the character reading it, so each reading says which
+character it was (`reader`).
+
+- `readers[n]`: a character readings were written for: `class`, `level`, `talentPoints` (spent; a talent
+  can change what a tooltip says), `spellDamage` (by school, 1 Physical to 7 Arcane), `healing`,
+  `spellHaste`, `rangedHaste`, `attackPower`.
+- `entries[entryId]` (a `TraitNodeEntry` ID): `ranks[rank]`, the talent's text at each rank, and
+  `tooltip`, the lines of its tooltip.
+- `spells[spellId]`: `castTime` and `cooldown` and `gcd` (milliseconds), `minRange`, `maxRange`,
+  `passive`, `description`, `costs` (`name`, `type`, `cost`, `minCost`, `costPercent`, `costPerSec`,
+  `hasRequiredAura`, `requiredAuraID`), `charges`, and `tooltip` for a talent's own spell.
+- Each entry and spell is one player's reading, with `reader` and `sources`. A reading that says
+  something beats an empty one, then the reader with the fewest talent points, then the newest.
+- `notLoaded`: spells no player's game loaded.
+
+## stat_scan.&lt;locale&gt; and tooltip_scan.&lt;locale&gt;
+
+Items as the game's tooltip shows them: one or two items for every stat type (`stat_scan`), and every
+weapon (`tooltip_scan`). These show where the game differs from the client's tables: a weapon whose
+damage nothing in the client files gives, say.
+
+- `items[itemId]`: `name`, `quality`, `itemLevel`, `minLevel`, `sellPrice` (copper; `stat_scan` only),
+  `stats` (the game's own key for each, such as `ITEM_MOD_STAMINA_SHORT`, with its value; damage per
+  second to 4 decimals), `labels` (`stat_scan` only: the game's name for each key, or `false` when it
+  has none), `tooltip` (its lines, bar those about the reader's collection), `sources`. A fact, so the
+  newest wins.
+- `notLoaded`: listed items no player's game held. The server sends some items only when a player
+  meets them.
+
+## durability
+
+`items[itemId]`: `max`, an item's maximum durability as the game reported it for one a player's
+character held. The server sets it item by item, and no client table holds it. `disagree` lists any
+other maximum a player's game reported, and `sources` counts the players.
 
 ## The cache datasets
 
