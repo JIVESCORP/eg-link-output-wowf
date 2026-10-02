@@ -1,12 +1,12 @@
 {
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
-  "cacheFiles": 2,
+  "cacheFiles": 9,
   "cachesLeftOut": 0,
   "clientBuild": "1.60.1.70124",
   "collectedOn": {
    "first": "2026-09-30",
-   "last": "2026-09-30"
+   "last": "2026-10-01"
   },
   "dataset": "quests",
   "license": "CC BY 4.0",
@@ -58,6 +58,79 @@
    },
    "sources": 1,
    "title": "Trial of the Sea Lion"
+  },
+  "31": {
+   "categoryId": 263,
+   "description": "You have completed the necessary lessons all young druids are taught before they can adopt an aquatic aspect.  Go now back to your trainer, Turak Runetotem, in Thunder Bluff.  Show him your pendant and prove to him you are ready to learn what he has to teach you.  He will complete your training, allowing you to become one with the water.$B$BGoodbye, young druid.  We shall speak again.",
+   "flags": 2097152,
+   "level": 16,
+   "minLevel": 16,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380128,
+     "objectId": 15885,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Return to Thunder Bluff and show Turak Runetotem the Pendant of the Sea Lion.",
+   "questType": 2,
+   "raceMask": "00000002000000a0",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 1066,
+      "type": 3
+     }
+    ],
+    "items": [
+     {
+      "count": 1,
+      "itemId": 16608
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 609,
+      "tier": 5
+     }
+    ],
+    "spellId": 1446,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 15885,
+   "title": "Aquatic Form"
+  },
+  "264": {
+   "description": "Filthy scum! Leaves me for his damn crusade. Because \"the Light is the most important thing we have against the threats the undead pose.\"$B$BWell, what about his children?! What about ME?! Night after night I sat patiently waiting for him... always second to his blasted duty!$B$BWell, witness what \"justice\" brings you, $n! He's dead and I'm bearing the very thing he was trying to stop!$B$BTake this piece of junk and put it on his tomb at the Sepulcher. I want nothing to do with it anymore... or him!",
+   "flags": 0,
+   "level": 15,
+   "minLevel": 12,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381736,
+     "objectId": 6145,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Place Clarice's Pendant on Yuriv's Tomb in Silverpine.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 6145,
+   "title": "Until Death Do Us Part",
+   "zoneAreaId": 1638
   },
   "744": {
    "description": "$n, my brother soon stands before Chief Bloodhoof, and it is my honor to make his headdress for him.$B$BI want to ask a favor of you while I finish tanning these leather straps. There is not time for me to find enough feathers, and I was wondering, would you gather more for me?$B$BYou can find feathers of the correct size from the harpies residing far to the north and northwest of Thunder Bluff. I need only 6 azure and 6 bronze feathers to complete the design.",
@@ -174,6 +247,121 @@
    },
    "sources": 1,
    "title": "Fungal Spores",
+   "zoneAreaId": 17
+  },
+  "852": {
+   "description": "Hezrul Bloodmark is the leader of the Kolkar centaurs in the Barrens.  He is fierce, brutal and cunning.  Defeating him would disrupt and fracture the Kolkars, greatly reducing their threat to us.$B$BSo kill him.  As with Barak and Verog, bring me Hezrul's Head.$B$BHe leads his people from the Lushwater Oasis, to the south.",
+   "flags": 8,
+   "level": 19,
+   "minLevel": 11,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380808,
+     "objectId": 5025,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Hezrul's Head to Regthar Deathgate, west of the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 5351
+     }
+    ],
+    "money": 800,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Hezrul Bloodmark",
+   "zoneAreaId": 17
+  },
+  "865": {
+   "description": "The raptors of the Barrens are smarter than raptors in other lands.  And I think all that smarts is hiding in their horns!  If so, then I could grind their horns into powder and use it to make \"smart drinks.\"  I could sell them for a fortune!!!$B$BAnd you can help me.  Find me intact raptor horns from sunscale scytheclaws.  They roam in the southern Barrens, and in the northern Barrens near the border of Ashenvale Forest.",
+   "flags": 8,
+   "level": 18,
+   "minLevel": 13,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 380724,
+     "objectId": 5055,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Gather 5 Intact Raptor Horns from Sunscale Scytheclaws, and bring them to Mebok Mizzyrix in Ratchet.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 5,
+      "itemId": 5342
+     },
+     {
+      "count": 1,
+      "itemId": 5343
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Raptor Horns",
+   "zoneAreaId": 17
+  },
+  "867": {
+   "description": "The blasted harpies have been ravaging our caravan supplies for too long. It's time we slit a few of their throats and diminished their numbers.$B$BI've been snooping around their nests and figured out who leads who. The most devastating attack will destroy a good section of their lower chain of command and then we can work our way to the top.$B$BI'll start you off slow, take out Witchwing Harpies and Witchwing Roguefeathers in the Northwest and bring me 8 Witchwing talons. That should be a good start...",
+   "flags": 8,
+   "level": 15,
+   "minLevel": 12,
+   "nextQuestId": 875,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380967,
+     "objectId": 5064,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Collect 8 Witchwing talons.$B$BReturn them to Darsok Swiftdagger at the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 700,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Harpy Raiders",
    "zoneAreaId": 17
   },
   "869": {
@@ -337,6 +525,257 @@
    "title": "The Stagnant Oasis",
    "zoneAreaId": 17
   },
+  "880": {
+   "description": "Your findings are incredible, $n.  These oases hold properties that must come from an outside source.  Or perhaps an inside one.$B$BI want to know how these fissures are affecting the beasts who drink from the oases' water.$B$BHunt oasis snapjaws at the Lushwater and Stagnant Oases.  Bring me their shells so I may examine them.",
+   "flags": 8,
+   "level": 16,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380787,
+     "objectId": 5098,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 8 Altered Snapjaw Shells to Tonga Runetotem at the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 800,
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Altered Beings",
+   "zoneAreaId": 17
+  },
+  "881": {
+   "description": "Whitemist, Echeyakee in the Tauren tongue, is the king of the savannah cats.  He hunts with such stealth, they say he's like a thin, white mist on the earth.  And he kills so fast his prey have no time for fear, or pain.$B$BThe Tauren say he is both mercy and death.$B$BYou will learn if that's true, for I now set you on the path to hunt Echeyakee.  His lair is northeast of the Crossroads, among the bones of giant Kodo$B$BGo.  Blow this horn when you reach his lair.  Blow the horn, and he will come.",
+   "flags": 0,
+   "level": 16,
+   "minLevel": 10,
+   "nextQuestId": 905,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380925,
+     "objectId": 5100,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Echeyakee's Hide to Sergra Darkthorn at the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 6
+     }
+    ],
+    "spellId": 5320,
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 10327,
+   "title": "Echeyakee",
+   "zoneAreaId": 17
+  },
+  "888": {
+   "description": "While I'd like to recover all my goods, I'm sure that's not possible. Still, there's a few things that I absolutely must have!$b$bAs you see, my observatory is ready to go, but it needs the smaller of the two lenses. The first arrived by caravan from Durotar, but the second was bound by ship, and never arrived. Also, I never got my boot shipment from Drizzlik in Booty Bay!$b$bHead down to the pirate camp and see if you can find them.",
+   "flags": 8,
+   "level": 16,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380480,
+     "objectId": 5076,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 380481,
+     "objectId": 5077,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Retrieve the Shipment of Boots and Telescopic Lens for Gazlowe in Ratchet.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 5337
+     },
+     {
+      "count": 1,
+      "itemId": 5320
+     }
+    ],
+    "money": 800,
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Stolen Booty",
+   "zoneAreaId": 17
+  },
+  "891": {
+   "description": "Yet another ship from my fleet has been lost to those overzealous humans at Northwatch Hold!$b$bThose bastards must be dealt with. Their paranoia has them in a state of frenzy. Trigger happy, reckless louts are shooting at anything in their sights.$b$bTravel south along the Merchant Coast to the Hold and lay siege to their forces. Bring me the medals of their soldiers as proof. And for the love of my fleet, slay Captain Fairmount and her overzealous cannoneers!",
+   "flags": 8,
+   "level": 20,
+   "minLevel": 13,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380864,
+     "objectId": 3393,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 380865,
+     "objectId": 3455,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 380866,
+     "objectId": 3454,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 10,
+     "id": 380867,
+     "objectId": 5078,
+     "storageIndex": 3,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Captain Thalo'thas Brightsun of Ratchet wants you to collect 10 Theramore Medals and slay Captain Fairmount, Cannoneer Whessan and Cannoneer Smythe.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 5309
+     },
+     {
+      "count": 1,
+      "itemId": 5310
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 5
+     },
+     {
+      "factionId": 67,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Guns of Northwatch",
+   "zoneAreaId": 17
+  },
+  "894": {
+   "description": "The Venture Company set up a small research facility far to the north of here, southwest of the Sludge Fen. I don't know very much about what they're doing, but did manage to discover that they're experimenting with something called a \"samophlange\".$b$bNow what the heck is a samophlange? Well, whatever it is, I want to examine it, so I need someone to go get it.$b$bI obtained a copy of their control system operating manual, you should be able to figure out how to disengage the samophlange from it.",
+   "flags": 0,
+   "level": 14,
+   "minLevel": 10,
+   "nextQuestId": 900,
+   "objectivesText": "Access the control console at the Venture Company research site.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 5088,
+   "title": "Samophlange",
+   "zoneAreaId": 17
+  },
+  "896": {
+   "description": "Being Wharfmaster of a busy port like Ratchet, I keep my finger on the pulse of information. I know all about the exchange of goods and money between here and Booty Bay.$b$bThe latest bit of news I've heard is about the Venture Company's Boulder Lode mine northeast of the Sludge Fen. One of the miners discovered an emerald the size of your fist. I know a few buyers who'd be interested in getting their hands on something like that, and I'd be willing to go half and half on its sale.",
+   "flags": 8,
+   "level": 18,
+   "minLevel": 13,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380720,
+     "objectId": 5097,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Retrieve the Cats Eye Emerald from one of the Venture Co. Overseers or Enforcers for Wharfmaster Dizzywig at Ratchet.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 5335
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Miner's Fortune",
+   "zoneAreaId": 17
+  },
   "899": {
    "description": "Perhaps you know the pain of uncertainty, perhaps not, $c. But know this: I stand here every day, from the sun's rising till its decline, scouring the horizon for more of those monsters. I've killed every pig man I've come across since, but my thirst for their blood is far from quenched. Perhaps instead of heading north to the Crossroads I should have headed to Taurajo.$B$BYou, $c--you  could help me.$B$BKill them. Kill as many as you can. Bring me their tusks, and we will celebrate their deaths together.",
    "flags": 8,
@@ -379,6 +818,40 @@
    "title": "Consumed by Hatred",
    "zoneAreaId": 17
   },
+  "959": {
+   "description": "Oops!$b$bHad a little mishap, as you can see! The morning cargo shipment from Booty Bay was huge. Huge I say! Never seen so many crates. Well, I was trying to expedite things so I started unloading a bit more than I could handle. That's when everything came tumbling down.$b$bBefore I knew what was going on, I saw that menace, Mad Magglish, go running off with a bottle of 99-year-old port. Chased him all the way to Wailing Caverns. No way I was going in there.$b$bMaybe you're brave enough to find him?",
+   "flags": 8,
+   "level": 18,
+   "minLevel": 14,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380999,
+     "objectId": 5334,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Crane Operator Bigglefuzz in Ratchet wants you to retrieve the bottle of 99-Year-Old Port from Mad Magglish who is hiding in the Wailing Caverns.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1000,
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 2.9
+   },
+   "sources": 1,
+   "title": "Trouble at the Docks",
+   "zoneAreaId": 718
+  },
   "1061": {
    "description": "The spirits of the Stonetalon Mountains are angered, for goblins and their servants are plundering and burning the land.  So the land has cried out, and those who listen for such things... have heard.$B$BSeereth Stonebreak, a promising shaman of the Horde, was sent to Stonetalon.  She reports massive deforestation at the hands of the goblins, and requests aid.$B$BMeet Seereth in Stonetalon.  To reach her, follow the road west of the Barrens' Crossroads.  She is camped near the Greatwood Vale.",
    "flags": 8,
@@ -401,6 +874,139 @@
    "sources": 1,
    "title": "The Spirits of Stonetalon",
    "zoneAreaId": 406
+  },
+  "1062": {
+   "description": "The goblin-run Venture Company moved into the Stonetalon Mountains, chopping down trees and burning huge stretches of forest.  The spirits of this place are nearly blind with pain and rage.  We must stop the Venture Company!$B$BHead northwest, beyond the Greatwood Vale and into the Windshear Crag.  You will find the goblins and their servants at work -- show them the Horde will not allow the exploitation of Stonetalon.  Show them in the language they best understand...$B$BViolence.",
+   "flags": 8,
+   "level": 19,
+   "minLevel": 13,
+   "objectives": [
+    {
+     "amount": 15,
+     "id": 381167,
+     "objectId": 3989,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill 15 Venture Co. Loggers, then return to Seereth Stonebreak on the border of Stonetalon and the Barrens.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1100,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Goblin Invaders",
+   "zoneAreaId": 406
+  },
+  "1069": {
+   "description": "Spider egg omelettes are a new fad in Booty Bay!  The problem is... Booty Bay's got no eggs.$B$BI smell an opportunity!$B$BIn Windshear Crag and Sishir Canyon, in the Stonetalon Mountains to the northwest, lives the deepmoss spider.  Bring me its eggs and I'll pay a bundle!$B$BIn Windshear Crag, the eggs will be clustered under what trees remain.$B$BIn Sishir Canyon... well, if you have a weak stomach then maybe you should just collect the eggs at Windshear Crag...",
+   "flags": 8,
+   "level": 20,
+   "minLevel": 15,
+   "objectives": [
+    {
+     "amount": 15,
+     "id": 381044,
+     "objectId": 5570,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 15 Deepmoss Eggs to Mebok Mizzyrix in Ratchet.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 2500,
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Deepmoss Spider Eggs",
+   "zoneAreaId": 17
+  },
+  "1087": {
+   "description": "You cannot imagine the hatred I possess for this wretched land. The ilk of Cenarius and the kaldorei druids at the peak employ their pathetic powers to stifle the flow of magic, even so far south of their pathetic holdings... their beloved forests.$b$bWould that I could return to Jaedenar and exult in the flow of magic, but my master will not allow me to return until my work is done.$b$bI have no doubt you love the night elves and their allies as little as I. Aid me, and both our ends might be satisfied.",
+   "flags": 8,
+   "level": 25,
+   "minLevel": 20,
+   "nextQuestId": 1088,
+   "objectives": [
+    {
+     "amount": 4,
+     "id": 380996,
+     "objectId": 4057,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 4,
+     "id": 380997,
+     "objectId": 4053,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 4,
+     "id": 380998,
+     "objectId": 4051,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill 4 Sons of Cenarius, 4 Daughters of Cenarius and 4 Cenarion Botanists for Braelyn Firehand near Sun Rock Retreat.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Cenarius' Legacy",
+   "zoneAreaId": 406
+  },
+  "1489": {
+   "description": "The shells you brought me have a taint, one I have never before seen.  I am certain the water of the Oases is the cause, and I can sense the confusion they cause this land.  It is as if the land dreams and cannot awake.$B$BThe Wailing Caverns must be the source of the taint.  But before you go there, speak with Hamuul Runetotem, the elder druid.  I sent word to him of the happenings in the Barrens.  He is wise, and can offer you counsel.$B$BYou will find him in Thunder Bluff, on the Elder Rise.",
+   "flags": 8,
+   "level": 16,
+   "minLevel": 10,
+   "nextQuestId": 1490,
+   "objectivesText": "Speak with Hamuul Runetotem",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Hamuul Runetotem",
+   "zoneAreaId": 718
   },
   "1492": {
    "description": "I have need to send a crate of potions, reagents and other items to my associates in the Old World. Little time I have to actually see them to the dock at Ratchet, and the last caravan has already left.$b$bIf you could, please take this to Wharfmaster Dizzywig. He will ensure that it is placed on the next boat to Blackwater Cove.",
@@ -433,6 +1039,166 @@
    "sources": 1,
    "startItemId": 6462,
    "title": "Wharfmaster Dizzywig",
+   "zoneAreaId": 17
+  },
+  "2478": {
+   "categoryId": 162,
+   "description": "You will need to steal the tower key from Foreman Silixiz, $n. Once you've got the key in your possession, hold on to it - I may need it later.$B$BRemember, the poison has weakened everything in this tower. Use your abilities to bring chaos and destruction to its inhabitants. Slay them all -- show no mercy!$B$BOnce everything inside lays in a bloodied heap, pick Gallywix's lockbox and steal the cache of Zanzil's mixture held inside. Take both the head of Gallywix and the mixture to Shenthul in Orgrimmar.",
+   "flags": 8,
+   "level": 24,
+   "minLevel": 20,
+   "nextQuestId": 2479,
+   "objectives": [
+    {
+     "amount": 2,
+     "id": 381939,
+     "objectId": 7310,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 2,
+     "id": 381940,
+     "objectId": 7307,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 2,
+     "id": 381941,
+     "objectId": 7308,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 381942,
+     "objectId": 8074,
+     "storageIndex": 3,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381943,
+     "objectId": 8072,
+     "storageIndex": 4,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381944,
+     "objectId": 8073,
+     "storageIndex": 5,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Steal Silixiz's Tower Key from Foreman Silixiz, then kill two Mutated Venture Co. Drones, two Venture Co. Patrollers, and two Venture Co. Lookouts.$B$BAssassinate Grand Foreman Gallywix and take his head, then pick the lock on Gallywix's lockbox and steal the Cache of Zanzil's Altered Mixture. Take the Cache and Gallywix's Head back to Shenthul in Orgrimmar for further instruction.\r\n",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 18160
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Mission: Possible But Not Probable"
+  },
+  "3281": {
+   "description": "You may have killed the raptors, but the silver they stole must be recovered!  I have reports that the raptors have a large grouping of nests south of Ratchet, known as the Raptor Grounds.  It is likely that they brought our stolen silver there.$B$BGo to this raptor haven and search for the stolen silver.  When you find it, return it to me.",
+   "flags": 8,
+   "level": 18,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 382340,
+     "objectId": 5061,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Stolen Silver to Gazrog in the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 11853
+     },
+     {
+      "count": 1,
+      "itemId": 2694
+     }
+    ],
+    "money": 1000,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Stolen Silver",
+   "zoneAreaId": 17
+  },
+  "3301": {
+   "description": "My clanmate, Mura Runetotem, traveled to Silverpine so that she might aid our undead allies.  Silverpine is an ailing forest, a dying forest, and it was Mura's hope to bring it new life.  Perhaps the strange life found here in the Barrens can help her work in Silverpine.$B$BTake a sample of the shells you gathered, and bring it to Mura in Silverpine.  She is staying at the Sepulcher.  With luck, studying the shell will give her the insight she needs to heal that dying place.",
+   "flags": 0,
+   "level": 15,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380832,
+     "objectId": 10414,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Speak with Mura Runetotem in the Sepulcher.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 10820
+     },
+     {
+      "count": 1,
+      "itemId": 10821
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 10414,
+   "title": "Mura Runetotem",
    "zoneAreaId": 17
   },
   "4921": {
@@ -503,6 +1269,137 @@
    "title": "Supplies for the Crossroads",
    "zoneAreaId": 17
   },
+  "5722": {
+   "description": "The troggs are not the only thing that interested Magatha in Ragefire Chasm. She has heard word that one of her servants, a Maur Grimtotem, found something peculiar while in the Chasm, but he never made it out to show her what. She'd like Maur's body found--if it still exists--and any signs of what he found while attempting to speak to the troggs.$B$BReturn to Magatha any items of interest, and I'm sure she would be very generous in her reward.$B$BAgain, seek the Chasm in the darkest areas of Orgrimmar.",
+   "flags": 8,
+   "level": 16,
+   "minLevel": 9,
+   "nextQuestId": 5724,
+   "objectivesText": "Search Ragefire Chasm for Maur Grimtotem's corpse and search it for any items of interest.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 3.05
+   },
+   "sources": 1,
+   "title": "Searching for the Lost Satchel",
+   "zoneAreaId": 2437
+  },
+  "5723": {
+   "description": "Beneath the city of Orgrimmar, stout creatures known as troggs started coming to the surface from deep below the lava filled tunnels. In her ever-benevolence, Magatha sought to make peace with the creatures, but they turned on her diplomats, killing them. She will not allow such treatment of the tauren people and now consider the creatures a threat to all of the Horde.$B$BShe asks that you put an end to this trogg threat before it overwhelms the Horde from below. Find Ragefire Chasm and destroy them all.",
+   "flags": 8,
+   "level": 15,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 383908,
+     "objectId": 11318,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 8,
+     "id": 383909,
+     "objectId": 11319,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Search Orgrimmar for Ragefire Chasm, then kill 8 Ragefire Troggs and 8 Ragefire Shaman before returning to Rahauro in Thunder Bluff.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 700,
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 3.05
+   },
+   "sources": 1,
+   "title": "Testing an Enemy's Strength",
+   "zoneAreaId": 2437
+  },
+  "5728": {
+   "description": "Hmm, leaders of the Searing Blade... this concerns me most. If they are the ones of value to Neeru, then those are who we must target first. This satyr... Bazzalan, and the other Neeru mentioned--what was he, a warlock?--must be slain.$B$BReturn to the Cleft of Shadow and enter Ragefire Chasm, $n. Find these two leaders of the Searing Blade, and kill them. But be careful not to let Neeru know it was you who did this. You must retain your identity as one of his $gbrothers:sisters; in arms.",
+   "flags": 8,
+   "level": 16,
+   "minLevel": 9,
+   "nextQuestId": 5729,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383650,
+     "objectId": 11519,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 383651,
+     "objectId": 11518,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill Bazzalan and Jergosh the Invoker before returning to Thrall in Orgrimmar.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 800,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 3.05
+   },
+   "sources": 1,
+   "title": "Hidden Enemies",
+   "zoneAreaId": 2437
+  },
+  "5761": {
+   "description": "The primary task set upon me by our great Warchief is to root out the creatures responsible for infesting our lord's great city with demonic influence. The Burning Blade is one threat, but there are others; the Searing Blade for instance, who make their home in Ragefire Chasm, secretly attempting to subvert innocent members of the Horde.$B$BIf they are to be stopped, then their leader must be slain--a Felguard named Taragaman the Hungerer.$B$BKill him, and his heart will appease Thrall, of this I'm sure.",
+   "flags": 8,
+   "level": 16,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383681,
+     "objectId": 14540,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Enter Ragefire Chasm and slay Taragaman the Hungerer, then bring his heart back to Neeru Fireblade in Orgrimmar.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 800,
+    "xpDifficulty": 5,
+    "xpMultiplier": 3.05
+   },
+   "sources": 1,
+   "title": "Slaying the Beast",
+   "zoneAreaId": 2437
+  },
   "6127": {
    "categoryId": 263,
    "description": "Dreadmist Peak to the northwest of the Crossroads is most likely a primary candidate as to the source of the spread of the poison.  Its airy peaks have pools of water that influence the weather patterns.  I suspect the water is now tainted by the demon-worshipping Burning Blade.$B$BUse this sampler to draw water from the pool at the very top of the peak.  Once filled, deliver it to Tonga Runetotem at the Crossroads.  He is the one that requested our aid, and you will work with him to address this malady.",
@@ -536,6 +1433,89 @@
    "sources": 1,
    "startItemId": 15842,
    "title": "The Principal Source"
+  },
+  "6128": {
+   "categoryId": 263,
+   "description": "The water will serve as the base of the curative salve I shall make for the gazelles.  For curative properties, I need some earthroot.  Herbalists know how to find it, so if you are not familiar with this skill you'll need to find one to help us out.$B$BFinally for potency, I need kodo horns - mere chips and fragments will not suffice.  Kodos you can handle wander the northern part of the Barrens; bring some down for the greater good of the balance $n, and fetch the horns for me.",
+   "flags": 8,
+   "level": 14,
+   "minLevel": 14,
+   "nextQuestId": 6129,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 383678,
+     "objectId": 2449,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 5,
+     "id": 383679,
+     "objectId": 15852,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 5 Earthroot and 5 Kodo Horns to Tonga Runetotem at the Crossroads so he may make a curative salve.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 609,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Gathering the Cure"
+  },
+  "6548": {
+   "description": "The Grimtotem Clan raided my village and killed most everyone. I killed all I could, but barely escaped with my life.$b$b$n, all I wish now is that more of them are dead. You will find them just to the west of here.\r\n\r\n",
+   "flags": 8,
+   "level": 18,
+   "minLevel": 12,
+   "nextQuestId": 6629,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 383734,
+     "objectId": 11910,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 6,
+     "id": 383735,
+     "objectId": 11911,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill 8 Grimtotem Ruffians and 6 Grimtotem Mercenaries, and then return to Makaba Flathoof near the southeastern edge of Stonetalon.\r\n",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1000,
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Avenge My Village",
+   "zoneAreaId": 406
   },
   "92401": {
    "areaDescription": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
@@ -623,6 +1603,40 @@
    "sources": 1,
    "title": "The Wrath of Rath'mael",
    "zoneAreaId": 16611
+  },
+  "92706": {
+   "description": "Calling all anglers!\r\n\r\nA giant shark has been circling the waters near the shipping dock, attacking sailors and small boats. Dockworkers have given it the nickname \"Bruuz\". A hefty reward will be given to whoever brings me its fin!\r\n\r\n-- Gazlowe",
+   "flags": 8,
+   "level": 20,
+   "minLevel": 15,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 465433,
+     "objectId": 253710,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Bruuz's Dorsal Fin to Gazlowe in Ratchet.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 2500,
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "WANTED: Bruuz",
+   "zoneAreaId": 17
   },
   "93746": {
    "description": "The High Order has been warned of the consequences of meddling with the Windshaper's affairs. I think we need to make an example out of Belathaan and send him back to the High Order with a few bruises and a healthy respect for the boundaries we set.\r\n\r\nBelathaan was seen leaving town, traveling north towards the Shrine of Akir. I don't know why he was going there, but confronting him alone on the road is the safest option. Find him, and put a bit of fear into his heart.",
@@ -714,6 +1728,108 @@
    "title": "Beasts of Thunder Ridge",
    "zoneAreaId": 14
   },
+  "97003": {
+   "description": "You there, $c. I need your aid. There are rumors of a beast that makes its lair deep in a cave at Thorn Hill, northeast of here. The Razormane call it Chol'aruk or \"The Ravener\". It's supposedly five times the size of a normal quilboar with a thirst for blood that can never be sated.\r\n\r\nMost don't believe the tales. But I do--because I've fought its like before.\r\n\r\nSeek out its lair and slay Chol'aruk. Bring me its head. I warn you though--prepare well and do not go alone.\r\n\r\nBlood and thunder, $c.",
+   "flags": 264,
+   "level": 21,
+   "minLevel": 15,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 474697,
+     "objectId": 276070,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the head of Chol'aruk to Gur'ak in the Barrens.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 276886
+     },
+     {
+      "count": 1,
+      "itemId": 276887
+     },
+     {
+      "count": 1,
+      "itemId": 276888
+     },
+     {
+      "count": 1,
+      "itemId": 276889
+     }
+    ],
+    "money": 5000,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 3.0
+   },
+   "sources": 1,
+   "title": "Chol'aruk the Ravener",
+   "zoneAreaId": 17
+  },
+  "97250": {
+   "description": "Traveler, have you plans to head toward Dustwallow Marsh? I have heard mutterings that a few human soldiers have taken a stand at its border and are toppling the landmarks left behind by our tauren pathfinders.\r\n\r\nRumor has it that a favored tavern has burned to the ground, and in typical Alliance fashion, they immediately cast their blame onto the Horde! I cannot know whether there is any truth to their claim, but their incursion onto OUR land must not stand.\r\n\r\nKill first, investigate later!",
+   "flags": 36700168,
+   "level": 23,
+   "minLevel": 18,
+   "objectives": [
+    {
+     "amount": 2,
+     "id": 475564,
+     "objectId": 268622,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 475565,
+     "objectId": 268623,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Slay Alliance soldiers encroaching into the Barrens at the border to Dustwallow Marsh, then return to Grunt Logmar at Camp Taurajo.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 277286
+     },
+     {
+      "count": 1,
+      "itemId": 277288
+     },
+     {
+      "count": 1,
+      "itemId": 277289
+     }
+    ],
+    "money": 3000,
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Wrongly Blamed, Justly Corrected",
+   "zoneAreaId": 17
+  },
   "97291": {
    "description": "With the head reattached, all we need now is to bind it to the Dark Lady's will. This should not be a problem. The beast barely has brains left as it is after all the beatings it's taken.\r\n\r\nWe simply need to motivate it.\r\n\r\nFetch me a Toxic Skullcap from Miss Grisette in the Trade Quarter. Oh, and some Blisterweed from our local herbalist trainers, the Alliestars. Feel free to just take some, they owe me. And lastly a bit of Essence of Agony. Any old poison vendor should do.\r\n\r\nWe have a potion to make!",
    "flags": 3145736,
@@ -755,6 +1871,43 @@
     "xpMultiplier": 1.0
    },
    "sources": 1,
+   "title": "Unending Torment",
+   "zoneAreaId": 16611
+  },
+  "97292": {
+   "description": "I have concocted a lovely serum that our new guest is sure to find quite... stimulating.\r\n\r\nTake this. Feed it into the workings dripping from above him. Let's see if we can't show him why it's in his best interest to serve loyally.\r\n\r\nAnd try not to drop it. I can't afford a new assistant.",
+   "flags": 36700168,
+   "level": 21,
+   "minLevel": 16,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 475750,
+     "objectId": 272513,
+     "storageIndex": 1,
+     "text": "Hissing Serum administered",
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 477807,
+     "objectId": 281327,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Inject the Hissing Serum into the system above Othmar's body for Master Apothecary Faranell.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "money": 1300,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 281327,
    "title": "Unending Torment",
    "zoneAreaId": 16611
   },
