@@ -129,14 +129,26 @@ of that class saw.
     ID when the game gave it, else `true`) and `chance`;
   - `coins` (coin slots, one per window with money), `copper` and `copperWindows` (money from
     windows with one source, solo);
-  - `positions`, `sources`.
+  - `positions`, `sources`;
+  - `quests[questId]`, under a `|quest` key: the same loot counted per quest the creature was tied to
+    when it died: `windows`, the quest `items` in those windows (`drops`, `quantity`, `shared`,
+    `chance`), and `sources`. A window counts for every quest the creature was tied to.
 - `kills[key]`, keyed as the corpse: `deaths`, `empty` (corpses with nothing on them), `unknown`
-  (corpses the game didn't say about), `levels[level]`, `sources`.
+  (corpses the game didn't say about), `levels[level]`, `sources`, and under a `|quest` key
+  `quests[questId]`: the corpses tied to each quest (`deaths`, `empty`, `unknown`, `sources`).
 
 `chance` is the expected number of that item per kill: the share of corpses with loot
 ((`deaths` - `empty` - `unknown`) / (`deaths` - `unknown`)) times `drops` / `windows`. For a source
 with no kill count (nodes, chests, skinning, containers) it is `drops` / `windows`. It is rounded half
 up to 4 decimals. With few kills it is rough; the counts are there to judge it.
+
+A creature can be tied to several quests at once: killed for one quest, say, and looted for another's
+item. A quest item drops only for a character on the quest that needs it, so its chance per kill is the
+one under that quest, `sources[key].quests[questId].items[itemId].chance`, worked out from that quest's
+own `windows` and `kills`. The chance on the key itself mixes in every other quest's kills. The game
+rarely says which quest a drop is for (an item's `quest` is usually `true`), so look up which quest
+needs the item in the quest's own data: its objectives and `itemDrops` in `quests.<locale>`. Counted by
+EG Link releases after 0.2.9.
 
 ## creatures
 
