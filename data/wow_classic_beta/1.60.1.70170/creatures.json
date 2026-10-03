@@ -1,20 +1,356 @@
 {
  "creatures": {
-  "1512": {
+  "1501": {
    "classifications": [
     "normal"
    ],
+   "deaths": 7,
    "levels": {
-    "1": 2,
-    "2": 1
+    "1": 82
    },
-   "name": "Duskbat",
+   "name": "Mindless Zombie",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3161,
+     "mapY": 0.649,
+     "uiMap": 1420,
+     "worldX": 1882.5,
+     "worldY": 1604.9
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3149,
+     "mapY": 0.6412,
+     "uiMap": 1420,
+     "worldX": 1905.9,
+     "worldY": 1610.4
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3138,
+     "mapY": 0.64,
+     "uiMap": 1420,
+     "worldX": 1909.5,
+     "worldY": 1615.4
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3161,
+     "mapY": 0.6382,
+     "uiMap": 1420,
+     "worldX": 1915,
+     "worldY": 1604.8
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3176,
+     "mapY": 0.638,
+     "uiMap": 1420,
+     "worldX": 1915.6,
+     "worldY": 1598.1
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3109,
+     "mapY": 0.6339,
+     "uiMap": 1420,
+     "worldX": 1927.8,
+     "worldY": 1628.4
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3128,
+     "mapY": 0.633,
+     "uiMap": 1420,
+     "worldX": 1930.5,
+     "worldY": 1619.8
+    }
+   ],
    "reactions": {
     "Horde": [
      4
     ]
    },
-   "seen": 3,
+   "seen": 82,
+   "sources": 1,
+   "xp": {
+    "1:1": {
+     "50": 5
+    },
+    "2:1": {
+     "40": 2
+    }
+   }
+  },
+  "1502": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 7,
+   "levels": {
+    "1": 51,
+    "2": 46
+   },
+   "name": "Wretched Zombie",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3161,
+     "mapY": 0.6392,
+     "uiMap": 1420,
+     "worldX": 1912,
+     "worldY": 1604.8
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3175,
+     "mapY": 0.6388,
+     "uiMap": 1420,
+     "worldX": 1913,
+     "worldY": 1598.4
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3109,
+     "mapY": 0.6339,
+     "uiMap": 1420,
+     "worldX": 1927.8,
+     "worldY": 1628.4
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3127,
+     "mapY": 0.6329,
+     "uiMap": 1420,
+     "worldX": 1930.8,
+     "worldY": 1620.3
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3112,
+     "mapY": 0.6179,
+     "uiMap": 1420,
+     "worldX": 1976,
+     "worldY": 1627.2
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3198,
+     "mapY": 0.609,
+     "uiMap": 1420,
+     "worldX": 2003,
+     "worldY": 1588.4
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2,
+     4
+    ]
+   },
+   "seen": 97,
+   "sources": 1,
+   "xp": {
+    "1:1": {
+     "50": 1
+    },
+    "2:2": {
+     "55": 4
+    }
+   }
+  },
+  "1504": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "3": 1
+   },
+   "name": "Young Night Web Spider",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "1508": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 7,
+   "levels": {
+    "1": 18
+   },
+   "name": "Young Scavenger",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3036,
+     "mapY": 0.613,
+     "uiMap": 1420,
+     "worldX": 1990.7,
+     "worldY": 1661.3
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3192,
+     "mapY": 0.6033,
+     "uiMap": 1420,
+     "worldX": 2020.2,
+     "worldY": 1591.1
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3214,
+     "mapY": 0.5997,
+     "uiMap": 1420,
+     "worldX": 2030.8,
+     "worldY": 1581
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3183,
+     "mapY": 0.586,
+     "uiMap": 1420,
+     "worldX": 2072.1,
+     "worldY": 1595
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3187,
+     "mapY": 0.5833,
+     "uiMap": 1420,
+     "worldX": 2080.4,
+     "worldY": 1593.3
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3192,
+     "mapY": 0.5712,
+     "uiMap": 1420,
+     "worldX": 2116.8,
+     "worldY": 1590.8
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3118,
+     "mapY": 0.5659,
+     "uiMap": 1420,
+     "worldX": 2132.7,
+     "worldY": 1624.5
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 18,
+   "sources": 1,
+   "xp": {
+    "2:1": {
+     "40": 1
+    },
+    "3:1": {
+     "30": 6
+    }
+   }
+  },
+  "1509": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "2": 1,
+    "3": 3
+   },
+   "name": "Ragged Scavenger",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
+  "1512": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 4,
+   "levels": {
+    "1": 10,
+    "2": 11
+   },
+   "name": "Duskbat",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3026,
+     "mapY": 0.6209,
+     "uiMap": 1420,
+     "worldX": 1967.1,
+     "worldY": 1666.1
+    },
+    {
+     "instance": 0,
+     "mapX": 0.2984,
+     "mapY": 0.6154,
+     "uiMap": 1420,
+     "worldX": 1983.7,
+     "worldY": 1685.1
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3083,
+     "mapY": 0.5984,
+     "uiMap": 1420,
+     "worldX": 2034.9,
+     "worldY": 1640.2
+    },
+    {
+     "instance": 0,
+     "mapX": 0.31,
+     "mapY": 0.5855,
+     "uiMap": 1420,
+     "worldX": 2073.8,
+     "worldY": 1632.7
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 21,
+   "sources": 1,
+   "xp": {
+    "3:1": {
+     "30": 3
+    },
+    "3:2": {
+     "44": 1
+    }
+   }
+  },
+  "1513": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "3": 3,
+    "4": 3
+   },
+   "name": "Mangy Duskbat",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 6,
    "sources": 1
   },
   "1568": {
@@ -38,7 +374,7 @@
     "normal"
    ],
    "levels": {
-    "5": 1
+    "5": 6
    },
    "name": "Shadow Priest Sarvis",
    "reactions": {
@@ -46,7 +382,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 6,
    "sources": 1
   },
   "1570": {
@@ -54,7 +390,7 @@
     "normal"
    ],
    "levels": {
-    "5": 1
+    "5": 4
    },
    "name": "Executor Arren",
    "reactions": {
@@ -62,7 +398,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 4,
    "sources": 1
   },
   "1661": {
@@ -70,7 +406,7 @@
     "normal"
    ],
    "levels": {
-    "3": 1
+    "3": 6
    },
    "name": "Novice Elreth",
    "reactions": {
@@ -78,7 +414,23 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 6,
+   "sources": 1
+  },
+  "1736": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "55": 3
+   },
+   "name": "Deathguard Randolph",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
    "sources": 1
   },
   "1737": {
@@ -86,7 +438,7 @@
     "normal"
    ],
    "levels": {
-    "55": 1
+    "55": 4
    },
    "name": "Deathguard Oliver",
    "reactions": {
@@ -94,7 +446,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 4,
    "sources": 1
   },
   "1739": {
@@ -102,7 +454,7 @@
     "normal"
    ],
    "levels": {
-    "55": 1
+    "55": 4
    },
    "name": "Deathguard Phillip",
    "reactions": {
@@ -110,7 +462,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 4,
    "sources": 1
   },
   "1740": {
@@ -118,7 +470,7 @@
     "normal"
    ],
    "levels": {
-    "7": 1
+    "7": 4
    },
    "name": "Deathguard Saltain",
    "reactions": {
@@ -126,7 +478,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 4,
    "sources": 1
   },
   "1741": {
@@ -134,7 +486,7 @@
     "normal"
    ],
    "levels": {
-    "55": 1
+    "55": 4
    },
    "name": "Deathguard Bartrand",
    "reactions": {
@@ -142,8 +494,146 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 4,
    "sources": 1
+  },
+  "1890": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 15,
+   "levels": {
+    "2": 25,
+    "3": 26
+   },
+   "name": "Rattlecage Skeleton",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3354,
+     "mapY": 0.6337,
+     "uiMap": 1420,
+     "worldX": 1928.4,
+     "worldY": 1517.9
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3386,
+     "mapY": 0.6318,
+     "uiMap": 1420,
+     "worldX": 1934.2,
+     "worldY": 1503.4
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3379,
+     "mapY": 0.6261,
+     "uiMap": 1420,
+     "worldX": 1951.4,
+     "worldY": 1506.4
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3217,
+     "mapY": 0.6196,
+     "uiMap": 1420,
+     "worldX": 1970.9,
+     "worldY": 1579.7
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3343,
+     "mapY": 0.6178,
+     "uiMap": 1420,
+     "worldX": 1976.2,
+     "worldY": 1522.9
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3169,
+     "mapY": 0.6086,
+     "uiMap": 1420,
+     "worldX": 2004,
+     "worldY": 1601.1
+    },
+    {
+     "instance": 0,
+     "mapX": 0.318,
+     "mapY": 0.6047,
+     "uiMap": 1420,
+     "worldX": 2015.9,
+     "worldY": 1596.3
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3157,
+     "mapY": 0.6044,
+     "uiMap": 1420,
+     "worldX": 2016.9,
+     "worldY": 1606.5
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3195,
+     "mapY": 0.5999,
+     "uiMap": 1420,
+     "worldX": 2030.3,
+     "worldY": 1589.4
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3264,
+     "mapY": 0.5997,
+     "uiMap": 1420,
+     "worldX": 2031,
+     "worldY": 1558.5
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3208,
+     "mapY": 0.5984,
+     "uiMap": 1420,
+     "worldX": 2034.8,
+     "worldY": 1583.8
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3217,
+     "mapY": 0.5968,
+     "uiMap": 1420,
+     "worldX": 2039.7,
+     "worldY": 1579.7
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3203,
+     "mapY": 0.5956,
+     "uiMap": 1420,
+     "worldX": 2043.3,
+     "worldY": 1585.9
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 51,
+   "sources": 1,
+   "xp": {
+    "2:2": {
+     "55": 3
+    },
+    "2:3": {
+     "58": 1
+    },
+    "3:2": {
+     "44": 8
+    },
+    "3:3": {
+     "60": 3
+    }
+   }
   },
   "1938": {
    "combatLog": {
@@ -154,12 +644,28 @@
     "spawns": 2
    }
   },
+  "2113": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 2
+   },
+   "name": "Archibald Kava",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
   "2115": {
    "classifications": [
     "normal"
    ],
    "levels": {
-    "5": 1
+    "5": 4
    },
    "name": "Joshua Kien",
    "reactions": {
@@ -167,7 +673,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 4,
    "sources": 1
   },
   "2116": {
@@ -175,7 +681,7 @@
     "normal"
    ],
    "levels": {
-    "5": 1
+    "5": 3
    },
    "name": "Blacksmith Rand",
    "reactions": {
@@ -183,7 +689,55 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 3,
+   "sources": 1
+  },
+  "2117": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 2
+   },
+   "name": "Harold Raims",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "2119": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 2
+   },
+   "name": "Dannal Stern",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "2122": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 2
+   },
+   "name": "David Trias",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
    "sources": 1
   },
   "2123": {
@@ -191,7 +745,7 @@
     "normal"
    ],
    "levels": {
-    "5": 1
+    "5": 5
    },
    "name": "Dark Cleric Duesten",
    "reactions": {
@@ -199,7 +753,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 5,
    "sources": 1
   },
   "2124": {
@@ -207,7 +761,7 @@
     "normal"
    ],
    "levels": {
-    "5": 1
+    "5": 6
    },
    "name": "Isabella",
    "reactions": {
@@ -215,7 +769,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 6,
    "sources": 1
   },
   "2126": {
@@ -223,7 +777,7 @@
     "normal"
    ],
    "levels": {
-    "5": 1
+    "5": 6
    },
    "name": "Maximillion",
    "reactions": {
@@ -231,7 +785,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 6,
    "sources": 1
   },
   "2315": {
@@ -239,9 +793,25 @@
     "normal"
    ],
    "levels": {
-    "5": 1
+    "5": 6
    },
    "name": "Maquell Ebonwood",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 6,
+   "sources": 1
+  },
+  "2798": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "35": 1
+   },
+   "name": "Pand Stonebinder",
    "reactions": {
     "Horde": [
      5
@@ -268,6 +838,98 @@
      ]
     },
     "name": "Snake",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -337.95,
+      "y": -64.15
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -220.24,
+      "y": 39.28
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -193.34,
+      "y": 68.69
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -174.39,
+      "y": -346.58
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -173.79,
+      "y": -84.57
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -128.63,
+      "y": -243.2
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -63.88,
+      "y": 203.3
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -57.26,
+      "y": 203.51
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -51.18,
+      "y": 134.51
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -47.65,
+      "y": -196.11
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -47.33,
+      "y": 270.19
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -41.34,
+      "y": 274.14
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -38.29,
+      "y": 490.32
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 21.02,
+      "y": 204.42
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 56.04,
+      "y": 402.73
+     }
+    ],
     "sources": 1,
     "spawns": 18
    }
@@ -388,6 +1050,22 @@
    "seen": 3,
    "sources": 1
   },
+  "2987": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "12": 1
+   },
+   "name": "Eyahn Eagletalon",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "2995": {
    "classifications": [
     "elite"
@@ -420,14 +1098,174 @@
    "seen": 1,
    "sources": 1
   },
-  "3003": {
+  "2997": {
    "classifications": [
     "normal"
    ],
    "levels": {
     "30": 1
    },
+   "name": "Jyn Stonehoof",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "2998": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "35": 1
+   },
+   "name": "Karn Stonehoof",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "2999": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Taur Stonehoof",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3001": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "35": 1
+   },
+   "name": "Brek Stonehoof",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3002": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "40": 1
+   },
+   "name": "Kurm Stonehoof",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3003": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 2
+   },
    "name": "Fyr Mistrunner",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "3004": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "35": 1
+   },
+   "name": "Tepa",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3005": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Mahu",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3007": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "46": 1
+   },
+   "name": "Una",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3008": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "24": 1
+   },
+   "name": "Mak",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3009": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "35": 1
+   },
+   "name": "Bena Winterhoof",
    "reactions": {
     "Horde": [
      5
@@ -441,7 +1279,7 @@
     "normal"
    ],
    "levels": {
-    "30": 1
+    "30": 2
    },
    "name": "Mani Winterhoof",
    "reactions": {
@@ -449,7 +1287,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "3011": {
@@ -457,7 +1295,7 @@
     "normal"
    ],
    "levels": {
-    "35": 1
+    "35": 2
    },
    "name": "Teg Dawnstrider",
    "reactions": {
@@ -465,7 +1303,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "3012": {
@@ -473,7 +1311,7 @@
     "normal"
    ],
    "levels": {
-    "30": 1
+    "30": 2
    },
    "name": "Nata Dawnstrider",
    "reactions": {
@@ -481,7 +1319,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "3013": {
@@ -489,7 +1327,7 @@
     "normal"
    ],
    "levels": {
-    "35": 1
+    "35": 2
    },
    "name": "Komin Winterhoof",
    "reactions": {
@@ -497,7 +1335,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "3014": {
@@ -505,7 +1343,7 @@
     "normal"
    ],
    "levels": {
-    "30": 1
+    "30": 2
    },
    "name": "Nida Winterhoof",
    "reactions": {
@@ -513,7 +1351,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "3015": {
@@ -521,7 +1359,7 @@
     "normal"
    ],
    "levels": {
-    "30": 1
+    "30": 2
    },
    "name": "Kuna Thunderhorn",
    "reactions": {
@@ -529,7 +1367,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "3016": {
@@ -537,7 +1375,7 @@
     "normal"
    ],
    "levels": {
-    "30": 1
+    "30": 2
    },
    "name": "Tand",
    "reactions": {
@@ -545,7 +1383,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "3017": {
@@ -553,7 +1391,7 @@
     "normal"
    ],
    "levels": {
-    "30": 1
+    "30": 2
    },
    "name": "Nan Mistrunner",
    "reactions": {
@@ -561,7 +1399,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "3022": {
@@ -692,12 +1530,60 @@
    "seen": 1,
    "sources": 1
   },
+  "3030": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "50": 1
+   },
+   "name": "Siln Skychaser",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3031": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "40": 1
+   },
+   "name": "Tigor Skychaser",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3032": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "60": 1
+   },
+   "name": "Beram Skychaser",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "3033": {
    "classifications": [
     "normal"
    ],
    "levels": {
-    "50": 5
+    "50": 11
    },
    "name": "Turak Runetotem",
    "reactions": {
@@ -705,7 +1591,7 @@
      5
     ]
    },
-   "seen": 5,
+   "seen": 11,
    "sources": 1
   },
   "3034": {
@@ -713,7 +1599,7 @@
     "normal"
    ],
    "levels": {
-    "60": 3
+    "60": 9
    },
    "name": "Sheal Runetotem",
    "reactions": {
@@ -721,7 +1607,7 @@
      5
     ]
    },
-   "seen": 3,
+   "seen": 9,
    "sources": 1
   },
   "3035": {
@@ -746,7 +1632,7 @@
     "normal"
    ],
    "levels": {
-    "40": 3
+    "40": 4
    },
    "name": "Kym Wildmane",
    "reactions": {
@@ -754,7 +1640,7 @@
      5
     ]
    },
-   "seen": 3,
+   "seen": 4,
    "sources": 1
   },
   "3037": {
@@ -762,9 +1648,121 @@
     "normal"
    ],
    "levels": {
-    "30": 1
+    "30": 2
    },
    "name": "Sheza Wildmane",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "3044": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "40": 1
+   },
+   "name": "Miles Welsh",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3045": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "50": 1
+   },
+   "name": "Malakai Cross",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3046": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "60": 1
+   },
+   "name": "Father Cobb",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3047": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "60": 1
+   },
+   "name": "Archmage Shymm",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3048": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "40": 1
+   },
+   "name": "Ursyn Ghull",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3049": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "50": 1
+   },
+   "name": "Thurston Xane",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3050": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "21": 1
+   },
+   "name": "Veren Tallstrider",
    "reactions": {
     "Horde": [
      5
@@ -794,7 +1792,7 @@
     "normal"
    ],
    "levels": {
-    "55": 16
+    "55": 35
    },
    "name": "Bluffwatcher",
    "reactions": {
@@ -802,7 +1800,55 @@
      5
     ]
    },
-   "seen": 16,
+   "seen": 35,
+   "sources": 1
+  },
+  "3092": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Tagain",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3093": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Grod",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3095": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Fela",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
    "sources": 1
   },
   "3143": {
@@ -1237,7 +2283,7 @@
     "normal"
    ],
    "levels": {
-    "14": 1
+    "14": 2
    },
    "name": "Witchwing Harpy",
    "reactions": {
@@ -1245,7 +2291,7 @@
      2
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "3277": {
@@ -1433,6 +2479,22 @@
    "seen": 1,
    "sources": 1
   },
+  "3419": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "22": 1
+   },
+   "name": "Apothecary Zamah",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "3425": {
    "classifications": [
     "normal"
@@ -1521,6 +2583,22 @@
     "62": 1
    },
    "name": "Melor Stonehoof",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3447": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "24": 1
+   },
+   "name": "Pawe Mistrunner",
    "reactions": {
     "Horde": [
      5
@@ -1801,16 +2879,19 @@
     "name": "Deviate Stinglash",
     "positions": [
      {
+      "map": 1,
       "uiMap": 1414,
       "x": -724.13,
       "y": -2269.96
      },
      {
+      "map": 1,
       "uiMap": 1414,
       "x": -683.77,
       "y": -2188.69
      },
      {
+      "map": 1,
       "uiMap": 1414,
       "x": -664.09,
       "y": -2182.99
@@ -1941,6 +3022,7 @@
     "name": "Deviate Slayer",
     "positions": [
      {
+      "map": 1,
       "uiMap": 1414,
       "x": -703.26,
       "y": -2273.1
@@ -2064,11 +3146,13 @@
     "name": "Deviate Stalker",
     "positions": [
      {
+      "map": 1,
       "uiMap": 1414,
       "x": -720.88,
       "y": -2115.16
      },
      {
+      "map": 1,
       "uiMap": 1414,
       "x": -664.03,
       "y": -2184.77
@@ -2143,6 +3227,110 @@
      }
     },
     "name": "Deviate Ravager",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -95.36,
+      "y": 231.31
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -88.21,
+      "y": 227.48
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -71.49,
+      "y": 202.2
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -63.21,
+      "y": 204.1
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -54.49,
+      "y": 135.8
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -53.64,
+      "y": 147.17
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -48.07,
+      "y": 260.22
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -34.17,
+      "y": 175.23
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -29.92,
+      "y": 84.78
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -19.91,
+      "y": 99.39
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -7.83,
+      "y": 310.46
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 5.42,
+      "y": 312.61
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 10.77,
+      "y": 208.05
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 31.75,
+      "y": 268.54
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 36.67,
+      "y": 174.63
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 41.4,
+      "y": 244.9
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 48.97,
+      "y": 228.55
+     }
+    ],
     "sources": 1,
     "spawns": 19
    }
@@ -2181,6 +3369,80 @@
      }
     },
     "name": "Deviate Guardian",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -107.12,
+      "y": 205.4
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -106.63,
+      "y": 231.46
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -96.93,
+      "y": 188.25
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -74.07,
+      "y": 214.94
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -61.52,
+      "y": 140.73
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -53.34,
+      "y": 139.13
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -48.57,
+      "y": 143.79
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -34.56,
+      "y": 177.15
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 11.41,
+      "y": 215.37
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 11.99,
+      "y": 290.23
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 19.78,
+      "y": 202.44
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 35.58,
+      "y": 171.95
+     }
+    ],
     "sources": 1,
     "spawns": 12
    }
@@ -2215,6 +3477,7 @@
     "name": "Devouring Ectoplasm",
     "positions": [
      {
+      "map": 1,
       "uiMap": 1414,
       "x": -678.04,
       "y": -2189.1
@@ -2297,6 +3560,98 @@
      }
     },
     "name": "Evolving Ectoplasm",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -269.39,
+      "y": -321.8
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -186.97,
+      "y": 69.79
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -185.27,
+      "y": -358.67
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -142.44,
+      "y": 30.77
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -109.73,
+      "y": 229.79
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -98.79,
+      "y": 229.9
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -47.47,
+      "y": -189.56
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -38.24,
+      "y": 211.01
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -36.41,
+      "y": 174.17
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -35.16,
+      "y": -191.5
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -21.24,
+      "y": 175.09
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -19.62,
+      "y": 197.33
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -19.54,
+      "y": 115.95
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 15.28,
+      "y": 471.25
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 99.45,
+      "y": 238.81
+     }
+    ],
     "sources": 1,
     "spawns": 15
    }
@@ -2400,6 +3755,14 @@
      }
     },
     "name": "Kresh",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -179.33,
+      "y": -4.51
+     }
+    ],
     "sources": 1,
     "spawns": 1
    }
@@ -2446,6 +3809,14 @@
      }
     },
     "name": "Mutanus the Devourer",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 143.3,
+      "y": 257.75
+     }
+    ],
     "sources": 1,
     "spawns": 1
    }
@@ -2512,6 +3883,14 @@
      }
     },
     "name": "Lord Cobrahn",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -151.14,
+      "y": 414.37
+     }
+    ],
     "sources": 1,
     "spawns": 1
    }
@@ -2563,6 +3942,14 @@
      }
     },
     "name": "Lord Pythas",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 34.59,
+      "y": -239.37
+     }
+    ],
     "sources": 1,
     "spawns": 1
    }
@@ -2614,6 +4001,14 @@
      }
     },
     "name": "Lady Anacondra",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -55.26,
+      "y": 274.7
+     }
+    ],
     "sources": 1,
     "spawns": 1
    }
@@ -2660,6 +4055,14 @@
      }
     },
     "name": "Lord Serpentis",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -117.17,
+      "y": -21.84
+     }
+    ],
     "sources": 1,
     "spawns": 1
    }
@@ -2696,6 +4099,14 @@
      }
     },
     "name": "Skum",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -285.87,
+      "y": -312.84
+     }
+    ],
     "sources": 1,
     "spawns": 1
    }
@@ -2737,6 +4148,20 @@
      }
     },
     "name": "Disciple of Naralex",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -134.97,
+      "y": 125.4
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 114.94,
+      "y": 237.72
+     }
+    ],
     "sources": 1,
     "spawns": 2
    }
@@ -2762,6 +4187,44 @@
      ]
     },
     "name": "Serpentbloom Snake",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -202.89,
+      "y": 36.9
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -155.99,
+      "y": -108.23
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 1.23,
+      "y": 519.85
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 14.14,
+      "y": 275.25
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 16.58,
+      "y": 171.35
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 25.04,
+      "y": -183.29
+     }
+    ],
     "sources": 1,
     "spawns": 6
    },
@@ -2866,6 +4329,284 @@
      }
     },
     "name": "Druid of the Fang",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -352.83,
+      "y": 43.29
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -352.57,
+      "y": 22.63
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -343.81,
+      "y": 51.49
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -333.08,
+      "y": -78.99
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -271.24,
+      "y": -176.35
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -269.43,
+      "y": -297.78
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -265.86,
+      "y": 43.14
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -264.55,
+      "y": -301.76
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -264.36,
+      "y": -180.5
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -231.16,
+      "y": 50.75
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -229.25,
+      "y": -302.22
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -216.44,
+      "y": 47.01
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -214.01,
+      "y": -309.31
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -198.35,
+      "y": 34.68
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -193.76,
+      "y": 61.54
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -169.95,
+      "y": -90.15
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -153.35,
+      "y": -299.65
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -137.15,
+      "y": -181.85
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -127.62,
+      "y": -248.85
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -127.47,
+      "y": 410.48
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -113.84,
+      "y": 458.78
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -110.16,
+      "y": -281.35
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -107.58,
+      "y": 448.95
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -102.14,
+      "y": -8.77
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -78.55,
+      "y": 479.51
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -61.85,
+      "y": 282.84
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -57.69,
+      "y": -243.35
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -57.64,
+      "y": 141.39
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -39.54,
+      "y": -193.37
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -38.19,
+      "y": 481.37
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -38.09,
+      "y": 191.91
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -26.72,
+      "y": 491.01
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -19.11,
+      "y": 419.26
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -17.42,
+      "y": 425.65
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -14.76,
+      "y": 120.34
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -4.85,
+      "y": 415.77
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -2.79,
+      "y": -199.29
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 10.47,
+      "y": 211.58
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 15.34,
+      "y": 297.18
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 16.26,
+      "y": 511.75
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 25.19,
+      "y": 530.93
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 30.23,
+      "y": 165.31
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 31.07,
+      "y": -238.97
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 40.63,
+      "y": 472.69
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 49.9,
+      "y": 409.32
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 61.25,
+      "y": 442.17
+     }
+    ],
     "sources": 1,
     "spawns": 46
    }
@@ -2886,12 +4627,28 @@
    "seen": 1,
    "sources": 1
   },
+  "3978": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Sage Truthseeker",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "4046": {
    "classifications": [
     "normal"
    ],
    "levels": {
-    "62": 2
+    "62": 3
    },
    "name": "Magatha Grimtotem",
    "reactions": {
@@ -2899,7 +4656,7 @@
      5
     ]
    },
-   "seen": 2,
+   "seen": 3,
    "sources": 1
   },
   "4068": {
@@ -2916,6 +4673,22 @@
     ]
    },
    "seen": 11,
+   "sources": 1
+  },
+  "4075": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "1": 1
+   },
+   "name": "Rat",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
    "sources": 1
   },
   "4127": {
@@ -2957,7 +4730,7 @@
     "normal"
    ],
    "levels": {
-    "62": 5
+    "62": 6
    },
    "name": "Gorm Grimtotem",
    "reactions": {
@@ -2965,7 +4738,7 @@
      5
     ]
    },
-   "seen": 5,
+   "seen": 6,
    "sources": 1
   },
   "4310": {
@@ -2973,7 +4746,7 @@
     "normal"
    ],
    "levels": {
-    "62": 5
+    "62": 6
    },
    "name": "Cor Grimtotem",
    "reactions": {
@@ -2981,7 +4754,7 @@
      5
     ]
    },
-   "seen": 5,
+   "seen": 6,
    "sources": 1
   },
   "4316": {
@@ -3009,6 +4782,22 @@
     ]
    },
    "seen": 8,
+   "sources": 1
+  },
+  "4451": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "28": 1
+   },
+   "name": "Auld Stonespire",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
    "sources": 1
   },
   "4721": {
@@ -3084,6 +4873,62 @@
      }
     },
     "name": "Deviate Adder",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -123.16,
+      "y": 410.34
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -68.19,
+      "y": 476.67
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -60.25,
+      "y": 273.1
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -57.55,
+      "y": 280.21
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -23.91,
+      "y": 479.21
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -23.71,
+      "y": 386.78
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 21.95,
+      "y": 513.08
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 28.92,
+      "y": 436.94
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 63.6,
+      "y": 434.62
+     }
+    ],
     "sources": 1,
     "spawns": 9
    }
@@ -3134,9 +4979,105 @@
      }
     },
     "name": "Deviate Crocolisk",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -265.78,
+      "y": -4.57
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -245.4,
+      "y": -11.47
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -198.21,
+      "y": -1.0
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -177.53,
+      "y": -6.85
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -152.89,
+      "y": 24.43
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -75.23,
+      "y": 416.0
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -66.92,
+      "y": 316.48
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -54.83,
+      "y": 70.61
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -49.9,
+      "y": 79.52
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -42.61,
+      "y": 309.33
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -37.94,
+      "y": 115.77
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -13.3,
+      "y": 154.48
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -4.82,
+      "y": 215.72
+     }
+    ],
     "sources": 1,
     "spawns": 15
    }
+  },
+  "5054": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "50": 1
+   },
+   "name": "Krumn",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
   },
   "5055": {
    "combatLog": {
@@ -3179,6 +5120,140 @@
      }
     },
     "name": "Deviate Lasher",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -291.62,
+      "y": -247.52
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -286.42,
+      "y": -251.24
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -213.45,
+      "y": -304.87
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -195.43,
+      "y": 64.89
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -189.98,
+      "y": 67.08
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -186.4,
+      "y": 59.07
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -185.89,
+      "y": -196.67
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -183.27,
+      "y": -203.73
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -178.55,
+      "y": -209.45
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -171.88,
+      "y": -54.82
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -169.26,
+      "y": -50.13
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -165.92,
+      "y": -39.59
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -159.05,
+      "y": 75.58
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -158.03,
+      "y": 68.03
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -154.47,
+      "y": -295.57
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -153.64,
+      "y": 63.16
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -148.17,
+      "y": 2.48
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -1.95,
+      "y": -202.71
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 6.25,
+      "y": -193.92
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 15.51,
+      "y": -195.84
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 16.41,
+      "y": -172.4
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 28.95,
+      "y": -168.01
+     }
+    ],
     "sources": 1,
     "spawns": 36
    }
@@ -3224,9 +5299,109 @@
      }
     },
     "name": "Deviate Dreadfang",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -305.52,
+      "y": -153.56
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -273.13,
+      "y": -227.54
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -272.06,
+      "y": -177.61
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -262.39,
+      "y": -292.4
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -226.24,
+      "y": -295.96
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -192.6,
+      "y": -241.32
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -179.33,
+      "y": -353.11
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -169.26,
+      "y": -245.19
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -148.03,
+      "y": 2.4
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -123.72,
+      "y": -240.28
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -116.58,
+      "y": -19.12
+     }
+    ],
     "sources": 1,
     "spawns": 11
    }
+  },
+  "5189": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "25": 1
+   },
+   "name": "Thrumn",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "5543": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "17": 1
+   },
+   "name": "Clarice Foster",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
+   "sources": 1
   },
   "5599": {
    "classifications": [
@@ -3249,7 +5424,7 @@
     "normal"
    ],
    "levels": {
-    "10": 1
+    "10": 5
    },
    "name": "Venya Marthand",
    "reactions": {
@@ -3257,7 +5432,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 5,
    "sources": 1
   },
   "5749": {
@@ -3265,7 +5440,7 @@
     "normal"
    ],
    "levels": {
-    "10": 1
+    "10": 6
    },
    "name": "Kayla Smithe",
    "reactions": {
@@ -3273,7 +5448,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 6,
    "sources": 1
   },
   "5755": {
@@ -3317,6 +5492,62 @@
      }
     },
     "name": "Deviate Viper",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -103.84,
+      "y": 452.93
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -89.41,
+      "y": 465.03
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -55.65,
+      "y": 276.67
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -31.89,
+      "y": 484.23
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -31.44,
+      "y": 410.17
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -17.11,
+      "y": 494.46
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 4.62,
+      "y": 452.26
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 25.16,
+      "y": 441.52
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 49.7,
+      "y": 466.98
+     }
+    ],
     "sources": 1,
     "spawns": 10
    }
@@ -3362,6 +5593,56 @@
      }
     },
     "name": "Deviate Venomwing",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -334.87,
+      "y": -74.39
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -309.59,
+      "y": -100.78
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -303.16,
+      "y": -114.52
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -244.07,
+      "y": -157.78
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -193.92,
+      "y": 43.44
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -182.53,
+      "y": 55.57
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -145.27,
+      "y": -194.15
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -114.25,
+      "y": -256.38
+     }
+    ],
     "sources": 1,
     "spawns": 8
    }
@@ -3408,6 +5689,98 @@
      }
     },
     "name": "Deviate Shambler",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -349.95,
+      "y": 40.74
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -344.73,
+      "y": 23.76
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -339.72,
+      "y": 49.49
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -264.62,
+      "y": 38.77
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -239.15,
+      "y": 47.48
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -176.27,
+      "y": -76.75
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -124.4,
+      "y": -101.56
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -119.24,
+      "y": -97.39
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -69.7,
+      "y": -147.11
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -56.3,
+      "y": -238.01
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -47.91,
+      "y": -183.48
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -41.74,
+      "y": -162.34
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 9.66,
+      "y": -193.33
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 15.18,
+      "y": -225.43
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 31.05,
+      "y": -165.68
+     }
+    ],
     "sources": 1,
     "spawns": 17
    }
@@ -3446,6 +5819,26 @@
      }
     },
     "name": "Deviate Moccasin",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 106.98,
+      "y": 284.48
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 118.56,
+      "y": 234.49
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 159.33,
+      "y": 255.24
+     }
+    ],
     "sources": 1,
     "spawns": 3
    }
@@ -3484,6 +5877,50 @@
      }
     },
     "name": "Nightmare Ectoplasm",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 107.16,
+      "y": 267.1
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 120.01,
+      "y": 206.23
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 124.93,
+      "y": 278.35
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 128.03,
+      "y": 202.67
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 133.01,
+      "y": 251.29
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 134.13,
+      "y": 218.39
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 145.41,
+      "y": 232.36
+     }
+    ],
     "sources": 1,
     "spawns": 8
    }
@@ -3525,7 +5962,7 @@
     "normal"
    ],
    "levels": {
-    "62": 1
+    "62": 2
    },
    "name": "Arch Druid Hamuul Runetotem",
    "reactions": {
@@ -3533,7 +5970,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "5770": {
@@ -3541,7 +5978,7 @@
     "normal"
    ],
    "levels": {
-    "55": 6
+    "55": 7
    },
    "name": "Nara Wildmane",
    "reactions": {
@@ -3549,7 +5986,7 @@
      5
     ]
    },
-   "seen": 6,
+   "seen": 7,
    "sources": 1
   },
   "5775": {
@@ -3584,6 +6021,14 @@
      }
     },
     "name": "Verdan the Everliving",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -81.98,
+      "y": 32.08
+     }
+    ],
     "sources": 1,
     "spawns": 1
    }
@@ -3680,6 +6125,22 @@
    "seen": 1,
    "sources": 1
   },
+  "5906": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "15": 1
+   },
+   "name": "Xanis Flameweaver",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "5952": {
    "classifications": [
     "normal"
@@ -3696,6 +6157,22 @@
    "seen": 5,
    "sources": 1
   },
+  "5957": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "45": 1
+   },
+   "name": "Birgitte Cranston",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "6393": {
    "classifications": [
     "normal"
@@ -3703,6 +6180,22 @@
    "levels": {
     "62": 1
    },
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "6410": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "45": 1
+   },
+   "name": "Orm Stonehoof",
    "reactions": {
     "Horde": [
      5
@@ -3731,7 +6224,7 @@
     "normal"
    ],
    "levels": {
-    "35": 1
+    "35": 2
    },
    "name": "Mooranta",
    "reactions": {
@@ -3739,7 +6232,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "7427": {
@@ -3854,6 +6347,54 @@
    "seen": 1,
    "sources": 1
   },
+  "8362": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Kuruk",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "8363": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Shadi Mistrunner",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "8364": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Pakwa",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "8664": {
    "classifications": [
     "normal"
@@ -3862,6 +6403,38 @@
     "50": 1
    },
    "name": "Saern Priderunner",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "8674": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "50": 1
+   },
+   "name": "Auctioneer Stampi",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "8722": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "50": 1
+   },
+   "name": "Auctioneer Gullem",
    "reactions": {
     "Horde": [
      5
@@ -3904,6 +6477,38 @@
      }
     },
     "name": "Deviate Python",
+    "positions": [
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -145.35,
+      "y": 415.06
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -110.95,
+      "y": 445.33
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": -39.09,
+      "y": 479.12
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 42.32,
+      "y": 475.69
+     },
+     {
+      "map": 43,
+      "uiMap": 0,
+      "x": 54.16,
+      "y": 400.13
+     }
+    ],
     "sources": 1,
     "spawns": 13
    }
@@ -3913,7 +6518,7 @@
     "normal"
    ],
    "levels": {
-    "25": 1
+    "25": 4
    },
    "name": "Ghede",
    "reactions": {
@@ -3921,7 +6526,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 4,
    "sources": 1
   },
   "9087": {
@@ -3929,7 +6534,7 @@
     "normal"
    ],
    "levels": {
-    "35": 1
+    "35": 2
    },
    "name": "Bashana Runetotem",
    "reactions": {
@@ -3937,7 +6542,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "9796": {
@@ -3977,7 +6582,7 @@
     "normal"
    ],
    "levels": {
-    "30": 1
+    "30": 2
    },
    "name": "Bulrug",
    "reactions": {
@@ -3985,7 +6590,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "10176": {
@@ -3995,6 +6600,22 @@
    "levels": {
     "20": 1
    },
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "10278": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "24": 1
+   },
+   "name": "Thrag Stonehoof",
    "reactions": {
     "Horde": [
      5
@@ -4024,9 +6645,41 @@
     "normal"
    ],
    "levels": {
-    "3": 1
+    "3": 2
    },
    "name": "Bluff Runner Windstrider",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "11047": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "25": 1
+   },
+   "name": "Kray",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "11051": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "26": 1
+   },
+   "name": "Vhan",
    "reactions": {
     "Horde": [
      5
@@ -4040,9 +6693,25 @@
     "normal"
    ],
    "levels": {
-    "21": 1
+    "21": 2
    },
    "name": "Mot Dawnstrider",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "11084": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "36": 1
+   },
+   "name": "Tarn",
    "reactions": {
     "Horde": [
      5
@@ -4056,9 +6725,25 @@
     "normal"
    ],
    "levels": {
-    "20": 1
+    "20": 2
    },
    "name": "Rahauro",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "11869": {
+   "classifications": [
+    "elite"
+   ],
+   "levels": {
+    "50": 1
+   },
+   "name": "Ansekhwa",
    "reactions": {
     "Horde": [
      5
@@ -4088,12 +6773,28 @@
     "normal"
    ],
    "levels": {
-    "5": 1
+    "5": 4
    },
    "name": "Claire Willower",
    "reactions": {
     "Horde": [
      5
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
+  "12198": {
+   "classifications": [
+    "elite"
+   ],
+   "levels": {
+    "61": 1
+   },
+   "name": "Martin Lindsey",
+   "reactions": {
+    "Horde": [
+     4
     ]
    },
    "seen": 1,
@@ -4120,7 +6821,7 @@
     "normal"
    ],
    "levels": {
-    "10": 1
+    "10": 6
    },
    "name": "Imp Minion",
    "reactions": {
@@ -4128,7 +6829,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 6,
    "sources": 1
   },
   "14440": {
@@ -4152,7 +6853,7 @@
     "elite"
    ],
    "levels": {
-    "60": 1
+    "60": 2
    },
    "name": "Hunter Ragetotem",
    "reactions": {
@@ -4160,7 +6861,7 @@
      5
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "14442": {
@@ -4168,7 +6869,7 @@
     "elite"
    ],
    "levels": {
-    "60": 5
+    "60": 6
    },
    "name": "Hunter Thunderhorn",
    "reactions": {
@@ -4176,7 +6877,23 @@
      5
     ]
    },
-   "seen": 5,
+   "seen": 6,
+   "sources": 1
+  },
+  "14728": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "35": 1
+   },
+   "name": "Rumstag Proudstrider",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
    "sources": 1
   },
   "15350": {
@@ -4195,14 +6912,61 @@
    "seen": 1,
    "sources": 1
   },
+  "205729": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "244808": {
    "classifications": [
     "normal"
    ],
    "levels": {
-    "5": 1
+    "5": 5
    },
    "name": "Aramis Hammerhand",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 5,
+   "sources": 1
+  },
+  "246344": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Alodan the Hopeful",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "258466": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Boramu",
    "reactions": {
     "Horde": [
      5
@@ -4216,7 +6980,7 @@
     "normal"
    ],
    "levels": {
-    "1": 2
+    "1": 44
    },
    "name": "Injured Deathguard",
    "reactions": {
@@ -4224,7 +6988,7 @@
      5
     ]
    },
-   "seen": 2,
+   "seen": 44,
    "sources": 1
   },
   "263647": {
@@ -4241,6 +7005,70 @@
     ]
    },
    "seen": 1,
+   "sources": 1
+  },
+  "267323": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "6": 2
+   },
+   "name": "Clarence Gillian",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "267324": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 1
+   },
+   "name": "Margaret Weaver",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "267325": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 1
+   },
+   "name": "Walter Mason",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "267326": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 3
+   },
+   "name": "Florence Nightshade",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
    "sources": 1
   },
   "267329": {
@@ -4275,6 +7103,22 @@
    "seen": 1,
    "sources": 1
   },
+  "269068": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "55": 1
+   },
+   "name": "Eylah Sunhorn",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "274845": {
    "classifications": [
     "normal"
@@ -4299,6 +7143,22 @@
     "55": 1
    },
    "name": "Kihea Ragetotem",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "277055": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "35": 1
+   },
+   "name": "Axle Smoothslice",
    "reactions": {
     "Horde": [
      5

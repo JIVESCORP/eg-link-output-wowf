@@ -361,6 +361,124 @@
    ],
    "sources": 1,
    "times": 4
+  },
+  "164662": {
+   "name": "Equipment Boxes",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3241,
+     "mapY": 0.6416,
+     "uiMap": 1420,
+     "worldX": 1904.6,
+     "worldY": 1568.9
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3256,
+     "mapY": 0.6415,
+     "uiMap": 1420,
+     "worldX": 1905.1,
+     "worldY": 1562.2
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3247,
+     "mapY": 0.6395,
+     "uiMap": 1420,
+     "worldX": 1911.1,
+     "worldY": 1566.3
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3252,
+     "mapY": 0.6385,
+     "uiMap": 1420,
+     "worldX": 1914,
+     "worldY": 1563.7
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3266,
+     "mapY": 0.6303,
+     "uiMap": 1420,
+     "worldX": 1938.6,
+     "worldY": 1557.5
+    },
+    {
+     "instance": 0,
+     "mapX": 0.325,
+     "mapY": 0.629,
+     "uiMap": 1420,
+     "worldX": 1942.5,
+     "worldY": 1564.9
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3193,
+     "mapY": 0.6215,
+     "uiMap": 1420,
+     "worldX": 1965.4,
+     "worldY": 1590.5
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3188,
+     "mapY": 0.6201,
+     "uiMap": 1420,
+     "worldX": 1969.3,
+     "worldY": 1593
+    },
+    {
+     "instance": 0,
+     "mapX": 0.32,
+     "mapY": 0.6188,
+     "uiMap": 1420,
+     "worldX": 1973.5,
+     "worldY": 1587.1
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3197,
+     "mapY": 0.6166,
+     "uiMap": 1420,
+     "worldX": 1980,
+     "worldY": 1588.9
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3248,
+     "mapY": 0.615,
+     "uiMap": 1420,
+     "worldX": 1984.8,
+     "worldY": 1565.5
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3267,
+     "mapY": 0.6138,
+     "uiMap": 1420,
+     "worldX": 1988.4,
+     "worldY": 1557.2
+    }
+   ],
+   "sources": 1,
+   "times": 23
+  },
+  "177207": {
+   "name": "Mists of Dawn",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.7525,
+     "mapY": 0.2762,
+     "uiMap": 1456,
+     "worldX": -1042.2,
+     "worldY": -268.8
+    }
+   ],
+   "sources": 1,
+   "times": 1
   }
  },
  "meta": {
@@ -415,14 +533,27 @@
     5
    ],
    "name": "Shadow Priest Sarvis",
+   "offers": {
+    "364": {
+     "title": "The Mindless Ones"
+    },
+    "3099": {
+     "level": 1,
+     "title": "Tainted Scroll"
+    },
+    "3901": {
+     "level": 3,
+     "title": "Rattling the Rattlecages"
+    }
+   },
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.3083,
-     "mapY": 0.662,
+     "mapX": 0.3086,
+     "mapY": 0.663,
      "uiMap": 1420,
-     "worldX": 1843.3,
-     "worldY": 1640.3
+     "worldX": 1840.3,
+     "worldY": 1638.9
     }
    ],
    "side": "Horde",
@@ -431,9 +562,332 @@
     "363": {
      "level": 1,
      "title": "Rude Awakening"
+    },
+    "364": {
+     "level": 2,
+     "title": "The Mindless Ones"
+    },
+    "3901": {
+     "level": 3,
+     "title": "Rattling the Rattlecages"
     }
    },
+   "windows": 6
+  },
+  "1570": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Executor Arren",
+   "offers": {
+    "380": {
+     "title": "Night Web's Hollow"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3213,
+     "mapY": 0.6613,
+     "uiMap": 1420,
+     "worldX": 1845.3,
+     "worldY": 1581.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "380": {
+     "title": "Night Web's Hollow"
+    }
+   },
+   "windows": 0
+  },
+  "1661": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    3
+   ],
+   "name": "Novice Elreth",
+   "offers": {
+    "376": {
+     "title": "The Damned"
+    },
+    "6395": {
+     "title": "Marla's Last Wish"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3089,
+     "mapY": 0.6608,
+     "uiMap": 1420,
+     "worldX": 1846.7,
+     "worldY": 1637.6
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "376": {
+     "title": "The Damned"
+    }
+   },
+   "windows": 0
+  },
+  "1740": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    7
+   ],
+   "name": "Deathguard Saltain",
+   "offers": {
+    "3902": {
+     "title": "Scavenging Deathknell"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3168,
+     "mapY": 0.6578,
+     "uiMap": 1420,
+     "worldX": 1855.9,
+     "worldY": 1601.9
+    },
+    {
+     "instance": 0,
+     "mapX": 0.317,
+     "mapY": 0.656,
+     "uiMap": 1420,
+     "worldX": 1861.4,
+     "worldY": 1600.9
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "3902": {
+     "title": "Scavenging Deathknell"
+    }
+   },
+   "windows": 0
+  },
+  "2113": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Archibald Kava",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3238,
+     "mapY": 0.6562,
+     "uiMap": 1420,
+     "worldX": 1860.8,
+     "worldY": 1570.3
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
+  "2115": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Joshua Kien",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3227,
+     "mapY": 0.6554,
+     "uiMap": 1420,
+     "worldX": 1863.2,
+     "worldY": 1575.2
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
+  "2116": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Blacksmith Rand",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3234,
+     "mapY": 0.6628,
+     "uiMap": 1420,
+     "worldX": 1840.9,
+     "worldY": 1572.2
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
    "windows": 1
+  },
+  "2117": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Harold Raims",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3238,
+     "mapY": 0.6637,
+     "uiMap": 1420,
+     "worldX": 1838.2,
+     "worldY": 1570.1
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "2119": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Dannal Stern",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3264,
+     "mapY": 0.6561,
+     "uiMap": 1420,
+     "worldX": 1861,
+     "worldY": 1558.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "2122": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "David Trias",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.325,
+     "mapY": 0.656,
+     "uiMap": 1420,
+     "worldX": 1861.3,
+     "worldY": 1564.8
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "2126": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Maximillion",
+   "options": {
+    "98050": {
+     "icon": 132058,
+     "name": "I submit myself for further training my master."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3093,
+     "mapY": 0.6635,
+     "uiMap": 1420,
+     "worldX": 1838.7,
+     "worldY": 1635.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "3099": {
+     "level": 1,
+     "title": "Tainted Scroll"
+    }
+   },
+   "windows": 14
+  },
+  "2798": {
+   "interactions": [
+    "Gossip",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    35
+   ],
+   "name": "Pand Stonebinder",
+   "options": {
+    "96867": {
+     "icon": 132058,
+     "name": "Train me."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2943,
+     "mapY": 0.2167,
+     "uiMap": 1456,
+     "worldX": -1000.8,
+     "worldY": 209.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
   },
   "2995": {
    "interactions": [
@@ -459,6 +913,493 @@
      "uiMap": 1456,
      "worldX": -1198.9,
      "worldY": 29.1
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
+  "2997": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    30
+   ],
+   "name": "Jyn Stonehoof",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4119,
+     "mapY": 0.6246,
+     "uiMap": 1456,
+     "worldX": -1284.6,
+     "worldY": 86.8
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "2998": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    35
+   ],
+   "name": "Karn Stonehoof",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3942,
+     "mapY": 0.5533,
+     "uiMap": 1456,
+     "worldX": -1235,
+     "worldY": 105.2
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3001": {
+   "interactions": [
+    "Gossip",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    35
+   ],
+   "name": "Brek Stonehoof",
+   "options": {
+    "142380": {
+     "icon": 132058,
+     "name": "I would like to train."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3448,
+     "mapY": 0.5775,
+     "uiMap": 1456,
+     "worldX": -1251.8,
+     "worldY": 156.8
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
+  "3002": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    40
+   ],
+   "name": "Kurm Stonehoof",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3448,
+     "mapY": 0.5684,
+     "uiMap": 1456,
+     "worldX": -1245.5,
+     "worldY": 156.8
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3003": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    30
+   ],
+   "name": "Fyr Mistrunner",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4113,
+     "mapY": 0.5336,
+     "uiMap": 1456,
+     "worldX": -1221.3,
+     "worldY": 87.3
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3013": {
+   "interactions": [
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    35
+   ],
+   "name": "Komin Winterhoof",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.499,
+     "mapY": 0.3964,
+     "uiMap": 1456,
+     "worldX": -1125.8,
+     "worldY": -4.2
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3014": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    30
+   ],
+   "name": "Nida Winterhoof",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4955,
+     "mapY": 0.3884,
+     "uiMap": 1456,
+     "worldX": -1120.3,
+     "worldY": -0.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3030": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    50
+   ],
+   "name": "Siln Skychaser",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2292,
+     "mapY": 0.2109,
+     "uiMap": 1456,
+     "worldX": -996.8,
+     "worldY": 277.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3031": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    40
+   ],
+   "name": "Tigor Skychaser",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2339,
+     "mapY": 0.1903,
+     "uiMap": 1456,
+     "worldX": -982.4,
+     "worldY": 272.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3032": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    60
+   ],
+   "name": "Beram Skychaser",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.22,
+     "mapY": 0.1918,
+     "uiMap": 1456,
+     "worldX": -983.5,
+     "worldY": 287.1
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3033": {
+   "interactions": [
+    "Gossip",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    50
+   ],
+   "name": "Turak Runetotem",
+   "options": {
+    "95969": {
+     "icon": 132053,
+     "name": "I wish to unlearn my class or legacy talents."
+    },
+    "95970": {
+     "icon": 132058,
+     "name": "I seek training as a druid."
+    },
+    "97304": {
+     "icon": 132053,
+     "name": "Yes. I would like to unlearn my class talents."
+    },
+    "141443": {
+     "icon": 132053,
+     "name": "Yes. I would like to unlearn my legacy talents."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.7617,
+     "mapY": 0.2759,
+     "uiMap": 1456,
+     "worldX": -1042,
+     "worldY": -278.4
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 4
+  },
+  "3034": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    60
+   ],
+   "name": "Sheal Runetotem",
+   "options": {
+    "96075": {
+     "icon": 132053,
+     "name": "I wish to unlearn my class or legacy talents."
+    },
+    "96076": {
+     "icon": 132058,
+     "name": "I seek further druidic training to have a closer understanding of the Earth Mother's will."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.7676,
+     "mapY": 0.2735,
+     "uiMap": 1456,
+     "worldX": -1040.3,
+     "worldY": -284.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3036": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    40
+   ],
+   "name": "Kym Wildmane",
+   "options": {
+    "98176": {
+     "icon": 132053,
+     "name": "I wish to unlearn my class or legacy talents."
+    },
+    "98177": {
+     "icon": 132058,
+     "name": "I seek further druidic training to have a closer understanding of the Earth Mother's will."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.7736,
+     "mapY": 0.2978,
+     "uiMap": 1456,
+     "worldX": -1057.2,
+     "worldY": -290.8
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3045": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    50
+   ],
+   "name": "Malakai Cross",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2469,
+     "mapY": 0.2245,
+     "uiMap": 1456,
+     "worldX": -1006.2,
+     "worldY": 258.9
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3047": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    60
+   ],
+   "name": "Archmage Shymm",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2274,
+     "mapY": 0.1475,
+     "uiMap": 1456,
+     "worldX": -952.6,
+     "worldY": 279.3
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3048": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    40
+   ],
+   "name": "Ursyn Ghull",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2572,
+     "mapY": 0.1465,
+     "uiMap": 1456,
+     "worldX": -952,
+     "worldY": 248.2
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3084": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    55
+   ],
+   "name": "Bluffwatcher",
+   "options": {
+    "96458": {
+     "icon": 132053,
+     "name": "A profession trainer"
+    },
+    "96459": {
+     "icon": 132053,
+     "name": "A class trainer"
+    },
+    "96460": {
+     "icon": 132053,
+     "name": "The battlemaster"
+    },
+    "96461": {
+     "icon": 132053,
+     "name": "The stable master"
+    },
+    "96462": {
+     "icon": 132053,
+     "name": "The weapon master"
+    },
+    "96463": {
+     "icon": 132053,
+     "name": "The auction house"
+    },
+    "96464": {
+     "icon": 132053,
+     "name": "The mailbox"
+    },
+    "96465": {
+     "icon": 132053,
+     "name": "The inn"
+    },
+    "96466": {
+     "icon": 132053,
+     "name": "The guild master"
+    },
+    "96467": {
+     "icon": 132053,
+     "name": "The wind rider master"
+    },
+    "96468": {
+     "icon": 132053,
+     "name": "The bank"
+    },
+    "143292": {
+     "icon": 132053,
+     "name": "The barbershop"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.502,
+     "mapY": 0.3791,
+     "uiMap": 1456,
+     "worldX": -1113.8,
+     "worldY": -7.3
     }
    ],
    "side": "Horde",
@@ -540,6 +1481,64 @@
    },
    "windows": 3
   },
+  "5054": {
+   "interactions": [
+    "Gossip",
+    "GuildTabardVendor",
+    "Registrar"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    50
+   ],
+   "name": "Krumn",
+   "options": {
+    "96985": {
+     "icon": 132055,
+     "name": "How do I form a guild?"
+    },
+    "96986": {
+     "icon": 132056,
+     "name": "I want to create a guild crest."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3746,
+     "mapY": 0.633,
+     "uiMap": 1456,
+     "worldX": -1290.5,
+     "worldY": 125.6
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 4
+  },
+  "5189": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    25
+   ],
+   "name": "Thrumn",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3746,
+     "mapY": 0.633,
+     "uiMap": 1456,
+     "worldX": -1290.5,
+     "worldY": 125.6
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
   "5667": {
    "interactions": [
     "QuestGiver"
@@ -566,7 +1565,42 @@
    ],
    "side": "Horde",
    "sources": 1,
+   "takes": {
+    "1470": {
+     "title": "Piercing the Veil"
+    }
+   },
    "windows": 0
+  },
+  "5749": {
+   "interactions": [
+    "Gossip",
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    10
+   ],
+   "name": "Kayla Smithe",
+   "options": {
+    "97874": {
+     "icon": 132060,
+     "name": "Show me your selection of grimoires."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3082,
+     "mapY": 0.6641,
+     "uiMap": 1420,
+     "worldX": 1836.9,
+     "worldY": 1640.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 14
   },
   "5769": {
    "interactions": [
@@ -585,6 +1619,144 @@
      "uiMap": 1456,
      "worldX": -1048.9,
      "worldY": -302.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
+  "5957": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    45
+   ],
+   "name": "Birgitte Cranston",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2221,
+     "mapY": 0.171,
+     "uiMap": 1456,
+     "worldX": -969,
+     "worldY": 284.8
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "8362": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    30
+   ],
+   "name": "Kuruk",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.389,
+     "mapY": 0.6425,
+     "uiMap": 1456,
+     "worldX": -1297.1,
+     "worldY": 110.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "8363": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    30
+   ],
+   "name": "Shadi Mistrunner",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4021,
+     "mapY": 0.6356,
+     "uiMap": 1456,
+     "worldX": -1292.3,
+     "worldY": 97
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "8364": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    30
+   ],
+   "name": "Pakwa",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3901,
+     "mapY": 0.6423,
+     "uiMap": 1456,
+     "worldX": -1296.9,
+     "worldY": 109.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "8722": {
+   "interactions": [
+    "Auctioneer"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    50
+   ],
+   "name": "Auctioneer Gullem",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.387,
+     "mapY": 0.5082,
+     "uiMap": 1456,
+     "worldX": -1203.6,
+     "worldY": 112.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "9087": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    35
+   ],
+   "name": "Bashana Runetotem",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.7101,
+     "mapY": 0.337,
+     "uiMap": 1456,
+     "worldX": -1084.5,
+     "worldY": -224.5
     }
    ],
    "side": "Horde",
@@ -618,6 +1790,298 @@
    "side": "Horde",
    "sources": 1,
    "windows": 0
+  },
+  "10278": {
+   "interactions": [
+    "Gossip",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    24
+   ],
+   "name": "Thrag Stonehoof",
+   "options": {
+    "96243": {
+     "icon": 132058,
+     "name": "Train me."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3917,
+     "mapY": 0.5624,
+     "uiMap": 1456,
+     "worldX": -1241.3,
+     "worldY": 107.9
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
+  "11833": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    20
+   ],
+   "name": "Rahauro",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.704,
+     "mapY": 0.2977,
+     "uiMap": 1456,
+     "worldX": -1057.1,
+     "worldY": -218.1
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "5723": {
+     "level": 15,
+     "title": "Testing an Enemy's Strength"
+    }
+   },
+   "windows": 1
+  },
+  "244808": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Aramis Hammerhand",
+   "offers": {
+    "98389": {
+     "level": 4,
+     "title": "A Light in the Darkness"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3106,
+     "mapY": 0.6636,
+     "uiMap": 1420,
+     "worldX": 1838.5,
+     "worldY": 1629.9
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "246344": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    30
+   ],
+   "name": "Alodan the Hopeful",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2553,
+     "mapY": 0.1454,
+     "uiMap": 1456,
+     "worldX": -951.1,
+     "worldY": 250.2
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "267323": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    6
+   ],
+   "name": "Clarence Gillian",
+   "options": {
+    "140334": {
+     "icon": 132053,
+     "name": "I would like to ask for directions to a local profession trainer."
+    },
+    "140335": {
+     "icon": 132053,
+     "name": "What types of professions are there?"
+    },
+    "140336": {
+     "icon": 132053,
+     "name": "What are professions?"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3262,
+     "mapY": 0.6565,
+     "uiMap": 1420,
+     "worldX": 1859.9,
+     "worldY": 1559.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
+  "267324": {
+   "interactions": [
+    "Gossip",
+    "Merchant",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Margaret Weaver",
+   "options": {
+    "134695": {
+     "icon": 132060,
+     "name": "I would like to buy from you."
+    },
+    "134696": {
+     "icon": 132058,
+     "name": "Train me."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3257,
+     "mapY": 0.6574,
+     "uiMap": 1420,
+     "worldX": 1857.1,
+     "worldY": 1561.8
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 5
+  },
+  "267325": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Walter Mason",
+   "options": {
+    "142275": {
+     "icon": 132060,
+     "name": "I would like to buy from you."
+    },
+    "142276": {
+     "icon": 132058,
+     "name": "Train me."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.323,
+     "mapY": 0.6577,
+     "uiMap": 1420,
+     "worldX": 1856.1,
+     "worldY": 1573.8
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "267326": {
+   "interactions": [
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    5
+   ],
+   "name": "Florence Nightshade",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3245,
+     "mapY": 0.652,
+     "uiMap": 1420,
+     "worldX": 1873.4,
+     "worldY": 1566.9
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
+  "269068": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    55
+   ],
+   "name": "Eylah Sunhorn",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3829,
+     "mapY": 0.5628,
+     "uiMap": 1456,
+     "worldX": -1241.6,
+     "worldY": 117.1
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "97485": {
+     "title": "Traditions of the Bluff"
+    }
+   },
+   "windows": 0
+  },
+  "277055": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-02",
+   "levels": [
+    35
+   ],
+   "name": "Axle Smoothslice",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3577,
+     "mapY": 0.5467,
+     "uiMap": 1456,
+     "worldX": -1230.4,
+     "worldY": 143.3
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
   }
  },
  "objects": {}
