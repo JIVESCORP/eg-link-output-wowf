@@ -30,14 +30,14 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70205",
   "collectedOn": {
-   "first": "2026-10-03",
-   "last": "2026-10-03"
+   "first": "2026-10-04",
+   "last": "2026-10-04"
   },
   "dataset": "flights",
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 1
+  "sources": 2
  },
  "routes": {
   "11>10": {
@@ -373,6 +373,16 @@
    "sources": 1
   },
   "25>80": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.6312,
+     "mapY": 0.3711,
+     "uiMap": 1413,
+     "worldX": -894.6,
+     "worldY": -3773
+    }
+   ],
    "costs": {
     "6": 99
    },
@@ -380,6 +390,9 @@
     25,
     80
    ],
+   "seconds": {
+    "52": 1
+   },
    "sources": 1
   },
   "77>22": {

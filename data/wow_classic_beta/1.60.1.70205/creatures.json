@@ -1,5 +1,228 @@
 {
  "creatures": {
+  "1501": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 8,
+   "levels": {
+    "1": 35
+   },
+   "name": "Mindless Zombie",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3383,
+     "mapY": 0.652,
+     "uiMap": 1420,
+     "worldX": 1873.4,
+     "worldY": 1504.5
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3361,
+     "mapY": 0.6457,
+     "uiMap": 1420,
+     "worldX": 1892.4,
+     "worldY": 1514.4
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3157,
+     "mapY": 0.6455,
+     "uiMap": 1420,
+     "worldX": 1893,
+     "worldY": 1606.7
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3349,
+     "mapY": 0.6446,
+     "uiMap": 1420,
+     "worldX": 1895.7,
+     "worldY": 1519.9
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3338,
+     "mapY": 0.6422,
+     "uiMap": 1420,
+     "worldX": 1902.8,
+     "worldY": 1525.2
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3314,
+     "mapY": 0.639,
+     "uiMap": 1420,
+     "worldX": 1912.6,
+     "worldY": 1535.9
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3307,
+     "mapY": 0.637,
+     "uiMap": 1420,
+     "worldX": 1918.7,
+     "worldY": 1538.9
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 35,
+   "sources": 1,
+   "xp": {
+    "1:1": {
+     "50": 4
+    },
+    "2:1": {
+     "40": 3
+    }
+   }
+  },
+  "1502": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 8,
+   "levels": {
+    "1": 18,
+    "2": 30
+   },
+   "name": "Wretched Zombie",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3371,
+     "mapY": 0.6509,
+     "uiMap": 1420,
+     "worldX": 1876.6,
+     "worldY": 1510.2
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3365,
+     "mapY": 0.6483,
+     "uiMap": 1420,
+     "worldX": 1884.5,
+     "worldY": 1512.7
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3337,
+     "mapY": 0.6428,
+     "uiMap": 1420,
+     "worldX": 1900.9,
+     "worldY": 1525.5
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3344,
+     "mapY": 0.6365,
+     "uiMap": 1420,
+     "worldX": 1920,
+     "worldY": 1522.1
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3307,
+     "mapY": 0.6361,
+     "uiMap": 1420,
+     "worldX": 1921.3,
+     "worldY": 1539.1
+    },
+    {
+     "instance": 0,
+     "mapX": 0.325,
+     "mapY": 0.6356,
+     "uiMap": 1420,
+     "worldX": 1922.8,
+     "worldY": 1564.7
+    },
+    {
+     "instance": 0,
+     "mapX": 0.335,
+     "mapY": 0.6344,
+     "uiMap": 1420,
+     "worldX": 1926.4,
+     "worldY": 1519.5
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 48,
+   "sources": 1,
+   "xp": {
+    "1:1": {
+     "50": 1
+    },
+    "1:2": {
+     "52": 2
+    },
+    "2:1": {
+     "40": 1
+    },
+    "2:2": {
+     "55": 4
+    }
+   }
+  },
+  "1509": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "2": 3
+   },
+   "name": "Ragged Scavenger",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "1512": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "1": 2,
+    "2": 2
+   },
+   "name": "Duskbat",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
+  "1513": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "3": 1,
+    "4": 1
+   },
+   "name": "Mangy Duskbat",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
   "1536": {
    "classifications": [
     "normal"
@@ -50,6 +273,70 @@
    "seen": 2,
    "sources": 1
   },
+  "1568": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 1
+   },
+   "name": "Undertaker Mordo",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "1569": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 4
+   },
+   "name": "Shadow Priest Sarvis",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
+  "1570": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 2
+   },
+   "name": "Executor Arren",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "1661": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "3": 4
+   },
+   "name": "Novice Elreth",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
   "1662": {
    "classifications": [
     "normal"
@@ -64,6 +351,86 @@
     ]
    },
    "seen": 1,
+   "sources": 1
+  },
+  "1736": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "55": 2
+   },
+   "name": "Deathguard Randolph",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "1737": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "55": 2
+   },
+   "name": "Deathguard Oliver",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "1739": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "55": 2
+   },
+   "name": "Deathguard Phillip",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "1740": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "7": 2
+   },
+   "name": "Deathguard Saltain",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "1741": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "55": 2
+   },
+   "name": "Deathguard Bartrand",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
    "sources": 1
   },
   "1765": {
@@ -245,6 +612,66 @@
    "seen": 13,
    "sources": 1
   },
+  "1890": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 6,
+   "levels": {
+    "2": 11,
+    "3": 7
+   },
+   "name": "Rattlecage Skeleton",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3383,
+     "mapY": 0.6219,
+     "uiMap": 1420,
+     "worldX": 1963.9,
+     "worldY": 1504.7
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3217,
+     "mapY": 0.6214,
+     "uiMap": 1420,
+     "worldX": 1965.4,
+     "worldY": 1579.7
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3364,
+     "mapY": 0.6195,
+     "uiMap": 1420,
+     "worldX": 1971.4,
+     "worldY": 1513.4
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3273,
+     "mapY": 0.6161,
+     "uiMap": 1420,
+     "worldX": 1981.6,
+     "worldY": 1554.4
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 18,
+   "sources": 1,
+   "xp": {
+    "2:2": {
+     "55": 2
+    },
+    "2:3": {
+     "58": 2
+    }
+   }
+  },
   "1937": {
    "classifications": [
     "normal"
@@ -358,6 +785,150 @@
     "spawns": 8
    }
   },
+  "2113": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 1
+   },
+   "name": "Archibald Kava",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "2115": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 2
+   },
+   "name": "Joshua Kien",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "2116": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 1
+   },
+   "name": "Blacksmith Rand",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "2117": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 1
+   },
+   "name": "Harold Raims",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "2119": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 1
+   },
+   "name": "Dannal Stern",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "2122": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 1
+   },
+   "name": "David Trias",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "2123": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 2
+   },
+   "name": "Dark Cleric Duesten",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "2124": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 4
+   },
+   "name": "Isabella",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
+  "2126": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 4
+   },
+   "name": "Maximillion",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
   "2140": {
    "classifications": [
     "normal"
@@ -404,6 +975,22 @@
     ]
    },
    "seen": 1,
+   "sources": 1
+  },
+  "2315": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 4
+   },
+   "name": "Maquell Ebonwood",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 4,
    "sources": 1
   },
   "2492": {
@@ -511,12 +1098,91 @@
     "spawns": 8
    }
   },
+  "2987": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "12": 1
+   },
+   "name": "Eyahn Eagletalon",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "2997": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "2998": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "35": 1
+   },
+   "name": "Karn Stonehoof",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "2999": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Taur Stonehoof",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3084": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "55": 2
+   },
+   "name": "Bluffwatcher",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
   "3234": {
    "classifications": [
     "normal"
    ],
    "levels": {
-    "14": 2,
+    "14": 3,
     "15": 1
    },
    "name": "Lost Barrens Kodo",
@@ -525,7 +1191,7 @@
      4
     ]
    },
-   "seen": 3,
+   "seen": 4,
    "sources": 1
   },
   "3235": {
@@ -612,8 +1278,8 @@
    ],
    "deaths": 1,
    "levels": {
-    "18": 11,
-    "19": 15
+    "18": 13,
+    "19": 19
    },
    "name": "Stormsnout",
    "positions": [
@@ -631,24 +1297,35 @@
      2
     ]
    },
-   "seen": 26,
+   "seen": 32,
    "sources": 1
   },
   "3242": {
    "classifications": [
     "normal"
    ],
+   "deaths": 1,
    "levels": {
-    "13": 6,
-    "14": 3
+    "13": 10,
+    "14": 6
    },
    "name": "Zhevra Runner",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.57,
+     "mapY": 0.3473,
+     "uiMap": 1413,
+     "worldX": -733.7,
+     "worldY": -3153
+    }
+   ],
    "reactions": {
     "Horde": [
      4
     ]
    },
-   "seen": 9,
+   "seen": 16,
    "sources": 1
   },
   "3244": {
@@ -656,8 +1333,8 @@
     "normal"
    ],
    "levels": {
-    "11": 8,
-    "12": 5
+    "11": 9,
+    "12": 6
    },
    "name": "Greater Plainstrider",
    "reactions": {
@@ -665,17 +1342,17 @@
      4
     ]
    },
-   "seen": 13,
+   "seen": 15,
    "sources": 1
   },
   "3245": {
    "classifications": [
     "normal"
    ],
-   "deaths": 1,
+   "deaths": 2,
    "levels": {
-    "16": 21,
-    "17": 17
+    "16": 32,
+    "17": 26
    },
    "name": "Ornery Plainstrider",
    "positions": [
@@ -686,6 +1363,14 @@
      "uiMap": 1413,
      "worldX": -1520.3,
      "worldY": -2692.4
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6114,
+     "mapY": 0.335,
+     "uiMap": 1413,
+     "worldX": -651,
+     "worldY": -3572.7
     }
    ],
    "reactions": {
@@ -693,7 +1378,7 @@
      2
     ]
    },
-   "seen": 38,
+   "seen": 58,
    "sources": 1
   },
   "3246": {
@@ -702,7 +1387,7 @@
    ],
    "levels": {
     "12": 8,
-    "13": 6
+    "13": 8
    },
    "name": "Fleeting Plainstrider",
    "reactions": {
@@ -710,7 +1395,7 @@
      4
     ]
    },
-   "seen": 14,
+   "seen": 16,
    "sources": 1
   },
   "3247": {
@@ -719,8 +1404,8 @@
    ],
    "deaths": 1,
    "levels": {
-    "19": 2,
-    "20": 3
+    "19": 3,
+    "20": 4
    },
    "name": "Thunderhawk Hatchling",
    "positions": [
@@ -738,7 +1423,7 @@
      2
     ]
    },
-   "seen": 5,
+   "seen": 7,
    "sources": 1,
    "xp": {
     "22:20": {
@@ -751,8 +1436,8 @@
     "normal"
    ],
    "levels": {
-    "15": 4,
-    "16": 3
+    "15": 7,
+    "16": 11
    },
    "name": "Barrens Giraffe",
    "reactions": {
@@ -760,7 +1445,7 @@
      4
     ]
    },
-   "seen": 7,
+   "seen": 18,
    "sources": 1
   },
   "3249": {
@@ -975,9 +1660,9 @@
     "normal"
    ],
    "levels": {
-    "13": 3,
+    "13": 7,
     "14": 2,
-    "15": 3
+    "15": 4
    },
    "name": "Sunscale Screecher",
    "reactions": {
@@ -985,18 +1670,18 @@
      2
     ]
    },
-   "seen": 8,
+   "seen": 13,
    "sources": 1
   },
   "3256": {
    "classifications": [
     "normal"
    ],
-   "deaths": 6,
+   "deaths": 29,
    "levels": {
-    "16": 6,
-    "17": 8,
-    "18": 12
+    "16": 14,
+    "17": 16,
+    "18": 21
    },
    "name": "Sunscale Scytheclaw",
    "positions": [
@@ -1026,6 +1711,150 @@
     },
     {
      "instance": 1,
+     "mapX": 0.535,
+     "mapY": 0.499,
+     "uiMap": 1413,
+     "worldX": -1759,
+     "worldY": -2798.8
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5037,
+     "mapY": 0.4972,
+     "uiMap": 1413,
+     "worldX": -1746.6,
+     "worldY": -2481.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5202,
+     "mapY": 0.4924,
+     "uiMap": 1413,
+     "worldX": -1714.3,
+     "worldY": -2648.9
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4888,
+     "mapY": 0.4845,
+     "uiMap": 1413,
+     "worldX": -1660.9,
+     "worldY": -2330.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4965,
+     "mapY": 0.4776,
+     "uiMap": 1413,
+     "worldX": -1614,
+     "worldY": -2408.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5266,
+     "mapY": 0.4719,
+     "uiMap": 1413,
+     "worldX": -1576.1,
+     "worldY": -2713.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4971,
+     "mapY": 0.4691,
+     "uiMap": 1413,
+     "worldX": -1557.1,
+     "worldY": -2414.8
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4993,
+     "mapY": 0.4689,
+     "uiMap": 1413,
+     "worldX": -1555.4,
+     "worldY": -2436.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5226,
+     "mapY": 0.4675,
+     "uiMap": 1413,
+     "worldX": -1546.3,
+     "worldY": -2673.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5016,
+     "mapY": 0.467,
+     "uiMap": 1413,
+     "worldX": -1542.4,
+     "worldY": -2460.4
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5264,
+     "mapY": 0.4666,
+     "uiMap": 1413,
+     "worldX": -1539.9,
+     "worldY": -2711.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4769,
+     "mapY": 0.4662,
+     "uiMap": 1413,
+     "worldX": -1537.6,
+     "worldY": -2209.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5224,
+     "mapY": 0.4662,
+     "uiMap": 1413,
+     "worldX": -1537.3,
+     "worldY": -2670.9
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5163,
+     "mapY": 0.4657,
+     "uiMap": 1413,
+     "worldX": -1534,
+     "worldY": -2609.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5177,
+     "mapY": 0.4656,
+     "uiMap": 1413,
+     "worldX": -1533,
+     "worldY": -2623
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5241,
+     "mapY": 0.4651,
+     "uiMap": 1413,
+     "worldX": -1530,
+     "worldY": -2687.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5251,
+     "mapY": 0.465,
+     "uiMap": 1413,
+     "worldX": -1529.1,
+     "worldY": -2697.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5233,
+     "mapY": 0.4641,
+     "uiMap": 1413,
+     "worldX": -1523,
+     "worldY": -2680.2
+    },
+    {
+     "instance": 1,
      "mapX": 0.5194,
      "mapY": 0.4624,
      "uiMap": 1413,
@@ -1042,11 +1871,51 @@
     },
     {
      "instance": 1,
+     "mapX": 0.5261,
+     "mapY": 0.462,
+     "uiMap": 1413,
+     "worldX": -1509.2,
+     "worldY": -2707.7
+    },
+    {
+     "instance": 1,
      "mapX": 0.5174,
      "mapY": 0.4619,
      "uiMap": 1413,
      "worldX": -1508.3,
      "worldY": -2619.8
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5243,
+     "mapY": 0.4604,
+     "uiMap": 1413,
+     "worldX": -1497.8,
+     "worldY": -2689.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5039,
+     "mapY": 0.4578,
+     "uiMap": 1413,
+     "worldX": -1480.2,
+     "worldY": -2483.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6101,
+     "mapY": 0.3352,
+     "uiMap": 1413,
+     "worldX": -652.5,
+     "worldY": -3559.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6102,
+     "mapY": 0.3253,
+     "uiMap": 1413,
+     "worldX": -585.3,
+     "worldY": -3560.4
     }
    ],
    "reactions": {
@@ -1054,13 +1923,40 @@
      2
     ]
    },
-   "seen": 26,
+   "seen": 51,
    "sources": 1,
    "xp": {
     "22:18": {
      "86": 1
     }
    }
+  },
+  "3257": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 1,
+   "levels": {
+    "19": 1
+   },
+   "name": "Ishamuhale",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5964,
+     "mapY": 0.307,
+     "uiMap": 1413,
+     "worldX": -461.7,
+     "worldY": -3420.4
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 1,
+   "sources": 1
   },
   "3258": {
    "classifications": [
@@ -1507,7 +2403,8 @@
     "normal"
    ],
    "levels": {
-    "15": 1
+    "14": 1,
+    "15": 2
    },
    "name": "Kolkar Pack Runner",
    "reactions": {
@@ -1515,7 +2412,7 @@
      2
     ]
    },
-   "seen": 1,
+   "seen": 3,
    "sources": 1
   },
   "3275": {
@@ -1523,9 +2420,109 @@
     "normal"
    ],
    "levels": {
-    "15": 2
+    "15": 7,
+    "16": 3
    },
    "name": "Kolkar Marauder",
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 10,
+   "sources": 1
+  },
+  "3276": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 4,
+   "levels": {
+    "14": 2,
+    "15": 5
+   },
+   "name": "Witchwing Harpy",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3995,
+     "mapY": 0.1806,
+     "uiMap": 1413,
+     "worldX": 392.4,
+     "worldY": -1425
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4002,
+     "mapY": 0.1793,
+     "uiMap": 1413,
+     "worldX": 401.4,
+     "worldY": -1432
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4042,
+     "mapY": 0.1767,
+     "uiMap": 1413,
+     "worldX": 418.5,
+     "worldY": -1472.6
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 7,
+   "sources": 1,
+   "xp": {
+    "15:15": {
+     "120": 1
+    }
+   }
+  },
+  "3277": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 1,
+   "levels": {
+    "15": 3,
+    "16": 6
+   },
+   "name": "Witchwing Roguefeather",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4038,
+     "mapY": 0.1794,
+     "uiMap": 1413,
+     "worldX": 400.2,
+     "worldY": -1469.2
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 9,
+   "sources": 1,
+   "xp": {
+    "15:16": {
+     "126": 1
+    }
+   }
+  },
+  "3280": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "17": 1,
+    "18": 1
+   },
+   "name": "Witchwing Windcaller",
    "reactions": {
     "Horde": [
      2
@@ -1561,6 +2558,22 @@
    "reactions": {
     "Horde": [
      6
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "3300": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "1": 2
+   },
+   "name": "Adder",
+   "reactions": {
+    "Horde": [
+     4
     ]
    },
    "seen": 2,
@@ -1945,6 +2958,23 @@
    "seen": 1,
    "sources": 1
   },
+  "3397": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "14": 1,
+    "15": 3
+   },
+   "name": "Kolkar Bloodcharger",
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
   "3415": {
    "classifications": [
     "normal"
@@ -1967,7 +2997,7 @@
     "normal"
    ],
    "levels": {
-    "17": 2,
+    "17": 3,
     "18": 1
    },
    "name": "Savannah Matriarch",
@@ -1976,7 +3006,7 @@
      2
     ]
    },
-   "seen": 3,
+   "seen": 4,
    "sources": 1
   },
   "3418": {
@@ -2012,13 +3042,30 @@
    "seen": 2,
    "sources": 1
   },
+  "3425": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "14": 5,
+    "15": 3
+   },
+   "name": "Savannah Prowler",
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 8,
+   "sources": 1
+  },
   "3426": {
    "classifications": [
     "normal"
    ],
    "levels": {
-    "17": 13,
-    "18": 13
+    "17": 19,
+    "18": 17
    },
    "name": "Zhevra Charger",
    "reactions": {
@@ -2026,7 +3073,7 @@
      4
     ]
    },
-   "seen": 26,
+   "seen": 36,
    "sources": 1
   },
   "3428": {
@@ -2629,8 +3676,8 @@
     "normal"
    ],
    "levels": {
-    "18": 7,
-    "19": 12
+    "18": 11,
+    "19": 13
    },
    "name": "Wandering Barrens Giraffe",
    "reactions": {
@@ -2638,7 +3685,7 @@
      4
     ]
    },
-   "seen": 19,
+   "seen": 24,
    "sources": 1
   },
   "3464": {
@@ -2737,6 +3784,38 @@
      "170": 1
     }
    }
+  },
+  "3474": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "22": 1
+   },
+   "name": "Lakota'mani",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "3482": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "14": 1
+   },
+   "name": "Tari'qa",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
   },
   "3483": {
    "classifications": [
@@ -2846,7 +3925,7 @@
     "elite"
    ],
    "levels": {
-    "55": 1
+    "55": 2
    },
    "name": "Devrak",
    "reactions": {
@@ -2854,7 +3933,7 @@
      6
     ]
    },
-   "seen": 1,
+   "seen": 2,
    "sources": 1
   },
   "3703": {
@@ -4286,13 +5365,29 @@
    "seen": 1,
    "sources": 1
   },
+  "4075": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "1": 3
+   },
+   "name": "Rat",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
   "4127": {
    "classifications": [
     "normal"
    ],
    "levels": {
-    "15": 4,
-    "16": 2
+    "15": 16,
+    "16": 7
    },
    "name": "Hecklefang Hyena",
    "reactions": {
@@ -4300,7 +5395,7 @@
      2
     ]
    },
-   "seen": 6,
+   "seen": 23,
    "sources": 1
   },
   "4128": {
@@ -4325,8 +5420,8 @@
     "normal"
    ],
    "levels": {
-    "18": 10,
-    "19": 9
+    "18": 14,
+    "19": 14
    },
    "name": "Hecklefang Snarler",
    "reactions": {
@@ -4334,7 +5429,7 @@
      2
     ]
    },
-   "seen": 19,
+   "seen": 28,
    "sources": 1
   },
   "4166": {
@@ -4593,7 +5688,7 @@
     "normal"
    ],
    "levels": {
-    "13": 5
+    "13": 8
    },
    "name": "Kolkar Packhound",
    "reactions": {
@@ -4601,7 +5696,7 @@
      2
     ]
    },
-   "seen": 5,
+   "seen": 8,
    "sources": 1
   },
   "4551": {
@@ -4900,6 +5995,22 @@
    "seen": 1,
    "sources": 1
   },
+  "5667": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 4
+   },
+   "name": "Venya Marthand",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
   "5700": {
    "classifications": [
     "normal"
@@ -4916,12 +6027,28 @@
    "seen": 1,
    "sources": 1
   },
+  "5749": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 4
+   },
+   "name": "Kayla Smithe",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
   "5766": {
    "classifications": [
     "normal"
    ],
    "levels": {
-    "4": 2,
+    "4": 4,
     "5": 1
    },
    "name": "Savannah Cub",
@@ -4930,7 +6057,7 @@
      2
     ]
    },
-   "seen": 3,
+   "seen": 5,
    "sources": 1
   },
   "5797": {
@@ -5093,6 +6220,22 @@
    "seen": 1,
    "sources": 1
   },
+  "6410": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "45": 1
+   },
+   "name": "Orm Stonehoof",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "6739": {
    "classifications": [
     "normal"
@@ -5205,6 +6348,38 @@
    "seen": 2,
    "sources": 1
   },
+  "10054": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "30": 1
+   },
+   "name": "Bulrug",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "10278": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "24": 1
+   },
+   "name": "Thrag Stonehoof",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "10378": {
    "classifications": [
     "elite"
@@ -5253,6 +6428,54 @@
    "seen": 1,
    "sources": 1
   },
+  "10881": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "3": 1
+   },
+   "name": "Bluff Runner Windstrider",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "11869": {
+   "classifications": [
+    "elite"
+   ],
+   "levels": {
+    "50": 1
+   },
+   "name": "Ansekhwa",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "11945": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 2
+   },
+   "name": "Claire Willower",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
   "12431": {
    "classifications": [
     "rare"
@@ -5267,6 +6490,22 @@
     ]
    },
    "seen": 1,
+   "sources": 1
+  },
+  "12922": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 4
+   },
+   "name": "Imp Minion",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 4,
    "sources": 1
   },
   "14377": {
@@ -5349,6 +6588,1653 @@
    "seen": 1,
    "sources": 1
   },
+  "244808": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 4
+   },
+   "name": "Aramis Hammerhand",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
+  "249363": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 2
+   },
+   "name": "Yala Windwatcher",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "250873": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 8,
+   "levels": {
+    "1": 76
+   },
+   "name": "Juvenile Vuldren",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.4394,
+     "mapY": 0.2658,
+     "uiMap": 2521,
+     "worldX": 3970.5,
+     "worldY": 1787.2
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.433,
+     "mapY": 0.2644,
+     "uiMap": 2521,
+     "worldX": 3975.6,
+     "worldY": 1822.5
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4411,
+     "mapY": 0.2641,
+     "uiMap": 2521,
+     "worldX": 3977.1,
+     "worldY": 1777.6
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4444,
+     "mapY": 0.2629,
+     "uiMap": 2521,
+     "worldX": 3981.2,
+     "worldY": 1759
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4353,
+     "mapY": 0.262,
+     "uiMap": 2521,
+     "worldX": 3984.8,
+     "worldY": 1810.1
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4355,
+     "mapY": 0.2605,
+     "uiMap": 2521,
+     "worldX": 3990.4,
+     "worldY": 1808.9
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4324,
+     "mapY": 0.2579,
+     "uiMap": 2521,
+     "worldX": 3999.7,
+     "worldY": 1825.8
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4317,
+     "mapY": 0.2513,
+     "uiMap": 2521,
+     "worldX": 4024.2,
+     "worldY": 1830.2
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 76,
+   "sources": 1,
+   "xp": {
+    "1:1": {
+     "50": 7
+    }
+   }
+  },
+  "250926": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 12,
+   "levels": {
+    "3": 16,
+    "4": 23
+   },
+   "name": "Scrawny Ursera",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.3842,
+     "mapY": 0.2876,
+     "uiMap": 2521,
+     "worldX": 3889.7,
+     "worldY": 2094
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3809,
+     "mapY": 0.2722,
+     "uiMap": 2521,
+     "worldX": 3946.9,
+     "worldY": 2112.6
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4235,
+     "mapY": 0.2693,
+     "uiMap": 2521,
+     "worldX": 3957.6,
+     "worldY": 1875.6
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3758,
+     "mapY": 0.269,
+     "uiMap": 2521,
+     "worldX": 3958.8,
+     "worldY": 2141
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4241,
+     "mapY": 0.2664,
+     "uiMap": 2521,
+     "worldX": 3968.3,
+     "worldY": 1872
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4064,
+     "mapY": 0.2657,
+     "uiMap": 2521,
+     "worldX": 3970.9,
+     "worldY": 1970.7
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4089,
+     "mapY": 0.2654,
+     "uiMap": 2521,
+     "worldX": 3972,
+     "worldY": 1956.7
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.415,
+     "mapY": 0.2627,
+     "uiMap": 2521,
+     "worldX": 3982,
+     "worldY": 1922.7
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4181,
+     "mapY": 0.2613,
+     "uiMap": 2521,
+     "worldX": 3987.2,
+     "worldY": 1905.4
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.375,
+     "mapY": 0.2531,
+     "uiMap": 2521,
+     "worldX": 4017.8,
+     "worldY": 2145.1
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 39,
+   "sources": 1,
+   "xp": {
+    "3:3": {
+     "60": 1
+    },
+    "4:3": {
+     "48": 6
+    },
+    "4:4": {
+     "65": 5
+    }
+   }
+  },
+  "250937": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 9,
+   "levels": {
+    "4": 32
+   },
+   "name": "Ursera Scavenger",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.3816,
+     "mapY": 0.2762,
+     "uiMap": 2521,
+     "worldX": 3931.9,
+     "worldY": 2108.9
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3799,
+     "mapY": 0.2712,
+     "uiMap": 2521,
+     "worldX": 3950.7,
+     "worldY": 2117.8
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3773,
+     "mapY": 0.2633,
+     "uiMap": 2521,
+     "worldX": 3979.7,
+     "worldY": 2132.6
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3623,
+     "mapY": 0.2545,
+     "uiMap": 2521,
+     "worldX": 4012.4,
+     "worldY": 2216.1
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.375,
+     "mapY": 0.2541,
+     "uiMap": 2521,
+     "worldX": 4014,
+     "worldY": 2145.5
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3574,
+     "mapY": 0.2507,
+     "uiMap": 2521,
+     "worldX": 4026.7,
+     "worldY": 2243.2
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3748,
+     "mapY": 0.2431,
+     "uiMap": 2521,
+     "worldX": 4054.8,
+     "worldY": 2146.5
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 32,
+   "sources": 1,
+   "xp": {
+    "4:4": {
+     "65": 9
+    }
+   }
+  },
+  "251115": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 1,
+   "levels": {
+    "5": 4
+   },
+   "name": "Urs'anah",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.3573,
+     "mapY": 0.252,
+     "uiMap": 2521,
+     "worldX": 4021.7,
+     "worldY": 2243.7
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 4,
+   "sources": 1,
+   "xp": {
+    "4:5": {
+     "68": 1
+    }
+   }
+  },
+  "251143": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 6,
+   "levels": {
+    "2": 15,
+    "3": 10
+   },
+   "name": "Roiling Winds",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.4712,
+     "mapY": 0.2205,
+     "uiMap": 2521,
+     "worldX": 4138.4,
+     "worldY": 1610.4
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4714,
+     "mapY": 0.2186,
+     "uiMap": 2521,
+     "worldX": 4145.7,
+     "worldY": 1608.9
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4703,
+     "mapY": 0.2175,
+     "uiMap": 2521,
+     "worldX": 4149.7,
+     "worldY": 1615
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4826,
+     "mapY": 0.2004,
+     "uiMap": 2521,
+     "worldX": 4213.1,
+     "worldY": 1546.9
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 25,
+   "sources": 1,
+   "xp": {
+    "2:3": {
+     "58": 1
+    },
+    "3:2": {
+     "44": 1
+    },
+    "3:3": {
+     "60": 2
+    }
+   }
+  },
+  "251145": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 7,
+   "levels": {
+    "4": 24
+   },
+   "name": "Al'Aketh Brute",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.3779,
+     "mapY": 0.338,
+     "uiMap": 2521,
+     "worldX": 3702.7,
+     "worldY": 2129.4
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3684,
+     "mapY": 0.3337,
+     "uiMap": 2521,
+     "worldX": 3718.7,
+     "worldY": 2182.3
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3765,
+     "mapY": 0.3326,
+     "uiMap": 2521,
+     "worldX": 3722.7,
+     "worldY": 2137.2
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3662,
+     "mapY": 0.3309,
+     "uiMap": 2521,
+     "worldX": 3729.1,
+     "worldY": 2194.5
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3782,
+     "mapY": 0.3206,
+     "uiMap": 2521,
+     "worldX": 3767.2,
+     "worldY": 2127.6
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 24,
+   "sources": 1,
+   "xp": {
+    "5:4": {
+     "52": 5
+    }
+   }
+  },
+  "251160": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 7,
+   "levels": {
+    "2": 9,
+    "3": 5
+   },
+   "name": "Al'Aketh Convert",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.4723,
+     "mapY": 0.2174,
+     "uiMap": 2521,
+     "worldX": 4150,
+     "worldY": 1604.1
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4744,
+     "mapY": 0.2152,
+     "uiMap": 2521,
+     "worldX": 4158.3,
+     "worldY": 1592.5
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4748,
+     "mapY": 0.2136,
+     "uiMap": 2521,
+     "worldX": 4164.3,
+     "worldY": 1590
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4766,
+     "mapY": 0.2129,
+     "uiMap": 2521,
+     "worldX": 4166.9,
+     "worldY": 1580.4
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4805,
+     "mapY": 0.2114,
+     "uiMap": 2521,
+     "worldX": 4172.2,
+     "worldY": 1558.7
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.481,
+     "mapY": 0.2102,
+     "uiMap": 2521,
+     "worldX": 4176.6,
+     "worldY": 1555.6
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 14,
+   "sources": 1,
+   "xp": {
+    "3:2": {
+     "44": 4
+    },
+    "3:3": {
+     "60": 3
+    }
+   }
+  },
+  "251169": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 8,
+   "levels": {
+    "1": 30
+   },
+   "name": "Pesky Cirrusfly",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.4456,
+     "mapY": 0.2864,
+     "uiMap": 2521,
+     "worldX": 3894.2,
+     "worldY": 1752.4
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4551,
+     "mapY": 0.2862,
+     "uiMap": 2521,
+     "worldX": 3894.9,
+     "worldY": 1700
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4452,
+     "mapY": 0.283,
+     "uiMap": 2521,
+     "worldX": 3906.7,
+     "worldY": 1755
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4463,
+     "mapY": 0.2776,
+     "uiMap": 2521,
+     "worldX": 3926.7,
+     "worldY": 1748.9
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4486,
+     "mapY": 0.2772,
+     "uiMap": 2521,
+     "worldX": 3928.2,
+     "worldY": 1735.8
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4441,
+     "mapY": 0.2747,
+     "uiMap": 2521,
+     "worldX": 3937.4,
+     "worldY": 1760.7
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4442,
+     "mapY": 0.2696,
+     "uiMap": 2521,
+     "worldX": 3956.3,
+     "worldY": 1760.3
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.4398,
+     "mapY": 0.2658,
+     "uiMap": 2521,
+     "worldX": 3970.7,
+     "worldY": 1785.1
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 30,
+   "sources": 1,
+   "xp": {
+    "2:1": {
+     "40": 8
+    }
+   }
+  },
+  "251245": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 1,
+    "6": 1
+   },
+   "name": "Prideclaw",
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "251361": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "20": 3
+   },
+   "name": "Rorian the Dayseeker",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251362": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "1": 3
+   },
+   "name": "Ailee Farheart",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251363": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "1": 3
+   },
+   "name": "Dalia the Collector",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251364": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 3
+   },
+   "name": "Destin Thriceforged",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251365": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 3
+   },
+   "name": "Jolee Brightmeadows",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251366": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 3
+   },
+   "name": "Aetheen of the Gales",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251368": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "20": 3
+   },
+   "name": "Elatrell Featherlight",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251371": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 3
+   },
+   "name": "Falorne Fallwind",
+   "reactions": {
+    "Horde": [
+     1
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251373": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 2
+   },
+   "name": "Xyton Silverwind",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "251374": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 3
+   },
+   "name": "Windshaper Boro",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251376": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 3
+   },
+   "name": "Tai'ree Farsight",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251379": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 2
+   },
+   "name": "Dorii Brightwhisper",
+   "reactions": {
+    "Horde": [
+     1
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "251389": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 3
+   },
+   "name": "Akeri Duskblade",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251402": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "2": 4
+   },
+   "name": "Cirrusfly Soldier",
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
+  "251404": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 1,
+   "levels": {
+    "3": 1
+   },
+   "name": "Cirrusfly Queen",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.481,
+     "mapY": 0.2932,
+     "uiMap": 2521,
+     "worldX": 3868.8,
+     "worldY": 1555.4
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "251437": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "1": 3
+   },
+   "name": "Fireflies",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251448": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 4,
+   "levels": {
+    "4": 10
+   },
+   "name": "Al'Aketh Neophyte",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.3651,
+     "mapY": 0.3333,
+     "uiMap": 2521,
+     "worldX": 3720.1,
+     "worldY": 2200.6
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3664,
+     "mapY": 0.3328,
+     "uiMap": 2521,
+     "worldX": 3722,
+     "worldY": 2193.2
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3728,
+     "mapY": 0.3293,
+     "uiMap": 2521,
+     "worldX": 3735,
+     "worldY": 2157.8
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.3734,
+     "mapY": 0.3217,
+     "uiMap": 2521,
+     "worldX": 3763.3,
+     "worldY": 2154.1
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 10,
+   "sources": 1,
+   "xp": {
+    "5:4": {
+     "52": 4
+    }
+   }
+  },
+  "251451": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 4
+   },
+   "name": "Al'Aketh Ambusher",
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 4,
+   "sources": 1
+  },
+  "251487": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 3
+   },
+   "name": "Ventaari Brightwish",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251523": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "20": 1
+   },
+   "name": "Constable Aonda",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "251537": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 3
+   },
+   "name": "Uualia Suncrest",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251661": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 3,
+    "6": 2
+   },
+   "name": "Galestrider",
+   "reactions": {
+    "Horde": [
+     4
+    ]
+   },
+   "seen": 5,
+   "sources": 1
+  },
+  "251902": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "20": 2
+   },
+   "name": "Illaya Amberwind",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "251903": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "20": 1
+   },
+   "name": "Rathiril Sunlance",
+   "reactions": {
+    "Horde": [
+     1
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "251904": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "7": 1
+   },
+   "name": "Sania Silverstream",
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "251905": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "20": 2
+   },
+   "name": "Zerril Softbreeze",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "251906": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "20": 1
+   },
+   "name": "Teeri Wellwind",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "251913": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "20": 1
+   },
+   "name": "Aedi Thriceforged",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "251964": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 3
+   },
+   "name": "Blademaster Ren",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251965": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 3
+   },
+   "name": "Fevrath Skyhammer",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "251991": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "20": 1
+   },
+   "name": "Taleen Shimmerthread",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "251993": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 1
+   },
+   "name": "Indari Sunseam",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "252095": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 3
+   },
+   "name": "Hanaa Nightwind",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "252172": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 1
+   },
+   "name": "Danarii Bellowveil",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "254081": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 1
+   },
+   "name": "Naeluna Swiftmend",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "254082": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 2
+   },
+   "name": "Aarnor Galestrike",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "254084": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 1
+   },
+   "name": "Elayaa Easewind",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "254086": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 1
+   },
+   "name": "Shenaan Spellwind",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "254087": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 2
+   },
+   "name": "Miriaan Mistblade",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "254088": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 1
+   },
+   "name": "Corsan Earthrazer",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "254089": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 2
+   },
+   "name": "Coriella Calmbreeze",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "254100": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 14
+   },
+   "name": "Zephras Citizen",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 14,
+   "sources": 1
+  },
+  "254358": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 1
+   },
+   "name": "Veena Vericloud",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "254360": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 1
+   },
+   "name": "Belandiel Farflight",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "255002": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "6": 3
+   },
+   "name": "Ryff",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "255979": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 7
+   },
+   "name": "Thendal Grove Ranger",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 7,
+   "sources": 1
+  },
+  "256935": {
+   "classifications": [
+    "normal"
+   ],
+   "deaths": 1,
+   "levels": {
+    "5": 2
+   },
+   "name": "Malduko Cloudcrush",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.3612,
+     "mapY": 0.3351,
+     "uiMap": 2521,
+     "worldX": 3713.7,
+     "worldY": 2222.2
+    }
+   ],
+   "reactions": {
+    "Horde": [
+     2
+    ]
+   },
+   "seen": 2,
+   "sources": 1,
+   "xp": {
+    "5:5": {
+     "70": 1
+    }
+   }
+  },
+  "257019": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 2
+   },
+   "name": "Nyassa Swiftdraught",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "257020": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 2
+   },
+   "name": "Nasalanna Windsinger",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "257021": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 2
+   },
+   "name": "Halassa Fernbreeze",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "257022": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 1
+   },
+   "name": "Messana Crestwind",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "257024": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 2
+   },
+   "name": "Mendalass Tattermend",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "257421": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "7": 1
+   },
+   "name": "Tephri Thriceforged",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
+  "257551": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 3
+   },
+   "name": "Valreaa Valewind",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 3,
+   "sources": 1
+  },
+  "257554": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 2
+   },
+   "name": "Halaan Hawk-Eye",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "259377": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "1": 21
+   },
+   "name": "Injured Deathguard",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 21,
+   "sources": 1
+  },
+  "263113": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "10": 2
+   },
+   "name": "Myriaal Mistwake",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 2,
+   "sources": 1
+  },
+  "263664": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "12": 1
+   },
+   "name": "Raan Wildwind",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "265574": {
    "classifications": [
     "normal"
@@ -5365,15 +8251,32 @@
    "seen": 1,
    "sources": 1
   },
+  "267326": {
+   "classifications": [
+    "normal"
+   ],
+   "levels": {
+    "5": 1
+   },
+   "name": "Florence Nightshade",
+   "reactions": {
+    "Horde": [
+     5
+    ]
+   },
+   "seen": 1,
+   "sources": 1
+  },
   "268624": {
    "classifications": [
     "normal"
    ],
    "deaths": 1,
    "levels": {
-    "17": 3,
-    "18": 2,
-    "19": 4
+    "16": 3,
+    "17": 5,
+    "18": 4,
+    "19": 5
    },
    "name": "Razormane Raider",
    "positions": [
@@ -5391,7 +8294,7 @@
      2
     ]
    },
-   "seen": 9,
+   "seen": 17,
    "sources": 1
   }
  },
@@ -5400,13 +8303,13 @@
   "clientBuild": "1.60.1.70205",
   "collectedOn": {
    "first": "2026-10-03",
-   "last": "2026-10-03"
+   "last": "2026-10-04"
   },
   "combatLogUploads": 1,
   "dataset": "creatures",
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 1
+  "sources": 2
  }
 }

@@ -45,7 +45,7 @@
    "hpMultiplier": 0.36,
    "movementInfoId": 1699,
    "name": "Imp",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 3,
    "unitClass": 8
@@ -123,7 +123,7 @@
    "hpMultiplier": 0.01,
    "movementInfoId": 1695,
    "name": "Rabbit",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 2.0,
    "type": 8,
    "unitClass": 1
@@ -174,6 +174,223 @@
    "sources": 1,
    "totalProbability": 1.0,
    "type": 7,
+   "unitClass": 1
+  },
+  "1501": {
+   "classification": 0,
+   "creatureDifficultyId": 1501,
+   "displays": [
+    {
+     "displayId": 10973,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Mindless Zombie",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 6,
+   "unitClass": 1
+  },
+  "1502": {
+   "classification": 0,
+   "creatureDifficultyId": 1502,
+   "displays": [
+    {
+     "displayId": 10979,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Wretched Zombie",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 6,
+   "unitClass": 1
+  },
+  "1504": {
+   "classification": 0,
+   "creatureDifficultyId": 1504,
+   "displays": [
+    {
+     "displayId": 513,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 3,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Young Night Web Spider",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 1,
+   "unitClass": 1
+  },
+  "1506": {
+   "classification": 0,
+   "creatureDifficultyId": 1506,
+   "displays": [
+    {
+     "displayId": 2403,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 2407,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Scarlet Convert",
+   "questItems": [
+    3266
+   ],
+   "sources": 1,
+   "totalProbability": 2.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "1508": {
+   "classification": 0,
+   "creatureDifficultyId": 1508,
+   "displays": [
+    {
+     "displayId": 447,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 1,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Young Scavenger",
+   "questItems": [
+    3265
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 1,
+   "unitClass": 1
+  },
+  "1509": {
+   "classification": 0,
+   "creatureDifficultyId": 1509,
+   "displays": [
+    {
+     "displayId": 604,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 1,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Ragged Scavenger",
+   "questItems": [
+    3265
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 1,
+   "unitClass": 1
+  },
+  "1512": {
+   "classification": 0,
+   "creatureDifficultyId": 1512,
+   "displays": [
+    {
+     "displayId": 4732,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 24,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Duskbat",
+   "questItems": [
+    3264
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 1,
+   "unitClass": 1
+  },
+  "1513": {
+   "classification": 0,
+   "creatureDifficultyId": 1513,
+   "displays": [
+    {
+     "displayId": 9535,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 24,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Mangy Duskbat",
+   "questItems": [
+    3264
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 1,
    "unitClass": 1
   },
   "1536": {
@@ -327,6 +544,102 @@
    "type": 1,
    "unitClass": 1
   },
+  "1568": {
+   "classification": 0,
+   "creatureDifficultyId": 1568,
+   "displays": [
+    {
+     "displayId": 1582,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Undertaker Mordo",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "1569": {
+   "classification": 0,
+   "creatureDifficultyId": 1569,
+   "displays": [
+    {
+     "displayId": 1584,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Shadow Priest Sarvis",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "1570": {
+   "classification": 0,
+   "creatureDifficultyId": 1570,
+   "displays": [
+    {
+     "displayId": 1583,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Executor Arren",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "1661": {
+   "classification": 0,
+   "creatureDifficultyId": 1661,
+   "displays": [
+    {
+     "displayId": 1593,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Novice Elreth",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "1662": {
    "classification": 0,
    "creatureDifficultyId": 1662,
@@ -351,6 +664,141 @@
    ],
    "sources": 1,
    "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "1736": {
+   "classification": 0,
+   "creatureDifficultyId": 1736,
+   "displays": [
+    {
+     "displayId": 1590,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    0,
+    0,
+    0
+   ],
+   "hpMultiplier": 2.0,
+   "movementInfoId": 1694,
+   "name": "Deathguard Randolph",
+   "proxyCreatureIds": [
+    1746
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "1737": {
+   "classification": 0,
+   "creatureDifficultyId": 1737,
+   "displays": [
+    {
+     "displayId": 1588,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    0,
+    0,
+    0
+   ],
+   "hpMultiplier": 2.0,
+   "movementInfoId": 1693,
+   "name": "Deathguard Oliver",
+   "proxyCreatureIds": [
+    1746
+   ],
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "1739": {
+   "classification": 0,
+   "creatureDifficultyId": 1739,
+   "displays": [
+    {
+     "displayId": 1589,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    0,
+    0,
+    0
+   ],
+   "hpMultiplier": 2.0,
+   "movementInfoId": 1693,
+   "name": "Deathguard Phillip",
+   "proxyCreatureIds": [
+    1746
+   ],
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "1740": {
+   "classification": 0,
+   "creatureDifficultyId": 1740,
+   "displays": [
+    {
+     "displayId": 3523,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 2.0,
+   "movementInfoId": 1694,
+   "name": "Deathguard Saltain",
+   "proxyCreatureIds": [
+    1746
+   ],
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "1741": {
+   "classification": 0,
+   "creatureDifficultyId": 1741,
+   "displays": [
+    {
+     "displayId": 1587,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    0,
+    0,
+    0
+   ],
+   "hpMultiplier": 2.0,
+   "movementInfoId": 1693,
+   "name": "Deathguard Bartrand",
+   "proxyCreatureIds": [
+    1746
+   ],
+   "sources": 1,
+   "totalProbability": 100.0,
    "type": 7,
    "unitClass": 1
   },
@@ -690,7 +1138,7 @@
    "hpMultiplier": 1.4,
    "movementInfoId": 1699,
    "name": "Voidwalker",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 3,
    "unitClass": 2
@@ -715,7 +1163,7 @@
    "hpMultiplier": 0.7,
    "movementInfoId": 1699,
    "name": "Succubus",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 3,
    "unitClass": 2
@@ -800,6 +1248,33 @@
    "type": 7,
    "unitClass": 8
   },
+  "1890": {
+   "classification": 0,
+   "creatureDifficultyId": 1890,
+   "displays": [
+    {
+     "displayId": 11400,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Rattlecage Skeleton",
+   "questItems": [
+    6281
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 6,
+   "unitClass": 1
+  },
   "1891": {
    "classification": 1,
    "creatureDifficultyId": 1891,
@@ -881,6 +1356,81 @@
    "type": 7,
    "unitClass": 2
   },
+  "1917": {
+   "classification": 0,
+   "creatureDifficultyId": 1917,
+   "displays": [
+    {
+     "displayId": 3668,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Daniel Ulfman",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 6,
+   "unitClass": 1
+  },
+  "1918": {
+   "classification": 0,
+   "creatureDifficultyId": 1918,
+   "displays": [
+    {
+     "displayId": 569,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Karrel Grayves",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 6,
+   "unitClass": 1
+  },
+  "1919": {
+   "classification": 0,
+   "creatureDifficultyId": 1919,
+   "displays": [
+    {
+     "displayId": 10977,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Samuel Fipps",
+   "questItems": [
+    16333
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 6,
+   "unitClass": 1
+  },
   "1937": {
    "classification": 0,
    "creatureDifficultyId": 1937,
@@ -925,7 +1475,7 @@
    "hpMultiplier": 1.02,
    "movementInfoId": 1693,
    "name": "Dalar Dawnweaver",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 7,
    "unitClass": 1
@@ -1131,6 +1681,131 @@
    "type": 8,
    "unitClass": 1
   },
+  "2113": {
+   "classification": 0,
+   "creatureDifficultyId": 2113,
+   "displays": [
+    {
+     "displayId": 1574,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Archibald Kava",
+   "sources": 1,
+   "title": "Cloth & Leather Armor Merchant",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2115": {
+   "classification": 0,
+   "creatureDifficultyId": 2115,
+   "displays": [
+    {
+     "displayId": 1577,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Joshua Kien",
+   "sources": 1,
+   "title": "General Supplies",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2116": {
+   "classification": 0,
+   "creatureDifficultyId": 2116,
+   "displays": [
+    {
+     "displayId": 1575,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Blacksmith Rand",
+   "sources": 1,
+   "title": "Apprentice Armorer",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2117": {
+   "classification": 0,
+   "creatureDifficultyId": 2117,
+   "displays": [
+    {
+     "displayId": 1576,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Harold Raims",
+   "sources": 1,
+   "title": "Apprentice Weaponsmith",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2119": {
+   "classification": 0,
+   "creatureDifficultyId": 2119,
+   "displays": [
+    {
+     "displayId": 1578,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Dannal Stern",
+   "sources": 1,
+   "title": "Warrior Trainer",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "2121": {
    "classification": 0,
    "creatureDifficultyId": 2121,
@@ -1152,6 +1827,106 @@
    "name": "Shadow Priest Allister",
    "sources": 1,
    "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2122": {
+   "classification": 0,
+   "creatureDifficultyId": 2122,
+   "displays": [
+    {
+     "displayId": 1580,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "David Trias",
+   "sources": 1,
+   "title": "Rogue Trainer",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2123": {
+   "classification": 0,
+   "creatureDifficultyId": 2123,
+   "displays": [
+    {
+     "displayId": 1579,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Dark Cleric Duesten",
+   "sources": 1,
+   "title": "Priest Trainer",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2124": {
+   "classification": 0,
+   "creatureDifficultyId": 2124,
+   "displays": [
+    {
+     "displayId": 1592,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Isabella",
+   "sources": 1,
+   "title": "Mage Trainer",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2126": {
+   "classification": 0,
+   "creatureDifficultyId": 2126,
+   "displays": [
+    {
+     "displayId": 1581,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Maximillion",
+   "sources": 1,
+   "title": "Warlock Trainer",
+   "totalProbability": 100.0,
    "type": 7,
    "unitClass": 1
   },
@@ -1205,6 +1980,30 @@
    "type": 7,
    "unitClass": 1
   },
+  "2307": {
+   "classification": 0,
+   "creatureDifficultyId": 2307,
+   "displays": [
+    {
+     "displayId": 3522,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Caretaker Caice",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "2308": {
    "classification": 0,
    "creatureDifficultyId": 2308,
@@ -1226,6 +2025,30 @@
    "name": "Andrew Brownell",
    "sources": 1,
    "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2315": {
+   "classification": 0,
+   "creatureDifficultyId": 2315,
+   "displays": [
+    {
+     "displayId": 1594,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Maquell Ebonwood",
+   "sources": 1,
+   "totalProbability": 100.0,
    "type": 7,
    "unitClass": 1
   },
@@ -1511,6 +2334,600 @@
    "movementInfoId": 1693,
    "name": "Keeper Bel'dugur",
    "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2959": {
+   "classification": 0,
+   "creatureDifficultyId": 2959,
+   "displays": [
+    {
+     "displayId": 643,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 1,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Prairie Stalker",
+   "questItems": [
+    4758,
+    4804,
+    4801
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 1,
+   "unitClass": 1
+  },
+  "2978": {
+   "classification": 0,
+   "creatureDifficultyId": 2978,
+   "displays": [
+    {
+     "displayId": 7247,
+     "probability": 65.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 1122,
+     "probability": 10.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 355,
+     "probability": 15.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 3909,
+     "probability": 10.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Venture Co. Worker",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2979": {
+   "classification": 0,
+   "creatureDifficultyId": 2979,
+   "displays": [
+    {
+     "displayId": 7245,
+     "probability": 75.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 3904,
+     "probability": 8.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 3905,
+     "probability": 7.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 3906,
+     "probability": 10.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Venture Co. Supervisor",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2984": {
+   "classification": 0,
+   "creatureDifficultyId": 2984,
+   "displays": [
+    {
+     "displayId": 3815,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Seer Wiserunner",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2987": {
+   "classification": 0,
+   "creatureDifficultyId": 2987,
+   "displays": [
+    {
+     "displayId": 4516,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Eyahn Eagletalon",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2995": {
+   "classification": 1,
+   "creatureDifficultyId": 2995,
+   "displays": [
+    {
+     "displayId": 2098,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 3.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 3.0,
+   "movementInfoId": 1693,
+   "name": "Tal",
+   "sources": 1,
+   "title": "Wind Rider Master",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2996": {
+   "classification": 0,
+   "creatureDifficultyId": 2996,
+   "displays": [
+    {
+     "displayId": 2104,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 3.0,
+   "movementInfoId": 1693,
+   "name": "Torn",
+   "sources": 1,
+   "title": "Banker",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2997": {
+   "classification": 0,
+   "creatureDifficultyId": 2997,
+   "displays": [
+    {
+     "displayId": 2110,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Jyn Stonehoof",
+   "sources": 1,
+   "title": "Weapons Merchant",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2998": {
+   "classification": 0,
+   "creatureDifficultyId": 2998,
+   "displays": [
+    {
+     "displayId": 2090,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.1,
+   "movementInfoId": 1693,
+   "name": "Karn Stonehoof",
+   "sources": 1,
+   "title": "Expert Blacksmith",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "2999": {
+   "classification": 0,
+   "creatureDifficultyId": 2999,
+   "displays": [
+    {
+     "displayId": 2100,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Taur Stonehoof",
+   "sources": 1,
+   "title": "Blacksmithing Supplies",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3001": {
+   "classification": 0,
+   "creatureDifficultyId": 3001,
+   "displays": [
+    {
+     "displayId": 2083,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.1,
+   "movementInfoId": 1693,
+   "name": "Brek Stonehoof",
+   "sources": 1,
+   "title": "Mining Trainer",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3002": {
+   "classification": 0,
+   "creatureDifficultyId": 3002,
+   "displays": [
+    {
+     "displayId": 2092,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.15,
+   "movementInfoId": 1693,
+   "name": "Kurm Stonehoof",
+   "sources": 1,
+   "title": "Mining Supplier",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3003": {
+   "classification": 0,
+   "creatureDifficultyId": 3003,
+   "displays": [
+    {
+     "displayId": 2109,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Fyr Mistrunner",
+   "sources": 1,
+   "title": "Bread Vendor",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3005": {
+   "classification": 0,
+   "creatureDifficultyId": 3005,
+   "displays": [
+    {
+     "displayId": 2093,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Mahu",
+   "sources": 1,
+   "title": "Leatherworking & Tailoring Supplies",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3008": {
+   "classification": 0,
+   "creatureDifficultyId": 3008,
+   "displays": [
+    {
+     "displayId": 2094,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.02,
+   "movementInfoId": 1693,
+   "name": "Mak",
+   "sources": 1,
+   "title": "Journeyman Leatherworker",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3019": {
+   "classification": 0,
+   "creatureDifficultyId": 3019,
+   "displays": [
+    {
+     "displayId": 2084,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Delgo Ragetotem",
+   "sources": 1,
+   "title": "Axe Merchant",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3020": {
+   "classification": 0,
+   "creatureDifficultyId": 3020,
+   "displays": [
+    {
+     "displayId": 2085,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Etu Ragetotem",
+   "sources": 1,
+   "title": "Mace & Staff Merchant",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3021": {
+   "classification": 0,
+   "creatureDifficultyId": 3021,
+   "displays": [
+    {
+     "displayId": 2089,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Kard Ragetotem",
+   "sources": 1,
+   "title": "Sword and Dagger Merchant",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3027": {
+   "classification": 0,
+   "creatureDifficultyId": 3027,
+   "displays": [
+    {
+     "displayId": 2095,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.15,
+   "movementInfoId": 1693,
+   "name": "Naal Mistrunner",
+   "sources": 1,
+   "title": "Cooking Supplier",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3050": {
+   "classification": 0,
+   "creatureDifficultyId": 3050,
+   "displays": [
+    {
+     "displayId": 4517,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.02,
+   "movementInfoId": 1693,
+   "name": "Veren Tallstrider",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3084": {
+   "classification": 0,
+   "creatureDifficultyId": 3084,
+   "displays": [
+    {
+     "displayId": 2141,
+     "probability": 25.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 8572,
+     "probability": 25.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 9391,
+     "probability": 25.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 9392,
+     "probability": 25.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    0,
+    0,
+    0
+   ],
+   "hpMultiplier": 2.0,
+   "movementInfoId": 1693,
+   "name": "Bluffwatcher",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3093": {
+   "classification": 0,
+   "creatureDifficultyId": 3093,
+   "displays": [
+    {
+     "displayId": 2129,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Grod",
+   "sources": 1,
+   "title": "Leather Armor Merchant",
    "totalProbability": 1.0,
    "type": 7,
    "unitClass": 1
@@ -2617,6 +4034,142 @@
    "type": 7,
    "unitClass": 1
   },
+  "3276": {
+   "classification": 0,
+   "creatureDifficultyId": 3276,
+   "displays": [
+    {
+     "displayId": 3218,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Witchwing Harpy",
+   "questItems": [
+    5064
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3277": {
+   "classification": 0,
+   "creatureDifficultyId": 3277,
+   "displays": [
+    {
+     "displayId": 2162,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Witchwing Roguefeather",
+   "questItems": [
+    5064
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3278": {
+   "classification": 0,
+   "creatureDifficultyId": 3278,
+   "displays": [
+    {
+     "displayId": 2163,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Witchwing Slayer",
+   "questItems": [
+    5064,
+    5065
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3279": {
+   "classification": 0,
+   "creatureDifficultyId": 3279,
+   "displays": [
+    {
+     "displayId": 2143,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Witchwing Ambusher",
+   "questItems": [
+    5064
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "3280": {
+   "classification": 0,
+   "creatureDifficultyId": 3280,
+   "displays": [
+    {
+     "displayId": 1350,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Witchwing Windcaller",
+   "questItems": [
+    5064
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
   "3282": {
    "classification": 0,
    "creatureDifficultyId": 3282,
@@ -2868,7 +4421,7 @@
    "hpMultiplier": 0.01,
    "movementInfoId": 1695,
    "name": "Adder",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 3.0,
    "type": 8,
    "unitClass": 1
@@ -3698,7 +5251,7 @@
    "questItems": [
     5078
    ],
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 100.0,
    "type": 7,
    "unitClass": 1
@@ -3963,7 +5516,7 @@
    "hpMultiplier": 1.0,
    "movementInfoId": 1693,
    "name": "Mangletooth",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 0.0,
    "type": 7,
    "unitClass": 1
@@ -4390,7 +5943,7 @@
    "questItems": [
     5078
    ],
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 100.0,
    "type": 7,
    "unitClass": 1
@@ -4417,7 +5970,7 @@
    "questItems": [
     5078
    ],
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 100.0,
    "type": 7,
    "unitClass": 1
@@ -5540,7 +7093,7 @@
    "hpMultiplier": 0.05,
    "movementInfoId": 1693,
    "name": "Healing Stream Totem",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 11,
    "unitClass": 1
@@ -6020,7 +7573,7 @@
    "hpMultiplier": 3.0,
    "movementInfoId": 1693,
    "name": "Disciple of Naralex",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 7,
    "unitClass": 2
@@ -6763,6 +8316,30 @@
    "type": 1,
    "unitClass": 1
   },
+  "3978": {
+   "classification": 0,
+   "creatureDifficultyId": 3978,
+   "displays": [
+    {
+     "displayId": 4518,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Sage Truthseeker",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "4056": {
    "classification": 1,
    "creatureDifficultyId": 4056,
@@ -6816,7 +8393,7 @@
    "hpMultiplier": 0.2,
    "movementInfoId": 1695,
    "name": "Rat",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 5.0,
    "type": 8,
    "unitClass": 1
@@ -6977,7 +8554,7 @@
    "questItems": [
     11507
    ],
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 1,
    "unitClass": 1
@@ -7323,6 +8900,30 @@
    "type": 7,
    "unitClass": 1
   },
+  "4451": {
+   "classification": 0,
+   "creatureDifficultyId": 4451,
+   "displays": [
+    {
+     "displayId": 4568,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Auld Stonespire",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "4486": {
    "classification": 0,
    "creatureDifficultyId": 4486,
@@ -7370,6 +8971,33 @@
    "sources": 1,
    "totalProbability": 0.0,
    "type": 1,
+   "unitClass": 1
+  },
+  "4532": {
+   "classification": 1,
+   "creatureDifficultyId": 4532,
+   "displays": [
+    {
+     "displayId": 6105,
+     "probability": 0.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 3.0,
+   "movementInfoId": 1693,
+   "name": "Razorfen Beastmaster",
+   "questItems": [
+    5825
+   ],
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 7,
    "unitClass": 1
   },
   "4549": {
@@ -8996,6 +10624,31 @@
    "type": 7,
    "unitClass": 1
   },
+  "5054": {
+   "classification": 0,
+   "creatureDifficultyId": 5054,
+   "displays": [
+    {
+     "displayId": 3002,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.25,
+   "movementInfoId": 1693,
+   "name": "Krumn",
+   "sources": 1,
+   "title": "Guild Master",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "5058": {
    "classification": 0,
    "creatureDifficultyId": 5058,
@@ -9064,6 +10717,31 @@
    "hpMultiplier": 1.05,
    "movementInfoId": 1693,
    "name": "Garyl",
+   "sources": 1,
+   "title": "Tabard Vendor",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "5189": {
+   "classification": 0,
+   "creatureDifficultyId": 5189,
+   "displays": [
+    {
+     "displayId": 3129,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.02,
+   "movementInfoId": 1693,
+   "name": "Thrumn",
    "sources": 1,
    "title": "Tabard Vendor",
    "totalProbability": 1.0,
@@ -9741,6 +11419,30 @@
    "name": "Alyssa Blaye",
    "sources": 1,
    "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "5667": {
+   "classification": 0,
+   "creatureDifficultyId": 5667,
+   "displays": [
+    {
+     "displayId": 3944,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Venya Marthand",
+   "sources": 1,
+   "totalProbability": 100.0,
    "type": 7,
    "unitClass": 1
   },
@@ -10422,6 +12124,31 @@
    "type": 7,
    "unitClass": 8
   },
+  "5749": {
+   "classification": 0,
+   "creatureDifficultyId": 5749,
+   "displays": [
+    {
+     "displayId": 4175,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Kayla Smithe",
+   "sources": 1,
+   "title": "Demon Trainer",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 8
+  },
   "5753": {
    "classification": 0,
    "creatureDifficultyId": 5753,
@@ -10804,7 +12531,7 @@
    "hpMultiplier": 0.05,
    "movementInfoId": 1693,
    "name": "Stoneskin Totem",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 11,
    "unitClass": 1
@@ -10976,7 +12703,7 @@
    "hpMultiplier": 1.0,
    "movementInfoId": 1693,
    "name": "Kranal Fiss",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 7,
    "unitClass": 1
@@ -11544,6 +13271,30 @@
    "type": 7,
    "unitClass": 1
   },
+  "6410": {
+   "classification": 0,
+   "creatureDifficultyId": 6410,
+   "displays": [
+    {
+     "displayId": 5372,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.2,
+   "movementInfoId": 1693,
+   "name": "Orm Stonehoof",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "6411": {
    "classification": 0,
    "creatureDifficultyId": 6411,
@@ -11663,6 +13414,31 @@
    "hpMultiplier": 1.05,
    "movementInfoId": 1693,
    "name": "Innkeeper Norman",
+   "sources": 1,
+   "title": "Innkeeper",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "6746": {
+   "classification": 0,
+   "creatureDifficultyId": 6746,
+   "displays": [
+    {
+     "displayId": 5487,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Innkeeper Pala",
    "sources": 1,
    "title": "Innkeeper",
    "totalProbability": 1.0,
@@ -11887,7 +13663,7 @@
    "hpMultiplier": 1.0,
    "movementInfoId": 1699,
    "name": "Siamese",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 12,
    "unitClass": 1
@@ -11959,7 +13735,7 @@
    "hpMultiplier": 1.0,
    "movementInfoId": 1699,
    "name": "Green Wing Macaw",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 12,
    "unitClass": 1
@@ -12031,7 +13807,7 @@
    "hpMultiplier": 1.0,
    "movementInfoId": 1699,
    "name": "Brown Snake",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 12,
    "unitClass": 1
@@ -12055,7 +13831,7 @@
    "hpMultiplier": 1.0,
    "movementInfoId": 1699,
    "name": "Black Kingsnake",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 12,
    "unitClass": 1
@@ -12233,6 +14009,231 @@
    "type": 7,
    "unitClass": 1
   },
+  "8356": {
+   "classification": 0,
+   "creatureDifficultyId": 8356,
+   "displays": [
+    {
+     "displayId": 7621,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 3.0,
+   "movementInfoId": 1693,
+   "name": "Chesmu",
+   "sources": 1,
+   "title": "Banker",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "8357": {
+   "classification": 0,
+   "creatureDifficultyId": 8357,
+   "displays": [
+    {
+     "displayId": 7620,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 3.0,
+   "movementInfoId": 1693,
+   "name": "Atepa",
+   "sources": 1,
+   "title": "Banker",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "8358": {
+   "classification": 0,
+   "creatureDifficultyId": 8358,
+   "displays": [
+    {
+     "displayId": 7622,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Hewa",
+   "sources": 1,
+   "title": "Cloth Armor Merchant",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "8359": {
+   "classification": 0,
+   "creatureDifficultyId": 8359,
+   "displays": [
+    {
+     "displayId": 7623,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Ahanu",
+   "sources": 1,
+   "title": "Leather Armor Merchant",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "8360": {
+   "classification": 0,
+   "creatureDifficultyId": 8360,
+   "displays": [
+    {
+     "displayId": 7624,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Elki",
+   "sources": 1,
+   "title": "Mail Armor Merchant",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "8361": {
+   "classification": 0,
+   "creatureDifficultyId": 8361,
+   "displays": [
+    {
+     "displayId": 7625,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Chepi",
+   "sources": 1,
+   "title": "Reagent Vendor",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "8362": {
+   "classification": 0,
+   "creatureDifficultyId": 8362,
+   "displays": [
+    {
+     "displayId": 7626,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Kuruk",
+   "sources": 1,
+   "title": "General Goods Vendor",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "8363": {
+   "classification": 0,
+   "creatureDifficultyId": 8363,
+   "displays": [
+    {
+     "displayId": 7628,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Shadi Mistrunner",
+   "sources": 1,
+   "title": "Trade Goods Supplier",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "8364": {
+   "classification": 0,
+   "creatureDifficultyId": 8364,
+   "displays": [
+    {
+     "displayId": 7627,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Pakwa",
+   "sources": 1,
+   "title": "Bag Vendor",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "8385": {
    "classification": 0,
    "creatureDifficultyId": 8385,
@@ -12253,6 +14254,31 @@
    "movementInfoId": 1693,
    "name": "Mura Runetotem",
    "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "8398": {
+   "classification": 0,
+   "creatureDifficultyId": 8398,
+   "displays": [
+    {
+     "displayId": 10689,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Ohanko",
+   "sources": 1,
+   "title": "Two Handed Weapon Merchant",
    "totalProbability": 1.0,
    "type": 7,
    "unitClass": 1
@@ -12404,6 +14430,30 @@
    "type": 7,
    "unitClass": 1
   },
+  "8674": {
+   "classification": 0,
+   "creatureDifficultyId": 8674,
+   "displays": [
+    {
+     "displayId": 7999,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.25,
+   "movementInfoId": 1693,
+   "name": "Auctioneer Stampi",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "8721": {
    "classification": 0,
    "creatureDifficultyId": 8721,
@@ -12423,6 +14473,30 @@
    "hpMultiplier": 1.25,
    "movementInfoId": 1693,
    "name": "Auctioneer Epitwee",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "8722": {
+   "classification": 0,
+   "creatureDifficultyId": 8722,
+   "displays": [
+    {
+     "displayId": 7998,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.25,
+   "movementInfoId": 1693,
+   "name": "Auctioneer Gullem",
    "sources": 1,
    "totalProbability": 1.0,
    "type": 7,
@@ -12499,7 +14573,7 @@
    "questItems": [
     5030
    ],
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 7,
    "unitClass": 1
@@ -12678,6 +14752,31 @@
    "type": 7,
    "unitClass": 1
   },
+  "10054": {
+   "classification": 0,
+   "creatureDifficultyId": 10054,
+   "displays": [
+    {
+     "displayId": 9272,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Bulrug",
+   "sources": 1,
+   "title": "Stable Master",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "10063": {
    "classification": 0,
    "creatureDifficultyId": 10063,
@@ -12699,6 +14798,31 @@
    "name": "Reggifuz",
    "sources": 1,
    "title": "Stable Master",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "10278": {
+   "classification": 0,
+   "creatureDifficultyId": 10278,
+   "displays": [
+    {
+     "displayId": 9742,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.02,
+   "movementInfoId": 1693,
+   "name": "Thrag Stonehoof",
+   "sources": 1,
+   "title": "Journeyman Blacksmith",
    "totalProbability": 1.0,
    "type": 7,
    "unitClass": 1
@@ -12922,6 +15046,30 @@
    "type": 7,
    "unitClass": 1
   },
+  "10881": {
+   "classification": 0,
+   "creatureDifficultyId": 10881,
+   "displays": [
+    {
+     "displayId": 10188,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Bluff Runner Windstrider",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "10882": {
    "classification": 1,
    "creatureDifficultyId": 10882,
@@ -13001,6 +15149,31 @@
    "type": 7,
    "unitClass": 1
   },
+  "11051": {
+   "classification": 0,
+   "creatureDifficultyId": 11051,
+   "displays": [
+    {
+     "displayId": 10586,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Vhan",
+   "sources": 1,
+   "title": "Journeyman Tailor",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "11067": {
    "classification": 0,
    "creatureDifficultyId": 11067,
@@ -13026,6 +15199,104 @@
    "type": 7,
    "unitClass": 1
   },
+  "11084": {
+   "classification": 0,
+   "creatureDifficultyId": 11084,
+   "displays": [
+    {
+     "displayId": 10617,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.15,
+   "movementInfoId": 1693,
+   "name": "Tarn",
+   "sources": 1,
+   "title": "Expert Leatherworker",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "11318": {
+   "classification": 1,
+   "creatureDifficultyId": 11318,
+   "displays": [
+    {
+     "displayId": 11609,
+     "probability": 0.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 3.0,
+   "movementInfoId": 1693,
+   "name": "Ragefire Trogg",
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "11319": {
+   "classification": 1,
+   "creatureDifficultyId": 11319,
+   "displays": [
+    {
+     "displayId": 11610,
+     "probability": 0.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 3.0,
+   "movementInfoId": 1693,
+   "name": "Ragefire Shaman",
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "11869": {
+   "classification": 1,
+   "creatureDifficultyId": 11869,
+   "displays": [
+    {
+     "displayId": 11803,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 7.0,
+   "movementInfoId": 1693,
+   "name": "Ansekhwa",
+   "sources": 1,
+   "title": "Weapon Master",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "11870": {
    "classification": 1,
    "creatureDifficultyId": 11870,
@@ -13048,6 +15319,30 @@
    "sources": 1,
    "title": "Weapon Master",
    "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "11945": {
+   "classification": 0,
+   "creatureDifficultyId": 11945,
+   "displays": [
+    {
+     "displayId": 11904,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Claire Willower",
+   "sources": 1,
+   "totalProbability": 100.0,
    "type": 7,
    "unitClass": 1
   },
@@ -13420,6 +15715,31 @@
    "type": 7,
    "unitClass": 1
   },
+  "12922": {
+   "classification": 0,
+   "creatureDifficultyId": 12922,
+   "displays": [
+    {
+     "displayId": 4449,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 0.33,
+   "family": 23,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 0.36,
+   "movementInfoId": 1699,
+   "name": "Imp Minion",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 3,
+   "unitClass": 8
+  },
   "13842": {
    "classification": 0,
    "creatureDifficultyId": 13842,
@@ -13612,6 +15932,54 @@
    "type": 7,
    "unitClass": 1
   },
+  "14440": {
+   "classification": 1,
+   "creatureDifficultyId": 14440,
+   "displays": [
+    {
+     "displayId": 14494,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 3.0,
+   "movementInfoId": 1693,
+   "name": "Hunter Sagewind",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "14442": {
+   "classification": 1,
+   "creatureDifficultyId": 14442,
+   "displays": [
+    {
+     "displayId": 14496,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 3.0,
+   "movementInfoId": 1693,
+   "name": "Hunter Thunderhorn",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "14581": {
    "classification": 0,
    "creatureDifficultyId": 14581,
@@ -13680,6 +16048,31 @@
    "hpMultiplier": 1.0,
    "movementInfoId": 1693,
    "name": "Vehena",
+   "sources": 1,
+   "title": "Horde Cloth Quartermaster",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "14728": {
+   "classification": 0,
+   "creatureDifficultyId": 14728,
+   "displays": [
+    {
+     "displayId": 14758,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Rumstag Proudstrider",
    "sources": 1,
    "title": "Horde Cloth Quartermaster",
    "totalProbability": 100.0,
@@ -14265,7 +16658,7 @@
    ],
    "hpMultiplier": 1.5,
    "name": "Generic Hunter Pet",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 0.0,
    "type": 1,
    "unitClass": 1
@@ -14290,7 +16683,7 @@
    "hpMultiplier": 0.7,
    "movementInfoId": 1699,
    "name": "Incubus",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 3,
    "unitClass": 2
@@ -14445,6 +16838,31 @@
    "totalProbability": 1.0,
    "type": 10,
    "unitClass": 1
+  },
+  "244808": {
+   "classification": 0,
+   "creatureDifficultyId": 324161,
+   "displays": [
+    {
+     "displayId": 129405,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Aramis Hammerhand",
+   "sources": 1,
+   "title": "Paladin Trainer",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 2
   },
   "248196": {
    "classification": 0,
@@ -14638,6 +17056,30 @@
    "type": 7,
    "unitClass": 2
   },
+  "249363": {
+   "classification": 0,
+   "creatureDifficultyId": 328944,
+   "displays": [
+    {
+     "displayId": 136971,
+     "probability": 0.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.35,
+   "movementInfoId": 1693,
+   "name": "Yala Windwatcher",
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 10,
+   "unitClass": 1
+  },
   "250686": {
    "classification": 0,
    "creatureDifficultyId": 330283,
@@ -14661,6 +17103,983 @@
    "totalProbability": 1.0,
    "type": 7,
    "unitClass": 1
+  },
+  "250873": {
+   "classification": 0,
+   "creatureDifficultyId": 330483,
+   "displays": [
+    {
+     "displayId": 136536,
+     "probability": 0.3,
+     "scale": 0.6
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 319,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1694,
+   "name": "Juvenile Vuldren",
+   "sources": 1,
+   "totalProbability": 0.3,
+   "type": 1,
+   "unitClass": 1
+  },
+  "250926": {
+   "classification": 0,
+   "creatureDifficultyId": 330536,
+   "displays": [
+    {
+     "displayId": 136607,
+     "probability": 1.0,
+     "scale": 0.7
+    },
+    {
+     "displayId": 136608,
+     "probability": 0.5,
+     "scale": 0.8
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 4,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1694,
+   "name": "Scrawny Ursera",
+   "questItems": [
+    251918
+   ],
+   "sources": 1,
+   "totalProbability": 1.5,
+   "type": 1,
+   "unitClass": 1
+  },
+  "250937": {
+   "classification": 0,
+   "creatureDifficultyId": 330547,
+   "displays": [
+    {
+     "displayId": 136605,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 136604,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 4,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1694,
+   "name": "Ursera Scavenger",
+   "sources": 1,
+   "totalProbability": 2.0,
+   "type": 1,
+   "unitClass": 1
+  },
+  "251115": {
+   "classification": 0,
+   "creatureDifficultyId": 331523,
+   "displays": [
+    {
+     "displayId": 136606,
+     "probability": 1.0,
+     "scale": 1.3
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 4,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.25,
+   "movementInfoId": 1694,
+   "name": "Urs'anah",
+   "questItems": [
+    252665
+   ],
+   "sources": 1,
+   "title": "The Den Mother",
+   "totalProbability": 1.0,
+   "type": 1,
+   "unitClass": 1
+  },
+  "251143": {
+   "classification": 0,
+   "creatureDifficultyId": 331947,
+   "displays": [
+    {
+     "displayId": 137907,
+     "probability": 0.0,
+     "scale": 0.7
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Roiling Winds",
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 10,
+   "unitClass": 1
+  },
+  "251145": {
+   "classification": 0,
+   "creatureDifficultyId": 331949,
+   "displays": [
+    {
+     "displayId": 136836,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 136837,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Al'Aketh Brute",
+   "questItems": [
+    251924
+   ],
+   "sources": 1,
+   "totalProbability": 2.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251160": {
+   "classification": 0,
+   "creatureDifficultyId": 331964,
+   "displays": [
+    {
+     "displayId": 137690,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 137691,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 143529,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 143530,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 143531,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Al'Aketh Convert",
+   "questItems": [
+    251924
+   ],
+   "sources": 1,
+   "totalProbability": 5.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251169": {
+   "classification": 0,
+   "creatureDifficultyId": 331973,
+   "displays": [
+    {
+     "displayId": 139279,
+     "probability": 0.0,
+     "scale": 0.3
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Pesky Cirrusfly",
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 1,
+   "unitClass": 8
+  },
+  "251306": {
+   "classification": 0,
+   "creatureDifficultyId": 332113,
+   "displays": [
+    {
+     "displayId": 136941,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 0.2,
+   "movementInfoId": 1695,
+   "name": "Hoarder",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 8,
+   "unitClass": 1
+  },
+  "251361": {
+   "classification": 0,
+   "creatureDifficultyId": 332168,
+   "displays": [
+    {
+     "displayId": 136966,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Rorian the Dayseeker",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251362": {
+   "classification": 0,
+   "creatureDifficultyId": 332169,
+   "displays": [
+    {
+     "displayId": 136968,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Ailee Farheart",
+   "sources": 1,
+   "title": "Rangers of Thendal Grove",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251363": {
+   "classification": 0,
+   "creatureDifficultyId": 332170,
+   "displays": [
+    {
+     "displayId": 137697,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Dalia the Collector",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251364": {
+   "classification": 0,
+   "creatureDifficultyId": 332171,
+   "displays": [
+    {
+     "displayId": 136969,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Destin Thriceforged",
+   "sources": 1,
+   "title": "Weapon Merchant",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251365": {
+   "classification": 0,
+   "creatureDifficultyId": 332172,
+   "displays": [
+    {
+     "displayId": 138156,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Jolee Brightmeadows",
+   "sources": 1,
+   "title": "Cloth & Leather Armor",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251366": {
+   "classification": 0,
+   "creatureDifficultyId": 332173,
+   "displays": [
+    {
+     "displayId": 137339,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Aetheen of the Gales",
+   "sources": 1,
+   "title": "Elder of Zephras Isle",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251368": {
+   "classification": 0,
+   "creatureDifficultyId": 332175,
+   "displays": [
+    {
+     "displayId": 136967,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Elatrell Featherlight",
+   "sources": 1,
+   "title": "Rangers of Thendal Grove",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251371": {
+   "classification": 0,
+   "creatureDifficultyId": 332178,
+   "displays": [
+    {
+     "displayId": 136972,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Falorne Fallwind",
+   "sources": 1,
+   "title": "High Order",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251373": {
+   "classification": 0,
+   "creatureDifficultyId": 332180,
+   "cursor": "trainer",
+   "displays": [
+    {
+     "displayId": 136974,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Xyton Silverwind",
+   "sources": 1,
+   "title": "Druid Trainer",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251374": {
+   "classification": 0,
+   "creatureDifficultyId": 332181,
+   "cursor": "trainer",
+   "displays": [
+    {
+     "displayId": 136975,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Windshaper Boro",
+   "sources": 1,
+   "title": "Shaman Trainer",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251376": {
+   "classification": 0,
+   "creatureDifficultyId": 332183,
+   "cursor": "trainer",
+   "displays": [
+    {
+     "displayId": 136976,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Tai'ree Farsight",
+   "sources": 1,
+   "title": "Hunter Trainer",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251379": {
+   "classification": 0,
+   "creatureDifficultyId": 332186,
+   "cursor": "trainer",
+   "displays": [
+    {
+     "displayId": 136977,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Dorii Brightwhisper",
+   "sources": 1,
+   "title": "Mage Trainer",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251389": {
+   "classification": 0,
+   "creatureDifficultyId": 332196,
+   "cursor": "trainer",
+   "displays": [
+    {
+     "displayId": 136981,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Akeri Duskblade",
+   "sources": 1,
+   "title": "Rogue Trainer",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251402": {
+   "classification": 0,
+   "creatureDifficultyId": 332209,
+   "displays": [
+    {
+     "displayId": 136992,
+     "probability": 0.0,
+     "scale": 0.75
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.1,
+   "movementInfoId": 1693,
+   "name": "Cirrusfly Soldier",
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 1,
+   "unitClass": 2
+  },
+  "251404": {
+   "classification": 0,
+   "creatureDifficultyId": 332211,
+   "displays": [
+    {
+     "displayId": 136996,
+     "probability": 0.0,
+     "scale": 1.5
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.7,
+   "movementInfoId": 1693,
+   "name": "Cirrusfly Queen",
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 1,
+   "unitClass": 1
+  },
+  "251428": {
+   "classification": 0,
+   "creatureDifficultyId": 332236,
+   "displays": [
+    {
+     "displayId": 136941,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 0.2,
+   "movementInfoId": 1695,
+   "name": "Hoarder",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 8,
+   "unitClass": 1
+  },
+  "251437": {
+   "classification": 0,
+   "creatureDifficultyId": 332245,
+   "displays": [
+    {
+     "displayId": 137015,
+     "probability": 0.0,
+     "scale": 2.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    1207959552,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.35,
+   "movementInfoId": 1693,
+   "name": "Fireflies",
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 8,
+   "unitClass": 1
+  },
+  "251448": {
+   "classification": 0,
+   "creatureDifficultyId": 332256,
+   "displays": [
+    {
+     "displayId": 136838,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 136839,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Al'Aketh Neophyte",
+   "questItems": [
+    251924
+   ],
+   "sources": 1,
+   "totalProbability": 2.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251487": {
+   "classification": 0,
+   "creatureDifficultyId": 332295,
+   "displays": [
+    {
+     "displayId": 139694,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Ventaari Brightwish",
+   "sources": 1,
+   "title": "Windshapers",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251537": {
+   "classification": 0,
+   "creatureDifficultyId": 332345,
+   "displays": [
+    {
+     "displayId": 136970,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Uualia Suncrest",
+   "sources": 1,
+   "title": "General Goods",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "251559": {
+   "classification": 0,
+   "creatureDifficultyId": 332367,
+   "displays": [
+    {
+     "displayId": 136941,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 147397,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 0.2,
+   "movementInfoId": 1695,
+   "name": "Hoarder",
+   "sources": 1,
+   "totalProbability": 2.0,
+   "type": 8,
+   "unitClass": 1
+  },
+  "251617": {
+   "classification": 0,
+   "creatureDifficultyId": 332435,
+   "displays": [
+    {
+     "displayId": 137141,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 0.2,
+   "movementInfoId": 1695,
+   "name": "Peeps",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 8,
+   "unitClass": 1
+  },
+  "251964": {
+   "classification": 0,
+   "creatureDifficultyId": 332788,
+   "cursor": "trainer",
+   "displays": [
+    {
+     "displayId": 138170,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Blademaster Ren",
+   "sources": 1,
+   "title": "Warrior Trainer",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "251965": {
+   "classification": 0,
+   "creatureDifficultyId": 332789,
+   "displays": [
+    {
+     "displayId": 139401,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Fevrath Skyhammer",
+   "sources": 1,
+   "title": "Armorer & Shieldcrafter",
+   "totalProbability": 100.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "252095": {
+   "classification": 0,
+   "creatureDifficultyId": 332923,
+   "displays": [
+    {
+     "displayId": 137338,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Hanaa Nightwind",
+   "sources": 1,
+   "title": "Rangers of Thendal Grove",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "255002": {
+   "classification": 0,
+   "creatureDifficultyId": 335909,
+   "displays": [
+    {
+     "displayId": 136536,
+     "probability": 1.0,
+     "scale": 0.4
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.25,
+   "movementInfoId": 1694,
+   "name": "Ryff",
+   "sources": 1,
+   "title": "Tai'ree Farsight's Companion",
+   "totalProbability": 1.0,
+   "type": 1,
+   "unitClass": 1
+  },
+  "255979": {
+   "classification": 0,
+   "creatureDifficultyId": 339019,
+   "displays": [
+    {
+     "displayId": 139403,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 139404,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 139405,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 139409,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 139411,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 139412,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Thendal Grove Ranger",
+   "sources": 1,
+   "totalProbability": 6.0,
+   "type": 7,
+   "unitClass": 2
   },
   "256384": {
    "classification": 0,
@@ -14925,6 +18344,80 @@
    "type": 7,
    "unitClass": 1
   },
+  "256935": {
+   "classification": 0,
+   "creatureDifficultyId": 340000,
+   "displays": [
+    {
+     "displayId": 139880,
+     "probability": 1.0,
+     "scale": 1.2
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.4,
+   "movementInfoId": 1695,
+   "name": "Malduko Cloudcrush",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "257551": {
+   "classification": 0,
+   "creatureDifficultyId": 340625,
+   "displays": [
+    {
+     "displayId": 139409,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Valreaa Valewind",
+   "sources": 1,
+   "title": "Rangers of Thendal Grove",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
+  "257554": {
+   "classification": 0,
+   "creatureDifficultyId": 340628,
+   "displays": [
+    {
+     "displayId": 143583,
+     "probability": 1.0,
+     "scale": 1.2
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Halaan Hawk-Eye",
+   "sources": 1,
+   "title": "Rangers of Thendal Grove",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
   "257648": {
    "classification": 0,
    "creatureDifficultyId": 340724,
@@ -14974,6 +18467,31 @@
    "type": 7,
    "unitClass": 1
   },
+  "258466": {
+   "classification": 0,
+   "creatureDifficultyId": 341567,
+   "displays": [
+    {
+     "displayId": 140795,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.05,
+   "movementInfoId": 1693,
+   "name": "Boramu",
+   "sources": 1,
+   "title": "Tailoring Recipes",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "258880": {
    "classification": 0,
    "creatureDifficultyId": 342018,
@@ -14996,6 +18514,55 @@
    "sources": 1,
    "totalProbability": 100.0,
    "type": 10,
+   "unitClass": 1
+  },
+  "259377": {
+   "classification": 0,
+   "creatureDifficultyId": 342557,
+   "displays": [
+    {
+     "displayId": 1587,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 2858,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 1589,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 2854,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 7118,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 14370,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134221824,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Injured Deathguard",
+   "sources": 1,
+   "totalProbability": 6.0,
+   "type": 7,
    "unitClass": 1
   },
   "259611": {
@@ -15097,6 +18664,31 @@
    "type": 1,
    "unitClass": 1
   },
+  "263113": {
+   "classification": 0,
+   "creatureDifficultyId": 346419,
+   "displays": [
+    {
+     "displayId": 143516,
+     "probability": 1.0,
+     "scale": 0.95
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1695,
+   "name": "Myriaal Mistwake",
+   "sources": 1,
+   "title": "Rangers of Thendal Grove",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 2
+  },
   "265574": {
    "classification": 0,
    "creatureDifficultyId": 349086,
@@ -15165,7 +18757,7 @@
    "hpMultiplier": 1.0,
    "movementInfoId": 1699,
    "name": "Excitable Slime",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 12,
    "unitClass": 1
@@ -15337,6 +18929,125 @@
    "type": 7,
    "unitClass": 1
   },
+  "267323": {
+   "classification": 0,
+   "creatureDifficultyId": 350950,
+   "displays": [
+    {
+     "displayId": 145032,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    0,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "name": "Clarence Gillian",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "267324": {
+   "classification": 0,
+   "creatureDifficultyId": 350951,
+   "displays": [
+    {
+     "displayId": 145033,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    0,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "name": "Margaret Weaver",
+   "sources": 1,
+   "title": "Junior Skinning Trainer",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "267325": {
+   "classification": 0,
+   "creatureDifficultyId": 350952,
+   "displays": [
+    {
+     "displayId": 145034,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    0,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "name": "Walter Mason",
+   "sources": 1,
+   "title": "Junior Mining Trainer",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "267326": {
+   "classification": 0,
+   "creatureDifficultyId": 350953,
+   "displays": [
+    {
+     "displayId": 145035,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    0,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "name": "Florence Nightshade",
+   "sources": 1,
+   "title": "Junior Herbalism Trainer",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "267599": {
+   "classification": 0,
+   "creatureDifficultyId": 351186,
+   "displays": [
+    {
+     "displayId": 145131,
+     "probability": 0.0,
+     "scale": 0.4
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    1207959552,
+    0,
+    0
+   ],
+   "hpMultiplier": 100.35,
+   "movementInfoId": 1693,
+   "name": "Energizing Vortex",
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 4,
+   "unitClass": 1
+  },
   "268624": {
    "classification": 0,
    "creatureDifficultyId": 352273,
@@ -15407,9 +19118,34 @@
    "hpMultiplier": 1.0,
    "movementInfoId": 1699,
    "name": "Prairie Wolf Pup",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 12,
+   "unitClass": 1
+  },
+  "269068": {
+   "classification": 0,
+   "creatureDifficultyId": 352718,
+   "displays": [
+    {
+     "displayId": 145744,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.25,
+   "movementInfoId": 1693,
+   "name": "Eylah Sunhorn",
+   "sources": 1,
+   "title": "Sun Priest of An'she",
+   "totalProbability": 1.0,
+   "type": 7,
    "unitClass": 1
   },
   "269452": {
@@ -15686,6 +19422,78 @@
    "type": 7,
    "unitClass": 1
   },
+  "273458": {
+   "classification": 0,
+   "creatureDifficultyId": 357246,
+   "displays": [
+    {
+     "displayId": 147403,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Wisp",
+   "sources": 1,
+   "totalProbability": 100.0,
+   "type": 8,
+   "unitClass": 1
+  },
+  "273459": {
+   "classification": 0,
+   "creatureDifficultyId": 357247,
+   "displays": [
+    {
+     "displayId": 145213,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Haal",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "273460": {
+   "classification": 0,
+   "creatureDifficultyId": 357248,
+   "displays": [
+    {
+     "displayId": 144517,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Meeri",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "274740": {
    "classification": 0,
    "creatureDifficultyId": 358566,
@@ -15945,22 +19753,46 @@
    "totalProbability": 100.0,
    "type": 7,
    "unitClass": 2
+  },
+  "277055": {
+   "classification": 0,
+   "creatureDifficultyId": 360977,
+   "displays": [
+    {
+     "displayId": 148768,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134221824,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "name": "Axle Smoothslice",
+   "sources": 1,
+   "title": "Barber",
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 4
   }
  },
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
-  "cacheFiles": 8,
+  "cacheFiles": 17,
   "cachesLeftOut": 0,
   "clientBuild": "1.60.1.70205",
   "collectedOn": {
    "first": "2026-10-03",
-   "last": "2026-10-03"
+   "last": "2026-10-04"
   },
   "dataset": "creature_details",
   "license": "CC BY 4.0",
   "locale": "enUS",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 1
+  "sources": 2
  }
 }
