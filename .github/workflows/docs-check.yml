@@ -1,0 +1,70 @@
+# Checks that DATASETS.md and the README describe every dataset and field the data holds.
+# The processing job's daily pushes are what run it, and a failed run started by a GitHub App
+# may notify no one, so a failure opens an issue (or comments on the open one when the gaps
+# change), and a pass closes it.
+name: Docs check
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: docs-check
+  cancel-in-progress: false
+
+env:
+  ISSUE_TITLE: "Docs check: DATASETS.md is behind the data"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the docs
+        id: check
+        run: |
+          set +e
+          python3 .github/scripts/check_docs.py --report "$RUNNER_TEMP/gaps.md"
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the issue
+        if: steps.check.outputs.status == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          printf '\nFound by [this run](%s) on %s.\n' "$RUN_URL" "${GITHUB_SHA::7}" >> "$RUNNER_TEMP/gaps.md"
+          number=$(gh issue list --state open --limit 100 --json number,title \
+            --jq '.[] | select(.title == env.ISSUE_TITLE) | .number' | head -n 1)
+          if [ -z "$number" ]; then
+            gh issue create --title "$ISSUE_TITLE" --body-file "$RUNNER_TEMP/gaps.md"
+            exit 0
+          fi
+          # Comment only when the list of gaps changed, so each day's push doesn't add one.
+          old=$(gh issue view "$number" --json body --jq .body | sed '/^Found by \[this run\]/d')
+          new=$(sed '/^Found by \[this run\]/d' "$RUNNER_TEMP/gaps.md")
+          if [ "$old" != "$new" ]; then
+            gh issue edit "$number" --body-file "$RUNNER_TEMP/gaps.md"
+            gh issue comment "$number" --body-file "$RUNNER_TEMP/gaps.md"
+          fi
+
+      - name: Close the issue
+        if: steps.check.outputs.status == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue list --state open --limit 100 --json number,title \
+            --jq '.[] | select(.title == env.ISSUE_TITLE) | .number' |
+          while read -r number; do
+            gh issue close "$number" --comment "The docs describe every dataset and field again (${GITHUB_SHA::7})."
+          done
+
+      - name: Fail on gaps
+        if: steps.check.outputs.status != '0'
+        run: exit 1
