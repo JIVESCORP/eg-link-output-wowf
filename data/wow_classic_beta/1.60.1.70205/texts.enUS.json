@@ -1,5 +1,108 @@
 {
- "books": {},
+ "books": {
+  "object:617704": {
+   "1": {
+    "material": "Parchment",
+    "texts": [
+     {
+      "sexes": {
+       "male": 1
+      },
+      "sources": 1,
+      "text": "The cult hit us by surprise. Raani never saw it coming and Arvensus took a sword to the gut. For my part, I took a lightning bolt to the chest and blacked out. They never bothered to finish me off... I guess they assumed my wounds would do me in. When it's all said and done, I suspect they might.",
+      "times": 1
+     }
+    ],
+    "title": "Bloody Note"
+   },
+   "2": {
+    "material": "Parchment",
+    "texts": [
+     {
+      "sexes": {
+       "male": 1
+      },
+      "sources": 1,
+      "text": "As soon as the fighting stopped, they started moving massive crates of windstones to the top of the tower. The leader, some kind of priest, said something about a ritual.\r\n\r\nI'm writing this note just in case I don't make it back to Shen'dar to warn Aonda, but they are doing something here. Something bad.",
+      "times": 1
+     }
+    ],
+    "title": "Bloody Note"
+   },
+   "3": {
+    "material": "Parchment",
+    "texts": [
+     {
+      "sexes": {
+       "male": 1
+      },
+      "sources": 1,
+      "text": "If anyone finds this, please, do your best to stop them. There were only a few left at the tower when I scribbled this note and crawled away.\r\n\r\nAlso, try and get Raani's lucky feather from his body. He liked to tell tall tales about how he plucked it from some kind of firebird and I think he'd want to make sure that it made its way back home.\r\n\r\nIf you are also able to retrieve Arvensus Shadowsong's family signet from his body, please do so. High Elder Shadowsong is his uncle and he would want it to be returned to the family.",
+      "times": 1
+     }
+    ],
+    "title": "Bloody Note"
+   }
+  },
+  "object:658838": {
+   "1": {
+    "material": "Silver",
+    "texts": [
+     {
+      "sexes": {
+       "male": 1
+      },
+      "sources": 1,
+      "text": "<You touch the small white crystal and you can hear faint sounds on the wind. This is an audio recording of some sort.>\r\n\r\n\"The Rebellion in Eldre'Thalas, Part 1\"",
+      "times": 1
+     }
+    ],
+    "title": "The Rebellion In Eldre'Thalas, Part 1"
+   },
+   "2": {
+    "material": "Silver",
+    "texts": [
+     {
+      "sexes": {
+       "male": 1
+      },
+      "sources": 1,
+      "text": "\"In the days immediately following the turmoil at the Well of Eternity, there was much unrest in Eldre'Thalas. The demonic forces that poured from the Well nearly overwhelmed the beleaguered elvish kingdoms, ravaging the land and killing indiscriminately. If not for the intervention of the demigod Goldrinn and the sacrifice of countless kaldorei heroes, the kingdom of Eldre'Thalas would surely have been overrun and destroyed.\"",
+      "times": 1
+     }
+    ],
+    "title": "The Rebellion In Eldre'Thalas, Part 1"
+   },
+   "3": {
+    "material": "Silver",
+    "texts": [
+     {
+      "sexes": {
+       "male": 1
+      },
+      "sources": 1,
+      "text": "\"After the climax of the war and the Great Sundering of Kalimdor, the new reality of a world bereft of the sustaining magic on which our people depended quickly became apparent. The ruling house of Eldre'Thalas--House Tortheldrin--rapidly set plans in motion to ensure stability and continuity of our way of life. However, the methods they intended to employ left many deeply concerned.\"",
+      "times": 1
+     }
+    ],
+    "title": "The Rebellion In Eldre'Thalas, Part 1"
+   },
+   "4": {
+    "material": "Silver",
+    "texts": [
+     {
+      "sexes": {
+       "male": 1
+      },
+      "sources": 1,
+      "text": "\"The young Prince Tortheldrin intended to build a network of crystalline foci and use them to siphon and shape a new font of power for our people to draw upon. The point of contention for many was that he intended to use the very power that nearly destroyed our world to accomplish this. He meant to siphon this power from a demon world within the Twisting Nether itself. \r\n\r\nMany rightly feared this could open a new door through which demonic entities might gain once again access to our world.\"",
+      "times": 1
+     }
+    ],
+    "title": "The Rebellion In Eldre'Thalas, Part 1"
+   }
+  }
+ },
  "gossip": {
   "npc:10378": [
    {
@@ -15,18 +118,1440 @@
     "times": 1
    }
   ],
-  "npc:16227": [
+  "npc:11084": [
    {
     "broadcastTextIds": [
-     10753
+     8013
+    ],
+    "sexes": {
+     "female": 10
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I am pleased with your progress so far. Surely the Earth Mother has inspired your hands.",
+    "times": 10
+   }
+  ],
+  "npc:11798": [
+   {
+    "broadcastTextIds": [
+     7577
     ],
     "sexes": {
      "female": 1
     },
     "sources": 1,
     "template": "broadcastText",
-    "text": "Where would you like to fly to?",
+    "text": "Would you like a flight to Thunder Bluff, courtesy of the Cenarion Circle?",
     "times": 1
+   }
+  ],
+  "npc:11802": [
+   {
+    "broadcastTextIds": [
+     7448
+    ],
+    "sexes": {
+     "female": 4
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Greetings, $c.  You are welcome in Nighthaven, as well as all of Moonglade.  The Cenarion Circle welcomes all beings who respect the authority and command of nature.$B$BWhile you are here, please be sure to preserve the balance in all things.  Disturbances are not welcome here, and our wardens are trained to cease all hostilities without question.",
+    "times": 4
+   }
+  ],
+  "npc:11833": [
+   {
+    "broadcastTextIds": [
+     7216
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Please, feel free to speak to me anytime, $n. You have served Magatha well. I am sure she will call upon you in the future.",
+    "times": 1
+   }
+  ],
+  "npc:12042": [
+   {
+    "broadcastTextIds": [
+     7460
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Even within cold, stone walls such as the ones that shelter this town, one may find tranquility and peace.  In fact, you may find them everywhere you are... simply look inside yourself for such balance.",
+    "times": 1
+   }
+  ],
+  "npc:14728": [
+   {
+    "broadcastTextIds": [
+     9891
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Hail $g brother : sister;... I'd like a moment of your time, if I may.$B$BWe tauren have endured much in our trials and tribulations in establishing our homeland.  We now find ourselves in a dire shortage of cloth.  If you have the materials to spare, I ask that you please donate them.  You certainly would earn the gratitude of tauren everywhere in helping us out!",
+    "times": 1
+   }
+  ],
+  "npc:1569": [
+   {
+    "broadcastTextIds": [
+     7586
+    ],
+    "sexes": {
+     "female": 4
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "No other race on Azeroth has suffered as much as our people, $c. To laugh in the face of death has become second nature for all of us.",
+    "times": 4
+   }
+  ],
+  "npc:16227": [
+   {
+    "broadcastTextIds": [
+     10753
+    ],
+    "sexes": {
+     "female": 3
+    },
+    "sources": 2,
+    "template": "broadcastText",
+    "text": "Where would you like to fly to?",
+    "times": 3
+   }
+  ],
+  "npc:2126": [
+   {
+    "broadcastTextIds": [
+     8296
+    ],
+    "sexes": {
+     "female": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "It is wise that you humble yourself before me $n in your desire for more warlock knowledge.",
+    "times": 2
+   }
+  ],
+  "npc:249363": [
+   {
+    "broadcastTextIds": [
+     326162
+    ],
+    "sexes": {
+     "male": 3
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The Wind Spirits have left us. \r\n\r\nNow, only mindless echoes remain. Be wary, however. These winds are neither kind, nor gentle.",
+    "times": 3
+   }
+  ],
+  "npc:251361": [
+   {
+    "broadcastTextIds": [
+     304010
+    ],
+    "sexes": {
+     "male": 10
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What do you need of me, child of Zephras?",
+    "times": 10
+   }
+  ],
+  "npc:251362": [
+   {
+    "broadcastTextIds": [
+     299873
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Hello, $c.",
+    "times": 2
+   }
+  ],
+  "npc:251371": [
+   {
+    "broadcastTextIds": [
+     304015
+    ],
+    "sexes": {
+     "male": 3
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Greetings... Windshaper.\r\n\r\nThose that call themselves members of the Windshapers find little common cause with most members of the High Order, as I'm sure you are aware. Outside the relative harmony of Thendal Grove, you may find that these divisions run deep indeed and rivalry can give way to outright violence, in some cases.\r\n\r\nI'll say nothing more on this, save that you should mind your own business and do not interfere with the High Order's goals once you leave the grove. This is likely the only warning you'll receive.",
+    "times": 3
+   },
+   {
+    "broadcastTextIds": [
+     305042
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Magic can accomplish almost anything, but stagnation and inaction have caused us to lose so much of ourselves in the thousands of years since we left Kalimdor. The High Order seeks to reclaim the Highborne heritage that we've left behind and become the masters of our own destiny once again.\r\n\r\nThe Windshapers think we are simply reckless and arrogant. Hypocrisy at its finest, if you ask me. The Windshapers will entertain no ideas but their own when it comes to this crisis. Who, I wonder, is truly arrogant?",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     305044
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Zephras is in great danger. The elemental wind spirits that brought us here to Skywall so many thousands of years ago have abandoned us, leaving us vulnerable in this unstable realm. Our once-robust society spanned multiple island sanctuaries in our corner of Skywall, but now we are not even sure if any other shen'dorei remain outside of this small island.\r\n\r\nThings are dire, but the High Order is committed to rising to this challenge.",
+    "times": 1
+   }
+  ],
+  "npc:251374": [
+   {
+    "broadcastTextIds": [
+     302815
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The spirits of the wind may have left us, but the power of the elements is not entirely out of reach for those with the patience to seek them out.\r\n\r\nIf you are initiated in the ways of the shaman, I can help you grasp them.",
+    "times": 1
+   }
+  ],
+  "npc:251376": [
+   {
+    "broadcastTextIds": [
+     302811
+    ],
+    "sexes": {
+     "male": 5
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The hunters and rangers of Zephras have never been more needed. The winds grow ever harsher, and the magic that sustains our island is fading. The wilds have never been more wild, and people like me are needed to keep our people safe.\r\n\r\nIf you have the proper aptitude as a hunter, I can give you the tools to survive the wilds.",
+    "times": 5
+   }
+  ],
+  "npc:251389": [
+   {
+    "broadcastTextIds": [
+     302814
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Slay your enemies and swoon your paramours with this one weird trick.\r\n\r\nIf you follow the path of the rogue, I can teach you... for a cost, of course.",
+    "times": 1
+   }
+  ],
+  "npc:251487": [
+   {
+    "broadcastTextIds": [
+     304012
+    ],
+    "sexes": {
+     "male": 4
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What may I do for you, fellow windshaper?",
+    "times": 4
+   },
+   {
+    "broadcastTextIds": [
+     305038
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The shen'dorei will always owe the spirits a debt for their aid, and the Windshapers have sworn an oath to repay that debt and restore things to the way they were before. Unfortunately, we are dangerously blind to what is happening around us within Skywall without the spirits to guide us.\r\n\r\nThe High Order are shortsighted and arrogant, just like their highborne ancestors. They seek to master and control the magic of this place. This is the very path that led us to flee from Kalimdor and reside here in the first place. I fear that much like our forebears their confidence has vastly outpaced their competence and the end result could be disastrous.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     305036
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Zephras is in a state of decline, unfortunately. The elemental wind spirits that brought us here to Skywall so many thousands of years ago have vanished, causing us to lose much of the magic on which we've depended for millennia.\r\n\r\nThe island itself is also dangerously unstable, and we've even lost contact with the other island provinces of the shen'dorei. The few Windshapers that still possess the gift of skysight have attempted to contact our brothers and sisters on the other islands, but we have had no response.\r\n\r\nMany among us are worried that the shen'dorei here on Zephras are all that is left of our people.",
+    "times": 1
+   }
+  ],
+  "npc:251523": [
+   {
+    "broadcastTextIds": [
+     300678
+    ],
+    "sexes": {
+     "male": 15
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "<Constable Aonda wears an intense look on her face, clearly deep in thought.>",
+    "times": 15
+   },
+   {
+    "broadcastTextIds": [
+     304626
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "More than I'd like, I'm afraid. We've been harassed by a group of bandits camping out in a cave to the north, and the Al'Aketh cult recently took over Falaath Village to the south of us. I trust every peacekeeper and citizen here, but we are far too few to keep the village secure. \r\n\r\nIf the cult decides to continue their expansion here, there's little we can do to stop them.",
+    "times": 1
+   }
+  ],
+  "npc:251902": [
+   {
+    "broadcastTextIds": [
+     300663
+    ],
+    "sexes": {
+     "male": 8
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Greetings, child. I am Illaya Amberwind and I am the Elder Windshaper here on Zephras Isle. It's always nice to meet young new faces that make their way down from the grove.\r\n\r\nDon't let this old shaman hold you up, no doubt you've got many adventures to see to. Do feel free to stop by later if you'd like.",
+    "times": 8
+   },
+   {
+    "broadcastTextIds": [
+     300520
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "In all of our years dealing with the wind spirits, at no point did they speak of the Windlord as a figure of reverence. They acknowledged the existence of a being named Al'Akir, but they avoided invoking his name, almost as if they feared him. \r\n\r\nEven if this Al'Akir is an all-powerful \"Windlord\" or ruler of the wind elementals, my centuries of communion with the spirits has convinced me that at the very least he is not universally loved amongst the denizens of Skywall. I fear that attempting to treat with Al'Akir could merely hasten our doom.",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     300518
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Many disagree on this point. I believe that simple communication is the key. The songs of the wind rang so clearly to us when the spirits were still here. Since they left, it's grown quiet and our power as windshapers has weakened. \r\n\r\nHowever, there are those of us who can still hear something. A hushed tone. Fragments of a melody. Those that can still hear and see into the elemental planes must grow in strength. I believe that is the key to our salvation.",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     300519
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The Cult? They are zealots and killers. They believe that we are being punished for some unspecific sin. The reality is that those that lead them are opportunists leftover from a dubious order of so-called \"Priests\" of Al'Akir, the Windlord. \r\n\r\nThey now find themselves in a position to weaponize the fear of our people to consolidate their own power... and they have been quick to do so.",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     300516
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Where to begin? Our home is failing. The wards have fallen and the three provinces have begun to drift apart. There was a time not long ago when the spires of Shen'dramar were visible from the western watchtower. No longer. The anchor pylons are weakening, and if the chains finally break...",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     300517
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Why is this happening? Put simply, the spirits of the wind just... vanished. They were there one day, and they were gone the next. I can't quite describe the feeling that we windshapers felt when it happened. It was as if a great silence fell over all of us and then... a profound absence.\r\n\r\nThe petty wraiths you've likely encountered out there are just shades of the glory of the true spirits of wind. Non-sentient, aimless, and a far cry from the kindly spirits we lived in harmony alongside for thousands of years.",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     300521
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "You must remember that while this realm has been our home for millennia, we will always be somewhat alien to this place. We are not in the terrestrial world that birthed our people. We are in the realm of Skywall, a part of the elemental plane.\r\n\r\nWe arrived here as the guests of spirits with whom we found common cause in ages past. Now that we Shen'dorei find ourselves bereft of their presence--and potentially--their protection, there's no telling how the other denizens of this plane may perceive us.",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     300522
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Alas, I have prattled on long enough. Seek out my apprentice Ayessa Dawnsinger in the port of Valanaar if you find yourself out that way. She still hears the song--if only faintly. I am old and much of my power has left me. Ayessa represents the future of our people and the path we must now walk to survive. It's up to her and young skyborne such as yourself to carry the hopes for our people forward.",
+    "times": 1
+   }
+  ],
+  "npc:251903": [
+   {
+    "broadcastTextIds": [
+     306235
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I have nothing personally against members of the Windshapers such as yourself, but I also do not need to engage in conversation with you, either. Be about your business, but I'd strongly advise that you give the High Order and our agents a wide berth in your travels through Zephras Isle.\r\n\r\nThe High Order does not seek conflict... but we will decisively end it, should conflict find us. Stay out of our way, Windshaper.",
+    "times": 1
+   }
+  ],
+  "npc:251904": [
+   {
+    "broadcastTextIds": [
+     300626
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Greetings, $c. Do you come seeking the blessings of the Windlord?",
+    "times": 2
+   }
+  ],
+  "npc:251905": [
+   {
+    "broadcastTextIds": [
+     300662
+    ],
+    "sexes": {
+     "male": 8
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "If you need training as a cook, I have a few tips and tricks I could pass on! Ho ho! Throw on an apron and let's get started!",
+    "times": 8
+   }
+  ],
+  "npc:251906": [
+   {
+    "broadcastTextIds": [
+     300665
+    ],
+    "sexes": {
+     "male": 5
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I'm in charge of Shen'dar Village operations, and there's a lot of things to keep track of around here. Between bandits, cultists, and other random incidents that pop up, keeping this village afloat is a lot of work.",
+    "times": 5
+   }
+  ],
+  "npc:251913": [
+   {
+    "broadcastTextIds": [
+     316402
+    ],
+    "sexes": {
+     "male": 3
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I can teach you to swing a blacksmith's hammer, if you are willing to learn.",
+    "times": 3
+   }
+  ],
+  "npc:251964": [
+   {
+    "broadcastTextIds": [
+     302817
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The warrior who flinches is the warrior who dies. If you would look death in the face as a warrior, I will teach you how not to flinch.",
+    "times": 1
+   }
+  ],
+  "npc:251968": [
+   {
+    "broadcastTextIds": [
+     302067
+    ],
+    "sexes": {
+     "male": 3
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Greetings, I am Ayessa Dawnsinger, the current Grand Skyseer of the Windshapers. What may I do for you?",
+    "times": 3
+   }
+  ],
+  "npc:251991": [
+   {
+    "broadcastTextIds": [
+     300702
+    ],
+    "sexes": {
+     "male": 4
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The clothcraft of the Shen'dorei is a harmonious imitation of the flowing, carefree currents of the winds. While the spirits have left us, and I know not when I may see them dance once more... I find great comfort in my art, if only as a distraction.\r\n\r\nI can teach you to work the cloth as well, if you'd like to learn?",
+    "times": 4
+   }
+  ],
+  "npc:251993": [
+   {
+    "broadcastTextIds": [
+     300698
+    ],
+    "sexes": {
+     "male": 5
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I can teach you to craft fine leather armor, if you have the aptitude.",
+    "times": 5
+   }
+  ],
+  "npc:252155": [
+   {
+    "broadcastTextIds": [
+     300714
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "<The corpse lying before you is covered in scorches and burn marks. He seems to be clutching something in his hand.>",
+    "times": 1
+   }
+  ],
+  "npc:252359": [
+   {
+    "broadcastTextIds": [
+     326965
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Our kind are rare these days, but there are those who still dream in emerald amongst the Shen'dorei.",
+    "times": 1
+   }
+  ],
+  "npc:252377": [
+   {
+    "broadcastTextIds": [
+     302817
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The warrior who flinches is the warrior who dies. If you would look death in the face as a warrior, I will teach you how not to flinch.",
+    "times": 1
+   }
+  ],
+  "npc:252379": [
+   {
+    "broadcastTextIds": [
+     302814
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Slay your enemies and swoon your paramours with this one weird trick.\r\n\r\nIf you follow the path of the rogue, I can teach you... for a cost, of course.",
+    "times": 1
+   }
+  ],
+  "npc:252383": [
+   {
+    "broadcastTextIds": [
+     302043
+    ],
+    "sexes": {
+     "male": 5
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Greetings, citizen.",
+    "times": 5
+   },
+   {
+    "broadcastTextIds": [
+     316364
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I suppose that is true. I and the rest of my elites used to belong to an order known as the Empyrean Blades. We were the personal guard of our former leader, the Shal'nan. \r\n\r\nIn the current, uncertain times we do what we can to help lead the peacekeepers' citizen militia, since we are the closest thing to professional soldiers left on Zephras.",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     316366
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "<Valennia looks away briefly before looking hesitantly back in your direction.>\r\n\r\nThe Shal'nan was the very best of us. It was he who stood up for our people against madness and oppression in Eldre'Thalas nearly ten thousand years ago. It was the Shal'nan who led us across the uncharted sea to escape the murderous vengeance of our ancient enemies.\r\n\r\nIt was the Shal'nan who brokered the pact of friendship with the wind spirits that allowed us to ascend to Skywall... and survive.\r\n\r\nHe was ever the servant leader to his people, even after he abdicated his position of power and retired.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     316368
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I might be the only living shen'dorei left amongst our people who had more than a handful of words with him.\r\n\r\nI served him as the captain of his Empyrean Blades for nearly nine centuries, right up until... he left us.\r\n\r\nEven still, I can't rightly claim that I \"knew\" him. He was ever a reserved and solitary man. He spent most of his time alone or in communion with the spirits in the spires high above the Shrine of the Four Winds... the place that the cult now calls the 'Shrine of Akir'.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     316370
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "If I knew that then I suspect that life here on Zephras would be much, much easier. So many of our struggles and conflicts revolve around that very mystery.\r\n\r\nI appreciate your curiosity on this matter but I'm afraid that is all I have to say about this for today.",
+    "times": 1
+   }
+  ],
+  "npc:252389": [
+   {
+    "broadcastTextIds": [
+     302811
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The hunters and rangers of Zephras have never been more needed. The winds grow ever harsher, and the magic that sustains our island is fading. The wilds have never been more wild, and people like me are needed to keep our people safe.\r\n\r\nIf you have the proper aptitude as a hunter, I can give you the tools to survive the wilds.",
+    "times": 2
+   }
+  ],
+  "npc:252448": [
+   {
+    "broadcastTextIds": [
+     301455
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "<The man lying before you shifts uncomfortably. He's recovering from some very nasty wounds.>",
+    "times": 1
+   }
+  ],
+  "npc:252476": [
+   {
+    "broadcastTextIds": [
+     307942
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Welcome to Valanaar, $c.",
+    "times": 1
+   }
+  ],
+  "npc:252478": [
+   {
+    "broadcastTextIds": [
+     305765
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The skycutters and ferries haven't run in years at this point. For all we know, there are no other islands left for us to get imports from. Still though, I'm here... just in case.",
+    "times": 1
+   }
+  ],
+  "npc:253474": [
+   {
+    "broadcastTextIds": [
+     302047
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Is there something I can help you find?",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     302046
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "May I help you locate something, citizen?",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     321427
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "That trainer can be found in the Crafter's Hall, on the west side of Valanaar.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     3459,
+     6705
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Which profession?",
+    "times": 1
+   }
+  ],
+  "npc:254081": [
+   {
+    "broadcastTextIds": [
+     302807
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "If you have the aptitude for the druidic arts, I can train you.",
+    "times": 2
+   }
+  ],
+  "npc:254082": [
+   {
+    "broadcastTextIds": [
+     302815
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The spirits of the wind may have left us, but the power of the elements is not entirely out of reach for those with the patience to seek them out.\r\n\r\nIf you are initiated in the ways of the shaman, I can help you grasp them.",
+    "times": 1
+   }
+  ],
+  "npc:254084": [
+   {
+    "broadcastTextIds": [
+     302811
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The hunters and rangers of Zephras have never been more needed. The winds grow ever harsher, and the magic that sustains our island is fading. The wilds have never been more wild, and people like me are needed to keep our people safe.\r\n\r\nIf you have the proper aptitude as a hunter, I can give you the tools to survive the wilds.",
+    "times": 2
+   }
+  ],
+  "npc:254086": [
+   {
+    "broadcastTextIds": [
+     302809
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The followers of the old Highborne ways have never been more hungry to gain knowledge and reclaim what we've lost. If you would seek to wield the power of the arcane and have the aptitude, I can help you take your next steps.",
+    "times": 1
+   }
+  ],
+  "npc:254087": [
+   {
+    "broadcastTextIds": [
+     302814
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Slay your enemies and swoon your paramours with this one weird trick.\r\n\r\nIf you follow the path of the rogue, I can teach you... for a cost, of course.",
+    "times": 1
+   }
+  ],
+  "npc:254088": [
+   {
+    "broadcastTextIds": [
+     302817
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The warrior who flinches is the warrior who dies. If you would look death in the face as a warrior, I will teach you how not to flinch.",
+    "times": 1
+   }
+  ],
+  "npc:254089": [
+   {
+    "broadcastTextIds": [
+     303612
+    ],
+    "sexes": {
+     "male": 3
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Welcome to the Calmbreeze Inn, traveler. Would you like some refreshment?",
+    "times": 3
+   }
+  ],
+  "npc:254100": [
+   {
+    "broadcastTextIds": [
+     313455
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Have you heard of what's become of Ban'aethal? The peacekeepers are warning people to stay away from the ruins and the Shadowgale Forest entirely.\r\n\r\nI overheard someone at the inn talking about seeing malevolent wind spirits that seemed to be little more than a hazy outline, as if they were... hollowed out somehow.\r\n\r\nGives me the chills just thinking about such a thing.",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     313453
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The Windshapers and the High Order are up to something. There are rumors floating around that both groups plan to get the skycutters running again and use them to leave the Skywall. LEAVE SKYWALL? How ridiculous. Where would they even go?",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     313452
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Have you seen them? The skycutters are running again! I've heard that we still have no contact with the other shen'dorei islands, though.\r\n\r\nI hope we re-establish contact with Shen'dramar and Eldranaar soon... if they are even still out there.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     313456
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I've seen the skycutters sailing through the sky more and more recently. It's good to know that they are running again. If only the elders would tell us what is going on. They only tell us that nothing has changed and we still have no contact with the other islands.\r\n\r\nI can't help but wonder what this means...",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     313454
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "If the Al'Aketh cult isn't stopped soon, we'll all be press-ganged into joining those fanatics. I will NOT look good with a shaved head.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     313458
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The Al'Aketh cult claims that Al'Akir the \"Windlord\" will save us from our current woes here on Zephras. If Al'Akir is real and really is the ruler of Skywall, why did the wind spirits refuse to speak of him for so long?\r\n\r\nEither he isn't real, or even worse, he's real and he's not as benevolent as the cult claims him to be. Either way, nothing about what the cult is doing is good for us normal folk.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     313457
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The Al'Aketh cult is becoming a major problem and the peacekeepers seem powerless to stop them. We can only hope that the Windshapers and the High Order can put aside their bickering and work with the peacekeepers to protect us.\r\n\r\nI certainly don't want to join a cult!",
+    "times": 1
+   }
+  ],
+  "npc:254128": [
+   {
+    "broadcastTextIds": [
+     302650
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "<The two cultists nearby are talking. You might be able to learn something if you hide behind this wardrobe and eavesdrop.>",
+    "times": 1
+   }
+  ],
+  "npc:254149": [
+   {
+    "broadcastTextIds": [
+     302703
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "<The skyborne before you sways unsteadily, clearly very inebriated.>\r\n\r\nI used to be a sailor, you know? Before the trouble started. The skycutters used to run between the islands. Now it's unsafe or some such, or so they say.\r\n\r\nI see the High Order and the Windshapers have their skycutters running again, but I'm stuck here, grounded!\r\n\r\nWhat aren't we being told!\r\n\r\n<He turns and yells loudly at the innkeeper.>\r\n\r\nWHAT AREN'T WE BEING TOLD, DONAAL!?",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     305761
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Shadowgale Forest!\r\n\r\nIt's haunted! Haunted as the sky is blue! Terrible forest spirits, terror birds with talons as big as yer arm! It's... a nightmare!\r\n\r\n<Swimmers turns to Donaal and belches loudly.>\r\n\r\n IT'S NOT CRAZY TALK, DONAAL!",
+    "times": 1
+   }
+  ],
+  "npc:254411": [
+   {
+    "broadcastTextIds": [
+     8406
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "You've come for training in order to pass it on to your pets?",
+    "times": 1
+   }
+  ],
+  "npc:255940": [
+   {
+    "broadcastTextIds": [
+     303612
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Welcome to the Calmbreeze Inn, traveler. Would you like some refreshment?",
+    "times": 2
+   }
+  ],
+  "npc:256076": [
+   {
+    "broadcastTextIds": [
+     304681
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "<A faint whirring sound can be heard coming from underneath the construct's metal armor plates. The wind powering this machine is present but is listless and only faintly churning. You don't need to know much about air constructs to know that this unit is clearly not in good repair.>",
+    "times": 1
+   }
+  ],
+  "npc:256083": [
+   {
+    "broadcastTextIds": [
+     312221
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "<Riaani seems to be intently focused on his work on the wind construct.>",
+    "times": 1
+   }
+  ],
+  "npc:256930": [
+   {
+    "broadcastTextIds": [
+     305506
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What are you looking at?",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     305512
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Desperation? Hunger? I'm not exactly here doing this because I like robbing and murdering. I lost my home, had nowhere to go, and I don't much care to shave my head and worship some imaginary wind god, so I became a bandit. The rest is obvious.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     305508
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Killed a peacekeeper and stole some windstones.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     305516
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Largely, yes. The thing we all have in common is that we have nowhere else to go and that we prefer thieving over enslaving ourselves to some insane cult.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     305514
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Most of my outfit did. Displaced from the ground falling out from under our feet. Some came from other islands entirely. I came from the city of Shen'dramar, on the big island. Well, what used to be the big island, I suppose.\r\n\r\nMy family and I managed to get on one of the last skycutters out of there before the entire island broke apart. We thought that Zephras would save us. Well, it didn't. They are all long dead and now I'm here, awaiting execution.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     305510
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Why bother denying it, the constable already passed her judgement. No point lying.",
+    "times": 1
+   }
+  ],
+  "npc:257003": [
+   {
+    "broadcastTextIds": [
+     3344
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I don't get too many Skinners in here looking for training, but I guess I could teach you something if you're ready.",
+    "times": 1
+   }
+  ],
+  "npc:257006": [
+   {
+    "sexes": {
+     "male": 3
+    },
+    "sources": 1,
+    "text": "E borne hir ash nuff garde re ruff vassild lon thorniss, far E regen E majis barad ras aetwinter lo ruftos ergin.",
+    "times": 3
+   }
+  ],
+  "npc:257007": [
+   {
+    "broadcastTextIds": [
+     306276
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Ah, hello. You look as though you have a question for me.",
+    "times": 1
+   }
+  ],
+  "npc:257019": [
+   {
+    "broadcastTextIds": [
+     306274
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Gales greetings, friend. Is there something I can help you with?",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     306273
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I hope that your interruption is for a good cause. I was in the middle of some important work.",
+    "times": 1
+   }
+  ],
+  "npc:257020": [
+   {
+    "broadcastTextIds": [
+     306276
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Ah, hello. You look as though you have a question for me.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     306273
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I hope that your interruption is for a good cause. I was in the middle of some important work.",
+    "times": 1
+   }
+  ],
+  "npc:257021": [
+   {
+    "broadcastTextIds": [
+     306274
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Gales greetings, friend. Is there something I can help you with?",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     306278
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Winds tidings. What can I help you with?",
+    "times": 1
+   }
+  ],
+  "npc:257022": [
+   {
+    "broadcastTextIds": [
+     302824
+    ],
+    "sexes": {
+     "male": 4
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "You might think that just because we live on a floating island, there would be no need for miners like me. After so many thousands of years, however, we still manage to dig up a lot of interesting things.\r\n\r\nIt's almost like there's some invisible force, constantly creating new mineral deposits every so often. That's magic for you though, right?\r\n\r\nRegardless, if you need training as a miner, then I'm your shen'dorei.",
+    "times": 4
+   }
+  ],
+  "npc:257024": [
+   {
+    "broadcastTextIds": [
+     3344
+    ],
+    "sexes": {
+     "male": 5
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I don't get too many Skinners in here looking for training, but I guess I could teach you something if you're ready.",
+    "times": 5
+   }
+  ],
+  "npc:257065": [
+   {
+    "broadcastTextIds": [
+     305854
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Do you seek the blessings of the Windlord?",
+    "times": 1
+   }
+  ],
+  "npc:257554": [
+   {
+    "broadcastTextIds": [
+     306593
+    ],
+    "sexes": {
+     "male": 9
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "<The gaze of the ranger standing before you is fixed on the enormous anchor pylon in the distance.>",
+    "times": 9
+   }
+  ],
+  "npc:259011": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Unknown",
+    "times": 1
+   }
+  ],
+  "npc:259012": [
+   {
+    "broadcastTextIds": [
+     324145
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "All of the skyborne islands became destabilized and began to move apart a few years ago. If that wasn't bad enough, now large pieces of Zephras are beginning to fall away. It's hard to imagine your home falling into the sky, but that is my reality now.",
+    "times": 2
+   }
+  ],
+  "npc:263113": [
+   {
+    "broadcastTextIds": [
+     312713
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "It can get boring up here, you know. I can only annoy that stuffy wretch Halaan so much before even that gets old.",
+    "times": 1
+   }
+  ],
+  "npc:263664": [
+   {
+    "broadcastTextIds": [
+     313486
+    ],
+    "sexes": {
+     "male": 5
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Greetings, traveler.",
+    "times": 5
+   }
+  ],
+  "npc:265654": [
+   {
+    "broadcastTextIds": [
+     315474
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Welcome to the guild registrar of Valanaar. How may I assist you today?",
+    "times": 1
+   }
+  ],
+  "npc:2995": [
+   {
+    "broadcastTextIds": [
+     8116
+    ],
+    "sexes": {
+     "female": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "When mounted on the back of a wind rider, one sees that its reputation for strength and speed is well earned.",
+    "times": 2
+   }
+  ],
+  "npc:3007": [
+   {
+    "broadcastTextIds": [
+     8049
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "It's been so long since I was a novice myself that I don't think I'd be the best teacher for you. Try talking to Tarn or Mak, right over there. One of them should be able to answer your questions.",
+    "times": 1
+   }
+  ],
+  "npc:3008": [
+   {
+    "broadcastTextIds": [
+     7974
+    ],
+    "sexes": {
+     "female": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Your talent is beyond my own, friend. Speak with Tarn here; his knowledge of leather is much greater than mine. I'm sure he would welcome another student.",
+    "times": 2
+   }
+  ],
+  "npc:3033": [
+   {
+    "broadcastTextIds": [
+     7451
+    ],
+    "sexes": {
+     "female": 7
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Welcome, my $g brother : sister;.  If you are here to train, then I would be delighted to teach you.$B$BIt never hurts to reaffirm one's place within what I like to call the Great Balance.  As preservers of this balance, we must strive to continually keep our minds clear and our hearts strong.  Training helps us in this regard.",
+    "times": 7
+   }
+  ],
+  "npc:3084": [
+   {
+    "broadcastTextIds": [
+     3425
+    ],
+    "sexes": {
+     "female": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What are you looking for?",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     3459,
+     6705
+    ],
+    "sexes": {
+     "female": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Which profession?",
+    "times": 2
    }
   ],
   "npc:3310": [
@@ -127,18 +1652,32 @@
     "times": 1
    }
   ],
-  "npc:3615": [
+  "npc:3448": [
    {
     "broadcastTextIds": [
-     8111
+     7584
     ],
     "sexes": {
      "female": 2
     },
     "sources": 1,
     "template": "broadcastText",
-    "text": "My wind riders are trained to fly quickly through the hot Barrens air.",
+    "text": "The times we live in are as fickle as the shifting winds, $c.  It is important to remember what is true and lasting in this world, and to preserve that.  Everything else is a waste.",
     "times": 2
+   }
+  ],
+  "npc:3615": [
+   {
+    "broadcastTextIds": [
+     8111
+    ],
+    "sexes": {
+     "female": 3
+    },
+    "sources": 2,
+    "template": "broadcastText",
+    "text": "My wind riders are trained to fly quickly through the hot Barrens air.",
+    "times": 3
    }
   ],
   "npc:3934": [
@@ -183,6 +1722,34 @@
     "times": 2
    }
   ],
+  "npc:5749": [
+   {
+    "broadcastTextIds": [
+     8402
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Want to make your demons more powerful?  It'll cost you, but you've come to the right place.",
+    "times": 1
+   }
+  ],
+  "npc:6746": [
+   {
+    "broadcastTextIds": [
+     2825
+    ],
+    "sexes": {
+     "female": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "As the wind on the plains, you are always welcome here.",
+    "times": 2
+   }
+  ],
   "npc:7714": [
    {
     "broadcastTextIds": [
@@ -215,14 +1782,14 @@
   "clientBuild": "1.60.1.70205",
   "collectedOn": {
    "first": "2026-10-04",
-   "last": "2026-10-04"
+   "last": "2026-10-05"
   },
   "dataset": "texts",
   "license": "CC BY 4.0",
   "locale": "enUS",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 1,
+  "sources": 2,
   "withheld": {
    "addon": {
     "books": 0,
@@ -239,6 +1806,152 @@
   }
  },
  "quests": {
+  "264": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5543": 1
+     },
+     "template": "questCache",
+     "text": "Filthy scum! Leaves me for his damn crusade. Because \"the Light is the most important thing we have against the threats the undead pose.\"$B$BWell, what about his children?! What about ME?! Night after night I sat patiently waiting for him... always second to his blasted duty!$B$BWell, witness what \"justice\" brings you, $n! He's dead and I'm bearing the very thing he was trying to stop!$B$BTake this piece of junk and put it on his tomb at the Sepulcher. I want nothing to do with it anymore... or him!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5543": 1
+     },
+     "template": "questCache",
+     "text": "Place Clarice's Pendant on Yuriv's Tomb in Silverpine.",
+     "times": 1
+    }
+   ]
+  },
+  "363": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1568": 2
+     },
+     "template": "questCache",
+     "text": "About time you woke up. We were ready to toss you into the fire with the others, but it looks like you made it.$b$bI am Mordo, the caretaker of the crypt of Deathknell. And you are the Lich King's slave no more.$b$bSpeak with Shadow Priest Sarvis in the chapel at the base of the hill, he will tell you more of what you must know.",
+     "times": 2
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1569": 1
+     },
+     "text": "Another of the walking dead, hm? Must have been quite a shock, waking up in the crypt with only the cold and Mordo to greet you...\n\nI see the confusion on your face. Let me try to explain our... situation... to you.\n\nWe have been freed from the control of the Lich King by our new leader, Lady Sylvanas. The Dark Lady guides us in our war against the hated Scourge and the holdouts of humanity who dog our every step.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1568": 2
+     },
+     "template": "questCache",
+     "text": "Speak with Shadow Priest Sarvis.",
+     "times": 2
+    }
+   ]
+  },
+  "364": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1569": 1
+     },
+     "template": "questCache",
+     "text": "We Forsaken are at war with the Lich King's army of the Scourge: necromantically raised armies of the undead, foul beasts of the north, and tormented spectres.$b$bThe northern part of the village has become overrun with the Mindless Ones, and they must be destroyed. Destroy them, show them no mercy, our former brothers and sisters as they might be. The Fallen are nothing but The Lich King's slaves.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1569": 1
+     },
+     "text": "It is unfortunate that the Scourge cannot be brought into the fold, their large numbers would be useful in the battles ahead.\n\nBut they will not join us, so we have no choice but to destroy them.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1569": 1
+     },
+     "template": "questCache",
+     "text": "Shadow Priest Sarvis wants you to kill 8 Mindless Zombies and 8 Wretched Zombies.",
+     "times": 1
+    }
+   ]
+  },
+  "376": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1661": 1
+     },
+     "template": "questCache",
+     "text": "My duties include tending to our wounded warriors, tailoring armor and clothes, and assisting Shadow Priest Sarvis with whatever else he might need.$b$bFrom the look of it, you'll be enlisted in his service also... hunting the Mindless Ones, if I know his mind. Well, if you'd like to stay in one piece--and I've no doubt you do--perhaps I can help. I'm running out of paws and wings, and if you bring me some, I'll find some armor for you. You'll find a good number of wolves and bats to the south.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1661": 1
+     },
+     "template": "questCache",
+     "text": "Novice Elreth requires 6 Scavenger Paws and 6 Duskbat Wings.",
+     "times": 1
+    }
+   ]
+  },
   "865": {
    "accept": [
     {
@@ -293,6 +2006,36 @@
       "npc:3428": 1
      },
      "text": "Be careful with the eggs you find, $N. If they break, they be no good to me.",
+     "times": 1
+    }
+   ]
+  },
+  "877": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3448": 1
+     },
+     "template": "questCache",
+     "text": "Like the one you found at the Forgotten Pools, there may be fissures at the other oases in the Barrens.  If so, then perhaps the fissures are the oases' source of life.$B$BWe must test this.$B$BHere, take these seeds.  They are dead and infertile, but take them to the Stagnant Oasis to the southeast.  If there is a fissure there, then place the seeds within it...and observe.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3448": 1
+     },
+     "template": "questCache",
+     "text": "Return to Tonga at The Crossroads, after investigating the Stagnant Oasis.",
      "times": 1
     }
    ]
@@ -594,6 +2337,62 @@
     }
    ]
   },
+  "959": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3665": 1
+     },
+     "text": "Superb! And just as I was about to lose my job too! I will see to it that Gazlowe gets this gift immediately.\n\nThank you, $N. Nicely done, I say!",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3665": 1
+     },
+     "text": "The dockmaster has been on my case ever since Mad Magglish made off with that 99-year-old port. I guess that bottle was intended as a gift for Gazlowe from none other than Baron Revilgaz himself.\n\nIf you're brave enough and patient enough to seek out Mad Magglish and get that port back, I'll see to it you get a nice reward.",
+     "times": 1
+    }
+   ]
+  },
+  "962": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3419": 1
+     },
+     "text": "Ah, splendid specimens. You have done well, $N.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3419": 1
+     },
+     "text": "I am eager to see if you can gather enough Serpentbloom from the Wailing Caverns. I've sent many to do my bidding but none have returned.",
+     "times": 1
+    }
+   ]
+  },
   "1221": {
    "accept": [
     {
@@ -620,6 +2419,161 @@
      },
      "template": "questCache",
      "text": "Grab a Crate with Holes.$BGrab a Snufflenose Command Stick.$BGrab and read the Snufflenose Owner's Manual.$B$BIn Razorfen Kraul, use the Crate with Holes to summon a Snufflenose Gopher, and use the Command Stick on the gopher to make it search for Tubers.$B$BBring 6 Blueleaf Tubers, the Snufflenose Command Stick and the Crate with Holes to Mebok Mizzyrix in Ratchet.",
+     "times": 1
+    }
+   ]
+  },
+  "1470": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5667": 1
+     },
+     "template": "questCache",
+     "text": "Greetings, child. I can see that you are still young in the ways of the warlock, power still eluding your grasp. I can sense your eagerness to learn.$b$bAnd you will learn.$b$bThere is no strength in ignorance. Knowledge is our greatest power. Through its application, we can control the chaotic magics and beings of the void, bending them to our will.$b$bI will show you how to bind a servant to your will, but first you must bring me three skulls of the rattlecage skeletons near the abandoned smithy.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5667": 1
+     },
+     "text": "Though you are still untested and young in your learning, you have proven that you possess sufficient ability to master the summoning and binding of an imp. Do not be deceived by an imp's size. Though it lacks physical strength, it possesses powers and a cleverness that will serve you well.\n\nAttend me carefully, $N, for I will not repeat this lesson, and I will leave its mastery to you.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5667": 1
+     },
+     "template": "questCache",
+     "text": "Bring Venya Marthand 3 Rattlecage Skulls.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5667": 1
+     },
+     "text": "Your power is little now, though I suspect already you sense the possibilities.\n\nEven the dead might feel alive, with that power coursing through us.",
+     "times": 1
+    }
+   ]
+  },
+  "1486": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5767": 1
+     },
+     "text": "Your efforts shall not go unnoticed in gathering these hides, $N.\n\nThank you for your dedication.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5767": 2
+     },
+     "text": "I am very interested in examining the hides from the deviate creatures who have infested these caves. Have you had any luck in collecting some, $c?",
+     "times": 2
+    }
+   ]
+  },
+  "1487": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5768": 1
+     },
+     "text": "As a Disciple of Naralex, I commend your bravery, $N.\n\nYour aid in ridding the caverns is the first step in our long plight to see the Barrens restored.\n\nThank you and may you prosper.",
+     "times": 1
+    }
+   ]
+  },
+  "3099": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1569": 1
+     },
+     "template": "questCache",
+     "text": "Ah, while you were off dealing with the mindless Scourge, this scroll arrived for you. I would think it's some matter of importance as it seems it bears the seal of the warlock trainer Maximillion. I would take some time to read it before heading out again.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2126": 1
+     },
+     "text": "I mentioned a slave still being a slave, no matter the master. Do you remember? We both know that it is that type of control--that type of power--that now drives us. We seek to have creatures serve us. We know we are more powerful and deserve more respect than others give us ... and so now we look to take it.\n\nI will be your ally in this struggle--the struggle for our own freedom. Freedom to seek our own allegiances. When you feel ready, return to me and I will teach you all I know.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1569": 1
+     },
+     "template": "questCache",
+     "text": "Read the Tainted Scroll and speak to Maximillion in Deathknell.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2126": 1
+     },
+     "text": "I bid you welcome, sister. I knew you would come. It was only a matter of time.\n\nWhat I said interested you, didn't it? I hit a chord... something inside you knew what I claimed was truth. Good.\n\nKnow this though: I am no traitor to Sylvanas. If anything, she would appreciate my claims considering it was her own beliefs that has put the Forsaken in the position it is now.",
      "times": 1
     }
    ]
@@ -691,6 +2645,2579 @@
       "npc:3464": 1
      },
      "text": "Do you have the silver?",
+     "times": 1
+    }
+   ]
+  },
+  "3901": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1569": 1
+     },
+     "template": "questCache",
+     "text": "You've shown your potential to the Forsaken under normal circumstances $n - now let's see you under pressure.$B$BThe Rattlecage skeletons, more mindless minions of the Lich King, are a tougher foe than the zombies you have faced thus far.  Again, thin their numbers and prove yourself to the Forsaken.  Do not tarry - when you are done, speak to me again.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1569": 1
+     },
+     "template": "questCache",
+     "text": "Kill 12 Rattlecage Skeletons, and then return to Shadow Priest Sarvis in Deathknell when you are done.",
+     "times": 1
+    }
+   ]
+  },
+  "6128": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3448": 1
+     },
+     "text": "This is good, $N, so much so that it should be enough to make some ample doses of the salve - at least enough to start to make a difference.\n\nMaking a cure for poisons can be quite difficult at times because each one often requires a very specific antidote to counteract it.  Imagine being able to cure a poison at will without having to worry about the exact ingredients of what the antidote must be!\n\nNow, let me get to work on this!",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3448": 1
+     },
+     "text": "Have you got the reagents I need to make the salve?  The gazelle aren't getting any better on their own, so we better not tarry in our effort to save them!",
+     "times": 1
+    }
+   ]
+  },
+  "6129": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3448": 1
+     },
+     "template": "questCache",
+     "text": "I was able to make enough salve for ten doses of curing, $n.  While I work with local authorities to try and make some more salve, I'd like for you to help us get a head start.  All around the northern Barrens are sickly gazelles; use the salve on them and cure their malaise.$B$BDendrite Starblaze in Moonglade will want to talk to you when you're done, I'm sure.  Please extend our thanks to the Cenarion Circle there... and let me say thanks to you directly for the help you've given!",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:11802": 1
+     },
+     "text": "You have done well in tending to the sickly gazelles of the Barrens; they are unwitting victims of a greater taint and corruption that is spreading all throughout the land.  You tauren are most eager to understand the ways of Cenarius; you, like your elders in Thunder Bluff, are proving that the need for balance transcends artificial racial barriers.\n\n$N, you've proven your worth as an friend of nature and the Circle - take this as a symbol of such.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3448": 1
+     },
+     "template": "questCache",
+     "text": "Use the Curative Animal Salve on 10 Sickly Gazelles that are located throughout the northern part of the Barrens; doing so should cure them.  Sickly Gazelles have been reported north of the east-west road that runs through the Crossroads.",
+     "times": 1
+    }
+   ]
+  },
+  "6130": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:11802": 1
+     },
+     "template": "questCache",
+     "text": "You've learned what it means to cure poison without the benefit of spiritual aid.  Remember what others must endure in fighting poisonous afflictions as you soon embrace your newfound power over poison.$B$BYou should now return to Turak Runetotem in Thunder Bluff, $n.  He, no doubt, has a very important spell to teach you now that the student understands the lesson given unto $g him : her;.$B$BFarewell, young druid.  We shall speak again.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3033": 1
+     },
+     "text": "Welcome back - I've been following your progress on this lesson since you left, and I must admit I was surprised to learn about the situation at the Crossroads.  This does bear some further investigation, as the introduction of such poisons into the environment is most upsetting to the balance.\n\nYou handled yourself with grace under pressure.  For that, I can find no better way to reward you than with permanent power over poison.  Use it well, $N... use it well.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:11802": 1
+     },
+     "template": "questCache",
+     "text": "Return to Turak Runetotem on the Elder Rise, Thunder Bluff.",
+     "times": 1
+    }
+   ]
+  },
+  "92460": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251362": 1
+     },
+     "template": "questCache",
+     "text": "Look at you, bright eyed and ready for adventure! We need all the help we can get here in Thendal Village and your arrival is most welcome. I imagine you are brimming with nerves for what is to come. After all, you only get to come of age once in a lifetime.\r\n\r\nGo, seek out our village leader Rorian the Dayseeker at the entrance to the greatfather tree just west of here. He will get you started on your journey.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "text": "Gale's greetings, $N. I am honored to bestow your coming of age relic today as you are recognized for the potential you bring to the shen'dorei. Our people have faced great hardship and persecution in our complex history.\r\n\r\nToday you are given this relic which is one of many held by those before you. Someday when your ashes are scattered to the winds it will pass to another to continue our tradition.\r\n\r\nAs you take this relic with you know that the winds of home will be with you wherever you travel.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251362": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Rorian the Dayseeker in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92461": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "We live in times of great uncertainty for our people. We face unprecedented challenges that may require bold solutions, but we also must contend with the ordinary and mundane here in Thendal Grove. Take, for example, the recent unsustainable rise in the vuldren population.\r\n\r\nThe vuldren are a vital part of our ecosystem. However, imbalances must be corrected to maintain the delicate harmony that all creatures in Thendal Grove share.\r\n\r\nHead east and cull some of the vuldren there.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "text": "Thank you for your service to Zephras, young $c.\r\n\r\nThe vuldren are typically quite docile, but the animals that call Zephras home can sense when the magic on the winds is out of balance, which can lead to dangerous and unpredictable behavior if left unchecked.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "Slay 8 Vuldren Juveniles in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92462": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 2
+     },
+     "template": "questCache",
+     "text": "One of our rangers recently reported an infestation of cirrusflies here in Thendal Grove. \r\n\r\nCirrusflies can be dangerous if the swarm is allowed to grow too large, so please head to the eastern end of the Grove and exterminate as many as you can.",
+     "times": 2
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 1
+     },
+     "text": "Judging by the amount of bug entrails covering you, this must be quite the infestation.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 2
+     },
+     "template": "questCache",
+     "text": "Slay 8 Pesky Cirrusflies in Thendal Grove.",
+     "times": 2
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 1
+     },
+     "text": "Such pests cannot be allowed to find root in our peaceful grove. An infestation can quickly grow dangerous if left unchecked.",
+     "times": 1
+    }
+   ]
+  },
+  "92463": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 1
+     },
+     "template": "questCache",
+     "text": "If the forest is as thick with these insects as it sounds, simply killing the workers won't be enough.\r\n\r\nGo deeper into the forest and find the queen. She'll be close to the hive and surrounded by bigger and more aggressive soldiers, so be careful.\r\n\r\nPut her down and return here when it's done. That'll be one less problem to think about around here.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 2
+     },
+     "text": "Excellent work, $N. You'd make a fine ranger if this whole \"adventurer\" thing doesn't work out for you.",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 1
+     },
+     "template": "questCache",
+     "text": "Destroy the Cirrusfly Queen in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92464": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "Ever since our elemental benefactors left us, it seems that we are simply moving from one unrest to another. The problem we face now is that the manifestations of the winds near the standing stones to the northeast are agitated.\r\n\r\nNot truly self-aware like the sentient wind spirits that once lived here, these simple sprites respond in kind to forces, emotions, and intentions of the creatures around them. \r\n\r\nMy apprentice Yala Windwatcher went to observe them. Seek her out and discover what she's learned.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:249363": 1
+     },
+     "text": "Rorian sent you? Good. I could use your aid.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "Speak to Yala Windwatcher in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92465": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:249363": 1
+     },
+     "template": "questCache",
+     "text": "The Al'Aketh cult is a blight upon this island. These cultists are surely the ones responsible for agitating the simple wind sprites that reside here and turning them violent.\r\n\r\nRegrettably, we'll need to disperse these roiling winds here before they harm someone. We also need to send a clear message to the cult that they are not welcome in the grove.\r\n\r\nWill you lend me your aid, $c?",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:249363": 1
+     },
+     "text": "It pains me to shed shen'dorei blood here in the grove, but we do what we must.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:249363": 1
+     },
+     "template": "questCache",
+     "text": "Slay $2oa Roiling Winds and $1oa Al'Aketh Converts in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92469": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:249363": 1
+     },
+     "template": "questCache",
+     "text": "You've done enough here, $c. I'll stay and clean up any stragglers down there.\r\n\r\nHead back to the Village and tell Rorian about the cult's presence. He will not be pleased.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 4
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 4
+     },
+     "text": "This is most troubling, but unfortunately unsurprising. We've been aware of the cult's movements for some time, but we've been content to watch from afar. Their agitation of the wind spirits near the standing stones is a clear escalation on their part.\r\n\r\nYou've performed a difficult but necessary service for Thendal Grove, $N. Thank you.",
+     "times": 4
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:249363": 1
+     },
+     "template": "questCache",
+     "text": "Bring word of the Al'Aketh to Rorian the Dayseeker in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92470": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "template": "questCache",
+     "text": "Rorian informed you that I've been watching you. I now offer you a test of resolve. However, be warned--it will send you into great danger.\r\n\r\nGo to the caves to the south. Thin out the ursera's numbers there, and find their matriarch, one the rangers call \"Urs'anah\". Put her down and bring me proof of her demise. Once you have done that, you will have taken an important step on your path.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "text": "Very well done. You've felled beasts and laid low cultist interlopers. You have shown great promise but your path must soon take you beyond the relative safety of Thendal Village.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "template": "questCache",
+     "text": "Slay 8 Ursera Scavengers and collect the head of the den mother, Urs'anah in Thendal Grove.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "text": "What I ask of you is not easy, but you must be prepared for much greater challenges if you are to survive long enough to be of service to Zephras Isle.",
+     "times": 1
+    }
+   ]
+  },
+  "92471": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "You may not realize this but everything you've done has been a trial of sorts. A test for what is to come for you. It's a big island out there, and Zephras needs spirited young adventurers such as yourself if we are to survive the trials our people face.\r\n\r\nThe one called Aetheen of the Gales is one of the leaders of our people here on Zephras Isle, and she has been watching you. She has a task that you must complete. Speak with her to learn more.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "text": "Rorian has told me much of you. I am likely unknown to you, but I am a member of the Council of Elders here on Zephras Isle. I've come to read the flow of the winds here in Thendal Grove. I'm also here to assess young shen'dorei such as yourself that are coming of age.\r\n\r\nSo tell me, are you ready to take your next step? Are you ready to serve Zephras Isle?",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Aetheen of the Gales in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92472": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "template": "questCache",
+     "text": "One of the most pervasive threats on Zephras Isle is the Al'Aketh Cult. They are religious zealots devoted to the worship of the supposed elemental ruler of Skywall, Al'Akir the Windlord. They are brutal, single-minded, and their power and ambitions are growing more deadly by the day.\r\n\r\nYour path will soon take you to Shen'dar Village to the south. Present yourself to Constable Aonda when you arrive. The cult threatens Shen'dar and they are in need of aid. Tell Aonda that I sent you.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "text": "Aetheen sent you, then? I'll confess, you don't look like much to me, but Shen'dar Village won't turn down willing aid, much less aid sent from Elder Aetheen herself.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "template": "questCache",
+     "text": "Report to Constable Aonda in Shen'dar Village.",
+     "times": 1
+    }
+   ]
+  },
+  "92473": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257551": 1
+     },
+     "template": "questCache",
+     "text": "The ursera den to the southwest is rapidly becoming a problem. Just last week the rangers had to kill an adolescent ursera who wandered too close to the village and attempted to attack a boy playing near the base of the elder tree in the center of the village.\r\n\r\nWe were fortunate that the boy escaped with his life. Hunger and desperation makes these beasts too dangerous to be left unchecked. Go south and put the scrawniest among the ursera down. Bring me their claws as proof when it is done.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257551": 1
+     },
+     "text": "Well done, $c. The Rangers of the Grove are in your debt.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257551": 1
+     },
+     "template": "questCache",
+     "text": "Collect 6 Scrawny Ursera Claws from Scrawny Ursera in Thendal Grove.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257551": 2
+     },
+     "text": "The ursera have grown far more aggressive of late. I wonder what has changed to cause this shift in behavior?",
+     "times": 2
+    }
+   ]
+  },
+  "92474": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263113": 1
+     },
+     "template": "questCache",
+     "text": "Well hello there, $n! Want to play a game?\r\n\r\nAll you've got to do is step up on that ledge... then jump! Use your innate ability to walk on the air to slow your fall and see how far forward you can float.\r\n\r\nThe rules are made up and the points don't matter, but you get bonus points if you can land right in front of Rorian the Dayseeker and startle him! He won't like it but I'll certainly get a good laugh if you can get him all worked up! Hah!",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "text": "How many times do I need to tell Myriaal not to encourage others to make reckless usage of our skyborne gifts!\r\n\r\nThat being said, I suppose that a little bit of practice in the relative safety of the village is... acceptable.\r\n\r\nIn the future I'd simply suggest you to use your ability judiciously. You do not want to exhaust your magic thoughtlessly and then not be able to use it when you truly need it.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263113": 1
+     },
+     "template": "questCache",
+     "text": "Jump from the top of the watchtower in Thendal Grove and use your Walk on Air ability to slow your fall.",
+     "times": 1
+    }
+   ]
+  },
+  "92482": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "While you were away dealing with our vuldren problem, our resident hunter trainer--Tai'ree Farsight--left this note for you. You can find her just over yonder near the center of the village. Read the note then seek her out.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251376": 1
+     },
+     "text": "The way of the $c is fraught with danger, and only those with the keenest senses and quickest reflexes can thrive in the wilds. I look at you and I am reminded of myself when I stood before my mentor, so many years ago. I believe that you have what it takes, but in the end that is up to you alone.\r\n\r\nSpeak with me again if you wish to take your next steps.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "Read the Scribbled Note and then speak with Tai'ree Farsight in Thendal Grove.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251376": 1
+     },
+     "text": "<Tai'ree nods at you curtly.>",
+     "times": 1
+    }
+   ]
+  },
+  "92514": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "You've got that \"Windshaper\" air about you. Something about how I can feel a tiny bit of static on my skin when near someone spirit-touched that gives it away. Before I properly put you to work around here, you should check in with our resident Windshaper elder, Illaya Amberwind. She's just outside, near the center of town.\r\n\r\nOh, and check in with Coriella Calmbreeze as well, she runs the local inn and can provide lodging and supplies, should you need them.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "text": "Checked in with Illaya then? Great. Lots of tension between the High Order and the Windshapers these days, but they keep things civil here in Shen'dar. Everyone here is well aware that we've got bigger problems than their quibbles.\r\n\r\nNow that that's done, you look like someone who might be looking for something to do with their hands and I've got a bandit problem that I was hoping you could help me with.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Illaya Amberwind and Coriella Calmbreeze in Shen'dar Village.",
+     "times": 1
+    }
+   ]
+  },
+  "92515": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251993": 1
+     },
+     "template": "questCache",
+     "text": "As if bandits and mad cultists weren't enough, the hills are thick with prideclaws as well right now. They are starting to encroach on the village borders and growing bolder by the day. It's only a matter of time before someone's pet or child is taken. It would be a mercy for us to cull their numbers now rather than after some tragedy occurs.\r\n\r\nBring me a dozen or so of their pelts. I can turn them into all sorts of goods that will be of aid to the village.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251993": 1
+     },
+     "text": "I didn't say it wouldn't be a dirty job, did I?",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251993": 1
+     },
+     "template": "questCache",
+     "text": "Collect 10 Prideclaw Pelts from the Prideclaws in Shen'dar Highlands.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251993": 1
+     },
+     "text": "If you ask me, I think Prideclaws are actually kind of cute. From a safe distance... and while standing behind someone holding a sword, of course.",
+     "times": 1
+    }
+   ]
+  },
+  "92516": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251906": 1
+     },
+     "template": "questCache",
+     "text": "A flock of Hippogryph have recently established nesting grounds southeast of Shen'dar Village and they've been wreaking havoc on travelers on the road. I need someone to head down there and thin them out for us.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251906": 1
+     },
+     "text": "Well done, and quickly too. Not too bad at all.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251906": 1
+     },
+     "template": "questCache",
+     "text": "Slay 8 Hippogryph Youths, 6 Hippogryph Protectors and a Hippogryph Matriarch in the Shen'dar Highlands.",
+     "times": 1
+    }
+   ]
+  },
+  "92517": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "There's a cave not far to the north, hidden behind a waterfall. It's well known to me that there's a group of bandits that are operating out of that cave. They were a problem for us before the cult arrived, but now they are a real terror. I can't spare the people to go and clear them out, unfortunately.\r\n\r\nI need you to go there and take care of them for me. Kill as many as you can, and if possible, take out their leader, the one they call \"Badwind\" Bennic. That cave is dangerous, so be careful.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "text": "With the bandits dispersed, that is one less problem for us to deal with. Though I confess that now I worry that any bandits who survived may turn next to the cult for protection, further bolstering their increasingly alarming numbers.\r\n\r\nStill though, we'll take the victories where we can get them.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "Kill 10 Highlands Bandits and their leader, \"Badwind\" Bennic in the Shen'dar Highlands.",
+     "times": 1
+    }
+   ]
+  },
+  "92528": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257065": 1
+     },
+     "template": "questCache",
+     "text": "The faithful of Al'Akir grow ever stronger with each eager new recruit like yourself. As you can see, our strength gives form to the storm itself!\r\n\r\nNormally I'd send you straight to Skypriest Aanders for assessment, but he is occupied at present receiving a guest at the inn on the north side of town. Please avoid that place for now. An unshaven recruit like yourself in the presence of such a guest would be inappropriate.\r\n\r\nFor now, just don't get in anyone's way.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "text": "Lorthuna herself was there? She's the leader of the whole damned cult!\r\n\r\nIf they are making a move on Shen'dar Village and the western watchtower, we've got to be ready. What is strange is... why the watchtower?\r\n\r\nThe Village I can understand, but the tower? It doesn't have much strategic significance, other than as a minor lookout post.\r\n\r\nRegardless, we will be prepared for them. They'll find that highlanders aren't as easy to catch flat footed as they might think.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257065": 1
+     },
+     "template": "questCache",
+     "text": "Look around Falaath Village to learn about the cult's intentions in the Shen'dar Highlands.",
+     "times": 1
+    }
+   ]
+  },
+  "92529": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251904": 1
+     },
+     "template": "questCache",
+     "text": "It gladdens my heart that you wish to serve Al'Akir. Our current trials as a people stem from our own complacency. We grew prideful and took the bounty of the winds for granted. The stagnation that followed is the reason the spirits of the wind abandoned us.\r\n\r\nOnly through acts of contrition may we feel the wind's caress once more. If you seek the fellowship of like-minded shen'dorei, go to Falaath Village and find Missionary Jasaan there. I will mark you so that the faithful will know you as a recruit.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257065": 1
+     },
+     "text": "What is this? A new acolyte seeking to serve the windlord sent by sister Sania? Truly we are blessed by the touch of the four winds this day!\r\n\r\nWe welcome all who seek to bask in the blessings of Al'Akir.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251904": 1
+     },
+     "template": "questCache",
+     "text": "Report to Missionary Jasaan near the entrance to Falaath Village.\r\n\r\nIf you lose your Mark of Akir, speak with Sania Silverstream in Shen'dar Village to regain the effect.",
+     "times": 1
+    }
+   ]
+  },
+  "92544": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252095": 1
+     },
+     "template": "questCache",
+     "text": "A band of Al'Aketh cult ruffians have taken up residence near the temple ruins just southwest of here, led by a real monster called Malduko Cloudcrush. This rabble has no doubt been dispatched here by High Priestess Lorthuna at the Shrine of Akir to attack travelers and coerce our people into joining the cult.\r\n\r\nI need to stay here at my post to alert travelers leaving the grove of the danger, but I would be grateful if you could do something about those cultists and their leader for me.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252095": 1
+     },
+     "text": "It was all I could do to stop myself from going over and joining you from my position here. I can only hope that these louts got the message and clear out of here soon. \r\n\r\nThank you, $c. You have the gratitude of the Rangers of Thendal Grove.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252095": 1
+     },
+     "template": "questCache",
+     "text": "Slay 6 Al'Aketh Brutes, 4 Al'Aketh Neophytes, and Malduko Cloudcrush in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92550": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "Our best defense here might just be a strong offense. The advantage we now have is that we expect an attack is coming. What they won't expect is for us to hit them first.\r\n\r\nI've already asked a lot of you, but please head back over to Falaath Village. Kill as many cultists as you can and if you can get close enough, kill the commander and bring me his head. I'll stay here and organize the citizens and our few peacekeepers to prepare a defense... just in case you don't return.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "text": "Thank the winds you've returned!\r\n\r\nSania Silverstream snuck out of town just before you returned, no doubt fleeing at the sight of our people arming themselves.\r\n\r\nYou've done an incredible thing for the people of Shen'dar Village and we owe you a debt of gratitude. If the cult returns to the highlands, they will find that Shen'dar is not such an easy target.\r\n\r\nWinds guide you, $N.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "Travel to the ruins of Falaath Village and slay 6 Al'Aketh Stormcallers, 4 Living Lightning and take the head of Commander Cyclas.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "text": "It feels good to turn the tables on these zealots.",
+     "times": 1
+    }
+   ]
+  },
+  "92551": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252172": 1
+     },
+     "template": "questCache",
+     "text": "I overheard you might be going to Falaath Village? While you are there, please keep an eye out for our stolen supply caches.\r\n\r\nThe Al'Aketh have been raiding our supply caravans carrying various goods such as food and windstones to and from the lowlands for months. They've been blaming the bandits, of course, but we all know that it all ends up in the same place. If there's any of that stuff left in Falaath, it would be a huge help if you could recover it.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252172": 1
+     },
+     "text": "This is great! We've been barely squeaking by without our regular supply deliveries. I'll work with the constable to ensure that these supplies get redistributed to the townsfolk who are in most dire need.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252172": 1
+     },
+     "template": "questCache",
+     "text": "Collect 10 packs of Stolen Shen'dar Supplies from Falaath Village in the Shen'dar Highlands.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252172": 1
+     },
+     "text": "There's a lot of hungry and desperate skyborne here who need these supplies.",
+     "times": 1
+    }
+   ]
+  },
+  "92553": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251905": 1
+     },
+     "template": "questCache",
+     "text": "Up for a bit of work? I could use a bit of muscle from a strong adventuring-type such as yourself. With how dangerous things are getting around here, no one's had much time to hunt or forage of late, and I need someone to get out there and source me fresh eggs and strider meat to keep this village fed.\r\n\r\nI'd be happy to teach you one of my famous recipes if you can bring me what I need. What do you say?",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251905": 1
+     },
+     "text": "These eggs aren't easy to get but wind save me, they are DELICIOUS fried up in a bit of ursera tallow.\r\n\r\nIf you've got a bit of time to spare and you enjoy cooking, I can teach you a few tips and tricks I've picked up. Say the word and I'd be happy to train you.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251905": 1
+     },
+     "template": "questCache",
+     "text": "Collect $1oa Small Eggs and $2oa Strider Meat from creatures found throughout the Shen'dar Highlands.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251905": 1
+     },
+     "text": "No matter how much things change here on Zephras and how uncertain things get, I always say that a pipe full of dried peacebloom and nice full belly is a comfort that can't be beat!",
+     "times": 1
+    }
+   ]
+  },
+  "92579": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "For now it seems the pylon and the village are safe, so I'd like you to deliver this report to Valennia Stormfist in Valanaar, at the southeastern edge of the island. Valennia is the leader of the peacekeepers on the island and she needs to know what happened here.\r\n\r\nThe cult is expanding rapidly and the peacekeepers have avoided direct conflict until now, but those days are over. Valanaar will need to be ready for a fight.\r\n\r\nAt any rate, thank you. You'll always have friends in Shen'dar, $n.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252383": 1
+     },
+     "text": "<Valennia's expression darkens as she reads the letter.>\r\n\r\nAonda trusted you to deliver this and she speaks highly enough of you in this letter, so I'll try to trust you too. Before we speak further, I need to consult with the few peacekeepers we have left here and formulate a plan in case the cult strikes here next. Enjoy your stay in Valanaar for now.\r\n\r\nIf you are looking to keep yourself busy, there are plenty of townsfolk that can likely use the help of a strong young adventurer like yourself.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "Deliver Aonda's Written Report to Valennia Stormfist in Valanaar.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252383": 1
+     },
+     "text": "A letter from Aonda. What's that crafty highlander been up to?",
+     "times": 1
+    }
+   ]
+  },
+  "92595": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251902": 1
+     },
+     "template": "questCache",
+     "text": "<Illaya smiles warmly at you.>\r\n\r\nI am glad you returned to speak with me, child of the winds. I knew it the first moment you walked into my presence, that you were strong in the skysight. Do you find this surprising? Even those who have not trained as a Shaman may possess the gift. \r\n\r\nCome, let us speak about the mandate of the Windshapers, the nature of our struggles on Zephras, and the plight of our people.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251902": 1
+     },
+     "text": "I think you now understand how important the mission of the Windshapers is. Every soul who commands the skysight is of vital importance if we hope to establish dialogue with the spirits of the winds once again.\r\n\r\nBetween threats from within such as the Al'Aketh, and the uncertainty of our safety here in Skywall, it is our responsibility as Windshapers to use our gifts to save our home and ensure that the Shen'dorei can survive these trying times.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251902": 1
+     },
+     "template": "questCache",
+     "text": "Listen to what Illaya Amberwind has to say.",
+     "times": 1
+    }
+   ]
+  },
+  "92598": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251487": 1
+     },
+     "template": "questCache",
+     "text": "As a Windshaper, you have the ability to use the sacred skysight gifted to us by the elemental spirits. Travel to the standing stones to the northeast of the village. Find the elemental convergence there and use your gift.\r\n\r\nYou'll find that you may draw upon the skysight anywhere, but its boon is much more powerful if you do so in the presence of an elemental convergence. You may at times receive other bits of wisdom from the spirits that are drawn to such places of power, as well.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251487": 1
+     },
+     "text": "Like a muscle, your skysight must be exercised if you hope to grow stronger in the gift. Leveraging your skysight to bridge the distance between the mortal and the spiritual may prove invaluable to you in your adventures.\r\n\r\nYou'd do well to remember what you've learned here today. Our ability to use our gifts to hear what the elements tell us could be the key to our survival.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251487": 1
+     },
+     "template": "questCache",
+     "text": "Use your Skysight racial ability at the Elemental Convergence in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92679": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252448": 1
+     },
+     "template": "questCache",
+     "text": "H--Hello, stranger. You have the look of a capable adventurer about you. I...\r\n\r\n<The Skyborne man winces, clearly suffering terrible pain>\r\n\r\n...I was wondering if you were seeking employment? I came here to Valanaar to recruit fighters to help save my farm. If you are interested, please go find my wife Aamelia Windfield at our orchard to the west of Valanaar, in the lowlands.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252448": 1
+     },
+     "template": "questCache",
+     "text": "Listen to what Alvarion Windfield has to say and find Aamelia Windfield at the Windfield Orchard.",
+     "times": 1
+    }
+   ]
+  },
+  "92700": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252383": 1
+     },
+     "template": "questCache",
+     "text": "Now that you've arrived in Valanaar, you'll likely want to check in with the other members of the Windshapers here. The current Grand Skyseer and her people operate out of the lodge near the center of Valanaar.\r\n\r\nYou should also be aware, the Windshapers and High Order don't get along very well in these parts. Be careful and give the High Order a good, wide berth. We've got enough to worry about with the cult, I won't tolerate faction violence in the streets of Valanaar.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251968": 1
+     },
+     "text": "Elder Amberwind sent me a message about you and your exploits in Shen'dar Village. You are most welcome here, friend.\r\n\r\nYou have a strong aura, and you clearly have a resonance with the spirits. Fewer and fewer of us have the skysight of late, and Zephras needs those with the gift if we are to survive these trying times. I am glad you have found your way to me.\r\n\r\nI look forward to further making your acquaintance.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252383": 1
+     },
+     "template": "questCache",
+     "text": "Find Ayessa Dawnsinger in Valanaar.",
+     "times": 1
+    }
+   ]
+  },
+  "92708": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251968": 1
+     },
+     "template": "questCache",
+     "text": "The Windshapers have been hard at work trying to respond to the current crisis on Zephras Isle. We have made several surprising discoveries in our search for the missing wind spirits, and we are developing a plan of action that could help us gain the means to save the island.\r\n\r\nWe'll need strong young adventurers like yourself for this to work however. Please, if you have a moment, let us speak on this further.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251968": 1
+     },
+     "template": "questCache",
+     "text": "Listen to what Ayessa Dawnsinger has to say.",
+     "times": 1
+    }
+   ]
+  },
+  "93036": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "You may or may not be aware of this, but Sania Silverstream over there is a \"missionary\" for the Al'Aketh. They like to play at being a normal religious order and send non-threatening emissaries around to recruit. We've tolerated Sania so far to avoid direct conflict with the cult, but it's obvious the illusion of peace won't last much longer.\r\n\r\nYou are new here and unknown to most, so I'd like to see if you can use Sania to get close to the cult and find out what their plans are for the village.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251904": 1
+     },
+     "text": "Greetings child, my name is Sania Silverstream and I am a junior priestess in the Order of the Al'Aketh. Do you wish to learn more of our sovereign, the Windlord Al'Akir?\r\n\r\nThere is always room at the Windlord's table for the righteous and the repentant.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Sania Silverstream in Shen'dar Village.",
+     "times": 1
+    }
+   ]
+  },
+  "93317": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257006": 1
+     },
+     "template": "questCache",
+     "text": "Are you familiar with Windsong Crawlers? You see, these crabs are native only to Windsong Lake here on Zephras, and they are only able to be harvested a few weeks of the year.\r\n\r\nWith all of the cult activity of late, I've not been able to get out to the lake to harvest them, and our window is rapidly closing. I'd be appreciative if you could go and gather some for me. They can generally be found along the shorelines around the lake and in rivers.\r\n\r\nDo be careful though, they are meaner than they look!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257006": 1
+     },
+     "template": "questCache",
+     "text": "Collect 6 pieces of Windsong Crawler Meat.",
+     "times": 1
+    }
+   ]
+  },
+  "93318": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:610954": 1
+     },
+     "template": "questCache",
+     "text": "By order of Constable Aonda of the Peacekeepers, a bounty is hereby placed upon the scourge of the highlands, Vulgara the Insatiable. Last spotted on a hilltop rise just southwest of Shen'dar Village, the winged vuldren terror is highly dangerous and should be approached with caution.\r\n\r\nDeliver the beast's head to Danarii Bellowveil to receive your reward.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252172": 1
+     },
+     "text": "If we didn't have enough on our plates between the cult and the highlands bandits, we don't need a giant vuldren terrorizing our citizens as well. You've done a great thing here today. As promised, here is your reward.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:610954": 1
+     },
+     "template": "questCache",
+     "text": "Kill Vulgara the Insatiable in the Shen'dar Highlands and bring her head to Danarii Bellowveil.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252172": 1
+     },
+     "text": "I'll need the creature's head as proof of the deed.",
+     "times": 1
+    }
+   ]
+  },
+  "93319": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251906": 1
+     },
+     "template": "questCache",
+     "text": "We are relying on windstones more and more for day-to-day living here on Zephras so we try and maintain a cache of them in reserve for emergencies. Lately I've noticed some go missing from our stores.\r\n\r\nWe've found windstones on bandits we've captured recently, and I suspect they are behind our shortages.\r\n\r\nIf you find yourself near the bandit cave to the north, mind knocking a few heads together and reclaiming some of our pilfered windstones for me?",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251906": 1
+     },
+     "text": "Thanks $c. This should help us get by for now. If we can't get the supply routes squared away soon though, a few stolen windstones will be the least of our worries.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251906": 1
+     },
+     "template": "questCache",
+     "text": "Collect 10 Pilfered Windstones from the Highlands Bandits in the Shen'dar Highlands.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251906": 1
+     },
+     "text": "These sneakthieves have likely been breaking into our supplies for months. I tried to convince Aonda to put a raid together to clear out that bandit cave for good, but she didn't want to pull the few peacekeepers we have away from the village. \r\n\r\nWith the cultists at Falaath Village to the south growing in numbers, I suppose I can't fault her for that.",
+     "times": 1
+    }
+   ]
+  },
+  "93552": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251363": 1
+     },
+     "template": "questCache",
+     "text": "Windstones are a critical resource on Zephras Isle as they contain the raw, concentrated energy of the winds themselves. The wind elementals who used to live here on Zephras with us vanished a number of years ago, and since then, the magic that sustains this island is slowly fading. Not without limitations, the windstones are still a reliable energy source, and are incredibly valuable to us.\r\n\r\nYou'll find raw windstones scattered around the grove. Think you can help me harvest them?",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251363": 1
+     },
+     "text": "Thank you very much for these. As elves we all have a deep connection to magic and these windstones are becoming more and more precious as the magic imbued into this island by the great anchor pylons continues to fade. \r\n\r\nWindstones aren't the only beneficial thing you can harvest from the land. Please, take one of these manuals.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251363": 1
+     },
+     "template": "questCache",
+     "text": "Collect 15 Windstone Clusters from Raw Windstones in Thendal Grove.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251363": 1
+     },
+     "text": "Hello there, $c.",
+     "times": 1
+    }
+   ]
+  },
+  "93735": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251968": 1
+     },
+     "template": "questCache",
+     "text": "Historically, the Windshapers have seen to the tending of the magical instruments and devices that were gifted to us by the spirits of the wind. This includes the myriad of magical constructs around the island. Since the spirits left us, only a scant few of these are still functional.\r\n\r\nOne of the few remaining working constructs in Valanaar has become damaged. One of our artisans was dispatched to help, but he may be in need of aid. Travel to the west end of the city and offer any assistance you can.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251968": 1
+     },
+     "template": "questCache",
+     "text": "Find Riaani Nightwind on the west side of Valanaar.",
+     "times": 1
+    }
+   ]
+  },
+  "93926": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "Whatever reason the cult has for attacking the tower, it's not worth losing our people over.\r\n\r\nI'd like for you to head to the southwest and check in on that watchtower for us. Find the peacekeepers there and tell them to head back to the village. Holding that tower is not worth the lives it would cost and I'd rather concentrate the defenders we do have here to protect our citizens.\r\n\r\nPeacekeeper Vaaniel is in charge; let him know to head back here as quickly as possible. Hurry!",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252155": 1
+     },
+     "text": "<The body here is somewhat fresh, clearly only recently having been killed. Judging by the burns and scorch marks on this peacekeeper's skin, it's clear that they were killed by the cult's storm-wielding spellcasters.>",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "Find Peacekeeper Vaaniel at the western watchtower.",
+     "times": 1
+    }
+   ]
+  },
+  "93927": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252155": 1
+     },
+     "template": "questCache",
+     "text": "<As you inspect the body of the dead peacekeeper, a bloody note falls free of his hands. Picking it up and reading it may give you a clue as to how to proceed from here.>",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "text": "So they are all dead, then. Storms curse these cult bastards!\r\n\r\nWhile you managed to take out the priest and stop the cultists at the tower, I confess that I'm now doubly concerned about whatever it was you said that they were doing to the pylon. The fact that there was such a massive cache of windstones there with them tells me that they needed enormous energy for it.\r\n\r\nI have to wonder, what's the end goal here? Violating the pylon, attacking the village? To what end?",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252155": 1
+     },
+     "template": "questCache",
+     "text": "Collect the note you found near the dead peacekeeper and read it to determine your next steps.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "text": "What news from the western watch?",
+     "times": 1
+    }
+   ]
+  },
+  "93948": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "Since you are going to Valanaar anyway, please deliver the signet ring you recovered from the tower to Talaanis Shadowsong in Valanaar. \r\n\r\nHe will want this back, and more importantly, he will want to learn the fate of his nephew. Talaanis is the High Elder of Zephras Isle and more importantly, he is a good man who is well loved by the people, despite our current hardships. It pains me to think of how he will react to this news. Please express my condolences for his loss.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252476": 1
+     },
+     "text": "I... am very sorry to hear that my nephew is dead. I thank you kindly for recovering this, and bringing it to me.\r\n\r\nIt's not common that such capable young shen'dorei come down from the highlands. If you need work, please speak with Valennia Stormfist, the captain of the peacekeepers here in Valanaar. These days we need all the help we can get.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "Deliver the Shadowsong Family Signet to Talaanis Shadowsong in Valanaar.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252476": 1
+     },
+     "text": "What is that you have for me? Oh... oh no.",
+     "times": 1
+    }
+   ]
+  },
+  "93949": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252383": 1
+     },
+     "template": "questCache",
+     "text": "We've been bugged.\r\n\r\nIt's skyhopper season in the lowlands, which means the pests are everywhere. One of the High Order mages reported that one of the insects that they killed had an enchantment of some kind placed upon it. When we inspected it closely it seems to be some sort of listening spell.\r\n\r\nWe suspect that the cult is using these enchanted insects as spies. Go and exterminate them for us. You won't be able to tell which are enchanted by looking at them, so you'll just have to kill them all.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252383": 1
+     },
+     "template": "questCache",
+     "text": "Kill Skyhoppers in Valanaar until you've eliminated $1oa Enchanted Skyhoppers.",
+     "times": 1
+    }
+   ]
+  },
+  "93951": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251991": 1
+     },
+     "template": "questCache",
+     "text": "The hippogryphs that have taken up residence southwest of the village can be a nuisance, but they also present a rather unique opportunity to obtain their feathers. Many skyborne love to adorn their hair with vibrant plumes and the down feathers of a hippogryph are exceptionally vibrant and, more importantly, silky soft.\r\n\r\nIf you are heading that way, try and gather as many of the fallen feathers as you can from around their nesting grounds. Do be careful, as wild hippogryph are not tolerant of guests.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251991": 1
+     },
+     "text": "It might seem a bit of a vain triviality, gathering feathers for our hair. However, even in times like these, one needs to embrace the small joys as much as possible. \r\n\r\nIf one thing I create brings someone joy, then I will consider that to be a good day. Thank you for bringing me these and helping me bring some joy to Zephras.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251991": 1
+     },
+     "template": "questCache",
+     "text": "Collect 8 Hippogryph Down feathers in the Shen'dar Highlands.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251991": 1
+     },
+     "text": "What beautiful things did you bring me?",
+     "times": 1
+    }
+   ]
+  },
+  "94411": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251902": 1
+     },
+     "template": "questCache",
+     "text": "Be warned, members of the High Order have been seen in the vicinity of the standing stones north of the village. We have warned them time and again to not meddle at our sacred sites, but they are growing more bold in pushing us. Prove your resolve to us by going to the standing stones and dispersing them.\r\n\r\nI am loathe to condone outright bloodshed, but do what you must to drive them off. Return to me when it's done.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251902": 1
+     },
+     "text": "Direct conflict with our shen'dorei brothers and sisters only weakens us as a people, but decisive action must at times be taken to prevent greater tragedy.\r\n\r\nThe mages of the High Order have zero regard for the consequences of their magical meddling. The forces that bind our island are fragile and vulnerable and all it could take is one thoughtless action to destroy our home.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251902": 1
+     },
+     "template": "questCache",
+     "text": "Slay 6 High Order Apprentices in Shen'dar Highlands.",
+     "times": 1
+    }
+   ]
+  },
+  "94414": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257554": 2
+     },
+     "template": "questCache",
+     "text": "Greetings, young $n. I oftentimes come here to look upon the ancient anchor pylon. Gifts from the spirits of the winds, they bind and sustain our island. Of late however, their magic has grown unstable and inconsistent.\r\n\r\nThey suffer no distress I can see. Their splendor has not changed.\r\n\r\nIf you'd like, I can lend you my gift to look upon them yourself.",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257554": 2
+     },
+     "template": "questCache",
+     "text": "Speak with Halaan Hawk-Eye and borrow his gift to view the anchor pylon in the distance.",
+     "times": 2
+    }
+   ]
+  },
+  "94484": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252359": 1
+     },
+     "template": "questCache",
+     "text": "A moment if you will, $n. Are you headed towards Shadowgale Forest? There is a druid conclave there in a cave to the northeast. I have been waiting on word from them but their correspondence is long overdue.\r\n\r\nWith Ban'aethall in ruins and all the unrest lately I worry something dire may have happened. Please, if you are able, go seek out Elegael Thornpaw and put my mind at ease.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252359": 1
+     },
+     "template": "questCache",
+     "text": "Find and speak with Elegael Thornpaw in the northeastern part of Shadowgale Forest.",
+     "times": 1
+    }
+   ]
+  },
+  "94896": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:259012": 1
+     },
+     "template": "questCache",
+     "text": "You look like a capable adventurer. Do you happen to be headed towards Shadowgale Forest? Ban'aethal lies deep in the forest; that's where we're all from.\r\n\r\n<Ealaane gestures to the other refugees.>\r\n\r\nWe've recently had to evacuate Ban'aethal, as it began to fall into the sky. It was sudden and in the middle of the night. If you are headed that way, would you please look for any belongings left behind? The forest and village are far too dangerous for us to return to now.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:259012": 1
+     },
+     "template": "questCache",
+     "text": "Collect $1oa Abandoned Belongings from the ruins of Ban'aethal.",
+     "times": 1
+    }
+   ]
+  },
+  "94897": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:259012": 1
+     },
+     "template": "questCache",
+     "text": "If you are traveling to Ban'aethal, I have a selfish request. My love, Resaan... I believe is no longer a part of this world. He had tried to go back to get supplies even though I begged him to stay. It has been over a week already and I fear the worst.\r\n\r\nPlease, if you find him, bring him home. If he has perished then I beg you to please bring me his heirloom.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:259012": 1
+     },
+     "template": "questCache",
+     "text": "Find Resaan in the Ruins of Ban'aethal.",
+     "times": 1
+    }
+   ]
+  },
+  "96101": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "Greetings, $c. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless souls, seeking fortune and glory.\r\n\r\nYou'll need to learn to thrive in the wilds to be successful in this line of work. Not sure how your outdoor skills are but I can probably teach you a thing or two, if you'd be apt to learn.\r\n\r\nHave a seat near the fire and get comfortable. I'll walk you through it.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "text": "So now that we've learned the basics, why don't you go and learn a tradeskill from the trainers in the village nearby. They will also teach you how to create a camp fixture suitable to your new profession.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "Sit near Raan's Basic Campfire and wait until you receive the Boosted Rest buff.",
+     "times": 1
+    }
+   ]
+  },
+  "96638": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "template": "questCache",
+     "text": "More and more adventurers like yourself have been seeking glory and fortune outside of the safety of Thendal Grove. There's one such adventurer who has made a camp outside of Shen'dar Village, along the road leading southwest out of Thendal Grove.\r\n\r\nSeek him out and see what you can learn from him that may help you in your own travels.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "text": "Well met!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "template": "questCache",
+     "text": "Speak to Raan Wildwind near Shen'dar Village.",
+     "times": 1
+    }
+   ]
+  },
+  "96646": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "So you want to learn more about camping, huh? Good for you, $c. The first step any adventurer needs to take is to become a cook and learn how to make a campfire.\r\n\r\nCooking's not just about making tasty foods. It's also the foundation for your camp.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251905": 1
+     },
+     "text": "With this, you'll be able to set up a camp anywhere out in the wilderness. What you've learned is just the basics, so you won't be able to place too many furnishings around it.\r\n\r\nRaise your cooking skill and you might just be able to learn to make even bigger fires.\r\n\r\nYou can also learn the basics of furnishing your campsites from other tradeskill trainers if you're savvy in their skills.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Zerril Softbreeze in Shen'dar Village to learn to become a cook.",
+     "times": 1
+    }
+   ]
+  },
+  "97970": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "Mining isn't the most glamorous, but it's good honest work and a fine profession for you to explore.\r\n\r\nI reckon I know someone that can teach you how to craft a Lodestone for your camp. Build one of these and everyone who wants to swing a sword will be eager to gather round your fire and soak up the extra \"oomph\" it can provide to increase their combat prowess.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Messana Crestwind in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+     "times": 1
+    }
+   ]
+  },
+  "97971": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "Being able to skillfully harvest the skins and hides of fallen beasts is one of the more valuable skills an adventurer can possess.\r\n\r\nI reckon I know someone that can teach you how to craft a Camp Chair for your camp. Sometimes it's important to just take a load off, and you can use some of those hides you've gathered to make a comfy chair to sit in. A bit of relaxation can help ensure that you are at your peak condition and can strike where it counts the next time you find yourself in a dust-up.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257024": 1
+     },
+     "text": "There you have it, you can now craft your very own Camp Chair. Most folk don't care much for camps being set up in the center of town, so you'll need to head into the wilderness if you want to test it out.\r\n\r\nOh, and just remember, no camp is complete without a campfire. You'll need one of those before you start up your camp. Most cooks can teach you to make a fire. If you haven't already, you might want to check in with someone who can train you in the culinary arts to learn the basics.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Mendalass Tattermend in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+     "times": 1
+    }
+   ]
+  },
+  "98340": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3033": 1
+     },
+     "template": "questCache",
+     "text": "It would seem that you are ready for the next step in your journey, young druid. Dendrite Starblaze has sent for you, and wishes for you to seek him out in Moonglade once again.\r\n\r\nYou have already learned to call upon the magic to take you to Moonglade, so you should be able to embark immediately if you choose. I would suggest you leave soon, if you wish to continue your druidic training.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:11802": 1
+     },
+     "text": "And so it continues, Father Cenarius.\r\n\r\n<Dendrite makes a quick, invisible gesture in the air above him. A slight aura of power falls over him.>\r\n\r\nGreetings again, $N. It is time for you to learn the next perspective of nature: the cat. I will put you on the path to understanding this aspect of druidic life, but much like the bear, it is you that must embrace this learning and propagate it.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3033": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Dendrite Starblaze in the village of Nighthaven, Moonglade.",
+     "times": 1
+    }
+   ]
+  },
+  "98341": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:11802": 1
+     },
+     "template": "questCache",
+     "text": "A spirit of your homeland has recently appeared here and has asked me to guide you to it. This windborne cat spirit has come to tutor and mentor you so that you may take the feline shape of the spirit on Zephras.\r\n\r\nAll druids eventually seek this wisdom, though it seems your homeland has a slightly different shape than our traditional one. If you desire to take this spirit's feline form, you will need to undergo our trial.\r\n\r\nIt can be found in the southern part of Moonglade, south of the twin bridges.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:272054": 1
+     },
+     "text": "Greetings, young shen'dorei. I have come to you because I sense you are ready to undertake the trial to determine if you understand my spiritual nature or not.\r\n\r\nI will have you take the trial of the Great Cat Spirit of Azeroth, but as you are from Zephras, I wished to oversee your progress myself. After all, it is my shape you would take, not that of an Azerothian cat spirit.\r\n\r\nLet us begin.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:11802": 1
+     },
+     "template": "questCache",
+     "text": "Seek out the Avatar of Saeyleenan in the southern part Moonglade and learn what it has to share with you about the nature of the windborne cat.",
+     "times": 1
+    }
+   ]
+  },
+  "98362": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:11802": 1
+     },
+     "template": "questCache",
+     "text": "The time has come for us to part ways once again, young one, as the application of your lessons takes you back to whom that sent you to me. It would seem your instructor, Turak Runetotem, has found a worthy pupil in you. I believe I see one as well. Heed his lessons and you shall soon be able to draw upon the Great Cat Spirit to take its shape.\r\n\r\nGo back to whence you came. When the time is right, we will meet again.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3033": 1
+     },
+     "text": "Welcome back, $N. I can sense you have met with the Great Cat Spirit and have successfully completed the trial. All druids must pass a trial given by this spirit, though the trials vary by generation. I am proud you have passed and have heeded the wisdom of the Great Cat Spirit. It is an ancient spirit that is as deadly as it is playful, though I can sense you understand the spirit's nature already.\r\n\r\nI will now instruct you on how to take the shape of the cat.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:11802": 1
+     },
+     "template": "questCache",
+     "text": "Return to Thunder Bluff and speak with Turak Runetotem on the Elder Rise.",
+     "times": 1
+    }
+   ]
+  },
+  "98404": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:272054": 1
+     },
+     "template": "questCache",
+     "text": "In order to draw upon my spirit, you will need to undergo a trial. To understand and respect my form you must prove that you can embody cunning, stealth, and if you should be cornered, ferocity.\r\n\r\nIn the Barrow Dens just east of here, are three relics you must acquire. They are guarded by powerful enraged spirits that will attack you on sight. A statue at the entrance will bless you with temporary stealth to get past them.\r\n\r\nReturn these relics to me to pass the druidic trial of these lands.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:272054": 1
+     },
+     "text": "Excellent. You have shown you understand the true nature of the cat, and are able to embody the cunning, stealth, and ferocity needed to take my shape.\r\n\r\nI now deem you worthy of my blessing, young $c.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:272054": 1
+     },
+     "template": "questCache",
+     "text": "Recover the Relic of the Fang, Relic of the Claw, and Relic of the Silent Shadow from the Stormrage Barrow Den, and return them to the Avatar of Saeyleenan.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:272054": 1
+     },
+     "text": "Ah, you have returned. I do hope you have brought the relics with you?",
+     "times": 1
+    }
+   ]
+  },
+  "98738": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:272054": 1
+     },
+     "template": "questCache",
+     "text": "Now that you have received my blessing, return to Dendrite. He will instruct you further.\r\n\r\nUnfortunately I have little left to teach you for the moment. I do hope you come and visit me in Zephras again someday. I sense promise in you, young shen'dorei.\r\n\r\nMay the shadows forever hide you, your foes easily fall prey to your claws, and the winds guide your steps.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:11802": 1
+     },
+     "text": "<Dendrite makes another invisible gesture in the air above him as you approach. Another aura of power comes over him, and he smiles ever so slightly.>\r\n\r\nI sense the cunning and ferocity of the cat within you that was not present when I sent you to meet the Great Cat Spirit. In your eyes I can sense you now understand the stealth and speed needed to adopt this nature.\r\n\r\nNow you may learn to focus your cunning and adopt the true nature of the cat and call upon its spirit.",
      "times": 1
     }
    ]
