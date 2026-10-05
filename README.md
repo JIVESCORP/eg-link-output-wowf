@@ -22,6 +22,7 @@ client language (`quests.enUS.json`):
 | `turn_ins` | What each quest's turn-in paid: XP, money and reputation |
 | `objectives` | Where each quest objective's count went up |
 | `quest_scan` | Which quests the server describes (open content) and which it doesn't yet |
+| `game_rules` | Game rules no client file holds: where new characters start, where class teleports land, the level cap, standing ranges, renown tracks, quest colours, reward spell flags and profession skill caps |
 | `quests.<locale>` | Every quest as the server describes it: text, levels, objectives, rewards |
 | `creature_details.<locale>` | Every creature's name, title, type, family, rank, models and quest drops |
 | `object_details.<locale>` | Every game object's name, type, model, size and quest drops |

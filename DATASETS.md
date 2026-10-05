@@ -291,6 +291,40 @@ damage nothing in the client files gives, say.
 character held. The server sets it item by item, and no client table holds it. `disagree` lists any
 other maximum a player's game reported, and `sources` counts the players.
 
+## game_rules
+
+Game rules no client file holds, read from players' games (EG Link 0.2.14 and later). Each is a fact
+about the game, not about a player, bar where a new character first stood and where a class teleport
+landed, which are combined per race, faction and class and per spell, never per character.
+The files (`game_rules.json`) appear once players' EG Link apps send the section, which needs an app
+release still to come.
+
+- `starts["<race>|<faction>|<class>"]`: where new characters first logged in, keyed by the game's race
+  and class tokens (`Scourge` is Undead). `count` (characters), `positions` (where they stood; a spot
+  without `uiMap`, `mapX` and `mapY` is one the character had already moved from when the map was read),
+  `zones` and `subZones` (the zone text the game showed, per client language, with counts), `sources`.
+- `teleports[spellId]`: where a class teleport landed (the Mage teleports and Teleport: Moonglade), the
+  same fields.
+- `levelCap`: `maxPlayerLevel`, `maxLevelForLatestExpansion` and `maxLevelForPlayerExpansion`, each value
+  a player's game gave with how many players' games gave it.
+- `standings[reaction]["<from>..<to>"]`: each standing's point range, `reaction` counting from 1 (Hated)
+  to 8 (Exalted), `to` exclusive (Neutral is `0..3000`: 0 to 2,999).
+- `renown[factionId]`: each renown track (PvP Rank Points, Legacy Track): `name`, `maxLevel`,
+  `renownLevelThreshold`, and `levels[level]` with `totalReputation` and `rewards` (`itemID` and the
+  other reward IDs, `name`, `description`, `icon`, `uiOrder` ...). The game gives every reward's
+  `renownRewardID` as 0, so match rewards by `itemID`; a reward's `name` can be missing.
+- `questDifficulty[effectiveLevel][questLevel][difficulty]`: the colour the game gives a quest, 0 Trivial
+  (grey), 1 Easy (green), 2 Fair (yellow), 3 Difficult (orange), 4 Impossible (red).
+  `trivialRange[effectiveLevel][range]`: how many levels below the character a quest turns grey.
+- `rewardSpells[questId][spellId]`: what the quest window's reward spell says of itself
+  (`C_QuestInfoSystem.GetQuestRewardSpellInfo`): `type`, `isTradeskill`, `isSpellLearned`,
+  `hideSpellLearnText`, `isBoostSpell`, `genericUnlock`, `sources`, and `disagree`, any other set of
+  flags a player's game gave, with how many.
+- `professionCaps[skillLine][step][maxRank]`: the skill cap at each profession tier (step 1 Apprentice,
+  2 Journeyman ...; `?` when the tier wasn't known).
+
+Sets and caps say how many players' games (`sources`) gave each value, so a game that disagrees shows.
+
 ## The cache datasets
 
 The game keeps the server's answers in cache files: what a quest says, what a creature or object is,
