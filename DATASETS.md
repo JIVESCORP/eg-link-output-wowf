@@ -16,11 +16,17 @@ data/<product>/<clientBuild>/<dataset>.<locale>.json     the datasets in the gam
   4 November 2026.
 - `<clientBuild>` is the client's version, such as `1.60.1.70009`. A build's data is only what
   players recorded on that build, so compare builds to see what a patch changed.
-- `<locale>` is the game client's language, such as `enUS`. The four datasets read from the game's
-  caches (`quests`, `creature_details`, `object_details`, `item_hotfixes`) are mostly the server's
-  text, and the three scans of the game's tooltips (`talent_scan`, `stat_scan`, `tooltip_scan`) are
-  the game's text, so each language gets its own file. Names in the other datasets are in whatever
-  language the contributing players' clients use.
+- `<locale>` is the game client's language, such as `enUS`. The five datasets read from the game's
+  caches (`quests`, `creature_details`, `object_details`, `item_hotfixes`, `broadcast_text`) are
+  mostly the server's text, and the three scans of the game's tooltips (`talent_scan`, `stat_scan`,
+  `tooltip_scan`) and the words its windows showed (`texts`) are the game's text, so each language
+  gets its own file. Names in the other datasets are in whatever language the contributing players'
+  clients use.
+
+`data/index.json` has `license` and `attribution`, and `products[product][clientBuild][dataset]` for
+every file: `records` (how many records the file holds, across its collections), `sources` (as the
+file's `meta.sources`) and `lastCollectedOn` (its `meta.collectedOn.last`). A per-language dataset is
+listed under its file's name, such as `quests.enUS`.
 
 Every file is UTF-8 JSON with one space of indent. Object keys are sorted: numerically when every
 key is a number, otherwise alphabetically. A field with nothing to say is left out, never `null`.
@@ -101,8 +107,9 @@ of that class saw.
   `side` (Alliance, Horde), `levels` (every level seen), `windows` (windows opened), `interactions`
   (the kinds of window: Merchant, Trainer, QuestGiver, Gossip, TaxiNode, Binder, Banker ...),
   `options[gossipOptionId]` (`name`, `icon`, `spellId`), `offers[questId]` (quests it gives: `title`,
-  `level`, `frequency`, `repeatable` ...), `takes[questId]` (quests it ends: `title`, `level`),
-  `lastSeen`, `positions`, `sources`.
+  `level`, `frequency`, `repeatable`, `legendary`, `important`, `meta`, and `infoId`, the quest's
+  `QuestInfo` ID as `questInfoId` in `quests.<locale>`: 81 Dungeon ...), `takes[questId]` (quests it
+  ends: `title`, `level`), `lastSeen`, `positions`, `sources`.
 - `approached[objectId]`, objects players walked up to without opening (herbs, veins, mailboxes):
   `name`, `times`, `positions`, `sources`. An object ID is a kind of object, so every Copper Vein
   shares one, and its positions are everywhere it grows.
@@ -296,8 +303,6 @@ other maximum a player's game reported, and `sources` counts the players.
 Game rules no client file holds, read from players' games (EG Link 0.2.14 and later). Each is a fact
 about the game, not about a player, bar where a new character first stood and where a class teleport
 landed, which are combined per race, faction and class and per spell, never per character.
-The files (`game_rules.json`) appear once players' EG Link apps send the section, which needs an app
-release still to come.
 
 - `starts["<race>|<faction>|<class>"]`: where new characters first logged in, keyed by the game's race
   and class tokens (`Scourge` is Undead). `count` (characters), `positions` (where they stood; a spot
@@ -309,10 +314,11 @@ release still to come.
   a player's game gave with how many players' games gave it.
 - `standings[reaction]["<from>..<to>"]`: each standing's point range, `reaction` counting from 1 (Hated)
   to 8 (Exalted), `to` exclusive (Neutral is `0..3000`: 0 to 2,999).
-- `renown[factionId]`: each renown track (PvP Rank Points, Legacy Track): `name`, `maxLevel`,
-  `renownLevelThreshold`, and `levels[level]` with `totalReputation` and `rewards` (`itemID` and the
-  other reward IDs, `name`, `description`, `icon`, `uiOrder` ...). The game gives every reward's
-  `renownRewardID` as 0, so match rewards by `itemID`; a reward's `name` can be missing.
+- `renown[factionId]`: each renown track (PvP Rank Points, Legacy Track): `name`, `factionID` (the
+  key again), `expansionID`, `maxLevel`, `renownLevelThreshold`, and `levels[level]` with
+  `totalReputation` and `rewards` (`itemID` and the other reward IDs, `name`, `description`, `icon`,
+  `uiOrder`, `rewardType`, `isAccountUnlock` ...). The game gives every reward's `renownRewardID` as
+  0, so match rewards by `itemID`; a reward's `name` can be missing.
 - `questDifficulty[effectiveLevel][questLevel][difficulty]`: the colour the game gives a quest, 0 Trivial
   (grey), 1 Easy (green), 2 Fair (yellow), 3 Difficult (orange), 4 Impossible (red).
   `trivialRange[effectiveLevel][range]`: how many levels below the character a quest turns grey.
@@ -325,13 +331,52 @@ release still to come.
 
 Sets and caps say how many players' games (`sources`) gave each value, so a game that disagrees shows.
 
+## texts.&lt;locale&gt;
+
+The words quest windows, gossip windows, greetings and books showed players, for voice-over addons:
+recorded by EG Link 0.2.9 and later, and sent by EG Link's app from 0.6.0. Each place holds a list of
+variants, every different text players saw there, the most `sources` first:
+
+- `quests[questId]`: `accept` (the quest's text as it was offered), `objectives` (the line saying what
+  to do), `progress` (what the giver says while the quest isn't done) and `complete` (what it says at
+  the turn-in).
+- `greeting[key]`: what a quest giver with no gossip says above its quests. `gossip[key]`: a gossip
+  window's text. A key is `npc:<npcId>` or `object:<objectId>`.
+- `books[source][page]`: a book, letter or plaque read, page by page: `title`, `material` (the page's
+  background, such as `Parchment` or `Silver`), `texts` (the page's variants). A source is
+  `object:<objectId>`, `item:<itemId>` or, when the game named neither, `title:<the book's title>`.
+
+A variant has:
+
+- `text`. When it is the game's own text, `template` says where it was found: `questCache` (the quest's
+  `description` or `objectivesText` in `quests.<locale>`) or `broadcastText` (rows of
+  `broadcast_text.<locale>`, all listed in `broadcastTextIds`; `text` is the lowest ID's). `text` is
+  then the template itself, with the game's placeholders, and every player's copy that matched counts
+  as one of its sources, whoever read it. A copy matches when it equals the template with line breaks
+  (`$B`, `\r\n`) and the reader's `$n`/`$N`, `$c`/`$C` and `$r`/`$R` made alike, and the template's
+  `$g<male>:<female>;` read as either. Otherwise `text` is what the game showed, with the reader's name,
+  class and race put back as `$N`, `$C` and `$R`. A placeholder the game showed as it was, such as `$r`
+  in a greeting, stays.
+- `sources` (players' saved files that sent it), `times` (how often it was shown).
+- `sexes`: how often it was shown to a character of each sex, `male` and `female`. A gendered line's
+  form depends on it.
+- `speakers` (`quests` only): who showed it, `npc:<npcId>`, `object:<objectId>`, `item:<itemId>` or
+  `none`, with how often.
+
+No text names a player. EG Link drops any text holding the name of one of the player's characters, and
+any while the game keeps the reader's name, class or race secret; Efficient Games then drops any text
+that isn't the game's own and names one of the contributing member's characters, and any book page
+whose title or source does. `meta.withheld` counts them, never their words: `addon` what EG Link held
+back, and `names` what Efficient Games did, each per kind (`quests`, `greeting`, `gossip`, `books`).
+
 ## The cache datasets
 
 The game keeps the server's answers in cache files: what a quest says, what a creature or object is,
-and the rows of the game's tables the server changed after the client shipped ("hotfixes"). EG
-Link's app uploads them as the game wrote them. A cache holds what the game asked about since it last
-started one, so every upload adds to what's known, and a player's newer upload replaces only the
-records it has. For each record, the newest player's answer wins (for a pushed item, the newest push
+and the rows of the game's tables the server sent after the client shipped ("hotfixes"). The last are
+in `DBCache.bin`: its `ItemSparse` rows make `item_hotfixes`, and its `BroadcastText` rows
+`broadcast_text`. EG Link's app uploads them as the game wrote them. A cache holds what the game asked
+about since it last started one, so every upload adds to what's known, and a player's newer upload
+replaces only the records it has. For each record, the newest player's answer wins (for a pushed item, the newest push
 first), then the one most players have. `sources` counts the players who had it.
 
 A cache is read only when it's from the upload's build and language, and only when its record layout
@@ -404,4 +449,15 @@ this is how an item missing from the client files gets its name.
   (the game asked and the server refused: the item exists, and the server doesn't show it yet)
 - `pushId`: which of the server's hotfix pushes said so (-1 for an answer to the game's own request)
 - `name` and `description`, for a `valid` row
+- `sources`
+
+### broadcast_text.&lt;locale&gt;
+
+`texts[broadcastTextId]`, every `BroadcastText` row the server sent a player's game: the lines NPCs say
+in gossip windows and speech. `texts.<locale>` matches what players saw against these.
+
+- `text` and `text1`: the line's two forms, the table's `Text` and `Text1`, for a male and a female
+  speaker. Either is left out when the row has it empty. They hold the game's placeholders: `$n`, `$c`
+  and `$r` for the reader's name, class and race, `$g<male>:<female>;` for the reader's gender, and
+  `$b` or `$B` for a line break.
 - `sources`
