@@ -1,0 +1,1700 @@
+{
+ "meta": {
+  "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
+  "cacheFiles": 9,
+  "cachesLeftOut": 0,
+  "clientBuild": "1.60.1.70235",
+  "collectedOn": {
+   "first": "2026-10-06",
+   "last": "2026-10-06"
+  },
+  "dataset": "quests",
+  "license": "CC BY 4.0",
+  "locale": "enUS",
+  "product": "wow_classic_beta",
+  "schemaVersion": 1,
+  "sources": 1
+ },
+ "quests": {
+  "354": {
+   "description": "The Agamand family was the most prosperous family in Tirisfal Glades.  I used to work their mills...before the Plague.$B$BWhen the Scourge first came, the Agamands fortified their home and convinced those in their employ to remain and help them defend.  We were fools, but at least we were loyal fools.$B$BThe Agamands, in their pride, doomed us to undeath.  And now they are minions of the Scourge!$B$BServe the Forsaken by defeating the Agamands who fell to the Plague.  Serve me by bringing me their remains.",
+   "flags": 8,
+   "level": 11,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381472,
+     "objectId": 2829,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381473,
+     "objectId": 2828,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381474,
+     "objectId": 2830,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Gregor's Remains, Nissa's Remains and Thurman's Remains to Coleman Farthing in Brill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 400,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Deaths in the Family",
+   "zoneAreaId": 85
+  },
+  "355": {
+   "description": "You have given me the remains of the Agamands, and satisfied my desire for revenge.  But the Agamand Mills hold a threat to all the Forsaken, not just to me.$B$BI have spoken to Magistrate Sevren of your exploits against the Agamands, and he wishes to speak with you.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "nextQuestId": 408,
+   "objectivesText": "Speak with Magistrate Sevren in Brill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 1
+     }
+    ],
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Speak with Sevren",
+   "zoneAreaId": 85
+  },
+  "356": {
+   "description": "The defenders on The Bulwark protecting Tirisfal from the Plaguelands are on constant alert. But sometimes Scourge will slip past them.$B$BOur success at the Bulwark depends on a one-front battle - we cannot allow an attack from the rear, nor can we allow our defenders' supply line to be cut.$B$BAssist the Bulwark. Patrol east and slay any Scourge you find. Spend particular effort at the Balnir Farmstead to the east. It has become a haven for interloping Scourge.",
+   "flags": 8,
+   "level": 11,
+   "minLevel": 6,
+   "nextQuestId": 99156,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380054,
+     "objectId": 1529,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 8,
+     "id": 380055,
+     "objectId": 1532,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill 8 Bleeding Horrors and 8 Wandering Spirits, then report back to Linnea at her camp.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 300,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Rear Guard Patrol",
+   "zoneAreaId": 85
+  },
+  "357": {
+   "description": "There is a lich who dwells on the island in Brightwater Lake to the north.  Although he is a free-willed Forsaken, he believes all other Undead are Scourge slaves and has his minions attack anyone who approaches him.$B$BBut because he is Forsaken, the Queen will want him.  And if he is skilled in Necromancy, then his knowledge would be...quite useful to us.$B$BTo discover his identity and his talents, I must see his spellbook.  Steal into his camp and acquire it, then return to me.",
+   "flags": 8,
+   "level": 8,
+   "minLevel": 5,
+   "nextQuestId": 366,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380173,
+     "objectId": 2833,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Lich's Spellbook to Bethor Iceshard in the Undercity.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 175,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Lich's Identity",
+   "zoneAreaId": 1497
+  },
+  "358": {
+   "description": "The Mass Graves, southwest of Garren's Haunt to the north, were made to accommodate the...impressive...number of deaths Tirisfal suffered when the Plague first came.  $B$BThe bodies in these graves have so far been spared an undeath, but the Scourge now send Rot Hide Gnolls to gather the corpses and use them to bolster their armies.  This cannot be allowed!$B$BYour task is twofold: slay the Rot Hides at the Mass Grave and Garren's Haunt, and gather from them the Embalming Ichor that gives them life.",
+   "flags": 8,
+   "level": 8,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380273,
+     "objectId": 1941,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 5,
+     "id": 380274,
+     "objectId": 1675,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 8,
+     "id": 380275,
+     "objectId": 2834,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Kill Rot Hide Graverobbers and Rot Hide Mongrels.  $B$BBring 8 Embalming Ichors to Magistrate Sevren in Brill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6063
+     },
+     {
+      "count": 1,
+      "itemId": 3439
+     }
+    ],
+    "money": 225,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Graverobbers",
+   "zoneAreaId": 85
+  },
+  "359": {
+   "description": "I need a fresh report from our Deathguard waystation to the east.$B$BI must know if more Scourge forces have slipped past The Bulwark and into Tirisfal.  Our vigilance on the border to the Plaguelands must be maintained - we can't let the Scourge get a stronger foothold here!$B$BTravel south along the road, then east at the fork to the waystation.  Speak with Deathguard Linnea.  She has the information I need.",
+   "flags": 8,
+   "level": 9,
+   "minLevel": 6,
+   "nextQuestId": 360,
+   "objectivesText": "Speak with Deathguard Linnea.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Forsaken Duties",
+   "zoneAreaId": 85
+  },
+  "360": {
+   "description": "Now return to Magistrate Sevren with the information I gave you.  He'll want it as soon as possible, so be swift.$B$BAnd if you see any Scourge on your way back, take them down - we can't let them wander our lands unchallenged.",
+   "flags": 8,
+   "level": 9,
+   "minLevel": 6,
+   "objectivesText": "Return to Magistrate Sevren in Brill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 150,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Return to the Magistrate",
+   "zoneAreaId": 85
+  },
+  "362": {
+   "description": "Devlin Agamand was the younger of two sons in the Agamand family, and in life the two could not be more different.  Thurman was tall and gentle while his younger brother was weak and sharp tongued.$B$BWhen Agamand Mills fell to the Plague, I was not surprised to hear that Devlin was quick to succumb.  His mad chattering can still be heard near the road leading to the Agamand Mills.$B$BI'm collecting the remains of the Agamands, and I want poor Devlin.  Find him, destroy him, and bring me his bones.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381265,
+     "objectId": 2831,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Slay Devlin Agamand, and bring Devlin's Remains to Coleman Farthing in Brill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Haunted Mills",
+   "zoneAreaId": 85
+  },
+  "365": {
+   "description": "What have we here?  You look like a fledgling $c.  If you hope to prove yourself to The Dark Lady, you need to learn the ways of The Forsaken.$b$bTo the west you'll find a farm.  Humans infest the land like mold on a rotting corpse.  And worse yet, the Scarlet Crusade patrols nearby from their tower.  Teach those scum a lesson and steal 10 of their precious pumpkins.$b$bOnce you have 10, take them to Apothecary Johaan in Brill.",
+   "flags": 8,
+   "level": 7,
+   "minLevel": 4,
+   "nextQuestId": 407,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 380354,
+     "objectId": 2846,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Steal 10 pumpkins from the farm to the west, just north of Deathknell and take them to Apothecary Johaan in Brill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 175,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Fields of Grief",
+   "zoneAreaId": 85
+  },
+  "366": {
+   "description": "Long ago Gunther and I, along with the now Scourge Necromancer Thule Ravenclaw, were friends and students within the Kirin Tor - a society of mages in Dalaran.$B$BGunther and I both fell to the Plague, but I thought he either remained dead, or was raised into the ranks of the Lich King.  It is good to know he is free.$B$BWe must have him.  I have placed a spell on his book that, when he sees it, will show him that I too am free of the Lich King.  After knowing this, it is my hope that he will join us.",
+   "flags": 0,
+   "level": 8,
+   "minLevel": 5,
+   "nextQuestId": 409,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380363,
+     "objectId": 3016,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Return Gunther's Spellbook to him, on the island of Gunther's Retreat.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 3016,
+   "title": "Return the Book",
+   "zoneAreaId": 85
+  },
+  "368": {
+   "description": "While you were collecting samples for me, my experiments led me to realize that more reagents will be required for this new disease to spread properly. Poisoning some hapless victim is child's play. Plaguing an entire world proves to be a bit more complicated.$b$bI will need 5 Vile Fin Scales from Murlocs in the vicinity.  You will find the creatures along the coast to the north or to the west.",
+   "flags": 8,
+   "level": 9,
+   "minLevel": 6,
+   "nextQuestId": 369,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 381005,
+     "objectId": 2859,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Apothecary Johaan of the town of Brill needs 5 Vile Fin Scales from Murlocs in Tirisfal Glades.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 5,
+      "itemId": 3434
+     }
+    ],
+    "money": 300,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "A New Plague",
+   "zoneAreaId": 85
+  },
+  "369": {
+   "description": "While you were out gathering, I uncovered some old text in one of my tomes that indicates that an ancient plague wiped out thousands of innocent victims.  Later it was discovered that the deadly agent in the plague was preserved through the venom of Night Web Spiders.$b$bBring me some venom from a Vicious Night Web Spider to complete this experiment.  I want to see if the contagious element from the venom will work with my new concoction.  Rumor has it the spiders can be found in Eastern Tirisfal Glades.",
+   "flags": 8,
+   "level": 11,
+   "minLevel": 6,
+   "nextQuestId": 492,
+   "objectives": [
+    {
+     "amount": 4,
+     "id": 380181,
+     "objectId": 2872,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Apothecary Johaan in the town of Brill wants you to bring him 4 samples of venom from a Vicious Night Web Spider.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 3442
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "A New Plague",
+   "zoneAreaId": 85
+  },
+  "370": {
+   "description": "The strategic documents from Executor Arren contain all the details we need to wipe the human infestation from the lands.  According to the information, The Scarlet Crusade has assigned Captain Perrine and a brigade to the ruined tower southwest of Brill.$b$bKill Perrine along with 3 Zealots and 3 Missionaries and report back to me.",
+   "flags": 8,
+   "level": 9,
+   "minLevel": 5,
+   "nextQuestId": 371,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381100,
+     "objectId": 1662,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 3,
+     "id": 381101,
+     "objectId": 1537,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 3,
+     "id": 381102,
+     "objectId": 1536,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Executor Zygand in Brill wants you to kill Captain Perrine, 3 Scarlet Zealots and 3 Scarlet Missionaries.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 300,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "At War With The Scarlet Crusade",
+   "zoneAreaId": 85
+  },
+  "374": {
+   "description": "Executor Zygand tells me you've been out killing Scarlet Crusaders. Tirisfal Glades is crawling with them.$b$bVarimathras, lieutenant to The Dark Lady, is seeing to it personally that the scum of Azeroth, the Human race, gets wiped into oblivion. Here in Tirisfal Glades we face a particularly annoying breed of humans: The Scarlet Crusade.$b$bVenture forth and wage an offensive on the Scarlet Crusade, $c. Bring me back 10 Scarlet Insignia Rings as proof of your loyalty to Varimathras and The Dark Lady.",
+   "flags": 8,
+   "level": 7,
+   "minLevel": 5,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 380172,
+     "objectId": 2875,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 10 Scarlet Insignia Rings to Deathguard Burgess in Brill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 3435
+     },
+     {
+      "count": 1,
+      "itemId": 3437
+     },
+     {
+      "count": 1,
+      "itemId": 12299
+     }
+    ],
+    "money": 175,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Proof of Demise",
+   "zoneAreaId": 85
+  },
+  "375": {
+   "description": "It's so cold, now.  The Plague of Undeath crawls through my veins like an icy serpent.  The Mindless State will be upon me soon.  But no doomed destiny will prevent me from serving our Dark Lady.  When the call arose I sewed body bags for the fallen soldiers of Sylvanas's mighty army.$b$bNow my hands shake from the chill.  If you would bring me five Duskbat Pelts and some Coarse Thread I could sew myself a blanket.  Help me, $n, so that I can continue to serve the cause.",
+   "flags": 8,
+   "level": 8,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 381270,
+     "objectId": 2876,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381271,
+     "objectId": 2320,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring five Duskbat Pelts and some Coarse Thread to Gretchen Dedmar in Brill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 3833
+     },
+     {
+      "count": 1,
+      "itemId": 5939
+     }
+    ],
+    "money": 225,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Chill of Death",
+   "zoneAreaId": 85
+  },
+  "398": {
+   "description": "Wanted: Maggot Eye!$b$bA foul beast, even by Gnoll standards, Maggot Eye has been sentenced to death for his crimes against The Forsaken.  This despicable villain has been stealing corpses for use by the Lich King's army.  Maggot Eye was last seen pillaging the lands near Garren's Haunt to the north of Brill.$b$bThe town of Brill hereby offers a reward to the capable soul who can carry out the execution.  Show Executor Zygand the villain's paw once the deed is done.$b$bMercy is for the weak.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 6,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380308,
+     "objectId": 3635,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Kill Maggot Eye and return to Executor Zygand in Brill with his paw for a reward.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 5941
+     },
+     {
+      "count": 1,
+      "itemId": 3444
+     }
+    ],
+    "money": 350,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "WANTED: Maggot Eye",
+   "zoneAreaId": 85
+  },
+  "405": {
+   "description": "Bethor Iceshard, a high-ranking and powerful mage in the Undercity to the south, commands me to send him an agent with proven worth against the Scourge.  You, $n, will be that agent.$B$BPresent these orders to Bethor.  He will then instruct you on your mission.  I don't know its details, but it deals with recruiting a wayward Lich.  And it will be dangerous.$B$BSo ready yourself, $C.  You must not fail.$B$BYou may find Bethor in the Magic Quarter of the Undercity.",
+   "flags": 0,
+   "level": 8,
+   "minLevel": 5,
+   "nextQuestId": 357,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380269,
+     "objectId": 3017,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Present Sevren's Orders to Bethor Iceshard in the Undercity.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 3017,
+   "title": "The Prodigal Lich",
+   "zoneAreaId": 85
+  },
+  "407": {
+   "description": "Harmless pumpkins, right?  Or so it would seem.  If we are to defeat Arthas's advances from the North and the Human infestation from the South we need to start realizing the full potential of our gift of undeath.$b$bWith a little ingenuity a simple pumpkin becomes an agent for our Dark Lady.  This pumpkin, laced with my latest formula, will prove to be quite a treat.$b$bYet another Scarlet Zealot has been captured and is being kept in the cellar of the Gallow's End Tavern.  Take this pumpkin to the fool.",
+   "flags": 0,
+   "level": 7,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380343,
+     "objectId": 3035,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Take the Laced Pumpkin to the Captured Scarlet Zealot who is being held in the cellar of the Gallow's End Tavern.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 3035,
+   "title": "Fields of Grief",
+   "zoneAreaId": 85
+  },
+  "408": {
+   "description": "The Agamand Mills area has become a foothold for the Scourge.  Their strongest point is the Agamand Family Crypt where their local military leader, a skeleton named Captain Dargol, has headquartered.  With Necromancy he has raised the ancestors of the Agamands and plans to use them against us.$B$BThis cannot pass, and you must stop it.  Travel to the Agamand Family Crypt and defeat the raised Agamand ancestors.$B$BAnd, bring me the skull of Captain Dargol.",
+   "flags": 8,
+   "level": 13,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380398,
+     "objectId": 1534,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 8,
+     "id": 380399,
+     "objectId": 1530,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 380400,
+     "objectId": 3082,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Kill 8 Wailing Ancestors and 8 Rotting Ancestors.$B$BKill Captain Dargol, and bring his skull to Magistrate Sevren in Brill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 3446
+     },
+     {
+      "count": 1,
+      "itemId": 3440
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Family Crypt",
+   "zoneAreaId": 85
+  },
+  "409": {
+   "description": "You say you are not bound by the will of the Lich King, and the enchantment Bethor placed upon my book corroborates this.  But before I believe you I must have proof that you are enemy to the Scourge.$B$BThere is an old, bloody altar just off the southern coast of this island.  it is used by a powerful Scourge agent, Lillith Nefara.$B$BTake a Candle of Beckoning from this crate here.  Light it on the altar and Lillith will awake.  Destroy Lillith, and I will believe you are the Lich King's foe.",
+   "flags": 0,
+   "level": 12,
+   "minLevel": 5,
+   "nextQuestId": 411,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381099,
+     "objectId": 1946,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Obtain a Candle of Beckoning.$B$BSummon Lillith Nefara and kill her.$B$BReturn to Gunther on his island.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Proving Allegiance",
+   "zoneAreaId": 85
+  },
+  "410": {
+   "flags": 8,
+   "level": 10,
+   "minLevel": 5,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380401,
+     "objectId": 3080,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "questType": 0,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Dormant Shade",
+   "zoneAreaId": 85
+  },
+  "411": {
+   "description": "Take this Nether Gem to my old comrade Bethor.  It will let us communicate ... and I have much to tell him.",
+   "flags": 0,
+   "level": 12,
+   "minLevel": 5,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380441,
+     "objectId": 3081,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Nether Gem to Bethor Iceshard in the Undercity.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 5940
+     }
+    ],
+    "money": 500,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 3081,
+   "title": "The Prodigal Lich Returns",
+   "zoneAreaId": 85
+  },
+  "426": {
+   "description": "The Scourge are trying to form a base at the Agamand Mills.  If they do, then they can stage further attacks within Tirisfal.$B$BThe orders have been given.  The Scourge in the Mills must be destroyed.$B$BGo to the Mills.  Collect Notched Ribs from Rattlecage and Cracked Skull Soldiers, and Blackened Skulls from Darkeye Bonecasters.$B$BTo get to the Mills, follow the road west.  After crossing the bridge, take the next fork north then keep going north.  When you see windmills, the battle will begin.",
+   "flags": 8,
+   "level": 8,
+   "minLevel": 6,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 380288,
+     "objectId": 3162,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 3,
+     "id": 380289,
+     "objectId": 3163,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Gather 5 Notched Ribs and 3 Blackened Skulls, then return to Deathguard Dillinger in Brill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 3447
+     },
+     {
+      "count": 1,
+      "itemId": 3834
+     }
+    ],
+    "money": 450,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Mills Overrun",
+   "zoneAreaId": 85
+  },
+  "427": {
+   "description": "The documents Executor Arren provided are just the break we needed in our battle with the wretched Scarlet Crusade.  We now know their exact locations throughout Tirisfal Glades.$b$bBut the Deathguard has larger concerns.  The Lich King's army grows in number each night.  We need someone with \"initiative\" like yourself to drive the Scarlet Crusade to the grave.$b$bProve to me you are capable of serving The Dark Lady by travelling west to the tower past the Solliden Farmstead and slay 10 Scarlet Warriors.",
+   "flags": 8,
+   "level": 8,
+   "minLevel": 5,
+   "nextQuestId": 370,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 381207,
+     "objectId": 1535,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Executor Zygand of Brill wants you to kill 10 Scarlet Warriors.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 225,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "At War With The Scarlet Crusade",
+   "zoneAreaId": 85
+  },
+  "431": {
+   "flags": 8,
+   "level": 10,
+   "minLevel": 5,
+   "questType": 0,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 3080
+     }
+    ],
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Candles of Beckoning",
+   "zoneAreaId": 85
+  },
+  "445": {
+   "description": "Time is a luxury that is not afforded to those of us under the employ of Lady Sylvanas.  Surely you know this by now.$b$bAs a member of the Royal Apothecary Society it is my duty to share my knowledge with my colleagues so that our collective efforts might one day provide The Dark Lady with the New Plague she so badly desires.$b$bTake these findings to Apothecary Renferrel who is stationed at The Sepulcher in Silverpine Forest.  Follow the roads to the south from Brill.  From the Undercity go southwest.",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380327,
+     "objectId": 3238,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Take Apothecary Johaan's findings to Apothecary Renferrel in Silverpine Forest.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 250,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 3238,
+   "title": "Delivery to Silverpine Forest",
+   "zoneAreaId": 85
+  },
+  "853": {
+   "description": "I have rendered the spores you gave me into an emulsion.  I must now send it to my associate, Apothecary Zamah.  If you were to carry this to her, she can offer you something from our stores of alchemical goods.$B$BShe is in the Pools of Vision, a cave beneath the shamans of Thunder Bluff.  The path to this cave is well hidden, but you may find it on the Spirit Rise bluff.$B$BDo hurry.  This emulsion will maintain its potency for only a short time, and must be resealed and processed before then.",
+   "flags": 0,
+   "level": 15,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380775,
+     "objectId": 5027,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Rendered Spores to Apothecary Zamah in Thunder Bluff, before the time limit is up.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 4,
+      "itemId": 2458
+     },
+     {
+      "count": 4,
+      "itemId": 2457
+     },
+     {
+      "count": 3,
+      "itemId": 2456
+     },
+     {
+      "count": 2,
+      "itemId": 2459
+     }
+    ],
+    "items": [
+     {
+      "count": 1,
+      "itemId": 5340
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 5027,
+   "timeLimitSeconds": 2700,
+   "title": "Apothecary Zamah",
+   "zoneAreaId": 17
+  },
+  "899": {
+   "description": "Perhaps you know the pain of uncertainty, perhaps not, $c. But know this: I stand here every day, from the sun's rising till its decline, scouring the horizon for more of those monsters. I've killed every pig man I've come across since, but my thirst for their blood is far from quenched. Perhaps instead of heading north to the Crossroads I should have headed to Taurajo.$B$BYou, $c--you  could help me.$B$BKill them. Kill as many as you can. Bring me their tusks, and we will celebrate their deaths together.",
+   "flags": 8,
+   "level": 20,
+   "minLevel": 14,
+   "objectives": [
+    {
+     "amount": 60,
+     "id": 380760,
+     "objectId": 5085,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 60 Bristleback Quilboar Tusks to Mankrik at the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 5314
+     },
+     {
+      "count": 1,
+      "itemId": 6477
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Consumed by Hatred",
+   "zoneAreaId": 17
+  },
+  "1062": {
+   "description": "The goblin-run Venture Company moved into the Stonetalon Mountains, chopping down trees and burning huge stretches of forest.  The spirits of this place are nearly blind with pain and rage.  We must stop the Venture Company!$B$BHead northwest, beyond the Greatwood Vale and into the Windshear Crag.  You will find the goblins and their servants at work -- show them the Horde will not allow the exploitation of Stonetalon.  Show them in the language they best understand...$B$BViolence.",
+   "flags": 8,
+   "level": 19,
+   "minLevel": 13,
+   "objectives": [
+    {
+     "amount": 15,
+     "id": 381167,
+     "objectId": 3989,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill 15 Venture Co. Loggers, then return to Seereth Stonebreak on the border of Stonetalon and the Barrens.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1100,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Goblin Invaders",
+   "zoneAreaId": 406
+  },
+  "1108": {
+   "description": "I'm not out here just to stay away from people.  There is a wealth of metal in the Badlands, $n, if you have the guts to get it.$B$BThe metal's called indurium and as luck would have it, it is rumored to possess high resistance to heat and stress.  It might work for Fizzle's car.$B$BBut let's make sure.  Get me samples of indurium and I'll test its properties.$B$BTrue indurium ore lies deep in Uldaman, but the Stonevault troggs of the Badlands sometimes have flakes of it on them.  Bring me those flakes.",
+   "flags": 8,
+   "level": 39,
+   "minLevel": 28,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 380881,
+     "objectId": 5797,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 10 Indurium Flakes to Martek the Exiled in the Badlands.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Indurium",
+   "zoneAreaId": 400
+  },
+  "1160": {
+   "description": "I will tell you what you must seek, and I will even ask you my question, but not because you wish to prove yourself. Knowledge is far more important than strength. Even as others seem to pass you by in ability, your knowledge of the world will be more valuable.$B$BGo to the Monastery in the north of Tirisfal Glades. In the library there, a book called Beginnings of the Undead Threat resides. It was used by the now-corrupt paladins there to train them to fight my kind.$B$BBring it to me.",
+   "flags": 8,
+   "level": 36,
+   "minLevel": 26,
+   "nextQuestId": 6628,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381518,
+     "objectId": 5861,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Find The Beginnings of the Undead Threat, and return it to Parqual Fintallas in Undercity.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 2.375
+   },
+   "sources": 1,
+   "title": "Test of Lore",
+   "zoneAreaId": 796
+  },
+  "1471": {
+   "categoryId": 61,
+   "description": "Surely you have seen the circle of summoning below us? Only there will you be able to draw forth an unbound voidwalker.$b$bUsing these runes, you will be able to draw it forth, and then you must dominate it through strength of arms and magic.$b$bWhen it is subdued, it will be indentured to you. Come to me then, and I will elucidate the spell of summoning, so that it may serve you to whatever end you wish.",
+   "flags": 2097152,
+   "level": 10,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381366,
+     "objectId": 5676,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 381367,
+     "objectId": 6284,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Using the Runes of Summoning, summon and subdue a voidwalker, then return the Runes of Summoning to Carendin Halgar in the Magic Quarter of the Undercity.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 697,
+      "type": 3
+     }
+    ],
+    "spellId": 11520,
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 6284,
+   "title": "The Binding"
+  },
+  "1473": {
+   "categoryId": 61,
+   "description": "It seems the consensus that you are ready to learn to summon a voidwalker.$b$bA being created of the chaos that lies beyond, if you summon one but cannot control it, you will be torn asunder.$b$bThe first voidwalker was summoned by Egalin, and in his grimoire is the process explained.$b$bUnfortunately, it was stolen from us by an agent of the Scarlet Crusade who has it secreted away in his base at a tower to the west. Bring it to me, and I will impart the knowledge to you.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 10,
+   "nextQuestId": 1471,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381612,
+     "objectId": 6285,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Recover Egalin's Grimoire and bring it to Carendin Halgar in the Temple of the Damned.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Creature of the Void"
+  },
+  "1478": {
+   "categoryId": 61,
+   "description": "Ah, $n! I just received word from Carendin Halgar that he would like to see you for further training.$b$bYou should be proud of yourself, $n. It's not every day that Master Halgar personally sees fit to instruct a young warlock.$b$bYou'll be able to find him in the Magic Quarter of the Undercity, near the Temple of the Damned.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 10,
+   "nextQuestId": 1473,
+   "objectivesText": "Speak with Carendin Halgar in the Undercity.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Halgar's Summons"
+  },
+  "4921": {
+   "description": "We battled in a small tauren camp when we were separated--she held three of the Bristlebacks off by herself. But the odds began to overwhelm us. I led some away only to see her overwhelmed by newcomers. In my rage, I turned to face my enemies, but they brought me down easily with their vast numbers.$B$BI awoke to a tauren druid tending my wounds--he had come across me on the Gold Road as I fell.$B$BPlease, $c, find some sign of my wife.",
+   "flags": 8,
+   "level": 20,
+   "minLevel": 14,
+   "nextQuestId": 95774,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 382932,
+     "objectId": 10668,
+     "storageIndex": 0,
+     "text": "Find Mankrik's Wife",
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Find Mankrik's wife and then return to him in the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 900,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Lost in Battle",
+   "zoneAreaId": 17
+  },
+  "5482": {
+   "description": "So you can see the predicament that I'm in, $n. That thing is out there collecting the wrong weeds! I'll make it worth your while to gather what I need. Bring back to me enough doom weed and I'll give you a suitable reward.$B$BIt is my understanding that they like to plague the flora near the mass gravesite, to the north of the Brill graveyard. Hurry and be mindful of the gnolls in the area.",
+   "flags": 8,
+   "level": 6,
+   "minLevel": 5,
+   "nextQuestId": 5482,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 381387,
+     "objectId": 13702,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Collect 10 Doom Weed and deliver them back to Junior Apothecary Holland.\r\n",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 125,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Doom Weed",
+   "zoneAreaId": 85
+  },
+  "6548": {
+   "description": "The Grimtotem Clan raided my village and killed most everyone. I killed all I could, but barely escaped with my life.$b$b$n, all I wish now is that more of them are dead. You will find them just to the west of here.\r\n\r\n",
+   "flags": 8,
+   "level": 18,
+   "minLevel": 12,
+   "nextQuestId": 6629,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 383734,
+     "objectId": 11910,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 6,
+     "id": 383735,
+     "objectId": 11911,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill 8 Grimtotem Ruffians and 6 Grimtotem Mercenaries, and then return to Makaba Flathoof near the southeastern edge of Stonetalon.\r\n",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1000,
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Avenge My Village",
+   "zoneAreaId": 406
+  },
+  "95314": {
+   "description": "Before the Scourge invasion, the reclusive village of Shadowvale was known for its Whispering Elixir. Distilled from herbs found only in Tyr's Fall, the elixir was sought by apothecaries, mystics, and poisoners alike even after being banned in the city.\r\n\r\nI've had requests from a number of buyers eager to get their hands on some elixir. Travel to the ruins of Shadowvale deep in the Whispering Forest to the west. I'm prepared to offer significant compensation if you can recover some bottles for me.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 470252,
+     "objectId": 268801,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Collect $1oa Bottles of Whispering Elixir from Shadowvale, then return to Carolai Anise in Brill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 350,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "That Shadowvale Green Elixir",
+   "zoneAreaId": 85
+  },
+  "96607": {
+   "categoryId": 666,
+   "description": "Greetings, $c. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless souls, seeking fortune and glory.\r\n\r\nYou'll need to learn to thrive in the wilds to be successful in this line of work. Not sure how your outdoor skills are but I can probably teach you a thing or two, if you'd be apt to learn.\r\n\r\nHave a seat near the fire and get comfortable. I'll walk you through it.",
+   "flags": 8,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473701,
+     "objectId": 227693,
+     "storageIndex": 2,
+     "text": "Sit near the campfire",
+     "type": "criteriaTree",
+     "typeId": 14
+    },
+    {
+     "amount": 1,
+     "id": 473702,
+     "objectId": 227696,
+     "storageIndex": 3,
+     "text": "Gain the Boosted Rest buff",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Sit near Eleanor's Basic Campfire and wait until you receive the Boosted Rest buff.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Great Outdoors"
+  },
+  "96895": {
+   "description": "Not sure if you heard, but two emissaries of the Argent Dawn just passed through here. I don't mind the Argent Dawn, but I don't like them poking around Tirisfal unsupervised either. They were both Forsaken... but that doesn't make me any less nervous.\r\n\r\nOne of them just passed by here, headed southeast. There's a group of scourge cultists snooping around the outskirts of the city in that direction. If those two heard about them, there's no doubt that would have caught their attention.",
+   "flags": 536870920,
+   "level": 12,
+   "minLevel": 10,
+   "objectivesText": "Find the Argent Dawn member near the entrance to the Undercity.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "money": 250,
+    "reputation": [
+     {
+      "factionId": 529,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Argent Emissary",
+   "zoneAreaId": 85
+  },
+  "96897": {
+   "description": "The Scourge are a blight on our lands, and their living servants are the worst of them. The people of Tirisfal have enough to deal with between the mindless dead and the Scarlet Crusade. If you wish to do some good, help me put an end to this scum.",
+   "flags": 536870920,
+   "level": 12,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 474506,
+     "objectId": 267006,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 8,
+     "id": 474507,
+     "objectId": 275437,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill $1oa Dark Neophytes and $2oa Dark Enforcers in Tirisfal Glades.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 529,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Cult of the Damned",
+   "zoneAreaId": 85
+  },
+  "96898": {
+   "description": "It wasn't long ago that the citadel of Naxxramas bore down upon this city, intent on wiping the Forsaken off the map. Both the Forsaken and the Argent Dawn lost much that day to secure the future of the Forsaken.\r\n\r\nDuring the battle, the great necrotic focusing crystal hanging beneath Naxxramas was shattered and its fragments were scattered all over this area. I suspect that is what the cultists are here for. Help me recover the fragments and deprive the Scourge of them.",
+   "flags": 536870920,
+   "level": 12,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 12,
+     "id": 474508,
+     "objectId": 275851,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Gather $1oa Necrotic Crystal Fragments in Tirisfal Glades.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 529,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Remnants of War",
+   "zoneAreaId": 85
+  },
+  "97558": {
+   "description": "One part of undeath no one mentions is what happens when we are injured. How does the skin of an undead heal itself?\r\n\r\nWell, it doesn't.\r\n\r\nOurs is a cursed life, $n. We must take from the living to further our own existence.\r\n\r\nWhen we sustain an injury, we must replace our skin which usually means animal hides. Since different hide thicknesses are better for different places on our bodies a variety is key!\r\n\r\nBring me wing membranes of a duskbat, hides from a darkhound and skin of a Vile Fin murloc.",
+   "flags": 8,
+   "level": 11,
+   "minLevel": 6,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 476113,
+     "objectId": 278242,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 6,
+     "id": 476114,
+     "objectId": 278243,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 3,
+     "id": 476115,
+     "objectId": 278244,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Shelene Rhobart $1oa Duskbat Wing Membranes, $2oa Darkhound Hides and $3oa Vile Fin Murloc Skin.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 281283
+     },
+     {
+      "count": 1,
+      "itemId": 281284
+     },
+     {
+      "count": 1,
+      "itemId": 281285
+     }
+    ],
+    "money": 300,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Hides for the Forsaken",
+   "zoneAreaId": 85
+  },
+  "99142": {
+   "description": "If you're heading east, towards the Balnir Farmstead, I have more you might do for me. Good help is ever so hard to find these days, as your run-in with Gordo illuminates ever so clearly.\r\n\r\nAs I acquire doom weed I perform some minor alchemical alterations and replant them on that farmstead to cultivate my ultimate creation. I call it tomb weed, and it shall be the herald of my glorious destiny.\r\n\r\nDo keep an eye on the Scourge in the area while you're there. They seem... drawn... to the weed. Curious.",
+   "flags": 36700168,
+   "level": 11,
+   "minLevel": 5,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 479437,
+     "objectId": 286204,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Collect $1oa Tomb Weed and deliver them back to Junior Apothecary Holland.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Tomb Weed",
+   "zoneAreaId": 85
+  },
+  "99156": {
+   "description": "Damn it all! A new report came in while you were on patrol. There has been a sighting of a rogue abomination wandering Eastern Tirisfal Glades, near Venomweb Vale.\r\n\r\nSomething is wrong. Abominations don't just slip through the Bulwark unnoticed.\r\n\r\nKeep this matter on a strictly need-to-know basis. That said, such a creature will not fall easily; you will need allies if you wish to be more than its next meal.\r\n\r\nSee this through, and you will be duly rewarded. Bring me its heart as proof of the deed.",
+   "flags": 36700168,
+   "level": 13,
+   "minLevel": 6,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 479477,
+     "objectId": 286326,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Riptear's Heart to Deathguard Linnea.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 286742
+     },
+     {
+      "count": 1,
+      "itemId": 286743
+     },
+     {
+      "count": 1,
+      "itemId": 286744
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Rear Guard Patrol",
+   "zoneAreaId": 85
+  }
+ }
+}
