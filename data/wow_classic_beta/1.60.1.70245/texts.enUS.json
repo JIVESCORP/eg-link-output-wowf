@@ -198,12 +198,12 @@
      296783
     ],
     "sexes": {
-     "female": 4
+     "female": 5
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "The Dark Lady has put the challenge forth. Now it is up to the Royal Apothecary Society to develop a new plague. We shall bring Arthas and his wretched army to their knees.",
-    "times": 4
+    "times": 5
    }
   ],
   "npc:2127": [
@@ -302,6 +302,30 @@
     "template": "broadcastText",
     "text": "The Wind Spirits have left us. \r\n\r\nNow, only mindless echoes remain. Be wary, however. These winds are neither kind, nor gentle.",
     "times": 2
+   }
+  ],
+  "npc:250686": [
+   {
+    "broadcastTextIds": [
+     299234
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Praise to the Banshee Queen, it isn't often I have visitors out here.",
+    "times": 1
+   }
+  ],
+  "npc:250929": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "<As you approach the enormous cyclone construct, you hear a faint buzzing emanating from beneath its massive armor plates. If you listen carefully, you think you might be able to hear a few words being formed but they are too distorted to make out.>",
+    "times": 1
    }
   ],
   "npc:251361": [
@@ -712,12 +736,12 @@
      302811
     ],
     "sexes": {
-     "male": 1
+     "male": 12
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "The hunters and rangers of Zephras have never been more needed. The winds grow ever harsher, and the magic that sustains our island is fading. The wilds have never been more wild, and people like me are needed to keep our people safe.\r\n\r\nIf you have the proper aptitude as a hunter, I can give you the tools to survive the wilds.",
-    "times": 1
+    "times": 12
    }
   ],
   "npc:252392": [
@@ -754,12 +778,12 @@
      302079
     ],
     "sexes": {
-     "male": 4
+     "male": 5
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "Greetings, I am Elaadrin Evengale, the current Supreme Magister of the High Order. How can I help you?",
-    "times": 4
+    "times": 5
    }
   ],
   "npc:252476": [
@@ -773,6 +797,26 @@
     "sources": 1,
     "template": "broadcastText",
     "text": "Welcome to Valanaar, $c.",
+    "times": 1
+   }
+  ],
+  "npc:252800": [
+   {
+    "sexes": {
+     "male": 13
+    },
+    "sources": 1,
+    "text": "The Windfield Orchard has seen better days...",
+    "times": 13
+   }
+  ],
+  "npc:253002": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "<The Skyborne lying before you is unconscious.>",
     "times": 1
    }
   ],
@@ -811,6 +855,32 @@
     "sources": 1,
     "template": "broadcastText",
     "text": "Winds tidings. What can I help you with?",
+    "times": 1
+   }
+  ],
+  "npc:253474": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "What are you looking for, citizen?",
+    "times": 1
+   },
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Which class trainer are you looking for?",
+    "times": 1
+   },
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "You'll want to head over to the Hall of Arms on the north side of Valanaar.",
     "times": 1
    }
   ],
@@ -918,12 +988,12 @@
      8406
     ],
     "sexes": {
-     "male": 1
+     "male": 3
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "You've come for training in order to pass it on to your pets?",
-    "times": 1
+    "times": 3
    }
   ],
   "npc:256930": [
@@ -1482,12 +1552,12 @@
      8095
     ],
     "sexes": {
-     "female": 2
+     "female": 3
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "How may I be of service?",
-    "times": 2
+    "times": 3
    }
   ],
   "npc:4556": [
@@ -1502,6 +1572,20 @@
     "template": "broadcastText",
     "text": "Greetings, and welcome.  I am not very good at smiling, but trust me; I am happy to serve you.",
     "times": 2
+   }
+  ],
+  "npc:4565": [
+   {
+    "broadcastTextIds": [
+     8296
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "It is wise that you humble yourself before me $n in your desire for more warlock knowledge.",
+    "times": 1
    }
   ],
   "npc:5624": [
@@ -1576,18 +1660,32 @@
     "times": 1
    }
   ],
-  "npc:6739": [
+  "npc:6497": [
    {
     "broadcastTextIds": [
-     2824
+     2588
     ],
     "sexes": {
      "female": 1
     },
     "sources": 1,
     "template": "broadcastText",
-    "text": "Rest your weary bones for a spell.",
+    "text": "What do you want, $c? I'm running late, and my employer doesn't look kindly on tardiness.",
     "times": 1
+   }
+  ],
+  "npc:6739": [
+   {
+    "broadcastTextIds": [
+     2824
+    ],
+    "sexes": {
+     "female": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Rest your weary bones for a spell.",
+    "times": 2
    }
   ],
   "npc:6741": [
@@ -1631,9 +1729,40 @@
     "text": "My brother said we could make great money with this trade route, but he didn't tell me I would be the one living on this side. If you come back this way on the Zeppelin, could you bring me something to eat? They sell some of the finest meat in Orgrimmar, and I sure could use something that didn't die weeks before it stopped moving.",
     "times": 1
    }
+  ],
+  "object:581822": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "<A dusty but high-quality satchel lies in the dirt.>",
+    "times": 1
+   }
   ]
  },
- "greeting": {},
+ "greeting": {
+  "npc:1938": [
+   {
+    "sexes": {
+     "female": 2
+    },
+    "sources": 1,
+    "text": "The Kirin Tor did not heed my warnings! The Alliance is a sham. Arugal is a reckless fool.",
+    "times": 2
+   }
+  ],
+  "npc:2121": [
+   {
+    "sexes": {
+     "female": 3
+    },
+    "sources": 1,
+    "text": "Information... With our scouts and agents, we control the flow of information in Lordaeron. Scourge movements, their holdings, all underneath our watchful eyes...",
+    "times": 3
+   }
+  ]
+ },
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70245",
@@ -1663,6 +1792,62 @@
   }
  },
  "quests": {
+  "99": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "template": "questCache",
+     "text": "As my understanding of Arugal's magic grows so does my disdain for the hapless fool.  I am close to completing my research on his so called remedy.$b$bMy knowledge will be complete when I learn what enchantment is causing the strange behavior going on in Pyrewood Village.  By day, the peasants appear to be Human.  But when the sun goes down the townsfolk turn into Moonrage Worgen.$b$bI need to draw energy from the enchanted shackles Arugal cast on them.  Bring to me six enchanted Pyrewood Shackles, $n.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "text": "Your persistence is commendable.  With the knowledge you helped me gather, Arugal will fall and his reckless magic shall be undone.  Cheers to you, $N.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "template": "questCache",
+     "text": "Bring 6 Pyrewood Shackles to Dalar Dawnweaver at the Sepulcher.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "text": "Have you secured the Pyrewood Shackles yet, $N?",
+     "times": 1
+    }
+   ]
+  },
   "356": {
    "complete": [
     {
@@ -1977,6 +2162,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "text": "I hope I can acquire enough energy from such a limited sample.  Perhaps I should have had you get more shackles.\n\nNonetheless, you showed great skill in collecting these, $c.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -1988,6 +2186,131 @@
      },
      "template": "questCache",
      "text": "Bring 6 Glutton Shackles and 3 Darksoul Shackles to Dalar Dawnweaver at the Sepulcher.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "text": "I will need 6 Glutton Shackles and 3 Darksoul Shackles before I can assess the situation and devise a final solution for Arugal.  Now heed your bidding and slay Moonrage Gluttons and Moonrage Darksouls until you have what I need.",
+     "times": 1
+    }
+   ]
+  },
+  "424": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "template": "questCache",
+     "text": "It will indeed take me longer than I had thought to uncover the dark secrets behind the enchantments Arugal was using.$b$bBut in the meantime I need you to take care of a slight problem our Darkstalkers have discovered.  It seems that Arugal let his magic spread to the Deep Elem Mine in the hills to the southeast.$b$bThe mine would prove to be quite a resource for Varimathras's advance.$b$bI want you to behead the tainted foreman of the mine, Grimson the Pale.  With his death, the mine shall be ours.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "text": "Most excellent.  The mine will provide superb resources for our forces as we spread throughout Silverpine and into Azeroth.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "template": "questCache",
+     "text": "Kill Grimson the Pale and bring his head to Dalar Dawnweaver at the Sepulcher.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "text": "Has Grimson the Pale been slain?  Varimathras will not be pleased if we ignore his bidding.",
+     "times": 1
+    }
+   ]
+  },
+  "425": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1950": 1
+     },
+     "template": "questCache",
+     "text": "My brother Quinn and I were tasked to recon Silverpine Forest and report to High Executor Hadrec.  But we didn't get far -- when moving through this farm we were attacked by the ghoul Ivar the Foul.$B$BWe escaped from Ivar, but he seriously mauled Quinn.  He's healing from the potion you gave him, but Ivar may return before Quinn recovers.$B$BKill Ivar so Quinn will have time to heal.  Ivar is usually in the barn yonder, waiting for my guard to drop.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1950": 1
+     },
+     "text": "Ah, thank you.  You have my gratitude, $N.\n\nAnd I will include you in the report I make to my superiors.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1950": 1
+     },
+     "template": "questCache",
+     "text": "Kill Ivar the Foul, and bring Ivar's Head to Rane Yorick at the Ivar Patch.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1950": 1
+     },
+     "text": "Have you killed Ivar the Foul?  If you won't do it for me and my brother, then do it for the Forsaken.",
      "times": 1
     }
    ]
@@ -2500,6 +2823,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1937": 1
+     },
+     "text": "Apothecary Berard's journal!  Why you are quite brave, $N.  Now let's see what Berard was up to before he went mad. . .",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -2511,6 +2847,92 @@
      },
      "template": "questCache",
      "text": "Retrieve Apothecary Berard's journal from Pyrewood Village and take it to Apothecary Renferrel at the Sepulcher.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1937": 1
+     },
+     "text": "I see you are back, $N.",
+     "times": 1
+    }
+   ]
+  },
+  "451": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1937": 1
+     },
+     "template": "questCache",
+     "text": "According to Berard's Journal the moss from Lake Skulkers and Creepers might prove useful for our quest to brew a new plague.  Those beasts dwell on the islands in Lake Lordamere to the east.$b$bHe also mentions a very rare Hardened Tumor that he discovered on a Vile Fin murloc.  Apparently the tumor is so rare Berard was only able to obtain one.$b$bCollect samples of the moss as well as the rare hardened tumor and take them to Master Apothecary Faranell in the Undercity.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1937": 1
+     },
+     "template": "questCache",
+     "text": "Bring 6 samples of Lake Creeper Moss, 6 samples of Lake Skulker Moss and a Hardened Tumor to Master Apothecary Faranell in the Undercity.",
+     "times": 1
+    }
+   ]
+  },
+  "452": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2058": 1
+     },
+     "template": "questCache",
+     "text": "You got here just in the nick of time, $n!$b$bThe Pyrewood Council will be returning any moment.  Arugal has other matters to tend to in the keep.  He uses the Council as mere puppets to keep the mindless minions of Pyrewood under his control.  But I believe that without the guidance of the Pyrewood Council, the sons of Arugal will turn against their master.$b$bI cannot handle them all by myself.  I need you to help me.  Together we can lay waste to the Council for Lady Sylvanas.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2058": 1
+     },
+     "text": "You fought like a true disciple of the Dark Lady, $N.  With the council dead, perhaps we can gain control of this town once and for all and drive Arugal from Shadowfang Keep.  I salute you!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2058": 1
+     },
+     "template": "questCache",
+     "text": "Help Deathstalker Faerleia kill the Pyrewood Council.",
      "times": 1
     }
    ]
@@ -2530,6 +2952,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:1627": 1
+     },
+     "text": "<Prying open the lid of the crate, you find an assortment of carefully-packed objects. On the top of the crate lies a bundle of maps, yellowing with age, that appear to depict Silverpine Forest and other parts of western Lordaeron.\n\nUnderneath the maps is a mysterious-looking magical pendant.>",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -2541,6 +2976,217 @@
      },
      "template": "questCache",
      "text": "Retrieve the contents of one of the Dalaran wizards' crates. You will find Pyrewood Village to the south.",
+     "times": 1
+    }
+   ]
+  },
+  "478": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:1627": 1
+     },
+     "template": "questCache",
+     "text": "<You quickly remove the pendant from the crate and replace the lid.>",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "text": "Maps and this... pendant, hm? Interesting.\n\nIt is obvious that the Dalaran wizards are interested in Ambermill for some purpose, but still, their aim is hidden to me.\n\nPerhaps Dalar will know something of their use.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:1627": 1
+     },
+     "template": "questCache",
+     "text": "Bring the strange pendant to Shadow Priest Allister at the Sepulcher.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "text": "Have you learned anything useful, $N?",
+     "times": 1
+    }
+   ]
+  },
+  "479": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "template": "questCache",
+     "text": "Dalar is attempting to locate the source of the wizards' spellcasting. For now, we'll have to slow their progress in any way we can...$b$bThe conjurers, mages and protectors are no doubt carrying the pendants. Remove and retrieve them.$b$bTake the main road south and the eastern fork into Ambermill.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "text": "Dalar has found that the weaving is quite far along, despite the setback.\n\nA wizard of great power is guiding the magic energy. He must be stopped quickly.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "template": "questCache",
+     "text": "Obtain 8 Dalaran Pendants for Shadow Priest Allister at the Sepulcher.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "text": "We must hurry, their plans must not come to fruition, or we may lose our hold on Silverpine Forest.",
+     "times": 1
+    }
+   ]
+  },
+  "481": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "template": "questCache",
+     "text": "Take the pendant to Dalar Dawnweaver, perhaps he can shed some light on the wizards' plans.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "text": "Interesting, more machinations of the Kirin Tor, it would seem. This is a powerful artifact. It was used frequently by powerful wizards of the Kirin Tor to channel magical energies.\n\nThat they are delivering so many to Ambermill indicates that they must be undergoing a project of some magnitude.\n\nI will see if I can pierce their shields and ascertain their intent.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "template": "questCache",
+     "text": "Take the rune-inscribed pendant to Dalar Dawnweaver at the Sepulcher.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "text": "Yes, $c? What is it?",
+     "times": 1
+    }
+   ]
+  },
+  "482": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "template": "questCache",
+     "text": "Of course! How could I have forgotten?$b$bAmbermill was one of the sites earmarked by the Kirin Tor, noted because it houses a dormant ley energy node. The wizards must be planning to reactivate the node and use its energies for some greater purpose.$b$bWe cannot allow this to happen...$b$bIt will take a great amount of power to activate the area's ley energies, we can stall them by taking the pendants away from the wizards.$b$bRelay this information to Allister, he will decide a course of action.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "text": "Ill news you bring, $N. If Dalar is correct--and I've no reason to believe he isn't--we must move quickly.\n\nI must confer with him on our plan of attack. But in the meanwhile we will have to delay their progress.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Shadow Priest Allister at the Sepulcher.",
      "times": 1
     }
    ]
@@ -2597,6 +3243,36 @@
       "npc:2211": 1
      },
      "text": "Why if I had my trusted rifle you'd be as good as dead, $C.  Just wait until the Steam Tank Brigade arrives to rescue me!",
+     "times": 1
+    }
+   ]
+  },
+  "516": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "template": "questCache",
+     "text": "I have received reports that a group of undead are holing up to prepare for an attack against us. Armed with this information, we can turn the tables and attack them first, nipping their little plan in the bud.$b$bUnfortunately, my information is spotty, at best. They are reported to be hiding in a location known as Beren's Peril. The exact location is unknown, but it appears to be a cave in the hills, near a pocket of Dalaran wizards.$b$bI trust your resourcefulness. Find them, and put them down.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "template": "questCache",
+     "text": "Locate Beren's Peril, then kill 6 Ravenclaw Drudgers and 6 Ravenclaw Guardians, then return to Shadow Priest Allister at the Sepulcher.",
      "times": 1
     }
    ]
@@ -2999,6 +3675,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1951": 1
+     },
+     "text": "<Quinn takes the potion and drinks it.>\n\nYes, I can feel it working. I will soon be able to travel.\n\nYou have done me a great favor, $N.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -3010,6 +3699,49 @@
      },
      "template": "questCache",
      "text": "Bring Quinn's potion to Quinn Yorick at the Ivar Patch, north of the Sepulcher.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1951": 1
+     },
+     "text": "You return! I was beginning to come to terms with devolving into a ghoul.",
+     "times": 1
+    }
+   ]
+  },
+  "92401": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:250686": 1
+     },
+     "template": "questCache",
+     "text": "It's my husband Edward...\r\n\r\nHe has not returned from his weekly journey to the graveyard in the Lordaeron ruins. Our son was lost when Arthas razed the city, and my dear Edward is still filled with guilt and sorrow that we never found his body. I've tried to warn him against searching those overrun ruins, but he refuses to give up. I try not to worry, but it's been days.\r\n\r\nThere are things there I cannot contend with but if you are willing, I need to know the fate of my husband.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:250686": 1
+     },
+     "template": "questCache",
+     "text": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
      "times": 1
     }
    ]
@@ -4172,6 +4904,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "text": "<Aamelia listens while you explain what became of Alvarion.>\r\n\r\nAt least I know he's going to be safe in Valanaar.\r\n\r\nStranger, I hate to tell you this but I think my idiot husband likely just sent you here to die for nothing. If you have any sense at all, you should leave now. This isn't your fight.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -4183,6 +4928,316 @@
      },
      "template": "questCache",
      "text": "Listen to what Alvarion Windfield has to say and find Aamelia Windfield at the Windfield Orchard.",
+     "times": 1
+    }
+   ]
+  },
+  "92682": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "template": "questCache",
+     "text": "Oh, so you've got more courage than sense, then? Fine, I won't argue.\r\n\r\nFerauu and his goons aren't due to pick up their take of the harvest just yet, so I'm going to put you to work for your meals until they arrive.\r\n\r\nHead outside and gather today's batch of stormapples for me. Oh, and the bandits lurking around the stormapple trees... They think they are sneaky. They aren't. Kill them for me. \r\n\r\nLet's see what you've got in a fight.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "text": "I watched you take down those bandits from the window. Not bad.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "template": "questCache",
+     "text": "Gather 10 Ripe Stormapples and slay 5 Hungry Bandits at the Windfield Orchard.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "text": "These bandits are more likely to double cross and steal from each other than they are to steal from normal folks. I bet if Ferauu knew some of his people went rogue and came here early to tamper with the harvest, he'd kill them himself.",
+     "times": 1
+    }
+   ]
+  },
+  "92683": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "template": "questCache",
+     "text": "I'm sure you've noticed the giant flutterflies out in the outer fields near the orchard? They are pleasant to look at, but they also have other benefits; namely their wing dust. It can be a mess, but if you can gather it up in large amounts, it has useful household applications.\r\n\r\nTake this Flutterfly Swatter and give the big bugs a good swat for me. They'll usually just get scared and flee, but sometimes they'll take some offense. Either way, they'll give their rumps a shake and drop a pile of dust.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "text": "This stuff can be a bit messy and it tends to get everywhere. You'll probably be shaking this out of your trousers for weeks, unfortunately. I do appreciate it, though. I've had this on my to-do list for weeks, but getting too far from the house when it's just me on my own with bandits lurking everywhere is a big risk.\r\n\r\nDon't bother asking me what I use this stuff for. Things. Stuff and things. Don't worry about it.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "template": "questCache",
+     "text": "Gather 5 Flutterfly Dust from the Flutterflies around the Gustberry Lowlands.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "text": "Flutterflies are normally docile and calm, but rub them the wrong way and sometimes they'll surprise you.",
+     "times": 1
+    }
+   ]
+  },
+  "92684": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "template": "questCache",
+     "text": "As if the harvest wasn't light enough this year already, the galestriders in the area have been getting into the orchard and stealing my stormapples. Think you can head out to the fields and cull them for me?\r\n\r\nTake care though stranger, these lowlands galestriders are bigger and angrier than the highlands variety. Watch yourself. A well-timed kick is all it takes to put you down for good if you aren't paying attention.\r\n\r\nBring me some of their meat and I can make us a hot meal with it as well.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "text": "These are big tenderloins! You must have taken down some real monsters out there.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "template": "questCache",
+     "text": "Gather 7 Lowlands Galestrider Tenderloins from the Ornery Galestriders found throughout the Gustberry Lowlands.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "text": "I don't think I've had real meat for dinner in... well, too long.",
+     "times": 1
+    }
+   ]
+  },
+  "92685": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "template": "questCache",
+     "text": "The bandits have camps all over and there's a small one in the hills just north of here. Head up there and start cracking skulls. If we can catch them off guard and take them out before they come for us, we might just even the odds enough to stand a chance.\r\n\r\nBring me their masks. The bloodier the better.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "text": "When I said the bloodier the better, you really listened. Good. It lets me know you made it hurt.\r\n\r\nOn a serious note, thank you for what you've done so far. I've been floating aimlessly around this farm for weeks as if I was just waiting for the end to come. I think I'm starting to have hope again.\r\n\r\nFerauu and his thugs are due any time now. All that's left is to go out and face them. What do you say, will you see this through to the end with me?",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "template": "questCache",
+     "text": "Loot 7 Blood-Stained Bandit Masks from Highwayman Bandits in the Gustberry Lowlands.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "text": "If you manage to bring me enough bandit masks, maybe I'll stitch a blanket out of them and give it to Ferauu.\r\n\r\n<Aamelia laughs loudly.>",
+     "times": 1
+    }
+   ]
+  },
+  "92693": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "template": "questCache",
+     "text": "You've done a lot to give us a fighting chance. Even if we die today, we'll at least know we gave it our best shot.\r\n\r\nThis is your last chance, stranger. If you want to head back to Valanaar and live another day, I wouldn't blame you.\r\n\r\nOn the other hand, if you really have a thing for lost causes just let me know when you are ready to go. We'll walk out there with our heads held high and whatever happens, happens.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "text": "I... can't believe it's over. I need to stop and calm myself before my heart leaps right out of my chest.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Aamelia Windfield when you are ready to confront the bandit leader.",
+     "times": 1
+    }
+   ]
+  },
+  "92698": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:250929": 1
+     },
+     "template": "questCache",
+     "text": "<You lean in close to try and hear the words coming from beneath the giant construct's armor plates.>\r\n\r\n...Function error...\r\n\r\n...Question...\r\n\r\n...What is....\r\n\r\n...Function...\r\n\r\n<These fragmented words and phrases seem to just repeat. Maybe someone nearby knows more about this construct?>",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "text": "The construct? It's been wandering around the fields for decades. Since the wind elementals left us, I think. Alvarion suspected that it used to haul harvests to market, or maybe tend to livestock back before this was an orchard. That could have been a thousand years ago though.\r\n\r\nIn the old days, the Windshapers used to maintain these constructs. We've talked about petitioning them to come and take a look at it, but it's never been a pressing concern to us. Mostly we just ignore it these days.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:250929": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Aamelia Windfield about the Malfunctioning Cyclone Construct.",
      "times": 1
     }
    ]
@@ -4286,6 +5341,36 @@
     }
    ]
   },
+  "92703": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "template": "questCache",
+     "text": "I guess it doesn't feel quite right to keep calling you stranger after all of this so... thank you, $n. \r\n\r\nIf you wouldn't mind and are back out that way, please let Alvarion know what happened here. Also, tell him that once he's up on his feet he needs to bring a windshaper back here to look at that construct for us to make sure it's safe to have around our... our family.\r\n\r\n<Aamelia touches her belly gently.>\r\n\r\nHe doesn't know about this part. Let's just keep that bit between us for now.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252800": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Alvarion Windfield in Valanaar.",
+     "times": 1
+    }
+   ]
+  },
   "92709": {
    "accept": [
     {
@@ -4344,6 +5429,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:581822": 1
+     },
+     "text": "<The satchel lying before you has a few specks of what appears to be dried blood on the flap. Studying the stain, you notice that the flap also has a name embroidered onto it. It reads \"Fillion Flamebreeze\".>",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -4385,6 +5483,135 @@
      },
      "template": "questCache",
      "text": "Travel to Shadowgale Forest and collect 8 Shriekling Talons for Iaadaria Bitterwind in Valanaar.",
+     "times": 1
+    }
+   ]
+  },
+  "92840": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252475": 1
+     },
+     "template": "questCache",
+     "text": "Fillion was sent to the Overlook Standing Stones with a special device used to measure and study the elemental energy there.\r\n\r\nTake this--an Index Esoteria--and use it to extract data from the massive windstone formations that form there. Be on your guard however, as the Windshapers are likely to be jealously guarding this site now.\r\n\r\nShould any attempt to obstruct you, well... do what you need to do. I have no more patience for their interference.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252475": 1
+     },
+     "template": "questCache",
+     "text": "Take the Index Esoteria to the Overlook Standing Stones in Shen'dar Highlands and use it on the Windstone Formations in the area to gather data.",
+     "times": 1
+    }
+   ]
+  },
+  "92849": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:581822": 1
+     },
+     "template": "questCache",
+     "text": "<Judging by what you've just found, it's very likely that Fillion befell some misfortune here. He may still be nearby, and he might be in need of aid. You notice a cave just to the north of your current location. You should continue searching for him there.>",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253284": 2
+     },
+     "text": "Th... thank you, stranger. I was returning from an assignment at the Overlook Standing Stones when I was suddenly ambushed and attacked by Windshapers. They forced me over to the mouth of the cave and left me there, barely conscious and bleeding. The last thing I remember before blacking out is a massive winged beast emerging from the cave and scooping me up.\r\n\r\nI think it's safe to say that if you hadn't come along, I'd have been dinner for that beast and its younglings.",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:581822": 1
+     },
+     "template": "questCache",
+     "text": "Keep searching for Fillion Flamebreeze.",
+     "times": 1
+    }
+   ]
+  },
+  "92850": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253284": 1
+     },
+     "template": "questCache",
+     "text": "I am feeling much better already. I have some skill with the arcane arts and we are but a short distance from Valanaar. I can make it on my own. More important than my safety, however, is how close to Valanaar these shrieklings have nested and the danger they pose. If you would be so kind, please head back inside and take the head of that beast!\r\n\r\nAfter it's done, you'll find me back in Valanaar. I need to report to the Supreme Magister what occurred here and the status of my mission.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253285": 1
+     },
+     "text": "Thank you again, $N.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253284": 1
+     },
+     "template": "questCache",
+     "text": "Slay the Shriekling Matriarch in the Shriekling Den then return its head to Fillion Flamebreeze in Valanaar.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253285": 1
+     },
+     "text": "Those shrieklings are too dangerous to be left to nest this close to Valanaar. However... they are the least of our troubles.",
      "times": 1
     }
    ]
@@ -4927,6 +6154,105 @@
     }
    ]
   },
+  "94013": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 1
+     },
+     "template": "questCache",
+     "text": "You've returned triumphant from taming two beasts. It's time now for your last trial. The winds of Zephras whisper of greater challenges ahead. \r\n\r\nTake this Taming Rod and journey to the Gustberry Lowlands. There, tame a Vuldren Alpha and prove your mastery. \r\n\r\nComplete this lesson and you'll be ready to learn the deeper ways of the hunter.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 1
+     },
+     "text": "Excellent, $N! You are quite a fast learner. Now that you know the basics, I can teach you how to forge a lasting bond with an animal companion.\r\n\r\nGo with this knowledge and thrive. Be the $c that Zephras Isle needs you to be.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 1
+     },
+     "template": "questCache",
+     "text": "Use the Taming Rod to tame a Vuldren Alpha in the Gustberry Lowlands. Practice your skills, then return the Taming Rod to Quel'ana Quickgale in Valanaar.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 1
+     },
+     "text": "You will learn, $N, and one day you will be a great $c.",
+     "times": 1
+    }
+   ]
+  },
+  "94050": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 1
+     },
+     "template": "questCache",
+     "text": "You now have the power to tame a pet, but you must also gain the skills to train it. For this, there is none better than my sister, Quel'dora. She will give you the ability to train your new pet. \r\n\r\nGo with the winds, young $c.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:254411": 1
+     },
+     "text": "A fledgling $c, I see. Yes, I can bestow you with the skills you need to train and guide your pet. Not only will you be able to teach your pet new abilities, you will now be able to feed your pet, as well as revive it, should it fall in battle.\n\nRemember, $N, always respect the balance and live in awe of nature around you. Now, go forth. We shall speak again, at a later date.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 1
+     },
+     "template": "questCache",
+     "text": "Speak to Quel'dora Quickgale in Valanaar.",
+     "times": 1
+    }
+   ]
+  },
   "94413": {
    "accept": [
     {
@@ -5103,6 +6429,118 @@
     }
    ]
   },
+  "94978": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 1
+     },
+     "template": "questCache",
+     "text": "Every hunter begins by learning the bond between beast and master. This is your first challenge. In time, you'll tame creatures from every corner of the world, but for now, start with our rivers and lakes on Zephras. \r\n\r\nTake this Taming Rod and seek out a Windsong Crawler.\r\n\r\nShow that you can earn its trust, and begin your path toward true mastery.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 1
+     },
+     "text": "Well tamed, $N! You are becoming adept already.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 1
+     },
+     "template": "questCache",
+     "text": "Use the Taming Rod to tame a Windsong Crawler found near bodies of water. \r\nPractice your skills, then return the Taming Rod to Quel'ana Quickgale in Valanaar.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 1
+     },
+     "text": "You will learn, $N, and one day you will be a great $c.",
+     "times": 1
+    }
+   ]
+  },
+  "94979": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 2
+     },
+     "template": "questCache",
+     "text": "You've proven you can tame the river's crawler. Now it's time to test your skill on open ground. The plains of Zephras echo with the cries of the galestrider, a proud, winged hunter that runs like the wind.\r\n\r\nTake this Taming Rod and seek one out. Travel to the lowlands and earn its trust.\r\n\r\nShow you're ready for the trials yet to come.",
+     "times": 2
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 1
+     },
+     "text": "You're back already! Impressive speed, $N!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 2
+     },
+     "template": "questCache",
+     "text": "Use the Taming Rod to tame an Ornery Galestrider in the Gustberry Lowlands. \r\nPractice your skills, then return the Taming Rod to Quel'ana Quickgale in Valanaar.",
+     "times": 2
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252389": 1
+     },
+     "text": "You will learn, $N, and one day you will be a great $c.",
+     "times": 1
+    }
+   ]
+  },
   "95314": {
    "complete": [
     {
@@ -5127,6 +6565,36 @@
       "npc:2132": 1
      },
      "text": "I trust you did not get lost?",
+     "times": 1
+    }
+   ]
+  },
+  "95981": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "template": "questCache",
+     "text": "Taking away their pendants is just the first step. If the Kirin Tor really are shipping a steady supply of relics from Dalaran, we must stop them at the source.\r\n\r\nSearch the roads around Ambermill for Dalaran's wizards and watchers. Their presence has allowed free access across our borders for too long. If we can cull their numbers, that should put a stop to these pendants making it into Silverpine Forest in the first place.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2121": 1
+     },
+     "template": "questCache",
+     "text": "Slay $1oa Dalaran Wizards and $2oa Dalaran Watchers for Shadow Priest Allister in the Sepulcher.",
      "times": 1
     }
    ]
@@ -5647,6 +7115,65 @@
     }
    ]
   },
+  "98298": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "template": "questCache",
+     "text": "Ah, it's all become so embarrassingly clear! Arugal hardly had any magic at all, let alone enough to create the worgen. 'Arugal's Curse.' Pah! Barely potent enough to last a few seconds.\r\n\r\nThese shackles prove he can bind the beasts, not create them. The worgen clearly spread their curse a different way. I would know how.\r\n\r\nGo to the Greymane Wall to the south. The worgen seem to be spreading to the humans nearby. Tear the beasts apart and bring me whatever you find. This requires a more direct approach.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "template": "questCache",
+     "text": "Bring $1oa Worgen Bits to Dalar Dawnweaver in The Sepulcher.",
+     "times": 1
+    }
+   ]
+  },
+  "98299": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "text": "If there is one thing we do know, it is that Arugal is responsible for worgen within Silverpine. Be it his own machinations or otherwise. What we don't know is how it spreads.\r\n\r\nWhile I research a way to stop the curse, our first priority is to contain it. It appears this affliction cannot infect forsaken such as ourselves, but a large group of humans have gathered by the Greymane Wall.\r\n\r\nGo to the wall and put down these refugees before they have a chance to become servants for Arugal.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1938": 1
+     },
+     "template": "questCache",
+     "text": "Slay $1oa Sickly Refugees and $2oa Haggard Refugees for Dalar Dawnweaver in The Sepulcher.",
+     "times": 1
+    }
+   ]
+  },
   "98545": {
    "accept": [
     {
@@ -5895,6 +7422,49 @@
       "npc:1495": 1
      },
      "text": "Have you dealt with our little problem?",
+     "times": 1
+    }
+   ]
+  },
+  "99260": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253285": 1
+     },
+     "template": "questCache",
+     "text": "I was tasked to retrieve important data on the flow of elemental energy from the Overlook Standing Stones. That data is vital to our plans to safely travel between Skywall and Azeroth. Without that data to aid in our calculations, our attempts to steer our skycutter ships through the elemental plane will fail.\r\n\r\nThe data is likely lost at this point, and I'm in no state to attempt to gather it again. I told the Supreme Magister of your role in saving me, and he wishes to speak with you again.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252475": 1
+     },
+     "text": "Thank you for saving Fillion, $N. I'm sure he told you how vital the data he was sent to retrieve is.\r\n\r\nWithout that data, our prospects for opening safe lanes of travel to Azeroth are in serious jeopardy. Our spies tell us that the Windshapers have themselves procured the means to traverse the planes, and no doubt wish to jealously guard this secret.\r\n\r\nAs ever, their own dogmatic hubris takes precedence over the good of our people. They are little better than the Al'Aketh.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253285": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Elaadrin Evengale in Valanaar.",
      "times": 1
     }
    ]
