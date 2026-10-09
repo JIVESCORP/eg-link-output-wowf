@@ -1,12 +1,12 @@
 {
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
-  "cacheFiles": 13,
+  "cacheFiles": 20,
   "cachesLeftOut": 0,
   "clientBuild": "1.60.1.70245",
   "collectedOn": {
    "first": "2026-10-07",
-   "last": "2026-10-07"
+   "last": "2026-10-08"
   },
   "dataset": "quests",
   "license": "CC BY 4.0",
@@ -16193,6 +16193,21 @@
    "title": "Elixir of Suffering",
    "zoneAreaId": 267
   },
+  "497": {
+   "description": "As a child, raised as a gladiator at Durnholde Keep, I was befriended by Taretha, the daughter of my wet nurse and mistress of the damned bastard Blackmoore.$b$bThe past is the past, $n, but reports of human movements in Hillsbrad reminded me of that time. I dispatched a small party to the area to investigate and to retrieve an... item... given to me by Taretha, if they could.$b$bA fruitless task, no doubt, but perhaps...$b$bThey should have returned by now, I want you to go to Tarren Mill to investigate.",
+   "flags": 8,
+   "level": 22,
+   "minLevel": 19,
+   "objectivesText": "Go to Tarren Mill and find out the status of the party sent by Thrall.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "<UNUSED>"
+  },
   "498": {
    "description": "Me and some other warriors were sent by the Warchief to retrieve an object from Durnholde and to investigate this so-called Syndicate.$b$bWe went to Durnholde to take a look around, but we were taken by surprise by a large number of the humans. We fought bravely, but their sheer numbers were enough to defeat us. They took a few of us captive, but I was able to escape.$b$bDurnholde is just southeast of here, across the river. Drull and Tog'thar are being held there, you must go and rescue them.",
    "flags": 8,
@@ -18028,6 +18043,20 @@
    "title": "Humbert's Sword",
    "zoneAreaId": 267
   },
+  "548": {
+   "description": "This will start the Bloodstone Pendant quest line...<NYI>",
+   "flags": 8,
+   "level": 35,
+   "minLevel": 20,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "<NYI> <TXT> Bloodstone Pendant"
+  },
   "549": {
    "description": "By the authority of Lady Sylvanas, all members of the organization known as the Syndicate are wanted dead. Those brought into custody or taken prisoner will be summarily executed. They are currently known to be amassing in the ruins of Durnholde Keep, to the southeast of Tarren Mill.$b$bA handsome reward is offered to all who bring proof of their deeds to High Executor Darthalia.",
    "flags": 8,
@@ -18248,6 +18277,40 @@
    "startItemId": 3710,
    "title": "Helcular's Revenge",
    "zoneAreaId": 267
+  },
+  "554": {
+   "description": "Prospector Stormpike is a master of decryption and deciphering.  If you take the parchment you found to him, then with luck he can make sense of it.  Stormpike is currently studying in the Prospector headquarters in Ironforge.$B$BAnd when you see him tell him you spoke with me - I've been sending him quite a lot of business lately.",
+   "flags": 0,
+   "level": 40,
+   "minLevel": 28,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380505,
+     "objectId": 3706,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Take the Ensorcelled Parchment to Prospector Stormpike in Ironforge.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 5000,
+    "reputation": [
+     {
+      "factionId": 47,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 3706,
+   "title": "Stormpike's Deciphering",
+   "zoneAreaId": 36
   },
   "555": {
    "description": "If there's one thing you'll learn about Southshore it's that we have some of the best cuisine north of Stormwind!$b$bTake my secret recipe for Turtle Bisque, for example. I've known folks to travel from as far as Darkshire just to enjoy a bowl.  Speaking of which, I haven't been able to make any lately.  I used to head up past Dalaran to Lake Lordamere myself to hunt Snapjaws but it's just too dangerous now. If you bring me some Turtle Meat from the Snapjaws up north and Soothing Spices, I'll whip some up!",
@@ -18789,6 +18852,40 @@
    "title": "Supply and Demand",
    "zoneAreaId": 33
   },
+  "579": {
+   "flags": 8,
+   "level": 1,
+   "minLevel": 1,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380574,
+     "objectId": 3898,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "questType": 0,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 2154
+     },
+     {
+      "count": 1,
+      "itemId": 3899
+     }
+    ],
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Stormwind Library",
+   "zoneAreaId": 1519
+  },
   "581": {
    "description": "A doom, there is.  A doom on my chief's youngest son, Yenniku.  As is a custom with our people, he was given to the Gurubashi Trolls of Zul'Gurub, but after my tribe, the Darkspear tribe, left with the orc Thrall, poor Yenniku was lost to us.  I was sent from distant Orgrimmar, back to Stranglethorn, to search for my chief's son.$B$BAnd I believe the Bloodscalp tribe has him.$B$BIf you would help me, then hunt the Bloodscalps.  You may find them to the north.  Gather their tusks and return to me.",
    "flags": 8,
@@ -18918,6 +19015,95 @@
    },
    "sources": 1,
    "title": "Bloodscalp Clan Heads",
+   "zoneAreaId": 33
+  },
+  "586": {
+   "description": "<The head of Gan'zulah speaks.>$B$BCurse you!  And curse your ancestors!!$B$BOnly blood and revenge can cool my rage, so if that is your wish, then... do this:$B$BThrow yourself into the heart of the Skullsplitters to the east.  Slay the fiercest among them, and if you survive...then break yourself against their chief, Ana'thek the Cruel.  Hah!  Bring me his shattered armor if you can!$B$BMay he tear off your limbs and leave you to rot and be eaten by carrion.",
+   "flags": 8,
+   "level": 46,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380747,
+     "objectId": 669,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 6,
+     "id": 380748,
+     "objectId": 781,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 4,
+     "id": 380749,
+     "objectId": 783,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 380750,
+     "objectId": 3909,
+     "storageIndex": 3,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Kill 8 Skullsplitter Hunters, 6 Skullsplitter Headhunters, and 4 Skullsplitter Berserkers.$B$BBring the Broken Armor of Ana'thek to the Bubbling Cauldron at the Grom'gol Base Camp.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Speaking with Gan'zulah",
+   "zoneAreaId": 33
+  },
+  "589": {
+   "description": "Legends tell of a jewel, hidden deep in the heart of Stranglethorn.  We call it the Mind's Eye, and it has great powers.  If you gain this Eye then, perhaps, we can use it to bring lost Yenniku back from the darkness.$B$BI will consult with the spirits of the jungle to find the Mind's Eye.  While I do this, you enter the Crystalvein Mine, southeast of here, and gather Pulsing Blue Shards from Ironjaw Basilisks.  The shards are rare, but we will need their magic to bend the Mind's Eye to our will.",
+   "flags": 8,
+   "level": 45,
+   "minLevel": 30,
+   "nextQuestId": 591,
+   "objectives": [
+    {
+     "amount": 3,
+     "id": 380674,
+     "objectId": 3911,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 3 Pulsing Blue Shards to Kin'weelay at the Grom'gol Base Camp.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Singing Crystals",
    "zoneAreaId": 33
   },
   "590": {
@@ -19506,6 +19692,29 @@
    "startItemId": 4432,
    "title": "Sully Balloo's Letter",
    "zoneAreaId": 1537
+  },
+  "638": {
+   "description": "With Thoras Trollbane dead and Stromgarde in ruins, Vol'jin has instructed that we make every effort to spirit the legendary sword Trol'kalar from the humans' hands, so that we might use it in our coming battles against the trolls of Zul'Gurub.$b$bZengu, one of our seasoned hunters, was dispatched to Hammerfall in northeastern Arathi Highlands to oversee its procurement.",
+   "flags": 8,
+   "level": 37,
+   "minLevel": 32,
+   "nextQuestId": 639,
+   "objectivesText": "Travel to Hammerfall in the Arathi Highlands and speak with Zengu.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Trollbane",
+   "zoneAreaId": 33
   },
   "639": {
    "description": "In ancient times, trolls fought against the Arathorian Empire and our most capable adversary, Lord Ignaeus of Strom, named Trollbane. He rode into battle wielding Trol'kalar--troll slayer, in their ancient tongue.$b$bBut now the sons of Trollbane are weakened, their stronghold brought to ruin.$b$bThe sword is protected by several sigils that were divided among the survivors of Stromgarde, and we must retrieve them.$b$bThe first was taken by the Syndicate, one of their men in Stromgarde should have it.",
@@ -20676,6 +20885,65 @@
    "title": "Wand over Fist",
    "zoneAreaId": 45
   },
+  "694": {
+   "description": "All rested?$B$BHere's our next step: there're ogres all around the Tower of Arathor in Stromgarde. We're gonna need to activate the tower's defenses if you're gonna stand a chance against 'em an' still make it to the items alive. To do that, we're gonna need some gems the Boulderfist shaman have taken a liking to. They took 'em from the tower, but they're not gonna stay in their possession for long.$B$BGet one of them gems an' bring 'em to Kryten--he knows the spell to enchant 'em so they'll work as a key.",
+   "flags": 8,
+   "level": 39,
+   "minLevel": 30,
+   "nextQuestId": 695,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380488,
+     "objectId": 4527,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Find an Azure Agate and bring it to Apprentice Kryten at Refuge Pointe.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Trelane's Defenses",
+   "zoneAreaId": 45
+  },
+  "695": {
+   "description": "Here you are, $n. The gem only needs to be pressed against one of the pedestals near the base of the tower to activate its defenses. Use it when you're ready to enter the tower and find Trelane's remaining items. $B$BGood luck to you. I'll be awaiting your return here at the camp. Oh, and speak to Skuerto before you leave. He'll give you the rest of the details you'll need.",
+   "flags": 0,
+   "level": 39,
+   "minLevel": 30,
+   "nextQuestId": 696,
+   "objectivesText": "Speak to Skuerto.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 47,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 4529,
+   "title": "An Apprentice's Enchantment",
+   "zoneAreaId": 45
+  },
   "696": {
    "description": "Here's what your lookin' for: Trelane's phylactery, Trelane's orb, an' Trelane's ember agate.$B$BAll three should be in chests within the tower an' you shouldn't have a problem opening the chests on your own; you just have to be careful of the ogres.$B$BThe tower's defenses won't take care of 'em on their own; you'll need to have your weapons at the ready. Those ogres find out you're there and stealing from 'em, an' they'll be sure to put the hurt on you.$B$BBe careful, an' good luck.",
    "flags": 8,
@@ -20784,6 +21052,39 @@
     "xpMultiplier": 1.0
    },
    "sources": 1,
+   "title": "Guile of the Raptor",
+   "zoneAreaId": 45
+  },
+  "702": {
+   "description": "Take this orb and use its energy to give Gor'mul the essence of the raptor. Surely this will invigorate his spirit and give him new purpose in life. With him returned to normal, we can explain to him the current state of the Horde, and we will have a great warrior's assistance in our unceasing battles.",
+   "flags": 0,
+   "level": 37,
+   "minLevel": 29,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380404,
+     "objectId": 4528,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Give Tor'gan's Orb to Gor'mul.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 4528,
    "title": "Guile of the Raptor",
    "zoneAreaId": 45
   },
@@ -21199,6 +21500,39 @@
    "startItemId": 4650,
    "title": "The Star, the Hand and the Heart",
    "zoneAreaId": 1497
+  },
+  "737": {
+   "description": "I have the digest for you, $n.  I need not tell you to take great care with it.  And to keep it far from unfriendly hands.  $B$BThis book holds many truths...$B$B...And the truth can burn.",
+   "flags": 0,
+   "level": 40,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380714,
+     "objectId": 4647,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Yagyin's Digest to Theldurin.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 4984
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 4647,
+   "title": "Forbidden Knowledge",
+   "zoneAreaId": 3
   },
   "738": {
    "description": "Prospector Agmond was in charge of our excavation sites in the Badlands, to the southwest.  I say \"was\" because...well, I haven't heard from him in weeks.  I need you to find Agmond so I can get his report.$B$BLast I heard Agmond was at the southernmost dig site in the Badlands--a tiny operation past the Angor Fortress.  I'd start your search for him there.",
@@ -23213,6 +23547,32 @@
    "title": "Dark Storms",
    "zoneAreaId": 14
   },
+  "807": {
+   "description": "My scouts report that some of the Durotar wildlife have become infected with a demonic taint.  They were seen to the north and west.$B$BThey wander among their brethren as normal beasts, but evil powers flow through them, and burning within each one is a heart scorched by black magic.$B$BThese beasts must be destroyed!$B$BIf you find such an animal while you explore Durotar, kill it and collect its Scorched Heart.  Bring the hearts to me and I will have them studied, then destroyed.",
+   "flags": 8,
+   "level": 11,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 381224,
+     "objectId": 4868,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 5 Scorched Hearts to Orgnil Soulscar in Razor Hill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "<UNUSED>",
+   "zoneAreaId": 14
+  },
   "808": {
    "description": "I hear the voice of my brother, Minshina, calling to me in my dreams.$B$BHe was taken by Zalazane, the warlock on the Echo Isles to the east. And he is dead.$B$BBut death is not freedom for my brother. Minshina's spirit was trapped within his own skull by Zalazane's magics. In my dreams I see it with other skulls, in a circle of power on the largest Echo Isle. As long as it remains there my brother's soul is doomed.$B$BPlease, $n. Find the circle and retrieve Minshina's skull. Bring it to me.$B$BFree him!",
    "flags": 8,
@@ -23574,6 +23934,22 @@
    "startItemId": 4926,
    "title": "Chen's Empty Keg",
    "zoneAreaId": 17
+  },
+  "820": {
+   "description": "Truly a spirit of strength resides in your body--or maybe it was only luck, yes?$B$BThat is what the young rely on these days: luck... and the generosity of those more powerful than they. Not many take the time to find their own path. It's always begging for help... always the reward, and never the quest. I'm sure you'll be the same.$B$BBut there is hope. I need one other thing for my potion, $n: 8 shimmerweed herbs. They can be found in Thunder Ridge to the northwest of Razor Hill.",
+   "flags": 8,
+   "level": 9,
+   "minLevel": 5,
+   "objectivesText": "Bring 8 Shimmerweed to Master Vornal in Sen'jin Village.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "<UNUSED>",
+   "zoneAreaId": 14
   },
   "821": {
    "description": "Would you like a taste of Chen's namesake? Ahh, the stormstout is a mighty brew. Chen taught the recipe to my mentor, and my mentor passed it on to me. I'll need you to get me a few things, but I can tell you this: the kick is worth it.$B$BBring me 5 savannah lion tusks from any savannah lion, 5 plainstrider kidneys from any plainstrider, and 1 thunder lizard horn from any species of thunder lizard. That should do the trick nicely.$B$BYou can find these ingredients throughout the Barrens.",
@@ -24497,6 +24873,34 @@
    "sources": 1,
    "title": "Revenge of Gann",
    "zoneAreaId": 17
+  },
+  "847": {
+   "description": "This... this power.... Is this the power of the shamans that Tor'gan tried to show me? I must say, it is interesting. Tell Tor'gan that he has convinced me... for the time being. I will listen to what he has to say.",
+   "flags": 8,
+   "level": 37,
+   "minLevel": 29,
+   "objectivesText": "Speak with Tor'gan.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 4546
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Guile of the Raptor",
+   "zoneAreaId": 45
   },
   "848": {
    "description": "The oases of the Barrens hide a mystery.  Life energy flows from their waters, invigorating the plants and beasts that drink it.$B$BInvigorating, and altering.$B$BThere is a mushroom that grows near these oases.  Its spores hold properties that we, the apothecaries of Lordaeron, find useful.$B$BBring me these spores and you will earn our gratitude.",
@@ -33922,6 +34326,29 @@
    "title": "Keeping Pace",
    "zoneAreaId": 400
   },
+  "1194": {
+   "description": "Rizzle's schematics describe the process of the refinement of indurium ore. From his scrawls, it is apparent that indurium ore is being obtained from the dwarven excavation site of Uldaman in the Badlands.$b$bMuch of the other notes relate to the heat resistant properties.$b$bUsed as a paperweight for the plans is a hunk of what appears to be unrefined indurium ore.",
+   "flags": 0,
+   "level": 41,
+   "minLevel": 29,
+   "objectivesText": "Bring the Sample of Indurium Ore to Pozzik on the Shimmering Flats.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 5866,
+   "title": "Rizzle's Schematics",
+   "zoneAreaId": 400
+  },
   "1195": {
    "description": "The Galak centaur in the Thousand Needles are protecting an artifact from the time of the centaurs' creation.$b$bWe would like to retrieve it, but we require a phial of water from one of the night elves' moonwells.$b$bTo collect the water, you will first need to obtain one of the phials carried by the dryads near the Raynewood Retreat in the heart of Ashenvale Forest. There is a moonwell near the western bank of the Falfarren River, south of the main road, where you can fill the phial.",
    "flags": 8,
@@ -37203,6 +37630,49 @@
    "title": "The Karnitol Shipwreck",
    "zoneAreaId": 405
   },
+  "1457": {
+   "description": "Take Karnitol's things back to Roetten in Ironforge and he'll pay you for a job well done.$B$BHaha, if you're not careful, he's gonna be so pleased with ya that he'll ask you to join us full time.$B$BAgain, great job, $n.$B$BBe careful on your way back, and don't take too much time--Karnitol's not the most of patient of men, but he's very generous nonetheless.",
+   "flags": 0,
+   "level": 39,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381275,
+     "objectId": 6245,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Karnitol's Satchel to Roetten Stonehammer in Ironforge.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6791
+     },
+     {
+      "count": 1,
+      "itemId": 6792
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 47,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 6245,
+   "title": "The Karnitol Shipwreck",
+   "zoneAreaId": 405
+  },
   "1458": {
    "description": "One of my tasks out here involves picking up some reagents for Leftwitch, a gnome mage in Kharanos . Roetten seems to think it's easy coin in the bank since we're out here already. He doesn't really care that we're short-handed as is.$B$BThe first few items on his list should be easy enough to get, and it'd be a good chunk of coin for anyone helping me out.$B$BI need some horns and claws from the Hatefury satyr to the east of here. Bring 'em back to me and we'll get started on the rest of the list.",
    "flags": 8,
@@ -37367,6 +37837,50 @@
     "xpMultiplier": 1.0
    },
    "sources": 1,
+   "title": "Reagents for Reclaimers Inc.",
+   "zoneAreaId": 405
+  },
+  "1467": {
+   "description": "To get paid, you're gonna have to get back to Ironforge and speak to Roetten himself. He'll love getting Leftwitch's package out of the way anyway. Just give him this and it should be enough to get your booty.$B$BAnd don't worry, I'm still going to put in a good word for you when I get back. I shouldn't be in Desolace much longer.",
+   "flags": 0,
+   "level": 40,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381422,
+     "objectId": 6253,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Leftwitch's Package back to Roetten Stonehammer in Ironforge.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6793
+     },
+     {
+      "count": 1,
+      "itemId": 6794
+     }
+    ],
+    "money": 3500,
+    "reputation": [
+     {
+      "factionId": 47,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 6253,
    "title": "Reagents for Reclaimers Inc.",
    "zoneAreaId": 405
   },
@@ -44926,6 +45440,54 @@
    "title": "Items of Some Consequence",
    "zoneAreaId": 1519
   },
+  "2751": {
+   "categoryId": 121,
+   "description": "Twenty generations of Omosh have held this hammer, $n. A hundred thousand tons of metal we have molded. Tragically, it all ends at Orokk, failure of the Omosh: Without kin and incapable of producing offspring.$B$BI cannot let the secret recipes of Omosh die with me! Someone must continue the legacy, Omosh or not!$B$BProve to Orokk you are capable, $n. Bring for Orokk the following: Two patterned bronze bracers, two bronze greatswords, and two sharp claws. Bring them for Orokk and we shall continue.",
+   "flags": 8,
+   "level": 32,
+   "minLevel": 32,
+   "objectives": [
+    {
+     "amount": 2,
+     "id": 381317,
+     "objectId": 2868,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 2,
+     "id": 381318,
+     "objectId": 7957,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 2,
+     "id": 381319,
+     "objectId": 5635,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring two Patterned Bronze Bracers, two Bronze Greatswords, and two Sharp Claws to Orokk Omosh in Orgrimmar.\r\n",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 7979
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Barbaric Battlements"
+  },
   "2841": {
    "description": "Gnome technology - two years ago its most common use was as a punch line. Times certainly have changed. Now they've got a new rig built that's better than all our shredder models combined. I need the blueprints, $n!$B$BUnfortunately, the plans are locked away in a safe near Mekgineer Thermaplugg. To make matters worse, the combination to the safe is only known by Mekgineer Thermaplugg.$B$BDo whatever you have to do to get that combination, $n. Then crack open that safe and bring back those blueprints!\r\n",
    "flags": 0,
@@ -45250,6 +45812,102 @@
    },
    "sources": 1,
    "title": "Wild Leather Shoulders"
+  },
+  "2856": {
+   "categoryId": 182,
+   "description": "Wild Leather vests are the staple of any Wild Leather armor set.  The frame of the vest and the wildvine weave within it produces a product that offers maximum protection of the torso while allowing for potent magic to work its way through the garment.$B$BFor this pattern, I will require two Turtle Scale breastplates, two sets of Turtle Scale gloves, and a wildvine.  This is not an easy lesson, but it is one you certainly have the skill to complete.",
+   "flags": 8,
+   "level": 45,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 2,
+     "id": 381870,
+     "objectId": 8189,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 2,
+     "id": 381871,
+     "objectId": 8187,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381872,
+     "objectId": 8153,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 2 Turtle Scale Breastplates, 2 Turtle Scale Gloves, and a Wildvine to Jangdor Swiftstrider in Camp Mojache.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 8404
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Wild Leather Vest"
+  },
+  "2857": {
+   "categoryId": 182,
+   "description": "A Wild Leather helmet offers the wearer superior protection to the vital areas of the head without a sacrifice in comfort.  As with all Wild Leather armor, the integrated wildvine yields a powerful but random magic imbuement to the helm's frame.  Leather wearers will definitely want this piece!$B$BFor this pattern, I will need two Nightscape tunics, 2 Nightscape headbands, and a wildvine.  Complete this lesson and the pattern will be yours!",
+   "flags": 8,
+   "level": 45,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 2,
+     "id": 382314,
+     "objectId": 8175,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 2,
+     "id": 382315,
+     "objectId": 8176,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 382316,
+     "objectId": 8153,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 2 Nightscape Tunics, 2 Nightscape Headbands, and a Wildvine to Jangdor Swiftstrider in Camp Mojache.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 8405
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Wild Leather Helmet"
   },
   "2904": {
    "areaDescription": "Kernobee Rescue",
@@ -49143,6 +49801,33 @@
    "startItemId": 10789,
    "title": "Goblin Engineering"
   },
+  "4323": {
+   "description": "I want some Hyena Pelts, and only the best will do!  Get me spotted Hyena pelts and I'll give you phat lewtz, yo.",
+   "flags": 8,
+   "level": 26,
+   "minLevel": 24,
+   "objectives": [
+    {
+     "amount": 7,
+     "id": 383537,
+     "objectId": 11507,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 7 Spotted Hyena Pelts to TESTTAUREN at Freewind Post.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 2000,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "<NYI> <TXT> Get those Hyenas!!!",
+   "zoneAreaId": 400
+  },
   "4402": {
    "description": "It sure gets hot out here in the Valley of Trials.$B$B<Galgar wipes his brow.>$B$BIf only I had some cactus apples, I could make my famous cactus apple surprise! Nothing cools you off faster than a piece of that delicious treat.$B$BI'll tell you what, $n. If you bring me 10 cactus apples, I'll make you a few portions of cactus apple surprise to take with you on your adventures, and a free training manual, too. If you're interested, you can find cactus apples growing near the cactus plants around here.",
    "flags": 8,
@@ -49793,6 +50478,23 @@
    "startItemId": 12242,
    "title": "Beached Sea Creature",
    "zoneAreaId": 148
+  },
+  "4736": {
+   "categoryId": 61,
+   "description": "Ah, hello, $n. You're progressing well in your training. So well in fact that I think you should be rewarded for your hard work--and for not becoming corrupted by the arcane yet.$B$BIf you're interested, seek out Menara Voidrender in Ratchet. She is currently staying at Strahad Farsan's tower overlooking the town.$B$BShe's not very friendly, $n, so don't expect any praise. But if you work hard, she'll make sure you're taken care of.",
+   "flags": 8,
+   "level": 31,
+   "minLevel": 31,
+   "nextQuestId": 1796,
+   "objectivesText": "Speak to Menara Voidrender in the Barrens.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "In Search of Menara Voidrender"
   },
   "4737": {
    "categoryId": 61,
@@ -51490,6 +52192,29 @@
    "sources": 1,
    "title": "Returning Home"
   },
+  "5632": {
+   "categoryId": 262,
+   "description": "Oh, yes, of course. Hello, $n. A messenger from our order was here not too long ago looking for you. She mentioned something important happening back in Darnassus and that you should return to the Temple of the Moon as soon as you can. When you arrive, speak to Priestess Alathea. I believe it has something to do with your progressing so well in our ways.$B$BAgain, return to Darnassus when you can.",
+   "flags": 2097160,
+   "level": 10,
+   "minLevel": 10,
+   "objectivesText": "Speak to Priestess Alathea in Darnassus.",
+   "questType": 2,
+   "raceMask": "0000000000000008",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 10797,
+      "type": 3
+     }
+    ],
+    "spellId": 19350,
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Returning Home"
+  },
   "5633": {
    "categoryId": 262,
    "description": "Greetings, $gladdy:lass;. Good to see you here in our great halls. A blessing be on you and your kind.$B$BWhile you were traveling through our lands, a priestess of your temple came here seeking you. She said that you were to return to the Temple of the Moon as soon as possible. I'm sorry I can't tell you more, but it did sound important. When you get to the temple, speak to a Priestess Alathea.",
@@ -51559,6 +52284,29 @@
    "sources": 1,
    "title": "Desperate Prayer"
   },
+  "5636": {
+   "categoryId": 262,
+   "description": "Elune bless you, good $r. I hope your Light finds you and protects you well this day.$B$BOne of your priests was here not long ago looking for you. He mentioned you returning to the Hall of Mysteries as soon as possible to speak with High Priest Rohan. It seems you've done well to garner such attention. I wouldn't spend too much time here--your people have need of you.",
+   "flags": 2097160,
+   "level": 10,
+   "minLevel": 10,
+   "objectivesText": "Speak to High Priest Rohan in Ironforge.",
+   "questType": 2,
+   "raceMask": "0000000000000004",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 13908,
+      "type": 3
+     }
+    ],
+    "spellId": 19338,
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Desperate Prayer"
+  },
   "5637": {
    "categoryId": 262,
    "description": "Time's come for you to head to Stormwind, $n. High Priest Rohan in the Hall of Mysteries wants to speak to you. Gotta be somethin' really good or really bad for the High Priest to want you there personally, but I'm guessin' you've only done well for yourself and it's a good thing that he wants to speak to ya.$B$BBut don't waste too much time 'round here. I'd head there as soon as you can.",
@@ -51598,6 +52346,29 @@
     ],
     "spellId": 19338,
     "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Desperate Prayer"
+  },
+  "5640": {
+   "categoryId": 262,
+   "description": "Praise be to Elune, and to your Light, $n.$B$BAbout this time, many of our order learn abilities reflecting their faith in Elune. If knowledge serves me, I believe the same holds true for your order also.$B$BWhen your business in Darnassus is complete, I would seek out one of your High Priests for further training.",
+   "flags": 2097160,
+   "level": 10,
+   "minLevel": 10,
+   "objectivesText": "Speak to High Priest Rohan in Stormwind.",
+   "questType": 2,
+   "raceMask": "0000000000000004",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 13908,
+      "type": 3
+     }
+    ],
+    "spellId": 19338,
+    "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
    "sources": 1,
@@ -52320,6 +53091,54 @@
    },
    "sources": 1,
    "title": "Shadowguard"
+  },
+  "5691": {
+   "categoryId": 262,
+   "flags": 8,
+   "level": 15,
+   "minLevel": 15,
+   "questType": 2,
+   "raceMask": "0000000000000010",
+   "rewards": {
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "<NYI> <TXT> In the Dark it was Created"
+  },
+  "5692": {
+   "categoryId": 262,
+   "description": "I would teach you all you need know, $n, but there things that only your own tribe can show you. One be how to create a new robe for you... one that reflect your place in your faith.$B$BAelthalyste say that I direct you to her in the Undercity. She be in the War Quarter waiting for you. If you not go then she be very displeased with both of us.",
+   "flags": 8,
+   "level": 15,
+   "minLevel": 15,
+   "nextQuestId": 5691,
+   "objectivesText": "Speak to Aelthalyste in the Undercity.",
+   "questType": 2,
+   "raceMask": "0000000000000010",
+   "rewards": {
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "<NYI> In the Dark It was Created"
+  },
+  "5693": {
+   "categoryId": 262,
+   "description": "Glad to see you're... alive, $n.$B$BAelthalyste has asked you to return to the Undercity when you've finished your business here in Thunder Bluff. It seems you've grown powerful enough that she thinks you're due new garments... a robe, I believe.$B$BShe'll be waiting for you in the War Quarter.",
+   "flags": 8,
+   "level": 15,
+   "minLevel": 15,
+   "nextQuestId": 5691,
+   "objectivesText": "Speak to Aelthalyste in the Undercity.",
+   "questType": 2,
+   "raceMask": "0000000000000010",
+   "rewards": {
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "<NYI> In the Dark It was Created"
   },
   "5713": {
    "areaDescription": "Protect Aynasha",
@@ -57679,6 +58498,98 @@
    "sources": 1,
    "title": "Hunter test quest2"
   },
+  "7788": {
+   "description": "Beyond this tunnel you will find a field of strife and turmoil, young $c. The Horde continue to decimate our sacred forest, cutting down the evergreen foliage to power their machines of war.$B$BEnter Warsong Gulch and defend Silverwing Hold. Push back the invading Horde forces!$B$BDo this, and earn a talisman of merit.  Bring me such a talisman, $n, and I shall reward you.",
+   "flags": 64,
+   "level": 25,
+   "minLevel": 20,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383922,
+     "objectId": 20558,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Enter Warsong Gulch and defeat the Horde, obtain a Warsong Gulch Mark of Honor, and return to Sentinel Farsong at the Silverwing Grove.",
+   "questInfoId": 41,
+   "questType": 1,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 5500,
+    "reputation": [
+     {
+      "factionId": 890,
+      "tier": 7
+     },
+     {
+      "factionId": 890,
+      "tier": 7
+     },
+     {
+      "factionId": 890,
+      "tier": 7
+     },
+     {
+      "factionId": 890,
+      "tier": 7
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Vanquish the Invaders!",
+   "zoneAreaId": 3277
+  },
+  "7789": {
+   "description": "The wilds of the Ashenvale forest will succumb to the might of the Horde, $r. Nothing the Silverwing say or do can stop our sovereign imperative. Kalimdor belongs to the Horde. How dare they attempt to prevent us from harvesting what is rightfully ours!$B$BLet the pride swell in your chest as you cut down their weak attempts at slowing our progress. Destroy the Silverwing Sentinels, and earn a Warsong mark of honor.  Return to me with such a mark, $n, and you will be rewarded.\r\n",
+   "flags": 64,
+   "level": 25,
+   "minLevel": 20,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 384171,
+     "objectId": 20558,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Enter Warsong Gulch and defeat the Alliance, gain a Warsong Gulch Mark of Honor, and bring it to Captain Shatterskull at the Mor'shan Base Camp.",
+   "questInfoId": 41,
+   "questType": 1,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 5500,
+    "reputation": [
+     {
+      "factionId": 889,
+      "tier": 7
+     },
+     {
+      "factionId": 889,
+      "tier": 7
+     },
+     {
+      "factionId": 889,
+      "tier": 7
+     },
+     {
+      "factionId": 889,
+      "tier": 7
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Quell the Silverwing Usurpers",
+   "zoneAreaId": 3277
+  },
   "7791": {
    "flags": 0,
    "level": 60,
@@ -58203,6 +59114,98 @@
    "sources": 1,
    "title": "test quest2 - do not use"
   },
+  "7871": {
+   "description": "Beyond this tunnel you will find a field of strife and turmoil, young $c. The Horde continue to decimate our sacred forest, cutting down the evergreen foliage to power their machines of war.$B$BEnter Warsong Gulch and defend Silverwing Hold. Push back the invading Horde forces!$B$BDo this, and earn a talisman of merit.  Bring me such a talisman, $n, and I shall reward you.",
+   "flags": 64,
+   "level": 35,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 384100,
+     "objectId": 20558,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Enter Warsong Gulch and defeat the Horde, obtain a Warsong Gulch Mark of Honor, and return to Sentinel Farsong at the Silverwing Grove.",
+   "questInfoId": 41,
+   "questType": 1,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 11000,
+    "reputation": [
+     {
+      "factionId": 890,
+      "tier": 7
+     },
+     {
+      "factionId": 890,
+      "tier": 7
+     },
+     {
+      "factionId": 890,
+      "tier": 7
+     },
+     {
+      "factionId": 890,
+      "tier": 7
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Vanquish the Invaders!",
+   "zoneAreaId": 3277
+  },
+  "7874": {
+   "description": "The wilds of the Ashenvale forest will succumb to the might of the Horde, $r. Nothing the Silverwing say or do can stop our sovereign imperative. Kalimdor belongs to the Horde. How dare they attempt to prevent us from harvesting what is rightfully ours!$B$BLet the pride swell in your chest as you cut down their weak attempts at slowing our progress. Destroy the Silverwing Sentinels, and earn a Warsong mark of honor.  Return to me with such a mark, $n, and you will be rewarded.\r\n",
+   "flags": 64,
+   "level": 35,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383819,
+     "objectId": 20558,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Enter Warsong Gulch and defeat the Alliance, gain a Warsong Gulch Mark of Honor, and bring it to Captain Shatterskull at the Mor'shan Base Camp.",
+   "questInfoId": 41,
+   "questType": 1,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 11000,
+    "reputation": [
+     {
+      "factionId": 889,
+      "tier": 7
+     },
+     {
+      "factionId": 889,
+      "tier": 7
+     },
+     {
+      "factionId": 889,
+      "tier": 7
+     },
+     {
+      "factionId": 889,
+      "tier": 7
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Quell the Silverwing Usurpers",
+   "zoneAreaId": 3277
+  },
   "7904": {
    "categoryId": 364,
    "flags": 8,
@@ -58414,6 +59417,142 @@
    "sources": 1,
    "title": "Wabbit Pelts",
    "zoneAreaId": 9
+  },
+  "8155": {
+   "description": "War must be fought with soldiers, any soldier will tell you.  They'll also say that a battle fought with poor gear or on an empty stomach is lost before it starts!$B$BThat is why Arathi Basin is important.  There are key areas in the basin that hold essential resources.  Metals, weapons, food, lumber - all are needed, and all can be gained there.$B$BThat is what I want from you, $n.  Enter Arathi Basin, win the battle by holding more bases than the enemy, and return to me with a crate of resources.",
+   "flags": 64,
+   "level": 25,
+   "minLevel": 20,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 384132,
+     "objectId": 20559,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Sergeant Maclear at Refuge Pointe.",
+   "questInfoId": 41,
+   "questType": 1,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 5500,
+    "reputation": [
+     {
+      "factionId": 509,
+      "tier": 7
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Arathi Basin Resources!",
+   "zoneAreaId": 3358
+  },
+  "8156": {
+   "description": "War must be fought with soldiers, any soldier will tell you.  They'll also say that a battle fought with poor gear or on an empty stomach is lost before it starts!$B$BThat is why Arathi Basin is important.  There are key areas in the basin that hold essential resources.  Metals, weapons, food, lumber - all are needed, and all can be gained there.$B$BThat is what I want from you, $n.  Enter Arathi Basin, win the battle by holding more bases than the enemy, and return to me with a crate of resources.",
+   "flags": 64,
+   "level": 35,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383878,
+     "objectId": 20559,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Sergeant Maclear at Refuge Pointe.",
+   "questInfoId": 41,
+   "questType": 1,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 11000,
+    "reputation": [
+     {
+      "factionId": 509,
+      "tier": 7
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Arathi Basin Resources!",
+   "zoneAreaId": 3358
+  },
+  "8161": {
+   "description": "The League of Arathor is sparing no expense in their move to retake Arathi.  They, and all the races of the Alliance, now stream to this distant region, intent on expanding their hold from Refuge Pointe.  We must stop them, and the best means to stop them is to take their supplies.$B$BYou can help us, $n.  Enter Arathi Basin, known for its rich mines, fertile land and skilled craftsman.  Capture and control every base you can, win the battle, and return to me with the resources you gain.",
+   "flags": 64,
+   "level": 35,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 384277,
+     "objectId": 20559,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Deathstalker Mortis at Hammerfall.",
+   "questInfoId": 41,
+   "questType": 1,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 11000,
+    "reputation": [
+     {
+      "factionId": 510,
+      "tier": 7
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Cut Arathor Supply Lines",
+   "zoneAreaId": 3358
+  },
+  "8162": {
+   "description": "The League of Arathor is sparing no expense in their move to retake Arathi.  They, and all the races of the Alliance, now stream to this distant region, intent on expanding their hold from Refuge Pointe.  We must stop them, and the best means to stop them is to take their supplies.$B$BYou can help us, $n.  Enter Arathi Basin, known for its rich mines, fertile land and skilled craftsman.  Capture and control every base you can, win the battle, and return to me with the resources you gain.",
+   "flags": 64,
+   "level": 25,
+   "minLevel": 20,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 384011,
+     "objectId": 20559,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Deathstalker Mortis at Hammerfall.",
+   "questInfoId": 41,
+   "questType": 1,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 5500,
+    "reputation": [
+     {
+      "factionId": 510,
+      "tier": 7
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Cut Arathor Supply Lines",
+   "zoneAreaId": 3358
   },
   "8193": {
    "categoryId": 101,
@@ -64681,6 +65820,55 @@
    "sources": 1,
    "title": "Baxtan: On Destructive Magics"
   },
+  "79098": {
+   "description": "This one is slain, but these infuriating alliance continue to fight... what is this charm?",
+   "flags": 4352,
+   "flagsEx": 32768,
+   "level": 60,
+   "minLevel": 18,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 445452,
+     "objectId": 211813,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Silverwing Sentinel Charm to Kazragore, Far Seer, at the Bonfire base in Ashenvale.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 211816
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 889,
+      "override": 100000,
+      "tier": 0
+     },
+     {
+      "factionId": 72,
+      "tier": 0
+     },
+     {
+      "factionId": 69,
+      "tier": 0
+     }
+    ],
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 211813,
+   "title": "Clear the Forest!",
+   "zoneAreaId": 331
+  },
   "79192": {
    "description": "The note begins, \"Mission said they were both making deliveries for New Plague. Looks like simple apothecary accidents to me. Find my cozy spot in the mountains between The Barrens and Desolace if you want a safe place to talk.\"",
    "flags": 34603552,
@@ -65247,6 +66435,26 @@
    "title": "Anyone Can Cook",
    "zoneAreaId": 45
   },
+  "79637": {
+   "categoryId": 22,
+   "flags": 8,
+   "level": 40,
+   "minLevel": 20,
+   "questType": 0,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 213443
+     }
+    ],
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "A Ticking Present"
+  },
   "79731": {
    "categoryId": 262,
    "description": "<The ancient glyphs resolve into words before your eyes.>\r\n\r\nWhen Zul'Kunda's fountain runs with the waters of the holy spring, the gods grant their blessing.",
@@ -65527,6 +66735,472 @@
    "title": "Jarl Needs a Blade",
    "zoneAreaId": 15
   },
+  "81730": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion in the Rotting Orchard. Defeat worgen there and return to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 448713,
+     "objectId": 221171,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 10,
+     "id": 448714,
+     "objectId": 221172,
+     "storageIndex": 5,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Defeat 10 Nightmare Runners and 10 Nightmare Weavers in the Duskwood Nightmare Incursion in the Rotting Orchard and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission I: Defeat Worgen",
+   "zoneAreaId": 10
+  },
+  "81731": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Vul'gol Ogre Mound. Defeat ogres there and return to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 3,
+     "id": 448715,
+     "objectId": 221174,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 3,
+     "id": 448716,
+     "objectId": 221175,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Defeat 3 Deranged Ogres and 3 Demented Fire Weavers in the Duskwood Nightmare Incursion at the Vul'gol Ogre Mound and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission II: Defeat Ogres",
+   "zoneAreaId": 10
+  },
+  "81732": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Yorgen Farmstead. Defeat dragonkin there and return to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 3,
+     "id": 448717,
+     "objectId": 221200,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 10,
+     "id": 448718,
+     "objectId": 221176,
+     "storageIndex": 3,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Defeat 3 Wyrmkin Terrorwalkers and 10 Nightterror Whelps in the Duskwood Nightmare Incursion at the Yorgen Farmstead and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission III: Defeat Dragonkin",
+   "zoneAreaId": 10
+  },
+  "81733": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Vul'gol Ogre Mound. Retrieve an intelligence report from Dreamwarden Thalinar there and return to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 448719,
+     "objectId": 219776,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Gather intelligence from Dreamwarden Thalinar in the Duskwood Nightmare Incursion deep inside the Vul'gol Ogre Mound and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission IV: Ogre Intelligence",
+   "zoneAreaId": 10
+  },
+  "81734": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Rotting Orchard. Retrieve an intelligence report from Dreamwarden Dorilar there and return to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 448720,
+     "objectId": 219778,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Gather intelligence from Dreamwarden Dorilar in the Duskwood Nightmare Incursion in the barn at the Rotting Orchard and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission V: Worgen Intelligence",
+   "zoneAreaId": 10
+  },
+  "81735": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Yorgen Farmstead . Retrieve an intelligence report from Dreamwarden Amalia there and return to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 448722,
+     "objectId": 219803,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Gather intelligence from Dreamwarden Amalia in the Duskwood Nightmare Incursion in the farmhouse at the Yorgen Farmstead and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission VI: Dragon Intelligence",
+   "zoneAreaId": 10
+  },
+  "81736": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Rotting Orchard. Retrieve a powerful artifact known as the Shadowscythe and deliver it to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 448723,
+     "objectId": 219404,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Recover the Shadowscythe in the Duskwood Nightmare Incursion upstairs in the farmhouse at the Rotting Orchard and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission VII: Recover Shadowscythe",
+   "zoneAreaId": 10
+  },
+  "81737": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Vul'gol Ogre Mound. Retrieve an Ogre Magi Text and deliver it to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 448725,
+     "objectId": 219405,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Recover an Ogre Magi Text in the Duskwood Nightmare Incursion within the Vul'gol Ogre Mound and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission VIII: Recover Ogre Magi text",
+   "zoneAreaId": 10
+  },
+  "81738": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Yorgen Farmstead. Retrieve an Unhatched Green Dragon Egg and deliver it to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 448726,
+     "objectId": 219406,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Recover an Unhatched Green Dragon Egg in the Duskwood Nightmare Incursion from the Yorgen Farmstead near the large stump in the fields and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission IX: Recover Dragon Egg",
+   "zoneAreaId": 10
+  },
+  "81739": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove and collect Nightmare Moss from within the Nightmare Incursions. We can harness its magic to reverse the damage. You will need the assistance of an herbalist.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 448727,
+     "objectId": 219399,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Gather 10 Nightmare Moss in the Duskwood Nightmare Incursions and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission X: Nightmare Moss",
+   "zoneAreaId": 10
+  },
+  "81740": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove and collect Cold Iron Ore from within the Nightmare Incursions. We can harness its magic to reverse the damage. You will need the assistance of a miner.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 448728,
+     "objectId": 219401,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Gather 10 Cold Iron Ore in the Duskwood Nightmare Incursions and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission XI: Cold Iron Ore",
+   "zoneAreaId": 10
+  },
+  "81741": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove and collect Dream-Touched Dragonscales from dragonkin within the Nightmare Incursions. We can harness its magic to reverse the damage. You will need the assistance of a skinner.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 448729,
+     "objectId": 219402,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Gather 10 Dream-Touched Dragonscales in the Duskwood Nightmare Incursions and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission XII: Dream-Touched Dragonscale",
+   "zoneAreaId": 10
+  },
+  "81742": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Yorgen Farmstead. Defeat the dragon Ylanthrius there and return to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 448730,
+     "objectId": 221204,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Defeat Ylanthrius in the Duskwood Nightmare Incursion at the Yorgen Farmstead field and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 3400,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 7
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 2.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission XIII: Defeat Ylanthrius",
+   "zoneAreaId": 10
+  },
   "81743": {
    "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Vul'gol Ogre Mound. Defeat the ogre warlord Vvarc'zul there and return to me.",
    "flags": 4352,
@@ -65559,6 +67233,145 @@
    },
    "sources": 1,
    "title": "Duskwood Mission XIV: Defeat Vvarc'zul",
+   "zoneAreaId": 10
+  },
+  "81744": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Rotting Orchard. Defeat the worgen leader Amokarok there and return to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 448736,
+     "objectId": 221207,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Defeat Amokarok in the Duskwood Nightmare Incursion at a campsite near the barn in the Rotting Orchard and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission XV: Defeat Amokarok",
+   "zoneAreaId": 10
+  },
+  "81745": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Rotting Orchard. Find the sleeping Druid of the Claw Kroll Mountainshade there and escort him to safety. Then return to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 448737,
+     "objectId": 221210,
+     "storageIndex": 0,
+     "text": "Rescue Kroll Mountainshade",
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Rescue Kroll Mountainshade from the Duskwood Nightmare Incursion in the guest house at the Rotting Orchard and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission XVI: Rescue Kroll Mountainshade",
+   "zoneAreaId": 10
+  },
+  "81746": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Yorgen Darmstead. Find the sleeping Druid of the Claw Alara Grovemender there and escort her to safety. Then return to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 448738,
+     "objectId": 221215,
+     "storageIndex": 1,
+     "text": "Rescue Alara Grovemender",
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Rescue Alara Grovemender in the Duskwood Nightmare Incursion in the stable at the Yorgen Farmstead and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission XVII: Rescue Alara Grovemender",
+   "zoneAreaId": 10
+  },
+  "81747": {
+   "description": "While these demons distract us here, the Emerald Dream is being corrupted into nightmare. Quick, travel through the Emerald Dream Portal in the Twilight Grove, and journey to the Nightmare Incursion at the Vul'gol Ogre Mound. Find the sleeping Druid of the Claw Elenora Marshwalker there and escort her to safety. Then return to me.",
+   "flags": 4352,
+   "level": 27,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 448739,
+     "objectId": 221216,
+     "storageIndex": 0,
+     "text": "Rescue Elenora Marshwalker",
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Rescue Elenora Marshwalker in the Duskwood Nightmare Incursion in the ruins of a farmhouse near the Vul'gol Ogre Mound and return to Field Captain Palandar.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 2641,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwood Mission XVIII: Rescue Elenora Marshwalker",
    "zoneAreaId": 10
   },
   "81947": {
@@ -73342,6 +75155,49 @@
    "title": "(UNUSED) The Rusty Gadget",
    "zoneAreaId": 16593
   },
+  "93174": {
+   "description": "The construct before you buzzes and spurts and is clearly not functioning correctly. Drawing on your limited experience as an engineer, you suspect that it needs some form of repairs.\r\n\r\nThere are a few Artisans in Valanaar that have some experience servicing cyclone constructs such as this one, and the hermit who taught you engineering may also have some insight.",
+   "flags": 2097152,
+   "level": 13,
+   "minLevel": 8,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 479685,
+     "objectId": 276250,
+     "storageIndex": 2,
+     "text": "Speak with Riaani Nightwind about the construct",
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 479686,
+     "objectId": 276250,
+     "storageIndex": 3,
+     "text": "Speak with the Strange Hermit about the construct",
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Speak first with Riaani Nightwind in Valanaar and then the Strange Hermit in Shadowgale Forest to learn more about the Malfunctioning Cyclone Construct.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 2758,
+      "override": 1200000,
+      "tier": 0
+     }
+    ],
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Malfunctioning Construct",
+   "zoneAreaId": 16593
+  },
   "93176": {
    "description": "Admiring my little menagerie, are you? They are my un-life's work. I've spent countless hours studying them: their anatomy, their diets, even their social rituals.\r\n\r\nDo you wish to join me in the hobby? Here, take this package. The notes and materials contained within should get you started. If you lose it, you'll have to purchase another one from me for a small fee.",
    "flags": 36700672,
@@ -73855,6 +75711,40 @@
    "sources": 1,
    "title": "Taking the Bait Back",
    "zoneAreaId": 8
+  },
+  "93459": {
+   "description": "The Al'Aketh cult normally gives this forest a wide berth, fearing the rumors that it is haunted... rumors we are happy to maintain. The Druids of my order wish only to live quiet, peaceful lives here in Shadowgale and they threaten that. \r\n\r\nMany among us are afraid.\r\n\r\nI come with an offer. Fight the cultists for us, and bring us the ears of those you kill. We will reward you for each that you return with in both coin and, in time, access to our secrets should you prove yourself to be a true friend.",
+   "flags": 2097152,
+   "flagsEx": 1,
+   "level": 13,
+   "minLevel": 8,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 466624,
+     "objectId": 258771,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Collect 10 Al'Aketh Cultist's Ears from the Al'Aketh in Shadowgale Forest, the Shine of Akir, or Gustberry Lowlands and return them to Vayn Moonclaw in Shadowgale Forest.",
+   "questType": 0,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 2758,
+      "override": 100000,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "More Al'Aketh Ears",
+   "zoneAreaId": 16593
   },
   "93461": {
    "description": "You've got that \"High Order\" look to you. Those with Highborne ancestry always seem to have a slight twinkle in their eyes that gives it away. Before I properly put you to work around here, you should check in with our resident High Order elder Rathiril Sunlance. You can find him here in the main lodge, just around the corner from me.\r\n\r\nOh, and check in with Coriella Calmbreeze as well, she runs the local inn and can provide lodging and supplies, should you need them.",
@@ -75054,6 +76944,25 @@
    "sources": 1,
    "startItemId": 264163,
    "title": "Taming the Beast"
+  },
+  "94049": {
+   "areaDescription": "Tame a Vuldren",
+   "categoryId": 261,
+   "description": "I've gotten you started down the path of animal companionship, but my there is no better expert at training beasts than my brother, Quel'dora. Speak with him now and he will teach you what you need to know.",
+   "flags": 2,
+   "level": 10,
+   "minLevel": 10,
+   "nextQuestId": 6101,
+   "objectivesText": "Speak with Quel'dora Quickbreeze in Valanaar to learn to train pets.",
+   "questType": 2,
+   "raceMask": "0000000300000000",
+   "rewards": {
+    "spellId": 5300,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "zzOLD Training the Beast"
   },
   "94050": {
    "categoryId": 261,
@@ -86235,6 +88144,28 @@
    "title": "Locating the Lost City",
    "zoneAreaId": 33
   },
+  "95771": {
+   "areaDescription": "Scout through the Fargodeep Mine",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 6,
+   "questType": 0,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 270298
+     }
+    ],
+    "money": 350,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "A Taste of Darkness",
+   "zoneAreaId": 12
+  },
   "95772": {
    "description": "Me brother tried draggin' me off tae the Wetlands with some diggin' crew out o' Loch Modan. Said they were headin' into hills no dwarf's ever set boot in for some sort o' excavation.\r\n\r\nAye, I'd 'ave gone, if I wasn't already behind on this pile o' girdles I've got to refit.\r\n\r\nDaewyn normally writes after he sends off, though. Haven't heard a thing, gives me a strange feelin' this time.\r\n\r\nIf yer marchin' that way, mind checking in on me brother?",
    "flags": 8,
@@ -86375,6 +88306,54 @@
    },
    "sources": 1,
    "title": "The Drowned City",
+   "zoneAreaId": 16550
+  },
+  "95776": {
+   "description": "You have done well to slay the naga just off of our coast, but the fact that they are in our waters in such numbers means there is yet a larger threat.\r\n\r\nI have spoken to Kin'weelay, and he thinks these Brinescale naga are infiltrating the ruins of the Drowned City. If the naga are there, then they are up to no good and are likely searching for something.\r\n\r\nWe can't let them get their hands on anything that could compromise us here and it is time to put an end to this. Slay their leader and return to me.",
+   "flags": 33554696,
+   "level": 38,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 471330,
+     "objectId": 258924,
+     "storageIndex": 4,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Slay Var'Taka in the Drowned City.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 279888
+     },
+     {
+      "count": 1,
+      "itemId": 279889
+     }
+    ],
+    "money": 13000,
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 5
+     },
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 2.675
+   },
+   "sources": 1,
+   "title": "The Only Good Brinescale...",
    "zoneAreaId": 16550
   },
   "95795": {
@@ -86627,6 +88606,99 @@
    "startItemId": 270896,
    "title": "Sign Me Up!",
    "zoneAreaId": 17
+  },
+  "95820": {
+   "description": "We have done well to create great relationships with the merchants and craftspeople of Orgrimmar. Among these excellent relationships is an orc named Karolek, a leatherworker who ensures a steady supply of hides and other useful equipment to us.\r\n\r\nHe also happens to be great at making signs!\r\n\r\nIf you'd like to get your sign made fast, I would recommend him over anyone else. Let him know I sent you.",
+   "flags": 36700160,
+   "level": 60,
+   "minLevel": 1,
+   "nextQuestId": 95821,
+   "objectivesText": "Meet Karolek at the Kodohide Leatherworkers shop in Orgrimmar.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 900,
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Karolek",
+   "zoneAreaId": 1637
+  },
+  "95821": {
+   "description": "The materials for the sign should be easy to come by as an accomplished crafter like yourself. All we will need is $1oa Heavy Leather and $2oa Mithril Bars.\r\n\r\nNormally for a rush order I would charge a few gold, but I have had a craving for homemade Goldthorn Tea lately. Don't worry, I enjoy making it myself, but I do need $3oa Goldthorn to make it happen.\r\n\r\nIf you bring me all of these, you'll have your first sign ready to go in no time!",
+   "flags": 3145728,
+   "level": 60,
+   "minLevel": 1,
+   "objectives": [
+    {
+     "amount": 30,
+     "id": 471456,
+     "objectId": 4234,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 12,
+     "id": 471457,
+     "objectId": 3860,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 5,
+     "id": 471458,
+     "objectId": 3821,
+     "storageIndex": 5,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the requested materials to Karolek in the Kodohide Leatherworkers shop in Orgrimmar.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 270877
+     },
+     {
+      "count": 1,
+      "itemId": 270878
+     },
+     {
+      "count": 1,
+      "itemId": 270880
+     },
+     {
+      "count": 1,
+      "itemId": 270881
+     },
+     {
+      "count": 1,
+      "itemId": 270882
+     },
+     {
+      "count": 1,
+      "itemId": 270883
+     }
+    ],
+    "items": [
+     {
+      "count": 1,
+      "itemId": 270870
+     }
+    ],
+    "money": 9000,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "A Quick Craft",
+   "zoneAreaId": 1637
   },
   "95883": {
    "description": "<The preparations for a hastily-assembled ritual are gathered unceremoniously on the altar. According to the scrap of note, everything has been gathered. All that's missing are the offering of blood and the Tortured Soul.\r\n\r\nThe undead around you look tortured enough. They may have what you seek.>",
@@ -87935,6 +90007,27 @@
    "startItemId": 273659,
    "title": "A Darker Truth",
    "zoneAreaId": 215
+  },
+  "96339": {
+   "flags": 33554432,
+   "flagsEx": 128,
+   "level": 60,
+   "minLevel": 0,
+   "questType": 0,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 276236
+     }
+    ],
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Legacy Reward: Replica Ironforge Air Rifle",
+   "zoneAreaId": 17
   },
   "96390": {
    "description": "Dark Iron spies have infiltrated Dun Morogh. To what end I canna' be sure, but this is a problem we need to nip in the bud before it is allowed to grow.\r\n\r\nHead eastward to Ironband's Compound and kill the Dark Iron spies that you find there.",
@@ -96902,6 +98995,33 @@
    "startItemId": 281139,
    "title": "Thunderhorn's Report",
    "zoneAreaId": 215
+  },
+  "98447": {
+   "description": "Despite you putting down the Valor family ghosts, the reports of attacks have not ceased. It was a good gamble, but perhaps we did not settle their unfinished business after all.\r\n\r\nFrom my research, it sounds like this family all went missing at the same time. Whatever trauma caused their spirits to be chained to this realm must have happened all at once.\r\n\r\nOur only clue is where you found the book. Return to Raven Hill and see what you can find. Maybe bringing their weapons will spark something.",
+   "flags": 36700168,
+   "level": 27,
+   "minLevel": 18,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 477671,
+     "objectId": 272450,
+     "storageIndex": 0,
+     "text": "Raven Hill investigated",
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Find the cause of the Valor family ghosts in Raven Hill for Sirra Von'Indi in Darkshire.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Valor Family",
+   "zoneAreaId": 10
   },
   "98459": {
    "description": "Bart Tidewater's a no-good cheapskate, I tell ya!\r\n\r\n\"Captain of the Maiden's Virtue\" he calls himself. That ship's sailed as far as a rock in Tanaris! He's no captain, he's an actor who won enough hands of poker to buy the Virtue in the first place!\r\n\r\nIf you ever find yourself in Menethil Harbor over in the Wetlands, give this to him and let him know it's from ol' Half-fish.\r\n\r\nThere's a boat from here that can take you right to the harbor, by the way. It'll be the second stop!\r\n\r\nAnd he cheats at poker!",
