@@ -1,5 +1,33 @@
 {
  "items": {
+  "2169": {
+   "itemLevel": 21,
+   "labels": {
+    "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": "damage per second",
+    "ITEM_MOD_SPELL_DAMAGE_VS_ELEMENTAL_SHORT": "Spell Damage Vs Elementals",
+    "ITEM_MOD_SPELL_POWER_SHORT": "Spell Power"
+   },
+   "minLevel": 16,
+   "name": "Buzzer Blade",
+   "quality": 3,
+   "sellPrice": 1963,
+   "sources": 1,
+   "stats": {
+    "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 9,
+    "ITEM_MOD_SPELL_DAMAGE_VS_ELEMENTAL_SHORT": 9,
+    "ITEM_MOD_SPELL_POWER_SHORT": 22
+   },
+   "tooltip": [
+    "Buzzer Blade",
+    "Binds when picked up",
+    "Main Hand | Dagger",
+    "9 - 18 Damage | Speed 1.50",
+    "(9.0 damage per second)",
+    "Equip: Increases damage and healing done by magical spells and effects by up to 22.",
+    "Equip: Increases damage done to Elementals by magical spells and effects by up to 9.",
+    "Requires Level 16"
+   ]
+  },
   "2907": {
    "itemLevel": 20,
    "labels": {
@@ -10,7 +38,7 @@
    "name": "Dwarven Tree Chopper",
    "quality": 2,
    "sellPrice": 1755,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 13.0303,
     "ITEM_MOD_EXPERTISE_RATING_SHORT": 6
@@ -34,7 +62,7 @@
    "name": "Frost Tiger Blade",
    "quality": 2,
    "sellPrice": 13784,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_CRIT_RATING_SHORT": 14,
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 28.8235
@@ -58,7 +86,7 @@
    "name": "Smotts' Compass",
    "quality": 2,
    "sellPrice": 9347,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DODGE_RATING_SHORT": 12
    },
@@ -81,7 +109,7 @@
    "name": "Servomechanic Sledgehammer",
    "quality": 2,
    "sellPrice": 14887,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 30.2273,
     "ITEM_MOD_EXPERTISE_RATING_SHORT": 10,
@@ -98,6 +126,33 @@
     "Requires Engineering (100)"
    ]
   },
+  "4771": {
+   "itemLevel": 17,
+   "labels": {
+    "ITEM_MOD_SPELL_DAMAGE_VS_BEAST_SHORT": "Spell Damage Vs Beasts",
+    "ITEM_MOD_SPIRIT_SHORT": "Spirit",
+    "RESISTANCE0_NAME": "Armor"
+   },
+   "minLevel": 12,
+   "name": "Harvest Cloak",
+   "quality": 2,
+   "sellPrice": 264,
+   "sources": 1,
+   "stats": {
+    "ITEM_MOD_SPELL_DAMAGE_VS_BEAST_SHORT": 4,
+    "ITEM_MOD_SPIRIT_SHORT": 2,
+    "RESISTANCE0_NAME": 15
+   },
+   "tooltip": [
+    "Harvest Cloak",
+    "Binds when equipped",
+    "Back",
+    "15 Armor",
+    "+2 Spirit",
+    "Equip: Increases damage done to Beasts by magical spells and effects by up to 4.",
+    "Requires Level 12"
+   ]
+  },
   "4976": {
    "itemLevel": 41,
    "labels": {
@@ -108,7 +163,7 @@
    "name": "Mistspray Kilt",
    "quality": 2,
    "sellPrice": 5486,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SPIRIT_SHORT": 17,
     "RESISTANCE0_NAME": 99
@@ -131,7 +186,7 @@
    "name": "Rock Pulverizer",
    "quality": 2,
    "sellPrice": 16078,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ATTACK_POWER_SHORT": 34,
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 31.2162
@@ -154,7 +209,7 @@
    "name": "Test HP Ring",
    "quality": 0,
    "sellPrice": 1052,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_HEALTH_SHORT": 2500
    },
@@ -174,7 +229,7 @@
    "name": "Test MP Ring",
    "quality": 0,
    "sellPrice": 1052,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_MANA_SHORT": 2500
    },
@@ -196,7 +251,7 @@
    "name": "Fletcher's Gloves",
    "quality": 2,
    "sellPrice": 690,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_CRIT_RATING_SHORT": 14,
     "ITEM_MOD_PARRY_RATING_SHORT": -15,
@@ -222,7 +277,7 @@
    "name": "Herbalist's Gloves",
    "quality": 2,
    "sellPrice": 861,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_HERBALISM_SHORT": 5,
     "RESISTANCE0_NAME": 55
@@ -246,7 +301,7 @@
    "name": "Frost Leather Cloak",
    "quality": 2,
    "sellPrice": 2269,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FROST_DAMAGE_DONE_SHORT": 11,
     "RESISTANCE0_NAME": 24
@@ -269,7 +324,7 @@
    "name": "Gnomish Universal Remote",
    "quality": 2,
    "sellPrice": 500,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ATTACK_POWER_VS_MECHANICAL_SHORT": 18
    },
@@ -292,7 +347,7 @@
    "name": "Ornate Mithril Boots",
    "quality": 2,
    "sellPrice": 6739,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DODGE_RATING_SHORT": 12,
     "RESISTANCE0_NAME": 324
@@ -318,7 +373,7 @@
    "name": "Hands of Thero-shan",
    "quality": 2,
    "sellPrice": 1372,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAGGERS_SHORT": 4,
     "ITEM_MOD_NATURE_RESISTANCE_SHORT": 8,
@@ -352,7 +407,7 @@
    "name": "Steel Breastplate",
    "quality": 2,
    "sellPrice": 6488,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_BLOCK_RATING_SHORT": 10,
     "ITEM_MOD_STAMINA_SHORT": 12,
@@ -377,7 +432,7 @@
    "name": "Band of the Great Tortoise",
    "quality": 2,
    "sellPrice": 2092,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "RESISTANCE0_NAME": 120
    },
@@ -398,7 +453,7 @@
    "name": "Red Mageweave Vest",
    "quality": 2,
    "sellPrice": 5799,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_INTELLECT_SHORT": 18,
     "RESISTANCE0_NAME": 57
@@ -422,7 +477,7 @@
    "name": "Cindercloth Robe",
    "quality": 2,
    "sellPrice": 6644,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FIRE_DAMAGE_DONE_SHORT": 27,
     "RESISTANCE0_NAME": 59
@@ -446,7 +501,7 @@
    "name": "Diabolist's Blade",
    "quality": 2,
    "sellPrice": 2653,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 12.6667,
     "ITEM_MOD_SHADOW_DAMAGE_DONE_SHORT": 6
@@ -470,7 +525,7 @@
    "name": "Glimmering Mithril Insignia",
    "quality": 2,
    "sellPrice": 9347,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "RESISTANCE0_NAME": 100
    },
@@ -495,7 +550,7 @@
    "name": "Fire Goggles",
    "quality": 2,
    "sellPrice": 3478,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FIRE_RESISTANCE_SHORT": 17,
     "RESISTANCE0_NAME": 44,
@@ -520,7 +575,7 @@
    "name": "Mithril Heavy-bore Rifle",
    "quality": 2,
    "sellPrice": 11369,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 20.1724,
     "ITEM_MOD_RANGED_ATTACK_POWER_SHORT": 14
@@ -546,7 +601,7 @@
    "name": "Goblin Mining Helmet",
    "quality": 2,
    "sellPrice": 5255,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_MINING_SHORT": 5,
     "ITEM_MOD_STAMINA_SHORT": 15,
@@ -580,7 +635,7 @@
    "name": "Resist Test Item",
    "quality": 1,
    "sellPrice": 1632,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FIRE_RESISTANCE_SHORT": -50,
     "ITEM_MOD_FROST_RESISTANCE_SHORT": -50,
@@ -610,7 +665,7 @@
    "name": "Enchanted Azsharite Felbane Staff",
    "quality": 2,
    "sellPrice": 52747,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ATTACK_POWER_SHORT": 40,
     "ITEM_MOD_ATTACK_POWER_VS_DEMON_SHORT": 39,
@@ -637,7 +692,7 @@
    "name": "Gnomish Mind Control Cap",
    "quality": 2,
    "sellPrice": 5520,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SPIRIT_SHORT": 14,
     "RESISTANCE0_NAME": 50
@@ -661,7 +716,7 @@
    "name": "Cragwood Maul",
    "quality": 3,
    "sellPrice": 16484,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 37.1429,
     "ITEM_MOD_STAMINA_SHORT": 24
@@ -685,7 +740,7 @@
    "name": "Massive Longbow",
    "quality": 2,
    "sellPrice": 13590,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_BLOCK_VALUE_SHORT": 9,
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 21.9643
@@ -711,7 +766,7 @@
    "name": "Sylvan Shortbow",
    "quality": 2,
    "sellPrice": 15765,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 22.75,
     "ITEM_MOD_NATURE_RESISTANCE_SHORT": 6,
@@ -738,7 +793,7 @@
    "name": "Pridemail Leggings",
    "quality": 2,
    "sellPrice": 25144,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_NATURE_DAMAGE_DONE_SHORT": 29,
     "ITEM_MOD_SPIRIT_SHORT": 13,
@@ -764,7 +819,7 @@
    "name": "Staff of Protection",
    "quality": 2,
    "sellPrice": 12619,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 27.6667,
     "ITEM_MOD_SPELL_RESISTANCE_ALL_SCHOOLS_SHORT": 6,
@@ -791,7 +846,7 @@
    "name": "Savage Mail Tunic",
    "quality": 2,
    "sellPrice": 27510,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_STRENGTH_SHORT": 27,
     "RESISTANCE0_NAME": 332
@@ -815,7 +870,7 @@
    "name": "Inlaid Thorium Hammer",
    "quality": 2,
    "sellPrice": 38871,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 41.8333,
     "ITEM_MOD_STRENGTH_SHORT": 23
@@ -840,7 +895,7 @@
    "name": "Huge Thorium Battleaxe",
    "quality": 2,
    "sellPrice": 41827,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 43.4286,
     "ITEM_MOD_TWOHANDED_AXES_SHORT": 2
@@ -864,7 +919,7 @@
    "name": "Alex's Ring of Audacity",
    "quality": 6,
    "sellPrice": 0,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DEFENSE_SKILL_RATING_SHORT": 1000
    },
@@ -884,7 +939,7 @@
    "name": "Test Sword Chest",
    "quality": 1,
    "sellPrice": 9488,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SWORDS_SHORT": 40,
     "RESISTANCE0_NAME": 541
@@ -908,7 +963,7 @@
    "name": "Hameya's Cloak",
    "quality": 2,
    "sellPrice": 11860,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ARCANE_RESISTANCE_SHORT": 15,
     "RESISTANCE0_NAME": 39,
@@ -932,7 +987,7 @@
    "name": "Shadowskin Spaulders",
    "quality": 2,
    "sellPrice": 11290,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_AGILITY_SHORT": 18,
     "RESISTANCE0_NAME": 108
@@ -955,7 +1010,7 @@
    "name": "Thorium Rifle",
    "quality": 2,
    "sellPrice": 19739,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 24.2,
     "ITEM_MOD_RANGED_ATTACK_POWER_SHORT": 17
@@ -981,7 +1036,7 @@
    "name": "Shard of the Defiler",
    "quality": 5,
    "sellPrice": 159115,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_CRIT_RATING_SHORT": 210,
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 51.3636,
@@ -1017,7 +1072,7 @@
    "name": "The Twin Blades of Azzinoth",
    "quality": 6,
    "sellPrice": 1224473,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_AGILITY_SHORT": 75,
     "ITEM_MOD_ARCANE_RESISTANCE_SHORT": 100,
@@ -1057,7 +1112,7 @@
    "name": "Gyrofreeze Ice Reflector",
    "quality": 3,
    "sellPrice": 12500,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FROST_RESISTANCE_SHORT": 15,
     "RESISTANCE4_NAME": 15
@@ -1082,7 +1137,7 @@
    "name": "Hyper-Radiant Flame Reflector",
    "quality": 3,
    "sellPrice": 12500,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FIRE_RESISTANCE_SHORT": 18,
     "RESISTANCE2_NAME": 18
@@ -1107,7 +1162,7 @@
    "name": "Ultra-Flash Shadow Reflector",
    "quality": 3,
    "sellPrice": 12500,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SHADOW_RESISTANCE_SHORT": 20,
     "RESISTANCE5_NAME": 20
@@ -1132,7 +1187,7 @@
    "name": "Nat Pagle's Extreme Angler FC-5000",
    "quality": 2,
    "sellPrice": 28580,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 38.8333,
     "ITEM_MOD_FISHING_SHORT": 25
@@ -1158,7 +1213,7 @@
    "name": "Ring of Subtlety",
    "quality": 2,
    "sellPrice": 11145,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_MANA_REGENERATION_SHORT": 4
    },
@@ -1179,7 +1234,7 @@
    "name": "Wand of Biting Cold",
    "quality": 3,
    "sellPrice": 44327,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 64,
     "ITEM_MOD_FROST_DAMAGE_DONE_SHORT": 16
@@ -1203,7 +1258,7 @@
    "name": "Rune of the Guard Captain",
    "quality": 2,
    "sellPrice": 10002,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ATTACK_POWER_SHORT": 14,
     "ITEM_MOD_HIT_RATING_SHORT": 7
@@ -1225,7 +1280,7 @@
    "name": "Ring of Spell Power",
    "quality": 4,
    "sellPrice": 91453,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SPELL_POWER_SHORT": 33
    },
@@ -1248,7 +1303,7 @@
    "name": "Blackguard",
    "quality": 4,
    "sellPrice": 102890,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 51.6667,
     "ITEM_MOD_PARRY_RATING_SHORT": 15,
@@ -1275,7 +1330,7 @@
    "name": "Tome of Arcane Domination",
    "quality": 4,
    "sellPrice": 125000,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ARCANE_DAMAGE_DONE_SHORT": 34,
     "ITEM_MOD_MANA_REGENERATION_SHORT": 3
@@ -1299,7 +1354,7 @@
    "name": "Tome of Fiery Arcana",
    "quality": 4,
    "sellPrice": 125000,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FIRE_DAMAGE_DONE_SHORT": 40
    },
@@ -1323,7 +1378,7 @@
    "name": "The Immovable Object",
    "quality": 4,
    "sellPrice": 159059,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_BLOCK_VALUE_SHORT": 27,
     "ITEM_MOD_STAMINA_SHORT": 15,
@@ -1351,7 +1406,7 @@
    "name": "Arcanite Fishing Pole",
    "quality": 3,
    "sellPrice": 2175,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 17.5,
     "ITEM_MOD_FISHING_SHORT": 35
@@ -1381,7 +1436,7 @@
    "name": "Blue Dragonscale Leggings",
    "quality": 3,
    "sellPrice": 31083,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ARCANE_RESISTANCE_SHORT": 12,
     "ITEM_MOD_INTELLECT_SHORT": 20,
@@ -1416,7 +1471,7 @@
    "name": "Staff of Spell Penetration - Fire (TEST)",
    "quality": 3,
    "sellPrice": 73633,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FIRE_PENETRATION_SHORT": 300
    },
@@ -1439,7 +1494,7 @@
    "name": "Staff of Spell Penetration - Frost (TEST)",
    "quality": 3,
    "sellPrice": 68652,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FROST_PENETRATION_SHORT": 300
    },
@@ -1465,7 +1520,7 @@
    "name": "Death's Sting",
    "quality": 4,
    "sellPrice": 206967,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ATTACK_POWER_SHORT": 38,
     "ITEM_MOD_DAGGERS_SHORT": 3,
@@ -1496,7 +1551,7 @@
    "name": "Might of Cenarius",
    "quality": 4,
    "sellPrice": 188888,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_HIT_RATING_SHORT": 10,
     "ITEM_MOD_PHYSICAL_DAMAGE_DONE_SHORT": 4,
@@ -1521,7 +1576,7 @@
    "name": "Dagger of Spell Penetration - Fire 150 Resist (TEST)",
    "quality": 3,
    "sellPrice": 59557,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FIRE_PENETRATION_SHORT": 150
    },
@@ -1544,7 +1599,7 @@
    "name": "Dagger of Spell Penetration - Frost 150 Resist (TEST)",
    "quality": 3,
    "sellPrice": 59978,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FROST_PENETRATION_SHORT": 150
    },
@@ -1568,7 +1623,7 @@
    "name": "Ring of Swarming Thought",
    "quality": 4,
    "sellPrice": 85399,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SPELL_PENETRATION_SHORT": 5,
     "ITEM_MOD_SPELL_POWER_SHORT": 26
@@ -1594,7 +1649,7 @@
    "name": "Heavy Obsidian Belt",
    "quality": 3,
    "sellPrice": 14282,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SPELL_RESISTANCE_ALL_SCHOOLS_SHORT": 5,
     "ITEM_MOD_STRENGTH_SHORT": 25,
@@ -1619,7 +1674,7 @@
    "name": "Band of Reanimation",
    "quality": 4,
    "sellPrice": 113642,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_AGILITY_SHORT": 34
    },
@@ -1641,7 +1696,7 @@
    "name": "Eye of Diminution",
    "quality": 4,
    "sellPrice": 91160,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_CRIT_RATING_SHORT": 28
    },
@@ -1663,7 +1718,7 @@
    "name": "Warmth of Forgiveness",
    "quality": 4,
    "sellPrice": 91160,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_MANA_REGENERATION_SHORT": 10
    },
@@ -1686,7 +1741,7 @@
    "name": "Glyph of Deflection",
    "quality": 4,
    "sellPrice": 91160,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_BLOCK_RATING_SHORT": 15,
     "ITEM_MOD_BLOCK_VALUE_SHORT": 23
@@ -1710,7 +1765,7 @@
    "name": "Slayer's Crest",
    "quality": 4,
    "sellPrice": 91160,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ATTACK_POWER_SHORT": 64
    },
@@ -1732,7 +1787,7 @@
    "name": "The Restrained Essence of Sapphiron",
    "quality": 4,
    "sellPrice": 91160,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SPELL_POWER_SHORT": 40
    },
@@ -1754,7 +1809,7 @@
    "name": "Eye of the Dead",
    "quality": 4,
    "sellPrice": 91160,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SPELL_HEALING_DONE_SHORT": 70
    },
@@ -1777,7 +1832,7 @@
    "name": "Life Channeling Necklace",
    "quality": 4,
    "sellPrice": 88355,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_MANA_REGENERATION_SHORT": 6,
     "ITEM_MOD_SPELL_HEALING_DONE_SHORT": 70
@@ -1896,7 +1951,7 @@
    "name": "Mark of the Champion",
    "quality": 4,
    "sellPrice": 0,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SPELL_DAMAGE_VS_DEMON_SHORT": 85,
     "ITEM_MOD_SPELL_DAMAGE_VS_UNDEAD_SHORT": 85
@@ -1920,7 +1975,7 @@
    "name": "Moonsight Rifle",
    "quality": 2,
    "sellPrice": 2452,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ATTACK_POWER_VS_BEAST_SHORT": 9,
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 10.8824
@@ -1952,7 +2007,7 @@
    "name": "Molten Heart of the Mountain",
    "quality": 3,
    "sellPrice": 1500,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FIRE_RESISTANCE_SHORT": 7,
     "ITEM_MOD_FROST_RESISTANCE_SHORT": 7,
@@ -1988,7 +2043,7 @@
    "name": "Shining Circlet",
    "quality": 3,
    "sellPrice": 984,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_HOLY_DAMAGE_DONE_SHORT": 11,
     "ITEM_MOD_STAMINA_SHORT": 10,
@@ -2015,7 +2070,7 @@
    "name": "Filigreed Pearly Circlet",
    "quality": 3,
    "sellPrice": 1695,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ARCANE_DAMAGE_DONE_SHORT": 14,
     "ITEM_MOD_STAMINA_SHORT": 12,
@@ -2042,7 +2097,7 @@
    "name": "Filigreed Shining Circlet",
    "quality": 3,
    "sellPrice": 1545,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_HOLY_DAMAGE_DONE_SHORT": 14,
     "ITEM_MOD_STAMINA_SHORT": 12,
@@ -2070,7 +2125,7 @@
    "name": "Keen Skinning Knife",
    "quality": 2,
    "sellPrice": 582,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 6.3333,
     "ITEM_MOD_INTELLECT_SHORT": 2,
@@ -2098,7 +2153,7 @@
    "name": "Witchdoctor's Dress",
    "quality": 2,
    "sellPrice": 4620,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_INTELLECT_SHORT": 17,
     "RESISTANCE0_NAME": 54
@@ -2121,7 +2176,7 @@
    "name": "Bloodied Longmace",
    "quality": 2,
    "sellPrice": 28889,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 38.7037,
     "ITEM_MOD_STAMINA_SHORT": 21
@@ -2145,7 +2200,7 @@
    "name": "Cleansed Vilebranch Medallion",
    "quality": 2,
    "sellPrice": 9540,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ATTACK_POWER_SHORT": 14,
     "ITEM_MOD_HIT_RATING_SHORT": 7
@@ -2168,7 +2223,7 @@
    "name": "Ironwood Destroyer",
    "quality": 2,
    "sellPrice": 7215,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 22.2059,
     "ITEM_MOD_NATURE_DAMAGE_DONE_SHORT": 19
@@ -2191,7 +2246,7 @@
    "name": "Adaptive Combat Assistant",
    "quality": 3,
    "sellPrice": 16250,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_EXPERTISE_RATING_SHORT": 20
    },
@@ -2214,7 +2269,7 @@
    "name": "Serenity Field",
    "quality": 3,
    "sellPrice": 16250,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SPELL_DAMAGE_DONE_SHORT": 14,
     "ITEM_MOD_SPELL_HEALING_DONE_SHORT": 42
@@ -2237,7 +2292,7 @@
    "name": "Defender's Grip Stabilizer",
    "quality": 3,
    "sellPrice": 24705,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DEFENSE_SKILL_RATING_SHORT": 13
    },
@@ -2259,7 +2314,7 @@
    "name": "Toy Soldier",
    "quality": 2,
    "sellPrice": 15303,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_HEALTH_REGEN_SHORT": 16
    },
@@ -2281,7 +2336,7 @@
    "name": "Sea Giant's Toe Ring",
    "quality": 2,
    "sellPrice": 2955,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SPELL_DAMAGE_DONE_SHORT": 6,
     "ITEM_MOD_SPELL_HEALING_DONE_SHORT": 18
@@ -2305,7 +2360,7 @@
    "name": "Everlook Pathcarver",
    "quality": 3,
    "sellPrice": 15081,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_NATURE_RESISTANCE_SHORT": 20,
     "RESISTANCE3_NAME": 20
@@ -2330,7 +2385,7 @@
    "name": "Everlook Delivery Bot",
    "quality": 3,
    "sellPrice": 15137,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FROST_RESISTANCE_SHORT": 20,
     "RESISTANCE4_NAME": 20
@@ -2355,7 +2410,7 @@
    "name": "Parachute-Priest Pager",
    "quality": 3,
    "sellPrice": 15192,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_SHADOW_RESISTANCE_SHORT": 20,
     "RESISTANCE5_NAME": 20
@@ -2380,7 +2435,7 @@
    "name": "Neophyte's Wand",
    "quality": 2,
    "sellPrice": 8660,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 32.75,
     "ITEM_MOD_SHADOW_DAMAGE_DONE_SHORT": 7
@@ -2405,7 +2460,7 @@
    "name": "Hurley's Felling Axe",
    "quality": 2,
    "sellPrice": 12896,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 27.7273,
     "ITEM_MOD_STRENGTH_SHORT": 7,
@@ -2433,7 +2488,7 @@
    "name": "Twilight Mine Light",
    "quality": 2,
    "sellPrice": 5018,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_MINING_SHORT": 4,
     "ITEM_MOD_SPELL_POWER_SHORT": 13,
@@ -2461,7 +2516,7 @@
    "name": "Punchy's Punchers",
    "quality": 2,
    "sellPrice": 9889,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_FIST_WEAPONS_SHORT": 1,
     "ITEM_MOD_STRENGTH_SHORT": 13,
@@ -2488,7 +2543,7 @@
    "name": "Glaive Thrower Muffler",
    "quality": 2,
    "sellPrice": 37992,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ATTACK_POWER_VS_MECHANICAL_SHORT": 15,
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 34.4444,
@@ -2517,7 +2572,7 @@
    "name": "Demonbane Blade",
    "quality": 2,
    "sellPrice": 50215,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ATTACK_POWER_SHORT": 38,
     "ITEM_MOD_ATTACK_POWER_VS_DEMON_SHORT": 45,
@@ -2543,7 +2598,7 @@
    "name": "Wardcleaver",
    "quality": 3,
    "sellPrice": 29921,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 41.8571,
     "ITEM_MOD_SPELL_PENETRATION_SHORT": 27
@@ -2568,7 +2623,7 @@
    "name": "Bladewind",
    "quality": 2,
    "sellPrice": 16843,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 31.3333,
     "ITEM_MOD_STAMINA_SHORT": 4,
@@ -2597,7 +2652,7 @@
    "name": "Claw of Shalla'kal",
    "quality": 2,
    "sellPrice": 40796,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_ATTACK_POWER_SHORT": 10,
     "ITEM_MOD_ATTACK_POWER_VS_BEAST_SHORT": 27,
@@ -2624,7 +2679,7 @@
    "name": "Enduring Chain Vest",
    "quality": 2,
    "sellPrice": 10077,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_HEALTH_REGEN_SHORT": 127,
     "ITEM_MOD_MANA_REGENERATION_SHORT": 5,
@@ -2650,7 +2705,7 @@
    "name": "Last Week's Ration",
    "quality": 1,
    "sellPrice": 2,
-   "sources": 1,
+   "sources": 2,
    "stats": {
     "ITEM_MOD_COOKING_SHORT": -1,
     "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 0.75
@@ -2661,6 +2716,63 @@
     "1 - 2 Damage | Speed 2.00",
     "(0.7 damage per second)",
     "Equip: Decreased Cooking -1."
+   ]
+  },
+  "279835": {
+   "itemLevel": 36,
+   "labels": {
+    "ITEM_MOD_SPELL_DAMAGE_VS_ELEMENTAL_SHORT": "Spell Damage Vs Elementals",
+    "ITEM_MOD_SPELL_POWER_SHORT": "Spell Power",
+    "ITEM_MOD_STAMINA_SHORT": "Stamina",
+    "RESISTANCE0_NAME": "Armor"
+   },
+   "minLevel": 1,
+   "name": "Vine Pruner's Cloak",
+   "quality": 2,
+   "sellPrice": 2360,
+   "sources": 1,
+   "stats": {
+    "ITEM_MOD_SPELL_DAMAGE_VS_ELEMENTAL_SHORT": 5,
+    "ITEM_MOD_SPELL_POWER_SHORT": 5,
+    "ITEM_MOD_STAMINA_SHORT": 6,
+    "RESISTANCE0_NAME": 24
+   },
+   "tooltip": [
+    "Vine Pruner's Cloak",
+    "Binds when picked up",
+    "Back",
+    "24 Armor",
+    "+6 Stamina",
+    "Equip: Increases damage and healing done by magical spells and effects by up to 5.",
+    "Equip: Increases damage done to Elementals by magical spells and effects by up to 5."
+   ]
+  },
+  "285328": {
+   "itemLevel": 28,
+   "labels": {
+    "ITEM_MOD_ATTACK_POWER_VS_HUMANOID_SHORT": "Attack Power Vs Humanoids",
+    "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": "damage per second",
+    "ITEM_MOD_STAMINA_SHORT": "Stamina"
+   },
+   "minLevel": 23,
+   "name": "Taurenbane's Family Cleaver",
+   "quality": 3,
+   "sellPrice": 5572,
+   "sources": 1,
+   "stats": {
+    "ITEM_MOD_ATTACK_POWER_VS_HUMANOID_SHORT": 32,
+    "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 22.9412,
+    "ITEM_MOD_STAMINA_SHORT": 9
+   },
+   "tooltip": [
+    "Taurenbane's Family Cleaver",
+    "Binds when picked up",
+    "Two-Hand | Axe",
+    "62 - 94 Damage | Speed 3.40",
+    "(22.9 damage per second)",
+    "+9 Stamina",
+    "Equip: +32 Attack Power against Humanoids.",
+    "Requires Level 23"
    ]
   }
  },
@@ -2676,7 +2788,17 @@
   "locale": "enUS",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 1
+  "sources": 2
  },
- "notLoaded": []
+ "notLoaded": [
+  867,
+  5444,
+  6695,
+  10919,
+  13017,
+  13056,
+  279836,
+  282778,
+  285095
+ ]
 }

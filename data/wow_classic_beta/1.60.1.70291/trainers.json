@@ -4,15 +4,7252 @@
   "clientBuild": "1.60.1.70291",
   "collectedOn": {
    "first": "2026-10-09",
-   "last": "2026-10-09"
+   "last": "2026-10-10"
   },
   "dataset": "trainers",
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 1
+  "sources": 3
  },
  "trainers": {
+  "3324": {
+   "lastSeen": "2026-10-09",
+   "name": "Grol'dar",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4818,
+     "mapY": 0.4629,
+     "uiMap": 1454,
+     "worldX": 1840.9,
+     "worldY": -4356.4
+    }
+   ],
+   "services": {
+    "126": {
+     "costs": {
+      "4": 2500
+     },
+     "icon": 136155,
+     "level": 22,
+     "name": "Eye of Kilrogg",
+     "rankText": "Summon",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 126
+    },
+    "132": {
+     "costs": {
+      "4": 4000
+     },
+     "icon": 136152,
+     "level": 26,
+     "name": "Detect Invisibility",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 132
+    },
+    "172": {
+     "costs": {
+      "4": 100
+     },
+     "icon": 136118,
+     "level": 0,
+     "name": "Corruption",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 172
+    },
+    "348": {
+     "costs": {
+      "4": 10
+     },
+     "icon": 135817,
+     "level": 0,
+     "name": "Immolate",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 348
+    },
+    "603": {
+     "costs": {
+      "4": 26000
+     },
+     "icon": 136122,
+     "level": 60,
+     "name": "Bane of Doom",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 603
+    },
+    "689": {
+     "costs": {
+      "4": 900
+     },
+     "icon": 136169,
+     "level": 0,
+     "name": "Drain Life",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 689
+    },
+    "693": {
+     "abilities": [
+      "Drain Soul (Rank 1)"
+     ],
+     "costs": {
+      "4": 1500
+     },
+     "icon": 136210,
+     "level": 0,
+     "name": "Create Soulstone",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 693
+    },
+    "695": {
+     "abilities": [
+      "Shadow Bolt (Rank 1)"
+     ],
+     "costs": {
+      "4": 100
+     },
+     "icon": 136197,
+     "level": 0,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 695
+    },
+    "696": {
+     "abilities": [
+      "Demon Skin (Rank 1)"
+     ],
+     "costs": {
+      "4": 300
+     },
+     "icon": 136185,
+     "level": 0,
+     "name": "Demon Skin",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 696
+    },
+    "698": {
+     "costs": {
+      "4": 2000
+     },
+     "icon": 136223,
+     "level": 20,
+     "name": "Ritual of Summoning",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 698
+    },
+    "699": {
+     "abilities": [
+      "Drain Life (Rank 1)"
+     ],
+     "costs": {
+      "4": 2500
+     },
+     "icon": 136169,
+     "level": 22,
+     "name": "Drain Life",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 699
+    },
+    "702": {
+     "costs": {
+      "4": 100
+     },
+     "icon": 136138,
+     "level": 0,
+     "name": "Curse of Weakness",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 702
+    },
+    "704": {
+     "costs": {
+      "4": 900
+     },
+     "icon": 136225,
+     "level": 0,
+     "name": "Curse of Recklessness",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 704
+    },
+    "705": {
+     "abilities": [
+      "Shadow Bolt (Rank 2)"
+     ],
+     "costs": {
+      "4": 600
+     },
+     "icon": 136197,
+     "level": 0,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 705
+    },
+    "706": {
+     "costs": {
+      "4": 2000
+     },
+     "icon": 136185,
+     "level": 20,
+     "name": "Demon Armor",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 706
+    },
+    "707": {
+     "abilities": [
+      "Immolate (Rank 1)"
+     ],
+     "costs": {
+      "4": 300
+     },
+     "icon": 135817,
+     "level": 0,
+     "name": "Immolate",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 707
+    },
+    "709": {
+     "abilities": [
+      "Drain Life (Rank 2)"
+     ],
+     "costs": {
+      "4": 6000
+     },
+     "icon": 136169,
+     "level": 30,
+     "name": "Drain Life",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 709
+    },
+    "710": {
+     "costs": {
+      "4": 5000
+     },
+     "icon": 136135,
+     "level": 28,
+     "name": "Banish",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 710
+    },
+    "755": {
+     "costs": {
+      "4": 600
+     },
+     "icon": 136168,
+     "level": 0,
+     "name": "Health Funnel",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 755
+    },
+    "980": {
+     "costs": {
+      "4": 200
+     },
+     "icon": 136139,
+     "level": 0,
+     "name": "Bane of Agony",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 980
+    },
+    "1014": {
+     "abilities": [
+      "Bane of Agony (Rank 1)"
+     ],
+     "costs": {
+      "4": 1500
+     },
+     "icon": 136139,
+     "level": 0,
+     "name": "Bane of Agony",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1014
+    },
+    "1086": {
+     "abilities": [
+      "Demon Armor (Rank 1)"
+     ],
+     "costs": {
+      "4": 6000
+     },
+     "icon": 136185,
+     "level": 30,
+     "name": "Demon Armor",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1086
+    },
+    "1088": {
+     "abilities": [
+      "Shadow Bolt (Rank 3)"
+     ],
+     "costs": {
+      "4": 2000
+     },
+     "icon": 136197,
+     "level": 20,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1088
+    },
+    "1094": {
+     "abilities": [
+      "Immolate (Rank 2)"
+     ],
+     "costs": {
+      "4": 2000
+     },
+     "icon": 135817,
+     "level": 20,
+     "name": "Immolate",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1094
+    },
+    "1098": {
+     "costs": {
+      "4": 6000
+     },
+     "icon": 136154,
+     "level": 30,
+     "name": "Subjugate Demon",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1098
+    },
+    "1106": {
+     "abilities": [
+      "Shadow Bolt (Rank 4)"
+     ],
+     "costs": {
+      "4": 5000
+     },
+     "icon": 136197,
+     "level": 28,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1106
+    },
+    "1108": {
+     "abilities": [
+      "Curse of Weakness (Rank 1)"
+     ],
+     "costs": {
+      "4": 600
+     },
+     "icon": 136138,
+     "level": 0,
+     "name": "Curse of Weakness",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1108
+    },
+    "1120": {
+     "costs": {
+      "4": 300
+     },
+     "icon": 136163,
+     "level": 0,
+     "name": "Drain Soul",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1120
+    },
+    "1454": {
+     "costs": {
+      "4": 100
+     },
+     "icon": 136126,
+     "level": 0,
+     "name": "Life Tap",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1454
+    },
+    "1455": {
+     "abilities": [
+      "Life Tap (Rank 1)"
+     ],
+     "costs": {
+      "4": 1200
+     },
+     "icon": 136126,
+     "level": 0,
+     "name": "Life Tap",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1455
+    },
+    "1456": {
+     "abilities": [
+      "Life Tap (Rank 2)"
+     ],
+     "costs": {
+      "4": 4000
+     },
+     "icon": 136126,
+     "level": 26,
+     "name": "Life Tap",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1456
+    },
+    "1714": {
+     "costs": {
+      "4": 4000
+     },
+     "icon": 136140,
+     "level": 26,
+     "name": "Curse of Tongues",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1714
+    },
+    "1949": {
+     "costs": {
+      "4": 6000
+     },
+     "icon": 135818,
+     "level": 30,
+     "name": "Hellfire",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1949
+    },
+    "2362": {
+     "abilities": [
+      "Drain Soul (Rank 1)"
+     ],
+     "costs": {
+      "4": 9000
+     },
+     "icon": 134131,
+     "level": 36,
+     "name": "Create Spellstone",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2362
+    },
+    "2941": {
+     "abilities": [
+      "Immolate (Rank 3)"
+     ],
+     "costs": {
+      "4": 6000
+     },
+     "icon": 135817,
+     "level": 30,
+     "name": "Immolate",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2941
+    },
+    "2970": {
+     "abilities": [
+      "Detect Invisibility (Rank 1)"
+     ],
+     "costs": {
+      "4": 10000
+     },
+     "icon": 136152,
+     "level": 38,
+     "name": "Detect Invisibility",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2970
+    },
+    "3698": {
+     "abilities": [
+      "Health Funnel (Rank 1)"
+     ],
+     "costs": {
+      "4": 2000
+     },
+     "icon": 136168,
+     "level": 20,
+     "name": "Health Funnel",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3698
+    },
+    "3699": {
+     "abilities": [
+      "Health Funnel (Rank 2)"
+     ],
+     "costs": {
+      "4": 5000
+     },
+     "icon": 136168,
+     "level": 28,
+     "name": "Health Funnel",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3699
+    },
+    "3700": {
+     "abilities": [
+      "Health Funnel (Rank 3)"
+     ],
+     "costs": {
+      "4": 9000
+     },
+     "icon": 136168,
+     "level": 36,
+     "name": "Health Funnel",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3700
+    },
+    "5138": {
+     "costs": {
+      "4": 3000
+     },
+     "icon": 136208,
+     "level": 24,
+     "name": "Drain Mana",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5138
+    },
+    "5484": {
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136147,
+     "level": 40,
+     "name": "Howl of Terror",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5484
+    },
+    "5500": {
+     "costs": {
+      "4": 3000
+     },
+     "icon": 136172,
+     "level": 24,
+     "name": "Sense Demons",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5500
+    },
+    "5676": {
+     "costs": {
+      "4": 1500
+     },
+     "icon": 135827,
+     "level": 0,
+     "name": "Searing Pain",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5676
+    },
+    "5697": {
+     "costs": {
+      "4": 1200
+     },
+     "icon": 136148,
+     "level": 0,
+     "name": "Unending Breath",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5697
+    },
+    "5699": {
+     "abilities": [
+      "Create Healthstone (Rank 2)"
+     ],
+     "costs": {
+      "4": 8000
+     },
+     "icon": 135230,
+     "level": 34,
+     "name": "Create Healthstone",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5699
+    },
+    "5740": {
+     "costs": {
+      "4": 2000
+     },
+     "icon": 136186,
+     "level": 20,
+     "name": "Rain of Fire",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5740
+    },
+    "5782": {
+     "costs": {
+      "4": 200
+     },
+     "icon": 136183,
+     "level": 0,
+     "name": "Fear",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5782
+    },
+    "6201": {
+     "abilities": [
+      "Drain Soul (Rank 1)"
+     ],
+     "costs": {
+      "4": 300
+     },
+     "icon": 135230,
+     "level": 0,
+     "name": "Create Healthstone",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6201
+    },
+    "6202": {
+     "abilities": [
+      "Create Healthstone (Rank 1)"
+     ],
+     "costs": {
+      "4": 2500
+     },
+     "icon": 135230,
+     "level": 22,
+     "name": "Create Healthstone",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6202
+    },
+    "6205": {
+     "abilities": [
+      "Curse of Weakness (Rank 2)"
+     ],
+     "costs": {
+      "4": 2500
+     },
+     "icon": 136138,
+     "level": 22,
+     "name": "Curse of Weakness",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6205
+    },
+    "6213": {
+     "abilities": [
+      "Fear (Rank 1)"
+     ],
+     "costs": {
+      "4": 7000
+     },
+     "icon": 136183,
+     "level": 32,
+     "name": "Fear",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6213
+    },
+    "6215": {
+     "abilities": [
+      "Fear (Rank 2)"
+     ],
+     "costs": {
+      "4": 22000
+     },
+     "icon": 136183,
+     "level": 56,
+     "name": "Fear",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6215
+    },
+    "6217": {
+     "abilities": [
+      "Bane of Agony (Rank 2)"
+     ],
+     "costs": {
+      "4": 5000
+     },
+     "icon": 136139,
+     "level": 28,
+     "name": "Bane of Agony",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6217
+    },
+    "6219": {
+     "abilities": [
+      "Rain of Fire (Rank 1)"
+     ],
+     "costs": {
+      "4": 8000
+     },
+     "icon": 136186,
+     "level": 34,
+     "name": "Rain of Fire",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6219
+    },
+    "6222": {
+     "abilities": [
+      "Corruption (Rank 1)"
+     ],
+     "costs": {
+      "4": 900
+     },
+     "icon": 136118,
+     "level": 0,
+     "name": "Corruption",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6222
+    },
+    "6223": {
+     "abilities": [
+      "Corruption (Rank 2)"
+     ],
+     "costs": {
+      "4": 3000
+     },
+     "icon": 136118,
+     "level": 24,
+     "name": "Corruption",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6223
+    },
+    "6226": {
+     "abilities": [
+      "Drain Mana (Rank 1)"
+     ],
+     "costs": {
+      "4": 8000
+     },
+     "icon": 136208,
+     "level": 34,
+     "name": "Drain Mana",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6226
+    },
+    "6229": {
+     "costs": {
+      "4": 7000
+     },
+     "icon": 136121,
+     "level": 32,
+     "name": "Shadow Ward",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6229
+    },
+    "6353": {
+     "costs": {
+      "4": 14000
+     },
+     "icon": 135808,
+     "level": 48,
+     "name": "Soul Fire",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6353
+    },
+    "6366": {
+     "costs": {
+      "4": 5000
+     },
+     "icon": 134085,
+     "level": 28,
+     "name": "Create Firestone",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6366
+    },
+    "6789": {
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136145,
+     "level": 42,
+     "name": "Death Coil",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6789
+    },
+    "7641": {
+     "abilities": [
+      "Shadow Bolt (Rank 5)"
+     ],
+     "costs": {
+      "4": 9000
+     },
+     "icon": 136197,
+     "level": 36,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7641
+    },
+    "7646": {
+     "abilities": [
+      "Curse of Weakness (Rank 3)"
+     ],
+     "costs": {
+      "4": 7000
+     },
+     "icon": 136138,
+     "level": 32,
+     "name": "Curse of Weakness",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7646
+    },
+    "7648": {
+     "abilities": [
+      "Corruption (Rank 3)"
+     ],
+     "costs": {
+      "4": 8000
+     },
+     "icon": 136118,
+     "level": 34,
+     "name": "Corruption",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7648
+    },
+    "7651": {
+     "abilities": [
+      "Drain Life (Rank 3)"
+     ],
+     "costs": {
+      "4": 10000
+     },
+     "icon": 136169,
+     "level": 38,
+     "name": "Drain Life",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7651
+    },
+    "7658": {
+     "abilities": [
+      "Curse of Recklessness (Rank 1)"
+     ],
+     "costs": {
+      "4": 5000
+     },
+     "icon": 136225,
+     "level": 28,
+     "name": "Curse of Recklessness",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7658
+    },
+    "7659": {
+     "abilities": [
+      "Curse of Recklessness (Rank 2)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136225,
+     "level": 42,
+     "name": "Curse of Recklessness",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7659
+    },
+    "8288": {
+     "abilities": [
+      "Drain Soul (Rank 1)"
+     ],
+     "costs": {
+      "4": 3000
+     },
+     "icon": 136163,
+     "level": 24,
+     "name": "Drain Soul",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8288
+    },
+    "8289": {
+     "abilities": [
+      "Drain Soul (Rank 2)"
+     ],
+     "costs": {
+      "4": 10000
+     },
+     "icon": 136163,
+     "level": 38,
+     "name": "Drain Soul",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8289
+    },
+    "11659": {
+     "abilities": [
+      "Shadow Bolt (Rank 6)"
+     ],
+     "costs": {
+      "4": 12000
+     },
+     "icon": 136197,
+     "level": 44,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11659
+    },
+    "11660": {
+     "abilities": [
+      "Shadow Bolt (Rank 7)"
+     ],
+     "costs": {
+      "4": 18000
+     },
+     "icon": 136197,
+     "level": 52,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11660
+    },
+    "11661": {
+     "abilities": [
+      "Shadow Bolt (Rank 8)"
+     ],
+     "costs": {
+      "4": 26000
+     },
+     "icon": 136197,
+     "level": 60,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 9",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11661
+    },
+    "11665": {
+     "abilities": [
+      "Immolate (Rank 4)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 135817,
+     "level": 40,
+     "name": "Immolate",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11665
+    },
+    "11667": {
+     "abilities": [
+      "Immolate (Rank 5)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 135817,
+     "level": 50,
+     "name": "Immolate",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11667
+    },
+    "11668": {
+     "abilities": [
+      "Immolate (Rank 6)"
+     ],
+     "costs": {
+      "4": 26000
+     },
+     "icon": 135817,
+     "level": 60,
+     "name": "Immolate",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11668
+    },
+    "11671": {
+     "abilities": [
+      "Corruption (Rank 4)"
+     ],
+     "costs": {
+      "4": 12000
+     },
+     "icon": 136118,
+     "level": 44,
+     "name": "Corruption",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11671
+    },
+    "11672": {
+     "abilities": [
+      "Corruption (Rank 5)"
+     ],
+     "costs": {
+      "4": 20000
+     },
+     "icon": 136118,
+     "level": 54,
+     "name": "Corruption",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11672
+    },
+    "11675": {
+     "abilities": [
+      "Drain Soul (Rank 3)"
+     ],
+     "costs": {
+      "4": 18000
+     },
+     "icon": 136163,
+     "level": 52,
+     "name": "Drain Soul",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11675
+    },
+    "11677": {
+     "abilities": [
+      "Rain of Fire (Rank 2)"
+     ],
+     "costs": {
+      "4": 13000
+     },
+     "icon": 136186,
+     "level": 46,
+     "name": "Rain of Fire",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11677
+    },
+    "11678": {
+     "abilities": [
+      "Rain of Fire (Rank 3)"
+     ],
+     "costs": {
+      "4": 24000
+     },
+     "icon": 136186,
+     "level": 58,
+     "name": "Rain of Fire",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11678
+    },
+    "11683": {
+     "abilities": [
+      "Hellfire (Rank 1)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 135818,
+     "level": 42,
+     "name": "Hellfire",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11683
+    },
+    "11684": {
+     "abilities": [
+      "Hellfire (Rank 2)"
+     ],
+     "costs": {
+      "4": 20000
+     },
+     "icon": 135818,
+     "level": 54,
+     "name": "Hellfire",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11684
+    },
+    "11687": {
+     "abilities": [
+      "Life Tap (Rank 3)"
+     ],
+     "costs": {
+      "4": 9000
+     },
+     "icon": 136126,
+     "level": 36,
+     "name": "Life Tap",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11687
+    },
+    "11688": {
+     "abilities": [
+      "Life Tap (Rank 4)"
+     ],
+     "costs": {
+      "4": 13000
+     },
+     "icon": 136126,
+     "level": 46,
+     "name": "Life Tap",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11688
+    },
+    "11689": {
+     "abilities": [
+      "Life Tap (Rank 5)"
+     ],
+     "costs": {
+      "4": 22000
+     },
+     "icon": 136126,
+     "level": 56,
+     "name": "Life Tap",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11689
+    },
+    "11693": {
+     "abilities": [
+      "Health Funnel (Rank 4)"
+     ],
+     "costs": {
+      "4": 12000
+     },
+     "icon": 136168,
+     "level": 44,
+     "name": "Health Funnel",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11693
+    },
+    "11694": {
+     "abilities": [
+      "Health Funnel (Rank 5)"
+     ],
+     "costs": {
+      "4": 18000
+     },
+     "icon": 136168,
+     "level": 52,
+     "name": "Health Funnel",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11694
+    },
+    "11695": {
+     "abilities": [
+      "Health Funnel (Rank 6)"
+     ],
+     "costs": {
+      "4": 26000
+     },
+     "icon": 136168,
+     "level": 60,
+     "name": "Health Funnel",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11695
+    },
+    "11699": {
+     "abilities": [
+      "Drain Life (Rank 4)"
+     ],
+     "costs": {
+      "4": 13000
+     },
+     "icon": 136169,
+     "level": 46,
+     "name": "Drain Life",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11699
+    },
+    "11700": {
+     "abilities": [
+      "Drain Life (Rank 5)"
+     ],
+     "costs": {
+      "4": 20000
+     },
+     "icon": 136169,
+     "level": 54,
+     "name": "Drain Life",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11700
+    },
+    "11703": {
+     "abilities": [
+      "Drain Mana (Rank 2)"
+     ],
+     "costs": {
+      "4": 12000
+     },
+     "icon": 136208,
+     "level": 44,
+     "name": "Drain Mana",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11703
+    },
+    "11704": {
+     "abilities": [
+      "Drain Mana (Rank 3)"
+     ],
+     "costs": {
+      "4": 20000
+     },
+     "icon": 136208,
+     "level": 54,
+     "name": "Drain Mana",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11704
+    },
+    "11707": {
+     "abilities": [
+      "Curse of Weakness (Rank 4)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136138,
+     "level": 42,
+     "name": "Curse of Weakness",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11707
+    },
+    "11708": {
+     "abilities": [
+      "Curse of Weakness (Rank 5)"
+     ],
+     "costs": {
+      "4": 18000
+     },
+     "icon": 136138,
+     "level": 52,
+     "name": "Curse of Weakness",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11708
+    },
+    "11711": {
+     "abilities": [
+      "Bane of Agony (Rank 3)"
+     ],
+     "costs": {
+      "4": 10000
+     },
+     "icon": 136139,
+     "level": 38,
+     "name": "Bane of Agony",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11711
+    },
+    "11712": {
+     "abilities": [
+      "Bane of Agony (Rank 4)"
+     ],
+     "costs": {
+      "4": 14000
+     },
+     "icon": 136139,
+     "level": 48,
+     "name": "Bane of Agony",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11712
+    },
+    "11713": {
+     "abilities": [
+      "Bane of Agony (Rank 5)"
+     ],
+     "costs": {
+      "4": 24000
+     },
+     "icon": 136139,
+     "level": 58,
+     "name": "Bane of Agony",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11713
+    },
+    "11717": {
+     "abilities": [
+      "Curse of Recklessness (Rank 3)"
+     ],
+     "costs": {
+      "4": 22000
+     },
+     "icon": 136225,
+     "level": 56,
+     "name": "Curse of Recklessness",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11717
+    },
+    "11719": {
+     "abilities": [
+      "Curse of Tongues (Rank 1)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 136140,
+     "level": 50,
+     "name": "Curse of Tongues",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11719
+    },
+    "11725": {
+     "abilities": [
+      "Subjugate Demon (Rank 1)"
+     ],
+     "costs": {
+      "4": 12000
+     },
+     "icon": 136154,
+     "level": 44,
+     "name": "Subjugate Demon",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11725
+    },
+    "11726": {
+     "abilities": [
+      "Subjugate Demon (Rank 2)"
+     ],
+     "costs": {
+      "4": 24000
+     },
+     "icon": 136154,
+     "level": 58,
+     "name": "Subjugate Demon",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11726
+    },
+    "11729": {
+     "abilities": [
+      "Create Healthstone (Rank 3)"
+     ],
+     "costs": {
+      "4": 13000
+     },
+     "icon": 135230,
+     "level": 46,
+     "name": "Create Healthstone",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11729
+    },
+    "11730": {
+     "abilities": [
+      "Create Healthstone (Rank 4)"
+     ],
+     "costs": {
+      "4": 24000
+     },
+     "icon": 135230,
+     "level": 58,
+     "name": "Create Healthstone",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11730
+    },
+    "11733": {
+     "abilities": [
+      "Demon Armor (Rank 2)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136185,
+     "level": 40,
+     "name": "Demon Armor",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11733
+    },
+    "11734": {
+     "abilities": [
+      "Demon Armor (Rank 3)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 136185,
+     "level": 50,
+     "name": "Demon Armor",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11734
+    },
+    "11735": {
+     "abilities": [
+      "Demon Armor (Rank 4)"
+     ],
+     "costs": {
+      "4": 26000
+     },
+     "icon": 136185,
+     "level": 60,
+     "name": "Demon Armor",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11735
+    },
+    "11739": {
+     "abilities": [
+      "Shadow Ward (Rank 1)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136121,
+     "level": 42,
+     "name": "Shadow Ward",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11739
+    },
+    "11740": {
+     "abilities": [
+      "Shadow Ward (Rank 2)"
+     ],
+     "costs": {
+      "4": 18000
+     },
+     "icon": 136121,
+     "level": 52,
+     "name": "Shadow Ward",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11740
+    },
+    "11743": {
+     "abilities": [
+      "Detect Invisibility (Rank 2)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 136152,
+     "level": 50,
+     "name": "Detect Invisibility",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11743
+    },
+    "17727": {
+     "abilities": [
+      "Create Spellstone (Rank 1)"
+     ],
+     "costs": {
+      "4": 14000
+     },
+     "icon": 134131,
+     "level": 48,
+     "name": "Create Spellstone",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17727
+    },
+    "17728": {
+     "abilities": [
+      "Create Spellstone (Rank 2)"
+     ],
+     "costs": {
+      "4": 26000
+     },
+     "icon": 134131,
+     "level": 60,
+     "name": "Create Spellstone",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17728
+    },
+    "17919": {
+     "abilities": [
+      "Searing Pain (Rank 1)"
+     ],
+     "costs": {
+      "4": 4000
+     },
+     "icon": 135827,
+     "level": 26,
+     "name": "Searing Pain",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17919
+    },
+    "17920": {
+     "abilities": [
+      "Searing Pain (Rank 2)"
+     ],
+     "costs": {
+      "4": 8000
+     },
+     "icon": 135827,
+     "level": 34,
+     "name": "Searing Pain",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17920
+    },
+    "17921": {
+     "abilities": [
+      "Searing Pain (Rank 3)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 135827,
+     "level": 42,
+     "name": "Searing Pain",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17921
+    },
+    "17922": {
+     "abilities": [
+      "Searing Pain (Rank 4)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 135827,
+     "level": 50,
+     "name": "Searing Pain",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17922
+    },
+    "17923": {
+     "abilities": [
+      "Searing Pain (Rank 5)"
+     ],
+     "costs": {
+      "4": 24000
+     },
+     "icon": 135827,
+     "level": 58,
+     "name": "Searing Pain",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17923
+    },
+    "17924": {
+     "abilities": [
+      "Soul Fire (Rank 1)"
+     ],
+     "costs": {
+      "4": 22000
+     },
+     "icon": 135808,
+     "level": 56,
+     "name": "Soul Fire",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17924
+    },
+    "17925": {
+     "abilities": [
+      "Death Coil (Rank 1)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 136145,
+     "level": 50,
+     "name": "Death Coil",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17925
+    },
+    "17926": {
+     "abilities": [
+      "Death Coil (Rank 2)"
+     ],
+     "costs": {
+      "4": 24000
+     },
+     "icon": 136145,
+     "level": 58,
+     "name": "Death Coil",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17926
+    },
+    "17928": {
+     "abilities": [
+      "Howl of Terror (Rank 1)"
+     ],
+     "costs": {
+      "4": 20000
+     },
+     "icon": 136147,
+     "level": 54,
+     "name": "Howl of Terror",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17928
+    },
+    "17951": {
+     "abilities": [
+      "Create Firestone (Rank 1)"
+     ],
+     "costs": {
+      "4": 9000
+     },
+     "icon": 134085,
+     "level": 36,
+     "name": "Create Firestone",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17951
+    },
+    "17952": {
+     "abilities": [
+      "Create Firestone (Rank 2)"
+     ],
+     "costs": {
+      "4": 13000
+     },
+     "icon": 134085,
+     "level": 46,
+     "name": "Create Firestone",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17952
+    },
+    "17953": {
+     "abilities": [
+      "Create Firestone (Rank 3)"
+     ],
+     "costs": {
+      "4": 22000
+     },
+     "icon": 134085,
+     "level": 56,
+     "name": "Create Firestone",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17953
+    },
+    "17962": {
+     "abilities": [
+      "Conflagrate (Rank 2)"
+     ],
+     "costs": {
+      "4": 500
+     },
+     "icon": 135807,
+     "level": 40,
+     "name": "Conflagrate",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17962
+    },
+    "18647": {
+     "abilities": [
+      "Banish (Rank 1)"
+     ],
+     "costs": {
+      "4": 14000
+     },
+     "icon": 136135,
+     "level": 48,
+     "name": "Banish",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18647
+    },
+    "18867": {
+     "abilities": [
+      "Shadowburn (Rank 1)"
+     ],
+     "costs": {
+      "4": 150
+     },
+     "icon": 136191,
+     "level": 24,
+     "name": "Shadowburn",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18867
+    },
+    "18868": {
+     "abilities": [
+      "Shadowburn (Rank 2)"
+     ],
+     "costs": {
+      "4": 350
+     },
+     "icon": 136191,
+     "level": 32,
+     "name": "Shadowburn",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18868
+    },
+    "18869": {
+     "abilities": [
+      "Shadowburn (Rank 3)"
+     ],
+     "costs": {
+      "4": 550
+     },
+     "icon": 136191,
+     "level": 40,
+     "name": "Shadowburn",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18869
+    },
+    "18870": {
+     "abilities": [
+      "Shadowburn (Rank 4)"
+     ],
+     "costs": {
+      "4": 700
+     },
+     "icon": 136191,
+     "level": 48,
+     "name": "Shadowburn",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18870
+    },
+    "18871": {
+     "abilities": [
+      "Shadowburn (Rank 5)"
+     ],
+     "costs": {
+      "4": 1100
+     },
+     "icon": 136191,
+     "level": 56,
+     "name": "Shadowburn",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18871
+    },
+    "18879": {
+     "abilities": [
+      "Siphon Life (Rank 1)"
+     ],
+     "costs": {
+      "4": 1000
+     },
+     "icon": 136188,
+     "level": 38,
+     "name": "Siphon Life",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18879
+    },
+    "18880": {
+     "abilities": [
+      "Siphon Life (Rank 2)"
+     ],
+     "costs": {
+      "4": 1400
+     },
+     "icon": 136188,
+     "level": 48,
+     "name": "Siphon Life",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18880
+    },
+    "18881": {
+     "abilities": [
+      "Siphon Life (Rank 3)"
+     ],
+     "costs": {
+      "4": 2400
+     },
+     "icon": 136188,
+     "level": 58,
+     "name": "Siphon Life",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18881
+    },
+    "18930": {
+     "abilities": [
+      "Conflagrate (Rank 3)"
+     ],
+     "costs": {
+      "4": 700
+     },
+     "icon": 135807,
+     "level": 48,
+     "name": "Conflagrate",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18930
+    },
+    "18931": {
+     "abilities": [
+      "Conflagrate (Rank 4)"
+     ],
+     "costs": {
+      "4": 1000
+     },
+     "icon": 135807,
+     "level": 54,
+     "name": "Conflagrate",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18931
+    },
+    "18932": {
+     "abilities": [
+      "Conflagrate (Rank 5)"
+     ],
+     "costs": {
+      "4": 1300
+     },
+     "icon": 135807,
+     "level": 60,
+     "name": "Conflagrate",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18932
+    },
+    "20752": {
+     "abilities": [
+      "Create Soulstone (Rank 1)"
+     ],
+     "costs": {
+      "4": 6000
+     },
+     "icon": 136210,
+     "level": 30,
+     "name": "Create Soulstone",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20752
+    },
+    "20755": {
+     "abilities": [
+      "Create Soulstone (Rank 2)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136210,
+     "level": 40,
+     "name": "Create Soulstone",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20755
+    },
+    "20756": {
+     "abilities": [
+      "Create Soulstone (Rank 3)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 136210,
+     "level": 50,
+     "name": "Create Soulstone",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20756
+    },
+    "20757": {
+     "abilities": [
+      "Create Soulstone (Rank 4)"
+     ],
+     "costs": {
+      "4": 26000
+     },
+     "icon": 136210,
+     "level": 60,
+     "name": "Create Soulstone",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20757
+    },
+    "440892": {
+     "costs": {
+      "4": 2000
+     },
+     "icon": 615099,
+     "level": 20,
+     "name": "Curse of the Elements",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 440892
+    },
+    "1293812": {
+     "abilities": [
+      "Incinerate (Rank 1)"
+     ],
+     "costs": {
+      "4": 900
+     },
+     "icon": 135789,
+     "level": 50,
+     "name": "Incinerate",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1293812
+    },
+    "1293813": {
+     "abilities": [
+      "Incinerate (Rank 2)"
+     ],
+     "costs": {
+      "4": 1100
+     },
+     "icon": 135789,
+     "level": 60,
+     "name": "Incinerate",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1293813
+    },
+    "1293818": {
+     "abilities": [
+      "Conflagrate (Rank 1)"
+     ],
+     "costs": {
+      "4": 300
+     },
+     "icon": 135807,
+     "level": 32,
+     "name": "Conflagrate",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1293818
+    },
+    "1311676": {
+     "abilities": [
+      "Curse of the Elements (Rank 1)"
+     ],
+     "costs": {
+      "4": 6000
+     },
+     "icon": 615099,
+     "level": 30,
+     "name": "Curse of the Elements",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1311676
+    },
+    "1311677": {
+     "abilities": [
+      "Curse of the Elements (Rank 2)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 615099,
+     "level": 40,
+     "name": "Curse of the Elements",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1311677
+    },
+    "1311680": {
+     "abilities": [
+      "Curse of the Elements (Rank 3)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 615099,
+     "level": 50,
+     "name": "Curse of the Elements",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1311680
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
+  "3325": {
+   "lastSeen": "2026-10-09",
+   "name": "Mirket",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4862,
+     "mapY": 0.4707,
+     "uiMap": 1454,
+     "worldX": 1833.6,
+     "worldY": -4362.5
+    }
+   ],
+   "services": {
+    "126": {
+     "costs": {
+      "4": 2500
+     },
+     "icon": 136155,
+     "level": 22,
+     "name": "Eye of Kilrogg",
+     "rankText": "Summon",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 126
+    },
+    "132": {
+     "costs": {
+      "4": 4000
+     },
+     "icon": 136152,
+     "level": 26,
+     "name": "Detect Invisibility",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 132
+    },
+    "172": {
+     "costs": {
+      "4": 100
+     },
+     "icon": 136118,
+     "level": 0,
+     "name": "Corruption",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 172
+    },
+    "348": {
+     "costs": {
+      "4": 10
+     },
+     "icon": 135817,
+     "level": 0,
+     "name": "Immolate",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 348
+    },
+    "603": {
+     "costs": {
+      "4": 26000
+     },
+     "icon": 136122,
+     "level": 60,
+     "name": "Bane of Doom",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 603
+    },
+    "689": {
+     "costs": {
+      "4": 900
+     },
+     "icon": 136169,
+     "level": 0,
+     "name": "Drain Life",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 689
+    },
+    "693": {
+     "abilities": [
+      "Drain Soul (Rank 1)"
+     ],
+     "costs": {
+      "4": 1500
+     },
+     "icon": 136210,
+     "level": 18,
+     "name": "Create Soulstone",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 693
+    },
+    "695": {
+     "abilities": [
+      "Shadow Bolt (Rank 1)"
+     ],
+     "costs": {
+      "4": 100
+     },
+     "icon": 136197,
+     "level": 0,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 695
+    },
+    "696": {
+     "abilities": [
+      "Demon Skin (Rank 1)"
+     ],
+     "costs": {
+      "4": 300
+     },
+     "icon": 136185,
+     "level": 0,
+     "name": "Demon Skin",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 696
+    },
+    "698": {
+     "costs": {
+      "4": 2000
+     },
+     "icon": 136223,
+     "level": 20,
+     "name": "Ritual of Summoning",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 698
+    },
+    "699": {
+     "abilities": [
+      "Drain Life (Rank 1)"
+     ],
+     "costs": {
+      "4": 2500
+     },
+     "icon": 136169,
+     "level": 22,
+     "name": "Drain Life",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 699
+    },
+    "702": {
+     "costs": {
+      "4": 100
+     },
+     "icon": 136138,
+     "level": 0,
+     "name": "Curse of Weakness",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 702
+    },
+    "704": {
+     "costs": {
+      "4": 900
+     },
+     "icon": 136225,
+     "level": 0,
+     "name": "Curse of Recklessness",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 704
+    },
+    "705": {
+     "abilities": [
+      "Shadow Bolt (Rank 2)"
+     ],
+     "costs": {
+      "4": 600
+     },
+     "icon": 136197,
+     "level": 0,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 705
+    },
+    "706": {
+     "costs": {
+      "4": 2000
+     },
+     "icon": 136185,
+     "level": 20,
+     "name": "Demon Armor",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 706
+    },
+    "707": {
+     "abilities": [
+      "Immolate (Rank 1)"
+     ],
+     "costs": {
+      "4": 300
+     },
+     "icon": 135817,
+     "level": 0,
+     "name": "Immolate",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 707
+    },
+    "709": {
+     "abilities": [
+      "Drain Life (Rank 2)"
+     ],
+     "costs": {
+      "4": 6000
+     },
+     "icon": 136169,
+     "level": 30,
+     "name": "Drain Life",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 709
+    },
+    "710": {
+     "costs": {
+      "4": 5000
+     },
+     "icon": 136135,
+     "level": 28,
+     "name": "Banish",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 710
+    },
+    "755": {
+     "costs": {
+      "4": 600
+     },
+     "icon": 136168,
+     "level": 0,
+     "name": "Health Funnel",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 755
+    },
+    "980": {
+     "costs": {
+      "4": 200
+     },
+     "icon": 136139,
+     "level": 0,
+     "name": "Bane of Agony",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 980
+    },
+    "1014": {
+     "abilities": [
+      "Bane of Agony (Rank 1)"
+     ],
+     "costs": {
+      "4": 1500
+     },
+     "icon": 136139,
+     "level": 18,
+     "name": "Bane of Agony",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1014
+    },
+    "1086": {
+     "abilities": [
+      "Demon Armor (Rank 1)"
+     ],
+     "costs": {
+      "4": 6000
+     },
+     "icon": 136185,
+     "level": 30,
+     "name": "Demon Armor",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1086
+    },
+    "1088": {
+     "abilities": [
+      "Shadow Bolt (Rank 3)"
+     ],
+     "costs": {
+      "4": 2000
+     },
+     "icon": 136197,
+     "level": 20,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1088
+    },
+    "1094": {
+     "abilities": [
+      "Immolate (Rank 2)"
+     ],
+     "costs": {
+      "4": 2000
+     },
+     "icon": 135817,
+     "level": 20,
+     "name": "Immolate",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1094
+    },
+    "1098": {
+     "costs": {
+      "4": 6000
+     },
+     "icon": 136154,
+     "level": 30,
+     "name": "Subjugate Demon",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1098
+    },
+    "1106": {
+     "abilities": [
+      "Shadow Bolt (Rank 4)"
+     ],
+     "costs": {
+      "4": 5000
+     },
+     "icon": 136197,
+     "level": 28,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1106
+    },
+    "1108": {
+     "abilities": [
+      "Curse of Weakness (Rank 1)"
+     ],
+     "costs": {
+      "4": 600
+     },
+     "icon": 136138,
+     "level": 0,
+     "name": "Curse of Weakness",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1108
+    },
+    "1120": {
+     "costs": {
+      "4": 300
+     },
+     "icon": 136163,
+     "level": 0,
+     "name": "Drain Soul",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1120
+    },
+    "1454": {
+     "costs": {
+      "4": 100
+     },
+     "icon": 136126,
+     "level": 0,
+     "name": "Life Tap",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1454
+    },
+    "1455": {
+     "abilities": [
+      "Life Tap (Rank 1)"
+     ],
+     "costs": {
+      "4": 1200
+     },
+     "icon": 136126,
+     "level": 0,
+     "name": "Life Tap",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1455
+    },
+    "1456": {
+     "abilities": [
+      "Life Tap (Rank 2)"
+     ],
+     "costs": {
+      "4": 4000
+     },
+     "icon": 136126,
+     "level": 26,
+     "name": "Life Tap",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1456
+    },
+    "1714": {
+     "costs": {
+      "4": 4000
+     },
+     "icon": 136140,
+     "level": 26,
+     "name": "Curse of Tongues",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1714
+    },
+    "1949": {
+     "costs": {
+      "4": 6000
+     },
+     "icon": 135818,
+     "level": 30,
+     "name": "Hellfire",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1949
+    },
+    "2362": {
+     "abilities": [
+      "Drain Soul (Rank 1)"
+     ],
+     "costs": {
+      "4": 9000
+     },
+     "icon": 134131,
+     "level": 36,
+     "name": "Create Spellstone",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2362
+    },
+    "2941": {
+     "abilities": [
+      "Immolate (Rank 3)"
+     ],
+     "costs": {
+      "4": 6000
+     },
+     "icon": 135817,
+     "level": 30,
+     "name": "Immolate",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2941
+    },
+    "2970": {
+     "abilities": [
+      "Detect Invisibility (Rank 1)"
+     ],
+     "costs": {
+      "4": 10000
+     },
+     "icon": 136152,
+     "level": 38,
+     "name": "Detect Invisibility",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2970
+    },
+    "3698": {
+     "abilities": [
+      "Health Funnel (Rank 1)"
+     ],
+     "costs": {
+      "4": 2000
+     },
+     "icon": 136168,
+     "level": 20,
+     "name": "Health Funnel",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3698
+    },
+    "3699": {
+     "abilities": [
+      "Health Funnel (Rank 2)"
+     ],
+     "costs": {
+      "4": 5000
+     },
+     "icon": 136168,
+     "level": 28,
+     "name": "Health Funnel",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3699
+    },
+    "3700": {
+     "abilities": [
+      "Health Funnel (Rank 3)"
+     ],
+     "costs": {
+      "4": 9000
+     },
+     "icon": 136168,
+     "level": 36,
+     "name": "Health Funnel",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3700
+    },
+    "5138": {
+     "costs": {
+      "4": 3000
+     },
+     "icon": 136208,
+     "level": 24,
+     "name": "Drain Mana",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5138
+    },
+    "5484": {
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136147,
+     "level": 40,
+     "name": "Howl of Terror",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5484
+    },
+    "5500": {
+     "costs": {
+      "4": 3000
+     },
+     "icon": 136172,
+     "level": 24,
+     "name": "Sense Demons",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5500
+    },
+    "5676": {
+     "costs": {
+      "4": 1500
+     },
+     "icon": 135827,
+     "level": 18,
+     "name": "Searing Pain",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5676
+    },
+    "5697": {
+     "costs": {
+      "4": 1200
+     },
+     "icon": 136148,
+     "level": 0,
+     "name": "Unending Breath",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5697
+    },
+    "5699": {
+     "abilities": [
+      "Create Healthstone (Rank 2)"
+     ],
+     "costs": {
+      "4": 8000
+     },
+     "icon": 135230,
+     "level": 34,
+     "name": "Create Healthstone",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5699
+    },
+    "5740": {
+     "costs": {
+      "4": 2000
+     },
+     "icon": 136186,
+     "level": 20,
+     "name": "Rain of Fire",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5740
+    },
+    "5782": {
+     "costs": {
+      "4": 200
+     },
+     "icon": 136183,
+     "level": 0,
+     "name": "Fear",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5782
+    },
+    "6201": {
+     "abilities": [
+      "Drain Soul (Rank 1)"
+     ],
+     "costs": {
+      "4": 300
+     },
+     "icon": 135230,
+     "level": 0,
+     "name": "Create Healthstone",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6201
+    },
+    "6202": {
+     "abilities": [
+      "Create Healthstone (Rank 1)"
+     ],
+     "costs": {
+      "4": 2500
+     },
+     "icon": 135230,
+     "level": 22,
+     "name": "Create Healthstone",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6202
+    },
+    "6205": {
+     "abilities": [
+      "Curse of Weakness (Rank 2)"
+     ],
+     "costs": {
+      "4": 2500
+     },
+     "icon": 136138,
+     "level": 22,
+     "name": "Curse of Weakness",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6205
+    },
+    "6213": {
+     "abilities": [
+      "Fear (Rank 1)"
+     ],
+     "costs": {
+      "4": 7000
+     },
+     "icon": 136183,
+     "level": 32,
+     "name": "Fear",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6213
+    },
+    "6215": {
+     "abilities": [
+      "Fear (Rank 2)"
+     ],
+     "costs": {
+      "4": 22000
+     },
+     "icon": 136183,
+     "level": 56,
+     "name": "Fear",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6215
+    },
+    "6217": {
+     "abilities": [
+      "Bane of Agony (Rank 2)"
+     ],
+     "costs": {
+      "4": 5000
+     },
+     "icon": 136139,
+     "level": 28,
+     "name": "Bane of Agony",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6217
+    },
+    "6219": {
+     "abilities": [
+      "Rain of Fire (Rank 1)"
+     ],
+     "costs": {
+      "4": 8000
+     },
+     "icon": 136186,
+     "level": 34,
+     "name": "Rain of Fire",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6219
+    },
+    "6222": {
+     "abilities": [
+      "Corruption (Rank 1)"
+     ],
+     "costs": {
+      "4": 900
+     },
+     "icon": 136118,
+     "level": 0,
+     "name": "Corruption",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6222
+    },
+    "6223": {
+     "abilities": [
+      "Corruption (Rank 2)"
+     ],
+     "costs": {
+      "4": 3000
+     },
+     "icon": 136118,
+     "level": 24,
+     "name": "Corruption",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6223
+    },
+    "6226": {
+     "abilities": [
+      "Drain Mana (Rank 1)"
+     ],
+     "costs": {
+      "4": 8000
+     },
+     "icon": 136208,
+     "level": 34,
+     "name": "Drain Mana",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6226
+    },
+    "6229": {
+     "costs": {
+      "4": 7000
+     },
+     "icon": 136121,
+     "level": 32,
+     "name": "Shadow Ward",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6229
+    },
+    "6353": {
+     "costs": {
+      "4": 14000
+     },
+     "icon": 135808,
+     "level": 48,
+     "name": "Soul Fire",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6353
+    },
+    "6366": {
+     "costs": {
+      "4": 5000
+     },
+     "icon": 134085,
+     "level": 28,
+     "name": "Create Firestone",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6366
+    },
+    "6789": {
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136145,
+     "level": 42,
+     "name": "Death Coil",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6789
+    },
+    "7641": {
+     "abilities": [
+      "Shadow Bolt (Rank 5)"
+     ],
+     "costs": {
+      "4": 9000
+     },
+     "icon": 136197,
+     "level": 36,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7641
+    },
+    "7646": {
+     "abilities": [
+      "Curse of Weakness (Rank 3)"
+     ],
+     "costs": {
+      "4": 7000
+     },
+     "icon": 136138,
+     "level": 32,
+     "name": "Curse of Weakness",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7646
+    },
+    "7648": {
+     "abilities": [
+      "Corruption (Rank 3)"
+     ],
+     "costs": {
+      "4": 8000
+     },
+     "icon": 136118,
+     "level": 34,
+     "name": "Corruption",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7648
+    },
+    "7651": {
+     "abilities": [
+      "Drain Life (Rank 3)"
+     ],
+     "costs": {
+      "4": 10000
+     },
+     "icon": 136169,
+     "level": 38,
+     "name": "Drain Life",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7651
+    },
+    "7658": {
+     "abilities": [
+      "Curse of Recklessness (Rank 1)"
+     ],
+     "costs": {
+      "4": 5000
+     },
+     "icon": 136225,
+     "level": 28,
+     "name": "Curse of Recklessness",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7658
+    },
+    "7659": {
+     "abilities": [
+      "Curse of Recklessness (Rank 2)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136225,
+     "level": 42,
+     "name": "Curse of Recklessness",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7659
+    },
+    "8288": {
+     "abilities": [
+      "Drain Soul (Rank 1)"
+     ],
+     "costs": {
+      "4": 3000
+     },
+     "icon": 136163,
+     "level": 24,
+     "name": "Drain Soul",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8288
+    },
+    "8289": {
+     "abilities": [
+      "Drain Soul (Rank 2)"
+     ],
+     "costs": {
+      "4": 10000
+     },
+     "icon": 136163,
+     "level": 38,
+     "name": "Drain Soul",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8289
+    },
+    "11659": {
+     "abilities": [
+      "Shadow Bolt (Rank 6)"
+     ],
+     "costs": {
+      "4": 12000
+     },
+     "icon": 136197,
+     "level": 44,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11659
+    },
+    "11660": {
+     "abilities": [
+      "Shadow Bolt (Rank 7)"
+     ],
+     "costs": {
+      "4": 18000
+     },
+     "icon": 136197,
+     "level": 52,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11660
+    },
+    "11661": {
+     "abilities": [
+      "Shadow Bolt (Rank 8)"
+     ],
+     "costs": {
+      "4": 26000
+     },
+     "icon": 136197,
+     "level": 60,
+     "name": "Shadow Bolt",
+     "rankText": "Rank 9",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11661
+    },
+    "11665": {
+     "abilities": [
+      "Immolate (Rank 4)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 135817,
+     "level": 40,
+     "name": "Immolate",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11665
+    },
+    "11667": {
+     "abilities": [
+      "Immolate (Rank 5)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 135817,
+     "level": 50,
+     "name": "Immolate",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11667
+    },
+    "11668": {
+     "abilities": [
+      "Immolate (Rank 6)"
+     ],
+     "costs": {
+      "4": 26000
+     },
+     "icon": 135817,
+     "level": 60,
+     "name": "Immolate",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11668
+    },
+    "11671": {
+     "abilities": [
+      "Corruption (Rank 4)"
+     ],
+     "costs": {
+      "4": 12000
+     },
+     "icon": 136118,
+     "level": 44,
+     "name": "Corruption",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11671
+    },
+    "11672": {
+     "abilities": [
+      "Corruption (Rank 5)"
+     ],
+     "costs": {
+      "4": 20000
+     },
+     "icon": 136118,
+     "level": 54,
+     "name": "Corruption",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11672
+    },
+    "11675": {
+     "abilities": [
+      "Drain Soul (Rank 3)"
+     ],
+     "costs": {
+      "4": 18000
+     },
+     "icon": 136163,
+     "level": 52,
+     "name": "Drain Soul",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11675
+    },
+    "11677": {
+     "abilities": [
+      "Rain of Fire (Rank 2)"
+     ],
+     "costs": {
+      "4": 13000
+     },
+     "icon": 136186,
+     "level": 46,
+     "name": "Rain of Fire",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11677
+    },
+    "11678": {
+     "abilities": [
+      "Rain of Fire (Rank 3)"
+     ],
+     "costs": {
+      "4": 24000
+     },
+     "icon": 136186,
+     "level": 58,
+     "name": "Rain of Fire",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11678
+    },
+    "11683": {
+     "abilities": [
+      "Hellfire (Rank 1)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 135818,
+     "level": 42,
+     "name": "Hellfire",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11683
+    },
+    "11684": {
+     "abilities": [
+      "Hellfire (Rank 2)"
+     ],
+     "costs": {
+      "4": 20000
+     },
+     "icon": 135818,
+     "level": 54,
+     "name": "Hellfire",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11684
+    },
+    "11687": {
+     "abilities": [
+      "Life Tap (Rank 3)"
+     ],
+     "costs": {
+      "4": 9000
+     },
+     "icon": 136126,
+     "level": 36,
+     "name": "Life Tap",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11687
+    },
+    "11688": {
+     "abilities": [
+      "Life Tap (Rank 4)"
+     ],
+     "costs": {
+      "4": 13000
+     },
+     "icon": 136126,
+     "level": 46,
+     "name": "Life Tap",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11688
+    },
+    "11689": {
+     "abilities": [
+      "Life Tap (Rank 5)"
+     ],
+     "costs": {
+      "4": 22000
+     },
+     "icon": 136126,
+     "level": 56,
+     "name": "Life Tap",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11689
+    },
+    "11693": {
+     "abilities": [
+      "Health Funnel (Rank 4)"
+     ],
+     "costs": {
+      "4": 12000
+     },
+     "icon": 136168,
+     "level": 44,
+     "name": "Health Funnel",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11693
+    },
+    "11694": {
+     "abilities": [
+      "Health Funnel (Rank 5)"
+     ],
+     "costs": {
+      "4": 18000
+     },
+     "icon": 136168,
+     "level": 52,
+     "name": "Health Funnel",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11694
+    },
+    "11695": {
+     "abilities": [
+      "Health Funnel (Rank 6)"
+     ],
+     "costs": {
+      "4": 26000
+     },
+     "icon": 136168,
+     "level": 60,
+     "name": "Health Funnel",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11695
+    },
+    "11699": {
+     "abilities": [
+      "Drain Life (Rank 4)"
+     ],
+     "costs": {
+      "4": 13000
+     },
+     "icon": 136169,
+     "level": 46,
+     "name": "Drain Life",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11699
+    },
+    "11700": {
+     "abilities": [
+      "Drain Life (Rank 5)"
+     ],
+     "costs": {
+      "4": 20000
+     },
+     "icon": 136169,
+     "level": 54,
+     "name": "Drain Life",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11700
+    },
+    "11703": {
+     "abilities": [
+      "Drain Mana (Rank 2)"
+     ],
+     "costs": {
+      "4": 12000
+     },
+     "icon": 136208,
+     "level": 44,
+     "name": "Drain Mana",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11703
+    },
+    "11704": {
+     "abilities": [
+      "Drain Mana (Rank 3)"
+     ],
+     "costs": {
+      "4": 20000
+     },
+     "icon": 136208,
+     "level": 54,
+     "name": "Drain Mana",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11704
+    },
+    "11707": {
+     "abilities": [
+      "Curse of Weakness (Rank 4)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136138,
+     "level": 42,
+     "name": "Curse of Weakness",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11707
+    },
+    "11708": {
+     "abilities": [
+      "Curse of Weakness (Rank 5)"
+     ],
+     "costs": {
+      "4": 18000
+     },
+     "icon": 136138,
+     "level": 52,
+     "name": "Curse of Weakness",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11708
+    },
+    "11711": {
+     "abilities": [
+      "Bane of Agony (Rank 3)"
+     ],
+     "costs": {
+      "4": 10000
+     },
+     "icon": 136139,
+     "level": 38,
+     "name": "Bane of Agony",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11711
+    },
+    "11712": {
+     "abilities": [
+      "Bane of Agony (Rank 4)"
+     ],
+     "costs": {
+      "4": 14000
+     },
+     "icon": 136139,
+     "level": 48,
+     "name": "Bane of Agony",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11712
+    },
+    "11713": {
+     "abilities": [
+      "Bane of Agony (Rank 5)"
+     ],
+     "costs": {
+      "4": 24000
+     },
+     "icon": 136139,
+     "level": 58,
+     "name": "Bane of Agony",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11713
+    },
+    "11717": {
+     "abilities": [
+      "Curse of Recklessness (Rank 3)"
+     ],
+     "costs": {
+      "4": 22000
+     },
+     "icon": 136225,
+     "level": 56,
+     "name": "Curse of Recklessness",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11717
+    },
+    "11719": {
+     "abilities": [
+      "Curse of Tongues (Rank 1)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 136140,
+     "level": 50,
+     "name": "Curse of Tongues",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11719
+    },
+    "11725": {
+     "abilities": [
+      "Subjugate Demon (Rank 1)"
+     ],
+     "costs": {
+      "4": 12000
+     },
+     "icon": 136154,
+     "level": 44,
+     "name": "Subjugate Demon",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11725
+    },
+    "11726": {
+     "abilities": [
+      "Subjugate Demon (Rank 2)"
+     ],
+     "costs": {
+      "4": 24000
+     },
+     "icon": 136154,
+     "level": 58,
+     "name": "Subjugate Demon",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11726
+    },
+    "11729": {
+     "abilities": [
+      "Create Healthstone (Rank 3)"
+     ],
+     "costs": {
+      "4": 13000
+     },
+     "icon": 135230,
+     "level": 46,
+     "name": "Create Healthstone",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11729
+    },
+    "11730": {
+     "abilities": [
+      "Create Healthstone (Rank 4)"
+     ],
+     "costs": {
+      "4": 24000
+     },
+     "icon": 135230,
+     "level": 58,
+     "name": "Create Healthstone",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11730
+    },
+    "11733": {
+     "abilities": [
+      "Demon Armor (Rank 2)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136185,
+     "level": 40,
+     "name": "Demon Armor",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11733
+    },
+    "11734": {
+     "abilities": [
+      "Demon Armor (Rank 3)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 136185,
+     "level": 50,
+     "name": "Demon Armor",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11734
+    },
+    "11735": {
+     "abilities": [
+      "Demon Armor (Rank 4)"
+     ],
+     "costs": {
+      "4": 26000
+     },
+     "icon": 136185,
+     "level": 60,
+     "name": "Demon Armor",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11735
+    },
+    "11739": {
+     "abilities": [
+      "Shadow Ward (Rank 1)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136121,
+     "level": 42,
+     "name": "Shadow Ward",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11739
+    },
+    "11740": {
+     "abilities": [
+      "Shadow Ward (Rank 2)"
+     ],
+     "costs": {
+      "4": 18000
+     },
+     "icon": 136121,
+     "level": 52,
+     "name": "Shadow Ward",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11740
+    },
+    "11743": {
+     "abilities": [
+      "Detect Invisibility (Rank 2)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 136152,
+     "level": 50,
+     "name": "Detect Invisibility",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11743
+    },
+    "17727": {
+     "abilities": [
+      "Create Spellstone (Rank 1)"
+     ],
+     "costs": {
+      "4": 14000
+     },
+     "icon": 134131,
+     "level": 48,
+     "name": "Create Spellstone",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17727
+    },
+    "17728": {
+     "abilities": [
+      "Create Spellstone (Rank 2)"
+     ],
+     "costs": {
+      "4": 26000
+     },
+     "icon": 134131,
+     "level": 60,
+     "name": "Create Spellstone",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17728
+    },
+    "17919": {
+     "abilities": [
+      "Searing Pain (Rank 1)"
+     ],
+     "costs": {
+      "4": 4000
+     },
+     "icon": 135827,
+     "level": 26,
+     "name": "Searing Pain",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17919
+    },
+    "17920": {
+     "abilities": [
+      "Searing Pain (Rank 2)"
+     ],
+     "costs": {
+      "4": 8000
+     },
+     "icon": 135827,
+     "level": 34,
+     "name": "Searing Pain",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17920
+    },
+    "17921": {
+     "abilities": [
+      "Searing Pain (Rank 3)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 135827,
+     "level": 42,
+     "name": "Searing Pain",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17921
+    },
+    "17922": {
+     "abilities": [
+      "Searing Pain (Rank 4)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 135827,
+     "level": 50,
+     "name": "Searing Pain",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17922
+    },
+    "17923": {
+     "abilities": [
+      "Searing Pain (Rank 5)"
+     ],
+     "costs": {
+      "4": 24000
+     },
+     "icon": 135827,
+     "level": 58,
+     "name": "Searing Pain",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17923
+    },
+    "17924": {
+     "abilities": [
+      "Soul Fire (Rank 1)"
+     ],
+     "costs": {
+      "4": 22000
+     },
+     "icon": 135808,
+     "level": 56,
+     "name": "Soul Fire",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17924
+    },
+    "17925": {
+     "abilities": [
+      "Death Coil (Rank 1)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 136145,
+     "level": 50,
+     "name": "Death Coil",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17925
+    },
+    "17926": {
+     "abilities": [
+      "Death Coil (Rank 2)"
+     ],
+     "costs": {
+      "4": 24000
+     },
+     "icon": 136145,
+     "level": 58,
+     "name": "Death Coil",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17926
+    },
+    "17928": {
+     "abilities": [
+      "Howl of Terror (Rank 1)"
+     ],
+     "costs": {
+      "4": 20000
+     },
+     "icon": 136147,
+     "level": 54,
+     "name": "Howl of Terror",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17928
+    },
+    "17951": {
+     "abilities": [
+      "Create Firestone (Rank 1)"
+     ],
+     "costs": {
+      "4": 9000
+     },
+     "icon": 134085,
+     "level": 36,
+     "name": "Create Firestone",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17951
+    },
+    "17952": {
+     "abilities": [
+      "Create Firestone (Rank 2)"
+     ],
+     "costs": {
+      "4": 13000
+     },
+     "icon": 134085,
+     "level": 46,
+     "name": "Create Firestone",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17952
+    },
+    "17953": {
+     "abilities": [
+      "Create Firestone (Rank 3)"
+     ],
+     "costs": {
+      "4": 22000
+     },
+     "icon": 134085,
+     "level": 56,
+     "name": "Create Firestone",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17953
+    },
+    "17962": {
+     "abilities": [
+      "Conflagrate (Rank 2)"
+     ],
+     "costs": {
+      "4": 500
+     },
+     "icon": 135807,
+     "level": 40,
+     "name": "Conflagrate",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17962
+    },
+    "18647": {
+     "abilities": [
+      "Banish (Rank 1)"
+     ],
+     "costs": {
+      "4": 14000
+     },
+     "icon": 136135,
+     "level": 48,
+     "name": "Banish",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18647
+    },
+    "18867": {
+     "abilities": [
+      "Shadowburn"
+     ],
+     "costs": {
+      "4": 150
+     },
+     "icon": 136191,
+     "level": 24,
+     "name": "Shadowburn",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18867
+    },
+    "18868": {
+     "abilities": [
+      "Shadowburn (Rank 2)"
+     ],
+     "costs": {
+      "4": 350
+     },
+     "icon": 136191,
+     "level": 32,
+     "name": "Shadowburn",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18868
+    },
+    "18869": {
+     "abilities": [
+      "Shadowburn (Rank 3)"
+     ],
+     "costs": {
+      "4": 550
+     },
+     "icon": 136191,
+     "level": 40,
+     "name": "Shadowburn",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18869
+    },
+    "18870": {
+     "abilities": [
+      "Shadowburn (Rank 4)"
+     ],
+     "costs": {
+      "4": 700
+     },
+     "icon": 136191,
+     "level": 48,
+     "name": "Shadowburn",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18870
+    },
+    "18871": {
+     "abilities": [
+      "Shadowburn (Rank 5)"
+     ],
+     "costs": {
+      "4": 1100
+     },
+     "icon": 136191,
+     "level": 56,
+     "name": "Shadowburn",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18871
+    },
+    "18879": {
+     "abilities": [
+      "Siphon Life"
+     ],
+     "costs": {
+      "4": 1000
+     },
+     "icon": 136188,
+     "level": 38,
+     "name": "Siphon Life",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18879
+    },
+    "18880": {
+     "abilities": [
+      "Siphon Life (Rank 2)"
+     ],
+     "costs": {
+      "4": 1400
+     },
+     "icon": 136188,
+     "level": 48,
+     "name": "Siphon Life",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18880
+    },
+    "18881": {
+     "abilities": [
+      "Siphon Life (Rank 3)"
+     ],
+     "costs": {
+      "4": 2400
+     },
+     "icon": 136188,
+     "level": 58,
+     "name": "Siphon Life",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18881
+    },
+    "18930": {
+     "abilities": [
+      "Conflagrate (Rank 3)"
+     ],
+     "costs": {
+      "4": 700
+     },
+     "icon": 135807,
+     "level": 48,
+     "name": "Conflagrate",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18930
+    },
+    "18931": {
+     "abilities": [
+      "Conflagrate (Rank 4)"
+     ],
+     "costs": {
+      "4": 1000
+     },
+     "icon": 135807,
+     "level": 54,
+     "name": "Conflagrate",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18931
+    },
+    "18932": {
+     "abilities": [
+      "Conflagrate (Rank 5)"
+     ],
+     "costs": {
+      "4": 1300
+     },
+     "icon": 135807,
+     "level": 60,
+     "name": "Conflagrate",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18932
+    },
+    "20752": {
+     "abilities": [
+      "Create Soulstone (Rank 1)"
+     ],
+     "costs": {
+      "4": 6000
+     },
+     "icon": 136210,
+     "level": 30,
+     "name": "Create Soulstone",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20752
+    },
+    "20755": {
+     "abilities": [
+      "Create Soulstone (Rank 2)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 136210,
+     "level": 40,
+     "name": "Create Soulstone",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20755
+    },
+    "20756": {
+     "abilities": [
+      "Create Soulstone (Rank 3)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 136210,
+     "level": 50,
+     "name": "Create Soulstone",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20756
+    },
+    "20757": {
+     "abilities": [
+      "Create Soulstone (Rank 4)"
+     ],
+     "costs": {
+      "4": 26000
+     },
+     "icon": 136210,
+     "level": 60,
+     "name": "Create Soulstone",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20757
+    },
+    "440892": {
+     "costs": {
+      "4": 2000
+     },
+     "icon": 615099,
+     "level": 20,
+     "name": "Curse of the Elements",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 440892
+    },
+    "1293812": {
+     "abilities": [
+      "Incinerate"
+     ],
+     "costs": {
+      "4": 900
+     },
+     "icon": 135789,
+     "level": 50,
+     "name": "Incinerate",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1293812
+    },
+    "1293813": {
+     "abilities": [
+      "Incinerate (Rank 2)"
+     ],
+     "costs": {
+      "4": 1100
+     },
+     "icon": 135789,
+     "level": 60,
+     "name": "Incinerate",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1293813
+    },
+    "1293818": {
+     "abilities": [
+      "Conflagrate"
+     ],
+     "costs": {
+      "4": 300
+     },
+     "icon": 135807,
+     "level": 32,
+     "name": "Conflagrate",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1293818
+    },
+    "1311676": {
+     "abilities": [
+      "Curse of the Elements (Rank 1)"
+     ],
+     "costs": {
+      "4": 6000
+     },
+     "icon": 615099,
+     "level": 30,
+     "name": "Curse of the Elements",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1311676
+    },
+    "1311677": {
+     "abilities": [
+      "Curse of the Elements (Rank 2)"
+     ],
+     "costs": {
+      "4": 11000
+     },
+     "icon": 615099,
+     "level": 40,
+     "name": "Curse of the Elements",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1311677
+    },
+    "1311680": {
+     "abilities": [
+      "Curse of the Elements (Rank 3)"
+     ],
+     "costs": {
+      "4": 15000
+     },
+     "icon": 615099,
+     "level": 50,
+     "name": "Curse of the Elements",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1311680
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
+  "3704": {
+   "lastSeen": "2026-10-09",
+   "name": "Mahani",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.449,
+     "mapY": 0.5935,
+     "uiMap": 1413,
+     "worldX": -2397.2,
+     "worldY": -1926.4
+    }
+   ],
+   "services": {
+    "2385": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135009,
+     "level": 0,
+     "name": "Brown Linen Vest",
+     "skill": "Tailoring",
+     "skillRank": 10,
+     "sources": 1,
+     "spellId": 2385
+    },
+    "2386": {
+     "category": "Shoes",
+     "costs": {
+      "5": 200
+     },
+     "icon": 132543,
+     "level": 0,
+     "name": "Linen Boots",
+     "skill": "Tailoring",
+     "skillRank": 40,
+     "sources": 1,
+     "spellId": 2386
+    },
+    "2392": {
+     "category": "Shirts",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135029,
+     "level": 0,
+     "name": "Red Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 2392
+    },
+    "2393": {
+     "category": "Shirts",
+     "costs": {
+      "5": 25
+     },
+     "icon": 135030,
+     "level": 0,
+     "name": "White Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 1,
+     "sources": 1,
+     "spellId": 2393
+    },
+    "2394": {
+     "category": "Shirts",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135023,
+     "level": 0,
+     "name": "Blue Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 2394
+    },
+    "2395": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132715,
+     "level": 0,
+     "name": "Barbaric Linen Vest",
+     "skill": "Tailoring",
+     "skillRank": 40,
+     "sources": 1,
+     "spellId": 2395
+    },
+    "2396": {
+     "category": "Shirts",
+     "costs": {
+      "5": 200
+     },
+     "icon": 135024,
+     "level": 0,
+     "name": "Green Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 40,
+     "sources": 1,
+     "spellId": 2396
+    },
+    "2397": {
+     "category": "Cloaks",
+     "costs": {
+      "5": 200
+     },
+     "icon": 133759,
+     "level": 0,
+     "name": "Reinforced Linen Cape",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 2397
+    },
+    "2399": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132680,
+     "level": 0,
+     "name": "Green Woolen Vest",
+     "skill": "Tailoring",
+     "skillRank": 60,
+     "sources": 1,
+     "spellId": 2399
+    },
+    "2401": {
+     "category": "Shoes",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132543,
+     "level": 0,
+     "name": "Woolen Boots",
+     "skill": "Tailoring",
+     "skillRank": 70,
+     "sources": 1,
+     "spellId": 2401
+    },
+    "2402": {
+     "category": "Cloaks",
+     "costs": {
+      "5": 250
+     },
+     "icon": 133762,
+     "level": 0,
+     "name": "Woolen Cape",
+     "skill": "Tailoring",
+     "skillRank": 55,
+     "sources": 1,
+     "spellId": 2402
+    },
+    "2406": {
+     "category": "Shirts",
+     "costs": {
+      "5": 200
+     },
+     "icon": 135025,
+     "level": 0,
+     "name": "Gray Woolen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 80,
+     "sources": 1,
+     "spellId": 2406
+    },
+    "2964": {
+     "category": "Reagents",
+     "costs": {
+      "5": 100
+     },
+     "icon": 132913,
+     "level": 0,
+     "name": "Bolt of Woolen Cloth",
+     "skill": "Tailoring",
+     "skillRank": 55,
+     "sources": 1,
+     "spellId": 2964
+    },
+    "3755": {
+     "category": "Bags",
+     "costs": {
+      "5": 100
+     },
+     "icon": 133622,
+     "level": 0,
+     "name": "Linen Bag",
+     "skill": "Tailoring",
+     "skillRank": 5,
+     "sources": 1,
+     "spellId": 3755
+    },
+    "3757": {
+     "category": "Bags",
+     "costs": {
+      "5": 200
+     },
+     "icon": 133639,
+     "level": 0,
+     "name": "Woolen Bag",
+     "skill": "Tailoring",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 3757
+    },
+    "3813": {
+     "category": "Bags",
+     "costs": {
+      "5": 800
+     },
+     "icon": 133628,
+     "level": 0,
+     "name": "Small Silk Pack",
+     "skill": "Tailoring",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 3813
+    },
+    "3839": {
+     "category": "Reagents",
+     "costs": {
+      "5": 500
+     },
+     "icon": 132907,
+     "level": 0,
+     "name": "Bolt of Silk Cloth",
+     "skill": "Tailoring",
+     "skillRank": 100,
+     "sources": 1,
+     "spellId": 3839
+    },
+    "3840": {
+     "category": "Gloves",
+     "costs": {
+      "5": 100
+     },
+     "icon": 132939,
+     "level": 0,
+     "name": "Heavy Linen Gloves",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 3840
+    },
+    "3841": {
+     "category": "Bracers",
+     "costs": {
+      "5": 200
+     },
+     "icon": 132611,
+     "level": 0,
+     "name": "Green Linen Bracers",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 3841
+    },
+    "3842": {
+     "category": "Leggings",
+     "costs": {
+      "5": 300
+     },
+     "icon": 134587,
+     "level": 0,
+     "name": "Handstitched Linen Britches",
+     "skill": "Tailoring",
+     "skillRank": 45,
+     "sources": 1,
+     "spellId": 3842
+    },
+    "3843": {
+     "category": "Gloves",
+     "costs": {
+      "5": 400
+     },
+     "icon": 132939,
+     "level": 0,
+     "name": "Heavy Woolen Gloves",
+     "skill": "Tailoring",
+     "skillRank": 60,
+     "sources": 1,
+     "spellId": 3843
+    },
+    "3845": {
+     "category": "Shoes",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132543,
+     "level": 0,
+     "name": "Soft-soled Linen Boots",
+     "skill": "Tailoring",
+     "skillRank": 55,
+     "sources": 1,
+     "spellId": 3845
+    },
+    "3848": {
+     "category": "Spaulders",
+     "costs": {
+      "5": 500
+     },
+     "icon": 135037,
+     "level": 0,
+     "name": "Double-stitched Woolen Shoulders",
+     "skill": "Tailoring",
+     "skillRank": 85,
+     "sources": 1,
+     "spellId": 3848
+    },
+    "3850": {
+     "category": "Leggings",
+     "costs": {
+      "5": 500
+     },
+     "icon": 134581,
+     "level": 0,
+     "name": "Heavy Woolen Pants",
+     "skill": "Tailoring",
+     "skillRank": 85,
+     "sources": 1,
+     "spellId": 3850
+    },
+    "3852": {
+     "category": "Gloves",
+     "costs": {
+      "5": 750
+     },
+     "icon": 132939,
+     "level": 0,
+     "name": "Gloves of Meditation",
+     "skill": "Tailoring",
+     "skillRank": 105,
+     "sources": 1,
+     "spellId": 3852
+    },
+    "3855": {
+     "category": "Shoes",
+     "costs": {
+      "5": 750
+     },
+     "icon": 132539,
+     "level": 0,
+     "name": "Spidersilk Boots",
+     "skill": "Tailoring",
+     "skillRank": 100,
+     "sources": 1,
+     "spellId": 3855
+    },
+    "3859": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 750
+     },
+     "icon": 132678,
+     "level": 0,
+     "name": "Azure Silk Vest",
+     "skill": "Tailoring",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 3859
+    },
+    "3866": {
+     "category": "Shirts",
+     "costs": {
+      "5": 250
+     },
+     "icon": 135029,
+     "level": 0,
+     "name": "Stylish Red Shirt",
+     "skill": "Tailoring",
+     "skillRank": 85,
+     "sources": 1,
+     "spellId": 3866
+    },
+    "3908": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 136249,
+     "level": 1,
+     "name": "Apprentice Tailoring",
+     "profession": true,
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3908
+    },
+    "3909": {
+     "costs": {
+      "5": 500
+     },
+     "icon": 136249,
+     "level": 10,
+     "name": "Journeyman Tailoring",
+     "skill": "Tailoring",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 3909,
+     "step": true
+    },
+    "3914": {
+     "category": "Leggings",
+     "costs": {
+      "5": 50
+     },
+     "icon": 134586,
+     "level": 0,
+     "name": "Brown Linen Pants",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 3914
+    },
+    "6521": {
+     "category": "Cloaks",
+     "costs": {
+      "5": 400
+     },
+     "icon": 133763,
+     "level": 0,
+     "name": "Pearl-clasped Cloak",
+     "skill": "Tailoring",
+     "skillRank": 70,
+     "sources": 1,
+     "spellId": 6521
+    },
+    "6690": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132658,
+     "level": 0,
+     "name": "Lesser Wizard's Robe",
+     "skill": "Tailoring",
+     "skillRank": 110,
+     "sources": 1,
+     "spellId": 6690
+    },
+    "7623": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132662,
+     "level": 0,
+     "name": "Brown Linen Robe",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 7623
+    },
+    "7624": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132645,
+     "level": 0,
+     "name": "White Linen Robe",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 7624
+    },
+    "8465": {
+     "category": "Dressed for the Occasion",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135016,
+     "level": 0,
+     "name": "Simple Dress",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 8465
+    },
+    "8467": {
+     "category": "Dressed for the Occasion",
+     "costs": {
+      "5": 250
+     },
+     "icon": 135016,
+     "level": 0,
+     "name": "White Woolen Dress",
+     "skill": "Tailoring",
+     "skillRank": 85,
+     "sources": 1,
+     "spellId": 8467
+    },
+    "8758": {
+     "category": "Leggings",
+     "costs": {
+      "5": 600
+     },
+     "icon": 134588,
+     "level": 0,
+     "name": "Azure Silk Pants",
+     "skill": "Tailoring",
+     "skillRank": 115,
+     "sources": 1,
+     "spellId": 8758
+    },
+    "8760": {
+     "category": "Hoods",
+     "costs": {
+      "5": 600
+     },
+     "icon": 133131,
+     "level": 0,
+     "name": "Azure Silk Hood",
+     "skill": "Tailoring",
+     "skillRank": 120,
+     "sources": 1,
+     "spellId": 8760
+    },
+    "8776": {
+     "category": "Belts",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132494,
+     "level": 0,
+     "name": "Linen Belt",
+     "skill": "Tailoring",
+     "skillRank": 15,
+     "sources": 1,
+     "spellId": 8776
+    },
+    "12045": {
+     "category": "Shoes",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132539,
+     "level": 0,
+     "name": "Simple Linen Boots",
+     "skill": "Tailoring",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 12045
+    },
+    "12046": {
+     "category": "Leggings",
+     "costs": {
+      "5": 300
+     },
+     "icon": 134591,
+     "level": 0,
+     "name": "Simple Kilt",
+     "skill": "Tailoring",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 12046
+    },
+    "1229504": {
+     "category": "Camping",
+     "costs": {
+      "5": 100
+     },
+     "icon": 132484,
+     "level": 0,
+     "name": "Faction Banner",
+     "rankText": "Tier 1",
+     "skill": "Tailoring",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 1229504
+    },
+    "1257368": {
+     "category": "Belts",
+     "costs": {
+      "5": 500
+     },
+     "icon": 236919,
+     "level": 0,
+     "name": "Novice Arcanist's Sash",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 1257368
+    },
+    "1257369": {
+     "category": "Belts",
+     "costs": {
+      "5": 500
+     },
+     "icon": 236918,
+     "level": 0,
+     "name": "Novice Ardent's Sash",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 1257369
+    },
+    "1257426": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132565,
+     "level": 0,
+     "name": "Gilded Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257426
+    },
+    "1257427": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132560,
+     "level": 0,
+     "name": "Frothing Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257427
+    },
+    "1257428": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132559,
+     "level": 0,
+     "name": "Fiery Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257428
+    },
+    "1257429": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132578,
+     "level": 0,
+     "name": "Black Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257429
+    },
+    "1257430": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132563,
+     "level": 0,
+     "name": "Golden Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257430
+    },
+    "1257431": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 341559,
+     "level": 0,
+     "name": "Radiant Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257431
+    }
+   },
+   "sources": 1,
+   "tradeskill": true,
+   "trainerType": 2
+  },
+  "4568": {
+   "lastSeen": "2026-10-09",
+   "name": "Anastasia Hartwell",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.8502,
+     "mapY": 0.1047,
+     "uiMap": 1458,
+     "worldX": 1810.9,
+     "worldY": 57.6
+    }
+   ],
+   "services": {
+    "10": {
+     "costs": {
+      "5": 2000
+     },
+     "icon": 135857,
+     "level": 0,
+     "name": "Blizzard",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10
+    },
+    "116": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 135846,
+     "level": 0,
+     "name": "Frostbolt",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 116
+    },
+    "118": {
+     "costs": {
+      "5": 200
+     },
+     "icon": 136071,
+     "level": 0,
+     "name": "Polymorph",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 118
+    },
+    "120": {
+     "costs": {
+      "5": 5000
+     },
+     "icon": 135852,
+     "level": 26,
+     "name": "Cone of Cold",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 120
+    },
+    "122": {
+     "costs": {
+      "5": 400
+     },
+     "icon": 135848,
+     "level": 0,
+     "name": "Frost Nova",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 122
+    },
+    "130": {
+     "costs": {
+      "5": 600
+     },
+     "icon": 135992,
+     "level": 0,
+     "name": "Slow Fall",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 130
+    },
+    "143": {
+     "abilities": [
+      "Fireball (Rank 1)"
+     ],
+     "costs": {
+      "5": 100
+     },
+     "icon": 135812,
+     "level": 0,
+     "name": "Fireball",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 143
+    },
+    "145": {
+     "abilities": [
+      "Fireball (Rank 2)"
+     ],
+     "costs": {
+      "5": 600
+     },
+     "icon": 135812,
+     "level": 0,
+     "name": "Fireball",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 145
+    },
+    "205": {
+     "abilities": [
+      "Frostbolt (Rank 1)"
+     ],
+     "costs": {
+      "5": 200
+     },
+     "icon": 135846,
+     "level": 0,
+     "name": "Frostbolt",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 205
+    },
+    "475": {
+     "costs": {
+      "5": 1800
+     },
+     "icon": 136082,
+     "level": 0,
+     "name": "Remove Lesser Curse",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 475
+    },
+    "543": {
+     "costs": {
+      "5": 2000
+     },
+     "icon": 135806,
+     "level": 0,
+     "name": "Fire Ward",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 543
+    },
+    "587": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 133952,
+     "level": 0,
+     "name": "Conjure Food",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 587
+    },
+    "597": {
+     "abilities": [
+      "Conjure Food (Rank 1)"
+     ],
+     "costs": {
+      "5": 600
+     },
+     "icon": 133951,
+     "level": 0,
+     "name": "Conjure Food",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 597
+    },
+    "604": {
+     "costs": {
+      "5": 600
+     },
+     "icon": 136006,
+     "level": 0,
+     "name": "Dampen Magic",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 604
+    },
+    "759": {
+     "costs": {
+      "5": 7000
+     },
+     "icon": 134104,
+     "level": 28,
+     "name": "Conjure Mana Agate",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 759
+    },
+    "837": {
+     "abilities": [
+      "Frostbolt (Rank 2)"
+     ],
+     "costs": {
+      "5": 900
+     },
+     "icon": 135846,
+     "level": 0,
+     "name": "Frostbolt",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 837
+    },
+    "865": {
+     "abilities": [
+      "Frost Nova (Rank 1)"
+     ],
+     "costs": {
+      "5": 5000
+     },
+     "icon": 135848,
+     "level": 26,
+     "name": "Frost Nova",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 865
+    },
+    "990": {
+     "abilities": [
+      "Conjure Food (Rank 2)"
+     ],
+     "costs": {
+      "5": 3000
+     },
+     "icon": 133968,
+     "level": 0,
+     "name": "Conjure Food",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 990
+    },
+    "1008": {
+     "costs": {
+      "5": 1800
+     },
+     "icon": 135907,
+     "level": 0,
+     "name": "Amplify Magic",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1008
+    },
+    "1449": {
+     "costs": {
+      "5": 900
+     },
+     "icon": 136116,
+     "level": 0,
+     "name": "Arcane Explosion",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1449
+    },
+    "1459": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 135932,
+     "level": 0,
+     "name": "Arcane Intellect",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1459
+    },
+    "1460": {
+     "abilities": [
+      "Arcane Intellect (Rank 1)"
+     ],
+     "costs": {
+      "5": 900
+     },
+     "icon": 135932,
+     "level": 0,
+     "name": "Arcane Intellect",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1460
+    },
+    "1461": {
+     "abilities": [
+      "Arcane Intellect (Rank 2)"
+     ],
+     "costs": {
+      "5": 7000
+     },
+     "icon": 135932,
+     "level": 28,
+     "name": "Arcane Intellect",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1461
+    },
+    "1463": {
+     "costs": {
+      "5": 2000
+     },
+     "icon": 136153,
+     "level": 0,
+     "name": "Mana Shield",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1463
+    },
+    "1953": {
+     "costs": {
+      "5": 2000
+     },
+     "icon": 135736,
+     "level": 0,
+     "name": "Blink",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1953
+    },
+    "2120": {
+     "costs": {
+      "5": 1500
+     },
+     "icon": 135826,
+     "level": 0,
+     "name": "Flamestrike",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2120
+    },
+    "2121": {
+     "abilities": [
+      "Flamestrike (Rank 1)"
+     ],
+     "costs": {
+      "5": 4000
+     },
+     "icon": 135826,
+     "level": 24,
+     "name": "Flamestrike",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2121
+    },
+    "2136": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 135807,
+     "level": 0,
+     "name": "Fire Blast",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2136
+    },
+    "2137": {
+     "abilities": [
+      "Fire Blast (Rank 1)"
+     ],
+     "costs": {
+      "5": 900
+     },
+     "icon": 135807,
+     "level": 0,
+     "name": "Fire Blast",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2137
+    },
+    "2138": {
+     "abilities": [
+      "Fire Blast (Rank 2)"
+     ],
+     "costs": {
+      "5": 3000
+     },
+     "icon": 135807,
+     "level": 0,
+     "name": "Fire Blast",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2138
+    },
+    "2139": {
+     "costs": {
+      "5": 4000
+     },
+     "icon": 135856,
+     "level": 24,
+     "name": "Counterspell",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2139
+    },
+    "2948": {
+     "costs": {
+      "5": 3000
+     },
+     "icon": 135827,
+     "level": 0,
+     "name": "Scorch",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2948
+    },
+    "3140": {
+     "abilities": [
+      "Fireball (Rank 3)"
+     ],
+     "costs": {
+      "5": 1800
+     },
+     "icon": 135812,
+     "level": 0,
+     "name": "Fireball",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3140
+    },
+    "3552": {
+     "abilities": [
+      "Conjure Mana Agate"
+     ],
+     "costs": {
+      "5": 14000
+     },
+     "icon": 134105,
+     "level": 38,
+     "name": "Conjure Mana Jade",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3552
+    },
+    "5143": {
+     "costs": {
+      "5": 200
+     },
+     "icon": 136096,
+     "level": 0,
+     "name": "Arcane Missiles",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5143
+    },
+    "5144": {
+     "abilities": [
+      "Arcane Missiles (Rank 1)"
+     ],
+     "costs": {
+      "5": 1500
+     },
+     "icon": 136096,
+     "level": 0,
+     "name": "Arcane Missiles",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5144
+    },
+    "5145": {
+     "abilities": [
+      "Arcane Missiles (Rank 2)"
+     ],
+     "costs": {
+      "5": 4000
+     },
+     "icon": 136096,
+     "level": 24,
+     "name": "Arcane Missiles",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5145
+    },
+    "5504": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 132793,
+     "level": 0,
+     "name": "Conjure Water",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5504
+    },
+    "5505": {
+     "abilities": [
+      "Conjure Water (Rank 1)"
+     ],
+     "costs": {
+      "5": 400
+     },
+     "icon": 132794,
+     "level": 0,
+     "name": "Conjure Water",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5505
+    },
+    "5506": {
+     "abilities": [
+      "Conjure Water (Rank 2)"
+     ],
+     "costs": {
+      "5": 2000
+     },
+     "icon": 132816,
+     "level": 0,
+     "name": "Conjure Water",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5506
+    },
+    "6117": {
+     "costs": {
+      "5": 12000
+     },
+     "icon": 135991,
+     "level": 34,
+     "name": "Mage Armor",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6117
+    },
+    "6127": {
+     "abilities": [
+      "Conjure Water (Rank 3)"
+     ],
+     "costs": {
+      "5": 8000
+     },
+     "icon": 132797,
+     "level": 30,
+     "name": "Conjure Water",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6127
+    },
+    "6129": {
+     "abilities": [
+      "Conjure Food (Rank 3)"
+     ],
+     "costs": {
+      "5": 10000
+     },
+     "icon": 133950,
+     "level": 32,
+     "name": "Conjure Food",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6129
+    },
+    "6131": {
+     "abilities": [
+      "Frost Nova (Rank 2)"
+     ],
+     "costs": {
+      "5": 15000
+     },
+     "icon": 135848,
+     "level": 40,
+     "name": "Frost Nova",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6131
+    },
+    "6141": {
+     "abilities": [
+      "Blizzard (Rank 1)"
+     ],
+     "costs": {
+      "5": 7000
+     },
+     "icon": 135857,
+     "level": 28,
+     "name": "Blizzard",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6141
+    },
+    "6143": {
+     "costs": {
+      "5": 3000
+     },
+     "icon": 135850,
+     "level": 0,
+     "name": "Frost Ward",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6143
+    },
+    "7300": {
+     "abilities": [
+      "Frost Armor (Rank 1)"
+     ],
+     "costs": {
+      "5": 400
+     },
+     "icon": 135843,
+     "level": 0,
+     "name": "Frost Armor",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7300
+    },
+    "7301": {
+     "abilities": [
+      "Frost Armor (Rank 2)"
+     ],
+     "costs": {
+      "5": 2000
+     },
+     "icon": 135843,
+     "level": 0,
+     "name": "Frost Armor",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7301
+    },
+    "7302": {
+     "costs": {
+      "5": 8000
+     },
+     "icon": 135843,
+     "level": 30,
+     "name": "Ice Armor",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7302
+    },
+    "7320": {
+     "abilities": [
+      "Ice Armor (Rank 1)"
+     ],
+     "costs": {
+      "5": 15000
+     },
+     "icon": 135843,
+     "level": 40,
+     "name": "Ice Armor",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7320
+    },
+    "7322": {
+     "abilities": [
+      "Frostbolt (Rank 3)"
+     ],
+     "costs": {
+      "5": 2000
+     },
+     "icon": 135846,
+     "level": 0,
+     "name": "Frostbolt",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7322
+    },
+    "8400": {
+     "abilities": [
+      "Fireball (Rank 4)"
+     ],
+     "costs": {
+      "5": 4000
+     },
+     "icon": 135812,
+     "level": 24,
+     "name": "Fireball",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8400
+    },
+    "8401": {
+     "abilities": [
+      "Fireball (Rank 5)"
+     ],
+     "costs": {
+      "5": 8000
+     },
+     "icon": 135812,
+     "level": 30,
+     "name": "Fireball",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8401
+    },
+    "8402": {
+     "abilities": [
+      "Fireball (Rank 6)"
+     ],
+     "costs": {
+      "5": 13000
+     },
+     "icon": 135812,
+     "level": 36,
+     "name": "Fireball",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8402
+    },
+    "8406": {
+     "abilities": [
+      "Frostbolt (Rank 4)"
+     ],
+     "costs": {
+      "5": 5000
+     },
+     "icon": 135846,
+     "level": 26,
+     "name": "Frostbolt",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8406
+    },
+    "8407": {
+     "abilities": [
+      "Frostbolt (Rank 5)"
+     ],
+     "costs": {
+      "5": 10000
+     },
+     "icon": 135846,
+     "level": 32,
+     "name": "Frostbolt",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8407
+    },
+    "8408": {
+     "abilities": [
+      "Frostbolt (Rank 6)"
+     ],
+     "costs": {
+      "5": 14000
+     },
+     "icon": 135846,
+     "level": 38,
+     "name": "Frostbolt",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8408
+    },
+    "8412": {
+     "abilities": [
+      "Fire Blast (Rank 3)"
+     ],
+     "costs": {
+      "5": 8000
+     },
+     "icon": 135807,
+     "level": 30,
+     "name": "Fire Blast",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8412
+    },
+    "8413": {
+     "abilities": [
+      "Fire Blast (Rank 4)"
+     ],
+     "costs": {
+      "5": 14000
+     },
+     "icon": 135807,
+     "level": 38,
+     "name": "Fire Blast",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8413
+    },
+    "8416": {
+     "abilities": [
+      "Arcane Missiles (Rank 3)"
+     ],
+     "costs": {
+      "5": 10000
+     },
+     "icon": 136096,
+     "level": 32,
+     "name": "Arcane Missiles",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8416
+    },
+    "8417": {
+     "abilities": [
+      "Arcane Missiles (Rank 4)"
+     ],
+     "costs": {
+      "5": 15000
+     },
+     "icon": 136096,
+     "level": 40,
+     "name": "Arcane Missiles",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8417
+    },
+    "8422": {
+     "abilities": [
+      "Flamestrike (Rank 2)"
+     ],
+     "costs": {
+      "5": 10000
+     },
+     "icon": 135826,
+     "level": 32,
+     "name": "Flamestrike",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8422
+    },
+    "8423": {
+     "abilities": [
+      "Flamestrike (Rank 3)"
+     ],
+     "costs": {
+      "5": 15000
+     },
+     "icon": 135826,
+     "level": 40,
+     "name": "Flamestrike",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8423
+    },
+    "8427": {
+     "abilities": [
+      "Blizzard (Rank 2)"
+     ],
+     "costs": {
+      "5": 13000
+     },
+     "icon": 135857,
+     "level": 36,
+     "name": "Blizzard",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8427
+    },
+    "8437": {
+     "abilities": [
+      "Arcane Explosion (Rank 1)"
+     ],
+     "costs": {
+      "5": 3000
+     },
+     "icon": 136116,
+     "level": 0,
+     "name": "Arcane Explosion",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8437
+    },
+    "8438": {
+     "abilities": [
+      "Arcane Explosion (Rank 2)"
+     ],
+     "costs": {
+      "5": 8000
+     },
+     "icon": 136116,
+     "level": 30,
+     "name": "Arcane Explosion",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8438
+    },
+    "8439": {
+     "abilities": [
+      "Arcane Explosion (Rank 3)"
+     ],
+     "costs": {
+      "5": 14000
+     },
+     "icon": 136116,
+     "level": 38,
+     "name": "Arcane Explosion",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8439
+    },
+    "8444": {
+     "abilities": [
+      "Scorch (Rank 1)"
+     ],
+     "costs": {
+      "5": 7000
+     },
+     "icon": 135827,
+     "level": 28,
+     "name": "Scorch",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8444
+    },
+    "8445": {
+     "abilities": [
+      "Scorch (Rank 2)"
+     ],
+     "costs": {
+      "5": 12000
+     },
+     "icon": 135827,
+     "level": 34,
+     "name": "Scorch",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8445
+    },
+    "8446": {
+     "abilities": [
+      "Scorch (Rank 3)"
+     ],
+     "costs": {
+      "5": 15000
+     },
+     "icon": 135827,
+     "level": 40,
+     "name": "Scorch",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8446
+    },
+    "8450": {
+     "abilities": [
+      "Dampen Magic (Rank 1)"
+     ],
+     "costs": {
+      "5": 4000
+     },
+     "icon": 136006,
+     "level": 24,
+     "name": "Dampen Magic",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8450
+    },
+    "8451": {
+     "abilities": [
+      "Dampen Magic (Rank 2)"
+     ],
+     "costs": {
+      "5": 13000
+     },
+     "icon": 136006,
+     "level": 36,
+     "name": "Dampen Magic",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8451
+    },
+    "8455": {
+     "abilities": [
+      "Amplify Magic (Rank 1)"
+     ],
+     "costs": {
+      "5": 8000
+     },
+     "icon": 135907,
+     "level": 30,
+     "name": "Amplify Magic",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8455
+    },
+    "8457": {
+     "abilities": [
+      "Fire Ward (Rank 1)"
+     ],
+     "costs": {
+      "5": 8000
+     },
+     "icon": 135806,
+     "level": 30,
+     "name": "Fire Ward",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8457
+    },
+    "8458": {
+     "abilities": [
+      "Fire Ward (Rank 2)"
+     ],
+     "costs": {
+      "5": 15000
+     },
+     "icon": 135806,
+     "level": 40,
+     "name": "Fire Ward",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8458
+    },
+    "8461": {
+     "abilities": [
+      "Frost Ward (Rank 1)"
+     ],
+     "costs": {
+      "5": 10000
+     },
+     "icon": 135850,
+     "level": 32,
+     "name": "Frost Ward",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8461
+    },
+    "8462": {
+     "abilities": [
+      "Frost Ward (Rank 2)"
+     ],
+     "costs": {
+      "5": 18000
+     },
+     "icon": 135850,
+     "level": 42,
+     "name": "Frost Ward",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8462
+    },
+    "8492": {
+     "abilities": [
+      "Cone of Cold (Rank 1)"
+     ],
+     "costs": {
+      "5": 12000
+     },
+     "icon": 135852,
+     "level": 34,
+     "name": "Cone of Cold",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8492
+    },
+    "8494": {
+     "abilities": [
+      "Mana Shield (Rank 1)"
+     ],
+     "costs": {
+      "5": 7000
+     },
+     "icon": 136153,
+     "level": 28,
+     "name": "Mana Shield",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8494
+    },
+    "8495": {
+     "abilities": [
+      "Mana Shield (Rank 2)"
+     ],
+     "costs": {
+      "5": 13000
+     },
+     "icon": 136153,
+     "level": 36,
+     "name": "Mana Shield",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8495
+    },
+    "10053": {
+     "abilities": [
+      "Conjure Mana Jade"
+     ],
+     "costs": {
+      "5": 28000
+     },
+     "icon": 134116,
+     "level": 48,
+     "name": "Conjure Mana Citrine",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10053
+    },
+    "10054": {
+     "abilities": [
+      "Conjure Mana Citrine"
+     ],
+     "costs": {
+      "5": 40000
+     },
+     "icon": 134128,
+     "level": 58,
+     "name": "Conjure Mana Ruby",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10054
+    },
+    "10138": {
+     "abilities": [
+      "Conjure Water (Rank 4)"
+     ],
+     "costs": {
+      "5": 15000
+     },
+     "icon": 132796,
+     "level": 40,
+     "name": "Conjure Water",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10138
+    },
+    "10139": {
+     "abilities": [
+      "Conjure Water (Rank 5)"
+     ],
+     "costs": {
+      "5": 32000
+     },
+     "icon": 132798,
+     "level": 50,
+     "name": "Conjure Water",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10139
+    },
+    "10144": {
+     "abilities": [
+      "Conjure Food (Rank 4)"
+     ],
+     "costs": {
+      "5": 18000
+     },
+     "icon": 133964,
+     "level": 42,
+     "name": "Conjure Food",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10144
+    },
+    "10145": {
+     "abilities": [
+      "Conjure Food (Rank 5)"
+     ],
+     "costs": {
+      "5": 35000
+     },
+     "icon": 133989,
+     "level": 52,
+     "name": "Conjure Food",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10145
+    },
+    "10148": {
+     "abilities": [
+      "Fireball (Rank 7)"
+     ],
+     "costs": {
+      "5": 18000
+     },
+     "icon": 135812,
+     "level": 42,
+     "name": "Fireball",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10148
+    },
+    "10149": {
+     "abilities": [
+      "Fireball (Rank 8)"
+     ],
+     "costs": {
+      "5": 28000
+     },
+     "icon": 135812,
+     "level": 48,
+     "name": "Fireball",
+     "rankText": "Rank 9",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10149
+    },
+    "10150": {
+     "abilities": [
+      "Fireball (Rank 9)"
+     ],
+     "costs": {
+      "5": 36000
+     },
+     "icon": 135812,
+     "level": 54,
+     "name": "Fireball",
+     "rankText": "Rank 10",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10150
+    },
+    "10151": {
+     "abilities": [
+      "Fireball (Rank 10)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 135812,
+     "level": 60,
+     "name": "Fireball",
+     "rankText": "Rank 11",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10151
+    },
+    "10156": {
+     "abilities": [
+      "Arcane Intellect (Rank 3)"
+     ],
+     "costs": {
+      "5": 18000
+     },
+     "icon": 135932,
+     "level": 42,
+     "name": "Arcane Intellect",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10156
+    },
+    "10157": {
+     "abilities": [
+      "Arcane Intellect (Rank 4)"
+     ],
+     "costs": {
+      "5": 38000
+     },
+     "icon": 135932,
+     "level": 56,
+     "name": "Arcane Intellect",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10157
+    },
+    "10159": {
+     "abilities": [
+      "Cone of Cold (Rank 2)"
+     ],
+     "costs": {
+      "5": 18000
+     },
+     "icon": 135852,
+     "level": 42,
+     "name": "Cone of Cold",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10159
+    },
+    "10160": {
+     "abilities": [
+      "Cone of Cold (Rank 3)"
+     ],
+     "costs": {
+      "5": 32000
+     },
+     "icon": 135852,
+     "level": 50,
+     "name": "Cone of Cold",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10160
+    },
+    "10161": {
+     "abilities": [
+      "Cone of Cold (Rank 4)"
+     ],
+     "costs": {
+      "5": 40000
+     },
+     "icon": 135852,
+     "level": 58,
+     "name": "Cone of Cold",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10161
+    },
+    "10169": {
+     "abilities": [
+      "Amplify Magic (Rank 2)"
+     ],
+     "costs": {
+      "5": 18000
+     },
+     "icon": 135907,
+     "level": 42,
+     "name": "Amplify Magic",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10169
+    },
+    "10170": {
+     "abilities": [
+      "Amplify Magic (Rank 3)"
+     ],
+     "costs": {
+      "5": 36000
+     },
+     "icon": 135907,
+     "level": 54,
+     "name": "Amplify Magic",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10170
+    },
+    "10173": {
+     "abilities": [
+      "Dampen Magic (Rank 3)"
+     ],
+     "costs": {
+      "5": 28000
+     },
+     "icon": 136006,
+     "level": 48,
+     "name": "Dampen Magic",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10173
+    },
+    "10174": {
+     "abilities": [
+      "Dampen Magic (Rank 4)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 136006,
+     "level": 60,
+     "name": "Dampen Magic",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10174
+    },
+    "10177": {
+     "abilities": [
+      "Frost Ward (Rank 3)"
+     ],
+     "costs": {
+      "5": 35000
+     },
+     "icon": 135850,
+     "level": 52,
+     "name": "Frost Ward",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10177
+    },
+    "10179": {
+     "abilities": [
+      "Frostbolt (Rank 7)"
+     ],
+     "costs": {
+      "5": 23000
+     },
+     "icon": 135846,
+     "level": 44,
+     "name": "Frostbolt",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10179
+    },
+    "10180": {
+     "abilities": [
+      "Frostbolt (Rank 8)"
+     ],
+     "costs": {
+      "5": 32000
+     },
+     "icon": 135846,
+     "level": 50,
+     "name": "Frostbolt",
+     "rankText": "Rank 9",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10180
+    },
+    "10181": {
+     "abilities": [
+      "Frostbolt (Rank 9)"
+     ],
+     "costs": {
+      "5": 38000
+     },
+     "icon": 135846,
+     "level": 56,
+     "name": "Frostbolt",
+     "rankText": "Rank 10",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10181
+    },
+    "10185": {
+     "abilities": [
+      "Blizzard (Rank 3)"
+     ],
+     "costs": {
+      "5": 23000
+     },
+     "icon": 135857,
+     "level": 44,
+     "name": "Blizzard",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10185
+    },
+    "10186": {
+     "abilities": [
+      "Blizzard (Rank 4)"
+     ],
+     "costs": {
+      "5": 35000
+     },
+     "icon": 135857,
+     "level": 52,
+     "name": "Blizzard",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10186
+    },
+    "10187": {
+     "abilities": [
+      "Blizzard (Rank 5)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 135857,
+     "level": 60,
+     "name": "Blizzard",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10187
+    },
+    "10191": {
+     "abilities": [
+      "Mana Shield (Rank 3)"
+     ],
+     "costs": {
+      "5": 23000
+     },
+     "icon": 136153,
+     "level": 44,
+     "name": "Mana Shield",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10191
+    },
+    "10192": {
+     "abilities": [
+      "Mana Shield (Rank 4)"
+     ],
+     "costs": {
+      "5": 35000
+     },
+     "icon": 136153,
+     "level": 52,
+     "name": "Mana Shield",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10192
+    },
+    "10193": {
+     "abilities": [
+      "Mana Shield (Rank 5)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 136153,
+     "level": 60,
+     "name": "Mana Shield",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10193
+    },
+    "10197": {
+     "abilities": [
+      "Fire Blast (Rank 5)"
+     ],
+     "costs": {
+      "5": 26000
+     },
+     "icon": 135807,
+     "level": 46,
+     "name": "Fire Blast",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10197
+    },
+    "10199": {
+     "abilities": [
+      "Fire Blast (Rank 6)"
+     ],
+     "costs": {
+      "5": 36000
+     },
+     "icon": 135807,
+     "level": 54,
+     "name": "Fire Blast",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10199
+    },
+    "10201": {
+     "abilities": [
+      "Arcane Explosion (Rank 4)"
+     ],
+     "costs": {
+      "5": 26000
+     },
+     "icon": 136116,
+     "level": 46,
+     "name": "Arcane Explosion",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10201
+    },
+    "10202": {
+     "abilities": [
+      "Arcane Explosion (Rank 5)"
+     ],
+     "costs": {
+      "5": 36000
+     },
+     "icon": 136116,
+     "level": 54,
+     "name": "Arcane Explosion",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10202
+    },
+    "10205": {
+     "abilities": [
+      "Scorch (Rank 4)"
+     ],
+     "costs": {
+      "5": 26000
+     },
+     "icon": 135827,
+     "level": 46,
+     "name": "Scorch",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10205
+    },
+    "10206": {
+     "abilities": [
+      "Scorch (Rank 5)"
+     ],
+     "costs": {
+      "5": 35000
+     },
+     "icon": 135827,
+     "level": 52,
+     "name": "Scorch",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10206
+    },
+    "10207": {
+     "abilities": [
+      "Scorch (Rank 6)"
+     ],
+     "costs": {
+      "5": 40000
+     },
+     "icon": 135827,
+     "level": 58,
+     "name": "Scorch",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10207
+    },
+    "10211": {
+     "abilities": [
+      "Arcane Missiles (Rank 5)"
+     ],
+     "costs": {
+      "5": 28000
+     },
+     "icon": 136096,
+     "level": 48,
+     "name": "Arcane Missiles",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10211
+    },
+    "10212": {
+     "abilities": [
+      "Arcane Missiles (Rank 6)"
+     ],
+     "costs": {
+      "5": 38000
+     },
+     "icon": 136096,
+     "level": 56,
+     "name": "Arcane Missiles",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10212
+    },
+    "10215": {
+     "abilities": [
+      "Flamestrike (Rank 4)"
+     ],
+     "costs": {
+      "5": 28000
+     },
+     "icon": 135826,
+     "level": 48,
+     "name": "Flamestrike",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10215
+    },
+    "10216": {
+     "abilities": [
+      "Flamestrike (Rank 5)"
+     ],
+     "costs": {
+      "5": 38000
+     },
+     "icon": 135826,
+     "level": 56,
+     "name": "Flamestrike",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10216
+    },
+    "10219": {
+     "abilities": [
+      "Ice Armor (Rank 2)"
+     ],
+     "costs": {
+      "5": 32000
+     },
+     "icon": 135843,
+     "level": 50,
+     "name": "Ice Armor",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10219
+    },
+    "10220": {
+     "abilities": [
+      "Ice Armor (Rank 3)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 135843,
+     "level": 60,
+     "name": "Ice Armor",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10220
+    },
+    "10223": {
+     "abilities": [
+      "Fire Ward (Rank 3)"
+     ],
+     "costs": {
+      "5": 32000
+     },
+     "icon": 135806,
+     "level": 50,
+     "name": "Fire Ward",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10223
+    },
+    "10225": {
+     "abilities": [
+      "Fire Ward (Rank 4)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 135806,
+     "level": 60,
+     "name": "Fire Ward",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10225
+    },
+    "10230": {
+     "abilities": [
+      "Frost Nova (Rank 3)"
+     ],
+     "costs": {
+      "5": 36000
+     },
+     "icon": 135848,
+     "level": 54,
+     "name": "Frost Nova",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10230
+    },
+    "12051": {
+     "costs": {
+      "5": 2000
+     },
+     "icon": 136075,
+     "level": 0,
+     "name": "Evocation",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 12051
+    },
+    "12505": {
+     "abilities": [
+      "Pyroblast (Rank 1)"
+     ],
+     "costs": {
+      "5": 200
+     },
+     "icon": 135808,
+     "level": 24,
+     "name": "Pyroblast",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 12505
+    },
+    "12522": {
+     "abilities": [
+      "Pyroblast (Rank 2)"
+     ],
+     "costs": {
+      "5": 400
+     },
+     "icon": 135808,
+     "level": 30,
+     "name": "Pyroblast",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 12522
+    },
+    "12523": {
+     "abilities": [
+      "Pyroblast (Rank 3)"
+     ],
+     "costs": {
+      "5": 650
+     },
+     "icon": 135808,
+     "level": 36,
+     "name": "Pyroblast",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 12523
+    },
+    "12524": {
+     "abilities": [
+      "Pyroblast (Rank 4)"
+     ],
+     "costs": {
+      "5": 900
+     },
+     "icon": 135808,
+     "level": 42,
+     "name": "Pyroblast",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 12524
+    },
+    "12525": {
+     "abilities": [
+      "Pyroblast (Rank 5)"
+     ],
+     "costs": {
+      "5": 1400
+     },
+     "icon": 135808,
+     "level": 48,
+     "name": "Pyroblast",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 12525
+    },
+    "12526": {
+     "abilities": [
+      "Pyroblast (Rank 6)"
+     ],
+     "costs": {
+      "5": 1800
+     },
+     "icon": 135808,
+     "level": 54,
+     "name": "Pyroblast",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 12526
+    },
+    "12824": {
+     "abilities": [
+      "Polymorph (Rank 1)"
+     ],
+     "costs": {
+      "5": 2000
+     },
+     "icon": 136071,
+     "level": 0,
+     "name": "Polymorph",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 12824
+    },
+    "12825": {
+     "abilities": [
+      "Polymorph (Rank 2)"
+     ],
+     "costs": {
+      "5": 15000
+     },
+     "icon": 136071,
+     "level": 40,
+     "name": "Polymorph",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 12825
+    },
+    "12826": {
+     "abilities": [
+      "Polymorph (Rank 3)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 136071,
+     "level": 60,
+     "name": "Polymorph",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 12826
+    },
+    "13018": {
+     "abilities": [
+      "Blast Wave (Rank 1)"
+     ],
+     "costs": {
+      "5": 650
+     },
+     "icon": 135903,
+     "level": 36,
+     "name": "Blast Wave",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13018
+    },
+    "13019": {
+     "abilities": [
+      "Blast Wave (Rank 2)"
+     ],
+     "costs": {
+      "5": 1150
+     },
+     "icon": 135903,
+     "level": 44,
+     "name": "Blast Wave",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13019
+    },
+    "13020": {
+     "abilities": [
+      "Blast Wave (Rank 3)"
+     ],
+     "costs": {
+      "5": 1750
+     },
+     "icon": 135903,
+     "level": 52,
+     "name": "Blast Wave",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13020
+    },
+    "13021": {
+     "abilities": [
+      "Blast Wave (Rank 4)"
+     ],
+     "costs": {
+      "5": 2100
+     },
+     "icon": 135903,
+     "level": 60,
+     "name": "Blast Wave",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13021
+    },
+    "13031": {
+     "abilities": [
+      "Ice Barrier (Rank 1)"
+     ],
+     "costs": {
+      "5": 1300
+     },
+     "icon": 135988,
+     "level": 46,
+     "name": "Ice Barrier",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13031
+    },
+    "13032": {
+     "abilities": [
+      "Ice Barrier (Rank 2)"
+     ],
+     "costs": {
+      "5": 1750
+     },
+     "icon": 135988,
+     "level": 52,
+     "name": "Ice Barrier",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13032
+    },
+    "13033": {
+     "abilities": [
+      "Ice Barrier (Rank 3)"
+     ],
+     "costs": {
+      "5": 2000
+     },
+     "icon": 135988,
+     "level": 58,
+     "name": "Ice Barrier",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13033
+    },
+    "18809": {
+     "abilities": [
+      "Pyroblast (Rank 7)"
+     ],
+     "costs": {
+      "5": 2100
+     },
+     "icon": 135808,
+     "level": 60,
+     "name": "Pyroblast",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18809
+    },
+    "22782": {
+     "abilities": [
+      "Mage Armor (Rank 1)"
+     ],
+     "costs": {
+      "5": 28000
+     },
+     "icon": 135991,
+     "level": 46,
+     "name": "Mage Armor",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 22782
+    },
+    "22783": {
+     "abilities": [
+      "Mage Armor (Rank 2)"
+     ],
+     "costs": {
+      "5": 40000
+     },
+     "icon": 135991,
+     "level": 58,
+     "name": "Mage Armor",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 22783
+    },
+    "400640": {
+     "abilities": [
+      "Ice Lance (Rank 1)"
+     ],
+     "costs": {
+      "5": 3000
+     },
+     "icon": 135844,
+     "level": 28,
+     "name": "Ice Lance",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 400640
+    },
+    "401502": {
+     "costs": {
+      "5": 15000
+     },
+     "icon": 236217,
+     "level": 40,
+     "name": "Frostfire Bolt",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 401502
+    },
+    "1237312": {
+     "abilities": [
+      "Frostfire Bolt (Rank 1)"
+     ],
+     "costs": {
+      "5": 32000
+     },
+     "icon": 236217,
+     "level": 50,
+     "name": "Frostfire Bolt",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1237312
+    },
+    "1237313": {
+     "abilities": [
+      "Frostfire Bolt (Rank 2)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 236217,
+     "level": 60,
+     "name": "Frostfire Bolt",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1237313
+    },
+    "1239696": {
+     "abilities": [
+      "Arcane Blast (Rank 1)"
+     ],
+     "costs": {
+      "5": 8000
+     },
+     "icon": 135735,
+     "level": 30,
+     "name": "Arcane Blast",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1239696
+    },
+    "1239697": {
+     "abilities": [
+      "Arcane Blast (Rank 2)"
+     ],
+     "costs": {
+      "5": 15000
+     },
+     "icon": 135735,
+     "level": 40,
+     "name": "Arcane Blast",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1239697
+    },
+    "1239699": {
+     "abilities": [
+      "Arcane Blast (Rank 3)"
+     ],
+     "costs": {
+      "5": 32000
+     },
+     "icon": 135735,
+     "level": 50,
+     "name": "Arcane Blast",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1239699
+    },
+    "1239700": {
+     "abilities": [
+      "Arcane Blast (Rank 4)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 135735,
+     "level": 60,
+     "name": "Arcane Blast",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1239700
+    },
+    "1240044": {
+     "abilities": [
+      "Ice Lance (Rank 2)"
+     ],
+     "costs": {
+      "5": 14500
+     },
+     "icon": 135844,
+     "level": 34,
+     "name": "Ice Lance",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1240044
+    },
+    "1240045": {
+     "abilities": [
+      "Ice Lance (Rank 3)"
+     ],
+     "costs": {
+      "5": 18000
+     },
+     "icon": 135844,
+     "level": 42,
+     "name": "Ice Lance",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1240045
+    },
+    "1240046": {
+     "abilities": [
+      "Ice Lance (Rank 4)"
+     ],
+     "costs": {
+      "5": 32000
+     },
+     "icon": 135844,
+     "level": 48,
+     "name": "Ice Lance",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1240046
+    },
+    "1240047": {
+     "abilities": [
+      "Ice Lance (Rank 5)"
+     ],
+     "costs": {
+      "5": 40000
+     },
+     "icon": 135844,
+     "level": 56,
+     "name": "Ice Lance",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1240047
+    },
+    "1296017": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 8188276,
+     "level": 0,
+     "name": "Comprehend Scroll",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1296017
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
   "11068": {
    "lastSeen": "2026-10-09",
    "name": "Betty Quin",
@@ -242,6 +7479,2688 @@
      "skillRank": 0,
      "sources": 1,
      "spellId": 5011
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
+  "244808": {
+   "lastSeen": "2026-10-09",
+   "name": "Aramis Hammerhand",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3111,
+     "mapY": 0.6636,
+     "uiMap": 1420,
+     "worldX": 1838.3,
+     "worldY": 1627.7
+    }
+   ],
+   "services": {
+    "465": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 135893,
+     "level": 1,
+     "name": "Devotion Aura",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 465
+    },
+    "498": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 135954,
+     "level": 6,
+     "name": "Divine Protection",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 498
+    },
+    "639": {
+     "abilities": [
+      "Holy Light (Rank 1)"
+     ],
+     "costs": {
+      "5": 100
+     },
+     "icon": 135920,
+     "level": 6,
+     "name": "Holy Light",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 639
+    },
+    "679": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 626003,
+     "level": 6,
+     "name": "Holy Strike",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 679
+    },
+    "19740": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 135906,
+     "level": 4,
+     "name": "Blessing of Might",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 19740
+    },
+    "20271": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 135959,
+     "level": 4,
+     "name": "Judgement",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20271
+    },
+    "21082": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 135924,
+     "level": 6,
+     "name": "Seal of the Crusader",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 21082
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
+  "251684": {
+   "lastSeen": "2026-10-09",
+   "name": "Strange Hermit",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.54,
+     "mapY": 0.3895,
+     "uiMap": 2521,
+     "worldX": 3511.8,
+     "worldY": 1227.7
+    }
+   ],
+   "services": {
+    "3922": {
+     "category": "Parts",
+     "costs": {
+      "5": 115
+     },
+     "icon": 134068,
+     "level": 0,
+     "name": "Handful of Copper Bolts",
+     "skill": "Engineering",
+     "skillRank": 30,
+     "sources": 1,
+     "spellId": 3922
+    },
+    "3923": {
+     "category": "Explosives",
+     "costs": {
+      "5": 130
+     },
+     "icon": 133717,
+     "level": 0,
+     "name": "Rough Copper Bomb",
+     "skill": "Engineering",
+     "skillRank": 30,
+     "sources": 1,
+     "spellId": 3923
+    },
+    "3924": {
+     "category": "Parts",
+     "costs": {
+      "5": 150
+     },
+     "icon": 133025,
+     "level": 0,
+     "name": "Copper Tube",
+     "skill": "Engineering",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 3924
+    },
+    "3925": {
+     "category": "Ranged Weapons",
+     "costs": {
+      "5": 150
+     },
+     "icon": 135612,
+     "level": 0,
+     "name": "Rough Boomstick",
+     "skill": "Engineering",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 3925
+    },
+    "3926": {
+     "category": "Parts",
+     "costs": {
+      "5": 225
+     },
+     "icon": 132997,
+     "level": 0,
+     "name": "Copper Modulator",
+     "skill": "Engineering",
+     "skillRank": 65,
+     "sources": 1,
+     "spellId": 3926
+    },
+    "3929": {
+     "category": "Parts",
+     "costs": {
+      "5": 250
+     },
+     "icon": 133849,
+     "level": 0,
+     "name": "Coarse Blasting Powder",
+     "skill": "Engineering",
+     "skillRank": 75,
+     "sources": 1,
+     "spellId": 3929
+    },
+    "3930": {
+     "category": "Ammunition",
+     "costs": {
+      "5": 250
+     },
+     "icon": 132384,
+     "level": 0,
+     "name": "Crafted Heavy Shot",
+     "skill": "Engineering",
+     "skillRank": 75,
+     "sources": 1,
+     "spellId": 3930
+    },
+    "3931": {
+     "category": "Explosives",
+     "costs": {
+      "5": 250
+     },
+     "icon": 133714,
+     "level": 0,
+     "name": "Coarse Dynamite",
+     "skill": "Engineering",
+     "skillRank": 75,
+     "sources": 1,
+     "spellId": 3931
+    },
+    "3977": {
+     "category": "Scopes",
+     "costs": {
+      "5": 200
+     },
+     "icon": 134441,
+     "level": 0,
+     "name": "Crude Scope",
+     "skill": "Engineering",
+     "skillRank": 60,
+     "sources": 1,
+     "spellId": 3977
+    },
+    "4036": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 136243,
+     "level": 1,
+     "name": "Apprentice Engineer",
+     "profession": true,
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 4036,
+     "step": true
+    },
+    "7430": {
+     "category": "Parts",
+     "costs": {
+      "5": 150
+     },
+     "icon": 134520,
+     "level": 0,
+     "name": "Arclight Spanner",
+     "skill": "Engineering",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 7430
+    },
+    "1230656": {
+     "category": "Camping",
+     "costs": {
+      "5": 100
+     },
+     "icon": 133871,
+     "level": 0,
+     "name": "Reagent Bot",
+     "rankText": "Tier 1",
+     "skill": "Engineering",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 1230656
+    }
+   },
+   "sources": 1,
+   "tradeskill": true,
+   "trainerType": 2
+  },
+  "252389": {
+   "lastSeen": "2026-10-09",
+   "name": "Quel'ana Quickgale",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.5963,
+     "mapY": 0.7266,
+     "uiMap": 2521,
+     "worldX": 2261.6,
+     "worldY": 914.3
+    }
+   ],
+   "services": {
+    "136": {
+     "abilities": [
+      "Tame Beast"
+     ],
+     "costs": {
+      "5": 600
+     },
+     "icon": 132179,
+     "level": 0,
+     "name": "Mend Pet",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 136
+    },
+    "674": {
+     "costs": {
+      "5": 2100
+     },
+     "icon": 132147,
+     "level": 20,
+     "name": "Dual Wield",
+     "rankText": "Passive",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 674
+    },
+    "781": {
+     "costs": {
+      "5": 2100
+     },
+     "icon": 132294,
+     "level": 20,
+     "name": "Disengage",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 781
+    },
+    "1002": {
+     "costs": {
+      "5": 1200
+     },
+     "icon": 132150,
+     "level": 14,
+     "name": "Eyes of the Beast",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1002
+    },
+    "1130": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 132212,
+     "level": 0,
+     "name": "Hunter's Mark",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1130
+    },
+    "1462": {
+     "costs": {
+      "5": 7200
+     },
+     "icon": 132270,
+     "level": 24,
+     "name": "Beast Lore",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1462
+    },
+    "1494": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 132328,
+     "level": 0,
+     "name": "Track Beasts",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1494
+    },
+    "1495": {
+     "costs": {
+      "5": 1500
+     },
+     "icon": 132215,
+     "level": 16,
+     "name": "Mongoose Bite",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1495
+    },
+    "1499": {
+     "costs": {
+      "5": 2100
+     },
+     "icon": 135834,
+     "level": 20,
+     "name": "Freezing Trap",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1499
+    },
+    "1510": {
+     "costs": {
+      "5": 16000
+     },
+     "icon": 132222,
+     "level": 40,
+     "name": "Volley",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1510
+    },
+    "1513": {
+     "costs": {
+      "5": 1200
+     },
+     "icon": 132118,
+     "level": 14,
+     "name": "Scare Beast",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1513
+    },
+    "1543": {
+     "costs": {
+      "5": 10000
+     },
+     "icon": 135815,
+     "level": 32,
+     "name": "Flare",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1543
+    },
+    "1978": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 132204,
+     "level": 0,
+     "name": "Serpent Sting",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1978
+    },
+    "2643": {
+     "costs": {
+      "5": 1600
+     },
+     "icon": 132330,
+     "level": 18,
+     "name": "Multi-Shot",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2643
+    },
+    "2974": {
+     "costs": {
+      "5": 600
+     },
+     "icon": 132309,
+     "level": 0,
+     "name": "Wing Clip",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2974
+    },
+    "3034": {
+     "costs": {
+      "5": 13000
+     },
+     "icon": 132157,
+     "level": 36,
+     "name": "Viper Sting",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3034
+    },
+    "3043": {
+     "costs": {
+      "5": 7000
+     },
+     "icon": 132169,
+     "level": 22,
+     "name": "Scorpid Sting",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3043
+    },
+    "3044": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 132218,
+     "level": 0,
+     "name": "Arcane Shot",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3044
+    },
+    "3045": {
+     "costs": {
+      "5": 7400
+     },
+     "icon": 132208,
+     "level": 26,
+     "name": "Rapid Fire",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3045
+    },
+    "3111": {
+     "abilities": [
+      "Mend Pet (Rank 1)"
+     ],
+     "costs": {
+      "5": 2100
+     },
+     "icon": 132179,
+     "level": 20,
+     "name": "Mend Pet",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3111
+    },
+    "3127": {
+     "costs": {
+      "5": 200
+     },
+     "icon": 132269,
+     "level": 8,
+     "name": "Parry",
+     "rankText": "Passive",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3127
+    },
+    "3661": {
+     "abilities": [
+      "Mend Pet (Rank 2)"
+     ],
+     "costs": {
+      "5": 7500
+     },
+     "icon": 132179,
+     "level": 28,
+     "name": "Mend Pet",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3661
+    },
+    "3662": {
+     "abilities": [
+      "Mend Pet (Rank 3)"
+     ],
+     "costs": {
+      "5": 13000
+     },
+     "icon": 132179,
+     "level": 36,
+     "name": "Mend Pet",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3662
+    },
+    "5116": {
+     "costs": {
+      "5": 200
+     },
+     "icon": 135860,
+     "level": 0,
+     "name": "Concussive Shot",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5116
+    },
+    "5118": {
+     "costs": {
+      "5": 2100
+     },
+     "icon": 132242,
+     "level": 20,
+     "name": "Aspect of the Cheetah",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5118
+    },
+    "5384": {
+     "costs": {
+      "5": 7600
+     },
+     "icon": 132293,
+     "level": 30,
+     "name": "Feign Death",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5384
+    },
+    "6197": {
+     "costs": {
+      "5": 1200
+     },
+     "icon": 132172,
+     "level": 14,
+     "name": "Eagle Eye",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6197
+    },
+    "8737": {
+     "costs": {
+      "5": 16000
+     },
+     "icon": 132627,
+     "level": 40,
+     "name": "Mail",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8737
+    },
+    "13159": {
+     "costs": {
+      "5": 16000
+     },
+     "icon": 132267,
+     "level": 40,
+     "name": "Aspect of the Pack",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13159
+    },
+    "13161": {
+     "costs": {
+      "5": 7600
+     },
+     "icon": 132252,
+     "level": 30,
+     "name": "Aspect of the Beast",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13161
+    },
+    "13163": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 132159,
+     "level": 0,
+     "name": "Aspect of the Monkey",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13163
+    },
+    "13165": {
+     "costs": {
+      "5": 400
+     },
+     "icon": 136076,
+     "level": 0,
+     "name": "Aspect of the Hawk",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13165
+    },
+    "13542": {
+     "abilities": [
+      "Mend Pet (Rank 4)"
+     ],
+     "costs": {
+      "5": 23000
+     },
+     "icon": 132179,
+     "level": 44,
+     "name": "Mend Pet",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13542
+    },
+    "13543": {
+     "abilities": [
+      "Mend Pet (Rank 5)"
+     ],
+     "costs": {
+      "5": 36000
+     },
+     "icon": 132179,
+     "level": 52,
+     "name": "Mend Pet",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13543
+    },
+    "13544": {
+     "abilities": [
+      "Mend Pet (Rank 6)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 132179,
+     "level": 60,
+     "name": "Mend Pet",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13544
+    },
+    "13549": {
+     "abilities": [
+      "Serpent Sting (Rank 1)"
+     ],
+     "costs": {
+      "5": 400
+     },
+     "icon": 132204,
+     "level": 0,
+     "name": "Serpent Sting",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13549
+    },
+    "13550": {
+     "abilities": [
+      "Serpent Sting (Rank 2)"
+     ],
+     "costs": {
+      "5": 1600
+     },
+     "icon": 132204,
+     "level": 18,
+     "name": "Serpent Sting",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13550
+    },
+    "13551": {
+     "abilities": [
+      "Serpent Sting (Rank 3)"
+     ],
+     "costs": {
+      "5": 7400
+     },
+     "icon": 132204,
+     "level": 26,
+     "name": "Serpent Sting",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13551
+    },
+    "13552": {
+     "abilities": [
+      "Serpent Sting (Rank 4)"
+     ],
+     "costs": {
+      "5": 11000
+     },
+     "icon": 132204,
+     "level": 34,
+     "name": "Serpent Sting",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13552
+    },
+    "13553": {
+     "abilities": [
+      "Serpent Sting (Rank 5)"
+     ],
+     "costs": {
+      "5": 22000
+     },
+     "icon": 132204,
+     "level": 42,
+     "name": "Serpent Sting",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13553
+    },
+    "13554": {
+     "abilities": [
+      "Serpent Sting (Rank 6)"
+     ],
+     "costs": {
+      "5": 30000
+     },
+     "icon": 132204,
+     "level": 50,
+     "name": "Serpent Sting",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13554
+    },
+    "13555": {
+     "abilities": [
+      "Serpent Sting (Rank 7)"
+     ],
+     "costs": {
+      "5": 39000
+     },
+     "icon": 132204,
+     "level": 58,
+     "name": "Serpent Sting",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13555
+    },
+    "13795": {
+     "costs": {
+      "5": 1500
+     },
+     "icon": 135813,
+     "level": 16,
+     "name": "Immolation Trap",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13795
+    },
+    "13809": {
+     "costs": {
+      "5": 7500
+     },
+     "icon": 135840,
+     "level": 28,
+     "name": "Frost Trap",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13809
+    },
+    "13813": {
+     "costs": {
+      "5": 11000
+     },
+     "icon": 135826,
+     "level": 34,
+     "name": "Explosive Trap",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13813
+    },
+    "14260": {
+     "costs": {
+      "5": 200
+     },
+     "icon": 132223,
+     "level": 0,
+     "name": "Raptor Strike",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14260
+    },
+    "14261": {
+     "abilities": [
+      "Raptor Strike (Rank 2)"
+     ],
+     "costs": {
+      "5": 1500
+     },
+     "icon": 132223,
+     "level": 16,
+     "name": "Raptor Strike",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14261
+    },
+    "14262": {
+     "abilities": [
+      "Raptor Strike (Rank 3)"
+     ],
+     "costs": {
+      "5": 7200
+     },
+     "icon": 132223,
+     "level": 24,
+     "name": "Raptor Strike",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14262
+    },
+    "14263": {
+     "abilities": [
+      "Raptor Strike (Rank 4)"
+     ],
+     "costs": {
+      "5": 10000
+     },
+     "icon": 132223,
+     "level": 32,
+     "name": "Raptor Strike",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14263
+    },
+    "14264": {
+     "abilities": [
+      "Raptor Strike (Rank 5)"
+     ],
+     "costs": {
+      "5": 16000
+     },
+     "icon": 132223,
+     "level": 40,
+     "name": "Raptor Strike",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14264
+    },
+    "14265": {
+     "abilities": [
+      "Raptor Strike (Rank 6)"
+     ],
+     "costs": {
+      "5": 29000
+     },
+     "icon": 132223,
+     "level": 48,
+     "name": "Raptor Strike",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14265
+    },
+    "14266": {
+     "abilities": [
+      "Raptor Strike (Rank 7)"
+     ],
+     "costs": {
+      "5": 38000
+     },
+     "icon": 132223,
+     "level": 56,
+     "name": "Raptor Strike",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14266
+    },
+    "14267": {
+     "abilities": [
+      "Wing Clip (Rank 1)"
+     ],
+     "costs": {
+      "5": 15000
+     },
+     "icon": 132309,
+     "level": 38,
+     "name": "Wing Clip",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14267
+    },
+    "14268": {
+     "abilities": [
+      "Wing Clip (Rank 2)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 132309,
+     "level": 60,
+     "name": "Wing Clip",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14268
+    },
+    "14269": {
+     "abilities": [
+      "Mongoose Bite (Rank 1)"
+     ],
+     "costs": {
+      "5": 7600
+     },
+     "icon": 132215,
+     "level": 30,
+     "name": "Mongoose Bite",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14269
+    },
+    "14270": {
+     "abilities": [
+      "Mongoose Bite (Rank 2)"
+     ],
+     "costs": {
+      "5": 23000
+     },
+     "icon": 132215,
+     "level": 44,
+     "name": "Mongoose Bite",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14270
+    },
+    "14271": {
+     "abilities": [
+      "Mongoose Bite (Rank 3)"
+     ],
+     "costs": {
+      "5": 39000
+     },
+     "icon": 132215,
+     "level": 58,
+     "name": "Mongoose Bite",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14271
+    },
+    "14272": {
+     "abilities": [
+      "Disengage (Rank 1)"
+     ],
+     "costs": {
+      "5": 11000
+     },
+     "icon": 132294,
+     "level": 34,
+     "name": "Disengage",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14272
+    },
+    "14273": {
+     "abilities": [
+      "Disengage (Rank 2)"
+     ],
+     "costs": {
+      "5": 29000
+     },
+     "icon": 132294,
+     "level": 48,
+     "name": "Disengage",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14273
+    },
+    "14274": {
+     "abilities": [
+      "Distracting Shot (Rank 1)"
+     ],
+     "costs": {
+      "5": 2100
+     },
+     "icon": 135736,
+     "level": 20,
+     "name": "Distracting Shot",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14274
+    },
+    "14279": {
+     "abilities": [
+      "Viper Sting (Rank 1)"
+     ],
+     "costs": {
+      "5": 28000
+     },
+     "icon": 132157,
+     "level": 46,
+     "name": "Viper Sting",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14279
+    },
+    "14280": {
+     "abilities": [
+      "Viper Sting (Rank 2)"
+     ],
+     "costs": {
+      "5": 38000
+     },
+     "icon": 132157,
+     "level": 56,
+     "name": "Viper Sting",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14280
+    },
+    "14281": {
+     "abilities": [
+      "Arcane Shot (Rank 1)"
+     ],
+     "costs": {
+      "5": 600
+     },
+     "icon": 132218,
+     "level": 0,
+     "name": "Arcane Shot",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14281
+    },
+    "14282": {
+     "abilities": [
+      "Arcane Shot (Rank 2)"
+     ],
+     "costs": {
+      "5": 2100
+     },
+     "icon": 132218,
+     "level": 20,
+     "name": "Arcane Shot",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14282
+    },
+    "14283": {
+     "abilities": [
+      "Arcane Shot (Rank 3)"
+     ],
+     "costs": {
+      "5": 7500
+     },
+     "icon": 132218,
+     "level": 28,
+     "name": "Arcane Shot",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14283
+    },
+    "14284": {
+     "abilities": [
+      "Arcane Shot (Rank 4)"
+     ],
+     "costs": {
+      "5": 13000
+     },
+     "icon": 132218,
+     "level": 36,
+     "name": "Arcane Shot",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14284
+    },
+    "14285": {
+     "abilities": [
+      "Arcane Shot (Rank 5)"
+     ],
+     "costs": {
+      "5": 23000
+     },
+     "icon": 132218,
+     "level": 44,
+     "name": "Arcane Shot",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14285
+    },
+    "14286": {
+     "abilities": [
+      "Arcane Shot (Rank 6)"
+     ],
+     "costs": {
+      "5": 36000
+     },
+     "icon": 132218,
+     "level": 52,
+     "name": "Arcane Shot",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14286
+    },
+    "14287": {
+     "abilities": [
+      "Arcane Shot (Rank 7)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 132218,
+     "level": 60,
+     "name": "Arcane Shot",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14287
+    },
+    "14294": {
+     "abilities": [
+      "Volley (Rank 1)"
+     ],
+     "costs": {
+      "5": 30000
+     },
+     "icon": 132222,
+     "level": 50,
+     "name": "Volley",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14294
+    },
+    "14295": {
+     "abilities": [
+      "Volley (Rank 2)"
+     ],
+     "costs": {
+      "5": 39000
+     },
+     "icon": 132222,
+     "level": 58,
+     "name": "Volley",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14295
+    },
+    "14302": {
+     "abilities": [
+      "Immolation Trap (Rank 1)"
+     ],
+     "costs": {
+      "5": 7400
+     },
+     "icon": 135813,
+     "level": 26,
+     "name": "Immolation Trap",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14302
+    },
+    "14303": {
+     "abilities": [
+      "Immolation Trap (Rank 2)"
+     ],
+     "costs": {
+      "5": 13000
+     },
+     "icon": 135813,
+     "level": 36,
+     "name": "Immolation Trap",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14303
+    },
+    "14304": {
+     "abilities": [
+      "Immolation Trap (Rank 3)"
+     ],
+     "costs": {
+      "5": 28000
+     },
+     "icon": 135813,
+     "level": 46,
+     "name": "Immolation Trap",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14304
+    },
+    "14305": {
+     "abilities": [
+      "Immolation Trap (Rank 4)"
+     ],
+     "costs": {
+      "5": 38000
+     },
+     "icon": 135813,
+     "level": 56,
+     "name": "Immolation Trap",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14305
+    },
+    "14310": {
+     "abilities": [
+      "Freezing Trap (Rank 1)"
+     ],
+     "costs": {
+      "5": 16000
+     },
+     "icon": 135834,
+     "level": 40,
+     "name": "Freezing Trap",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14310
+    },
+    "14311": {
+     "abilities": [
+      "Freezing Trap (Rank 2)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 135834,
+     "level": 60,
+     "name": "Freezing Trap",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14311
+    },
+    "14316": {
+     "abilities": [
+      "Explosive Trap (Rank 1)"
+     ],
+     "costs": {
+      "5": 23000
+     },
+     "icon": 135826,
+     "level": 44,
+     "name": "Explosive Trap",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14316
+    },
+    "14317": {
+     "abilities": [
+      "Explosive Trap (Rank 2)"
+     ],
+     "costs": {
+      "5": 37000
+     },
+     "icon": 135826,
+     "level": 54,
+     "name": "Explosive Trap",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14317
+    },
+    "14318": {
+     "abilities": [
+      "Aspect of the Hawk (Rank 1)"
+     ],
+     "costs": {
+      "5": 1600
+     },
+     "icon": 136076,
+     "level": 18,
+     "name": "Aspect of the Hawk",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14318
+    },
+    "14319": {
+     "abilities": [
+      "Aspect of the Hawk (Rank 2)"
+     ],
+     "costs": {
+      "5": 7500
+     },
+     "icon": 136076,
+     "level": 28,
+     "name": "Aspect of the Hawk",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14319
+    },
+    "14320": {
+     "abilities": [
+      "Aspect of the Hawk (Rank 3)"
+     ],
+     "costs": {
+      "5": 15000
+     },
+     "icon": 136076,
+     "level": 38,
+     "name": "Aspect of the Hawk",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14320
+    },
+    "14321": {
+     "abilities": [
+      "Aspect of the Hawk (Rank 4)"
+     ],
+     "costs": {
+      "5": 29000
+     },
+     "icon": 136076,
+     "level": 48,
+     "name": "Aspect of the Hawk",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14321
+    },
+    "14322": {
+     "abilities": [
+      "Aspect of the Hawk (Rank 5)"
+     ],
+     "costs": {
+      "5": 39000
+     },
+     "icon": 136076,
+     "level": 58,
+     "name": "Aspect of the Hawk",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14322
+    },
+    "14323": {
+     "abilities": [
+      "Hunter's Mark (Rank 1)"
+     ],
+     "costs": {
+      "5": 7000
+     },
+     "icon": 132212,
+     "level": 22,
+     "name": "Hunter's Mark",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14323
+    },
+    "14324": {
+     "abilities": [
+      "Hunter's Mark (Rank 2)"
+     ],
+     "costs": {
+      "5": 16000
+     },
+     "icon": 132212,
+     "level": 40,
+     "name": "Hunter's Mark",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14324
+    },
+    "14325": {
+     "abilities": [
+      "Hunter's Mark (Rank 3)"
+     ],
+     "costs": {
+      "5": 39000
+     },
+     "icon": 132212,
+     "level": 58,
+     "name": "Hunter's Mark",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14325
+    },
+    "14326": {
+     "abilities": [
+      "Scare Beast (Rank 1)"
+     ],
+     "costs": {
+      "5": 7600
+     },
+     "icon": 132118,
+     "level": 30,
+     "name": "Scare Beast",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14326
+    },
+    "14327": {
+     "abilities": [
+      "Scare Beast (Rank 2)"
+     ],
+     "costs": {
+      "5": 28000
+     },
+     "icon": 132118,
+     "level": 46,
+     "name": "Scare Beast",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14327
+    },
+    "15629": {
+     "abilities": [
+      "Distracting Shot (Rank 2)"
+     ],
+     "costs": {
+      "5": 7600
+     },
+     "icon": 135736,
+     "level": 30,
+     "name": "Distracting Shot",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 15629
+    },
+    "15630": {
+     "abilities": [
+      "Distracting Shot (Rank 3)"
+     ],
+     "costs": {
+      "5": 16000
+     },
+     "icon": 135736,
+     "level": 40,
+     "name": "Distracting Shot",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 15630
+    },
+    "15631": {
+     "abilities": [
+      "Distracting Shot (Rank 4)"
+     ],
+     "costs": {
+      "5": 30000
+     },
+     "icon": 135736,
+     "level": 50,
+     "name": "Distracting Shot",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 15631
+    },
+    "15632": {
+     "abilities": [
+      "Distracting Shot (Rank 5)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 135736,
+     "level": 60,
+     "name": "Distracting Shot",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 15632
+    },
+    "19434": {
+     "costs": {
+      "5": 2100
+     },
+     "icon": 135130,
+     "level": 20,
+     "name": "Aimed Shot",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 19434
+    },
+    "19506": {
+     "abilities": [
+      "Trueshot Aura (Rank 2)"
+     ],
+     "costs": {
+      "5": 16000
+     },
+     "icon": 132329,
+     "level": 40,
+     "name": "Trueshot Aura",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 19506
+    },
+    "19878": {
+     "costs": {
+      "5": 10000
+     },
+     "icon": 136217,
+     "level": 32,
+     "name": "Track Demons",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 19878
+    },
+    "19879": {
+     "costs": {
+      "5": 30000
+     },
+     "icon": 134153,
+     "level": 50,
+     "name": "Track Dragonkin",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 19879
+    },
+    "19880": {
+     "costs": {
+      "5": 7400
+     },
+     "icon": 135861,
+     "level": 26,
+     "name": "Track Elementals",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 19880
+    },
+    "19882": {
+     "costs": {
+      "5": 16000
+     },
+     "icon": 132275,
+     "level": 40,
+     "name": "Track Giants",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 19882
+    },
+    "19883": {
+     "costs": {
+      "5": 400
+     },
+     "icon": 135942,
+     "level": 0,
+     "name": "Track Humanoids",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 19883
+    },
+    "19884": {
+     "costs": {
+      "5": 1600
+     },
+     "icon": 136142,
+     "level": 18,
+     "name": "Track Undead",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 19884
+    },
+    "19885": {
+     "costs": {
+      "5": 7200
+     },
+     "icon": 132320,
+     "level": 24,
+     "name": "Track Hidden",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 19885
+    },
+    "20043": {
+     "costs": {
+      "5": 28000
+     },
+     "icon": 136074,
+     "level": 46,
+     "name": "Aspect of the Wild",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20043
+    },
+    "20190": {
+     "abilities": [
+      "Aspect of the Wild (Rank 1)"
+     ],
+     "costs": {
+      "5": 38000
+     },
+     "icon": 136074,
+     "level": 56,
+     "name": "Aspect of the Wild",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20190
+    },
+    "20736": {
+     "costs": {
+      "5": 600
+     },
+     "icon": 135736,
+     "level": 0,
+     "name": "Distracting Shot",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20736
+    },
+    "20900": {
+     "abilities": [
+      "Aimed Shot (Rank 1)"
+     ],
+     "costs": {
+      "5": 7500
+     },
+     "icon": 135130,
+     "level": 28,
+     "name": "Aimed Shot",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20900
+    },
+    "20901": {
+     "abilities": [
+      "Aimed Shot (Rank 2)"
+     ],
+     "costs": {
+      "5": 13000
+     },
+     "icon": 135130,
+     "level": 36,
+     "name": "Aimed Shot",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20901
+    },
+    "20902": {
+     "abilities": [
+      "Aimed Shot (Rank 3)"
+     ],
+     "costs": {
+      "5": 23000
+     },
+     "icon": 135130,
+     "level": 44,
+     "name": "Aimed Shot",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20902
+    },
+    "20903": {
+     "abilities": [
+      "Aimed Shot (Rank 4)"
+     ],
+     "costs": {
+      "5": 36000
+     },
+     "icon": 135130,
+     "level": 52,
+     "name": "Aimed Shot",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20903
+    },
+    "20904": {
+     "abilities": [
+      "Aimed Shot (Rank 5)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 135130,
+     "level": 60,
+     "name": "Aimed Shot",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20904
+    },
+    "20905": {
+     "abilities": [
+      "Trueshot Aura (Rank 3)"
+     ],
+     "costs": {
+      "5": 30000
+     },
+     "icon": 132329,
+     "level": 50,
+     "name": "Trueshot Aura",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20905
+    },
+    "20906": {
+     "abilities": [
+      "Trueshot Aura (Rank 4)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 132329,
+     "level": 60,
+     "name": "Trueshot Aura",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20906
+    },
+    "20909": {
+     "abilities": [
+      "Counterattack (Rank 2)"
+     ],
+     "costs": {
+      "5": 22000
+     },
+     "icon": 132336,
+     "level": 42,
+     "name": "Counterattack",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20909
+    },
+    "20910": {
+     "abilities": [
+      "Counterattack (Rank 3)"
+     ],
+     "costs": {
+      "5": 37000
+     },
+     "icon": 132336,
+     "level": 54,
+     "name": "Counterattack",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20910
+    },
+    "1242634": {
+     "abilities": [
+      "Counterattack (Rank 1)"
+     ],
+     "costs": {
+      "5": 7600
+     },
+     "icon": 132336,
+     "level": 30,
+     "name": "Counterattack",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1242634
+    },
+    "1293525": {
+     "abilities": [
+      "Summon Hawk (Rank 1)"
+     ],
+     "costs": {
+      "5": 13000
+     },
+     "icon": 132158,
+     "level": 36,
+     "name": "Summon Hawk",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1293525
+    },
+    "1293526": {
+     "abilities": [
+      "Summon Hawk (Rank 2)"
+     ],
+     "costs": {
+      "5": 29000
+     },
+     "icon": 132158,
+     "level": 48,
+     "name": "Summon Hawk",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1293526
+    },
+    "1293527": {
+     "abilities": [
+      "Summon Hawk (Rank 3)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 132158,
+     "level": 60,
+     "name": "Summon Hawk",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1293527
+    },
+    "1299348": {
+     "abilities": [
+      "Trueshot Aura (Rank 1)"
+     ],
+     "costs": {
+      "5": 10000
+     },
+     "icon": 132329,
+     "level": 32,
+     "name": "Trueshot Aura",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1299348
+    },
+    "1299445": {
+     "abilities": [
+      "Aspect of the Beast (Rank 1)"
+     ],
+     "costs": {
+      "5": 16000
+     },
+     "icon": 132252,
+     "level": 40,
+     "name": "Aspect of the Beast",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1299445
+    },
+    "1299446": {
+     "abilities": [
+      "Aspect of the Beast (Rank 2)"
+     ],
+     "costs": {
+      "5": 30000
+     },
+     "icon": 132252,
+     "level": 50,
+     "name": "Aspect of the Beast",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1299446
+    },
+    "1299447": {
+     "abilities": [
+      "Aspect of the Beast (Rank 3)"
+     ],
+     "costs": {
+      "5": 39000
+     },
+     "icon": 132252,
+     "level": 60,
+     "name": "Aspect of the Beast",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1299447
+    },
+    "1310785": {
+     "abilities": [
+      "Sniper Shot (Rank 1)"
+     ],
+     "costs": {
+      "5": 29000
+     },
+     "icon": 1412205,
+     "level": 48,
+     "name": "Sniper Shot",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1310785
+    },
+    "1310786": {
+     "abilities": [
+      "Sniper Shot (Rank 2)"
+     ],
+     "costs": {
+      "5": 39000
+     },
+     "icon": 1412205,
+     "level": 58,
+     "name": "Sniper Shot",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1310786
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
+  "254411": {
+   "lastSeen": "2026-10-09",
+   "name": "Quel'dora Quickgale",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.5961,
+     "mapY": 0.726,
+     "uiMap": 2521,
+     "worldX": 2263.9,
+     "worldY": 915.2
+    }
+   ],
+   "services": {
+    "4187": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 136112,
+     "level": 0,
+     "name": "Great Stamina",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 4187
+    },
+    "4188": {
+     "abilities": [
+      "Great Stamina (Rank 1)"
+     ],
+     "costs": {
+      "5": 120
+     },
+     "icon": 136112,
+     "level": 0,
+     "name": "Great Stamina",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 4188
+    },
+    "4189": {
+     "abilities": [
+      "Great Stamina (Rank 2)"
+     ],
+     "costs": {
+      "5": 400
+     },
+     "icon": 136112,
+     "level": 18,
+     "name": "Great Stamina",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 4189
+    },
+    "4190": {
+     "abilities": [
+      "Great Stamina (Rank 3)"
+     ],
+     "costs": {
+      "5": 1400
+     },
+     "icon": 136112,
+     "level": 24,
+     "name": "Great Stamina",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 4190
+    },
+    "4191": {
+     "abilities": [
+      "Great Stamina (Rank 4)"
+     ],
+     "costs": {
+      "5": 1600
+     },
+     "icon": 136112,
+     "level": 30,
+     "name": "Great Stamina",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 4191
+    },
+    "4192": {
+     "abilities": [
+      "Great Stamina (Rank 5)"
+     ],
+     "costs": {
+      "5": 2800
+     },
+     "icon": 136112,
+     "level": 36,
+     "name": "Great Stamina",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 4192
+    },
+    "4193": {
+     "abilities": [
+      "Great Stamina (Rank 6)"
+     ],
+     "costs": {
+      "5": 4800
+     },
+     "icon": 136112,
+     "level": 42,
+     "name": "Great Stamina",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 4193
+    },
+    "4194": {
+     "abilities": [
+      "Great Stamina (Rank 7)"
+     ],
+     "costs": {
+      "5": 6400
+     },
+     "icon": 136112,
+     "level": 48,
+     "name": "Great Stamina",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 4194
+    },
+    "5041": {
+     "abilities": [
+      "Great Stamina (Rank 8)"
+     ],
+     "costs": {
+      "5": 8400
+     },
+     "icon": 136112,
+     "level": 54,
+     "name": "Great Stamina",
+     "rankText": "Rank 9",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5041
+    },
+    "5042": {
+     "abilities": [
+      "Great Stamina (Rank 9)"
+     ],
+     "costs": {
+      "5": 10000
+     },
+     "icon": 136112,
+     "level": 60,
+     "name": "Great Stamina",
+     "rankText": "Rank 10",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5042
+    },
+    "14917": {
+     "costs": {
+      "5": 440
+     },
+     "icon": 132270,
+     "level": 20,
+     "name": "Growl",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14917
+    },
+    "14918": {
+     "abilities": [
+      "Growl (Rank 3)"
+     ],
+     "costs": {
+      "5": 1600
+     },
+     "icon": 132270,
+     "level": 30,
+     "name": "Growl",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14918
+    },
+    "14919": {
+     "abilities": [
+      "Growl (Rank 4)"
+     ],
+     "costs": {
+      "5": 3600
+     },
+     "icon": 132270,
+     "level": 40,
+     "name": "Growl",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14919
+    },
+    "14920": {
+     "abilities": [
+      "Growl (Rank 5)"
+     ],
+     "costs": {
+      "5": 7200
+     },
+     "icon": 132270,
+     "level": 50,
+     "name": "Growl",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14920
+    },
+    "14921": {
+     "abilities": [
+      "Growl (Rank 6)"
+     ],
+     "costs": {
+      "5": 10000
+     },
+     "icon": 132270,
+     "level": 60,
+     "name": "Growl",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 14921
+    },
+    "23992": {
+     "costs": {
+      "5": 440
+     },
+     "icon": 135806,
+     "level": 20,
+     "name": "Fire Resistance",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 23992
+    },
+    "24439": {
+     "abilities": [
+      "Fire Resistance (Rank 1)"
+     ],
+     "costs": {
+      "5": 1600
+     },
+     "icon": 135806,
+     "level": 30,
+     "name": "Fire Resistance",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24439
+    },
+    "24444": {
+     "abilities": [
+      "Fire Resistance (Rank 2)"
+     ],
+     "costs": {
+      "5": 3600
+     },
+     "icon": 135806,
+     "level": 40,
+     "name": "Fire Resistance",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24444
+    },
+    "24445": {
+     "abilities": [
+      "Fire Resistance (Rank 3)"
+     ],
+     "costs": {
+      "5": 7200
+     },
+     "icon": 135806,
+     "level": 50,
+     "name": "Fire Resistance",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24445
+    },
+    "24446": {
+     "costs": {
+      "5": 440
+     },
+     "icon": 135850,
+     "level": 20,
+     "name": "Frost Resistance",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24446
+    },
+    "24447": {
+     "abilities": [
+      "Frost Resistance (Rank 1)"
+     ],
+     "costs": {
+      "5": 1600
+     },
+     "icon": 135850,
+     "level": 30,
+     "name": "Frost Resistance",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24447
+    },
+    "24448": {
+     "abilities": [
+      "Frost Resistance (Rank 2)"
+     ],
+     "costs": {
+      "5": 3600
+     },
+     "icon": 135850,
+     "level": 40,
+     "name": "Frost Resistance",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24448
+    },
+    "24449": {
+     "abilities": [
+      "Frost Resistance (Rank 3)"
+     ],
+     "costs": {
+      "5": 7200
+     },
+     "icon": 135850,
+     "level": 50,
+     "name": "Frost Resistance",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24449
+    },
+    "24488": {
+     "costs": {
+      "5": 440
+     },
+     "icon": 136121,
+     "level": 20,
+     "name": "Shadow Resistance",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24488
+    },
+    "24492": {
+     "costs": {
+      "5": 440
+     },
+     "icon": 136085,
+     "level": 20,
+     "name": "Nature Resistance",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24492
+    },
+    "24493": {
+     "costs": {
+      "5": 440
+     },
+     "icon": 136096,
+     "level": 20,
+     "name": "Arcane Resistance",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24493
+    },
+    "24497": {
+     "abilities": [
+      "Arcane Resistance (Rank 1)"
+     ],
+     "costs": {
+      "5": 1600
+     },
+     "icon": 136096,
+     "level": 30,
+     "name": "Arcane Resistance",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24497
+    },
+    "24500": {
+     "abilities": [
+      "Arcane Resistance (Rank 2)"
+     ],
+     "costs": {
+      "5": 3600
+     },
+     "icon": 136096,
+     "level": 40,
+     "name": "Arcane Resistance",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24500
+    },
+    "24501": {
+     "abilities": [
+      "Arcane Resistance (Rank 3)"
+     ],
+     "costs": {
+      "5": 7200
+     },
+     "icon": 136096,
+     "level": 50,
+     "name": "Arcane Resistance",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24501
+    },
+    "24502": {
+     "abilities": [
+      "Nature Resistance (Rank 1)"
+     ],
+     "costs": {
+      "5": 1600
+     },
+     "icon": 136085,
+     "level": 30,
+     "name": "Nature Resistance",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24502
+    },
+    "24503": {
+     "abilities": [
+      "Nature Resistance (Rank 2)"
+     ],
+     "costs": {
+      "5": 3600
+     },
+     "icon": 136085,
+     "level": 40,
+     "name": "Nature Resistance",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24503
+    },
+    "24504": {
+     "abilities": [
+      "Nature Resistance (Rank 3)"
+     ],
+     "costs": {
+      "5": 7200
+     },
+     "icon": 136085,
+     "level": 50,
+     "name": "Nature Resistance",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24504
+    },
+    "24505": {
+     "abilities": [
+      "Shadow Resistance (Rank 1)"
+     ],
+     "costs": {
+      "5": 1600
+     },
+     "icon": 136121,
+     "level": 30,
+     "name": "Shadow Resistance",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24505
+    },
+    "24506": {
+     "abilities": [
+      "Shadow Resistance (Rank 2)"
+     ],
+     "costs": {
+      "5": 3600
+     },
+     "icon": 136121,
+     "level": 40,
+     "name": "Shadow Resistance",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24506
+    },
+    "24507": {
+     "abilities": [
+      "Shadow Resistance (Rank 3)"
+     ],
+     "costs": {
+      "5": 7200
+     },
+     "icon": 136121,
+     "level": 50,
+     "name": "Shadow Resistance",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24507
+    },
+    "24545": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 136094,
+     "level": 0,
+     "name": "Natural Armor",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24545
+    },
+    "24549": {
+     "abilities": [
+      "Natural Armor (Rank 1)"
+     ],
+     "costs": {
+      "5": 120
+     },
+     "icon": 136094,
+     "level": 0,
+     "name": "Natural Armor",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24549
+    },
+    "24550": {
+     "abilities": [
+      "Natural Armor (Rank 2)"
+     ],
+     "costs": {
+      "5": 400
+     },
+     "icon": 136094,
+     "level": 18,
+     "name": "Natural Armor",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24550
+    },
+    "24551": {
+     "abilities": [
+      "Natural Armor (Rank 3)"
+     ],
+     "costs": {
+      "5": 1400
+     },
+     "icon": 136094,
+     "level": 24,
+     "name": "Natural Armor",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24551
+    },
+    "24552": {
+     "abilities": [
+      "Natural Armor (Rank 4)"
+     ],
+     "costs": {
+      "5": 1600
+     },
+     "icon": 136094,
+     "level": 30,
+     "name": "Natural Armor",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24552
+    },
+    "24553": {
+     "abilities": [
+      "Natural Armor (Rank 5)"
+     ],
+     "costs": {
+      "5": 2800
+     },
+     "icon": 136094,
+     "level": 36,
+     "name": "Natural Armor",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24553
+    },
+    "24554": {
+     "abilities": [
+      "Natural Armor (Rank 6)"
+     ],
+     "costs": {
+      "5": 4800
+     },
+     "icon": 136094,
+     "level": 42,
+     "name": "Natural Armor",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24554
+    },
+    "24555": {
+     "abilities": [
+      "Natural Armor (Rank 7)"
+     ],
+     "costs": {
+      "5": 6400
+     },
+     "icon": 136094,
+     "level": 48,
+     "name": "Natural Armor",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24555
+    },
+    "24629": {
+     "abilities": [
+      "Natural Armor (Rank 8)"
+     ],
+     "costs": {
+      "5": 8400
+     },
+     "icon": 136094,
+     "level": 54,
+     "name": "Natural Armor",
+     "rankText": "Rank 9",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24629
+    },
+    "24630": {
+     "abilities": [
+      "Natural Armor (Rank 9)"
+     ],
+     "costs": {
+      "5": 10000
+     },
+     "icon": 136094,
+     "level": 60,
+     "name": "Natural Armor",
+     "rankText": "Rank 10",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 24630
     }
    },
    "sources": 1,
