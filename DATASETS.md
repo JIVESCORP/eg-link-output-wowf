@@ -143,11 +143,28 @@ of that class saw.
 - `kills[key]`, keyed as the corpse: `deaths`, `empty` (corpses with nothing on them), `unknown`
   (corpses the game didn't say about), `levels[level]`, `sources`, and under a `|quest` key
   `quests[questId]`: the corpses tied to each quest (`deaths`, `empty`, `unknown`, `sources`).
+- `rolls[key]`, a dungeon boss's items that went to a need/greed roll, from the game's loot history
+  rather than a loot window. Keyed `encounter:<encounterId>|threshold:<quality>`: the boss encounter
+  (the game's encounter ID, as the `encounters` dataset keys it) and the group's loot threshold (2
+  Uncommon, 3 Rare, ...). Items under the threshold aren't rolled for, so each threshold has its own
+  key. Each has:
+  - `kills`: the encounter won in a group with Group Loot or Need before Greed, each confirmed by a
+    roll the loot history listed for it;
+  - `unconfirmed`: kills won with no roll seen, most likely because nothing at the threshold dropped;
+  - `names[locale]`: the encounter's name in that client language;
+  - `items[itemId]`: `drops`, `quantity` and `chance`, every item that went to a roll, whoever opened
+    the corpse and whatever the roll's outcome;
+  - `sources`.
 
 `chance` is the expected number of that item per kill: the share of corpses with loot
 ((`deaths` - `empty` - `unknown`) / (`deaths` - `unknown`)) times `drops` / `windows`. For a source
 with no kill count (nodes, chests, skinning, containers) it is `drops` / `windows`. It is rounded half
 up to 4 decimals. With few kills it is rough; the counts are there to judge it.
+
+Under `rolls`, `chance` is `drops` / (`kills` + `unconfirmed`), rounded the same way. A boss's corpse
+under `sources` holds only what was left when the player opened it, so in a group a rolled item is
+often missing there (another member opened the corpse first); `rolls` doesn't depend on who looted
+first. Nothing about who rolled or won is recorded. Counted by EG Link releases from 0.2.21.
 
 A creature can be tied to several quests at once: killed for one quest, say, and looted for another's
 item. A quest item drops only for a character on the quest that needs it, so its chance per kill is the
