@@ -10,7 +10,7 @@
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 1
+  "sources": 2
  },
  "quests": {
   "363": [
@@ -83,6 +83,39 @@
     "repFrom": "event",
     "sources": 1,
     "xp": 360
+   }
+  ],
+  "837": [
+   {
+    "faction": "Horde",
+    "level": 10,
+    "money": 250,
+    "race": "Orc",
+    "rep": [
+     {
+      "change": 75,
+      "factionId": 76,
+      "to": 6575
+     },
+     {
+      "change": 75,
+      "factionId": 530,
+      "to": 5475
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 625
+   }
+  ],
+  "889": [
+   {
+    "faction": "Horde",
+    "level": 23,
+    "money": 0,
+    "race": "Skyborne",
+    "sources": 1,
+    "xp": 0
    }
   ],
   "1060": [
@@ -248,6 +281,16 @@
     "race": "Orc",
     "sources": 1,
     "xp": 6950
+   }
+  ],
+  "95774": [
+   {
+    "faction": "Horde",
+    "level": 23,
+    "money": 1200,
+    "race": "Skyborne",
+    "sources": 1,
+    "xp": 1550
    }
   ],
   "96241": [
@@ -430,6 +473,24 @@
     "repFrom": "event",
     "sources": 1,
     "xp": 1850
+   }
+  ],
+  "96825": [
+   {
+    "faction": "Horde",
+    "level": 10,
+    "money": 100,
+    "race": "Orc",
+    "rep": [
+     {
+      "change": 75,
+      "factionId": 76,
+      "to": 6650
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 410
    }
   ],
   "98389": [

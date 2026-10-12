@@ -1,13 +1,13 @@
 {
  "levelCap": {
   "maxLevelForLatestExpansion": {
-   "60": 3
+   "60": 4
   },
   "maxLevelForPlayerExpansion": {
-   "60": 3
+   "60": 4
   },
   "maxPlayerLevel": {
-   "60": 3
+   "60": 4
   }
  },
  "meta": {
@@ -21,33 +21,46 @@
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 3
+  "sources": 4
  },
  "professionCaps": {
   "129": {
    "1": {
-    "75": 2
+    "75": 3
    },
    "2": {
-    "150": 2
+    "150": 3
+   }
+  },
+  "164": {
+   "1": {
+    "75": 1
    }
   },
   "165": {
    "1": {
     "75": 1
    },
+   "2": {
+    "150": 1
+   },
    "3": {
     "225": 2
    }
   },
-  "182": {
+  "171": {
    "1": {
     "75": 1
    }
   },
+  "182": {
+   "1": {
+    "75": 2
+   }
+  },
   "185": {
    "1": {
-    "75": 1
+    "75": 2
    },
    "2": {
     "150": 1
@@ -58,12 +71,17 @@
   },
   "186": {
    "1": {
-    "75": 1
+    "75": 2
    }
   },
   "197": {
    "2": {
     "150": 1
+   }
+  },
+  "202": {
+   "1": {
+    "75": 1
    }
   },
   "333": {
@@ -84,31 +102,31 @@
     "150": 1
    },
    "3": {
-    "225": 1
+    "225": 2
    }
   }
  },
  "questDifficulty": {
   "1": {
    "1": {
-    "2": 1
+    "2": 2
    },
    "2": {
-    "2": 1
+    "2": 2
    }
   },
   "2": {
    "1": {
-    "2": 1
+    "2": 2
    },
    "2": {
-    "2": 1
+    "2": 2
    },
    "3": {
-    "2": 1
+    "2": 2
    },
    "4": {
-    "2": 1
+    "2": 2
    }
   },
   "8": {
@@ -122,6 +140,37 @@
     "2": 1
    },
    "10": {
+    "2": 1
+   }
+  },
+  "10": {
+   "6": {
+    "1": 1
+   },
+   "10": {
+    "2": 1
+   },
+   "11": {
+    "2": 1
+   },
+   "12": {
+    "2": 1
+   }
+  },
+  "11": {
+   "6": {
+    "1": 1
+   },
+   "9": {
+    "2": 1
+   },
+   "10": {
+    "2": 1
+   },
+   "11": {
+    "2": 1
+   },
+   "12": {
     "2": 1
    }
   },
@@ -157,8 +206,46 @@
    }
   },
   "16": {
+   "9": {
+    "0": 1
+   },
+   "10": {
+    "0": 1
+   },
+   "11": {
+    "1": 1
+   },
    "14": {
-    "2": 1
+    "2": 2
+   },
+   "15": {
+    "2": 2
+   },
+   "16": {
+    "2": 2
+   },
+   "18": {
+    "2": 2
+   },
+   "20": {
+    "3": 1
+   },
+   "21": {
+    "4": 1
+   },
+   "22": {
+    "4": 1
+   }
+  },
+  "17": {
+   "9": {
+    "0": 1
+   },
+   "10": {
+    "0": 1
+   },
+   "14": {
+    "1": 1
    },
    "15": {
     "2": 1
@@ -169,7 +256,92 @@
    "18": {
     "2": 1
    },
+   "19": {
+    "2": 1
+   },
    "20": {
+    "3": 1
+   },
+   "21": {
+    "3": 1
+   },
+   "22": {
+    "4": 1
+   }
+  },
+  "18": {
+   "9": {
+    "0": 1
+   },
+   "10": {
+    "0": 2
+   },
+   "14": {
+    "1": 1
+   },
+   "15": {
+    "1": 1
+   },
+   "16": {
+    "2": 1
+   },
+   "17": {
+    "2": 2
+   },
+   "18": {
+    "2": 2
+   },
+   "19": {
+    "2": 2
+   },
+   "20": {
+    "2": 2
+   },
+   "21": {
+    "3": 2
+   },
+   "22": {
+    "3": 2
+   },
+   "25": {
+    "4": 1
+   },
+   "27": {
+    "4": 1
+   }
+  },
+  "20": {
+   "8": {
+    "0": 1
+   },
+   "12": {
+    "0": 1
+   },
+   "13": {
+    "0": 1
+   },
+   "15": {
+    "1": 1
+   },
+   "16": {
+    "1": 1
+   },
+   "17": {
+    "1": 1
+   },
+   "19": {
+    "2": 1
+   },
+   "20": {
+    "2": 1
+   },
+   "21": {
+    "2": 1
+   },
+   "22": {
+    "2": 1
+   },
+   "23": {
     "3": 1
    }
   },
@@ -227,6 +399,9 @@
    }
   },
   "23": {
+   "6": {
+    "0": 1
+   },
    "10": {
     "0": 1
    },
@@ -240,10 +415,10 @@
     "0": 1
    },
    "14": {
-    "0": 1
+    "0": 2
    },
    "15": {
-    "0": 1
+    "0": 2
    },
    "16": {
     "0": 1
@@ -252,48 +427,57 @@
     "1": 1
    },
    "18": {
-    "1": 1
+    "1": 2
    },
    "19": {
-    "1": 1
+    "1": 2
    },
    "20": {
-    "1": 1
+    "1": 2
    },
    "21": {
-    "2": 1
+    "2": 2
    },
    "22": {
-    "2": 1
+    "2": 2
    },
    "23": {
-    "2": 1
+    "2": 2
    },
    "24": {
-    "2": 1
+    "2": 2
    },
    "25": {
-    "2": 1
+    "2": 2
    },
    "26": {
-    "3": 1
+    "3": 2
    },
    "27": {
-    "3": 1
+    "3": 2
+   },
+   "28": {
+    "4": 1
    },
    "30": {
-    "4": 1
+    "4": 2
    }
   },
   "24": {
+   "6": {
+    "0": 1
+   },
    "10": {
     "0": 1
    },
    "11": {
     "0": 1
    },
-   "15": {
+   "14": {
     "0": 1
+   },
+   "15": {
+    "0": 2
    },
    "16": {
     "0": 1
@@ -302,54 +486,7 @@
     "0": 1
    },
    "18": {
-    "1": 1
-   },
-   "19": {
-    "1": 1
-   },
-   "20": {
-    "1": 1
-   },
-   "21": {
-    "1": 1
-   },
-   "22": {
-    "2": 1
-   },
-   "23": {
-    "2": 1
-   },
-   "24": {
-    "2": 1
-   },
-   "25": {
-    "2": 1
-   },
-   "26": {
-    "2": 1
-   },
-   "27": {
-    "3": 1
-   },
-   "28": {
-    "3": 1
-   },
-   "30": {
-    "4": 1
-   }
-  },
-  "25": {
-   "15": {
-    "0": 1
-   },
-   "16": {
-    "0": 1
-   },
-   "17": {
-    "0": 1
-   },
-   "18": {
-    "0": 1
+    "1": 2
    },
    "19": {
     "1": 2
@@ -361,13 +498,13 @@
     "1": 2
    },
    "22": {
-    "1": 2
+    "2": 2
    },
    "23": {
     "2": 2
    },
    "24": {
-    "2": 1
+    "2": 2
    },
    "25": {
     "2": 2
@@ -376,13 +513,66 @@
     "2": 2
    },
    "27": {
-    "2": 1
+    "3": 2
    },
    "28": {
     "3": 2
    },
    "30": {
     "4": 2
+   }
+  },
+  "25": {
+   "6": {
+    "0": 1
+   },
+   "14": {
+    "0": 1
+   },
+   "15": {
+    "0": 2
+   },
+   "16": {
+    "0": 1
+   },
+   "17": {
+    "0": 1
+   },
+   "18": {
+    "0": 2
+   },
+   "19": {
+    "1": 3
+   },
+   "20": {
+    "1": 3
+   },
+   "21": {
+    "1": 3
+   },
+   "22": {
+    "1": 3
+   },
+   "23": {
+    "2": 3
+   },
+   "24": {
+    "2": 2
+   },
+   "25": {
+    "2": 3
+   },
+   "26": {
+    "2": 3
+   },
+   "27": {
+    "2": 2
+   },
+   "28": {
+    "3": 3
+   },
+   "30": {
+    "4": 3
    },
    "33": {
     "4": 1
@@ -492,6 +682,9 @@
    "33": {
     "3": 1
    },
+   "34": {
+    "3": 1
+   },
    "35": {
     "4": 1
    },
@@ -522,11 +715,11 @@
        "isAccountUnlock": false,
        "name": "Rank 1 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 750
     },
     "2": {
@@ -537,11 +730,11 @@
        "isAccountUnlock": false,
        "name": "Rank 2 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 1650
     },
     "3": {
@@ -552,11 +745,11 @@
        "isAccountUnlock": false,
        "name": "Rank 3 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 2700
     },
     "4": {
@@ -567,11 +760,11 @@
        "isAccountUnlock": false,
        "name": "Rank 4 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 3900
     },
     "5": {
@@ -582,11 +775,11 @@
        "isAccountUnlock": false,
        "name": "Rank 5 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 5250
     },
     "6": {
@@ -597,11 +790,11 @@
        "isAccountUnlock": false,
        "name": "Rank 6 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 6750
     },
     "7": {
@@ -612,11 +805,11 @@
        "isAccountUnlock": false,
        "name": "Rank 7 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 8400
     },
     "8": {
@@ -627,7 +820,7 @@
        "isAccountUnlock": false,
        "name": "Rank 8 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       },
       {
@@ -636,11 +829,11 @@
        "isAccountUnlock": false,
        "name": "Rank 8 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 10200
     },
     "9": {
@@ -651,11 +844,11 @@
        "isAccountUnlock": false,
        "name": "Rank 9 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 12150
     },
     "10": {
@@ -666,11 +859,11 @@
        "isAccountUnlock": false,
        "name": "Rank 10 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 14250
     },
     "11": {
@@ -681,11 +874,11 @@
        "isAccountUnlock": false,
        "name": "Rank 11 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 16600
     },
     "12": {
@@ -696,7 +889,7 @@
        "isAccountUnlock": false,
        "name": "Rank 12 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       },
       {
@@ -705,11 +898,11 @@
        "isAccountUnlock": false,
        "name": "Rank 12 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 19100
     },
     "13": {
@@ -720,7 +913,7 @@
        "isAccountUnlock": false,
        "name": "Rank 13 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       },
       {
@@ -729,11 +922,11 @@
        "isAccountUnlock": false,
        "name": "Rank 13 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 21750
     },
     "14": {
@@ -744,18 +937,18 @@
        "isAccountUnlock": false,
        "name": "Rank 14 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 24750
     }
    },
    "maxLevel": 14,
    "name": "PvP Rank Points",
    "renownLevelThreshold": 750,
-   "sources": 3
+   "sources": 4
   },
   "2802": {
    "expansionID": 0,
@@ -770,11 +963,11 @@
        "itemID": 276236,
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 15
     },
     "25": {
@@ -787,11 +980,11 @@
        "name": "Spectral Bear Cub",
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 25
     },
     "40": {
@@ -804,11 +997,11 @@
        "name": "Spectral Bear Tabard",
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 40
     },
     "55": {
@@ -821,30 +1014,63 @@
        "name": "Reins of the Spectral Bear",
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 3,
+       "sources": 4,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 4,
      "totalReputation": 55
     }
    },
    "maxLevel": 90,
    "name": "Legacy Track",
    "renownLevelThreshold": 1,
-   "sources": 3
+   "sources": 4
   }
  },
- "rewardSpells": {},
+ "rewardSpells": {
+  "1498": {
+   "71": {
+    "genericUnlock": false,
+    "hideSpellLearnText": false,
+    "isBoostSpell": false,
+    "isSpellLearned": false,
+    "isTradeskill": false,
+    "sources": 1,
+    "type": 3
+   },
+   "355": {
+    "genericUnlock": false,
+    "hideSpellLearnText": false,
+    "isBoostSpell": false,
+    "isSpellLearned": false,
+    "isTradeskill": false,
+    "sources": 1,
+    "type": 3
+   },
+   "7386": {
+    "genericUnlock": false,
+    "hideSpellLearnText": false,
+    "isBoostSpell": false,
+    "isSpellLearned": false,
+    "isTradeskill": false,
+    "sources": 1,
+    "type": 3
+   }
+  }
+ },
  "standings": {
+  "1": {
+   "-42000..-6000": 1
+  },
   "4": {
-   "0..3000": 3
+   "0..3000": 4
   },
   "5": {
-   "3000..9000": 3
+   "3000..9000": 4
   },
   "6": {
-   "9000..21000": 2
+   "9000..21000": 4
   }
  },
  "starts": {
@@ -895,6 +1121,30 @@
      "Tirisfal Glades": 1
     }
    }
+  },
+  "Skyborne|Horde|SHAMAN": {
+   "count": 1,
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.4281,
+     "mapY": 0.2314,
+     "uiMap": 2521,
+     "worldX": 4098.1,
+     "worldY": 1849.7
+    }
+   ],
+   "sources": 1,
+   "subZones": {
+    "enUS": {
+     "Thendal Village": 1
+    }
+   },
+   "zones": {
+    "enUS": {
+     "Zephras Isle": 1
+    }
+   }
   }
  },
  "teleports": {
@@ -923,7 +1173,7 @@
    }
   },
   "18960": {
-   "count": 2,
+   "count": 3,
    "positions": [
     {
      "instance": 1,
@@ -937,24 +1187,30 @@
    "sources": 1,
    "subZones": {
     "enUS": {
-     "Nighthaven": 2
+     "Nighthaven": 3
     }
    },
    "zones": {
     "enUS": {
-     "Moonglade": 2
+     "Moonglade": 3
     }
    }
   }
  },
  "trivialRange": {
   "1": {
-   "5": 1
+   "5": 2
   },
   "2": {
-   "5": 1
+   "5": 2
   },
   "8": {
+   "5": 1
+  },
+  "10": {
+   "5": 1
+  },
+  "11": {
    "5": 1
   },
   "14": {
@@ -964,19 +1220,28 @@
    "5": 1
   },
   "16": {
+   "5": 2
+  },
+  "17": {
+   "5": 1
+  },
+  "18": {
+   "5": 2
+  },
+  "20": {
    "5": 1
   },
   "22": {
    "5": 1
   },
   "23": {
-   "5": 1
+   "5": 2
   },
   "24": {
-   "5": 1
+   "5": 2
   },
   "25": {
-   "5": 2
+   "5": 3
   },
   "26": {
    "5": 2

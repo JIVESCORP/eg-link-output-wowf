@@ -17,6 +17,16 @@
   }
  },
  "gossip": {
+  "npc:10378": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Though the Crossroads seems to be the center of activity in The Barrens, I prefer the quietude of Camp Taurajo.  Where shall I send you?",
+    "times": 1
+   }
+  ],
   "npc:1569": [
    {
     "broadcastTextIds": [
@@ -101,6 +111,16 @@
     "times": 2
    }
   ],
+  "npc:268048": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "I am sorry, $c, but you are not experienced enough yet to enter Darkspear Islands.",
+    "times": 1
+   }
+  ],
   "npc:276171": [
    {
     "broadcastTextIds": [
@@ -129,6 +149,26 @@
     "times": 1
    }
   ],
+  "npc:3169": [
+   {
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "text": "Are you here for training?  Or are you just here to waste a $c's time.",
+    "times": 2
+   }
+  ],
+  "npc:3191": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "I can teach you how to cook!",
+    "times": 1
+   }
+  ],
   "npc:3310": [
    {
     "broadcastTextIds": [
@@ -154,6 +194,26 @@
     "sources": 1,
     "template": "broadcastText",
     "text": "I have the finest meats in Orgrimmar.",
+    "times": 1
+   }
+  ],
+  "npc:3430": [
+   {
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "text": "My hatred is strong <snort>, but the time is right to tell you a tale, skyborne.\n\nLong ago a battle took place between gods. Agamaggan, our great boar god, fell to the earth after being defeated in the War of the Ancients, his blood raining down and his bones torn asunder. <snort>\n\nGreat thorns reached up out of the earth where his blood touched the ground, and his skull adorns one of the caverns to the south.",
+    "times": 2
+   }
+  ],
+  "npc:3432": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "I thank you, $N. Your dedication to my plea gives rest to my lost wife's spirit, and for that I could never repay you enough.\n\nI cannot say that my hatred will ever cease for the quilboar, but it is satiated for now.\n\nNow I must begin to rebuild my life.",
     "times": 1
    }
   ],
@@ -290,7 +350,7 @@
   "locale": "enUS",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 1,
+  "sources": 2,
   "withheld": {
    "addon": {
     "books": 0,
@@ -423,6 +483,49 @@
     }
    ]
   },
+  "837": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3139": 1
+     },
+     "text": "I will pass along word that the quilboars have been removed from their lairs, and that their structures may be set to fire. The removal of the Razormane from Durotar brings us closer to fully securing the borders of our new homeland.",
+     "times": 1
+    }
+   ]
+  },
+  "889": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3430": 1
+     },
+     "text": "Good. Go with Agamaggan's spirit as your guide, skyborne. Return to me if you desire more of Agamaggan's magics.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3430": 1
+     },
+     "text": "Bring Mangletooth 10 blood shards and I will bless you with great speed. You will run with zhevra and the wind will be jealous of you.\n\nIt will not last long, but it should be enough to help you travel throughout the Barrens.",
+     "times": 1
+    }
+   ]
+  },
   "1058": {
    "accept": [
     {
@@ -522,6 +625,34 @@
      },
      "template": "questCache",
      "text": "Bring Steelsnap's Rib to Melor Stonehoof in Thunder Bluff.",
+     "times": 1
+    }
+   ]
+  },
+  "1505": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3169": 1
+     },
+     "text": "The Horde honors its warriors because their strength is unquestioned.  But the truly great warriors are great students as well.\n\nSeek out Uzzek.  He is a veteran of many battles and now instructs young warriors in the ways of combat.  You will find him south of Far Watch Post, the $r garrison on the border of the Barrens and Durotar to the east.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3169": 1
+     },
+     "text": "Speak with Uzzek at Far Watch Post.",
      "times": 1
     }
    ]
@@ -823,6 +954,34 @@
     }
    ]
   },
+  "95774": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3432": 1
+     },
+     "text": "I will place these adornments with Olgra's memorial, so that I never forget her. My blood will always run hot with revenge from this day until my last day. Each swing of my blade and enemy felled will be in her name.\r\n\r\nYou have done me... done us... a great honor. \r\n\r\nLok-tar, $N.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3432": 1
+     },
+     "text": "I have only memories now, but I will build a tribute to Olgra so that they never fade.",
+     "times": 1
+    }
+   ]
+  },
   "96241": {
    "accept": [
     {
@@ -1073,6 +1232,34 @@
       "npc:259118": 1
      },
      "text": "What is this?",
+     "times": 1
+    }
+   ]
+  },
+  "96825": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3191": 1
+     },
+     "text": "I'll use these to prepare something tasty, and save the seeds for planting. Someday we'll have prickly pears growing all around Orgrimmar!",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3191": 1
+     },
+     "text": "Did you find the fruits?",
      "times": 1
     }
    ]

@@ -10,13 +10,13 @@
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 3
+  "sources": 4
  },
  "quests": {
   "877": {
    "5068": {
     "objectives": {
-     "1": 1
+     "1": 2
     },
     "positions": [
      {
@@ -26,15 +26,23 @@
       "uiMap": 1413,
       "worldX": -1276.5,
       "worldY": -3008.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5564,
+      "mapY": 0.4275,
+      "uiMap": 1413,
+      "worldX": -1275.8,
+      "worldY": -3014.8
      }
     ],
-    "progressed": 1,
-    "sources": 1,
+    "progressed": 2,
+    "sources": 2,
     "spellId": 5206,
     "targets": {
-     "object:3737": 1
+     "object:3737": 2
     },
-    "uses": 1
+    "uses": 2
    }
   },
   "881": {

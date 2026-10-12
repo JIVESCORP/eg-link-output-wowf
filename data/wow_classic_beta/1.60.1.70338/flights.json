@@ -8,17 +8,17 @@
   "2995": {
    "name": "Tal",
    "node": 22,
-   "sources": 1
+   "sources": 2
   },
   "3310": {
    "name": "Doras",
    "node": 23,
-   "sources": 3
+   "sources": 4
   },
   "3615": {
    "name": "Devrak",
    "node": 25,
-   "sources": 2
+   "sources": 3
   },
   "4312": {
    "name": "Tharm",
@@ -43,7 +43,12 @@
   "10378": {
    "name": "Omusa Thunderhorn",
    "node": 77,
-   "sources": 1
+   "sources": 2
+  },
+  "11901": {
+   "name": "Andruk",
+   "node": 58,
+   "sources": 2
   },
   "12616": {
    "name": "Vhulgra",
@@ -67,7 +72,7 @@
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 3
+  "sources": 4
  },
  "routes": {
   "10>11": {
@@ -125,7 +130,7 @@
     10
    ],
    "seconds": {
-    "106": 1
+    "106": 2
    },
    "sources": 2
   },
@@ -266,7 +271,7 @@
    "seconds": {
     "208": 1
    },
-   "sources": 1
+   "sources": 2
   },
   "22>25": {
    "arrivals": [
@@ -287,9 +292,9 @@
     25
    ],
    "seconds": {
-    "159": 2
+    "159": 3
    },
-   "sources": 1
+   "sources": 2
   },
   "22>29": {
    "costs": {
@@ -299,7 +304,7 @@
     22,
     29
    ],
-   "sources": 1
+   "sources": 2
   },
   "22>30": {
    "costs": {
@@ -309,7 +314,7 @@
     22,
     30
    ],
-   "sources": 1
+   "sources": 2
   },
   "22>38": {
    "costs": {
@@ -319,7 +324,7 @@
     22,
     38
    ],
-   "sources": 1
+   "sources": 2
   },
   "22>40": {
    "costs": {
@@ -329,7 +334,7 @@
     22,
     40
    ],
-   "sources": 1
+   "sources": 2
   },
   "22>42": {
    "costs": {
@@ -339,7 +344,7 @@
     22,
     42
    ],
-   "sources": 1
+   "sources": 2
   },
   "22>44": {
    "costs": {
@@ -349,7 +354,7 @@
     22,
     44
    ],
-   "sources": 1
+   "sources": 2
   },
   "22>55": {
    "costs": {
@@ -359,7 +364,57 @@
     22,
     55
    ],
+   "sources": 2
+  },
+  "22>58": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.1219,
+     "mapY": 0.3377,
+     "uiMap": 1440,
+     "worldX": 3374.7,
+     "worldY": 997
+    }
+   ],
+   "costs": {
+    "5": 550
+   },
+   "hops": [
+    22,
+    77,
+    25,
+    58
+   ],
+   "seconds": {
+    "396": 1
+   },
    "sources": 1
+  },
+  "22>61": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.7326,
+     "mapY": 0.6167,
+     "uiMap": 1440,
+     "worldX": 2302.4,
+     "worldY": -2524.6
+    }
+   ],
+   "costs": {
+    "5": 580
+   },
+   "hops": [
+    22,
+    23,
+    61
+   ],
+   "seconds": {
+    "296": 1,
+    "297": 1
+   },
+   "sources": 2
   },
   "22>77": {
    "costs": {
@@ -369,19 +424,18 @@
     22,
     77
    ],
-   "sources": 1
+   "sources": 2
   },
   "22>80": {
    "costs": {
-    "5": 330
+    "5": 220
    },
    "hops": [
     22,
-    77,
     25,
     80
    ],
-   "sources": 1
+   "sources": 2
   },
   "23>22": {
    "arrivals": [
@@ -405,7 +459,7 @@
    "seconds": {
     "225": 1
    },
-   "sources": 3
+   "sources": 4
   },
   "23>25": {
    "arrivals": [
@@ -427,9 +481,9 @@
     25
    ],
    "seconds": {
-    "110": 1
+    "110": 5
    },
-   "sources": 3
+   "sources": 4
   },
   "23>29": {
    "costs": {
@@ -441,7 +495,7 @@
     25,
     29
    ],
-   "sources": 3
+   "sources": 4
   },
   "23>30": {
    "costs": {
@@ -474,7 +528,7 @@
     23,
     40
    ],
-   "sources": 3
+   "sources": 4
   },
   "23>44": {
    "costs": {
@@ -485,7 +539,7 @@
     23,
     44
    ],
-   "sources": 3
+   "sources": 4
   },
   "23>48": {
    "costs": {
@@ -496,7 +550,7 @@
     23,
     48
    ],
-   "sources": 3
+   "sources": 4
   },
   "23>53": {
    "costs": {
@@ -507,7 +561,7 @@
     23,
     53
    ],
-   "sources": 3
+   "sources": 4
   },
   "23>55": {
    "costs": {
@@ -518,7 +572,7 @@
     23,
     55
    ],
-   "sources": 3
+   "sources": 4
   },
   "23>58": {
    "costs": {
@@ -529,7 +583,7 @@
     61,
     58
    ],
-   "sources": 1
+   "sources": 2
   },
   "23>61": {
    "arrivals": [
@@ -553,7 +607,7 @@
    "seconds": {
     "89": 1
    },
-   "sources": 3
+   "sources": 4
   },
   "23>77": {
    "arrivals": [
@@ -578,7 +632,7 @@
    "seconds": {
     "200": 1
    },
-   "sources": 3
+   "sources": 4
   },
   "23>80": {
    "costs": {
@@ -590,7 +644,7 @@
     25,
     80
    ],
-   "sources": 3
+   "sources": 4
   },
   "25>22": {
    "arrivals": [
@@ -612,11 +666,21 @@
     22
    ],
    "seconds": {
-    "182": 1
+    "182": 4
    },
-   "sources": 2
+   "sources": 3
   },
   "25>23": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.4528,
+     "mapY": 0.6375,
+     "uiMap": 1454,
+     "worldX": 1677.6,
+     "worldY": -4315.7
+    }
+   ],
    "costs": {
     "5": 110,
     "6": 99
@@ -625,7 +689,10 @@
     25,
     23
    ],
-   "sources": 2
+   "seconds": {
+    "142": 1
+   },
+   "sources": 3
   },
   "25>29": {
    "costs": {
@@ -636,7 +703,7 @@
     25,
     29
    ],
-   "sources": 2
+   "sources": 3
   },
   "25>30": {
    "costs": {
@@ -647,7 +714,7 @@
     25,
     30
    ],
-   "sources": 2
+   "sources": 3
   },
   "25>40": {
    "costs": {
@@ -658,7 +725,7 @@
     25,
     40
    ],
-   "sources": 2
+   "sources": 3
   },
   "25>42": {
    "costs": {
@@ -669,7 +736,7 @@
     25,
     42
    ],
-   "sources": 2
+   "sources": 3
   },
   "25>44": {
    "costs": {
@@ -680,7 +747,7 @@
     25,
     44
    ],
-   "sources": 2
+   "sources": 3
   },
   "25>48": {
    "costs": {
@@ -691,7 +758,7 @@
     25,
     48
    ],
-   "sources": 2
+   "sources": 3
   },
   "25>55": {
    "costs": {
@@ -702,7 +769,7 @@
     25,
     55
    ],
-   "sources": 2
+   "sources": 3
   },
   "25>58": {
    "costs": {
@@ -713,9 +780,19 @@
     25,
     58
    ],
-   "sources": 2
+   "sources": 3
   },
   "25>61": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.7326,
+     "mapY": 0.6167,
+     "uiMap": 1440,
+     "worldX": 2302.4,
+     "worldY": -2524.6
+    }
+   ],
    "costs": {
     "5": 530,
     "6": 477
@@ -724,9 +801,22 @@
     25,
     61
    ],
-   "sources": 2
+   "seconds": {
+    "163": 1
+   },
+   "sources": 3
   },
   "25>77": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.4446,
+     "mapY": 0.5911,
+     "uiMap": 1413,
+     "worldX": -2381.3,
+     "worldY": -1882.8
+    }
+   ],
    "costs": {
     "5": 110,
     "6": 99
@@ -735,7 +825,10 @@
     25,
     77
    ],
-   "sources": 2
+   "seconds": {
+    "90": 1
+   },
+   "sources": 3
   },
   "25>80": {
    "arrivals": [
@@ -759,7 +852,7 @@
    "seconds": {
     "52": 1
    },
-   "sources": 2
+   "sources": 3
   },
   "29>22": {
    "arrivals": [
@@ -1104,6 +1197,107 @@
    ],
    "sources": 1
   },
+  "58>22": {
+   "costs": {
+    "5": 220
+   },
+   "hops": [
+    58,
+    25,
+    22
+   ],
+   "sources": 2
+  },
+  "58>23": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.4528,
+     "mapY": 0.6375,
+     "uiMap": 1454,
+     "worldX": 1677.6,
+     "worldY": -4315.7
+    }
+   ],
+   "costs": {
+    "5": 1060
+   },
+   "hops": [
+    58,
+    61,
+    23
+   ],
+   "seconds": {
+    "256": 1
+   },
+   "sources": 2
+  },
+  "58>25": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.515,
+     "mapY": 0.3041,
+     "uiMap": 1413,
+     "worldX": -441.8,
+     "worldY": -2596.1
+    }
+   ],
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    58,
+    25
+   ],
+   "seconds": {
+    "228": 1
+   },
+   "sources": 2
+  },
+  "58>29": {
+   "costs": {
+    "5": 320
+   },
+   "hops": [
+    58,
+    25,
+    29
+   ],
+   "sources": 2
+  },
+  "58>61": {
+   "costs": {
+    "5": 530
+   },
+   "hops": [
+    58,
+    61
+   ],
+   "sources": 2
+  },
+  "58>77": {
+   "costs": {
+    "5": 220
+   },
+   "hops": [
+    58,
+    25,
+    77
+   ],
+   "sources": 2
+  },
+  "58>80": {
+   "costs": {
+    "5": 220
+   },
+   "hops": [
+    58,
+    25,
+    80
+   ],
+   "sources": 2
+  },
   "61>22": {
    "costs": {
     "5": 580
@@ -1189,6 +1383,16 @@
    "sources": 1
   },
   "77>22": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.4665,
+     "mapY": 0.499,
+     "uiMap": 1456,
+     "worldX": -1197.2,
+     "worldY": 29.7
+    }
+   ],
    "costs": {
     "5": 110
    },
@@ -1196,7 +1400,10 @@
     77,
     22
    ],
-   "sources": 1
+   "seconds": {
+    "114": 1
+   },
+   "sources": 2
   },
   "77>23": {
    "costs": {
@@ -1207,7 +1414,7 @@
     25,
     23
    ],
-   "sources": 1
+   "sources": 2
   },
   "77>25": {
    "costs": {
@@ -1217,7 +1424,7 @@
     77,
     25
    ],
-   "sources": 1
+   "sources": 2
   },
   "77>29": {
    "costs": {
@@ -1228,7 +1435,7 @@
     25,
     29
    ],
-   "sources": 1
+   "sources": 2
   },
   "77>30": {
    "costs": {
@@ -1238,7 +1445,7 @@
     77,
     30
    ],
-   "sources": 1
+   "sources": 2
   },
   "77>61": {
    "costs": {
@@ -1249,7 +1456,7 @@
     25,
     61
    ],
-   "sources": 1
+   "sources": 2
   },
   "77>80": {
    "arrivals": [
@@ -1273,7 +1480,7 @@
    "seconds": {
     "131": 2
    },
-   "sources": 1
+   "sources": 2
   },
   "80>22": {
    "costs": {

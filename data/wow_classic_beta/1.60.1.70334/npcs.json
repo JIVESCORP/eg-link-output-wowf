@@ -1,5 +1,177 @@
 {
- "approached": {},
+ "approached": {
+  "1617": {
+   "name": "Silverleaf",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4757,
+     "mapY": 0.4953,
+     "uiMap": 1411,
+     "worldX": 62.4,
+     "worldY": -4477.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4772,
+     "mapY": 0.494,
+     "uiMap": 1411,
+     "worldX": 66.9,
+     "worldY": -4485.8
+    }
+   ],
+   "sources": 1,
+   "times": 5
+  },
+  "153578": {
+   "name": "Mailbox",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4508,
+     "mapY": 0.587,
+     "uiMap": 1413,
+     "worldX": -2353.7,
+     "worldY": -1945.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4517,
+     "mapY": 0.5868,
+     "uiMap": 1413,
+     "worldX": -2352.2,
+     "worldY": -1954.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4515,
+     "mapY": 0.5862,
+     "uiMap": 1413,
+     "worldX": -2347.9,
+     "worldY": -1951.9
+    }
+   ],
+   "sources": 1,
+   "times": 8
+  },
+  "175786": {
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4455,
+     "mapY": 0.5912,
+     "uiMap": 1413,
+     "worldX": -2381.9,
+     "worldY": -1891
+    }
+   ],
+   "sources": 1,
+   "times": 1
+  },
+  "656177": {
+   "name": "Prickly Pear Fruit",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4436,
+     "mapY": 0.5056,
+     "uiMap": 1411,
+     "worldX": 26.1,
+     "worldY": -4308
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4424,
+     "mapY": 0.5024,
+     "uiMap": 1411,
+     "worldX": 37.4,
+     "worldY": -4301.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4409,
+     "mapY": 0.5016,
+     "uiMap": 1411,
+     "worldX": 40.2,
+     "worldY": -4293.8
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4458,
+     "mapY": 0.5012,
+     "uiMap": 1411,
+     "worldX": 41.6,
+     "worldY": -4319.4
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4399,
+     "mapY": 0.5008,
+     "uiMap": 1411,
+     "worldX": 43,
+     "worldY": -4288.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4387,
+     "mapY": 0.5004,
+     "uiMap": 1411,
+     "worldX": 44.5,
+     "worldY": -4282.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4716,
+     "mapY": 0.5,
+     "uiMap": 1411,
+     "worldX": 45.9,
+     "worldY": -4456
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4724,
+     "mapY": 0.4999,
+     "uiMap": 1411,
+     "worldX": 46.3,
+     "worldY": -4460.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4752,
+     "mapY": 0.4983,
+     "uiMap": 1411,
+     "worldX": 52,
+     "worldY": -4475.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4754,
+     "mapY": 0.4973,
+     "uiMap": 1411,
+     "worldX": 55.5,
+     "worldY": -4476.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4757,
+     "mapY": 0.4946,
+     "uiMap": 1411,
+     "worldX": 64.9,
+     "worldY": -4477.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4774,
+     "mapY": 0.4937,
+     "uiMap": 1411,
+     "worldX": 67.9,
+     "worldY": -4486.6
+    }
+   ],
+   "sources": 1,
+   "times": 25
+  }
+ },
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70334",
@@ -11,7 +183,7 @@
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 1
+  "sources": 2
  },
  "npcs": {
   "1568": {
@@ -350,6 +522,134 @@
    "sources": 1,
    "windows": 1
   },
+  "3139": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-10",
+   "levels": [
+    10
+   ],
+   "name": "Gar'Thok",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5194,
+     "mapY": 0.4358,
+     "uiMap": 1411,
+     "worldX": 272.3,
+     "worldY": -4708.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "837": {
+     "title": "Encroachment"
+    }
+   },
+   "windows": 0
+  },
+  "3168": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-10",
+   "levels": [
+    15
+   ],
+   "name": "Flakk",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5295,
+     "mapY": 0.4201,
+     "uiMap": 1411,
+     "worldX": 327.5,
+     "worldY": -4762.3
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3169": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-10",
+   "levels": [
+    43
+   ],
+   "name": "Tarshaw Jaggedscar",
+   "offers": {
+    "1505": {
+     "level": 0,
+     "title": "Veteran Uzzek"
+    }
+   },
+   "options": {
+    "96376": {
+     "icon": 132058,
+     "name": "I require warrior training."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5415,
+     "mapY": 0.4251,
+     "uiMap": 1411,
+     "worldX": 309.7,
+     "worldY": -4825.6
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 3
+  },
+  "3191": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-10",
+   "levels": [
+    6
+   ],
+   "name": "Cook Torka",
+   "options": {
+    "96866": {
+     "icon": 132058,
+     "name": "Train me."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.511,
+     "mapY": 0.4249,
+     "uiMap": 1411,
+     "worldX": 310.5,
+     "worldY": -4664.3
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "96655": {
+     "level": 6,
+     "title": "Camping 101: Cooking"
+    },
+    "96825": {
+     "level": 6,
+     "title": "This Fruit Could Bite Back"
+    }
+   },
+   "windows": 1
+  },
   "3310": {
    "interactions": [
     "Gossip",
@@ -412,6 +712,95 @@
     "95697": {
      "level": 31,
      "title": "Changing Tastes"
+    }
+   },
+   "windows": 1
+  },
+  "3430": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-10",
+   "levels": [
+    17
+   ],
+   "name": "Mangletooth",
+   "offers": {
+    "889": {
+     "level": 20,
+     "title": "Spirit of the Wind"
+    },
+    "5042": {
+     "level": 20,
+     "title": "Agamaggan's Strength"
+    },
+    "5043": {
+     "level": 20,
+     "title": "Agamaggan's Agility"
+    },
+    "5044": {
+     "level": 20,
+     "title": "Wisdom of Agamaggan"
+    },
+    "5045": {
+     "level": 20,
+     "title": "Rising Spirit"
+    },
+    "5046": {
+     "level": 20,
+     "title": "Razorhide"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4455,
+     "mapY": 0.5921,
+     "uiMap": 1413,
+     "worldX": -2388.2,
+     "worldY": -1891.9
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "879": {
+     "level": 25,
+     "title": "Betrayal from Within"
+    },
+    "889": {
+     "title": "Spirit of the Wind"
+    }
+   },
+   "windows": 2
+  },
+  "3432": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-10",
+   "levels": [
+    15
+   ],
+   "name": "Mankrik",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5196,
+     "mapY": 0.3154,
+     "uiMap": 1413,
+     "worldX": -518.4,
+     "worldY": -2642.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "95774": {
+     "level": 20,
+     "title": "Her Name Is Olgra"
     }
    },
    "windows": 1
@@ -714,6 +1103,36 @@
      "uiMap": 1417,
      "worldX": -916,
      "worldY": -3525.8
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
+  "10378": {
+   "interactions": [
+    "Gossip",
+    "TaxiNode"
+   ],
+   "lastSeen": "2026-10-10",
+   "levels": [
+    55
+   ],
+   "name": "Omusa Thunderhorn",
+   "options": {
+    "95853": {
+     "icon": 132057,
+     "name": "I need a ride."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4448,
+     "mapY": 0.5914,
+     "uiMap": 1413,
+     "worldX": -2382.9,
+     "worldY": -1884.5
     }
    ],
    "side": "Horde",
@@ -1085,6 +1504,29 @@
    "side": "Horde",
    "sources": 1,
    "windows": 4
+  },
+  "268048": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-10",
+   "levels": [
+    30
+   ],
+   "name": "Darkspear Emissary",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4719,
+     "mapY": 0.6526,
+     "uiMap": 1454,
+     "worldX": 1663.5,
+     "worldY": -4342.4
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
   },
   "276171": {
    "interactions": [

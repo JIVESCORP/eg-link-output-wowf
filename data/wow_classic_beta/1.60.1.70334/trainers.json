@@ -10,9 +10,1467 @@
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 1
+  "sources": 2
  },
  "trainers": {
+  "3169": {
+   "lastSeen": "2026-10-10",
+   "name": "Tarshaw Jaggedscar",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5415,
+     "mapY": 0.4251,
+     "uiMap": 1411,
+     "worldX": 309.7,
+     "worldY": -4825.6
+    }
+   ],
+   "services": {
+    "72": {
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132357,
+     "level": 12,
+     "name": "Shield Bash",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 72
+    },
+    "100": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 132337,
+     "level": 0,
+     "name": "Charge",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 100
+    },
+    "284": {
+     "abilities": [
+      "Heroic Strike"
+     ],
+     "costs": {
+      "5": 200
+     },
+     "icon": 132282,
+     "level": 0,
+     "name": "Heroic Strike",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 284
+    },
+    "285": {
+     "abilities": [
+      "Heroic Strike (Rank 2)"
+     ],
+     "costs": {
+      "5": 2000
+     },
+     "icon": 132282,
+     "level": 16,
+     "name": "Heroic Strike",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 285
+    },
+    "674": {
+     "costs": {
+      "5": 4000
+     },
+     "icon": 132147,
+     "level": 20,
+     "name": "Dual Wield",
+     "rankText": "Passive",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 674
+    },
+    "676": {
+     "abilities": [
+      "Defensive Stance"
+     ],
+     "costs": {
+      "5": 3000
+     },
+     "icon": 132343,
+     "level": 18,
+     "name": "Disarm",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 676
+    },
+    "694": {
+     "costs": {
+      "5": 2000
+     },
+     "icon": 132350,
+     "level": 16,
+     "name": "Mocking Blow",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 694
+    },
+    "750": {
+     "costs": {
+      "5": 22000
+     },
+     "icon": 132736,
+     "level": 40,
+     "name": "Plate Mail",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 750
+    },
+    "772": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 132155,
+     "level": 0,
+     "name": "Rend",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 772
+    },
+    "845": {
+     "costs": {
+      "5": 4000
+     },
+     "icon": 132338,
+     "level": 20,
+     "name": "Cleave",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 845
+    },
+    "871": {
+     "abilities": [
+      "Defensive Stance"
+     ],
+     "costs": {
+      "5": 11000
+     },
+     "icon": 132362,
+     "level": 28,
+     "name": "Shield Wall",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 871
+    },
+    "1160": {
+     "costs": {
+      "5": 1500
+     },
+     "icon": 132366,
+     "level": 14,
+     "name": "Demoralizing Shout",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1160
+    },
+    "1161": {
+     "costs": {
+      "5": 10000
+     },
+     "icon": 132091,
+     "level": 26,
+     "name": "Challenging Shout",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1161
+    },
+    "1464": {
+     "abilities": [
+      "Slam (Rank 1)"
+     ],
+     "costs": {
+      "5": 12000
+     },
+     "icon": 132340,
+     "level": 30,
+     "name": "Slam",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1464
+    },
+    "1608": {
+     "abilities": [
+      "Heroic Strike (Rank 3)"
+     ],
+     "costs": {
+      "5": 8000
+     },
+     "icon": 132282,
+     "level": 24,
+     "name": "Heroic Strike",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1608
+    },
+    "1671": {
+     "abilities": [
+      "Shield Bash (Rank 1)"
+     ],
+     "costs": {
+      "5": 14000
+     },
+     "icon": 132357,
+     "level": 32,
+     "name": "Shield Bash",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1671
+    },
+    "1672": {
+     "abilities": [
+      "Shield Bash (Rank 2)"
+     ],
+     "costs": {
+      "5": 54000
+     },
+     "icon": 132357,
+     "level": 52,
+     "name": "Shield Bash",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1672
+    },
+    "1680": {
+     "abilities": [
+      "Berserker Stance"
+     ],
+     "costs": {
+      "5": 18000
+     },
+     "icon": 132369,
+     "level": 36,
+     "name": "Whirlwind",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1680
+    },
+    "1715": {
+     "costs": {
+      "5": 200
+     },
+     "icon": 132316,
+     "level": 0,
+     "name": "Hamstring",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1715
+    },
+    "1719": {
+     "abilities": [
+      "Berserker Stance"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 132109,
+     "level": 50,
+     "name": "Recklessness",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1719
+    },
+    "2565": {
+     "abilities": [
+      "Defensive Stance"
+     ],
+     "costs": {
+      "5": 2000
+     },
+     "icon": 132110,
+     "level": 16,
+     "name": "Shield Block",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2565
+    },
+    "2687": {
+     "costs": {
+      "5": 600
+     },
+     "icon": 132277,
+     "level": 10,
+     "name": "Bloodrage",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2687
+    },
+    "3127": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 132269,
+     "level": 6,
+     "name": "Parry",
+     "rankText": "Passive",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3127
+    },
+    "5242": {
+     "abilities": [
+      "Battle Shout (Rank 1)"
+     ],
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132333,
+     "level": 12,
+     "name": "Battle Shout",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5242
+    },
+    "5246": {
+     "costs": {
+      "5": 6000
+     },
+     "icon": 132154,
+     "level": 22,
+     "name": "Intimidating Shout",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5246
+    },
+    "5308": {
+     "costs": {
+      "5": 8000
+     },
+     "icon": 135358,
+     "level": 24,
+     "name": "Execute",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5308
+    },
+    "6178": {
+     "abilities": [
+      "Charge (Rank 1)"
+     ],
+     "costs": {
+      "5": 10000
+     },
+     "icon": 132337,
+     "level": 26,
+     "name": "Charge",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6178
+    },
+    "6190": {
+     "abilities": [
+      "Demoralizing Shout (Rank 1)"
+     ],
+     "costs": {
+      "5": 8000
+     },
+     "icon": 132366,
+     "level": 24,
+     "name": "Demoralizing Shout",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6190
+    },
+    "6192": {
+     "abilities": [
+      "Battle Shout (Rank 2)"
+     ],
+     "costs": {
+      "5": 6000
+     },
+     "icon": 132333,
+     "level": 22,
+     "name": "Battle Shout",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6192
+    },
+    "6343": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 136105,
+     "level": 0,
+     "name": "Thunder Clap",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6343
+    },
+    "6546": {
+     "abilities": [
+      "Rend (Rank 1)"
+     ],
+     "costs": {
+      "5": 600
+     },
+     "icon": 132155,
+     "level": 10,
+     "name": "Rend",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6546
+    },
+    "6547": {
+     "abilities": [
+      "Rend (Rank 2)"
+     ],
+     "costs": {
+      "5": 4000
+     },
+     "icon": 132155,
+     "level": 20,
+     "name": "Rend",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6547
+    },
+    "6548": {
+     "abilities": [
+      "Rend (Rank 3)"
+     ],
+     "costs": {
+      "5": 12000
+     },
+     "icon": 132155,
+     "level": 30,
+     "name": "Rend",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6548
+    },
+    "6552": {
+     "abilities": [
+      "Berserker Stance"
+     ],
+     "costs": {
+      "5": 20000
+     },
+     "icon": 132938,
+     "level": 38,
+     "name": "Pummel",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6552
+    },
+    "6554": {
+     "abilities": [
+      "Pummel (Rank 1)"
+     ],
+     "costs": {
+      "5": 60000
+     },
+     "icon": 132938,
+     "level": 58,
+     "name": "Pummel",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6554
+    },
+    "6572": {
+     "abilities": [
+      "Defensive Stance"
+     ],
+     "costs": {
+      "5": 1500
+     },
+     "icon": 132353,
+     "level": 14,
+     "name": "Revenge",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6572
+    },
+    "6574": {
+     "abilities": [
+      "Revenge (Rank 1)"
+     ],
+     "costs": {
+      "5": 8000
+     },
+     "icon": 132353,
+     "level": 24,
+     "name": "Revenge",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6574
+    },
+    "6673": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 132333,
+     "level": 0,
+     "name": "Battle Shout",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6673
+    },
+    "7369": {
+     "abilities": [
+      "Cleave (Rank 1)"
+     ],
+     "costs": {
+      "5": 12000
+     },
+     "icon": 132338,
+     "level": 30,
+     "name": "Cleave",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7369
+    },
+    "7372": {
+     "abilities": [
+      "Hamstring (Rank 1)"
+     ],
+     "costs": {
+      "5": 14000
+     },
+     "icon": 132316,
+     "level": 32,
+     "name": "Hamstring",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7372
+    },
+    "7373": {
+     "abilities": [
+      "Hamstring (Rank 2)"
+     ],
+     "costs": {
+      "5": 56000
+     },
+     "icon": 132316,
+     "level": 54,
+     "name": "Hamstring",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7373
+    },
+    "7379": {
+     "abilities": [
+      "Revenge (Rank 2)"
+     ],
+     "costs": {
+      "5": 16000
+     },
+     "icon": 132353,
+     "level": 34,
+     "name": "Revenge",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7379
+    },
+    "7384": {
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132223,
+     "level": 12,
+     "name": "Overpower",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7384
+    },
+    "7400": {
+     "abilities": [
+      "Mocking Blow (Rank 1)"
+     ],
+     "costs": {
+      "5": 10000
+     },
+     "icon": 132350,
+     "level": 26,
+     "name": "Mocking Blow",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7400
+    },
+    "7402": {
+     "abilities": [
+      "Mocking Blow (Rank 2)"
+     ],
+     "costs": {
+      "5": 18000
+     },
+     "icon": 132350,
+     "level": 36,
+     "name": "Mocking Blow",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7402
+    },
+    "7405": {
+     "abilities": [
+      "Sunder Armor (Rank 1)"
+     ],
+     "costs": {
+      "5": 6000
+     },
+     "icon": 132363,
+     "level": 22,
+     "name": "Sunder Armor",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7405
+    },
+    "7887": {
+     "abilities": [
+      "Overpower (Rank 1)"
+     ],
+     "costs": {
+      "5": 11000
+     },
+     "icon": 132223,
+     "level": 28,
+     "name": "Overpower",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 7887
+    },
+    "8198": {
+     "abilities": [
+      "Thunder Clap (Rank 1)"
+     ],
+     "costs": {
+      "5": 3000
+     },
+     "icon": 136105,
+     "level": 18,
+     "name": "Thunder Clap",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8198
+    },
+    "8204": {
+     "abilities": [
+      "Thunder Clap (Rank 2)"
+     ],
+     "costs": {
+      "5": 11000
+     },
+     "icon": 136105,
+     "level": 28,
+     "name": "Thunder Clap",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8204
+    },
+    "8205": {
+     "abilities": [
+      "Thunder Clap (Rank 3)"
+     ],
+     "costs": {
+      "5": 20000
+     },
+     "icon": 136105,
+     "level": 38,
+     "name": "Thunder Clap",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8205
+    },
+    "8380": {
+     "abilities": [
+      "Sunder Armor (Rank 2)"
+     ],
+     "costs": {
+      "5": 16000
+     },
+     "icon": 132363,
+     "level": 34,
+     "name": "Sunder Armor",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8380
+    },
+    "8820": {
+     "abilities": [
+      "Slam (Rank 2)"
+     ],
+     "costs": {
+      "5": 20000
+     },
+     "icon": 132340,
+     "level": 38,
+     "name": "Slam",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8820
+    },
+    "11549": {
+     "abilities": [
+      "Battle Shout (Rank 3)"
+     ],
+     "costs": {
+      "5": 14000
+     },
+     "icon": 132333,
+     "level": 32,
+     "name": "Battle Shout",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11549
+    },
+    "11550": {
+     "abilities": [
+      "Battle Shout (Rank 4)"
+     ],
+     "costs": {
+      "5": 32000
+     },
+     "icon": 132333,
+     "level": 42,
+     "name": "Battle Shout",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11550
+    },
+    "11551": {
+     "abilities": [
+      "Battle Shout (Rank 5)"
+     ],
+     "costs": {
+      "5": 54000
+     },
+     "icon": 132333,
+     "level": 52,
+     "name": "Battle Shout",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11551
+    },
+    "11554": {
+     "abilities": [
+      "Demoralizing Shout (Rank 2)"
+     ],
+     "costs": {
+      "5": 16000
+     },
+     "icon": 132366,
+     "level": 34,
+     "name": "Demoralizing Shout",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11554
+    },
+    "11555": {
+     "abilities": [
+      "Demoralizing Shout (Rank 3)"
+     ],
+     "costs": {
+      "5": 34000
+     },
+     "icon": 132366,
+     "level": 44,
+     "name": "Demoralizing Shout",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11555
+    },
+    "11556": {
+     "abilities": [
+      "Demoralizing Shout (Rank 4)"
+     ],
+     "costs": {
+      "5": 56000
+     },
+     "icon": 132366,
+     "level": 54,
+     "name": "Demoralizing Shout",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11556
+    },
+    "11564": {
+     "abilities": [
+      "Heroic Strike (Rank 4)"
+     ],
+     "costs": {
+      "5": 14000
+     },
+     "icon": 132282,
+     "level": 32,
+     "name": "Heroic Strike",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11564
+    },
+    "11565": {
+     "abilities": [
+      "Heroic Strike (Rank 5)"
+     ],
+     "costs": {
+      "5": 22000
+     },
+     "icon": 132282,
+     "level": 40,
+     "name": "Heroic Strike",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11565
+    },
+    "11566": {
+     "abilities": [
+      "Heroic Strike (Rank 6)"
+     ],
+     "costs": {
+      "5": 40000
+     },
+     "icon": 132282,
+     "level": 48,
+     "name": "Heroic Strike",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11566
+    },
+    "11567": {
+     "abilities": [
+      "Heroic Strike (Rank 7)"
+     ],
+     "costs": {
+      "5": 58000
+     },
+     "icon": 132282,
+     "level": 56,
+     "name": "Heroic Strike",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11567
+    },
+    "11572": {
+     "abilities": [
+      "Rend (Rank 4)"
+     ],
+     "costs": {
+      "5": 22000
+     },
+     "icon": 132155,
+     "level": 40,
+     "name": "Rend",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11572
+    },
+    "11573": {
+     "abilities": [
+      "Rend (Rank 5)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 132155,
+     "level": 50,
+     "name": "Rend",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11573
+    },
+    "11574": {
+     "abilities": [
+      "Rend (Rank 6)"
+     ],
+     "costs": {
+      "5": 62000
+     },
+     "icon": 132155,
+     "level": 60,
+     "name": "Rend",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11574
+    },
+    "11578": {
+     "abilities": [
+      "Charge (Rank 2)"
+     ],
+     "costs": {
+      "5": 36000
+     },
+     "icon": 132337,
+     "level": 46,
+     "name": "Charge",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11578
+    },
+    "11580": {
+     "abilities": [
+      "Thunder Clap (Rank 4)"
+     ],
+     "costs": {
+      "5": 40000
+     },
+     "icon": 136105,
+     "level": 48,
+     "name": "Thunder Clap",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11580
+    },
+    "11581": {
+     "abilities": [
+      "Thunder Clap (Rank 5)"
+     ],
+     "costs": {
+      "5": 60000
+     },
+     "icon": 136105,
+     "level": 58,
+     "name": "Thunder Clap",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11581
+    },
+    "11584": {
+     "abilities": [
+      "Overpower (Rank 2)"
+     ],
+     "costs": {
+      "5": 34000
+     },
+     "icon": 132223,
+     "level": 44,
+     "name": "Overpower",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11584
+    },
+    "11585": {
+     "abilities": [
+      "Overpower (Rank 3)"
+     ],
+     "costs": {
+      "5": 62000
+     },
+     "icon": 132223,
+     "level": 60,
+     "name": "Overpower",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11585
+    },
+    "11596": {
+     "abilities": [
+      "Sunder Armor (Rank 3)"
+     ],
+     "costs": {
+      "5": 36000
+     },
+     "icon": 132363,
+     "level": 46,
+     "name": "Sunder Armor",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11596
+    },
+    "11597": {
+     "abilities": [
+      "Sunder Armor (Rank 4)"
+     ],
+     "costs": {
+      "5": 60000
+     },
+     "icon": 132363,
+     "level": 58,
+     "name": "Sunder Armor",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11597
+    },
+    "11600": {
+     "abilities": [
+      "Revenge (Rank 3)"
+     ],
+     "costs": {
+      "5": 34000
+     },
+     "icon": 132353,
+     "level": 44,
+     "name": "Revenge",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11600
+    },
+    "11601": {
+     "abilities": [
+      "Revenge (Rank 4)"
+     ],
+     "costs": {
+      "5": 56000
+     },
+     "icon": 132353,
+     "level": 54,
+     "name": "Revenge",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11601
+    },
+    "11604": {
+     "abilities": [
+      "Slam (Rank 3)"
+     ],
+     "costs": {
+      "5": 36000
+     },
+     "icon": 132340,
+     "level": 46,
+     "name": "Slam",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11604
+    },
+    "11605": {
+     "abilities": [
+      "Slam (Rank 4)"
+     ],
+     "costs": {
+      "5": 56000
+     },
+     "icon": 132340,
+     "level": 54,
+     "name": "Slam",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11605
+    },
+    "11608": {
+     "abilities": [
+      "Cleave (Rank 2)"
+     ],
+     "costs": {
+      "5": 22000
+     },
+     "icon": 132338,
+     "level": 40,
+     "name": "Cleave",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11608
+    },
+    "11609": {
+     "abilities": [
+      "Cleave (Rank 3)"
+     ],
+     "costs": {
+      "5": 42000
+     },
+     "icon": 132338,
+     "level": 50,
+     "name": "Cleave",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 11609
+    },
+    "18499": {
+     "abilities": [
+      "Berserker Stance"
+     ],
+     "costs": {
+      "5": 12000
+     },
+     "icon": 136009,
+     "level": 30,
+     "name": "Berserker Rage",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 18499
+    },
+    "20230": {
+     "costs": {
+      "5": 4000
+     },
+     "icon": 132336,
+     "level": 20,
+     "name": "Retaliation",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20230
+    },
+    "20559": {
+     "abilities": [
+      "Mocking Blow (Rank 3)"
+     ],
+     "costs": {
+      "5": 36000
+     },
+     "icon": 132350,
+     "level": 46,
+     "name": "Mocking Blow",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20559
+    },
+    "20560": {
+     "abilities": [
+      "Mocking Blow (Rank 4)"
+     ],
+     "costs": {
+      "5": 58000
+     },
+     "icon": 132350,
+     "level": 56,
+     "name": "Mocking Blow",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20560
+    },
+    "20569": {
+     "abilities": [
+      "Cleave (Rank 4)"
+     ],
+     "costs": {
+      "5": 62000
+     },
+     "icon": 132338,
+     "level": 60,
+     "name": "Cleave",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20569
+    },
+    "20616": {
+     "abilities": [
+      "Intercept"
+     ],
+     "costs": {
+      "5": 32000
+     },
+     "icon": 132307,
+     "level": 42,
+     "name": "Intercept",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20616
+    },
+    "20617": {
+     "abilities": [
+      "Intercept (Rank 2)"
+     ],
+     "costs": {
+      "5": 54000
+     },
+     "icon": 132307,
+     "level": 52,
+     "name": "Intercept",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20617
+    },
+    "20658": {
+     "abilities": [
+      "Execute (Rank 1)"
+     ],
+     "costs": {
+      "5": 14000
+     },
+     "icon": 135358,
+     "level": 32,
+     "name": "Execute",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20658
+    },
+    "20660": {
+     "abilities": [
+      "Execute (Rank 2)"
+     ],
+     "costs": {
+      "5": 22000
+     },
+     "icon": 135358,
+     "level": 40,
+     "name": "Execute",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20660
+    },
+    "20661": {
+     "abilities": [
+      "Execute (Rank 3)"
+     ],
+     "costs": {
+      "5": 40000
+     },
+     "icon": 135358,
+     "level": 48,
+     "name": "Execute",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20661
+    },
+    "20662": {
+     "abilities": [
+      "Execute (Rank 4)"
+     ],
+     "costs": {
+      "5": 58000
+     },
+     "icon": 135358,
+     "level": 56,
+     "name": "Execute",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20662
+    },
+    "21551": {
+     "abilities": [
+      "Mortal Strike"
+     ],
+     "costs": {
+      "5": 2000
+     },
+     "icon": 132355,
+     "level": 48,
+     "name": "Mortal Strike",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 21551
+    },
+    "21552": {
+     "abilities": [
+      "Mortal Strike (Rank 2)"
+     ],
+     "costs": {
+      "5": 2800
+     },
+     "icon": 132355,
+     "level": 54,
+     "name": "Mortal Strike",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 21552
+    },
+    "21553": {
+     "abilities": [
+      "Mortal Strike (Rank 3)"
+     ],
+     "costs": {
+      "5": 3100
+     },
+     "icon": 132355,
+     "level": 60,
+     "name": "Mortal Strike",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 21553
+    },
+    "23892": {
+     "abilities": [
+      "Bloodthirst (Rank 1)"
+     ],
+     "costs": {
+      "5": 2000
+     },
+     "icon": 136012,
+     "level": 48,
+     "name": "Bloodthirst",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 23892
+    },
+    "23893": {
+     "abilities": [
+      "Bloodthirst (Rank 2)"
+     ],
+     "costs": {
+      "5": 2800
+     },
+     "icon": 136012,
+     "level": 54,
+     "name": "Bloodthirst",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 23893
+    },
+    "23894": {
+     "abilities": [
+      "Bloodthirst (Rank 3)"
+     ],
+     "costs": {
+      "5": 3100
+     },
+     "icon": 136012,
+     "level": 60,
+     "name": "Bloodthirst",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 23894
+    },
+    "23923": {
+     "abilities": [
+      "Shield Slam (Rank 1)"
+     ],
+     "costs": {
+      "5": 2000
+     },
+     "icon": 134951,
+     "level": 48,
+     "name": "Shield Slam",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 23923
+    },
+    "23924": {
+     "abilities": [
+      "Shield Slam (Rank 2)"
+     ],
+     "costs": {
+      "5": 2800
+     },
+     "icon": 134951,
+     "level": 54,
+     "name": "Shield Slam",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 23924
+    },
+    "23925": {
+     "abilities": [
+      "Shield Slam (Rank 3)"
+     ],
+     "costs": {
+      "5": 3100
+     },
+     "icon": 134951,
+     "level": 60,
+     "name": "Shield Slam",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 23925
+    },
+    "402927": {
+     "costs": {
+      "5": 4000
+     },
+     "icon": 132342,
+     "level": 20,
+     "name": "Victory Rush",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 402927
+    },
+    "1240193": {
+     "costs": {
+      "5": 4000
+     },
+     "icon": 132340,
+     "level": 20,
+     "name": "Slam",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1240193
+    },
+    "1310185": {
+     "costs": {
+      "5": 1500
+     },
+     "icon": 136031,
+     "level": 14,
+     "name": "Tactical Mastery",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1310185
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
   "5883": {
    "lastSeen": "2026-10-10",
    "name": "Enyo",
