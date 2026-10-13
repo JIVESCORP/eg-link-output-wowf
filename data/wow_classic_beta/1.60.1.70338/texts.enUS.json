@@ -711,13 +711,13 @@
      8146
     ],
     "sexes": {
-     "female": 6,
+     "female": 10,
      "male": 2
     },
     "sources": 3,
     "template": "broadcastText",
     "text": "Do you hear the call of the hunt, $c?  You must listen closely, but the call comes from deep within you.  It comes from deep within all of us.",
-    "times": 8
+    "times": 12
    }
   ],
   "npc:12724": [
@@ -726,12 +726,12 @@
      8777
     ],
     "sexes": {
-     "female": 4
+     "female": 5
     },
     "sources": 2,
     "template": "broadcastText",
     "text": "This forest can be confusing! Be careful out there.",
-    "times": 4
+    "times": 5
    }
   ],
   "npc:12736": [
@@ -740,13 +740,13 @@
      8258
     ],
     "sexes": {
-     "female": 11,
+     "female": 13,
      "male": 8
     },
     "sources": 3,
     "template": "broadcastText",
     "text": "The elements speak to us, $c.  They share knowledge that we must learn, and they share secrets that must be kept.",
-    "times": 19
+    "times": 21
    }
   ],
   "npc:12737": [
@@ -755,12 +755,12 @@
      8257
     ],
     "sexes": {
-     "female": 2
+     "female": 4
     },
     "sources": 2,
     "template": "broadcastText",
     "text": "If you want to know about the comings and goings of caravans and merchants here in Splintertree Post, then I am fortunately the orc you are looking for.  Unfortunately for you though, I don't like people.$B$BIf you want something, make it quick.",
-    "times": 2
+    "times": 4
    }
   ],
   "npc:12757": [
@@ -769,13 +769,13 @@
      8243
     ],
     "sexes": {
-     "female": 3,
+     "female": 7,
      "male": 1
     },
     "sources": 3,
     "template": "broadcastText",
     "text": "Greeting $c - welcome to the front lines in our conquest of Ashenvale!  If you are looking for something to do, then you've come to the right place.  I'm always looking for able-bodied individuals to help bring glory to the Horde!",
-    "times": 4
+    "times": 8
    }
   ],
   "npc:12863": [
@@ -784,13 +784,13 @@
      8571
     ],
     "sexes": {
-     "female": 1,
+     "female": 2,
      "male": 1
     },
-    "sources": 2,
+    "sources": 3,
     "template": "broadcastText",
     "text": "Yes, $c? Are you reporting in?",
-    "times": 2
+    "times": 3
    }
   ],
   "npc:14728": [
@@ -827,13 +827,13 @@
      10753
     ],
     "sexes": {
-     "female": 7,
+     "female": 8,
      "male": 1
     },
-    "sources": 2,
+    "sources": 3,
     "template": "broadcastText",
     "text": "Where would you like to fly to?",
-    "times": 8
+    "times": 9
    }
   ],
   "npc:1937": [
@@ -898,12 +898,13 @@
      7217
     ],
     "sexes": {
+     "female": 1,
      "male": 1
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "Do not presume to speak to me as though you are my equal, $c. Sylvanas is my queen, and I will do as she bids.$B$BIf you do not show the proper respect, I assure you, we can find a more than suitable place for you in the Nether.$B$BBut there is no reason we cannot have words if you wish to aid the Dark Lady...",
-    "times": 1
+    "times": 2
    }
   ],
   "npc:248196": [
@@ -1132,12 +1133,17 @@
   ],
   "npc:270582": [
    {
+    "broadcastTextIds": [
+     321055
+    ],
     "sexes": {
-     "male": 4
+     "female": 5,
+     "male": 5
     },
-    "sources": 1,
+    "sources": 2,
+    "template": "broadcastText",
     "text": "Greetings, $c.\r\n\r\nI can show you how to weave magic about yourself to change the appearance of your equipment, if you so desire. Do you wish to utilize my services?",
-    "times": 4
+    "times": 10
    }
   ],
   "npc:2995": [
@@ -1146,13 +1152,13 @@
      8116
     ],
     "sexes": {
-     "female": 5,
+     "female": 6,
      "male": 3
     },
-    "sources": 2,
+    "sources": 3,
     "template": "broadcastText",
     "text": "When mounted on the back of a wind rider, one sees that its reputation for strength and speed is well earned.",
-    "times": 8
+    "times": 9
    }
   ],
   "npc:3033": [
@@ -1224,6 +1230,46 @@
     },
     "sources": 1,
     "text": "Through rigorous retraining I have had to break many students of all they had previously learned so that I might teach them anew.  The service I offer becomes increasingly difficult to perform each time it is done.  It is for that reason that it becomes increasingly expensive with each retraining.  Do you desire that I break you of the talents you have learned?",
+    "times": 1
+   }
+  ],
+  "npc:3046": [
+   {
+    "broadcastTextIds": [
+     7163
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Yes, $c?",
+    "times": 1
+   }
+  ],
+  "npc:3049": [
+   {
+    "broadcastTextIds": [
+     2527
+    ],
+    "sexes": {
+     "female": 4
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Greetings.  I'm an undead mage trainer, and you're a mage.",
+    "times": 4
+   },
+   {
+    "broadcastTextIds": [
+     8263
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "If you desire, in addition to training, I have it within my power to erase the knowledge of your talents from your mind.  Be warned that every time you undergo this procedure the more difficult it is to perform, and therefore the more expensive it becomes.",
     "times": 1
    }
   ],
@@ -1312,6 +1358,20 @@
     "times": 3
    }
   ],
+  "npc:3169": [
+   {
+    "broadcastTextIds": [
+     3146
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Are you here for training?  Or are you just here to waste a warrior's time.",
+    "times": 1
+   }
+  ],
   "npc:3174": [
    {
     "broadcastTextIds": [
@@ -1332,12 +1392,13 @@
      7228
     ],
     "sexes": {
-     "female": 5
+     "female": 5,
+     "male": 1
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "Listen closely to what you are told and do not quickly trust, or distrust.  For even friends serve their own ends, $c.$B$BOur great Warchief knows this, and to prove that there are warlocks within the Horde who do not wish to destroy it from within or gain control over it, I have volunteered to aid our young leader in anyway I can.",
-    "times": 5
+    "times": 6
    }
   ],
   "npc:3296": [
@@ -1347,11 +1408,24 @@
      4857
     ],
     "sexes": {
+     "female": 3,
+     "male": 1
+    },
+    "sources": 3,
+    "template": "broadcastText",
+    "text": "What are you looking for?",
+    "times": 4
+   },
+   {
+    "broadcastTextIds": [
+     324030
+    ],
+    "sexes": {
      "female": 1
     },
     "sources": 1,
     "template": "broadcastText",
-    "text": "What are you looking for?",
+    "text": "In the Cleft of Shadow Kor'ghan is waiting with shears sharper than a guard's sword.",
     "times": 1
    }
   ],
@@ -1387,13 +1461,13 @@
      8122
     ],
     "sexes": {
-     "female": 5,
+     "female": 6,
      "male": 4
     },
     "sources": 4,
     "template": "broadcastText",
     "text": "You haven't lived until you've looked down on the world from the back of a wind rider.",
-    "times": 9
+    "times": 10
    }
   ],
   "npc:3318": [
@@ -1524,6 +1598,20 @@
     "times": 5
    }
   ],
+  "npc:3433": [
+   {
+    "broadcastTextIds": [
+     6070
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The Warchief has instructed me to study all kinds of weapons and armor. He has sent me here to the hub of both the tauren and orc cultures in the Barrens to meet as many travelers as possible, and to learn about the cultures of the Barrens.$B$BHe feels there's something to be learned from even the most pathetic of cultures... like the quilboar or centaur.",
+    "times": 1
+   }
+  ],
   "npc:3442": [
    {
     "broadcastTextIds": [
@@ -1543,12 +1631,12 @@
      2461
     ],
     "sexes": {
-     "female": 1
+     "female": 2
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "Lots to do, lots to do! The Union's given us deadlines and they're not the sort you want to miss!",
-    "times": 1
+    "times": 2
    }
   ],
   "npc:3448": [
@@ -1624,13 +1712,13 @@
      8111
     ],
     "sexes": {
-     "female": 4,
+     "female": 6,
      "male": 8
     },
     "sources": 3,
     "template": "broadcastText",
     "text": "My wind riders are trained to fly quickly through the hot Barrens air.",
-    "times": 12
+    "times": 14
    }
   ],
   "npc:3682": [
@@ -1686,6 +1774,32 @@
     "times": 5
    }
   ],
+  "npc:4568": [
+   {
+    "broadcastTextIds": [
+     2527
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Greetings.  I'm an undead mage trainer, and you're a mage.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     8263
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "If you desire, in addition to training, I have it within my power to erase the knowledge of your talents from your mind.  Be warned that every time you undergo this procedure the more difficult it is to perform, and therefore the more expensive it becomes.",
+    "times": 1
+   }
+  ],
   "npc:4722": [
    {
     "broadcastTextIds": [
@@ -1698,6 +1812,20 @@
     "template": "broadcastText",
     "text": "Yes? What is it?",
     "times": 2
+   }
+  ],
+  "npc:4949": [
+   {
+    "broadcastTextIds": [
+     7218
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "All members of the Horde are equal in my eyes, $n. We have all suffered many burdens, and if it were not for wisdom and honor, then we would be no better than the Scourge or my people while our blood was tainted by the demon Mannoroth.$B$BIt is your duty to aid the Horde and to defend our way of life. But it is also your duty to know when quarter and compassion should be given to friend and foe alike.$B$BUnderstand this well. This is the new Horde, not some demon-spawned army who lack freewill.",
+    "times": 1
    }
   ],
   "npc:5769": [
@@ -2004,6 +2132,14 @@
     "sources": 2,
     "text": "Yes yes yes!  You're just the skyborne I'm looking for!\n\nSit!  We have much to discuss!!",
     "times": 7
+   },
+   {
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "text": "Yes yes yes!  You're just the $r I'm looking for!\n\nSit!  We have much to discuss!!",
+    "times": 1
    }
   ],
   "npc:3453": [
@@ -2062,7 +2198,7 @@
   "clientBuild": "1.60.1.70338",
   "collectedOn": {
    "first": "2026-10-12",
-   "last": "2026-10-12"
+   "last": "2026-10-13"
   },
   "dataset": "texts",
   "license": "CC BY 4.0",
@@ -2086,6 +2222,90 @@
   }
  },
  "quests": {
+  "2": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12696": 1
+     },
+     "text": "Most impressive, $N... the claw of Sharptalon could not have been easy to get!  The Ashenvale Hunt goes well for you!\n\nSharptalon had long terrorized the peons from the lumber camps near its path as they tried to travel here to Splintertree Post.  No doubt once the word gets out that it was you who put down the beast, many rousing songs of your bravery will be heard at campfires and lumber mills across Ashenvale!",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12696": 1
+     },
+     "text": "Yes, mighty $c, I sensed your arrival.  I trust you have more news to report to me about your hunt?",
+     "times": 1
+    }
+   ]
+  },
+  "23": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12696": 1
+     },
+     "text": "Ah, the paw of Ursangous!  Your skill is impressive, $c; he is credited with numerous kills.  The crescent on his paw is no doubt a sign that he was trained by the night elves that skulk about Ashenvale.  Ursangous is... was one of the mightiest bears you'd find in these parts.  To have bested such a creature is a testament to your will and resolve.\n\nYour ancestors would be proud!",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12696": 1
+     },
+     "text": "Ah - $N - I was just thinking about you!  How goes your hunting?",
+     "times": 1
+    }
+   ]
+  },
+  "24": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12696": 1
+     },
+     "text": "A victory for $N in the Ashenvale Hunt!  Well done - the head of Shadumbra is a fitting trophy to claim for such an impressive fight, no doubt.\n\nShadumbra's savagery was well known throughout the post here.  Any trip to the west, especially on foot trying to get out to the Zoram Strand, was wrought with danger because of this tiger.  Thanks to you, this danger has abated.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12696": 1
+     },
+     "text": "Greetings once again, $N!  Have you come to show me proof of your hunt?",
+     "times": 1
+    }
+   ]
+  },
   "25": {
    "accept": [
     {
@@ -2098,6 +2318,19 @@
      },
      "template": "questCache",
      "text": "If you want to be useful, then why don't you do something about the situation near Talondeep Path?$B$BThe transports between Ashenvale and Stonetalon are at a standstill because of the lake coming alive and attacking anything that gets close... which means anyone on the path.  What'd be even more useful than just putting the hammer down on the water elementals there is someone scouting the gazebo on Mystral Lake - the one that has a solid view of the Alliance outpost there.$B$BYou up for being useful?",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12737": 1
+     },
+     "text": "Yeah, I heard that someone tore up the lake out there like a dust devil through the Barrens.  From the sound of it too, we might be able to set up a possible observation area out there to keep an eye on our Alliance friends.  Well, that is if we can keep it on the down low...\n\nLooks like you ended up being quite useful after all; the transports between here and Stonetalon should have an easier time of it.  Take this - you've earned it.",
      "times": 1
     }
    ],
@@ -2186,6 +2419,19 @@
      "template": "questCache",
      "text": "The Thistlefur furbolgs are threatening our expansion!  Thistlefur Village to our east blocks the way between us here and the Splintertree Post.  It's a path that would circumvent the village of Astranaar; without it, we give the Alliance an extra expansion path.$B$B$n, we must not allow... an expansion path gap!$B$BProceed to Thistlefur Village and thin out the furbolgs.  You will be given compensation for this task, but more importantly you will be doing your duty for the Horde!",
      "times": 2
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12757": 1
+     },
+     "text": "Well done $c, well done!  I will continue to send forces to thin out the furbolg, but I can at least count on a different path that will be free of Alliance entanglements.  The Horde conquest of Ashenvale is now in full swing!\n\nYou've earned your pay this day, hero.  I salute you!",
+     "times": 1
     }
    ],
    "objectives": [
@@ -4607,6 +4853,64 @@
     }
    ]
   },
+  "824": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12736": 1
+     },
+     "text": "This globe... it is most disturbing.  Many of the more powerful elementals receive their power and energy through such devices.  To find one like this nearly intact is one thing - to find it so tainted is another.\n\nI will see that this globe is studied properly by the Earthen Ring.  Perhaps we can bring an end to this corruption of the elements.  Please - accept this as a fair exchange for bringing this globe to the attention of the Earthen Ring.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12736": 1
+     },
+     "text": "Ah, hello there.  I spend a great deal of time studying the water - all the elements really - so much so that sometimes I don't even notice people around me.\n\nIs there something I can help you with?",
+     "times": 1
+    }
+   ]
+  },
+  "827": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3208": 1
+     },
+     "template": "questCache",
+     "text": "$n.  The Burning Blade has infested the cave east of Orgrimmar known as Skull Rock.  Inside that cave they perform vile rituals, and burn their own flesh with Searing Collars.$B$BBy wearing these collars, I believe the cultists attune themselves to demonic power.  But to confirm this, I must have a collection of the collars to study.$B$BGo to Skull Rock and gather Searing Collars from the cultists you find there.  Bring them to me, and I will uncover their secrets.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3208": 1
+     },
+     "template": "questCache",
+     "text": "Gather Searing Collars from the cultists in Skull Rock.$B$BBring them to Margoz at his camp.",
+     "times": 1
+    }
+   ]
+  },
   "828": {
    "accept": [
     {
@@ -4619,6 +4923,19 @@
      },
      "template": "questCache",
      "text": "One of our Shamans, Margoz, knows more of the Burning Blade's corruption.  He speaks of a cave called Skull Rock in the mountains - just outside Orgrimmar! - that shelters a large band of Burning Blade cultists.$B$BBefore you go to Skull Rock speak with Margoz.  He is wise and his council is valued.$B$BHe is camped to the northeast, between the coast and Drygulch Ravine.$B$BFollow his advice, but whatever Margoz says, $n, I still want you to crush those cultists!",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3208": 1
+     },
+     "text": "Welcome, $N.  Word reached me of your coming, and of your exploits in Durotar.\n\nYou are a $c of growing skill and renown.\n\nStay on the pure path, and your future will be great indeed.",
      "times": 1
     }
    ],
@@ -4652,6 +4969,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3293": 1
+     },
+     "text": "Hey, now isn't that just the thing! You've got our supplies back for us. That's great. I'll be able to get back to work just as soon as I can find someone to haul these sacks for me.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -4663,6 +4993,49 @@
      },
      "template": "questCache",
      "text": "Retrieve 5 Sacks of Supplies and return them to Rezlak near Orgrimmar.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3293": 1
+     },
+     "text": "I'm great at what I do, don't get me wrong, but this is ridiculous! What am I supposed to do, build sand castles?",
+     "times": 1
+    }
+   ]
+  },
+  "835": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3293": 1
+     },
+     "template": "questCache",
+     "text": "Gazlowe told me once, \"Rezlak. There's one thing you need to know in life, and that's if you want something done well, do it yourself.\"$b$bI can't deal with losing all our caravans, so I'm just going to take matters into my own hands. Drygulch Ravine lies through the eastern part of Razorwind Canyon. If we kill all the harpies there, the routes will be safe.$b$bOf course, there was one other thing that Gazlowe taught me, and that's \"You can get anything done for a price.\" So, going to help me out, $n?",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3293": 1
+     },
+     "template": "questCache",
+     "text": "Kill 12 Dustwind Savages and 8 Dustwind Storm Witches for Rezlak near Drygulch Ravine.",
      "times": 1
     }
    ]
@@ -4868,6 +5241,21 @@
      },
      "text": "You have something from Apothecary Helbrim?",
      "times": 2
+    }
+   ]
+  },
+  "857": {
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3421": 1
+     },
+     "text": "Where is the Tear of the Moons? I need it now! Need I say!",
+     "times": 1
     }
    ]
   },
@@ -6724,6 +7112,34 @@
     }
    ]
   },
+  "1088": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4198": 1
+     },
+     "text": "I knew Ordanus once, long ago. He had the arrogance of his kind, holding himself above even the Highborne.\n\nHis head does not rise so high now, does it, $N?\n\nI promised you a reward, and you shall have it. Attend to me.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4198": 1
+     },
+     "text": "When my master bade me to the peak of Stonetalon, I expected that all I would need was to lay waste to the night elves that crawled the sacred ruins of our ancient temple of Azshara, their touch despoiling its sanctity... but Ordanus had slipped my grasp.",
+     "times": 1
+    }
+   ]
+  },
   "1093": {
    "accept": [
     {
@@ -6795,6 +7211,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3442": 1
+     },
+     "text": "Fizziks, eh? Can't say I trust him, but this information seems good enough. What I wouldn't give to have the Venture Company out of my hair.\n\nThey do come up with some good machines though... I can't deny that we've benefited from using some of the improvements they've devised.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -6806,6 +7235,49 @@
      },
      "template": "questCache",
      "text": "Deliver the Sealed Envelope to Sputtervalve in the Barrens.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3442": 1
+     },
+     "text": "Hello there! How can I help you?",
+     "times": 1
+    }
+   ]
+  },
+  "1095": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3442": 1
+     },
+     "template": "questCache",
+     "text": "The matter of this gnome that has been hired by the Venture Company has caused a bit of a stir in Undermine. The trade princes do not approve of Razdunk's consorting with this Gerenzo.$b$bRiddlevox has asked me to take care of the problem, and I'm sure he was instructed to do so by one or more of the trade princes. Of course, the Director didn't tell me that. Let's just say I have a hunch.$b$bWhatever the case, Gerenzo must be removed, and it would be a fitting test to have Fizziks take care of him.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3442": 1
+     },
+     "template": "questCache",
+     "text": "Bring the new orders to Ziz Fizziks in the Stonetalon Mountains.",
      "times": 1
     }
    ]
@@ -6859,42 +7331,45 @@
    "accept": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "none": 1
+      "none": 2
      },
      "template": "questCache",
      "text": "At last, help has arrived!$b$bYou have no clue how long I've been held prisoner here. I can't remember the last time I saw the outside of this place.$b$bYou see, I am an entrepreneur. Always out for a copper, as they say. I caught wind that Mebok Mizzyrix was paying well for Redleaf Tuber from this here pig pen. I figured it would be an easy in, easy out kind of affair. As you can see, I was a bit wrong!$b$bAnyway, if you'd be so kind as to help me get out of here, I'll make it worth your while.",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
     {
      "sexes": {
+      "female": 1,
       "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "none": 2
+      "none": 3
      },
      "text": "Thanks again, friend! I told you I'd make it worth your while.",
-     "times": 2
+     "times": 3
     }
    ],
    "objectives": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "none": 1
+      "none": 2
      },
      "template": "questCache",
      "text": "Escort Willix the Importer out of Razorfen Kraul.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -6943,6 +7418,19 @@
      "times": 4
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4721": 1
+     },
+     "text": "Very good. This should fill Rau's request just fine. Could you deliver this to him? You might enjoy spending some time out in the Needles.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -6955,6 +7443,49 @@
      "template": "questCache",
      "text": "Return a Filled Etched Phial to Zangen Stonehoof in Thunder Bluff.",
      "times": 4
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4721": 1
+     },
+     "text": "Once we have the filled phial, we can send it along to my associate, Rau, in the Thousand Needles. He was the one who requested the phial of water, so he'll better know how we can make use of it.",
+     "times": 1
+    }
+   ]
+  },
+  "1221": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3446": 1
+     },
+     "template": "questCache",
+     "text": "Blueleaf tubers are a delicacy around the world!  But they're rare, very rare.  The only place to find them is here in the Barrens, deep in the earth, in Razorfen Kraul.$B$BAnd even then, they're impossible to find unless you know just where to look!  That's why I've trained these snufflenose gophers to find them for me.  They have great noses and can smell a tuber from fifty paces away.$B$BIt won't be easy, but if you get me some tubers I'll pay you handsomely.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3446": 1
+     },
+     "template": "questCache",
+     "text": "Grab a Crate with Holes.$BGrab a Snufflenose Command Stick.$BGrab and read the Snufflenose Owner's Manual.$B$BIn Razorfen Kraul, use the Crate with Holes to summon a Snufflenose Gopher, and use the Command Stick on the gopher to make it search for Tubers.$B$BBring 6 Blueleaf Tubers, the Snufflenose Command Stick and the Crate with Holes to Mebok Mizzyrix in Ratchet.",
+     "times": 1
     }
    ]
   },
@@ -7433,6 +7964,34 @@
       "npc:5810": 1
      },
      "text": "Hello, young one.  Here for some instruction, are you?",
+     "times": 1
+    }
+   ]
+  },
+  "1918": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12737": 1
+     },
+     "text": "You find a nasty ball of water and decide to bring it to me?  Who am I, the Earthen Ring or something?\n\nActually, that does give me an idea... perhaps you do need the Earthen Ring for this.  I mean, if it helps clear up the situation at the lake for good, then I'm all for it.\n\nYou know who the Earthen Ring are, $N?",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12737": 1
+     },
+     "text": "Yeah, what do you need?",
      "times": 1
     }
    ]
@@ -8209,33 +8768,65 @@
     }
    ]
   },
-  "5761": {
+  "5726": {
    "accept": [
     {
      "sexes": {
-      "female": 2
+      "male": 1
      },
      "sources": 1,
      "speakers": {
-      "npc:3216": 2
+      "npc:4949": 1
      },
      "template": "questCache",
-     "text": "The primary task set upon me by our great Warchief is to root out the creatures responsible for infesting our lord's great city with demonic influence. The Burning Blade is one threat, but there are others; the Searing Blade for instance, who make their home in Ragefire Chasm, secretly attempting to subvert innocent members of the Horde.$B$BIf they are to be stopped, then their leader must be slain--a Felguard named Taragaman the Hungerer.$B$BKill him, and his heart will appease Thrall, of this I'm sure.",
-     "times": 2
+     "text": "One thing I will not tolerate are traitors in our midst, $n. But I would be a fool to play my hand so early--it would not sufficiently cut the corruption out of our lands and only cause the infection to grow worse.$B$BBut you, a young adventurer, could go places my agents could not... could learn the truth... could find the true head of the beast.$B$BIf you are brave enough, then enter Skull Rock to the east of Orgrimmar, find a lieutenant's insignia off one of the Burning Blade there, and return to me.",
+     "times": 1
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 2
+      "male": 1
      },
      "sources": 1,
      "speakers": {
-      "npc:3216": 2
+      "npc:4949": 1
+     },
+     "template": "questCache",
+     "text": "Bring a Lieutenant's Insignia to Thrall in Orgrimmar.",
+     "times": 1
+    }
+   ]
+  },
+  "5761": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 2,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:3216": 3
+     },
+     "template": "questCache",
+     "text": "The primary task set upon me by our great Warchief is to root out the creatures responsible for infesting our lord's great city with demonic influence. The Burning Blade is one threat, but there are others; the Searing Blade for instance, who make their home in Ragefire Chasm, secretly attempting to subvert innocent members of the Horde.$B$BIf they are to be stopped, then their leader must be slain--a Felguard named Taragaman the Hungerer.$B$BKill him, and his heart will appease Thrall, of this I'm sure.",
+     "times": 3
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 2,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:3216": 3
      },
      "template": "questCache",
      "text": "Enter Ragefire Chasm and slay Taragaman the Hungerer, then bring his heart back to Neeru Fireblade in Orgrimmar.",
-     "times": 2
+     "times": 3
     }
    ]
   },
@@ -8571,6 +9162,19 @@
      "text": "Collect 16 Satyr Horns for Pixel in Splintertree Post.",
      "times": 1
     }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12724": 1
+     },
+     "text": "I hope you can be quick about getting those horns, $N. I'm heading back to Ratchet soon!",
+     "times": 1
+    }
    ]
   },
   "6442": {
@@ -8665,14 +9269,14 @@
    "progress": [
     {
      "sexes": {
-      "female": 1
+      "female": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:12721": 1
+      "npc:12721": 2
      },
      "text": "Did you find the charms, $N?  Every moment the furbolgs possess those sacred items, my blood boils with rage!",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -8839,57 +9443,89 @@
    "accept": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2425": 1
+      "npc:2425": 2
      },
      "template": "questCache",
      "text": "Malcin claims he is outside Razorfen Downs. This ambassador must be slain--his mission a failure in the eyes of the Lich King.$B$BHis presence there does explain much of what we've discovered about the area--some of the quilboar have grown frightfully powerful while showing signs of the Plague in their own way. Truly that must be a sign of some sort of deal they've struck.$B$BFind Malcin and slay him, $n. Return to me after the deed is done.",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2425": 1
+      "npc:2425": 2
      },
      "template": "questCache",
      "text": "Bring Ambassador Malcin's Head to Varimathras in the Undercity.",
-     "times": 1
+     "times": 2
     }
    ]
   },
   "6522": {
-   "complete": [
+   "accept": [
     {
      "sexes": {
-      "male": 1
+      "female": 1
      },
      "sources": 1,
      "speakers": {
-      "npc:2425": 1
+      "none": 1
+     },
+     "template": "questCache",
+     "text": "My Lady,$B$BYou know very well what it is we are offering. The opportunity for you to take the Barrens and the lands beyond is a great one. We simply want your aid in return. By aid we mean nothing more than your giving us the freedom to take action in the area.$B$BPlease, allow us to discuss this further. We have great power and are willing to share with those wise enough to join us. I will remain outside Razorfen Downs for the time being.$B$BBest Regards,$BAmbassador Malcin",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:2425": 2
      },
      "text": "I recognize the insignia on this scroll, $N. You found this on that crone who reigns over Razorfen Kraul? Interesting.\n\nThe Scourge aren't content with one continent it seems. This Ambassador Malcin--the one who wrote the note--is one of the Scourge's plagued servants, a human diplomat to the kingdom of Lordaeron before things... changed.\n\nIf the Scourge are trying to gain a foothold in Kalimdor, then it is up to us to act.",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "none": 1
+     },
+     "template": "questCache",
+     "text": "Take the Small Scroll to Varimathras in the Undercity.",
      "times": 1
     }
    ],
    "progress": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2425": 1
+      "npc:2425": 2
      },
      "text": "What business is it you wish to speak of, $N? You must feel it is important if you continue to pester me.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -9363,6 +9999,36 @@
       "npc:12724": 1
      },
      "text": "Direct from Ratchet, the Warsong saw blades! Yep, I have them right here.\n\n..But what sort of payment do you have for me? You can't just take them, you know! My time isn't cheap!\n\nWhat I really need is a good gun to carry with me on my travels. A girl's gotta protect herself, you know? There's a gun I really like that I'm sure an engineer would have no problem making.\n\nSo, if you bring me a deadly blunderbuss, I'll give you the saw blade shipment. Do we have a deal?",
+     "times": 1
+    }
+   ]
+  },
+  "6621": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12757": 1
+     },
+     "template": "questCache",
+     "text": "$n, another tribe of Furbolgs,  the Foulweald, live southeast of Astranaar.  They are not as many as the Thistlefur, but their ferocity poses a future threat.  With a show of force, we can remove that threat.$B$BTake this banner, go to the Foulweald village and place it on their totem mound.  They will try to destroy the banner, but hold your ground until their chief, Murgut, appears to save face for the tribe.  Bring me the totem he carries.$B$BGather your allies, $n.  This is no task for a single $c.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:12757": 1
+     },
+     "template": "questCache",
+     "text": "Place Karang's Banner on the Foulweald Totem Mound.  Do not let the furbolgs destroy the banner.  Defeat Chief Murgut and bring Murgut's Totem to Karang Amakkar at Zoram'gar.",
      "times": 1
     }
    ]
@@ -11853,6 +12519,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3142": 1
+     },
+     "text": "Hopefully that sends them packing back to the north. I'll have some grunts keep an eye out for any stragglers or funny business.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -11864,6 +12543,49 @@
      },
      "template": "questCache",
      "text": "Collect $1oa Naga Spinefins.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3142": 2
+     },
+     "text": "Hopefully those snake scum aren't giving you trouble?",
+     "times": 2
+    }
+   ]
+  },
+  "99052": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3142": 1
+     },
+     "template": "questCache",
+     "text": "One of my scouts has reported a sea giant followed those naga down here. Not sure if they brought him intentionally or what, but he's dangerous in any case.\r\n\r\nIt's a young one, but it could still rip an orc in half in a heartbeat if they were caught off guard. I need him gone. But I'd suggest you find some help to deal with it.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3142": 1
+     },
+     "template": "questCache",
+     "text": "Kill the sea giant along Durotar's north coast and bring back proof of your accomplishment.",
      "times": 1
     }
    ]

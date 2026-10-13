@@ -43,8 +43,8 @@
    "times": 1
   },
   "1144": {
-   "sources": 1,
-   "times": 1
+   "sources": 2,
+   "times": 2
   },
   "6482": {
    "positions": [
@@ -115,7 +115,7 @@
   "clientBuild": "1.60.1.70338",
   "collectedOn": {
    "first": "2026-10-12",
-   "last": "2026-10-12"
+   "last": "2026-10-13"
   },
   "dataset": "objectives",
   "license": "CC BY 4.0",
@@ -1922,6 +1922,64 @@
     "type": "item"
    }
   },
+  "827": {
+   "1": {
+    "gains": 6,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.5263,
+      "mapY": 0.2925,
+      "uiMap": 1411,
+      "worldX": 777.1,
+      "worldY": -4745.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5322,
+      "mapY": 0.2916,
+      "uiMap": 1411,
+      "worldX": 780.6,
+      "worldY": -4776.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.527,
+      "mapY": 0.2803,
+      "uiMap": 1411,
+      "worldX": 820.4,
+      "worldY": -4749.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5304,
+      "mapY": 0.2783,
+      "uiMap": 1411,
+      "worldX": 827.3,
+      "worldY": -4767.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5292,
+      "mapY": 0.269,
+      "uiMap": 1411,
+      "worldX": 859.9,
+      "worldY": -4760.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5267,
+      "mapY": 0.2684,
+      "uiMap": 1411,
+      "worldX": 862.3,
+      "worldY": -4747.4
+     }
+    ],
+    "required": 6,
+    "sources": 1,
+    "type": "item"
+   }
+  },
   "834": {
    "1": {
     "gains": 5,
@@ -2069,6 +2127,24 @@
     ],
     "required": 4,
     "sources": 2,
+    "type": "item"
+   }
+  },
+  "857": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.4915,
+      "mapY": 0.8427,
+      "uiMap": 1413,
+      "worldX": -4081.3,
+      "worldY": -2357.5
+     }
+    ],
+    "required": 1,
+    "sources": 1,
     "type": "item"
    }
   },
@@ -3628,6 +3704,58 @@
     "type": "item"
    }
   },
+  "1195": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.602,
+      "mapY": 0.729,
+      "uiMap": 1440,
+      "worldX": 1870.9,
+      "worldY": -1771.6
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "1221": {
+   "2": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.6236,
+      "mapY": 0.3766,
+      "uiMap": 1413,
+      "worldX": -932.1,
+      "worldY": -3696
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   },
+   "3": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.6235,
+      "mapY": 0.3765,
+      "uiMap": 1413,
+      "worldX": -931.4,
+      "worldY": -3695.3
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
   "1491": {
    "1": {
     "gains": 6,
@@ -4632,7 +4760,7 @@
   },
   "6441": {
    "1": {
-    "gains": 5,
+    "gains": 16,
     "positions": [
      {
       "instance": 1,
@@ -4653,10 +4781,26 @@
      {
       "instance": 1,
       "mapX": 0.6654,
+      "mapY": 0.5507,
+      "uiMap": 1440,
+      "worldX": 2556.3,
+      "worldY": -2137.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6654,
       "mapY": 0.5485,
       "uiMap": 1440,
       "worldX": 2564.8,
       "worldY": -2137.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6634,
+      "mapY": 0.5415,
+      "uiMap": 1440,
+      "worldX": 2591.6,
+      "worldY": -2125.8
      },
      {
       "instance": 1,
@@ -4668,11 +4812,67 @@
      },
      {
       "instance": 1,
+      "mapX": 0.6622,
+      "mapY": 0.5293,
+      "uiMap": 1440,
+      "worldX": 2638.4,
+      "worldY": -2118.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6588,
+      "mapY": 0.5293,
+      "uiMap": 1440,
+      "worldX": 2638.5,
+      "worldY": -2099.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6582,
+      "mapY": 0.5277,
+      "uiMap": 1440,
+      "worldX": 2644.4,
+      "worldY": -2095.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.662,
+      "mapY": 0.5256,
+      "uiMap": 1440,
+      "worldX": 2652.8,
+      "worldY": -2117.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.661,
+      "mapY": 0.5244,
+      "uiMap": 1440,
+      "worldX": 2657.2,
+      "worldY": -2111.5
+     },
+     {
+      "instance": 1,
       "mapX": 0.6627,
       "mapY": 0.5243,
       "uiMap": 1440,
       "worldX": 2657.7,
       "worldY": -2121.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6621,
+      "mapY": 0.5207,
+      "uiMap": 1440,
+      "worldX": 2671.5,
+      "worldY": -2118.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.668,
+      "mapY": 0.5206,
+      "uiMap": 1440,
+      "worldX": 2671.8,
+      "worldY": -2152.4
      }
     ],
     "required": 16,
@@ -6644,6 +6844,80 @@
      }
     ],
     "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "99051": {
+   "1": {
+    "gains": 9,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.5881,
+      "mapY": 0.258,
+      "uiMap": 1411,
+      "worldX": 898.7,
+      "worldY": -5071.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5865,
+      "mapY": 0.2535,
+      "uiMap": 1411,
+      "worldX": 914.7,
+      "worldY": -5063.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5911,
+      "mapY": 0.2419,
+      "uiMap": 1411,
+      "worldX": 955.5,
+      "worldY": -5087.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5927,
+      "mapY": 0.2411,
+      "uiMap": 1411,
+      "worldX": 958.3,
+      "worldY": -5096.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5917,
+      "mapY": 0.2346,
+      "uiMap": 1411,
+      "worldX": 981.5,
+      "worldY": -5091.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5927,
+      "mapY": 0.234,
+      "uiMap": 1411,
+      "worldX": 983.5,
+      "worldY": -5096.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5968,
+      "mapY": 0.2327,
+      "uiMap": 1411,
+      "worldX": 988.1,
+      "worldY": -5118.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5945,
+      "mapY": 0.2249,
+      "uiMap": 1411,
+      "worldX": 1015.4,
+      "worldY": -5106.1
+     }
+    ],
+    "required": 9,
     "sources": 1,
     "type": "item"
    }

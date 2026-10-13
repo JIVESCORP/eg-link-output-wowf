@@ -4,7 +4,7 @@
   "clientBuild": "1.60.1.70338",
   "collectedOn": {
    "first": "2026-10-12",
-   "last": "2026-10-12"
+   "last": "2026-10-13"
   },
   "dataset": "vendors",
   "license": "CC BY 4.0",
@@ -612,60 +612,66 @@
    "entries": {
     "item:4540": {
      "costs": {
+      "5": 25,
       "6": 23
      },
      "itemId": 4540,
      "name": "Tough Hunk of Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4541": {
      "costs": {
+      "5": 125,
       "6": 113
      },
      "itemId": 4541,
      "name": "Freshly Baked Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4542": {
      "costs": {
+      "5": 500,
       "6": 450
      },
      "itemId": 4542,
      "name": "Moist Cornbread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4544": {
      "costs": {
+      "5": 1000,
       "6": 900
      },
      "itemId": 4544,
      "name": "Mulgore Spice Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4601": {
      "costs": {
+      "5": 2000,
       "6": 1800
      },
      "itemId": 4601,
      "name": "Soft Banana Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:8950": {
      "costs": {
+      "5": 4000,
       "6": 3600
      },
      "itemId": 8950,
      "name": "Homemade Cherry Pie",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     }
    },
-   "lastSeen": "2026-10-11",
+   "lastSeen": "2026-10-12",
    "name": "Fyr Mistrunner",
    "positions": [
     {
@@ -675,11 +681,19 @@
      "uiMap": 1456,
      "worldX": -1224,
      "worldY": 80.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4112,
+     "mapY": 0.5332,
+     "uiMap": 1456,
+     "worldX": -1221,
+     "worldY": 87.5
     }
    ],
    "repairs": false,
-   "sources": 1,
-   "visits": 1
+   "sources": 2,
+   "visits": 2
   },
   "3005": {
    "entries": {
@@ -6340,6 +6354,91 @@
   },
   "12792": {
    "entries": {
+    "item:272477": {
+     "costItems": [
+      {
+       "amount": 10,
+       "itemId": 274895
+      },
+      {
+       "amount": 7500,
+       "currencyId": 1792,
+       "name": "Honor Points"
+      }
+     ],
+     "itemId": 272477,
+     "name": "Premier Mortarplate Boots",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272478": {
+     "costItems": [
+      {
+       "amount": 10,
+       "itemId": 20558
+      },
+      {
+       "amount": 7500,
+       "currencyId": 1792,
+       "name": "Honor Points"
+      }
+     ],
+     "itemId": 272478,
+     "name": "Premier Mortarplate Gloves",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272479": {
+     "costItems": [
+      {
+       "amount": 15,
+       "itemId": 20559
+      },
+      {
+       "amount": 9350,
+       "currencyId": 1792,
+       "name": "Honor Points"
+      }
+     ],
+     "itemId": 272479,
+     "name": "Premier Mortarplate Armor",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272480": {
+     "costItems": [
+      {
+       "amount": 15,
+       "itemId": 20560
+      },
+      {
+       "amount": 9000,
+       "currencyId": 1792,
+       "name": "Honor Points"
+      }
+     ],
+     "itemId": 272480,
+     "name": "Premier Mortarplate Headguard",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272481": {
+     "costItems": [
+      {
+       "amount": 15,
+       "itemId": 20558
+      },
+      {
+       "amount": 9000,
+       "currencyId": 1792,
+       "name": "Honor Points"
+      }
+     ],
+     "itemId": 272481,
+     "name": "Premier Mortarplate Legguards",
+     "sources": 1,
+     "stack": 1
+    },
     "item:272483": {
      "costItems": [
       {
@@ -6459,6 +6558,40 @@
      "sources": 1,
      "stack": 1
     },
+    "item:272579": {
+     "costItems": [
+      {
+       "amount": 10,
+       "itemId": 20558
+      },
+      {
+       "amount": 4500,
+       "currencyId": 1792,
+       "name": "Honor Points"
+      }
+     ],
+     "itemId": 272579,
+     "name": "Premier Mortarplate Bracers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272637": {
+     "costItems": [
+      {
+       "amount": 10,
+       "itemId": 20559
+      },
+      {
+       "amount": 6350,
+       "currencyId": 1792,
+       "name": "Honor Points"
+      }
+     ],
+     "itemId": 272637,
+     "name": "Premier Mortarplate Shoulders",
+     "sources": 1,
+     "stack": 1
+    },
     "item:272640": {
      "costItems": [
       {
@@ -6473,6 +6606,23 @@
      ],
      "itemId": 272640,
      "name": "Premier Chain Shoulders",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:273324": {
+     "costItems": [
+      {
+       "amount": 10,
+       "itemId": 20559
+      },
+      {
+       "amount": 6000,
+       "currencyId": 1792,
+       "name": "Honor Points"
+      }
+     ],
+     "itemId": 273324,
+     "name": "Premier Mortarplate Girdle",
      "sources": 1,
      "stack": 1
     },
@@ -6581,21 +6731,21 @@
      "stack": 1
     }
    },
-   "lastSeen": "2026-10-11",
+   "lastSeen": "2026-10-13",
    "name": "Lady Palanseer",
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.3711,
-     "mapY": 0.6477,
+     "mapX": 0.3701,
+     "mapY": 0.6482,
      "uiMap": 1454,
-     "worldX": 1668,
-     "worldY": -4201.1
+     "worldX": 1667.6,
+     "worldY": -4199.7
     }
    ],
    "repairs": true,
    "sources": 1,
-   "visits": 1
+   "visits": 3
   },
   "12962": {
    "entries": {
@@ -6643,23 +6793,25 @@
     },
     "item:6289": {
      "costs": {
-      "5": 20
+      "5": 20,
+      "6": 18
      },
      "itemId": 6289,
      "limited": true,
      "name": "Raw Longjaw Mud Snapper",
-     "sources": 1,
+     "sources": 2,
      "stack": 1,
      "stockMax": 5
     },
     "item:6303": {
      "costs": {
-      "5": 20
+      "5": 20,
+      "6": 18
      },
      "itemId": 6303,
      "limited": true,
      "name": "Raw Slitherskin Mackerel",
-     "sources": 1,
+     "sources": 2,
      "stack": 1,
      "stockMax": 5
     },
@@ -6673,16 +6825,17 @@
      "name": "Raw Bristle Whisker Catfish",
      "sources": 3,
      "stack": 1,
-     "stockMax": 2
+     "stockMax": 5
     },
     "item:6362": {
      "costs": {
-      "5": 80
+      "5": 80,
+      "6": 72
      },
      "itemId": 6362,
      "limited": true,
      "name": "Raw Rockscale Cod",
-     "sources": 1,
+     "sources": 2,
      "stack": 1,
      "stockMax": 5
     },
@@ -6726,6 +6879,17 @@
      "sources": 3,
      "stack": 1
     },
+    "item:6533": {
+     "costs": {
+      "6": 225
+     },
+     "itemId": 6533,
+     "limited": true,
+     "name": "Aquadynamic Fish Attractor",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 1
+    },
     "item:8959": {
      "costs": {
       "5": 3200,
@@ -6753,7 +6917,7 @@
    ],
    "repairs": false,
    "sources": 3,
-   "visits": 4
+   "visits": 5
   },
   "14581": {
    "entries": {
@@ -7132,7 +7296,7 @@
      "stack": 1
     }
    },
-   "lastSeen": "2026-10-11",
+   "lastSeen": "2026-10-13",
    "name": "Sergeant Thunderhorn",
    "positions": [
     {
@@ -7146,7 +7310,7 @@
    ],
    "repairs": true,
    "sources": 1,
-   "visits": 1
+   "visits": 3
   },
   "248199": {
    "entries": {
