@@ -5,6 +5,11 @@
    "node": 10,
    "sources": 1
   },
+  "2432": {
+   "name": "Darla Harris",
+   "node": 14,
+   "sources": 1
+  },
   "2995": {
    "name": "Tal",
    "node": 22,
@@ -53,7 +58,7 @@
   "12616": {
    "name": "Vhulgra",
    "node": 61,
-   "sources": 1
+   "sources": 2
   },
   "16227": {
    "name": "Bragok",
@@ -66,7 +71,7 @@
   "clientBuild": "1.60.1.70338",
   "collectedOn": {
    "first": "2026-10-12",
-   "last": "2026-10-13"
+   "last": "2026-10-14"
   },
   "dataset": "flights",
   "license": "CC BY 4.0",
@@ -249,6 +254,56 @@
     76
    ],
    "sources": 2
+  },
+  "14>16": {
+   "costs": {
+    "5": 530
+   },
+   "hops": [
+    14,
+    16
+   ],
+   "sources": 1
+  },
+  "14>43": {
+   "costs": {
+    "5": 730
+   },
+   "hops": [
+    14,
+    43
+   ],
+   "sources": 1
+  },
+  "14>6": {
+   "costs": {
+    "5": 330
+   },
+   "hops": [
+    14,
+    6
+   ],
+   "sources": 1
+  },
+  "14>66": {
+   "costs": {
+    "5": 830
+   },
+   "hops": [
+    14,
+    66
+   ],
+   "sources": 1
+  },
+  "14>7": {
+   "costs": {
+    "5": 330
+   },
+   "hops": [
+    14,
+    7
+   ],
+   "sources": 1
   },
   "22>23": {
    "arrivals": [
@@ -1308,9 +1363,19 @@
     23,
     22
    ],
-   "sources": 1
+   "sources": 2
   },
   "61>23": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.4528,
+     "mapY": 0.6375,
+     "uiMap": 1454,
+     "worldX": 1677.6,
+     "worldY": -4315.7
+    }
+   ],
    "costs": {
     "5": 530
    },
@@ -1318,7 +1383,10 @@
     61,
     23
    ],
-   "sources": 1
+   "seconds": {
+    "96": 1
+   },
+   "sources": 2
   },
   "61>25": {
    "costs": {
@@ -1328,7 +1396,7 @@
     61,
     25
    ],
-   "sources": 1
+   "sources": 2
   },
   "61>29": {
    "costs": {
@@ -1339,7 +1407,7 @@
     25,
     29
    ],
-   "sources": 1
+   "sources": 2
   },
   "61>44": {
    "costs": {
@@ -1349,7 +1417,7 @@
     61,
     44
    ],
-   "sources": 1
+   "sources": 2
   },
   "61>58": {
    "costs": {
@@ -1359,7 +1427,7 @@
     61,
     58
    ],
-   "sources": 1
+   "sources": 2
   },
   "61>77": {
    "costs": {
@@ -1370,7 +1438,7 @@
     25,
     77
    ],
-   "sources": 1
+   "sources": 2
   },
   "61>80": {
    "costs": {
@@ -1381,7 +1449,7 @@
     25,
     80
    ],
-   "sources": 1
+   "sources": 2
   },
   "77>22": {
    "arrivals": [

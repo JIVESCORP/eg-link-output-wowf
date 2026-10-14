@@ -1,0 +1,1566 @@
+{
+ "meta": {
+  "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
+  "cacheFiles": 4,
+  "cachesLeftOut": 0,
+  "clientBuild": "1.60.1.70374",
+  "collectedOn": {
+   "first": "2026-10-14",
+   "last": "2026-10-14"
+  },
+  "dataset": "quests",
+  "license": "CC BY 4.0",
+  "locale": "enUS",
+  "product": "wow_classic_beta",
+  "schemaVersion": 1,
+  "sources": 2
+ },
+ "quests": {
+  "216": {
+   "description": "The Thistlefur furbolgs are threatening our expansion!  Thistlefur Village to our east blocks the way between us here and the Splintertree Post.  It's a path that would circumvent the village of Astranaar; without it, we give the Alliance an extra expansion path.$B$B$n, we must not allow... an expansion path gap!$B$BProceed to Thistlefur Village and thin out the furbolgs.  You will be given compensation for this task, but more importantly you will be doing your duty for the Horde!",
+   "flags": 8,
+   "level": 24,
+   "minLevel": 21,
+   "objectives": [
+    {
+     "amount": 12,
+     "id": 380072,
+     "objectId": 3925,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 12,
+     "id": 380073,
+     "objectId": 3924,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Take down 12 Thistlefur Avengers and 12 Thistlefur Shaman; most are located east of Zoram Strand in Thistlefur Village.  Once completed, return to Karang Amakkar at Zoram'gar Outpost, Ashenvale.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Between a Rock and a Thistlefur",
+   "zoneAreaId": 331
+  },
+  "442": {
+   "description": "Now is the time to assault the Scourge's place of strength in Silverpine: Fenris Isle.$B$BYou must again go to the Isle and destroy Thule Ravenclaw.  I want his head!$B$BThis mission is as dangerous as it is vital, $n.  You must not fail.",
+   "flags": 8,
+   "level": 24,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380147,
+     "objectId": 3623,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Thule's Head to High Executor Hadrec at the Sepulcher.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 3461
+     },
+     {
+      "count": 1,
+      "itemId": 3462
+     },
+     {
+      "count": 1,
+      "itemId": 270020
+     },
+     {
+      "count": 1,
+      "itemId": 276722
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Assault on Fenris Isle",
+   "zoneAreaId": 130
+  },
+  "493": {
+   "description": "The Royal Apothecary Society is under extreme pressure from the Dark Lady to develop a New Plague.  We are working diligently and have made much progress.  It is our belief that the success will be achieved much faster if we share information amongst the Society.$b$bFor that reason I want you to deliver my latest findings to Apothecary Lydon in Tarren Mill, a small town nestled in the Hillsbrad Foothills.  The journey will be a long one.$b$bHead south and stick to the roads.  Follow the signs closely!",
+   "flags": 0,
+   "level": 20,
+   "minLevel": 19,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381133,
+     "objectId": 3468,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Deliver Apothecary Renferrel's findings to Apothecary Lydon in the town of Tarren Mill in the Hillsbrad Foothills.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 900,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 3468,
+   "title": "Journey to Hillsbrad Foothills",
+   "zoneAreaId": 130
+  },
+  "530": {
+   "description": "Valdred, once my good friend, was my wife's murderer.  Although I am incapable of grieving, I do yearn for revenge.  If you kill Valdred and bring me his cursed hands, then I will reward you.$B$BI last heard he was at the Greymane Wall in southern Silverpine, trying to flee into the kingdom of Gilneas.",
+   "flags": 8,
+   "level": 20,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381401,
+     "objectId": 3613,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Kill Valdred Moray.$B$BBring his hands to Raleigh Andrean in the Undercity.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 3235
+     }
+    ],
+    "money": 1200,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "A Husband's Revenge",
+   "zoneAreaId": 130
+  },
+  "822": {
+   "description": "Good stuff, that stormstout, huh?$B$BI have another recipe that I learned from Chen. Would you be interested? It won't take long to make, and it might be useful if you plan on adventuring some more.$B$BBring me 5 lightning glands from any stormhide, 1 thunderhawk saliva gland from greater thunderhawks, and a kodo liver from any of the Barrens' kodos.$B$BLike I said, this stuff has kick; it's the trogg brew that I mentioned to you before.",
+   "flags": 264,
+   "level": 24,
+   "minLevel": 11,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 380855,
+     "objectId": 4898,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 380856,
+     "objectId": 4897,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 380857,
+     "objectId": 4896,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 5 Lightning Glands, 1 Thunderhawk Saliva Gland and 1 Kodo Liver to Brewmaster Drohn in Ratchet.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 5,
+      "itemId": 4953
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Chen's Empty Keg",
+   "zoneAreaId": 17
+  },
+  "868": {
+   "description": "Hey, $n. I been sent to the Crossroads to watch over the land and take note of its happenings for my masters in Orgrimmar.$B$BOne object of my studies are the insect-like creatures found to the south in the Field of Giants. We know little of the creatures, so I be makin' it a point to discover more. They seem to have intelligence to them, more so than any normal animal.$B$BTake this digging claw and collect some of the creatures' eggs from their mounds, but be careful: if alerted, they will attack you.",
+   "flags": 0,
+   "level": 22,
+   "minLevel": 17,
+   "objectives": [
+    {
+     "amount": 12,
+     "id": 380744,
+     "objectId": 5058,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 380745,
+     "objectId": 5059,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 12 Silithid Eggs and the Digging Claw to Korran at the Crossroads.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6503
+     },
+     {
+      "count": 1,
+      "itemId": 6502
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 5059,
+   "title": "Egg Hunt",
+   "zoneAreaId": 17
+  },
+  "879": {
+   "description": "Three of my tribe came out of the Kraul to lead the raids against the Horde, $r. <snort> They are ruthless and cunning, and if you defeat them, then your Crossroads and even most of the Barrens will learn peace... <snort> at least from the Razormane tribe. <snort>$B$BNak, Kuz, and Lok Orcbane are the ones you seek. They are far to the south  of the Barrens. One is a spell caster, another a tracker, and their leader, the one called Orcbane, <snort> a warrior. Kill them, $r, like they have killed me.",
+   "flags": 8,
+   "level": 25,
+   "minLevel": 17,
+   "nextQuestId": 906,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380695,
+     "objectId": 5074,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 380696,
+     "objectId": 5073,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 380697,
+     "objectId": 5072,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Kill Nak, Kuz, and Lok Orcbane and bring their skulls to Mangletooth at Camp Taurajo in the Barrens.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Betrayal from Within",
+   "zoneAreaId": 17
+  },
+  "893": {
+   "description": "The Razormane quilboars to the south, beyond the Field of Giants, have no skilled blacksmiths from what I am told, but they've apparently started to develop sturdier weapons. I'd like to get my hands on a few different types to learn their techniques if possible.$B$BIf you wish to help bring honor to the Horde, then bring me examples of their weapons. Find me a dagger from their stalkers, a wand from their seers, and a shield from their warfrenzy. That should do nicely!",
+   "flags": 8,
+   "level": 24,
+   "minLevel": 17,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380698,
+     "objectId": 5093,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 380699,
+     "objectId": 5092,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 380700,
+     "objectId": 5094,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring a Razormane Backstabber, a Charred Razormane Wand and a Razormane War Shield to Tatternack Steelforge at Camp Taurajo in the Barrens.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 5322
+     },
+     {
+      "count": 1,
+      "itemId": 5323
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Weapons of Choice",
+   "zoneAreaId": 17
+  },
+  "914": {
+   "description": "The druids in the Wailing Caverns, the Druids of the Fang, are an aberration.  They were part of an order of noble druids whose plan was to heal the Barrens, but now seek to remake that land to match their own, twisted dreams.$B$BThe Druids of the Fang have four leaders, and each possesses a dream gem.  Even now their faces haunt me!  Defeat the leaders and bring me their gems, and the Barrens may again know peace.$B$BGo, $n.  You will find them lurking deep within the Wailing Caverns.",
+   "flags": 8,
+   "level": 22,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381454,
+     "objectId": 9738,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381455,
+     "objectId": 9739,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381456,
+     "objectId": 9740,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381457,
+     "objectId": 9741,
+     "storageIndex": 3,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Gems of Cobrahn, Anacondra, Pythas and Serpentis to Nara Wildmane in Thunder Bluff.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6505
+     },
+     {
+      "count": 1,
+      "itemId": 6504
+     },
+     {
+      "count": 1,
+      "itemId": 270018
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.95
+   },
+   "sources": 1,
+   "title": "Leaders of the Fang",
+   "zoneAreaId": 718
+  },
+  "1013": {
+   "description": "$n, Shadowfang Keep holds a book, the Book of Ur, which would be much prized in my collection.  Ur was a great mage of Dalaran before the coming of the Scourge, his studies in other worlds are of much value to ... certain parties among the Forsaken.$B$BEnter Shadowfang Keep and find the book.  Bring it to me, and I will report your service to our Dark Lady...",
+   "flags": 8,
+   "level": 26,
+   "minLevel": 16,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381306,
+     "objectId": 6283,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Book of Ur to Keeper Bel'dugur at the Apothecarium in the Undercity.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6335
+     },
+     {
+      "count": 1,
+      "itemId": 4534
+     },
+     {
+      "count": 1,
+      "itemId": 270030
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 2.675
+   },
+   "sources": 1,
+   "title": "The Book of Ur",
+   "zoneAreaId": 209
+  },
+  "1014": {
+   "description": "Arugal still resides in Shadowfang Keep. We cannot claim Silverpine as a strategic stronghold for the Dark Lady until Arugal is slain.$b$bI shall see to it that his magic is eradicated, $n. But I leave it in your hands to see that Arugal meets the death he so deserves.$b$bTravel to Shadowfang Keep and put an end to Arugal's foul spells once and for all. Bring to me the vile wizard's head!",
+   "flags": 8,
+   "level": 27,
+   "minLevel": 18,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380886,
+     "objectId": 5442,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Kill Arugal and bring his head to Dalar Dawnweaver at the Sepulcher.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 6414
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 7
+     }
+    ],
+    "spellId": 364161,
+    "xpDifficulty": 7,
+    "xpMultiplier": 2.675
+   },
+   "sources": 1,
+   "title": "Arugal Must Die",
+   "zoneAreaId": 209
+  },
+  "1058": {
+   "description": "So excited I am!$b$bThree little cages for three little elves! But what shall we do with our lovely tree-hugging friends? Why, let's give them a taste of... what do they call it... forest magic!$b$bI'll need a good mess of Stonetalon sap. From those horrid felines, bring me some twilight whiskers. This calls for plenty of courser eyes, of course -- can never have enough eyes. Oh, and lest we forget, a precious scale from a fey dragon.$b$bHurry to Stonetalon Peak, $n, so I can brew some forest magic!",
+   "flags": 8,
+   "level": 26,
+   "minLevel": 20,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 380918,
+     "objectId": 5582,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 5,
+     "id": 380919,
+     "objectId": 5584,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 30,
+     "id": 380920,
+     "objectId": 5585,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 380921,
+     "objectId": 5583,
+     "storageIndex": 3,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Witch Doctor Jin'Zil at Malaka'jin wants 5 portions of Stonetalon Sap, 5 Twilight Whiskers, 30 Courser Eyes and a Fey Dragon Scale.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6664
+     },
+     {
+      "count": 1,
+      "itemId": 6665
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Jin'Zil's Forest Magic",
+   "zoneAreaId": 406
+  },
+  "1065": {
+   "description": "To rid Stonetalon of the Venture Company, we must take extreme measures.  Extreme, but without bloodshed.$B$BA colleague of mine may have just the tool we need.  His name is Lydon; he dwells in the town of Tarren Mill in the Hillsbrad Foothills, in the distant land of Lordaeron.$B$BTo reach Hillsbrad, travel by zeppelin to our capital, the Undercity.  Then go north to Tirisfal Glades, southwest to Silverpine, and south to Hillsbrad.$B$BSeek Lydon and bring him this note.  It details our needs to him.",
+   "flags": 0,
+   "level": 18,
+   "minLevel": 13,
+   "nextQuestId": 1066,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381451,
+     "objectId": 5628,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Zamah's Note to Apothecary Lydon in Tarren Mill.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 5628,
+   "title": "Journey to Tarren Mill",
+   "zoneAreaId": 1638
+  },
+  "1068": {
+   "description": "There is a relation to the spiritual magic of shamans and the natural magic of druids.  This is why we shamans can hear the plea of the spirits of Stonetalon.  Many of their whisperings are lost to me, but one message, one vision, is clear...$B$BI saw a vision of two man-shaped machines in Windshear Crag, northwest of Greatwood Vale, felling trees with impossible speed.  These metal beasts must be stopped!$B$BIn my vision, the machines were marked with strange symbols:$B$BXT:4 and XT:9.",
+   "flags": 8,
+   "level": 23,
+   "minLevel": 13,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380756,
+     "objectId": 4073,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 380757,
+     "objectId": 4074,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill the shredders XT:4 and XT:9, then return to Seereth Stonebreak at the border of the Stonetalon Mountains and the Barrens.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1500,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Shredding Machines",
+   "zoneAreaId": 406
+  },
+  "1087": {
+   "description": "You cannot imagine the hatred I possess for this wretched land. The ilk of Cenarius and the kaldorei druids at the peak employ their pathetic powers to stifle the flow of magic, even so far south of their pathetic holdings... their beloved forests.$b$bWould that I could return to Jaedenar and exult in the flow of magic, but my master will not allow me to return until my work is done.$b$bI have no doubt you love the night elves and their allies as little as I. Aid me, and both our ends might be satisfied.",
+   "flags": 8,
+   "level": 25,
+   "minLevel": 20,
+   "nextQuestId": 1088,
+   "objectives": [
+    {
+     "amount": 4,
+     "id": 380996,
+     "objectId": 4057,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 4,
+     "id": 380997,
+     "objectId": 4053,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 4,
+     "id": 380998,
+     "objectId": 4051,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill 4 Sons of Cenarius, 4 Daughters of Cenarius and 4 Cenarion Botanists for Braelyn Firehand near Sun Rock Retreat.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Cenarius' Legacy",
+   "zoneAreaId": 406
+  },
+  "1095": {
+   "description": "The matter of this gnome that has been hired by the Venture Company has caused a bit of a stir in Undermine. The trade princes do not approve of Razdunk's consorting with this Gerenzo.$b$bRiddlevox has asked me to take care of the problem, and I'm sure he was instructed to do so by one or more of the trade princes. Of course, the Director didn't tell me that. Let's just say I have a hunch.$b$bWhatever the case, Gerenzo must be removed, and it would be a fitting test to have Fizziks take care of him.",
+   "flags": 8,
+   "level": 27,
+   "minLevel": 16,
+   "nextQuestId": 1096,
+   "objectivesText": "Bring the new orders to Ziz Fizziks in the Stonetalon Mountains.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Further Instructions",
+   "zoneAreaId": 406
+  },
+  "1098": {
+   "description": "In preparation for an assault on Shadowfang, two deathstalkers were sent to the keep to gather intelligence.  It has been many days and they have not returned, but we must receive their report if we're to have any hope of a successful attack!$B$BSo here is your task, $n.  Go to Shadowfang Keep to the south and find the Deathstalkers Adamant and Vincent.  Find them, and if they require aid then give it.$B$BThis mission is as dangerous as is it critical, $n.  Do not fail.",
+   "flags": 8,
+   "level": 25,
+   "minLevel": 18,
+   "objectivesText": "Find the Deathstalker Adamant and Deathstalker Vincent.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 3324
+     },
+     {
+      "count": 1,
+      "itemId": 270023
+     },
+     {
+      "count": 1,
+      "itemId": 270024
+     }
+    ],
+    "money": 1800,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 2.675
+   },
+   "sources": 1,
+   "title": "Deathstalkers in Shadowfang",
+   "zoneAreaId": 209
+  },
+  "1131": {
+   "description": "At times we hunt for food.  At times we hunt for honor.  And at times we hunt to earn the Earthmother's teachings.$B$BBut the hunt I now set upon you is none of these things.  It is to slay a creature outside the Earthmother's blessing.$B$BThe hyena Steelsnap roams the Thousand Needles, south of the Barrens.  He is a tyrant, attracting other hyenas to him and spreading fear and bloodshed among more peaceful beasts.$B$BFind Steelsnap, $n.  Find him, and defeat him.",
+   "flags": 8,
+   "level": 30,
+   "minLevel": 20,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381432,
+     "objectId": 5837,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Steelsnap's Rib to Melor Stonehoof in Thunder Bluff.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Steelsnap",
+   "zoneAreaId": 1638
+  },
+  "1195": {
+   "description": "The Galak centaur in the Thousand Needles are protecting an artifact from the time of the centaurs' creation.$b$bWe would like to retrieve it, but we require a phial of water from one of the night elves' moonwells.$b$bTo collect the water, you will first need to obtain one of the phials carried by the dryads near the Raynewood Retreat in the heart of Ashenvale Forest. There is a moonwell near the western bank of the Falfarren River, south of the main road, where you can fill the phial.",
+   "flags": 8,
+   "itemDrops": [
+    {
+     "count": 1,
+     "itemId": 5867
+    }
+   ],
+   "level": 25,
+   "minLevel": 20,
+   "nextQuestId": 1196,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381024,
+     "objectId": 5868,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Return a Filled Etched Phial to Zangen Stonehoof in Thunder Bluff.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 3500,
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Sacred Flame",
+   "zoneAreaId": 1638
+  },
+  "1221": {
+   "description": "Blueleaf tubers are a delicacy around the world!  But they're rare, very rare.  The only place to find them is here in the Barrens, deep in the earth, in Razorfen Kraul.$B$BAnd even then, they're impossible to find unless you know just where to look!  That's why I've trained these snufflenose gophers to find them for me.  They have great noses and can smell a tuber from fifty paces away.$B$BIt won't be easy, but if you get me some tubers I'll pay you handsomely.",
+   "flags": 0,
+   "level": 26,
+   "minLevel": 20,
+   "objectives": [
+    {
+     "amount": 6,
+     "id": 381458,
+     "objectId": 5876,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381459,
+     "objectId": 5880,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381460,
+     "objectId": 5897,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381461,
+     "objectId": 6684,
+     "storageIndex": 3,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Grab a Crate with Holes.$BGrab a Snufflenose Command Stick.$BGrab and read the Snufflenose Owner's Manual.$B$BIn Razorfen Kraul, use the Crate with Holes to summon a Snufflenose Gopher, and use the Command Stick on the gopher to make it search for Tubers.$B$BBring 6 Blueleaf Tubers, the Snufflenose Command Stick and the Crate with Holes to Mebok Mizzyrix in Ratchet.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 6755
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 2.375
+   },
+   "sources": 1,
+   "title": "Blueleaf Tubers",
+   "zoneAreaId": 1717
+  },
+  "5881": {
+   "description": "The Horde does well keeping our troops fresh... since the Great War we have been prosperous here in Kalimdor.$B$BI need you to do me a favor, I have a lad by the name of Grish Longrunner protecting the Great Lift in the southern barrens. Give him this letter; the letter will let him know that I have a reserve warrior coming to relieve him of duty so that he can visit his family. He requested this sometime ago and he would be happy to hear the news.",
+   "flags": 0,
+   "level": 28,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 382661,
+     "objectId": 16189,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Maggran wishes you to deliver a letter to Grish Longrunner at the Great Lift in the Barrens.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1200,
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 16189,
+   "title": "Calling in the Reserves",
+   "zoneAreaId": 406
+  },
+  "6282": {
+   "description": "Tauren take pride as the protector of these lands. Undoubtedly you can guess why I am alarmed with the number of harpies that dwell here in Stonetalon.$B$BThe Bloodfuries are the source of the increasing number of harpies in Kalimdor; they encroach upon all likes of life preventing the innocent from leaving their boundaries.$B$BI need you to cull the harpies, $n!",
+   "flags": 8,
+   "level": 26,
+   "minLevel": 18,
+   "nextQuestId": 6283,
+   "objectives": [
+    {
+     "amount": 7,
+     "id": 383618,
+     "objectId": 4022,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 7,
+     "id": 383619,
+     "objectId": 4025,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 7,
+     "id": 383620,
+     "objectId": 4024,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 7,
+     "id": 383621,
+     "objectId": 4023,
+     "storageIndex": 3,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Maggran Earthbinder in Sun Rock Retreat wants you to slay 7 Bloodfury Harpies, 7 Bloodfury Ambushers, 7 Bloodfury Slayers and 7 Bloodfury Roguefeathers.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 2000,
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Harpies Threaten",
+   "zoneAreaId": 406
+  },
+  "6301": {
+   "description": "Industrial greed and continuous war have wrecked the lands of Stonetalon. Only the blessings of the Earthmother can cure such injury.$B$B$n, I will require you to seek a special seed, the Gaea seed. They are only found here in Stonetalon Mountain, north of Sun Rock Retreat at Mirkfallon Lake, near the water's edge.$B$BOnce you bring me the seeds I will imbue them with shamanistic power to speed their growth.",
+   "flags": 8,
+   "level": 23,
+   "minLevel": 17,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 383687,
+     "objectId": 16205,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Tammra Windfield at Sun Rock Retreat wants you to gather 10 Gaea Seeds.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1200,
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Cycle of Rebirth",
+   "zoneAreaId": 406
+  },
+  "6393": {
+   "description": "The Tribunal of the Tides has sent me to wage war on the fire elementals here in Stonetalon Mountain. Neptulon the Tidehunter, Lord of all water elementals, has taken a personal interest in seeing our fiery cousins extinguished.$B$B$n, you can help me gain favor with the Tribunal by destroying the fire elementals in Charred Vale. When destroyed, the fire elementals leave Incendrites. Return these to me and be rewarded.",
+   "flags": 8,
+   "level": 25,
+   "minLevel": 19,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 382697,
+     "objectId": 16312,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 10 Incendrites to Tsunaman at Sun Rock Retreat.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1800,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Elemental War",
+   "zoneAreaId": 406
+  },
+  "6442": {
+   "description": "There is evil lurking here along the coast, $r.$B$BIt is the resting place of the doomed city of Zoram, long destroyed and submerged beneath the seas.  Lost, and nearly forgotten.$B$BNow, the naga have returned, and for what reason we do not know.  But reason matters little; we must defend the land we have worked so hard to claim as our own.$B$BReturn to me with 20 of their heads! Throw the naga back to the depths!",
+   "flags": 8,
+   "level": 19,
+   "minLevel": 14,
+   "objectives": [
+    {
+     "amount": 20,
+     "id": 382963,
+     "objectId": 5490,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 20 Wrathtail Heads to Marukai along the Zoram Strand.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Naga at the Zoram Strand",
+   "zoneAreaId": 331
+  },
+  "6462": {
+   "description": "My kinfolk were traveling here with many sacred troll charms, but the Thistlefur furbolgs attacked and killed them before they reached Zoram'gar!  Those vile Furbolgs!$B$BI miss my brothers and sisters who were killed, but we will meet again in the afterlife.  However, their troll charms hold great value in this world.  It is an outrage that the furbolgs have them!$B$B$n, you must retrieve the charms!  They are in chests in Thistlefur Hold, a cave at the end of Thistlefur Village, north of Astranaar.",
+   "flags": 8,
+   "level": 24,
+   "minLevel": 19,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 383609,
+     "objectId": 16602,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 8 Troll Charms to Mitsuwa at the Zoram'gar Outpost.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1700,
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Troll Charm",
+   "zoneAreaId": 331
+  },
+  "6503": {
+   "description": "We received reports that Ashenvale outrunners left Silverwing Outpost not long ago, and now sneak near our territories in the forest.  We don't want them gathering intelligence on our defenses!$B$BSneak through the forests south of our post here and east of the Alliance outpost of Silverwing.  Find and slay the outrunners, then return to me.",
+   "flags": 8,
+   "level": 24,
+   "minLevel": 19,
+   "objectives": [
+    {
+     "amount": 9,
+     "id": 383934,
+     "objectId": 12856,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill 9 Ashenvale Outrunners, then return to Kuray'bin at Splintertree Outpost.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Ashenvale Outrunners",
+   "zoneAreaId": 331
+  },
+  "6504": {
+   "description": "I just picked up this shredder from Ratchet and I was on my way back to the Warsong Lumber Camp, where I am supposed to be on duty. I was given a manual on how to operate the shredder, but on the trip back, a huge gust of wind blew it from my hands. The pages went everywhere, and all I was left with was the cover.$B$BThe pages could be just about anywhere by now, I suppose... but I don't know how to use the shredder without them! Will you find them for me?",
+   "flags": 8,
+   "level": 30,
+   "minLevel": 23,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383976,
+     "objectId": 16642,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 383977,
+     "objectId": 16643,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 383978,
+     "objectId": 16644,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Find the 12 missing pages of the Shredder Operating Manual, and put them together to form Chapters 1, 2, and 3. Return the pages to Gurda Ragescar near Splintertree Post.\r\n",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 16740
+     },
+     {
+      "count": 1,
+      "itemId": 16741
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 7,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Lost Pages",
+   "zoneAreaId": 331
+  },
+  "6543": {
+   "description": "I recently deployed a few scouts into Ashenvale and I need a runner to take them their orders, and bring me back a report of what they have observed.$B$BYour first stop should be the Zoram'gar Outpost, along the coast to the west, at the Zoram Strand, to locate the first runner. You also need to stop at Splintertree Post, to the north, and along the road to the east, near Azshara. You will find a scout and an outrider there.$B$BGive them each a report, and from them, get an update on their findings.",
+   "flags": 0,
+   "level": 19,
+   "minLevel": 17,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383641,
+     "objectId": 16764,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 383642,
+     "objectId": 16763,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 383643,
+     "objectId": 16765,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Open the Bundle of Reports.  Take the Warsong Reports to the Warsong Scout, Warsong Runner, and Warsong Outrider. Bring back the updates they give you to Kadrak at the northern watch tower in the barrens.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 2000,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 16783,
+   "title": "The Warsong Reports",
+   "zoneAreaId": 17
+  },
+  "6571": {
+   "description": "We are in short supply of a few items at the Warsong lumber camp!$B$BPixel at Splintertree Post has our shipment of saw blades. It'll take a trip to Booty Bay to pick up a crate of axes from Wharfmaster Lozgil.$B$BOur shipment of oil and rope will be more difficult. The rope was pilfered by the Thistlefur and Foulweald furbolgs, and the satyrs intercepted the delivery of the oil and are now using it for detestable rituals in Night Run, Satyrnaar, and Xavian!$B$BCan you help me?",
+   "flags": 8,
+   "level": 27,
+   "minLevel": 22,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 382573,
+     "objectId": 16742,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 382574,
+     "objectId": 16745,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 382575,
+     "objectId": 16744,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 382576,
+     "objectId": 16743,
+     "storageIndex": 3,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Collect the Warsong Supplies: Warsong Saw Blades, Logging Rope, Warsong Oil, and the Warsong Axe Shipment for Locke Okarr in Splintertree Post.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 16975
+     },
+     {
+      "count": 1,
+      "itemId": 16977
+     },
+     {
+      "count": 1,
+      "itemId": 16978
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Warsong Supplies",
+   "zoneAreaId": 331
+  },
+  "86576": {
+   "description": "In addition to spreading their filth across the Charred Vale, the Bloodfury harpies gather anything shiny that they can find. I'm told that they collect a variety of golden-yellow sunstones for decoration. I have no use for such trinkets, but Mor'rogal has mentioned using them before.\r\n\r\nWhile you're fighting the harpies of the Vale, keep your eye out for Glittering Sunstones. Bring any that you find to Mor'rogal, up on the hills above us.",
+   "flags": 36700168,
+   "level": 26,
+   "minLevel": 18,
+   "objectives": [
+    {
+     "amount": 15,
+     "id": 475779,
+     "objectId": 277936,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring $1oa Glittering Sunstones to Mor'rogal.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 281252
+     }
+    ],
+    "money": 2000,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Bloodfury Trinkets",
+   "zoneAreaId": 406
+  },
+  "97250": {
+   "description": "Traveler, have you plans to head toward Dustwallow Marsh? I have heard mutterings that a few human soldiers have taken a stand at its border and are toppling the landmarks left behind by our tauren pathfinders.\r\n\r\nRumor has it that a favored tavern has burned to the ground, and in typical Alliance fashion, they immediately cast their blame onto the Horde! I cannot know whether there is any truth to their claim, but their incursion onto OUR land must not stand.\r\n\r\nKill first, investigate later!",
+   "flags": 36700168,
+   "level": 23,
+   "minLevel": 18,
+   "objectives": [
+    {
+     "amount": 2,
+     "id": 475564,
+     "objectId": 268622,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 475565,
+     "objectId": 268623,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Slay Alliance soldiers encroaching into the Barrens at the border to Dustwallow Marsh, then return to Grunt Logmar at Camp Taurajo.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 277286
+     },
+     {
+      "count": 1,
+      "itemId": 277288
+     },
+     {
+      "count": 1,
+      "itemId": 277289
+     }
+    ],
+    "money": 3000,
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Wrongly Blamed, Justly Corrected",
+   "zoneAreaId": 17
+  },
+  "97538": {
+   "description": "Greetings, friend. I wonder if I may ask a favor of you? I have just run out of red pigment for my paints, and I am looking for one with younger hooves to make the long journey into the Stonetalon Mountains on my behalf.\r\n\r\nIn the middle of the mountain pass there lies a large circular lake, Mirkfallon Lake, that has a unique plant that grows within its waters. The pods of this plant, mirkweed, turn a vibrant red when dried. Gather the pods of this plant for me, and I will reward you well for your efforts.",
+   "flags": 33554440,
+   "level": 26,
+   "minLevel": 20,
+   "objectives": [
+    {
+     "amount": 30,
+     "id": 476076,
+     "objectId": 278201,
+     "storageIndex": 4,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Tah Winterhoof in Thunder Bluff wants $1oa Mirkweed Pods from Mirkfallon Lake.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "money": 2000,
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Pigments for Paints",
+   "zoneAreaId": 406
+  },
+  "97985": {
+   "description": "Fascinating, aren't they? This is the first time I have ever been privy to the secrets of abomination creation.\r\n\r\nI have been studying these notes, and it appears we need a heart. A massive one!\r\n\r\nI hear there is a thunder lizard there of impressive size called Stormheart, that patrols along the canyon edge in Thousand Needles. With a name like that it must have the perfect heart. I must have that heart!\r\n\r\nOh, also I suggest you bring friends. Stormheart isn't known for being docile.",
+   "flags": 33554440,
+   "itemDrops": [
+    {
+     "count": 1,
+     "itemId": 279186
+    }
+   ],
+   "level": 33,
+   "minLevel": 25,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 476681,
+     "objectId": 279186,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Slay Stormheart in Thousand Needles and acquire its heart.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "money": 6500,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Thundering Hearts",
+   "zoneAreaId": 1497
+  },
+  "98299": {
+   "conditionalDescriptions": [
+    {
+     "playerConditionId": 157027,
+     "text": "If there is one thing we do know, it is that Arugal is responsible for worgen within Silverpine. Be it his own machinations or otherwise. What we don't know is how it spreads.\r\n\r\nWhile I research a way to stop the curse, our first priority is to contain it. It appears this affliction cannot infect forsaken such as ourselves, but a large group of humans have gathered by the Greymane Wall.\r\n\r\nGo to the wall and put down these refugees before they have a chance to become servants for Arugal."
+    }
+   ],
+   "description": "If there is one thing we do know, it is that Arugal is responsible for worgen within Silverpine--be it his own machinations or otherwise. What we don't know is how it spreads.\r\n\r\nWhile I research a way to stop the curse, our first priority is to contain it. It appears this affliction cannot infect forsaken, but a large group of humans have gathered by the Greymane Wall.\r\n\r\nGo to the wall and put down these refugees before they have a chance to become servants for Arugal. And try not to get bit, $r.",
+   "flags": 8,
+   "level": 20,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 477306,
+     "objectId": 2053,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 5,
+     "id": 477307,
+     "objectId": 2054,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Slay $1oa Sickly Refugees and $2oa Haggard Refugees for Dalar Dawnweaver in The Sepulcher.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1200,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "spellId": 364161,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Stop the Spread",
+   "zoneAreaId": 130
+  }
+ }
+}

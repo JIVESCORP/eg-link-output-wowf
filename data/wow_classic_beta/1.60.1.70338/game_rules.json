@@ -15,7 +15,7 @@
   "clientBuild": "1.60.1.70338",
   "collectedOn": {
    "first": "2026-10-12",
-   "last": "2026-10-13"
+   "last": "2026-10-14"
   },
   "dataset": "game_rules",
   "license": "CC BY 4.0",
@@ -51,16 +51,19 @@
   "171": {
    "1": {
     "75": 1
+   },
+   "2": {
+    "150": 1
    }
   },
   "182": {
    "1": {
-    "75": 2
+    "75": 3
    }
   },
   "185": {
    "1": {
-    "75": 2
+    "75": 3
    },
    "2": {
     "150": 1
@@ -168,19 +171,28 @@
   },
   "11": {
    "6": {
+    "1": 2
+   },
+   "7": {
     "1": 1
    },
    "9": {
-    "2": 1
+    "2": 2
    },
    "10": {
-    "2": 1
+    "2": 2
    },
    "11": {
     "2": 1
    },
    "12": {
     "2": 1
+   },
+   "13": {
+    "2": 1
+   },
+   "15": {
+    "3": 1
    },
    "16": {
     "4": 1
@@ -218,17 +230,23 @@
    }
   },
   "15": {
-   "14": {
+   "10": {
+    "1": 1
+   },
+   "13": {
     "2": 1
+   },
+   "14": {
+    "2": 2
    },
    "15": {
-    "2": 1
+    "2": 2
    },
    "16": {
-    "2": 1
+    "2": 2
    },
    "18": {
-    "3": 1
+    "3": 2
    },
    "20": {
     "4": 1
@@ -1126,6 +1144,126 @@
   }
  },
  "starts": {
+  "Dwarf|Alliance|PRIEST": {
+   "count": 1,
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2987,
+     "mapY": 0.7198,
+     "uiMap": 1426,
+     "worldX": -6240.3,
+     "worldY": 331
+    }
+   ],
+   "sources": 1,
+   "subZones": {
+    "enUS": {
+     "Coldridge Valley": 1
+    }
+   },
+   "zones": {
+    "enUS": {
+     "Dun Morogh": 1
+    }
+   }
+  },
+  "Gnome|Alliance|PRIEST": {
+   "count": 1,
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2987,
+     "mapY": 0.7198,
+     "uiMap": 1426,
+     "worldX": -6240.3,
+     "worldY": 331
+    }
+   ],
+   "sources": 1,
+   "subZones": {
+    "enUS": {
+     "Coldridge Valley": 1
+    }
+   },
+   "zones": {
+    "enUS": {
+     "Dun Morogh": 1
+    }
+   }
+  },
+  "Human|Alliance|PRIEST": {
+   "count": 1,
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.4806,
+     "mapY": 0.4365,
+     "uiMap": 1429,
+     "worldX": -8950,
+     "worldY": -132.5
+    }
+   ],
+   "sources": 1,
+   "subZones": {
+    "enUS": {
+     "Northshire Valley": 1
+    }
+   },
+   "zones": {
+    "enUS": {
+     "Elwynn Forest": 1
+    }
+   }
+  },
+  "Human|Alliance|WARRIOR": {
+   "count": 1,
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.4806,
+     "mapY": 0.4365,
+     "uiMap": 1429,
+     "worldX": -8950,
+     "worldY": -132.5
+    }
+   ],
+   "sources": 1,
+   "subZones": {
+    "enUS": {
+     "Northshire Valley": 1
+    }
+   },
+   "zones": {
+    "enUS": {
+     "Elwynn Forest": 1
+    }
+   }
+  },
+  "NightElf|Alliance|DRUID": {
+   "count": 1,
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5859,
+     "mapY": 0.4479,
+     "uiMap": 1438,
+     "worldX": 10311.3,
+     "worldY": 831.5
+    }
+   ],
+   "sources": 1,
+   "subZones": {
+    "enUS": {
+     "Shadowglen": 1
+    }
+   },
+   "zones": {
+    "enUS": {
+     "Teldrassil": 1
+    }
+   }
+  },
   "Orc|Horde|ROGUE": {
    "count": 1,
    "positions": [
@@ -1221,6 +1359,30 @@
      "Mulgore": 1
     }
    }
+  },
+  "Troll|Horde|SHAMAN": {
+   "count": 1,
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4329,
+     "mapY": 0.6885,
+     "uiMap": 1411,
+     "worldX": -618.5,
+     "worldY": -4251.7
+    }
+   ],
+   "sources": 1,
+   "subZones": {
+    "enUS": {
+     "Valley of Trials": 1
+    }
+   },
+   "zones": {
+    "enUS": {
+     "Durotar": 1
+    }
+   }
   }
  },
  "teleports": {
@@ -1306,7 +1468,7 @@
    "5": 2
   },
   "11": {
-   "5": 1
+   "5": 2
   },
   "12": {
    "5": 1
@@ -1315,7 +1477,7 @@
    "5": 1
   },
   "15": {
-   "5": 1
+   "5": 2
   },
   "16": {
    "5": 2

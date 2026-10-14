@@ -5,11 +5,11 @@
     "texts": [
      {
       "sexes": {
-       "female": 2
+       "female": 3
       },
       "sources": 1,
       "text": "Grish-\n\nYour request for some time off has been accepted. I am sending a reserve Tauren warrior to watch your post while you take time off to spend with your family. Report back in one week!\n\n-Maggran Earthbinder",
-      "times": 2
+      "times": 3
      }
     ],
     "title": "Maggran's Reserve Letter"
@@ -691,18 +691,47 @@
     "times": 1
    }
   ],
+  "npc:1247": [
+   {
+    "broadcastTextIds": [
+     2826
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Fill yer tankard and pull up a chair. We've stories to tell and kegs to empty.",
+    "times": 1
+   }
+  ],
   "npc:12616": [
    {
     "broadcastTextIds": [
      10753
     ],
     "sexes": {
-     "female": 3
+     "female": 3,
+     "male": 1
+    },
+    "sources": 2,
+    "template": "broadcastText",
+    "text": "Where would you like to fly to?",
+    "times": 4
+   }
+  ],
+  "npc:12657": [
+   {
+    "broadcastTextIds": [
+     8108
+    ],
+    "sexes": {
+     "female": 1
     },
     "sources": 1,
     "template": "broadcastText",
-    "text": "Where would you like to fly to?",
-    "times": 3
+    "text": "This dock here? Well, you can catch the ship that goes to Southshore, and then stops at that night elf place after. What's its name? Uhh... Auberdine, I think.\r\n\r\nI don't really know for sure, I just load and unload stuff.",
+    "times": 1
    }
   ],
   "npc:12696": [
@@ -821,6 +850,20 @@
     "times": 1
    }
   ],
+  "npc:1571": [
+   {
+    "broadcastTextIds": [
+     10753
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Where would you like to fly to?",
+    "times": 1
+   }
+  ],
   "npc:16227": [
    {
     "broadcastTextIds": [
@@ -904,6 +947,20 @@
     "sources": 2,
     "template": "broadcastText",
     "text": "Do not presume to speak to me as though you are my equal, $c. Sylvanas is my queen, and I will do as she bids.$B$BIf you do not show the proper respect, I assure you, we can find a more than suitable place for you in the Nether.$B$BBut there is no reason we cannot have words if you wish to aid the Dark Lady...",
+    "times": 2
+   }
+  ],
+  "npc:2432": [
+   {
+    "broadcastTextIds": [
+     10753
+    ],
+    "sexes": {
+     "female": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Where would you like to fly to?",
     "times": 2
    }
   ],
@@ -1002,6 +1059,20 @@
     "sources": 1,
     "template": "broadcastText",
     "text": "What may I do for you, fellow windshaper?",
+    "times": 1
+   }
+  ],
+  "npc:256306": [
+   {
+    "broadcastTextIds": [
+     313796
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Welcome to Dalaran, $c. \r\n\r\nPlease pay no mind to some of the construction that is still underway. Oh, and should you encounter a rogue arcane anomaly, demon, or other malign entity, please feel free to seek assistance from the nearest member of the Kirin Tor before fleeing--um... proceeding--to the nearest exit in an orderly fashion!\r\n\r\n<Arcanist Laurain laughs nervously.>\r\n\r\nThank you for visiting!",
     "times": 1
    }
   ],
@@ -1277,16 +1348,17 @@
    {
     "broadcastTextIds": [
      3425,
-     4857
+     4857,
+     6630
     ],
     "sexes": {
      "female": 1,
-     "male": 2
+     "male": 3
     },
     "sources": 2,
     "template": "broadcastText",
     "text": "What are you looking for?",
-    "times": 3
+    "times": 4
    },
    {
     "broadcastTextIds": [
@@ -1307,6 +1379,18 @@
     },
     "sources": 1,
     "text": "Aspiring to join our ranks one day?  Sark Ragetotem can help you on your way.  He's in the Hunter's Hall.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     328288
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Look on the lower rise opposite the auctioneers if you would like to get your mane trimmed.",
     "times": 1
    },
    {
@@ -1364,12 +1448,12 @@
      3146
     ],
     "sexes": {
-     "male": 1
+     "male": 2
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "Are you here for training?  Or are you just here to waste a warrior's time.",
-    "times": 1
+    "times": 2
    }
   ],
   "npc:3174": [
@@ -1405,7 +1489,8 @@
    {
     "broadcastTextIds": [
      3425,
-     4857
+     4857,
+     6630
     ],
     "sexes": {
      "female": 3,
@@ -1522,6 +1607,20 @@
     "times": 2
    }
   ],
+  "npc:3365": [
+   {
+    "broadcastTextIds": [
+     8020
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "You won't learn anything new from me; you know too much already. If you want more training, talk to the tauren Una in the northwestern shops of Thunder Bluff's central plateau. Send her my regards, eh?",
+    "times": 1
+   }
+  ],
   "npc:3387": [
    {
     "broadcastTextIds": [
@@ -1543,24 +1642,24 @@
      7663
     ],
     "sexes": {
-     "male": 3
+     "male": 7
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "Da spirits be strong wit you, mon. What kin dis troll do for ya?",
-    "times": 3
+    "times": 7
    },
    {
     "broadcastTextIds": [
      8263
     ],
     "sexes": {
-     "male": 1
+     "male": 3
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "If you desire, in addition to training, I have it within my power to erase the knowledge of your talents from your mind.  Be warned that every time you undergo this procedure the more difficult it is to perform, and therefore the more expensive it becomes.",
-    "times": 1
+    "times": 3
    }
   ],
   "npc:3412": [
@@ -1745,6 +1844,58 @@
     "times": 1
    }
   ],
+  "npc:4241": [
+   {
+    "broadcastTextIds": [
+     8102
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "It is my honor to provide for adventurers, for they are heroes in the making.",
+    "times": 1
+   }
+  ],
+  "npc:4262": [
+   {
+    "broadcastTextIds": [
+     5325
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Of all the wondrous places within Darnassus, which would you have me direct you to?",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     328240
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Ah, are you looking perhaps to change your markings, or prepare for a hunt? There is no better place.\r\n\r\nYou will find the barber in the Tradesman's Terrace, near the auction house.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     5353
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Here among the craftsmen of Darnassus, there is a millenium of knowledge for the benefit of your chosen craft.  Now tell me, which craft do you find the most intriguing?",
+    "times": 1
+   }
+  ],
   "npc:4312": [
    {
     "broadcastTextIds": [
@@ -1828,6 +1979,33 @@
     "times": 1
    }
   ],
+  "npc:5595": [
+   {
+    "broadcastTextIds": [
+     328220
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Ah, need a wee trim do ye? It's been a bit fer me as well. I might head that way after my shift!\r\n\r\nYe can find the barber northwest from the entrance to Ironforge.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     5077,
+     6986
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What do ye need directions to?",
+    "times": 1
+   }
+  ],
   "npc:5769": [
    {
     "broadcastTextIds": [
@@ -1884,6 +2062,22 @@
     "times": 1
    }
   ],
+  "npc:5953": [
+   {
+    "broadcastTextIds": [
+     3425,
+     4857,
+     6630
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What are you looking for?",
+    "times": 1
+   }
+  ],
   "npc:6491": [
    {
     "broadcastTextIds": [
@@ -1925,6 +2119,61 @@
     "template": "broadcastText",
     "text": "Rest your weary bones for a spell.",
     "times": 4
+   }
+  ],
+  "npc:68": [
+   {
+    "broadcastTextIds": [
+     324028
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The sharpest shears and most delicate hands are found at Curls and Furls here in the trade district. Take a gander if you have some spare time and are interested in taking a little off the top.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     2974
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What do you need directions to?",
+    "times": 1
+   }
+  ],
+  "npc:6928": [
+   {
+    "broadcastTextIds": [
+     3003
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "If we are to make these new lands ours then we must have places to rest our battle weary bodies. Lay your axe by the fire and share the stories of your mighty battles.",
+    "times": 1
+   }
+  ],
+  "npc:727": [
+   {
+    "broadcastTextIds": [
+     5077,
+     6986
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What do ye need directions to?",
+    "times": 1
    }
   ],
   "npc:7683": [
@@ -2092,6 +2341,16 @@
     "times": 4
    }
   ],
+  "npc:3293": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "I'm happy Gazlowe gave me the opportunity to be here and all, but this place is more dangerous than I thought it'd be. It's also really hot. And dusty. And it smells kinda weird. Ah, well! Hopefully it will be good for business.",
+    "times": 1
+   }
+  ],
   "npc:3390": [
    {
     "sexes": {
@@ -2198,7 +2457,7 @@
   "clientBuild": "1.60.1.70338",
   "collectedOn": {
    "first": "2026-10-12",
-   "last": "2026-10-13"
+   "last": "2026-10-14"
   },
   "dataset": "texts",
   "license": "CC BY 4.0",
@@ -2523,6 +2782,146 @@
     }
    ]
   },
+  "308": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1373": 1
+     },
+     "text": "For me? You're a true hero, $N!",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1373": 2
+     },
+     "text": "Hmph! There is all this booze down here, but I have strict orders not to touch it. If only I could get a taste of some of our Thunder Ale...that would sharpen my wits, no lying!",
+     "times": 2
+    }
+   ]
+  },
+  "310": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:270": 1
+     },
+     "text": "You quickly place Marleth's barrel of Barleybrew Scalder among the Thunderbrew barrels.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:270": 1
+     },
+     "text": "The date on this barrel shows that it'll soon be tapped.",
+     "times": 1
+    }
+   ]
+  },
+  "311": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:270": 1
+     },
+     "template": "questCache",
+     "text": "Having inserted a barrel of Marleth's Scalder in the Kharanos Distillery's cellar, you grab a barrel of Thunder Ale as proof of the deed...",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1375": 1
+     },
+     "text": "Not bad, $N! Did you have a hard time getting past their guard?\n\nNo matter--many thanks, and if you're ever in need of stout with a kick, don't forget the Barleybrews!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:270": 1
+     },
+     "template": "questCache",
+     "text": "Bring the barrel of Thunder Ale to Marleth Barleybrew at the Brewnall Village.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1375": 1
+     },
+     "text": "Did you make the switch?",
+     "times": 1
+    }
+   ]
+  },
+  "315": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1374": 1
+     },
+     "text": "Great!  I can't wait to use these in some of my recipes.  There's one in particular I think it'll work great in...",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1374": 1
+     },
+     "text": "Do you have that shimmerweed?  I almost have a batch of stout ready to brew, and I want to try throwing the weed in with this mixture.",
+     "times": 1
+    }
+   ]
+  },
   "358": {
    "accept": [
     {
@@ -2549,6 +2948,64 @@
      },
      "template": "questCache",
      "text": "Kill Rot Hide Graverobbers and Rot Hide Mongrels.  $B$BBring 8 Embalming Ichors to Magistrate Sevren in Brill.",
+     "times": 1
+    }
+   ]
+  },
+  "412": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1269": 1
+     },
+     "text": "These Gyromechanic Gears and Restabilization Cogs are in perfect accordance with Ozzie's schematics for the Recombobulation Device.  Once I add some hydrolubricant to the inner combustion pistons, adjust the crank-o-ratchet and increase of the viscosity of the electrogum gel, the gnomish race will be as good as new.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1269": 1
+     },
+     "text": "The Recombobulator will be up and running as soon as we have sufficient Restabilization Cogs and Gyromechanic Gears.",
+     "times": 1
+    }
+   ]
+  },
+  "413": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1374": 1
+     },
+     "template": "questCache",
+     "text": "I'd like my brother Wellart to try my new Shimmer Stout.  He's a Mountaineer stationed in the southern guard tower, one of two towers on the border to Loch Modan.$B$BHe may not be a brewer like the rest of us Barleybrews, but he loves his drinks and I know he'll like this one.$B$BCan you bring him this Barrel of Shimmer Stout for me?",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1374": 1
+     },
+     "template": "questCache",
+     "text": "Take the Barrel of Shimmer Stout to Mountaineer Barleybrew.",
      "times": 1
     }
    ]
@@ -4896,6 +5353,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3208": 1
+     },
+     "text": "Good.  Hiding within these collars is the secret behind the Burning Blade.  And I will uncover that secret...",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -4907,6 +5377,19 @@
      },
      "template": "questCache",
      "text": "Gather Searing Collars from the cultists in Skull Rock.$B$BBring them to Margoz at his camp.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3208": 1
+     },
+     "text": "Have you yet entered Skull Rock, $N?  Do you have the Searing Collars?",
      "times": 1
     }
    ]
@@ -4950,6 +5433,36 @@
      },
      "template": "questCache",
      "text": "Speak with Margoz.",
+     "times": 1
+    }
+   ]
+  },
+  "829": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3208": 1
+     },
+     "template": "questCache",
+     "text": "The Searing Collars you brought me are powerful, demonic implements.  Divining their origin is, I'm afraid, beyond my skills as a shaman.  We will need a warlock to study them.$B$BTake a searing collar to Neeru Fireblade.  Although he is a skilled warlock, he professes to use his powers to thwart demons, and claims his research in the occult is benign.  Be that true or false, we may need his aid against the demonic cult in Durotar.$B$BYou may find Neeru in Orgrimmar in the Cleft of Shadow.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3208": 1
+     },
+     "template": "questCache",
+     "text": "Bring an Example Collar to Neeru Fireblade in Orgrimmar.",
      "times": 1
     }
    ]
@@ -5022,6 +5535,19 @@
      },
      "template": "questCache",
      "text": "Gazlowe told me once, \"Rezlak. There's one thing you need to know in life, and that's if you want something done well, do it yourself.\"$b$bI can't deal with losing all our caravans, so I'm just going to take matters into my own hands. Drygulch Ravine lies through the eastern part of Razorwind Canyon. If we kill all the harpies there, the routes will be safe.$b$bOf course, there was one other thing that Gazlowe taught me, and that's \"You can get anything done for a price.\" So, going to help me out, $n?",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3293": 1
+     },
+     "text": "I think I can breathe easy now, knowing that the harpies won't be bothering our supply caravans anymore. And not one moment too soon, either. I hear I'm being sent some fun little toys with the next shipment!\n\nYou're pretty good at what you do, $N, you ought to track down my boss in Ratchet. I'll bet he could find some work for you.\n\nOh, and don't worry, I wouldn't forget to pay you for the service you provided me.",
      "times": 1
     }
    ],
@@ -12058,6 +12584,79 @@
     }
    ]
   },
+  "97281": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "none": 1
+     },
+     "template": "questCache",
+     "text": "<Before you is a strange orb with a dull surface. When picked up a small electrical current seems to vibrate from within. Upon closer inspection, it looks as if a dark mist swirls within and every so often a small electrical spark can be seen.\r\n\r\nIt is clear the harpy was using it for some purpose. Perhaps Rezlak would be interested in this object?>",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3293": 1
+     },
+     "text": "Woah, where did you find a neat thing like that? Ya know it reminds me of the other thing my boss Gazlowe always used to tell me...",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "none": 1
+     },
+     "template": "questCache",
+     "text": "Bring the Dull Stormy Orb to Rezlak near Drygulch Ravine.",
+     "times": 1
+    }
+   ]
+  },
+  "97282": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3293": 1
+     },
+     "template": "questCache",
+     "text": "\"Rezlack, when an opportunity comes knocking make sure you're ready to seize it.\" That's another gem Gazlowe taught me and that's exactly what I intend to do.\r\n\r\nThis orb doesn't seem damaged, it just looks like it's out of juice, but I've the idea to supercharge it back to full strength!\r\n\r\nThere are a bunch of thunder lizards in a gorge west of here. They have organs that hold a strong electrical charge that would be perfect for this.\r\n\r\nGo harvest some and bring them back to me!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3293": 1
+     },
+     "template": "questCache",
+     "text": "Bring $1oa Charged Thunder Lizard Organs to Rezlak near Drygulch Ravine.",
+     "times": 1
+    }
+   ]
+  },
   "97485": {
    "accept": [
     {
@@ -12575,6 +13174,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3142": 1
+     },
+     "text": "Ha! I could hear his body fall from here!\r\n\r\nBe proud of your kill today; not many can claim they survived a fight with a sea giant.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -12586,6 +13198,19 @@
      },
      "template": "questCache",
      "text": "Kill the sea giant along Durotar's north coast and bring back proof of your accomplishment.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3142": 1
+     },
+     "text": "Give 'em blood and thunder!",
      "times": 1
     }
    ]
