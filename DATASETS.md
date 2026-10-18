@@ -19,9 +19,10 @@ data/<product>/<clientBuild>/<dataset>.<locale>.json     the datasets in the gam
 - `<locale>` is the game client's language, such as `enUS`. The five datasets read from the game's
   caches (`quests`, `creature_details`, `object_details`, `item_hotfixes`, `broadcast_text`) are
   mostly the server's text, and the three scans of the game's tooltips (`talent_scan`, `stat_scan`,
-  `tooltip_scan`) and the words its windows showed (`texts`) are the game's text, so each language
-  gets its own file. Names in the other datasets are in whatever language the contributing players'
-  clients use.
+  `tooltip_scan`), the rank reader's spell descriptions (`rank_scan`) and the words its windows
+  showed (`texts`) are the game's text, so each language gets its own file. Names in the other
+  datasets are in whatever language the contributing players' clients use; `hunter_pets` files the
+  game's words it holds under the client's language.
 
 `data/index.json` has `license` and `attribution`, and `products[product][clientBuild][dataset]` for
 every file: `records` (how many records the file holds, across its collections), `sources` (as the
@@ -57,6 +58,8 @@ their earlier ones. Players' contributions are then combined:
   maximum health values seen at each level.
 - **Positions are merged**: every player's positions, keeping one per 5 yards (3 yards for objects
   walked up to).
+- **Readings stay apart** in `rank_scan`: only identical readings merge, so no player's reading
+  replaces another's.
 - **Every record says how many players' files it came from** (`sources`).
 
 Positions are `{instance, uiMap, mapX, mapY, worldX, worldY}`: `mapX`/`mapY` are 0-1 across the
@@ -309,6 +312,32 @@ damage nothing in the client files gives, say.
 - `notLoaded`: listed items no player's game held. The server sends some items only when a player
   meets them.
 
+## rank_scan.&lt;locale&gt;
+
+What the game's descriptions say old ranks of class spells heal, absorb or deal, read by EG Link's rank
+reader (EG Link 0.2.34 and later) level by level. WoW Forever cuts the bonus healing or spell damage of
+a rank learned far below the character's level, and the game writes a description's numbers for the
+character reading it, so each reading keeps the character it was written for.
+
+- `readings[]`, one per reading:
+  - `class` (the game's class token, such as `DRUID`), `level`, `talentPoints` (spent; a talent can
+    change a description).
+  - `stats`: the reader's `level`, `healing`, `spellDamage` (by school, 1 Physical to 7 Arcane),
+    `spellHaste`, `rangedHaste` and `attackPower`, as `talent_scan`'s readers have them. `statsAfter`:
+    the same, read again at the end, only when the level or the bonus moved during the reading.
+  - `descriptions[spellId]`: each rank's description as the game wrote it for the reader.
+  - `controls`: the spell IDs among them read as controls, the newest rank the reader's level allows
+    of a dozen spells (Fireball, Frostbolt, Heal, Healing Touch, Healing Wave, Holy Light, Lesser
+    Heal, Lightning Bolt, Mend Pet, Shadow Bolt, Smite, Wrath), to compare the old ranks with.
+  - `sources`: how many players' saved files hold that same reading.
+- `listBuilds[clientBuild]`: the builds of the rank lists the readers' addons read (EG Link reads the
+  ranks a list made from one build's game files names), with how many saved files read each.
+
+Readings aren't combined as `talent_scan`'s are: none is picked over another, since readers at one
+level with different bonuses are what the cut is measured from. Only identical readings merge, adding
+their `sources`. They're sorted by class, level, healing, the highest school's spell damage and talent
+points. No reading carries the day it was taken.
+
 ## durability
 
 `items[itemId]`: `max`, an item's maximum durability as the game reported it for one a player's
@@ -347,6 +376,56 @@ landed, which are combined per race, faction and class and per spell, never per 
   2 Journeyman ...; `?` when the tier wasn't known).
 
 Sets and caps say how many players' games (`sources`) gave each value, so a game that disagrees shows.
+
+## barber
+
+What a barber offered each race, sex and class (EG Link 0.2.31 and later): the categories, options
+and choices of the barber's window, by ID. Game data, about no player. Their names are the client's
+(`ChrCustomizationCategory`, `ChrCustomizationOption` and `ChrCustomizationChoice`), so none are here.
+
+- `looks["<race>|<sex>|<class>"]`, keyed by the game's race token (both Skyborne races are `Skyborne`;
+  `Scourge` is Undead), sex (`0` male, `1` female) and class token:
+  - `sources`; `visits`, every read filed under the look: a visit at the character's own sex, and a
+    try-on of the other body type in the chair, filed under that sex, so a look can have visits and
+    no character of that sex; `bodyTypes`, how many players' windows offered a change of body type
+    (read at the character's own sex only; absent when none).
+  - `categories[categoryId]`: `order` (the game's), `chrModelID` and `shapeshiftFormID` (on a druid
+    form's category), `subcategory` and `undressModel` (`true` when set), `sources`.
+  - `options[optionId]`: `category`, `order` (the game's), `optionType`, `sources`, and
+    `choices[choiceId]`: `order` (its place in the list), `swatch1` and `swatch2` (its colour swatches,
+    `"rrggbb"`), `sources`, `seen` (the reads that listed it), `locked` (the reads that showed it
+    locked, with `lockedText[locale]["<the game's reason>"]`, how many players' games gave each reason)
+    and `ineligible` (the reads that showed it ineligible). `locked` and `ineligible` are read at the
+    character's own sex only, and absent when 0.
+
+IDs, orders, swatches and flags are facts, so the newest wins; `visits`, `seen`, `locked` and
+`ineligible` add up. A choice the game lists only while another is picked (a Skyborne tattoo's colours)
+is listed only by reads whose look had that one picked, so a choice's `seen` against its look's `visits`
+says how often it was listed, not whether it is offered.
+
+## hunter_pets
+
+What hunters' games recorded about beasts they tamed or cast Beast Lore on, and Beast Training's list
+(EG Link 0.2.33 and later). Game data, filed by the beast's creature ID; the beasts', families' and
+spells' names are the client's (`creature_details.<locale>` has the beasts'). The only words are the
+game's own lines, under the language of the client that showed them.
+
+- `beasts[creatureId]`: `sources`, and
+  - `tames`, what a pet tamed from it came with: `sources`, `count` (tames); `levels` (the beast's at
+    the cast), `petLevels` (the new pet's), `families` (`CreatureFamily` IDs), `attackSpeed` (its swing
+    time in seconds as the game gave it, such as `"2.00"`) and `trainingPoints`
+    (`"<pet level>:<total>:<used>"`; an addon before 0.2.33's release wrote `"<pet level>:<total>"`),
+    each value with how many tames gave it; `spells[spellId]`, its abilities (`count`, `passive`), and
+    `auras[spellId]`, its permanent auras, where a Faster or Slower Attack passive shows (`count`);
+    `diet[locale]["<food>"]`, the game's food words with how many tames. A pet that showed no ability
+    in its first 30 seconds adds to `count` and to no spell, so `count` above a spell's says how often.
+  - `lore`, Beast Lore cast on it: `sources`, `count` (reads), `levels`, and `tameable`, `diet` and
+    `abilities` as `[locale]["<the game's line>"]`, how many reads showed each.
+- `training[spellId]`, Beast Training's list by pet ability: `level` (the pet level it needs),
+  `costs[trainingPoints]` and `families[familyId]` (the pet out when it was read), each with how many
+  windows showed it, `sources`. An entry the game gave no spell ID for is left out.
+
+Counts add up; `level` and `passive` are facts, so the newest wins.
 
 ## texts.&lt;locale&gt;
 

@@ -27,9 +27,12 @@ client language (`quests.enUS.json`):
 | `talent_scan.<locale>` | Every class talent's text at each rank and every class spell's cast time, cooldown, range and costs, read from the game's tooltips |
 | `stat_scan.<locale>` | One or two items for every stat type as the game's tooltip shows them, with the game's key and name for each stat |
 | `tooltip_scan.<locale>` | Every weapon as the game's tooltip shows it, such as damage no client file gives |
+| `rank_scan.<locale>` | What the game's descriptions say old ranks of class spells heal, absorb or deal, read level by level with the reader's level, bonus healing and spell damage |
 | `durability` | Each item's maximum durability, which the server sets and no client table holds |
 | `texts.<locale>` | Gossip, greeting and quest window text as players' games showed it, per NPC and quest |
 | `game_rules` | Game rules no client file holds: where new characters start, where class teleports land, the level cap, standing ranges, renown tracks, quest colours, reward spell flags and profession skill caps |
+| `barber` | What a barber offers each race, sex and class: its categories, options and choices, with their order and colour swatches |
+| `hunter_pets` | Beasts hunters tamed or cast Beast Lore on: the pet's family, levels, abilities, swing time, diet and training points; and Beast Training's cost per pet ability |
 | `quests.<locale>` | Every quest as the server describes it: text, levels, objectives, rewards |
 | `creature_details.<locale>` | Every creature's name, title, type, family, rank, models and quest drops |
 | `object_details.<locale>` | Every game object's name, type, model, size and quest drops |

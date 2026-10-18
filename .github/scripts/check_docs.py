@@ -26,12 +26,17 @@ NAME_KEYED = {
     "rep",  # creatures: rep["<race>"][factionId][change]
     "zones[*]",  # game_rules: zones[locale]["<zone text>"]
     "subZones[*]",  # game_rules: subZones[locale]["<subzone text>"]
+    "diet[*]",  # hunter_pets: diet[locale]["<the game's food words>"]
+    "tameable[*]",  # hunter_pets: lore.tameable[locale]["<Beast Lore's line>"]
+    "abilities[*]",  # hunter_pets: lore.abilities[locale]["<Beast Lore's line>"]
+    "lockedText[*]",  # barber: lockedText[locale]["<the game's reason>"]
 }
 
 LOCALE = re.compile(r"^[a-z]{2}[A-Z]{2}$")
 NUMBER = re.compile(r"^-?\d+(\.\d+)?$")
 ALL_CAPS = re.compile(r"^[A-Z][A-Z0-9_]*$")
 RANGE = re.compile(r"^-?\d+\.\.-?\d+$")  # game_rules standings: "0..3000"
+CLIENT_BUILD = re.compile(r"^\d+\.\d+\.\d+\.\d+$")  # rank_scan listBuilds: "1.60.1.70374"
 
 
 def is_value_key(key):
@@ -40,6 +45,7 @@ def is_value_key(key):
         key == "?"
         or NUMBER.match(key) is not None
         or RANGE.match(key) is not None
+        or CLIENT_BUILD.match(key) is not None
         or LOCALE.match(key) is not None
         or ALL_CAPS.match(key) is not None
         or any(c in key for c in ":>|")
