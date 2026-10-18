@@ -1,5 +1,10 @@
 {
  "masters": {
+  "1572": {
+   "name": "Thorgrum Borrelson",
+   "node": 8,
+   "sources": 1
+  },
   "2226": {
    "name": "Karos Razok",
    "node": 10,
@@ -70,8 +75,8 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70338",
   "collectedOn": {
-   "first": "2026-10-12",
-   "last": "2026-10-14"
+   "first": "2026-10-14",
+   "last": "2026-10-17"
   },
   "dataset": "flights",
   "license": "CC BY 4.0",
@@ -483,10 +488,11 @@
   },
   "22>80": {
    "costs": {
-    "5": 220
+    "5": 330
    },
    "hops": [
     22,
+    77,
     25,
     80
    ],
@@ -1666,6 +1672,70 @@
     "158": 1
    },
    "sources": 2
+  },
+  "8>14": {
+   "costs": {
+    "5": 660
+   },
+   "hops": [
+    8,
+    7,
+    14
+   ],
+   "sources": 1
+  },
+  "8>16": {
+   "costs": {
+    "5": 530
+   },
+   "hops": [
+    8,
+    16
+   ],
+   "sources": 1
+  },
+  "8>3276": {
+   "costs": {
+    "5": 630
+   },
+   "hops": [
+    8,
+    3276
+   ],
+   "sources": 1
+  },
+  "8>6": {
+   "arrivals": [
+    {
+     "instance": 0,
+     "mapX": 0.5589,
+     "mapY": 0.4787,
+     "uiMap": 1455,
+     "worldX": -4821.8,
+     "worldY": -1155.4
+    }
+   ],
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    8,
+    6
+   ],
+   "seconds": {
+    "109": 1
+   },
+   "sources": 1
+  },
+  "8>7": {
+   "costs": {
+    "5": 330
+   },
+   "hops": [
+    8,
+    7
+   ],
+   "sources": 1
   }
  }
 }

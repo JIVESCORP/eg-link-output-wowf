@@ -8489,8 +8489,8 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70338",
   "collectedOn": {
-   "first": "2026-10-12",
-   "last": "2026-10-14"
+   "first": "2026-10-14",
+   "last": "2026-10-17"
   },
   "dataset": "npcs",
   "license": "CC BY 4.0",
@@ -8588,6 +8588,59 @@
    "sources": 1,
    "windows": 2
   },
+  "167": {
+   "interactions": [
+    "Gossip",
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    13
+   ],
+   "name": "Morhan Coppertongue",
+   "options": {
+    "141441": {
+     "icon": 132060,
+     "name": "I would like to see your wares."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3398,
+     "mapY": 0.4663,
+     "uiMap": 1432,
+     "worldX": -5345.3,
+     "worldY": -2931
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
+  },
+  "372": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    16
+   ],
+   "name": "Karm Ironquill",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3704,
+     "mapY": 0.4732,
+     "uiMap": 1432,
+     "worldX": -5358,
+     "worldY": -3015.5
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 1
+  },
   "727": {
    "interactions": [
     "Gossip"
@@ -8641,6 +8694,198 @@
    "sources": 1,
    "windows": 1
   },
+  "1089": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    30
+   ],
+   "name": "Mountaineer Cobbleflint",
+   "offers": {
+    "224": {
+     "title": "In Defense of the King's Lands"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.221,
+     "mapY": 0.7304,
+     "uiMap": 1432,
+     "worldX": -5831.1,
+     "worldY": -2603.2
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "224": {
+     "title": "In Defense of the King's Lands"
+    }
+   },
+   "windows": 0
+  },
+  "1090": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    30
+   ],
+   "name": "Mountaineer Wallbang",
+   "offers": {
+    "263": {
+     "title": "In Defense of the King's Lands"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2345,
+     "mapY": 0.7464,
+     "uiMap": 1432,
+     "worldX": -5860.6,
+     "worldY": -2640.6
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "263": {
+     "title": "In Defense of the King's Lands"
+    }
+   },
+   "windows": 0
+  },
+  "1091": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    30
+   ],
+   "name": "Mountaineer Gravelgaw",
+   "offers": {
+    "237": {
+     "title": "In Defense of the King's Lands"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2349,
+     "mapY": 0.7633,
+     "uiMap": 1432,
+     "worldX": -5891.6,
+     "worldY": -2641.6
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "237": {
+     "title": "In Defense of the King's Lands"
+    }
+   },
+   "windows": 0
+  },
+  "1092": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    40
+   ],
+   "name": "Captain Rugelfuss",
+   "offers": {
+    "217": {
+     "title": "In Defense of the King's Lands"
+    },
+    "267": {
+     "title": "The Trogg Threat"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2313,
+     "mapY": 0.7376,
+     "uiMap": 1432,
+     "worldX": -5844.4,
+     "worldY": -2631.7
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "217": {
+     "title": "In Defense of the King's Lands"
+    },
+    "267": {
+     "title": "The Trogg Threat"
+    },
+    "86585": {
+     "title": "Banner of the Fallen"
+    }
+   },
+   "windows": 0
+  },
+  "1105": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    15
+   ],
+   "name": "Jern Hornhelm",
+   "offers": {
+    "436": {
+     "title": "Ironband's Excavation"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3702,
+     "mapY": 0.469,
+     "uiMap": 1432,
+     "worldX": -5350.3,
+     "worldY": -3014.9
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 0
+  },
+  "1237": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    8
+   ],
+   "name": "Kazan Mogosh",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6858,
+     "mapY": 0.5476,
+     "uiMap": 1426,
+     "worldX": -5675,
+     "worldY": -1575.5
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
+  },
   "1247": {
    "interactions": [
     "Gossip",
@@ -8679,6 +8924,62 @@
    "sources": 1,
    "windows": 2
   },
+  "1254": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    12
+   ],
+   "name": "Foreman Stonebrow",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6906,
+     "mapY": 0.5625,
+     "uiMap": 1426,
+     "worldX": -5723.9,
+     "worldY": -1599.1
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "432": {
+     "title": "Those Blasted Troggs!"
+    }
+   },
+   "windows": 0
+  },
+  "1265": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    10
+   ],
+   "name": "Rudra Amberstill",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6308,
+     "mapY": 0.4992,
+     "uiMap": 1426,
+     "worldX": -5516.2,
+     "worldY": -1304.8
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "95212": {
+     "title": "Never Saddle on Quality"
+    }
+   },
+   "windows": 0
+  },
   "1269": {
    "interactions": [
     "QuestGiver"
@@ -8703,6 +9004,97 @@
    "takes": {
     "412": {
      "title": "Operation Recombobulation"
+    }
+   },
+   "windows": 0
+  },
+  "1340": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    30
+   ],
+   "name": "Mountaineer Kadrell",
+   "offers": {
+    "416": {
+     "level": 11,
+     "title": "Rat Catching"
+    },
+    "1339": {
+     "level": 15,
+     "title": "Mountaineer Stormpike's Task"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3385,
+     "mapY": 0.4848,
+     "uiMap": 1432,
+     "worldX": -5379.4,
+     "worldY": -2927.3
+    },
+    {
+     "instance": 0,
+     "mapX": 0.369,
+     "mapY": 0.4234,
+     "uiMap": 1432,
+     "worldX": -5266.3,
+     "worldY": -3011.6
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "414": {
+     "level": 10,
+     "title": "Stout to Kadrell"
+    },
+    "416": {
+     "level": 11,
+     "title": "Rat Catching"
+    }
+   },
+   "windows": 4
+  },
+  "1343": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    30
+   ],
+   "name": "Mountaineer Stormpike",
+   "offers": {
+    "307": {
+     "title": "Filthy Paws"
+    },
+    "1338": {
+     "title": "Stormpike's Order"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2475,
+     "mapY": 0.1834,
+     "uiMap": 1432,
+     "worldX": -4824.9,
+     "worldY": -2676.3
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "307": {
+     "title": "Filthy Paws"
+    },
+    "1339": {
+     "title": "Mountaineer Stormpike's Task"
     }
    },
    "windows": 0
@@ -8795,6 +9187,29 @@
     }
    },
    "windows": 0
+  },
+  "1465": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    15
+   ],
+   "name": "Drac Roughcut",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3557,
+     "mapY": 0.4888,
+     "uiMap": 1432,
+     "worldX": -5386.8,
+     "worldY": -2974.8
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 1
   },
   "1498": {
    "interactions": [
@@ -8891,6 +9306,108 @@
      "uiMap": 1437,
      "worldX": -3791.5,
      "worldY": -782.4
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 1
+  },
+  "1572": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver",
+    "TaxiNode"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    55
+   ],
+   "name": "Thorgrum Borrelson",
+   "offers": {
+    "6391": {
+     "level": 10,
+     "title": "Ride to Ironforge"
+    }
+   },
+   "options": {
+    "97327": {
+     "icon": 132057,
+     "name": "I need a ride."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3384,
+     "mapY": 0.5098,
+     "uiMap": 1432,
+     "worldX": -5425.3,
+     "worldY": -2927.2
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "6387": {
+     "level": 10,
+     "title": "Honor Students"
+    }
+   },
+   "windows": 7
+  },
+  "1681": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    15
+   ],
+   "name": "Brock Stoneseeker",
+   "offers": {
+    "6387": {
+     "level": 0,
+     "title": "Honor Students"
+    }
+   },
+   "options": {
+    "97330": {
+     "icon": 132058,
+     "name": "I would like to train."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3718,
+     "mapY": 0.4692,
+     "uiMap": 1432,
+     "worldX": -5350.6,
+     "worldY": -3019.4
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 1
+  },
+  "1682": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    15
+   ],
+   "name": "Yanni Stoutheart",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3489,
+     "mapY": 0.4863,
+     "uiMap": 1432,
+     "worldX": -5382.1,
+     "worldY": -2956.1
     }
    ],
    "side": "Alliance",
@@ -9201,6 +9718,100 @@
     },
     "449": {
      "title": "The Deathstalkers' Report"
+    }
+   },
+   "windows": 0
+  },
+  "1959": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    20
+   ],
+   "name": "Mountaineer Barleybrew",
+   "offers": {
+    "414": {
+     "title": "Stout to Kadrell"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.8634,
+     "mapY": 0.4883,
+     "uiMap": 1426,
+     "worldX": -5480.2,
+     "worldY": -2450.1
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "413": {
+     "title": "Shimmer Stout"
+    }
+   },
+   "windows": 0
+  },
+  "1963": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    10
+   ],
+   "name": "Vidra Hearthstove",
+   "offers": {
+    "418": {
+     "title": "Thelsamar Blood Sausages"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3488,
+     "mapY": 0.491,
+     "uiMap": 1432,
+     "worldX": -5390.6,
+     "worldY": -2955.7
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "418": {
+     "title": "Thelsamar Blood Sausages"
+    }
+   },
+   "windows": 0
+  },
+  "1977": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    50
+   ],
+   "name": "Senator Mehr Stonehallow",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6866,
+     "mapY": 0.5587,
+     "uiMap": 1426,
+     "worldX": -5711.6,
+     "worldY": -1579.6
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "433": {
+     "title": "The Public Servant"
     }
    },
    "windows": 0
@@ -9883,6 +10494,40 @@
    "side": "Horde",
    "sources": 1,
    "windows": 0
+  },
+  "2784": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    -1
+   ],
+   "name": "King Magni Bronzebeard",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3937,
+     "mapY": 0.5566,
+     "uiMap": 1455,
+     "worldX": -4862.9,
+     "worldY": -1024.8
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "96393": {
+     "level": 16,
+     "title": "Old Ironforge Incursion"
+    },
+    "98423": {
+     "level": 16,
+     "title": "The Treaty of Understanding"
+    }
+   },
+   "windows": 1
   },
   "2987": {
    "interactions": [
@@ -13344,6 +13989,47 @@
    "sources": 1,
    "windows": 2
   },
+  "4256": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    30
+   ],
+   "name": "Golnir Bouldertoe",
+   "offers": {
+    "6388": {
+     "title": "Gryth Thurden"
+    }
+   },
+   "options": {
+    "97328": {
+     "icon": 132060,
+     "name": "I would like to buy from you."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.509,
+     "mapY": 0.2591,
+     "uiMap": 1455,
+     "worldX": -4705.9,
+     "worldY": -1116
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "6391": {
+     "level": 10,
+     "title": "Ride to Ironforge"
+    }
+   },
+   "windows": 1
+  },
   "4262": {
    "interactions": [
     "Gossip"
@@ -13784,6 +14470,104 @@
     }
    ],
    "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "5115": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    60
+   ],
+   "name": "Daera Brightspear",
+   "options": {
+    "97301": {
+     "icon": 132053,
+     "name": "Yes. I would like to unlearn my class talents."
+    },
+    "98511": {
+     "icon": 132053,
+     "name": "I wish to unlearn my class or legacy talents."
+    },
+    "98512": {
+     "icon": 132058,
+     "name": "I seek training in the ways of the Hunter."
+    },
+    "141442": {
+     "icon": 132053,
+     "name": "Yes. I would like to unlearn my legacy talents."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7071,
+     "mapY": 0.9001,
+     "uiMap": 1455,
+     "worldX": -5044.1,
+     "worldY": -1272.7
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
+  },
+  "5117": {
+   "interactions": [
+    "Gossip",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    40
+   ],
+   "name": "Regnus Thundergranite",
+   "options": {
+    "98515": {
+     "icon": 132053,
+     "name": "I wish to unlearn my class or legacy talents."
+    },
+    "98516": {
+     "icon": 132058,
+     "name": "I seek training in the ways of the Hunter."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.697,
+     "mapY": 0.8341,
+     "uiMap": 1455,
+     "worldX": -5009.3,
+     "worldY": -1264.7
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
+  },
+  "5138": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    30
+   ],
+   "name": "Gwina Stonebranch",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5522,
+     "mapY": 0.5881,
+     "uiMap": 1455,
+     "worldX": -4879.6,
+     "worldY": -1150.2
+    }
+   ],
+   "side": "Alliance",
    "sources": 1,
    "windows": 1
   },
@@ -15010,6 +15794,63 @@
    "side": "Horde",
    "sources": 1,
    "windows": 1
+  },
+  "9984": {
+   "interactions": [
+    "StableMaster"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    30
+   ],
+   "name": "Ulbrek Firehand",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6957,
+     "mapY": 0.8384,
+     "uiMap": 1455,
+     "worldX": -5011.6,
+     "worldY": -1263.6
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 1
+  },
+  "10090": {
+   "interactions": [
+    "Gossip",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    40
+   ],
+   "name": "Belia Thundergranite",
+   "options": {
+    "97875": {
+     "icon": 132053,
+     "name": "I wish to untrain my pet."
+    },
+    "97876": {
+     "icon": 132058,
+     "name": "Train me in the ways of the beast."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.711,
+     "mapY": 0.8554,
+     "uiMap": 1455,
+     "worldX": -5020.6,
+     "worldY": -1275.8
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
   },
   "10176": {
    "interactions": [
@@ -16777,6 +17618,36 @@
    "sources": 1,
    "windows": 1
   },
+  "49808": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    25
+   ],
+   "name": "Grenhild Darktalon",
+   "offers": {
+    "86667": {
+     "level": 10,
+     "title": "Snowbound"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3647,
+     "mapY": 0.483,
+     "uiMap": 1432,
+     "worldX": -5376,
+     "worldY": -2999.8
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 1
+  },
   "210845": {
    "interactions": [
     "Gossip"
@@ -17307,6 +18178,36 @@
    },
    "windows": 5
   },
+  "258043": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    32
+   ],
+   "name": "Norric Lochthane",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.4187,
+     "mapY": 0.1904,
+     "uiMap": 1432,
+     "worldX": -4837.7,
+     "worldY": -3148.7
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "86667": {
+     "level": 10,
+     "title": "Snowbound"
+    }
+   },
+   "windows": 1
+  },
   "258878": {
    "interactions": [
     "Auctioneer"
@@ -17480,6 +18381,101 @@
    ],
    "sources": 1,
    "windows": 1
+  },
+  "264936": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    13
+   ],
+   "name": "Earthseer Farsen",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6486,
+     "mapY": 0.5848,
+     "uiMap": 1426,
+     "worldX": -5797.1,
+     "worldY": -1392.4
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "96390": {
+     "level": 13,
+     "title": "Nip 'Em in the Bud"
+    }
+   },
+   "windows": 1
+  },
+  "264943": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    13
+   ],
+   "name": "Afadra Dunwall",
+   "offers": {
+    "96394": {
+     "title": "The Restless Dead"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3327,
+     "mapY": 0.4785,
+     "uiMap": 1455,
+     "worldX": -4821.7,
+     "worldY": -976.6
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "96394": {
+     "title": "The Restless Dead"
+    }
+   },
+   "windows": 0
+  },
+  "265003": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    13
+   ],
+   "name": "Thom Filch",
+   "offers": {
+    "96403": {
+     "title": "Important Heirlooms"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3253,
+     "mapY": 0.4482,
+     "uiMap": 1455,
+     "worldX": -4805.7,
+     "worldY": -970.8
+    }
+   ],
+   "sources": 1,
+   "takes": {
+    "96403": {
+     "title": "Important Heirlooms"
+    }
+   },
+   "windows": 0
   },
   "265574": {
    "interactions": [
@@ -17689,6 +18685,35 @@
     }
    },
    "windows": 1
+  },
+  "269153": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-13",
+   "levels": [
+    15
+   ],
+   "name": "Mountaineer Ylva",
+   "offers": {
+    "86585": {
+     "level": 17,
+     "title": "Banner of the Fallen"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3186,
+     "mapY": 0.8648,
+     "uiMap": 1432,
+     "worldX": -6078.4,
+     "worldY": -2872.7
+    }
+   ],
+   "sources": 1,
+   "windows": 3
   },
   "270038": {
    "interactions": [
