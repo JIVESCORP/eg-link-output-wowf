@@ -58,6 +58,9 @@ their earlier ones. Players' contributions are then combined:
   maximum health values seen at each level.
 - **Positions are merged**: every player's positions, keeping one per 5 yards (3 yards for objects
   walked up to).
+- **Readings are counted** in `character_stats`: each value of each fact keeps how many readings
+  gave it, per race, class, level and form, and none is picked over another. Nothing is kept per
+  character, day or gear.
 - **Readings stay apart** in `rank_scan`: only identical readings merge, so no player's reading
   replaces another's.
 - **Every record says how many players' files it came from** (`sources`).
@@ -426,6 +429,68 @@ game's own lines, under the language of the client that showed them.
   windows showed it, `sources`. An entry the game gave no spell ID for is left out.
 
 Counts add up; `level` and `passive` are facts, so the newest wins.
+
+## character_stats
+
+What players' own character sheets say about a race, class and level (EG Link 0.2.34 and later; base
+melee and ranged crit from 0.2.35): base stats, and how the game turns stats into health, mana, regen,
+crit, dodge and attack power, which no client file fully holds. Each reading is the character pane's
+numbers at one moment, and only these counts are published: never a character, its gear, its talents
+or the day it was read.
+
+- `stats["<race>|<class>|<level>"]`, keyed by the game's race and class tokens (both Skyborne races are
+  `Skyborne`; `Scourge` is Undead) and the character's level when read, such as `Skyborne|DRUID|26`:
+  - `sources`: how many players' saved files gave a reading.
+  - `forms[formId]`: the game's shapeshift form ID, `0` for none (`1` Cat Form, `5` Bear Form, `8`
+    Dire Bear Form, `17` a warrior's Battle Stance ...), since a form changes armor, health and attack
+    power. Each has `sources`, `readings` (the distinct sheets read), `withTalents` (readings with
+    talent points spent), `withAuras` (readings with any aura or debuff on the character; in a form,
+    the form's own aura is one) and `facts`.
+  - `facts[name][value]`: `count`, how many readings (or pairs of readings, below) gave that value, and
+    `withTalents` and `withAuras`, how many of those a talent or an aura could explain (for a pair,
+    either reading). A value is a key: the number rounded to 4 decimals with no trailing zeros, such
+    as `"0.1025"`, `"4.66"` or `"-20"`. Players' games that read different numbers show as several
+    values side by side, each with its count.
+
+From one reading (one count per reading):
+
+| Fact | What it is | Unit |
+|---|---|---|
+| `strength`, `agility`, `stamina`, `intellect`, `spirit` | the base stat: the game's total less its bonuses (gear, talents, buffs), so a talent adding a percentage doesn't move it | points |
+| `critPerAgility`, `dodgePerAgility` | melee crit and dodge per point of agility: what the game says the character's agility gives, over that agility | % per point |
+| `spellCritPerIntellect` | spell crit per point of intellect, the same way | % per point |
+| `attackPowerPerStrength`, `attackPowerPerAgility` | attack power per point of strength and of agility, the same way | attack power per point |
+| `baseDodge`, `baseParry` | the game's dodge and parry less what the game says the character's stats give. Defense skill is not taken out, so a character whose Defense is below level x 5 reads lower | % |
+| `baseSpellCrit` | the lowest spell crit of the six magic schools, less what intellect gives | % |
+| `attackPowerBase` | the game's base attack power less what all five stats give (negative for some classes, and its own value in a form) | attack power |
+| `baseMeleeCrit` | the game's melee crit less what agility gives and 0.04% for each point the main hand's weapon skill sits above or below level x 5. Only from readings that settle the skill: in a form, Feral Combat's skill while the game's glancing-blow range holds it; out of forms, the skill of the main hand weapon's skill line (from its item type, through the client's weapon proficiencies), Unarmed when the hand is empty. Not from a crit of 0 | % |
+| `baseRangedCrit` | the same from ranged crit and the ranged slot's skill: Unarmed when the slot is empty or holds an idol, libram, relic or totem; Feral Combat's in a form | % |
+| `armorPerAgility` | armor over agility, only from a reading with nothing worn, no aura and no form | armor per point |
+
+From two readings of one character at one level and form, with the same talents and auras and different
+totals of the stat (one count per pair):
+
+| Fact | What it is | Unit |
+|---|---|---|
+| `healthPerStamina` | the difference in health over the difference in stamina; both stamina totals at least 20 | health per point |
+| `manaPerIntellect` | the same for mana and intellect; both intellect totals at least 20 | mana per point |
+| `regenPerSpirit` | the same for mana regen (the game's regen while not casting) and spirit | mana per second per point |
+| `rangedAttackPowerPerAgility` | the same for ranged attack power and agility | attack power per point |
+
+From one reading and the form's agreed rate (one count per reading). The agreed rate is the value of
+the pair fact above most pairs in that form gave (on a tie, the smallest); a form with no pair of its
+own takes the value most pairs in the key's other forms gave.
+
+| Fact | What it is | Unit |
+|---|---|---|
+| `baseHealth` | health less the first 20 stamina at 1 each and the rest at `healthPerStamina` | health |
+| `baseMana` | mana less the first 20 intellect at 1 each and the rest at `manaPerIntellect` | mana |
+| `baseRegen` | mana regen less spirit at `regenPerSpirit` | mana per second |
+| `rangedAttackPowerBase` | ranged attack power less agility at `rangedAttackPowerPerAgility` | attack power |
+
+A reading without its race, class, level or all five stats is left out. A fact a reading can't give
+(no mana, no ranged attack power, an unsettled weapon skill) is left out of it, so a one-reading
+fact's counts can add up to fewer than `readings`.
 
 ## texts.&lt;locale&gt;
 

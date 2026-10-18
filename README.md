@@ -33,6 +33,7 @@ client language (`quests.enUS.json`):
 | `game_rules` | Game rules no client file holds: where new characters start, where class teleports land, the level cap, standing ranges, renown tracks, quest colours, reward spell flags and profession skill caps |
 | `barber` | What a barber offers each race, sex and class: its categories, options and choices, with their order and colour swatches |
 | `hunter_pets` | Beasts hunters tamed or cast Beast Lore on: the pet's family, levels, abilities, swing time, diet and training points; and Beast Training's cost per pet ability |
+| `character_stats` | What players' own character sheets say about each race, class, level and form: base stats, base dodge, parry and crit, base health, mana and regen, and the game's stat conversions |
 | `quests.<locale>` | Every quest as the server describes it: text, levels, objectives, rewards |
 | `creature_details.<locale>` | Every creature's name, title, type, family, rank, models and quest drops |
 | `object_details.<locale>` | Every game object's name, type, model, size and quest drops |
