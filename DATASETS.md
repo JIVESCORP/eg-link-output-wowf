@@ -460,15 +460,14 @@ From one reading (one count per reading):
 | `critPerAgility`, `dodgePerAgility` | melee crit and dodge per point of agility: what the game says the character's agility gives, over that agility | % per point |
 | `spellCritPerIntellect` | spell crit per point of intellect, the same way | % per point |
 | `attackPowerPerStrength`, `attackPowerPerAgility` | attack power per point of strength and of agility, the same way | attack power per point |
-| `baseDodge`, `baseParry` | the game's dodge and parry less what the game says the character's stats give. Defense skill is not taken out, so a character whose Defense is below level x 5 reads lower | % |
+| `baseDodge`, `baseParry` | the game's dodge and parry less what the game says the character's stats give and 0.04% for each point of Defense skill (base and bonus) above or below level x 5. Not from a reading without a Defense value; no `baseParry` from a parry of 0, a character that can't parry (a class without Parry, or before learning it) | % |
 | `baseSpellCrit` | the lowest spell crit of the six magic schools, less what intellect gives | % |
-| `attackPowerBase` | the game's base attack power less what all five stats give (negative for some classes, and its own value in a form) | attack power |
 | `baseMeleeCrit` | the game's melee crit less what agility gives and 0.04% for each point the main hand's weapon skill sits above or below level x 5. Only from readings that settle the skill: in a form, Feral Combat's skill while the game's glancing-blow range holds it; out of forms, the skill of the main hand weapon's skill line (from its item type, through the client's weapon proficiencies), Unarmed when the hand is empty. Not from a crit of 0 | % |
 | `baseRangedCrit` | the same from ranged crit and the ranged slot's skill: Unarmed when the slot is empty or holds an idol, libram, relic or totem; Feral Combat's in a form | % |
 | `armorPerAgility` | armor over agility, only from a reading with nothing worn, no aura and no form | armor per point |
 
-From two readings of one character at one level and form, with the same talents and auras and different
-totals of the stat (one count per pair):
+From two readings of one character at one level and form, with the same talents and auras (for
+`formAttackPowerPerAgility`, the same talents and gear) and different totals of the stat (one count per pair):
 
 | Fact | What it is | Unit |
 |---|---|---|
@@ -476,10 +475,12 @@ totals of the stat (one count per pair):
 | `manaPerIntellect` | the same for mana and intellect; both intellect totals at least 20 | mana per point |
 | `regenPerSpirit` | the same for mana regen (the game's regen while not casting) and spirit | mana per second per point |
 | `rangedAttackPowerPerAgility` | the same for ranged attack power and agility | attack power per point |
+| `formAttackPowerPerAgility` | the same for agility and the attack power the game's stat conversions leave out: what the form itself gives per point of agility (Cat Form's 1; 0 out of forms). Readings may differ in auras, so an aura that adds attack power skews it | attack power per point |
 
 From one reading and the form's agreed rate (one count per reading). The agreed rate is the value of
 the pair fact above most pairs in that form gave (on a tie, the smallest); a form with no pair of its
-own takes the value most pairs in the key's other forms gave.
+own takes the value most pairs in the key's other forms gave, except `formAttackPowerPerAgility`, which is 0
+for a form with no pair of its own.
 
 | Fact | What it is | Unit |
 |---|---|---|
@@ -487,10 +488,12 @@ own takes the value most pairs in the key's other forms gave.
 | `baseMana` | mana less the first 20 intellect at 1 each and the rest at `manaPerIntellect` | mana |
 | `baseRegen` | mana regen less spirit at `regenPerSpirit` | mana per second |
 | `rangedAttackPowerBase` | ranged attack power less agility at `rangedAttackPowerPerAgility` | attack power |
+| `attackPowerBase` | the game's base attack power less what all five stats give and agility at `formAttackPowerPerAgility` (negative for some classes, and its own value in a form, such as Cat Form's 32). A form read without a pair keeps the form's agility part in it | attack power |
 
-A reading without its race, class, level or all five stats is left out. A fact a reading can't give
-(no mana, no ranged attack power, an unsettled weapon skill) is left out of it, so a one-reading
-fact's counts can add up to fewer than `readings`.
+A reading without its race, class, level or all five stats is left out, and so is one with any of the five
+stat totals 0 or less (a sheet read before the game had loaded the character, every number 0). A fact a
+reading can't give (no mana, no ranged attack power, no Defense value, an unsettled weapon skill) is left
+out of it, so a one-reading fact's counts can add up to fewer than `readings`.
 
 ## texts.&lt;locale&gt;
 
