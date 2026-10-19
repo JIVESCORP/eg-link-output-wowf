@@ -3,8 +3,8 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70450",
   "collectedOn": {
-   "first": "2026-10-17",
-   "last": "2026-10-17"
+   "first": "2026-10-18",
+   "last": "2026-10-19"
   },
   "dataset": "character_stats",
   "license": "CC BY 4.0",
@@ -13,6 +13,110 @@
   "sources": 3
  },
  "stats": {
+  "Orc|WARRIOR|1": {
+   "forms": {
+    "17": {
+     "facts": {
+      "agility": {
+       "17": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "attackPowerBase": {
+       "-17": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerStrength": {
+       "2": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "baseDodge": {
+       "0": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "baseSpellCrit": {
+       "1": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "critPerAgility": {
+       "0.25": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "dodgePerAgility": {
+       "0.25": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "intellect": {
+       "19": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "spellCritPerIntellect": {
+       "0": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "spirit": {
+       "20": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "stamina": {
+       "23": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "strength": {
+       "26": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      }
+     },
+     "readings": 2,
+     "sources": 1,
+     "withAuras": 1,
+     "withTalents": 0
+    }
+   },
+   "sources": 1
+  },
   "Orc|WARRIOR|12": {
    "forms": {
     "17": {
@@ -46,14 +150,14 @@
        }
       },
       "baseDodge": {
-       "-0.16": {
+       "0": {
         "count": 1,
         "withAuras": 0,
         "withTalents": 1
        }
       },
       "baseParry": {
-       "4.84": {
+       "5": {
         "count": 1,
         "withAuras": 0,
         "withTalents": 1
@@ -120,6 +224,223 @@
      "sources": 1,
      "withAuras": 0,
      "withTalents": 1
+    },
+    "18": {
+     "facts": {
+      "agility": {
+       "25": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "attackPowerBase": {
+       "16": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "attackPowerPerStrength": {
+       "2": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "baseDodge": {
+       "0": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "baseParry": {
+       "5": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "baseSpellCrit": {
+       "1": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "critPerAgility": {
+       "0.1786": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "dodgePerAgility": {
+       "0.1786": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "intellect": {
+       "20": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "spellCritPerIntellect": {
+       "0": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "spirit": {
+       "23": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "stamina": {
+       "35": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "strength": {
+       "39": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      }
+     },
+     "readings": 1,
+     "sources": 1,
+     "withAuras": 1,
+     "withTalents": 1
+    }
+   },
+   "sources": 1
+  },
+  "Orc|WARRIOR|13": {
+   "forms": {
+    "18": {
+     "facts": {
+      "agility": {
+       "26": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "attackPowerBase": {
+       "19": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "attackPowerPerStrength": {
+       "2": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "baseDodge": {
+       "0": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "baseParry": {
+       "5": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "baseSpellCrit": {
+       "1": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "critPerAgility": {
+       "0.1667": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "dodgePerAgility": {
+       "0.1667": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "intellect": {
+       "20": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "spellCritPerIntellect": {
+       "0": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "spirit": {
+       "24": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "stamina": {
+       "36": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "strength": {
+       "40": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      }
+     },
+     "readings": 5,
+     "sources": 1,
+     "withAuras": 5,
+     "withTalents": 5
     }
    },
    "sources": 1
@@ -157,29 +478,7 @@
        }
       },
       "baseDodge": {
-       "2.96": {
-        "count": 5,
-        "withAuras": 5,
-        "withTalents": 0
-       },
-       "3": {
-        "count": 3,
-        "withAuras": 3,
-        "withTalents": 0
-       },
-       "3.04": {
-        "count": 2,
-        "withAuras": 2,
-        "withTalents": 0
-       },
-       "3.08": {
-        "count": 2,
-        "withAuras": 2,
-        "withTalents": 0
-       }
-      },
-      "baseParry": {
-       "0": {
+       "3.2": {
         "count": 12,
         "withAuras": 12,
         "withTalents": 0
@@ -283,34 +582,7 @@
        }
       },
       "baseDodge": {
-       "2.88": {
-        "count": 2,
-        "withAuras": 2,
-        "withTalents": 0
-       },
-       "2.96": {
-        "count": 2,
-        "withAuras": 2,
-        "withTalents": 0
-       },
-       "3.04": {
-        "count": 4,
-        "withAuras": 4,
-        "withTalents": 0
-       },
-       "3.08": {
-        "count": 1,
-        "withAuras": 1,
-        "withTalents": 0
-       },
-       "3.12": {
-        "count": 3,
-        "withAuras": 3,
-        "withTalents": 0
-       }
-      },
-      "baseParry": {
-       "0": {
+       "3.2": {
         "count": 12,
         "withAuras": 12,
         "withTalents": 0
@@ -414,29 +686,7 @@
        }
       },
       "baseDodge": {
-       "2.92": {
-        "count": 7,
-        "withAuras": 7,
-        "withTalents": 0
-       },
-       "2.96": {
-        "count": 2,
-        "withAuras": 2,
-        "withTalents": 0
-       },
-       "3": {
-        "count": 4,
-        "withAuras": 4,
-        "withTalents": 0
-       },
-       "3.04": {
-        "count": 6,
-        "withAuras": 6,
-        "withTalents": 0
-       }
-      },
-      "baseParry": {
-       "0": {
+       "3.2": {
         "count": 19,
         "withAuras": 19,
         "withTalents": 0
@@ -540,29 +790,7 @@
        }
       },
       "baseDodge": {
-       "2.84": {
-        "count": 3,
-        "withAuras": 3,
-        "withTalents": 0
-       },
-       "2.92": {
-        "count": 4,
-        "withAuras": 4,
-        "withTalents": 0
-       },
-       "2.96": {
-        "count": 7,
-        "withAuras": 7,
-        "withTalents": 0
-       },
-       "3": {
-        "count": 3,
-        "withAuras": 3,
-        "withTalents": 0
-       }
-      },
-      "baseParry": {
-       "0": {
+       "3.2": {
         "count": 17,
         "withAuras": 17,
         "withTalents": 0
@@ -666,34 +894,7 @@
        }
       },
       "baseDodge": {
-       "2.8": {
-        "count": 3,
-        "withAuras": 3,
-        "withTalents": 0
-       },
-       "2.84": {
-        "count": 4,
-        "withAuras": 4,
-        "withTalents": 0
-       },
-       "2.92": {
-        "count": 5,
-        "withAuras": 5,
-        "withTalents": 0
-       },
-       "2.96": {
-        "count": 2,
-        "withAuras": 2,
-        "withTalents": 0
-       },
-       "3": {
-        "count": 13,
-        "withAuras": 13,
-        "withTalents": 0
-       }
-      },
-      "baseParry": {
-       "0": {
+       "3.2": {
         "count": 27,
         "withAuras": 27,
         "withTalents": 0
@@ -797,26 +998,14 @@
        }
       },
       "baseDodge": {
-       "2.8": {
-        "count": 4,
-        "withAuras": 4,
-        "withTalents": 0
-       },
-       "2.84": {
-        "count": 9,
-        "withAuras": 9,
-        "withTalents": 0
-       }
-      },
-      "baseMana": {
-       "178": {
+       "3.2": {
         "count": 13,
         "withAuras": 13,
         "withTalents": 0
        }
       },
-      "baseParry": {
-       "0": {
+      "baseMana": {
+       "178": {
         "count": 13,
         "withAuras": 13,
         "withTalents": 0
@@ -927,7 +1116,7 @@
        }
       },
       "baseDodge": {
-       "4.66": {
+       "4.9": {
         "count": 7,
         "withAuras": 7,
         "withTalents": 7
@@ -945,13 +1134,6 @@
         "count": 5,
         "withAuras": 5,
         "withTalents": 5
-       }
-      },
-      "baseParry": {
-       "0": {
-        "count": 7,
-        "withAuras": 7,
-        "withTalents": 7
        }
       },
       "baseRangedCrit": {
@@ -987,6 +1169,13 @@
         "count": 7,
         "withAuras": 7,
         "withTalents": 7
+       }
+      },
+      "formAttackPowerPerAgility": {
+       "0": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
        }
       },
       "healthPerStamina": {
@@ -1054,15 +1243,10 @@
        }
       },
       "attackPowerBase": {
-       "70": {
-        "count": 2,
-        "withAuras": 2,
-        "withTalents": 2
-       },
-       "75": {
-        "count": 6,
-        "withAuras": 6,
-        "withTalents": 6
+       "32": {
+        "count": 8,
+        "withAuras": 8,
+        "withTalents": 8
        }
       },
       "attackPowerPerAgility": {
@@ -1080,7 +1264,7 @@
        }
       },
       "baseDodge": {
-       "4.66": {
+       "4.9": {
         "count": 8,
         "withAuras": 8,
         "withTalents": 8
@@ -1095,13 +1279,6 @@
       },
       "baseMeleeCrit": {
        "0.9": {
-        "count": 8,
-        "withAuras": 8,
-        "withTalents": 8
-       }
-      },
-      "baseParry": {
-       "0": {
         "count": 8,
         "withAuras": 8,
         "withTalents": 8
@@ -1140,6 +1317,13 @@
         "count": 8,
         "withAuras": 8,
         "withTalents": 8
+       }
+      },
+      "formAttackPowerPerAgility": {
+       "1": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
        }
       },
       "healthPerStamina": {
@@ -1228,7 +1412,7 @@
        }
       },
       "baseDodge": {
-       "4.66": {
+       "4.9": {
         "count": 3,
         "withAuras": 3,
         "withTalents": 3
@@ -1243,13 +1427,6 @@
       },
       "baseMeleeCrit": {
        "0.9": {
-        "count": 3,
-        "withAuras": 3,
-        "withTalents": 3
-       }
-      },
-      "baseParry": {
-       "0": {
         "count": 3,
         "withAuras": 3,
         "withTalents": 3
@@ -1288,6 +1465,13 @@
         "count": 3,
         "withAuras": 3,
         "withTalents": 3
+       }
+      },
+      "formAttackPowerPerAgility": {
+       "0": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
        }
       },
       "healthPerStamina": {
@@ -1381,15 +1565,10 @@
        }
       },
       "baseDodge": {
-       "-0.4": {
-        "count": 2,
-        "withAuras": 2,
-        "withTalents": 2
-       },
-       "-0.44": {
-        "count": 1,
-        "withAuras": 1,
-        "withTalents": 1
+       "0": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
        }
       },
       "baseMeleeCrit": {
@@ -1400,15 +1579,10 @@
        }
       },
       "baseParry": {
-       "4.56": {
-        "count": 1,
-        "withAuras": 1,
-        "withTalents": 1
-       },
-       "4.6": {
-        "count": 2,
-        "withAuras": 2,
-        "withTalents": 2
+       "5": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
        }
       },
       "baseRangedCrit": {
@@ -1437,6 +1611,13 @@
         "count": 3,
         "withAuras": 3,
         "withTalents": 3
+       }
+      },
+      "formAttackPowerPerAgility": {
+       "0": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
        }
       },
       "intellect": {
@@ -1516,18 +1697,6 @@
        }
       },
       "baseDodge": {
-       "-0.12": {
-        "count": 1,
-        "withAuras": 0,
-        "withTalents": 0
-       },
-       "-0.16": {
-        "count": 1,
-        "withAuras": 0,
-        "withTalents": 0
-       }
-      },
-      "baseParry": {
        "0": {
         "count": 2,
         "withAuras": 0,
@@ -1595,6 +1764,124 @@
      "sources": 1,
      "withAuras": 0,
      "withTalents": 0
+    }
+   },
+   "sources": 1
+  },
+  "Tauren|DRUID|10": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "22": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "attackPowerBase": {
+       "-20": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "attackPowerPerStrength": {
+       "2": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "baseDodge": {
+       "0.9": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "baseMeleeCrit": {
+       "0.9": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "baseRangedCrit": {
+       "0.9": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "baseSpellCrit": {
+       "1.8": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "critPerAgility": {
+       "0.1577": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "dodgePerAgility": {
+       "0.1577": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "intellect": {
+       "28": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.1": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "spirit": {
+       "31": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "stamina": {
+       "27": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "strength": {
+       "28": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      }
+     },
+     "readings": 2,
+     "sources": 1,
+     "withAuras": 2,
+     "withTalents": 2
     }
    },
    "sources": 1
