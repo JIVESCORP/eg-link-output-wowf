@@ -475,12 +475,12 @@ From two readings of one character at one level and form, with the same talents 
 | `manaPerIntellect` | the same for mana and intellect; both intellect totals at least 20 | mana per point |
 | `regenPerSpirit` | the same for mana regen (the game's regen while not casting) and spirit | mana per second per point |
 | `rangedAttackPowerPerAgility` | the same for ranged attack power and agility | attack power per point |
-| `formAttackPowerPerAgility` | the same for agility and the attack power the game's stat conversions leave out: what the form itself gives per point of agility (Cat Form's 1; 0 out of forms). Readings may differ in auras, so an aura that adds attack power skews it | attack power per point |
+| `formAttackPowerPerAgility` | the same for agility and the attack power the game's stat conversions leave out: what the form itself gives per point of agility (Cat Form's 1; 0 out of forms). Readings may differ in auras, so a reading whose agility a negative modifier lowers doesn't pair, and a pair whose attack power falls as agility rises doesn't count. A flat attack power bonus on the reading with more agility still skews it | attack power per point |
 
 From one reading and the form's agreed rate (one count per reading). The agreed rate is the value of
 the pair fact above most pairs in that form gave (on a tie, the smallest); a form with no pair of its
 own takes the value most pairs in the key's other forms gave, except `formAttackPowerPerAgility`, which is 0
-for a form with no pair of its own.
+for a form with no pair of its own that counts.
 
 | Fact | What it is | Unit |
 |---|---|---|
@@ -488,7 +488,7 @@ for a form with no pair of its own.
 | `baseMana` | mana less the first 20 intellect at 1 each and the rest at `manaPerIntellect` | mana |
 | `baseRegen` | mana regen less spirit at `regenPerSpirit` | mana per second |
 | `rangedAttackPowerBase` | ranged attack power less agility at `rangedAttackPowerPerAgility` | attack power |
-| `attackPowerBase` | the game's base attack power less what all five stats give and agility at `formAttackPowerPerAgility` (negative for some classes, and its own value in a form, such as Cat Form's 32). A form read without a pair keeps the form's agility part in it | attack power |
+| `attackPowerBase` | the game's base attack power less what all five stats give and agility at `formAttackPowerPerAgility` (negative for some classes, and its own value in a form, such as Cat Form's 32). A form read without a pair that counts keeps the form's agility part in it | attack power |
 
 A reading without its race, class, level or all five stats is left out, and so is one with any of the five
 stat totals 0 or less (a sheet read before the game had loaded the character, every number 0). A fact a
