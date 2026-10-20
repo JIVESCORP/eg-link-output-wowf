@@ -3294,6 +3294,29 @@
    "sources": 1,
    "times": 10
   },
+  "650593": {
+   "name": "Mailbox",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3202,
+     "mapY": 0.6524,
+     "uiMap": 1455,
+     "worldX": -4913.5,
+     "worldY": -966.8
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3245,
+     "mapY": 0.6497,
+     "uiMap": 1455,
+     "worldX": -4912,
+     "worldY": -970.2
+    }
+   ],
+   "sources": 1,
+   "times": 3
+  },
   "656160": {
    "name": "Wilted Peacebloom",
    "positions": [
@@ -3794,13 +3817,13 @@
   "clientBuild": "1.60.1.70450",
   "collectedOn": {
    "first": "2026-10-18",
-   "last": "2026-10-19"
+   "last": "2026-10-20"
   },
   "dataset": "npcs",
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 3
+  "sources": 5
  },
  "npcs": {
   "223": {
@@ -3830,6 +3853,413 @@
     }
    ],
    "side": "Horde",
+   "sources": 1,
+   "windows": 4
+  },
+  "225": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    30
+   ],
+   "name": "Gavin Gnarltree",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7365,
+     "mapY": 0.4881,
+     "uiMap": 1431,
+     "worldX": -10595.3,
+     "worldY": -1155.3
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 1
+  },
+  "265": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    25
+   ],
+   "name": "Madame Eva",
+   "offers": {
+    "66": {
+     "title": "The Legend of Stalvan"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7572,
+     "mapY": 0.4533,
+     "uiMap": 1431,
+     "worldX": -10532.5,
+     "worldY": -1211
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "101": {
+     "title": "The Totem of Infliction"
+    }
+   },
+   "windows": 0
+  },
+  "267": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    31
+   ],
+   "name": "Clerk Daltry",
+   "offers": {
+    "67": {
+     "title": "The Legend of Stalvan"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7257,
+     "mapY": 0.4684,
+     "uiMap": 1431,
+     "worldX": -10559.8,
+     "worldY": -1126
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "66": {
+     "title": "The Legend of Stalvan"
+    }
+   },
+   "windows": 0
+  },
+  "273": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    22
+   ],
+   "name": "Tavernkeep Smitts",
+   "offers": {
+    "159": {
+     "title": "Juice Delivery"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7406,
+     "mapY": 0.4481,
+     "uiMap": 1431,
+     "worldX": -10523.2,
+     "worldY": -1166.2
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "156": {
+     "title": "Gather Rot Blossoms"
+    }
+   },
+   "windows": 0
+  },
+  "352": {
+   "interactions": [
+    "Gossip",
+    "TaxiNode"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    55
+   ],
+   "name": "Dungar Longdrink",
+   "options": {
+    "96455": {
+     "icon": 132057,
+     "name": "I need a ride."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7139,
+     "mapY": 0.7247,
+     "uiMap": 1453,
+     "worldX": -8835.2,
+     "worldY": 482.6
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 6
+  },
+  "381": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-19",
+   "levels": [
+    20
+   ],
+   "name": "Dockmaster Baren",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2255,
+     "mapY": 0.4739,
+     "uiMap": 1433,
+     "worldX": -9261.1,
+     "worldY": -2170.8
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "127": {
+     "title": "Selling Fish"
+    },
+    "150": {
+     "title": "Murloc Poachers"
+    }
+   },
+   "windows": 0
+  },
+  "382": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    35
+   ],
+   "name": "Marshal Marris",
+   "offers": {
+    "19": {
+     "title": "Tharil'zun"
+    },
+    "115": {
+     "infoId": 1,
+     "title": "Shadow Magic"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2832,
+     "mapY": 0.4915,
+     "uiMap": 1433,
+     "worldX": -9286.6,
+     "worldY": -2296.1
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "19": {
+     "title": "Tharil'zun"
+    },
+    "20": {
+     "title": "Blackrock Menace"
+    },
+    "98387": {
+     "title": "Blackrock Blockade"
+    }
+   },
+   "windows": 0
+  },
+  "415": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-19",
+   "levels": [
+    25
+   ],
+   "name": "Verner Osgood",
+   "offers": {
+    "126": {
+     "title": "Howling in the Hills"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.258,
+     "mapY": 0.4722,
+     "uiMap": 1433,
+     "worldX": -9258.7,
+     "worldY": -2241.4
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "124": {
+     "title": "A Baying of Gnolls"
+    }
+   },
+   "windows": 0
+  },
+  "658": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-19",
+   "levels": [
+    5
+   ],
+   "name": "Sten Stoutarm",
+   "offers": {
+    "179": {
+     "level": 0,
+     "title": "Dwarven Outfitters"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.299,
+     "mapY": 0.7122,
+     "uiMap": 1426,
+     "worldX": -6215.5,
+     "worldY": 329.7
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 1
+  },
+  "663": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    20
+   ],
+   "name": "Calor",
+   "offers": {
+    "173": {
+     "title": "Worgen in the Woods"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7526,
+     "mapY": 0.4794,
+     "uiMap": 1431,
+     "worldX": -10579.5,
+     "worldY": -1198.7
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 0
+  },
+  "931": {
+   "interactions": [
+    "Gossip",
+    "TaxiNode"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    55
+   ],
+   "name": "Ariena Stormfeather",
+   "options": {
+    "95852": {
+     "icon": 132057,
+     "name": "Show me where I can fly."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.255,
+     "mapY": 0.5946,
+     "uiMap": 1433,
+     "worldX": -9435.9,
+     "worldY": -2234.9
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 4
+  },
+  "1286": {
+   "interactions": [
+    "Gossip",
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    30
+   ],
+   "name": "Edna Mullby",
+   "options": {
+    "95329": {
+     "icon": 132060,
+     "name": "I want to browse your goods."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6467,
+     "mapY": 0.7133,
+     "uiMap": 1453,
+     "worldX": -8822,
+     "worldY": 599.3
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
+  },
+  "1289": {
+   "interactions": [
+    "Gossip",
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    30
+   ],
+   "name": "Gunther Weller",
+   "options": {
+    "95328": {
+     "icon": 132060,
+     "name": "I want to browse your goods."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6426,
+     "mapY": 0.6883,
+     "uiMap": 1453,
+     "worldX": -8793.1,
+     "worldY": 606.4
+    }
+   ],
+   "side": "Alliance",
    "sources": 1,
    "windows": 4
   },
@@ -5289,6 +5719,28 @@
    "sources": 1,
    "windows": 3
   },
+  "3096": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    22
+   ],
+   "name": "Captured Servant of Azora",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6933,
+     "mapY": 0.794,
+     "uiMap": 1433,
+     "worldX": -9724.6,
+     "worldY": -3186.2
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
   "3216": {
    "interactions": [
     "Gossip",
@@ -5457,6 +5909,178 @@
    "sources": 1,
    "windows": 1
   },
+  "3841": {
+   "interactions": [
+    "Gossip",
+    "TaxiNode"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    55
+   ],
+   "name": "Caylais Moonfeather",
+   "options": {
+    "96834": {
+     "icon": 132057,
+     "name": "I need a ride."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3633,
+     "mapY": 0.4557,
+     "uiMap": 1439,
+     "worldX": 6343.4,
+     "worldY": 561.7
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
+  },
+  "3845": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    25
+   ],
+   "name": "Shindrell Swiftfire",
+   "offers": {
+    "4581": {
+     "title": "Kayneth Stillwind"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3462,
+     "mapY": 0.4884,
+     "uiMap": 1440,
+     "worldX": 2795.7,
+     "worldY": -296.4
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "1134": {
+     "title": "Pridewings of Stonetalon"
+    }
+   },
+   "windows": 0
+  },
+  "3848": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    31
+   ],
+   "name": "Kayneth Stillwind",
+   "offers": {
+    "1011": {
+     "title": "Forsaken Diseases"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.8527,
+     "mapY": 0.4468,
+     "uiMap": 1440,
+     "worldX": 2955.4,
+     "worldY": -3217.1
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "4581": {
+     "title": "Kayneth Stillwind"
+    }
+   },
+   "windows": 0
+  },
+  "3954": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    24
+   ],
+   "name": "Dalria",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3514,
+     "mapY": 0.5208,
+     "uiMap": 1440,
+     "worldX": 2671,
+     "worldY": -326.3
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 1
+  },
+  "3962": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    26
+   ],
+   "name": "Haljan Oakheart",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3487,
+     "mapY": 0.5091,
+     "uiMap": 1440,
+     "worldX": 2716,
+     "worldY": -310.9
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 1
+  },
+  "3967": {
+   "interactions": [
+    "Gossip",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    37
+   ],
+   "name": "Aayndia Floralwind",
+   "options": {
+    "98554": {
+     "icon": 132058,
+     "name": "Train me."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3596,
+     "mapY": 0.5207,
+     "uiMap": 1440,
+     "worldX": 2671.4,
+     "worldY": -373.8
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
+  },
   "4047": {
    "interactions": [
     "Gossip",
@@ -5486,6 +6110,36 @@
    "side": "Horde",
    "sources": 1,
    "windows": 1
+  },
+  "4267": {
+   "interactions": [
+    "Gossip",
+    "TaxiNode"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    55
+   ],
+   "name": "Daelyshia",
+   "options": {
+    "95852": {
+     "icon": 132057,
+     "name": "Show me where I can fly."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3442,
+     "mapY": 0.4801,
+     "uiMap": 1440,
+     "worldX": 2827.4,
+     "worldY": -284.6
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
   },
   "4550": {
    "interactions": [
@@ -5938,6 +6592,48 @@
    },
    "windows": 0
   },
+  "5484": {
+   "interactions": [
+    "Gossip",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-19",
+   "levels": [
+    40
+   ],
+   "name": "Brother Benjamin",
+   "options": {
+    "97304": {
+     "icon": 132053,
+     "name": "Yes. I would like to unlearn my class talents."
+    },
+    "97313": {
+     "icon": 132053,
+     "name": "I wish to unlearn my class or legacy talents."
+    },
+    "97314": {
+     "icon": 132058,
+     "name": "I seek more training in the priestly ways."
+    },
+    "141443": {
+     "icon": 132053,
+     "name": "Yes. I would like to unlearn my legacy talents."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5155,
+     "mapY": 0.4635,
+     "uiMap": 1453,
+     "worldX": -8532.7,
+     "worldY": 827.3
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 6
+  },
   "5688": {
    "interactions": [
     "Binder",
@@ -6326,6 +7022,52 @@
    "sources": 1,
    "windows": 1
   },
+  "8670": {
+   "interactions": [
+    "Auctioneer"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    50
+   ],
+   "name": "Auctioneer Chilton",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6081,
+     "mapY": 0.7141,
+     "uiMap": 1453,
+     "worldX": -8823,
+     "worldY": 666.3
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 3
+  },
+  "9856": {
+   "interactions": [
+    "Auctioneer"
+   ],
+   "lastSeen": "2026-10-19",
+   "levels": [
+    50
+   ],
+   "name": "Auctioneer Grimful",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5499,
+     "mapY": 0.622,
+     "uiMap": 1454,
+     "worldX": 1692.1,
+     "worldY": -4451.9
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 4
+  },
   "10378": {
    "interactions": [
     "Gossip",
@@ -6625,6 +7367,39 @@
     },
     "97286": {
      "title": "Research Access"
+    }
+   },
+   "windows": 0
+  },
+  "221269": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-20",
+   "levels": [
+    31
+   ],
+   "name": "Maseara Autumnmoon",
+   "offers": {
+    "98417": {
+     "title": "Vengeful Trail"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.8625,
+     "mapY": 0.4586,
+     "uiMap": 1440,
+     "worldX": 2910.2,
+     "worldY": -3273.8
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "98417": {
+     "title": "Vengeful Trail"
     }
    },
    "windows": 0
@@ -7354,6 +8129,44 @@
    ],
    "sources": 1,
    "windows": 1
+  },
+  "658919": {
+   "interactions": [
+    "MailInfo"
+   ],
+   "lastSeen": "2026-10-19",
+   "name": "Mailbox",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5353,
+     "mapY": 0.6592,
+     "uiMap": 1454,
+     "worldX": 1657.3,
+     "worldY": -4431.4
+    }
+   ],
+   "sources": 1,
+   "windows": 4
+  },
+  "696264": {
+   "interactions": [
+    "MailInfo"
+   ],
+   "lastSeen": "2026-10-20",
+   "name": "Mailbox",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6167,
+     "mapY": 0.7087,
+     "uiMap": 1453,
+     "worldX": -8816.7,
+     "worldY": 651.4
+    }
+   ],
+   "sources": 1,
+   "windows": 7
   }
  }
 }

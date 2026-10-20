@@ -4,13 +4,13 @@
   "clientBuild": "1.60.1.70450",
   "collectedOn": {
    "first": "2026-10-18",
-   "last": "2026-10-19"
+   "last": "2026-10-20"
   },
   "dataset": "turn_ins",
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 3
+  "sources": 5
  },
  "quests": {
   "8": [
@@ -29,6 +29,206 @@
     "repFrom": "event",
     "sources": 1,
     "xp": 110
+   }
+  ],
+  "20": [
+   {
+    "faction": "Alliance",
+    "level": 21,
+    "money": 1300,
+    "race": "Human",
+    "rep": [
+     {
+      "change": 25,
+      "factionId": 47,
+      "to": 4156
+     },
+     {
+      "change": 25,
+      "factionId": 54,
+      "to": 4106
+     },
+     {
+      "change": 25,
+      "factionId": 69,
+      "to": 3956
+     },
+     {
+      "change": 100,
+      "factionId": 72,
+      "to": 11780
+     },
+     {
+      "change": 25,
+      "factionId": 469,
+      "to": 4156
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 1650
+   }
+  ],
+  "66": [
+   {
+    "faction": "Alliance",
+    "level": 24,
+    "money": 0,
+    "race": "Dwarf",
+    "rep": [
+     {
+      "change": 7,
+      "factionId": 47,
+      "to": 6290
+     },
+     {
+      "change": 7,
+      "factionId": 54,
+      "to": 5315
+     },
+     {
+      "change": 6,
+      "factionId": 69,
+      "to": 5697
+     },
+     {
+      "change": 25,
+      "factionId": 72,
+      "to": 10237
+     },
+     {
+      "change": 7,
+      "factionId": 469,
+      "to": 4765
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 230
+   }
+  ],
+  "124": [
+   {
+    "faction": "Alliance",
+    "level": 20,
+    "money": 900,
+    "race": "Human",
+    "rep": [
+     {
+      "change": 19,
+      "factionId": 47,
+      "to": 4087
+     },
+     {
+      "change": 19,
+      "factionId": 54,
+      "to": 4037
+     },
+     {
+      "change": 19,
+      "factionId": 69,
+      "to": 3887
+     },
+     {
+      "change": 75,
+      "factionId": 72,
+      "to": 11505
+     },
+     {
+      "change": 19,
+      "factionId": 469,
+      "to": 4087
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 1150
+   }
+  ],
+  "127": [
+   {
+    "faction": "Alliance",
+    "level": 21,
+    "money": 1000,
+    "race": "Human",
+    "rep": [
+     {
+      "change": 19,
+      "factionId": 47,
+      "to": 4106
+     },
+     {
+      "change": 19,
+      "factionId": 54,
+      "to": 4056
+     },
+     {
+      "change": 19,
+      "factionId": 69,
+      "to": 3906
+     },
+     {
+      "change": 75,
+      "factionId": 72,
+      "to": 11580
+     },
+     {
+      "change": 19,
+      "factionId": 469,
+      "to": 4106
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 1250
+   }
+  ],
+  "150": [
+   {
+    "faction": "Alliance",
+    "level": 21,
+    "money": 0,
+    "race": "Human",
+    "rep": [
+     {
+      "change": 25,
+      "factionId": 47,
+      "to": 4131
+     },
+     {
+      "change": 25,
+      "factionId": 54,
+      "to": 4081
+     },
+     {
+      "change": 25,
+      "factionId": 69,
+      "to": 3931
+     },
+     {
+      "change": 100,
+      "factionId": 72,
+      "to": 11680
+     },
+     {
+      "change": 25,
+      "factionId": 469,
+      "to": 4131
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 1550
+   }
+  ],
+  "156": [
+   {
+    "faction": "Alliance",
+    "level": 24,
+    "money": 0,
+    "race": "Dwarf",
+    "sources": 1,
+    "xp": 975
    }
   ],
   "354": [
@@ -1316,6 +1516,44 @@
     "xp": 320
    }
   ],
+  "4581": [
+   {
+    "faction": "Alliance",
+    "level": 24,
+    "money": 0,
+    "race": "Dwarf",
+    "rep": [
+     {
+      "change": 6,
+      "factionId": 47,
+      "to": 6296
+     },
+     {
+      "change": 6,
+      "factionId": 54,
+      "to": 5321
+     },
+     {
+      "change": 25,
+      "factionId": 69,
+      "to": 5722
+     },
+     {
+      "change": 6,
+      "factionId": 72,
+      "to": 10243
+     },
+     {
+      "change": 6,
+      "factionId": 469,
+      "to": 4771
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 600
+   }
+  ],
   "5481": [
    {
     "faction": "Horde",
@@ -1860,6 +2098,44 @@
     "race": "Scourge",
     "sources": 1,
     "xp": 270
+   }
+  ],
+  "98387": [
+   {
+    "faction": "Alliance",
+    "level": 21,
+    "money": 1300,
+    "race": "Human",
+    "rep": [
+     {
+      "change": 25,
+      "factionId": 47,
+      "to": 4181
+     },
+     {
+      "change": 25,
+      "factionId": 54,
+      "to": 4131
+     },
+     {
+      "change": 25,
+      "factionId": 69,
+      "to": 3981
+     },
+     {
+      "change": 100,
+      "factionId": 72,
+      "to": 11880
+     },
+     {
+      "change": 25,
+      "factionId": 469,
+      "to": 4181
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 1650
    }
   ],
   "98389": [

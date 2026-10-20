@@ -1,5 +1,25 @@
 {
  "masters": {
+  "352": {
+   "name": "Dungar Longdrink",
+   "node": 2,
+   "sources": 1
+  },
+  "931": {
+   "name": "Ariena Stormfeather",
+   "node": 5,
+   "sources": 1
+  },
+  "3841": {
+   "name": "Caylais Moonfeather",
+   "node": 26,
+   "sources": 1
+  },
+  "4267": {
+   "name": "Daelyshia",
+   "node": 28,
+   "sources": 1
+  },
   "10378": {
    "name": "Omusa Thunderhorn",
    "node": 77,
@@ -11,15 +31,307 @@
   "clientBuild": "1.60.1.70450",
   "collectedOn": {
    "first": "2026-10-18",
-   "last": "2026-10-19"
+   "last": "2026-10-20"
   },
   "dataset": "flights",
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 3
+  "sources": 5
  },
  "routes": {
+  "26>28": {
+   "costs": {
+    "5": 330
+   },
+   "hops": [
+    26,
+    28
+   ],
+   "sources": 1
+  },
+  "26>32": {
+   "costs": {
+    "5": 630
+   },
+   "hops": [
+    26,
+    32
+   ],
+   "sources": 1
+  },
+  "26>33": {
+   "costs": {
+    "5": 330
+   },
+   "hops": [
+    26,
+    33
+   ],
+   "sources": 1
+  },
+  "26>37": {
+   "costs": {
+    "5": 530
+   },
+   "hops": [
+    26,
+    37
+   ],
+   "sources": 1
+  },
+  "26>41": {
+   "costs": {
+    "5": 730
+   },
+   "hops": [
+    26,
+    41
+   ],
+   "sources": 1
+  },
+  "26>49": {
+   "costs": {
+    "5": 830
+   },
+   "hops": [
+    26,
+    49
+   ],
+   "sources": 1
+  },
+  "26>64": {
+   "costs": {
+    "5": 730
+   },
+   "hops": [
+    26,
+    64
+   ],
+   "sources": 1
+  },
+  "26>65": {
+   "costs": {
+    "5": 730
+   },
+   "hops": [
+    26,
+    65
+   ],
+   "sources": 1
+  },
+  "28>26": {
+   "costs": {
+    "5": 330
+   },
+   "hops": [
+    28,
+    26
+   ],
+   "sources": 1
+  },
+  "28>27": {
+   "costs": {
+    "5": 330
+   },
+   "hops": [
+    28,
+    26,
+    27
+   ],
+   "sources": 1
+  },
+  "28>33": {
+   "costs": {
+    "5": 330
+   },
+   "hops": [
+    28,
+    33
+   ],
+   "sources": 1
+  },
+  "28>64": {
+   "costs": {
+    "5": 730
+   },
+   "hops": [
+    28,
+    64
+   ],
+   "sources": 1
+  },
+  "2>12": {
+   "arrivals": [
+    {
+     "instance": 0,
+     "mapX": 0.7759,
+     "mapY": 0.4438,
+     "uiMap": 1431,
+     "worldX": -10515.5,
+     "worldY": -1261.7
+    }
+   ],
+   "costs": {
+    "6": 297
+   },
+   "hops": [
+    2,
+    12
+   ],
+   "seconds": {
+    "117": 1
+   },
+   "sources": 1
+  },
+  "2>19": {
+   "costs": {
+    "6": 567
+   },
+   "hops": [
+    2,
+    19
+   ],
+   "sources": 1
+  },
+  "2>4": {
+   "costs": {
+    "6": 99
+   },
+   "hops": [
+    2,
+    4
+   ],
+   "sources": 1
+  },
+  "2>45": {
+   "costs": {
+    "6": 747
+   },
+   "hops": [
+    2,
+    45
+   ],
+   "sources": 1
+  },
+  "2>5": {
+   "arrivals": [
+    {
+     "instance": 0,
+     "mapX": 0.2534,
+     "mapY": 0.5899,
+     "uiMap": 1433,
+     "worldX": -9429.1,
+     "worldY": -2231.4
+    }
+   ],
+   "costs": {
+    "6": 189
+   },
+   "hops": [
+    2,
+    5
+   ],
+   "seconds": {
+    "113": 2
+   },
+   "sources": 1
+  },
+  "2>6": {
+   "costs": {
+    "6": 45
+   },
+   "hops": [
+    2,
+    6
+   ],
+   "sources": 1
+  },
+  "2>71": {
+   "costs": {
+    "6": 747
+   },
+   "hops": [
+    2,
+    71
+   ],
+   "sources": 1
+  },
+  "5>12": {
+   "costs": {
+    "6": 297
+   },
+   "hops": [
+    5,
+    12
+   ],
+   "sources": 1
+  },
+  "5>2": {
+   "arrivals": [
+    {
+     "instance": 0,
+     "mapX": 0.7161,
+     "mapY": 0.7225,
+     "uiMap": 1453,
+     "worldX": -8832.8,
+     "worldY": 478.6
+    }
+   ],
+   "costs": {
+    "6": 189
+   },
+   "hops": [
+    5,
+    2
+   ],
+   "seconds": {
+    "112": 1,
+    "113": 1
+   },
+   "sources": 1
+  },
+  "5>3276": {
+   "costs": {
+    "6": 567
+   },
+   "hops": [
+    5,
+    3276
+   ],
+   "sources": 1
+  },
+  "5>4": {
+   "costs": {
+    "6": 99
+   },
+   "hops": [
+    5,
+    4
+   ],
+   "sources": 1
+  },
+  "5>6": {
+   "costs": {
+    "6": 234
+   },
+   "hops": [
+    5,
+    2,
+    6
+   ],
+   "sources": 1
+  },
+  "5>71": {
+   "costs": {
+    "6": 747
+   },
+   "hops": [
+    5,
+    71
+   ],
+   "sources": 1
+  },
   "77>22": {
    "costs": {
     "5": 110

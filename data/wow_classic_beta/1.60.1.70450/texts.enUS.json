@@ -540,6 +540,32 @@
     "times": 1
    }
   ],
+  "npc:352": [
+   {
+    "broadcastTextIds": [
+     3407
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Where is it ye would like to go $g lad : lass;? For just a few coin my Gryphons can get ye there faster than even the swiftest horse.",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     3408
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "These great beasts know paths that ye can't find on foot, they'll get ye there fast and maybe show ye something new at the same time.",
+    "times": 1
+   }
+  ],
   "npc:3549": [
    {
     "broadcastTextIds": [
@@ -554,6 +580,34 @@
     "times": 2
    }
   ],
+  "npc:3841": [
+   {
+    "broadcastTextIds": [
+     8098
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The Hippogryph is a noble beast, proud and swift.  They are an honor to train, and can quickly take their rider a great distance.",
+    "times": 1
+   }
+  ],
+  "npc:3967": [
+   {
+    "broadcastTextIds": [
+     8033
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Always double-check your measurements before you begin to cut the leather. We cannot afford to waste materials.",
+    "times": 1
+   }
+  ],
   "npc:4047": [
    {
     "broadcastTextIds": [
@@ -566,6 +620,20 @@
     "sources": 1,
     "template": "broadcastText",
     "text": "Greetings, traveler.",
+    "times": 1
+   }
+  ],
+  "npc:4267": [
+   {
+    "broadcastTextIds": [
+     10753
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Where would you like to fly to?",
     "times": 1
    }
   ],
@@ -677,6 +745,32 @@
     "times": 1
    }
   ],
+  "npc:5484": [
+   {
+    "broadcastTextIds": [
+     7156
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I trust the Light is with you, $n. Is there something that I can I help you with?",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     8263
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "If you desire, in addition to training, I have it within my power to erase the knowledge of your talents from your mind.  Be warned that every time you undergo this procedure the more difficult it is to perform, and therefore the more expensive it becomes.",
+    "times": 1
+   }
+  ],
   "npc:5688": [
    {
     "broadcastTextIds": [
@@ -733,6 +827,20 @@
     "times": 2
    }
   ],
+  "npc:658": [
+   {
+    "broadcastTextIds": [
+     7589
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Ah, well aren't you a sturdy-looking one? Perhaps you can assist me with a thing or two. Not much help around here except for green apprentices, and they've other things to worry about.",
+    "times": 1
+   }
+  ],
   "npc:6739": [
    {
     "broadcastTextIds": [
@@ -773,6 +881,20 @@
     "template": "broadcastText",
     "text": "Welcome to Blue Moon Odds and Ends, $c.  If you have any questions, please let me know.",
     "times": 1
+   }
+  ],
+  "npc:931": [
+   {
+    "broadcastTextIds": [
+     10753
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Where would you like to fly to?",
+    "times": 2
    }
   ],
   "object:180666": [
@@ -866,6 +988,56 @@
     "text": "Hello, $C.  If you're here, then you must know that Silverpine is saturated with our enemies.  To survive, the Forsaken must drive them back!",
     "times": 2
    }
+  ],
+  "npc:265": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "I have sensed your coming for quite some time, $N.  It was written in the pattern of the stars.",
+    "times": 1
+   }
+  ],
+  "npc:381": [
+   {
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "text": "Well met, $C.  If you're here for business, then get yourself a brew and we'll have ourselves a talk.",
+    "times": 2
+   }
+  ],
+  "npc:382": [
+   {
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "text": "I don't have time to chat, citizen, but if you're willing to give us a hand against the orcs, then I'll find a use for you.",
+    "times": 2
+   }
+  ],
+  "npc:3845": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "We elves have a long history.  Let us hope this history does not return to haunt us.",
+    "times": 1
+   }
+  ],
+  "npc:3848": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "The balance of nature is a delicate one, and easily tipped.  Are you brave enough to make things right?",
+    "times": 1
+   }
   ]
  },
  "meta": {
@@ -873,14 +1045,14 @@
   "clientBuild": "1.60.1.70450",
   "collectedOn": {
    "first": "2026-10-18",
-   "last": "2026-10-19"
+   "last": "2026-10-20"
   },
   "dataset": "texts",
   "license": "CC BY 4.0",
   "locale": "enUS",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 3,
+  "sources": 5,
   "withheld": {
    "addon": {
     "books": 0,
@@ -908,6 +1080,326 @@
       "npc:5688": 1
      },
      "text": "Oh? A letter? Wonderful news! I've been waiting on word from my dear old mother in Deathknell. Such a saint, she is. I wonder how she's holding up.\n\nWhat? Too cheery? Not buying it, are you?\n\nWell, get lost then... it's really no business who the letter's from anyway. Go on! Get lost!\n\nCome back when you've got some coin to spend... loafer.\n\nNext thing you know, you'll be coming back to rest after a long days adventure or some stupid thing like that.",
+     "times": 1
+    }
+   ]
+  },
+  "19": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "template": "questCache",
+     "text": "Blackrock Outrunners and Renegades are running ambushes between here and Stonewatch Keep.  The leader of the Outrunners is an orc named Tharil'zun--we want this orc.  Bring me the head of Tharil'zun!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "template": "questCache",
+     "text": "Bring Tharil'zun's Head to Marshal Marris in Redridge.",
+     "times": 1
+    }
+   ]
+  },
+  "20": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "text": "That makes for a lot fewer orcs to worry about, thanks.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "text": "Have you been slaying orcs, $N?  If so, then show me...",
+     "times": 1
+    }
+   ]
+  },
+  "66": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:265": 1
+     },
+     "template": "questCache",
+     "text": "Last night a horrible disturbance rippled through my veins.  I sensed that my granddaughter, Alyssa, was in great danger.  I consulted the cards and Death stared up at me from the table.$b$bAfter taking a long journey through a dark trance I was able to uncover a clue to this terrifying mystery.  A name came to me, the name of Stalvan.$b$bSeek out the Clerk in the Town Hall and see if you can find out more about this character.  I fear for us all.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:267": 1
+     },
+     "text": "Ah so Madame Eva sent you. . . .",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:265": 1
+     },
+     "template": "questCache",
+     "text": "Seek out the Clerk Daltry in the Darkshire Town Hall.",
+     "times": 1
+    }
+   ]
+  },
+  "115": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "template": "questCache",
+     "text": "The Blackrock orcs enlisted shadowcasters to aid their attacks in Redridge, and they have brought with them devices of dark power--midnight orbs.  These orbs have struck telling blows against Redridge's defenders, and it's imperative we remove the demon-tainted items from the conflict.$B$BFind and deliver to me midnight orbs from slain Blackrock shadowcasters.  I will then have them disposed of, for this world would be a better place without them!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "template": "questCache",
+     "text": "Bring 3 Midnight Orbs to Marshal Marris in Lakeshire.",
+     "times": 1
+    }
+   ]
+  },
+  "124": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:415": 1
+     },
+     "text": "Thank you for all your help, $N.",
+     "times": 1
+    }
+   ]
+  },
+  "126": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:415": 1
+     },
+     "template": "questCache",
+     "text": "$n, the gnolls are still out there.  I can hear their baying as they hunt in the hills above Lakeshire.  And one cry is louder than the rest - Yowler,  their leader.$B$BKill Yowler and send his pack scattering!  Bring me his paw as proof.$B$BAnd be careful, this gnoll is their leader for a reason.  He is no Mongrel...",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:415": 1
+     },
+     "template": "questCache",
+     "text": "Bring Yowler's Paw to Verner Osgood in Lakeshire.",
+     "times": 1
+    }
+   ]
+  },
+  "127": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:381": 2
+     },
+     "text": "Pleasure doin' business with you, matey!",
+     "times": 2
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:381": 2
+     },
+     "text": "You have some sunfish for me, eh?",
+     "times": 2
+    }
+   ]
+  },
+  "150": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:381": 1
+     },
+     "text": "Well done, $N.  I hope you didn't have too much trouble with those murlocs.\n\nIt's strange seeing them so far from the sea.  I wonder if they're here because they're running from something...",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:381": 1
+     },
+     "text": "Do you have those fins?  Hurry, we need those murlocs driven from the lake!",
+     "times": 1
+    }
+   ]
+  },
+  "156": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:273": 1
+     },
+     "text": "Good,  you got the rot blossoms.  And I'll tell Althea Ebonlocke of the Night Watch that you were killing skeletons.\n\nKeeping the people of Darkshire safe is a grim burden for the Night Watch, and news that others are helping stem the tide of fiends in Duskwood is welcome news indeed.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:273": 1
+     },
+     "text": "Hi, $N.  Do you have those rot blossoms for me yet?",
+     "times": 1
+    }
+   ]
+  },
+  "173": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:663": 1
+     },
+     "template": "questCache",
+     "text": "Darkness seems drawn inexorably to Duskwood. Master Carevin's quest is the expulsion of evil and heresy. Through our efforts are the people of Darkshire kept safe.$b$bYou believe yourself worthy to join us?$b$bI once thought as you. Disillusioned by the complacency of the Watch, I joined Master Carevin. If you wish to prove yourself, it will not be through words.$b$bTest your skills against the Nightbane Shadow Weaver worgen in Brightwood Grove--bright, hah!--and the Rotting Orchard.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:663": 1
+     },
+     "template": "questCache",
+     "text": "Kill 6 Nightbane Shadow Weaver worgen for Calor in Darkshire.",
+     "times": 1
+    }
+   ]
+  },
+  "179": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:658": 1
+     },
+     "template": "questCache",
+     "text": "What do we have here? You look as though you might need something to keep your hands warm, hm?$b$bI'll tell you what would help: a pair of nice, warm gloves. And, being the kind soul that I am, I'd be more than happy to provide you with a suitable pair. I've one condition, however.$b$bI need you to go get me some wolf meat. Nice arrangement, hm? You bring me some wolf meat, and I'll make sure you don't lose any digits to frostbite. Well, what do you say?",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:658": 1
+     },
+     "template": "questCache",
+     "text": "Sten Stoutarm would like 8 pieces of Tough Wolf Meat.",
      "times": 1
     }
    ]
@@ -2284,6 +2776,34 @@
     }
    ]
   },
+  "4581": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3848": 1
+     },
+     "text": "Ah, Shindrell's report!  Many thanks, $N.  Shindrell is a fine sentinel, brave and keen.  I must read this for clues of a wickedness I fear is moving through Ashenvale.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3848": 1
+     },
+     "text": "Do you have something for me?",
+     "times": 1
+    }
+   ]
+  },
   "5481": {
    "complete": [
     {
@@ -2959,6 +3479,49 @@
      },
      "template": "questCache",
      "text": "Speak with Rand Rhobart on the road to Undercity from Brill to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+     "times": 1
+    }
+   ]
+  },
+  "98387": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "text": "Excellent work, $N. With the Blackrock orcs cut off from their allies in the Burning Steppes, they will have no hope of maintaining their foothold here without proper supplies.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "text": "Most of what you find will have been raided from Lakeshire anyway. It will do me good to know our people will thrive while the orcs wither.",
+     "times": 1
+    }
+   ]
+  },
+  "98417": {
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:221269": 1
+     },
+     "text": "What have you found within the hills of our forest?",
      "times": 1
     }
    ]
