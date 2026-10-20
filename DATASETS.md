@@ -149,6 +149,9 @@ of that class saw.
 - `kills[key]`, keyed as the corpse: `deaths`, `empty` (corpses with nothing on them), `unknown`
   (corpses the game didn't say about), `levels[level]`, `sources`, and under a `|quest` key
   `quests[questId]`: the corpses tied to each quest (`deaths`, `empty`, `unknown`, `sources`).
+  Under a `|group` key, `empty` overcounts: the addon counts a corpse empty whenever the game says
+  this character can't loot it, which a corpse meant for another member does. The counts are
+  published as they are, but a group key's `chance` doesn't use them (see below).
 - `rolls[key]`, a dungeon boss's items that went to a need/greed roll, from the game's loot history
   rather than a loot window. Keyed `encounter:<encounterId>|threshold:<quality>`: the boss encounter
   (the game's encounter ID, as the `encounters` dataset keys it) and the group's loot threshold (2
@@ -164,8 +167,12 @@ of that class saw.
 
 `chance` is the expected number of that item per kill: the share of corpses with loot
 ((`deaths` - `empty` - `unknown`) / (`deaths` - `unknown`)) times `drops` / `windows`. For a source
-with no kill count (nodes, chests, skinning, containers) it is `drops` / `windows`. It is rounded half
-up to 4 decimals. With few kills it is rough; the counts are there to judge it.
+with no kill count (nodes, chests, skinning, containers) it is `drops` / `windows`. A `|group` corpse
+key's share of corpses with loot comes from the same key without `|group` (`npc:3258|quest|group`
+takes `npc:3258|quest`'s): under `quests[questId]`, that key's count for the quest, else its whole
+count; each only with at least 10 looked deaths (`deaths` - `unknown`). With neither, the chance is
+`drops` / `windows`. It is rounded half up to 4 decimals. With few kills it is rough; the counts are
+there to judge it.
 
 Under `rolls`, `chance` is `drops` / (`kills` + `unconfirmed`), rounded the same way. A boss's corpse
 under `sources` holds only what was left when the player opened it, so in a group a rolled item is
@@ -175,7 +182,7 @@ first. Nothing about who rolled or won is recorded. Counted by EG Link releases 
 A creature can be tied to several quests at once: killed for one quest, say, and looted for another's
 item. A quest item drops only for a character on the quest that needs it, so its chance per kill is the
 one under that quest, `sources[key].quests[questId].items[itemId].chance`, worked out from that quest's
-own `windows` and `kills`. The chance on the key itself mixes in every other quest's kills. The game
+own `windows` and `kills` (under a `|group` key, as above). The chance on the key itself mixes in every other quest's kills. The game
 rarely says which quest a drop is for (an item's `quest` is usually `true`), so look up which quest
 needs the item in the quest's own data: its objectives and `itemDrops` in `quests.<locale>`. Counted by
 EG Link releases after 0.2.9.
