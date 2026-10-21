@@ -122,6 +122,7 @@
   "npc:1496": [
    {
     "broadcastTextIds": [
+     4857,
      6788
     ],
     "sexes": {
@@ -136,6 +137,7 @@
   "npc:1652": [
    {
     "broadcastTextIds": [
+     4857,
      6788
     ],
     "sexes": {
@@ -150,6 +152,7 @@
   "npc:1742": [
    {
     "broadcastTextIds": [
+     4857,
      6788
     ],
     "sexes": {
@@ -164,6 +167,7 @@
   "npc:1746": [
    {
     "broadcastTextIds": [
+     4857,
      6788
     ],
     "sexes": {
@@ -314,6 +318,7 @@
    },
    {
     "broadcastTextIds": [
+     4857,
      6788
     ],
     "sexes": {
@@ -478,6 +483,16 @@
     "times": 1
    }
   ],
+  "npc:3143": [
+   {
+    "sexes": {
+     "female": 7
+    },
+    "sources": 1,
+    "text": "The Valley of Trials will temper even the weakest into a warrior worthy to join the Horde. Those who cannot rise to its tests will be left to bake in the scorching desert sun.",
+    "times": 7
+   }
+  ],
   "npc:3216": [
    {
     "broadcastTextIds": [
@@ -540,18 +555,85 @@
     "times": 1
    }
   ],
-  "npc:352": [
+  "npc:3296": [
    {
     "broadcastTextIds": [
-     3407
+     324030
     ],
     "sexes": {
      "male": 2
     },
     "sources": 1,
     "template": "broadcastText",
-    "text": "Where is it ye would like to go $g lad : lass;? For just a few coin my Gryphons can get ye there faster than even the swiftest horse.",
+    "text": "In the Cleft of Shadow Kor'ghan is waiting with shears sharper than a guard's sword.",
     "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     4857,
+     6788
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What are you looking for?",
+    "times": 2
+   }
+  ],
+  "npc:3429": [
+   {
+    "sexes": {
+     "male": 4
+    },
+    "sources": 1,
+    "text": "Welcome to the Crossroads, $c. My name is Thork--I lead the defenses here in the name of the Warchief.\n\nPlease, feel free to make yourself at home. As long as you mind your business, no one should have any problem with you taking up some space.\n\nThere are many threats to our safety here. If you've already become familiar with the lay of the land, speak to the others here--perhaps they have tasks for you to do.",
+    "times": 4
+   }
+  ],
+  "npc:3442": [
+   {
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "text": "Director Riddlevox put me in charge of the Union's shredder development program. Few months on the job and I'm already in hot water! I could use your help, $N!",
+    "times": 2
+   }
+  ],
+  "npc:3448": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "The times we live in are as fickle as the shifting winds, $c.  It is important to remember what is true and lasting in this world, and to preserve that.  Everything else is a waste.",
+    "times": 1
+   }
+  ],
+  "npc:3489": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Have a look at my meats, friend.  You won't want to go out into the Barrens without a good stock of provisions.",
+    "times": 1
+   }
+  ],
+  "npc:352": [
+   {
+    "broadcastTextIds": [
+     3407
+    ],
+    "sexes": {
+     "male": 3
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Where is it ye would like to go $g lad : lass;? For just a few coin my Gryphons can get ye there faster than even the swiftest horse.",
+    "times": 3
    },
    {
     "broadcastTextIds": [
@@ -578,6 +660,16 @@
     "template": "broadcastText",
     "text": "Skin, glorious skin. It holds your insides... in. You might've noticed my skin's not doing so well. To think I used to worry about my pores. Hardly any skin left to worry about these days. In a way, it's very freeing.",
     "times": 2
+   }
+  ],
+  "npc:3615": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "My wind riders are trained to fly quickly through the hot Barrens air.",
+    "times": 1
    }
   ],
   "npc:3841": [
@@ -751,24 +843,24 @@
      7156
     ],
     "sexes": {
-     "male": 1
+     "male": 2
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "I trust the Light is with you, $n. Is there something that I can I help you with?",
-    "times": 1
+    "times": 2
    },
    {
     "broadcastTextIds": [
      8263
     ],
     "sexes": {
-     "male": 1
+     "male": 2
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "If you desire, in addition to training, I have it within my power to erase the knowledge of your talents from your mind.  Be warned that every time you undergo this procedure the more difficult it is to perform, and therefore the more expensive it becomes.",
-    "times": 1
+    "times": 2
    }
   ],
   "npc:5688": [
@@ -819,12 +911,12 @@
      2545
     ],
     "sexes": {
-     "male": 2
+     "male": 3
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "It is not yet your time. I shall aid your journey back to the realm of the living... for a price.",
-    "times": 2
+    "times": 3
    }
   ],
   "npc:658": [
@@ -861,11 +953,31 @@
      2824
     ],
     "sexes": {
-     "male": 1
+     "male": 2
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "Rest your weary bones for a spell.",
+    "times": 2
+   }
+  ],
+  "npc:6791": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Come in, come in. Just don't sit too close to the stove. It hasn't exploded yet today, but just to be safe I think you should sit elsewhere.",
+    "times": 1
+   }
+  ],
+  "npc:6928": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "If we are to make these new lands ours then we must have places to rest our battle weary bodies. Lay your axe by the fire and share the stories of your mighty battles.",
     "times": 1
    }
   ],
@@ -999,6 +1111,46 @@
     "times": 1
    }
   ],
+  "npc:3338": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "The land, the water, and the sky are all as one. It is your eyes that deceive you with such separation. The Earthmother is all those things and more.",
+    "times": 1
+   }
+  ],
+  "npc:3390": [
+   {
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "text": "The Barrens holds a wealth of substances for which we, the apothecaries or Lordaeron, may find use.",
+    "times": 2
+   }
+  ],
+  "npc:3391": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Thrall paid me and my boys well for helping out with the construction of Orgrimmar, so I decided to set up a port here. We do most of our business through Booty Bay and Baron Revilgaz.",
+    "times": 1
+   }
+  ],
+  "npc:3453": [
+   {
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "text": "Something I can help you with, $N? There's a shipment I've got to see to otherwise.",
+    "times": 2
+   }
+  ],
   "npc:381": [
    {
     "sexes": {
@@ -1038,14 +1190,24 @@
     "text": "The balance of nature is a delicate one, and easily tipped.  Are you brave enough to make things right?",
     "times": 1
    }
+  ],
+  "object:3972": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": " ",
+    "times": 1
+   }
   ]
  },
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70450",
   "collectedOn": {
-   "first": "2026-10-18",
-   "last": "2026-10-20"
+   "first": "2026-10-20",
+   "last": "2026-10-21"
   },
   "dataset": "texts",
   "license": "CC BY 4.0",
@@ -2589,6 +2751,64 @@
     }
    ]
   },
+  "788": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3143": 1
+     },
+     "text": "Hmmm, not bad, $N. But don't let it get to your head...you'll fight tougher than boars in your career.\n\nNonetheless, you've proven yourself well, and your next trial will be against a considerably more dangerous opponent, so you'll need some extra protection.",
+     "times": 1
+    }
+   ]
+  },
+  "790": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3287": 1
+     },
+     "text": "My blow was not enough to kill him, but looking at the damage I inflicted gives me some small measure of pride. That small measure will be all I have to sustain myself if I die, and in that light, the short list of my life's accomplishments fills me with anger.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3287": 1
+     },
+     "text": "Ahhh... my father always said I would never amount to much, and here, lying beneath a tree as life seeps away, I'm afraid it looks like he was right.\n\nAt least I wish to die knowing that my last enemy in life lays dead.",
+     "times": 1
+    }
+   ]
+  },
+  "804": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3143": 1
+     },
+     "text": "From your description of the beast, I believe you must be speaking of Sarkoth! It is no wonder that Hana'zua was overtaken by it. Aid will be dispatched to him immediately, trouble yourself no more with Hana'zua's plight.\n\nHowever, I must say, I am most impressed to hear that you brought Sarkoth to death. It is a feat to be proud of, $N. And that you would fight for a stranger's honor, while other tasks occupied your time, your own honor is heightened.",
+     "times": 1
+    }
+   ]
+  },
   "809": {
    "accept": [
     {
@@ -2619,6 +2839,34 @@
     }
    ]
   },
+  "819": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3292": 1
+     },
+     "text": "Well, I'll be...\n\nThis was one of Chen Stormstout's kegs. He traveled with Rexxar a long time ago. I haven't seen or heard about him in a kodo's age. I appreciate you bringing this to me, $N.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3292": 1
+     },
+     "text": "Yes?",
+     "times": 1
+    }
+   ]
+  },
   "829": {
    "complete": [
     {
@@ -2643,6 +2891,176 @@
       "npc:3216": 1
      },
      "text": "My most humble greetings, $c.  How might I help my $r brother today?",
+     "times": 1
+    }
+   ]
+  },
+  "840": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3337": 1
+     },
+     "text": "Oh, so Takrin sent you? He's an excellent scout, I'm not sure what I'd do without him.\n\nI'll sign your recruitment letter, but what we really need is someone at the Crossroads.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3337": 1
+     },
+     "text": "What do you want, pup? If you're not here for recruitment, I don't have time for you.",
+     "times": 1
+    }
+   ]
+  },
+  "842": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3338": 1
+     },
+     "text": "Alright, $N. You want to earn your keep with the Horde? Well there's plenty to do here, so listen close and do what you're told.\n\n I see that look in your eyes, do not think I will tolerate any insolence. Thrall himself has declared the Hordes females to be on equal footing with you men. Disrespect me in the slightest, and you will know true pain.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3338": 1
+     },
+     "text": "Well well well, what do we have here? Has Kargal deemed me worthy of another recruit?",
+     "times": 1
+    }
+   ]
+  },
+  "844": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3338": 1
+     },
+     "text": "Very good, $N.  With the plainstriders gone we'll have an easier time keeping our supply chains intact.  And I hope you learned a few tricks out there in the Barrens, for your next prey has a little more fire in its blood than the plainstriders...",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3338": 1
+     },
+     "text": "Have you collected the plainstrider beaks?",
+     "times": 1
+    }
+   ]
+  },
+  "871": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3429": 1
+     },
+     "text": "You have done well, $N. Those insolent quilboars will finally learn that the might of the Horde is not to be ignored.",
+     "times": 1
+    }
+   ]
+  },
+  "887": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3391": 1
+     },
+     "text": "You did good, kid. A little more work like that, and it'll be one less thing I'll have to worry about. Hopefully they'll be convinced that they should relocate their operation elsewhere.\n\nIn the meantime, there is the small matter of getting back the goods they stole from me!",
+     "times": 1
+    }
+   ]
+  },
+  "890": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3453": 1
+     },
+     "text": "Ah, Gazlowe sent you, did he? Just a moment, let me take a look here and check my own logs and make sure I didn't have Gazlowe's shipment sent to the wrong place.\n\nBet he's waiting for those boots from Drizzlek...",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3453": 1
+     },
+     "text": "Wares to send on the next ship, $N?",
+     "times": 1
+    }
+   ]
+  },
+  "892": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3391": 1
+     },
+     "text": "No dice, eh? I guess it must have been the Freebooters then... Dizzywig's on the level, I'm sure he wouldn't cheat me like that. After all, he is on the payroll.\n\nLooks like I've got some goods to get back, $N. What do you say?",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3391": 1
+     },
+     "text": "So, what did Dizzywig have to say?",
      "times": 1
     }
    ]
@@ -2677,6 +3095,34 @@
     }
    ]
   },
+  "1358": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3390": 1
+     },
+     "text": "Ah, very good.  If initial reports are true, then the toxicity of these hearts could lead to further advances in our knowledge of poisons.\n\nThis is a welcome delivery, $N.  Your reward is well earned.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3390": 1
+     },
+     "text": "You have a package for me?",
+     "times": 1
+    }
+   ]
+  },
   "1359": {
    "complete": [
     {
@@ -2701,6 +3147,34 @@
       "npc:5204": 1
      },
      "text": "You have something for me?",
+     "times": 1
+    }
+   ]
+  },
+  "1492": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3453": 1
+     },
+     "text": "A small enough crate. Yes, I should be able to find room for this aboard the ship. It sails with the next tide, I trust this is soon enough? Excellent. Let me just enter it into my ledger.\n\nAll taken care of! Good day to you, $c.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3453": 1
+     },
+     "text": "You seek passage on the next ship, or have some item you wish to send aboard it?",
      "times": 1
     }
    ]
@@ -2800,6 +3274,21 @@
       "npc:3848": 1
      },
      "text": "Do you have something for me?",
+     "times": 1
+    }
+   ]
+  },
+  "4641": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3143": 1
+     },
+     "text": "Another one of Kaltunk's recruits, hm?\n\nA sorry state of affairs we find ourselves in if this is the best the Horde can produce. No matter. By the time we think you're ready to leave the Valley, you'll be a proud warrior of the Horde.",
      "times": 1
     }
    ]
@@ -3249,6 +3738,36 @@
     }
    ]
   },
+  "92706": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:3972": 1
+     },
+     "template": "questCache",
+     "text": "Calling all anglers!\r\n\r\nA giant shark has been circling the waters near the shipping dock, attacking sailors and small boats. Dockworkers have given it the nickname \"Bruuz\". A hefty reward will be given to whoever brings me its fin!\r\n\r\n-- Gazlowe",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:3972": 1
+     },
+     "template": "questCache",
+     "text": "Bring Bruuz's Dorsal Fin to Gazlowe in Ratchet.",
+     "times": 1
+    }
+   ]
+  },
   "95314": {
    "progress": [
     {
@@ -3260,6 +3779,36 @@
       "npc:2132": 1
      },
      "text": "I trust you did not get lost?",
+     "times": 1
+    }
+   ]
+  },
+  "95999": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:649051": 1
+     },
+     "template": "questCache",
+     "text": "Wanted! Incinerator Gar'im, Leader of an orc incursion in Render's Valley. Purported to be working with the Blackrock of Stonewatch Keep.\r\n\r\nBeware of Incinerator Gar'im. He and his Shadowcasters are extremely dangerous. A handsome reward will be given to any brave soul that can deliver proof of Incinerator Gar'im's demise to Magistrate Solomon.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:649051": 1
+     },
+     "template": "questCache",
+     "text": "Deliver the Broken Staff of Incinerator Gar'im to Magistrate Solomon in Lakeshire.",
      "times": 1
     }
    ]
@@ -3378,6 +3927,51 @@
       "npc:267008": 1
      },
      "text": "This place is full of memories for me. This place was once held by the Argent Dawn. It was from here that we prepared for many battles and skirmishes against the Scourge during their most recent push into Tirisfal Glades.\r\n\r\nWhen we withdrew to the Plaguelands I feared it would fall into disrepair. My fear was well-founded, but I am glad that Danitha and her paladins have taken over stewardship of it now.\r\n\r\nShe even named the keep after... a mutual friend.",
+     "times": 1
+    }
+   ]
+  },
+  "97003": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:267310": 1
+     },
+     "template": "questCache",
+     "text": "You there, $c. I need your aid. There are rumors of a beast that makes its lair deep in a cave at Thorn Hill, northeast of here. The Razormane call it Chol'aruk or \"The Ravener\". It's supposedly five times the size of a normal quilboar with a thirst for blood that can never be sated.\r\n\r\nMost don't believe the tales. But I do--because I've fought its like before.\r\n\r\nSeek out its lair and slay Chol'aruk. Bring me its head. I warn you though--prepare well and do not go alone.\r\n\r\nBlood and thunder, $c.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:267310": 1
+     },
+     "template": "questCache",
+     "text": "Bring the head of Chol'aruk to Gur'ak in the Barrens.",
+     "times": 1
+    }
+   ]
+  },
+  "97253": {
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7161": 1
+     },
+     "text": "Not another word out of you until your pockets are jingling with metal!",
      "times": 1
     }
    ]

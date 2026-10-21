@@ -24,14 +24,19 @@
    "name": "Omusa Thunderhorn",
    "node": 77,
    "sources": 1
+  },
+  "16227": {
+   "name": "Bragok",
+   "node": 80,
+   "sources": 1
   }
  },
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70450",
   "collectedOn": {
-   "first": "2026-10-18",
-   "last": "2026-10-20"
+   "first": "2026-10-20",
+   "last": "2026-10-21"
   },
   "dataset": "flights",
   "license": "CC BY 4.0",
@@ -233,7 +238,7 @@
     5
    ],
    "seconds": {
-    "113": 2
+    "113": 3
    },
    "sources": 1
   },
@@ -427,6 +432,16 @@
     77,
     25,
     80
+   ],
+   "sources": 1
+  },
+  "80>25": {
+   "costs": {
+    "4": 110
+   },
+   "hops": [
+    80,
+    25
    ],
    "sources": 1
   }

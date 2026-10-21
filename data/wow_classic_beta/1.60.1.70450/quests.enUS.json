@@ -1,12 +1,12 @@
 {
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
-  "cacheFiles": 48,
+  "cacheFiles": 67,
   "cachesLeftOut": 0,
   "clientBuild": "1.60.1.70450",
   "collectedOn": {
    "first": "2026-10-17",
-   "last": "2026-10-20"
+   "last": "2026-10-21"
   },
   "dataset": "quests",
   "license": "CC BY 4.0",
@@ -745,7 +745,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 16303,
    "title": "Ursangous's Paw",
    "zoneAreaId": 331
@@ -856,7 +856,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "A Lesson to Learn"
   },
   "28": {
@@ -917,7 +917,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "timeLimitSeconds": 1800,
    "title": "Trial of the Lake"
   },
@@ -961,7 +961,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Trial of the Sea Lion"
   },
   "31": {
@@ -2118,7 +2118,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 735,
    "title": "Report to Thomas",
    "zoneAreaId": 12
@@ -2182,7 +2182,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 916,
    "title": "The Legend of Stalvan",
    "zoneAreaId": 10
@@ -2433,7 +2433,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 962,
    "title": "Back to Billy",
    "zoneAreaId": 12
@@ -2490,7 +2490,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Pie for Billy",
    "zoneAreaId": 12
   },
@@ -2897,6 +2897,29 @@
    "startItemId": 7813,
    "title": "Call of Water"
   },
+  "97": {
+   "description": "Let Commander Ebonlocke know immediately that the handwriting matched, $n!  Her suspicions were correct!",
+   "flags": 8,
+   "level": 28,
+   "minLevel": 22,
+   "nextQuestId": 98,
+   "objectivesText": "Report the news to Commander Ebonlocke.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Legend of Stalvan",
+   "zoneAreaId": 10
+  },
   "98": {
    "description": "Stalvan Mistmantle led a life of depravity.  Innocent victims died by his hand.  Undoubtedly he is guilty of countless crimes.  Now the lunatic threatens Darkshire.  The Light only knows what sordid acts he is plotting.  Travel to his cottage just north of town, $C, and execute Stalvan, once and for all.$b$bWhen the deed is done, travel to Madame Eva's and show her his family ring.  After all, it was her premonition that led to this gruesome discovery.  But Darkshire is safer because of her.",
    "flags": 8,
@@ -2988,7 +3011,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Arugal's Folly",
    "zoneAreaId": 130
   },
@@ -3148,7 +3171,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Keeper of the Flame",
    "zoneAreaId": 40
   },
@@ -3221,7 +3244,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 1208,
    "title": "Young Lovers",
    "zoneAreaId": 12
@@ -3334,7 +3357,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Collecting Kelp",
    "zoneAreaId": 12
   },
@@ -3996,7 +4019,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 1325,
    "title": "Delivering Daffodils",
    "zoneAreaId": 44
@@ -5529,7 +5552,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "title": "Dwarven Outfitters",
    "zoneAreaId": 132
   },
@@ -5665,7 +5688,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Troll Cave",
    "zoneAreaId": 132
   },
@@ -6024,7 +6047,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Panther Mastery",
    "zoneAreaId": 33
   },
@@ -6330,7 +6353,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Colonel Kurzen",
    "zoneAreaId": 33
   },
@@ -7194,7 +7217,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Morgan Ladimore",
    "zoneAreaId": 10
   },
@@ -8099,7 +8122,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "timeLimitSeconds": 720,
    "title": "A Hunter's Challenge",
    "zoneAreaId": 38
@@ -8313,7 +8336,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Trogg Threat",
    "zoneAreaId": 38
   },
@@ -8380,7 +8403,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 2560,
    "title": "Seeking Wisdom",
    "zoneAreaId": 10
@@ -8702,7 +8725,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Dark Threat Looms",
    "zoneAreaId": 38
   },
@@ -9469,7 +9492,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 2637,
    "title": "Excavation Progress Report",
    "zoneAreaId": 38
@@ -9568,7 +9591,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 2637,
    "title": "Report to Ironforge",
    "zoneAreaId": 38
@@ -9907,7 +9930,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 2666,
    "title": "Return to Marleth",
    "zoneAreaId": 1
@@ -10214,7 +10237,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "A Favor for Evershine",
    "zoneAreaId": 1
   },
@@ -11489,7 +11512,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Forsaken Duties",
    "zoneAreaId": 85
   },
@@ -11577,7 +11600,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Haunted Mills",
    "zoneAreaId": 85
   },
@@ -11685,7 +11708,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Fields of Grief",
    "zoneAreaId": 85
   },
@@ -11759,7 +11782,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A New Plague",
    "zoneAreaId": 85
   },
@@ -11930,7 +11953,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "At War With The Scarlet Crusade",
    "zoneAreaId": 85
   },
@@ -12164,7 +12187,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 3,
    "title": "The Damned",
    "zoneAreaId": 154
   },
@@ -12370,7 +12393,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Scarlet Crusade",
    "zoneAreaId": 154
   },
@@ -12881,7 +12904,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 2956,
    "title": "An Audience with the King",
    "zoneAreaId": 1519
@@ -13101,7 +13124,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 3017,
    "title": "The Prodigal Lich",
    "zoneAreaId": 85
@@ -13116,7 +13139,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "<UNUSED>"
   },
   "407": {
@@ -13407,7 +13430,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 3086,
    "title": "Stout to Kadrell",
    "zoneAreaId": 1
@@ -13484,7 +13507,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Rat Catching",
    "zoneAreaId": 38
   },
@@ -13631,7 +13654,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Lost Pilot",
    "zoneAreaId": 1
   },
@@ -13909,7 +13932,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Mills Overrun",
    "zoneAreaId": 85
   },
@@ -14275,7 +14298,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Decrepit Ferry",
    "zoneAreaId": 130
   },
@@ -14726,7 +14749,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Recipe For Death",
    "zoneAreaId": 130
   },
@@ -14798,7 +14821,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Recipe For Death",
    "zoneAreaId": 130
   },
@@ -15068,7 +15091,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Woodland Protector",
    "zoneAreaId": 188
   },
@@ -15120,7 +15143,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Woodland Protector",
    "zoneAreaId": 188
   },
@@ -15662,7 +15685,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Border Crossings",
    "zoneAreaId": 130
   },
@@ -16168,7 +16191,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 3425,
    "title": "Wand to Bethor",
    "zoneAreaId": 130
@@ -16235,7 +16258,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 3468,
    "title": "Journey to Hillsbrad Foothills",
    "zoneAreaId": 130
@@ -16451,7 +16474,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Crushridge Bounty",
    "zoneAreaId": 36
   },
@@ -17105,7 +17128,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Beren's Peril",
    "zoneAreaId": 130
   },
@@ -17139,7 +17162,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Elixir of Agony",
    "zoneAreaId": 267
   },
@@ -18940,7 +18963,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Special Forces",
    "zoneAreaId": 33
   },
@@ -19292,7 +19315,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Rogue's Deal",
    "zoneAreaId": 154
   },
@@ -20335,7 +20358,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Foul Magics",
    "zoneAreaId": 45
   },
@@ -20700,7 +20723,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Northfold Manor",
    "zoneAreaId": 45
   },
@@ -20905,7 +20928,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A King's Tribute",
    "zoneAreaId": 1537
   },
@@ -21776,7 +21799,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Murdaloc",
    "zoneAreaId": 3
   },
@@ -22547,7 +22570,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Swoop Hunting",
    "zoneAreaId": 215
   },
@@ -23010,7 +23033,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Journey into Thunder Bluff",
    "zoneAreaId": 215
   },
@@ -23048,7 +23071,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Rites of the Earthmother",
    "zoneAreaId": 215
   },
@@ -23136,7 +23159,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 4850,
    "title": "Attack on Camp Narache",
    "zoneAreaId": 220
@@ -23381,6 +23404,52 @@
    },
    "sources": 2,
    "title": "Cutting Teeth",
+   "zoneAreaId": 363
+  },
+  "789": {
+   "description": "Powerful warrior and awkward novice alike have fallen to the venomous sting of the scorpid. You will find large numbers of scorpids northwest of here. Bring me ten of their tails as proof of your prowess in battle.$b$bThe antidote for their sting is actually made from venom extracted from their stingers. We keep large quantities of antidote for scorpid venom on hand to heal young bloods just like you...$b$bBut I'm sure you won't be needing any of that, will you?",
+   "flags": 8,
+   "level": 3,
+   "minLevel": 1,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 380649,
+     "objectId": 4862,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Get 10 Scorpid Worker Tails for Gornek in the Den.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 4919
+     },
+     {
+      "count": 1,
+      "itemId": 4920
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     },
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 2,
+   "title": "Sting of the Scorpid",
    "zoneAreaId": 363
   },
   "790": {
@@ -23674,7 +23743,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Dark Storms",
    "zoneAreaId": 14
   },
@@ -24061,7 +24130,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 4926,
    "title": "Chen's Empty Keg",
    "zoneAreaId": 17
@@ -24813,7 +24882,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "<UNUSED>"
   },
   "840": {
@@ -24849,7 +24918,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "startItemId": 4992,
    "title": "Conscript of the Horde",
    "zoneAreaId": 14
@@ -24886,7 +24955,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 4995,
    "title": "Crossroads Conscription",
    "zoneAreaId": 14
@@ -25389,7 +25458,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Centaur Bracers",
    "zoneAreaId": 17
   },
@@ -25416,7 +25485,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Tear of the Moons",
    "zoneAreaId": 17
   },
@@ -25448,7 +25517,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Ignition",
    "zoneAreaId": 17
   },
@@ -25471,7 +25540,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Sergra Darkthorn",
    "zoneAreaId": 17
   },
@@ -25625,7 +25694,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Raptor Horns",
    "zoneAreaId": 17
   },
@@ -25781,7 +25850,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "title": "Raptor Thieves",
    "zoneAreaId": 17
   },
@@ -25863,7 +25932,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Disrupt the Attacks",
    "zoneAreaId": 17
   },
@@ -25921,7 +25990,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "The Disruption Ends",
    "zoneAreaId": 17
   },
@@ -26073,7 +26142,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Serena Bloodfeather",
    "zoneAreaId": 17
   },
@@ -26107,7 +26176,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "startItemId": 5068,
    "title": "The Stagnant Oasis",
    "zoneAreaId": 17
@@ -26205,7 +26274,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Betrayal from Within",
    "zoneAreaId": 17
   },
@@ -26238,7 +26307,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Altered Beings",
    "zoneAreaId": 17
   },
@@ -26278,7 +26347,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 3,
    "startItemId": 10327,
    "title": "Echeyakee",
    "zoneAreaId": 17
@@ -26386,7 +26455,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 5102,
    "title": "Owatanka",
    "zoneAreaId": 17
@@ -26486,7 +26555,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "title": "Southsea Freebooters",
    "zoneAreaId": 17
   },
@@ -26674,7 +26743,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "startItemId": 5080,
    "title": "The Missing Shipment",
    "zoneAreaId": 17
@@ -26756,7 +26825,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 5088,
    "title": "Samophlange",
    "zoneAreaId": 17
@@ -26790,7 +26859,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 4,
    "title": "WANTED: Baron Longshore",
    "zoneAreaId": 17
   },
@@ -26828,7 +26897,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Miner's Fortune",
    "zoneAreaId": 17
   },
@@ -26899,7 +26968,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Free From the Hold",
    "zoneAreaId": 17
   },
@@ -26993,7 +27062,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Samophlange",
    "zoneAreaId": 17
   },
@@ -27026,7 +27095,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Samophlange",
    "zoneAreaId": 17
   },
@@ -27103,7 +27172,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Prowlers of the Barrens",
    "zoneAreaId": 17
   },
@@ -27431,7 +27500,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.95
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Leaders of the Fang",
    "zoneAreaId": 718
   },
@@ -27567,7 +27636,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Timberling Seeds",
    "zoneAreaId": 141
   },
@@ -27610,7 +27679,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Timberling Sprouts",
    "zoneAreaId": 141
   },
@@ -27666,7 +27735,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 5185,
    "title": "Crown of the Earth",
    "zoneAreaId": 188
@@ -28146,8 +28215,46 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Enchanted Glade",
+   "zoneAreaId": 141
+  },
+  "938": {
+   "areaDescription": "Lead Mist safely to Sentinel Arynia Cloudsbreak",
+   "description": "The sabercat's fur is a distinctive gray color, blending into the surrounding forest. As she lays there, you observe that she is badly wounded, with deep lacerations across her back and stomach.$b$bShe raises her head and gazes at you, bright intelligence shining in blue eyes. She seems to wish to follow you.",
+   "flags": 2,
+   "level": 12,
+   "minLevel": 7,
+   "objectivesText": "Escort Mist to Sentinel Arynia Cloudsbreak at the moon well near the Oracle Tree.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 5590
+     },
+     {
+      "count": 1,
+      "itemId": 5593
+     },
+     {
+      "count": 1,
+      "itemId": 5618
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 69,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 2,
+   "timeLimitSeconds": 540,
+   "title": "Mist",
    "zoneAreaId": 141
   },
   "940": {
@@ -28524,7 +28631,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 5272,
    "title": "Return to Onu",
    "zoneAreaId": 148
@@ -29211,7 +29318,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Supplies to Auberdine",
    "zoneAreaId": 331
   },
@@ -29672,7 +29779,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Buzzbox 411",
    "zoneAreaId": 148
   },
@@ -30851,7 +30958,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 3,
    "title": "The Caravan Road",
    "zoneAreaId": 331
   },
@@ -31097,7 +31204,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.375
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Compendium of the Fallen",
    "zoneAreaId": 796
   },
@@ -31326,7 +31433,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Reclaiming the Charred Vale",
    "zoneAreaId": 406
   },
@@ -31428,7 +31535,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Reclaiming the Charred Vale",
    "zoneAreaId": 406
   },
@@ -31517,7 +31624,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Goblin Invaders",
    "zoneAreaId": 406
   },
@@ -31729,7 +31836,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "title": "Deepmoss Spider Eggs",
    "zoneAreaId": 17
   },
@@ -32265,7 +32372,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 3,
    "title": "On Guard in Stonetalon",
    "zoneAreaId": 331
   },
@@ -32289,7 +32396,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 5638,
    "title": "The Flying Machine Airport",
    "zoneAreaId": 1638
@@ -32333,7 +32440,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "title": "Cenarius' Legacy",
    "zoneAreaId": 406
   },
@@ -32423,7 +32530,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Den",
    "zoneAreaId": 406
   },
@@ -32611,7 +32718,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Further Instructions",
    "zoneAreaId": 406
   },
@@ -32918,7 +33025,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 5827,
    "title": "Martek the Exiled",
    "zoneAreaId": 400
@@ -33155,6 +33262,23 @@
    "title": "Delivery to the Gnomes",
    "zoneAreaId": 400
   },
+  "1115": {
+   "description": "Now that we've done a service for the gnomes, it's time to do the goblins a favor!  $B$BI hear that the goblin racer pilot, Nazz Steamboil, didn't always use that name.  I wonder why he changed it.  I wonder if it's a secret, and... I wonder if he values that secret.$B$BIf anyone knows the truth, then it's Krazek of Booty Bay, on the southern tip of Stranglethorn.  Speak with Krazek and ask him about our goblin pilot.$B$BIf you can get useful information from him, then we might just turn a profit from it.",
+   "flags": 8,
+   "level": 36,
+   "minLevel": 30,
+   "nextQuestId": 1116,
+   "objectivesText": "Talk to Krazek in Booty Bay.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Rumormonger",
+   "zoneAreaId": 400
+  },
   "1116": {
    "description": "Getting the information on Nazz is quite a favor, $n.  Yes, quite a favor.  But you've come all the way from the Shimmering Flats to get it... are you willing to travel some more?$B$BWhile I contact my sources, why don't you gather something for me, eh?$B$BHm... what will it be?  How about dream dust, from the dragon whelps of the Swamp of Sorrows.  Yes, I'd love some dream dust for my snuff pouch!$B$BGet it for me, $n, and I'll give you the information you seek.",
    "flags": 8,
@@ -33255,7 +33379,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 3,
    "title": "Steelsnap",
    "zoneAreaId": 1638
   },
@@ -33353,7 +33477,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Highperch Venom",
    "zoneAreaId": 15
   },
@@ -33397,7 +33521,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 5838,
    "title": "Frostmaw",
    "zoneAreaId": 1638
@@ -33702,7 +33826,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 5846,
    "title": "The Swarm Grows",
    "zoneAreaId": 17
@@ -33841,7 +33965,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 5877,
    "title": "Parts of the Swarm",
    "zoneAreaId": 400
@@ -33971,7 +34095,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Test of Lore",
    "zoneAreaId": 400
   },
@@ -34241,7 +34365,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "A Bump in the Road",
    "zoneAreaId": 400
   },
@@ -34275,7 +34399,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Load Lightening",
    "zoneAreaId": 400
   },
@@ -34734,7 +34858,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "title": "The Sacred Flame",
    "zoneAreaId": 1638
   },
@@ -34767,7 +34891,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 5868,
    "title": "The Sacred Flame",
    "zoneAreaId": 1638
@@ -35345,6 +35469,39 @@
    "title": "The Severed Head",
    "zoneAreaId": 15
   },
+  "1240": {
+   "description": "We must know the events surrounding Marg's death!  And the only way to do that, $n, is through the witch-magic of trolls.$B$BBring Marg's head to Kin'weelay in Stranglethorn Vale, at the Grom'gol Base Camp.$B$BKin'weelay is the most powerful witchdoctor of the Darkspear trolls.  If anyone can speak to Marg Nighteye's spirit, it is he.",
+   "flags": 0,
+   "level": 35,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381228,
+     "objectId": 5918,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Take the Defiant Orc Head to Kin'weelay in the Grom'gol Base Camp in Stranglethorn Vale.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 5918,
+   "title": "The Troll Witchdoctor",
+   "zoneAreaId": 15
+  },
   "1241": {
    "description": "Recently a diplomat was sent to Theramore to meet with Jaina Proudmoore. That diplomat never arrived.$B$BI believe the Defias are involved in this plot, but I'm not sure how. The diplomat's disappearance still eludes public attention, but it can't remain that way for long.$B$BAgents of the king are already scouring the city for clues, but I have my own contacts I would like involved.$B$BIn the Valley of Heroes is an old friend of mine named Jorgen. Find him, give him this note, and follow his instructions.",
    "flags": 0,
@@ -35632,7 +35789,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 5950,
    "title": "Lieutenant Paval Reethe",
    "zoneAreaId": 15
@@ -35795,7 +35952,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Missing Diplomat",
    "zoneAreaId": 1519
   },
@@ -35861,7 +36018,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Suspicious Hoofprints",
    "zoneAreaId": 15
   },
@@ -36196,7 +36353,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Deserters",
    "zoneAreaId": 15
   },
@@ -36365,7 +36522,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "James Hyal",
    "zoneAreaId": 11
   },
@@ -36503,7 +36660,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Missing Diplomat",
    "zoneAreaId": 1519
   },
@@ -36560,7 +36717,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Mountaineer Stormpike's Task",
    "zoneAreaId": 38
   },
@@ -36660,7 +36817,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Regthar Deathgate",
    "zoneAreaId": 405
   },
@@ -36832,7 +36989,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Gelkis Alliance",
    "zoneAreaId": 405
   },
@@ -37039,7 +37196,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Ongeku",
    "zoneAreaId": 405
   },
@@ -37223,7 +37380,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Assault on the Kolkar",
    "zoneAreaId": 405
   },
@@ -37261,7 +37418,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Centaur Bounty",
    "zoneAreaId": 405
   },
@@ -37348,7 +37505,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Galen's Escape",
    "zoneAreaId": 8
   },
@@ -37899,7 +38056,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Return to Vahlarriel",
    "zoneAreaId": 405
   },
@@ -37945,7 +38102,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Reclaimers' Business in Desolace",
    "zoneAreaId": 1537
   },
@@ -38211,7 +38368,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 6479,
    "title": "Vahlarriel's Search",
    "zoneAreaId": 405
@@ -38427,7 +38584,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Devourer of Souls"
   },
   "1473": {
@@ -38586,7 +38743,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 20310,
    "title": "The Corrupter",
    "zoneAreaId": 405
@@ -38763,7 +38920,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.95
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Deviate Hides",
    "zoneAreaId": 718
   },
@@ -38829,7 +38986,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.95
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Deviate Eradication",
    "zoneAreaId": 718
   },
@@ -38962,7 +39119,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.95
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Smart Drinks",
    "zoneAreaId": 718
   },
@@ -38994,7 +39151,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 6462,
    "title": "Wharfmaster Dizzywig",
    "zoneAreaId": 17
@@ -39119,7 +39276,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Thun'grim Firegaze"
   },
   "1503": {
@@ -39222,7 +39379,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Veteran Uzzek"
   },
   "1506": {
@@ -39289,7 +39446,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "News of Dogran"
   },
   "1510": {
@@ -39522,7 +39679,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 6656,
    "title": "Call of Earth"
   },
@@ -39814,7 +39971,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Call of Water"
   },
   "1529": {
@@ -39871,7 +40028,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Call of Air"
   },
   "1532": {
@@ -40078,7 +40235,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 3,
    "title": "Gaffer Jacks"
   },
   "1580": {
@@ -40367,7 +40524,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Warrior's Training"
   },
   "1639": {
@@ -40463,7 +40620,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Tome of Divinity"
   },
   "1646": {
@@ -40480,7 +40637,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Tome of Divinity"
   },
   "1647": {
@@ -41113,7 +41270,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Vorlus Vilehoof"
   },
   "1684": {
@@ -41496,7 +41653,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 6926,
    "title": "Mathiel"
   },
@@ -41559,7 +41716,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Burning Blood"
   },
   "1706": {
@@ -41774,7 +41931,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Devourer of Souls"
   },
   "1717": {
@@ -41808,7 +41965,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Islander"
   },
   "1719": {
@@ -42098,7 +42255,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Tome of Divinity"
   },
   "1784": {
@@ -42192,7 +42349,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Tome of Divinity"
   },
   "1788": {
@@ -42352,7 +42509,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Seeking Strahad"
   },
   "1801": {
@@ -42474,7 +42631,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 7006,
    "title": "Tome of the Cabal"
   },
@@ -42692,7 +42849,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Heirloom Weapon"
   },
   "1823": {
@@ -42810,7 +42967,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 7587,
    "title": "Brutal Armor"
   },
@@ -43006,7 +43163,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Brutal Legguards"
   },
   "1848": {
@@ -43189,7 +43346,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Mage-tastic Gizmonitor"
   },
   "1881": {
@@ -43242,7 +43399,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Balnir Farmstead"
   },
   "1883": {
@@ -43259,7 +43416,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Speak with Un'thuwa"
   },
   "1884": {
@@ -43654,7 +43811,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Speak with Deino"
   },
   "1944": {
@@ -43788,7 +43945,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 7516,
    "title": "Items of Power"
   },
@@ -43898,7 +44055,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Report to Anastasia"
   },
   "1960": {
@@ -44363,7 +44520,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Gyromast's Retrieval",
    "zoneAreaId": 148
   },
@@ -44594,7 +44751,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 7646,
    "title": "Supplies to Tannok",
    "zoneAreaId": 1
@@ -44641,7 +44798,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 7629,
    "title": "A Peon's Burden",
    "zoneAreaId": 14
@@ -44685,7 +44842,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Easy Strider Living"
   },
   "2205": {
@@ -45171,7 +45328,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Wrenix of Ratchet"
   },
   "2383": {
@@ -45415,7 +45572,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Shattered Salute"
   },
   "2478": {
@@ -45647,7 +45804,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Tears of the Moon",
    "zoneAreaId": 1657
   },
@@ -45788,7 +45945,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Touch of Zanzil"
   },
   "2608": {
@@ -46686,7 +46843,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 3,
    "title": "The Day After",
    "zoneAreaId": 133
   },
@@ -46829,7 +46986,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.8
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Data Rescue",
    "zoneAreaId": 133
   },
@@ -47419,7 +47576,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 3,
    "startItemId": 9564,
    "title": "Etched Tablet"
   },
@@ -47518,7 +47675,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 9561,
    "title": "Hallowed Tablet"
   },
@@ -47551,7 +47708,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 9575,
    "title": "Glyphic Tablet"
   },
@@ -47650,7 +47807,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 9568,
    "title": "Rune-Inscribed Parchment"
   },
@@ -47716,7 +47873,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 9547,
    "title": "Simple Note"
   },
@@ -48145,7 +48302,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 9571,
    "title": "Glyphic Letter"
   },
@@ -48744,7 +48901,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Stolen Silver",
    "zoneAreaId": 17
   },
@@ -48786,7 +48943,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "startItemId": 10414,
    "title": "Mura Runetotem",
    "zoneAreaId": 17
@@ -49226,7 +49383,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Iverron's Antidote",
    "zoneAreaId": 188
   },
@@ -50138,7 +50295,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 11142,
    "title": "Wenikee Boltbucket",
    "zoneAreaId": 17
@@ -50456,7 +50613,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Galgar's Cactus Apple Surprise",
    "zoneAreaId": 363
   },
@@ -50478,7 +50635,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "A Good Friend",
    "zoneAreaId": 188
   },
@@ -51264,7 +51421,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 12346,
    "title": "The Blackwood Corrupted",
    "zoneAreaId": 148
@@ -51561,7 +51718,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 3,
    "title": "Assassination Plot",
    "zoneAreaId": 400
   },
@@ -51610,7 +51767,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "<UNUSED>"
   },
   "4921": {
@@ -51681,7 +51838,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Protect Kanati Greycloud",
    "zoneAreaId": 400
   },
@@ -51714,7 +51871,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Supplies for the Crossroads",
    "zoneAreaId": 17
   },
@@ -51823,7 +51980,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Sacred Fire",
    "zoneAreaId": 400
   },
@@ -51885,7 +52042,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "title": "Grimtotem Spying",
    "zoneAreaId": 400
   },
@@ -52022,7 +52179,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "WANTED: Arnak Grimtotem",
    "zoneAreaId": 400
   },
@@ -52354,7 +52511,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Gordo's Task",
    "zoneAreaId": 85
   },
@@ -52655,7 +52812,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "In Favor of the Light"
   },
   "5627": {
@@ -52722,7 +52879,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Returning Home"
   },
   "5630": {
@@ -52994,7 +53151,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Chastise"
   },
   "5642": {
@@ -53086,7 +53243,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Chastise"
   },
   "5646": {
@@ -53182,7 +53339,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "In Favor of Spirituality"
   },
   "5650": {
@@ -53578,7 +53735,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Elune's Grace"
   },
   "5673": {
@@ -53668,7 +53825,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Arcane Feedback"
   },
   "5677": {
@@ -53691,7 +53848,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Arcane Feedback"
   },
   "5678": {
@@ -54151,7 +54308,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Hidden Enemies",
    "zoneAreaId": 1637
   },
@@ -54213,7 +54370,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.025
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Slaying the Beast",
    "zoneAreaId": 2437
   },
@@ -54378,7 +54535,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 14647,
    "title": "Welcome!",
    "zoneAreaId": 132
@@ -54716,7 +54873,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Heeding the Call"
   },
   "5927": {
@@ -55138,7 +55295,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Hunter's Path"
   },
   "6066": {
@@ -55189,7 +55346,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Hunter's Path"
   },
   "6069": {
@@ -55291,7 +55448,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Hunter's Path"
   },
   "6075": {
@@ -55308,7 +55465,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Hunter's Path"
   },
   "6076": {
@@ -55325,7 +55482,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "title": "The Hunter's Path"
   },
   "6081": {
@@ -55677,7 +55834,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 15923,
    "title": "Taming the Beast"
   },
@@ -55807,7 +55964,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Gathering the Cure"
   },
   "6124": {
@@ -55877,7 +56034,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Power over Poison"
   },
   "6126": {
@@ -55975,7 +56132,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Gathering the Cure"
   },
   "6129": {
@@ -56015,7 +56172,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 15826,
    "title": "Curing the Sick"
   },
@@ -56190,7 +56347,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Claim Rackmore's Treasure!",
    "zoneAreaId": 405
   },
@@ -56223,9 +56380,43 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 15998,
    "title": "A Swift Message",
+   "zoneAreaId": 40
+  },
+  "6261": {
+   "description": "$n, I gathered into this crate everything Lewis asked for.  Can you take it to him?$B$BIf you've already spoken to Thor in Westfall, then you can take a gryphon back to him.  Dungar Longdrink is our gryphon master, over in the trade district.$B$BSpeak with Dungar, then get this crate to Lewis as fast as you can.  We don't want our fighting men and women in Westfall to go without fresh equipment!",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 10,
+   "nextQuestId": 6285,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383523,
+     "objectId": 16115,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Osric's Crate to Dungar Longdrink the gryphon master.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 2,
+   "startItemId": 16115,
+   "title": "Dungar Longdrink",
    "zoneAreaId": 40
   },
   "6281": {
@@ -56258,7 +56449,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 15998,
    "title": "Continue to Stormwind",
    "zoneAreaId": 40
@@ -56474,7 +56665,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "title": "Cycle of Rebirth",
    "zoneAreaId": 406
   },
@@ -56804,7 +56995,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 16282,
    "title": "Ride to Thunder Bluff",
    "zoneAreaId": 17
@@ -56838,7 +57029,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 16283,
    "title": "Tal the Wind Rider Master",
    "zoneAreaId": 17
@@ -56872,7 +57063,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 16283,
    "title": "Return to Jahan",
    "zoneAreaId": 17
@@ -57294,7 +57485,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Elemental War",
    "zoneAreaId": 406
   },
@@ -57500,7 +57691,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Naga at the Zoram Strand",
    "zoneAreaId": 331
   },
@@ -57629,7 +57820,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 3,
    "startItemId": 16603,
    "title": "Earthen Arise",
    "zoneAreaId": 406
@@ -57839,7 +58030,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Protect Kaya",
    "zoneAreaId": 406
   },
@@ -57922,7 +58113,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 16783,
    "title": "The Warsong Reports",
    "zoneAreaId": 17
@@ -58457,7 +58648,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Vorsha the Lasher",
    "zoneAreaId": 331
   },
@@ -58586,7 +58777,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Hunter's Path",
    "zoneAreaId": 1537
   },
@@ -59636,7 +59827,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Donation of Wool",
    "zoneAreaId": 1637
   },
@@ -60270,7 +60461,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Collin's Test Quest"
   },
   "8247": {
@@ -60655,6 +60846,35 @@
    "startItemId": 20604,
    "title": "The Power of Pine"
   },
+  "8409": {
+   "categoryId": 22,
+   "description": "The rotten eggs have been successfully placed inside the keg.  Future batches of ale from the Southshore Inn are sure to be ruined!$B$BYou should now report back to Darkcaller Yanka at the Wickerman Festival in Tirisfal Glade and report your success.",
+   "flags": 0,
+   "level": 60,
+   "minLevel": 25,
+   "objectivesText": "Return to Darkcaller Yanka at the Wickerman Festival in Tirisfal Glade.",
+   "questInfoId": 41,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 15,
+      "itemId": 20557
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 67,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Ruined Kegs"
+  },
   "8458": {
    "description": "I believe I can find this demon lord given the proper reagents.$B$BIf he is indeed as powerful as I suspect, I will need items gathered from deadly creatures. But you act in the Warchief's name, so I am sure you will accept my task.$B$BFirst, I will have to break any wards he has against scrying. For this, I will need the scalp from a satyr--but not any satyr. The scalp must come from a Hatefury shadowstalker.$B$BSearch for them among the ancient ruins in the northeast of Desolace.",
    "flags": 8,
@@ -61024,7 +61244,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Alliance Needs Thick Leather!"
   },
   "8517": {
@@ -61204,7 +61424,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Alliance Needs Roast Raptor!"
   },
   "8528": {
@@ -61242,6 +61462,33 @@
    },
    "sources": 2,
    "title": "The Alliance Needs Spotted Yellowtail!"
+  },
+  "8530": {
+   "categoryId": 365,
+   "description": "$C, I need your help. In the Molten Core there are these stones, singed Corestones to be precise, that we need to harvest for the Ahn'Qiraj war effort. I'm told that our blacksmiths and engineers can put them to good use, so that's where you come in. I need you to go into the Molten Core and gather up as many of these corestones as you can. Of course, you'll want to talk thirty-nine of your closest friends along with you.",
+   "flags": 8,
+   "level": 60,
+   "minLevel": 1,
+   "objectives": [
+    {
+     "amount": 50,
+     "id": 382087,
+     "objectId": 20737,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 50 singed corestones to Commander Stronghammer at the airfield in Dun Morogh.",
+   "questInfoId": 62,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Alliance Needs Singed Corestones!"
   },
   "8532": {
    "categoryId": 365,
@@ -61564,7 +61811,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Horde Needs Rugged Leather!"
   },
   "8604": {
@@ -61780,7 +62027,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Horde Needs Baked Salmon!"
   },
   "8617": {
@@ -61838,7 +62085,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Morndeep the Elder"
   },
   "8635": {
@@ -61869,7 +62116,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Splitrock the Elder"
   },
   "8636": {
@@ -62055,7 +62302,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Hammershout the Elder"
   },
   "8647": {
@@ -62148,7 +62395,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Stormbrow the Elder"
   },
   "8650": {
@@ -62365,7 +62612,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Ragetotem the Elder"
   },
   "8672": {
@@ -62892,7 +63139,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Starsong the Elder"
   },
   "8714": {
@@ -62985,7 +63232,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Starglade the Elder"
   },
   "8717": {
@@ -63402,7 +63649,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Horde Needs Your Help!"
   },
   "8793": {
@@ -63636,7 +63883,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Elune's Candle"
   },
   "8866": {
@@ -64240,7 +64487,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Investigate the Scourge of Stormwind"
   },
   "9261": {
@@ -64558,7 +64805,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Wild Fires in Kalimdor"
   },
   "9323": {
@@ -64934,7 +65181,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "<UNUSED>Crystal Flake Throat Lozenge"
   },
   "9413": {
@@ -65569,7 +65816,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "startItemId": 206344,
    "title": "Stalk With The Earthmother",
    "zoneAreaId": 215
@@ -65605,7 +65852,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 209836,
    "title": "A Strange Artifact"
   },
@@ -65690,7 +65937,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Earning Your Salt"
   },
   "78092": {
@@ -65761,7 +66008,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.5
    },
-   "sources": 1,
+   "sources": 3,
    "startItemId": 209800,
    "title": "Return to Delgren"
   },
@@ -65934,7 +66181,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Secrets of the Dreamers"
   },
   "78145": {
@@ -66428,7 +66675,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Archmage Antonidas: The Unabridged Autobiography"
   },
   "79092": {
@@ -66553,7 +66800,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Ataeric: On Arcane Curiosities"
   },
   "79097": {
@@ -66578,7 +66825,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Baxtan: On Destructive Magics"
   },
   "79098": {
@@ -67351,7 +67598,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Troll Scroll"
   },
   "79947": {
@@ -67376,7 +67623,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Geomancy: The Stone-Cold Truth"
   },
   "79948": {
@@ -68722,7 +68969,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Bloodfury Trinkets",
    "zoneAreaId": 406
   },
@@ -68922,7 +69169,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Slowing the Orc Advance",
    "zoneAreaId": 331
   },
@@ -69167,7 +69414,7 @@
       "tier": 5
      }
     ],
-    "xpDifficulty": 5,
+    "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
    "sources": 3,
@@ -69408,7 +69655,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Second Home"
   },
   "91285": {
@@ -69460,7 +69707,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Murlocs at the Gates"
   },
   "91294": {
@@ -69673,7 +69920,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Delicate Instruments",
    "zoneAreaId": 12
   },
@@ -69811,7 +70058,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "An Apple Treat",
    "zoneAreaId": 12
   },
@@ -70018,7 +70265,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Rough Wolf Pelts",
    "zoneAreaId": 12
   },
@@ -70357,7 +70604,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Into Fenris Keep"
   },
   "91862": {
@@ -70672,7 +70919,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "My First Alchemy Set",
    "zoneAreaId": 40
   },
@@ -70809,7 +71056,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 2.375
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 251522,
    "title": "Remember That I Love You",
    "zoneAreaId": 16611
@@ -70854,7 +71101,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.1
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Light's Justice",
    "zoneAreaId": 16611
   },
@@ -70897,7 +71144,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.1
    },
-   "sources": 3,
+   "sources": 4,
    "title": "The Wrath of Rath'mael",
    "zoneAreaId": 16611
   },
@@ -70998,7 +71245,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 251900,
    "title": "Welcome!",
    "zoneAreaId": 16593
@@ -71101,7 +71348,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 2.375
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Starving Arcane",
    "zoneAreaId": 16544
   },
@@ -71263,7 +71510,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Harmony in Balance",
    "zoneAreaId": 16593
   },
@@ -71882,7 +72129,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 282421,
    "title": "The Way of the Hunter"
   },
@@ -71952,7 +72199,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 282418,
    "title": "Embracing the Elements"
   },
@@ -72027,7 +72274,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Power Overwhelming",
    "zoneAreaId": 16544
   },
@@ -72934,7 +73181,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "title": "The Turncoat",
    "zoneAreaId": 16593
   },
@@ -73090,7 +73337,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Confront Lorthuna",
    "zoneAreaId": 16593
   },
@@ -74681,7 +74928,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Missing Scholar",
    "zoneAreaId": 16593
   },
@@ -74956,7 +75203,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Return to Valanaar",
    "zoneAreaId": 16593
   },
@@ -75029,7 +75276,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "No Mercy for the Weak",
    "zoneAreaId": 16651
   },
@@ -76634,7 +76881,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Crab Season",
    "zoneAreaId": 16593
   },
@@ -76997,6 +77244,33 @@
    "title": "Lost in Transit",
    "zoneAreaId": 8
   },
+  "93678": {
+   "description": "I've prepared a transcription of Gimashi's notes on draenethyst. It appears the shards possess some degree of energy, but a pure sphere of the stuff is vastly more powerful. That seems to be what the Burning Blade was after.\r\n\r\nMany of Gimashi's notes allude to portals and demonic summoning rituals. Portals to where, or to summon which demons, I cannot say for sure.\r\n\r\nWhile my answers are not definitive, please take these notes back to the swamp with you. I hope you'll understand if I don't come along.",
+   "flags": 0,
+   "level": 40,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 467139,
+     "objectId": 260518,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Take Azore's transcribed notes back to Magtoor at the Harborage in Swamp of Sorrows.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 260518,
+   "title": "Abridged Notes on Draenethyst",
+   "zoneAreaId": 405
+  },
   "93680": {
    "description": "The Alliance had an army of mages known as the Kirin Tor. While they were powerful, the demonic Burning Legion proved to be even more so. In one fell swoop, the arch demon Archimonde flattened their city like it was a child's plaything. Those who remained were reduced to merely dispossessed vagabonds.\r\n\r\nThat is, until they rebuilt Dalaran. And on the Dark Lady's very doorstep, no less!\r\n\r\nWhile in their camps, search for something that can get us into the city unnoticed. I must know more.",
    "flags": 3145736,
@@ -77057,7 +77331,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Broken Construct",
    "zoneAreaId": 16593
   },
@@ -77089,7 +77363,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Unwelcome Spirits",
    "zoneAreaId": 16593
   },
@@ -77150,7 +77424,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Broken Construct",
    "zoneAreaId": 16593
   },
@@ -77287,7 +77561,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Blood for Blood",
    "zoneAreaId": 16593
   },
@@ -78170,7 +78444,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Craftsman's Writ: Lesser Mana Potion",
    "treasurePickerIds": [
     4817
@@ -79139,7 +79413,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Minor Recombobulator",
    "treasurePickerIds": [
     4817
@@ -79445,7 +79719,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Craftsman's Writ: Heavy Leather Ball",
    "treasurePickerIds": [
     4817
@@ -79496,7 +79770,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Fine Leather Pants",
    "treasurePickerIds": [
     4817
@@ -79700,7 +79974,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Craftsman's Writ: Heavy Quiver",
    "treasurePickerIds": [
     4817
@@ -80006,7 +80280,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Azure Silk Hood",
    "treasurePickerIds": [
     4817
@@ -80057,7 +80331,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Craftsman's Writ: Small Silk Pack",
    "treasurePickerIds": [
     4817
@@ -81332,7 +81606,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Solid Sharpening Stone",
    "treasurePickerIds": [
     4818
@@ -81485,7 +81759,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Craftsman's Writ: Golden Scale Gauntlets",
    "treasurePickerIds": [
     4818
@@ -81536,7 +81810,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Heavy Mithril Axe",
    "treasurePickerIds": [
     4818
@@ -81587,7 +81861,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Mechanical Dragonling",
    "treasurePickerIds": [
     4818
@@ -81689,7 +81963,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Craftsman's Writ: Craftsman's Monocle",
    "treasurePickerIds": [
     4818
@@ -82097,7 +82371,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Craftsman's Writ: Mechanical Repair Kit",
    "treasurePickerIds": [
     4818
@@ -82403,7 +82677,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Wild Leather Shoulders",
    "treasurePickerIds": [
     4818
@@ -82811,7 +83085,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Craftsman's Writ: Mageweave Bag",
    "treasurePickerIds": [
     4818
@@ -82862,7 +83136,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Craftsman's Writ: Shadoweave Gloves",
    "treasurePickerIds": [
     4818
@@ -83066,7 +83340,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Craftsman's Writ: Star Belt",
    "treasurePickerIds": [
     4818
@@ -84035,7 +84309,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Mithril Spurs",
    "treasurePickerIds": [
     4819
@@ -84341,7 +84615,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Masterwork Target Dummy",
    "treasurePickerIds": [
     4819
@@ -84545,7 +84819,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Craftsman's Writ: Goblin Jumper Cables XL",
    "treasurePickerIds": [
     4819
@@ -84647,7 +84921,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Truesilver Transformer",
    "treasurePickerIds": [
     4819
@@ -84851,7 +85125,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Gordok Ogre Suit",
    "treasurePickerIds": [
     4819
@@ -85259,7 +85533,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Wizardweave Turban",
    "treasurePickerIds": [
     4819
@@ -85732,7 +86006,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Call of Earth"
   },
   "94374": {
@@ -86540,7 +86814,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 265476,
    "title": "Ripped Missive",
    "zoneAreaId": 16593
@@ -86594,7 +86868,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Sacrifice in Vain",
    "zoneAreaId": 16593
   },
@@ -86656,7 +86930,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 265732,
    "title": "Call of Water"
   },
@@ -86954,7 +87228,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Strength and Mercy"
   },
   "94773": {
@@ -87025,7 +87299,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Divine Grace"
   },
   "94776": {
@@ -87427,7 +87701,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Confounding Flash"
   },
   "94863": {
@@ -87590,7 +87864,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 257685,
    "title": "Buying Friendship: Gelkis",
    "zoneAreaId": 405
@@ -88001,7 +88275,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.75
    },
-   "sources": 2,
+   "sources": 3,
    "title": "A Moon-Kissed Blade"
   },
   "95041": {
@@ -88105,7 +88379,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 268192,
    "title": "An Underrated Talent"
   },
@@ -88253,7 +88527,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 251522,
    "title": "Remember That I Love You",
    "zoneAreaId": 16591
@@ -88420,7 +88694,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Stolen Blasting Powder",
    "zoneAreaId": 1
   },
@@ -88797,7 +89071,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 269718,
    "title": "The Hermit Tanner",
    "zoneAreaId": 17
@@ -88864,7 +89138,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Unwelcome Guests",
    "zoneAreaId": 17
   },
@@ -89361,7 +89635,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Her Name Is Olgra",
    "zoneAreaId": 17
   },
@@ -89589,7 +89863,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.95
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Fallen in the Fen",
    "zoneAreaId": 16732
   },
@@ -89905,7 +90179,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 270896,
    "title": "Sign Me Up!",
    "zoneAreaId": 17
@@ -91277,7 +91551,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.1
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Elemental Aid"
   },
   "96294": {
@@ -91915,7 +92189,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Adventurer"
   },
   "96628": {
@@ -91941,7 +92215,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 275019,
    "title": "The Adventurer"
   },
@@ -92023,7 +92297,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Camping 101: Cooking"
   },
   "96638": {
@@ -92093,7 +92367,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 275022,
    "title": "The Adventurer"
   },
@@ -92478,7 +92752,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Syndicate Sting"
   },
   "96800": {
@@ -92721,7 +92995,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "This Is Spinal Axe",
    "zoneAreaId": 14
   },
@@ -92836,7 +93110,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 275723,
    "title": "Halikor's Hoof",
    "zoneAreaId": 14
@@ -92956,7 +93230,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Remnants of War",
    "zoneAreaId": 85
   },
@@ -93187,7 +93461,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Chol'aruk the Ravener",
    "zoneAreaId": 17
   },
@@ -93477,7 +93751,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 277158,
    "title": "Reading Room",
    "zoneAreaId": 1519
@@ -93713,7 +93987,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Meal Appeal",
    "zoneAreaId": 1637
   },
@@ -94113,7 +94387,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Wayward Weapons",
    "zoneAreaId": 363
   },
@@ -94261,7 +94535,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Research Access"
   },
   "97287": {
@@ -94707,7 +94981,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "title": "Pigments for Paints",
    "zoneAreaId": 406
   },
@@ -95025,7 +95299,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Camping 101: First Aid"
   },
   "97904": {
@@ -95222,7 +95496,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 279045,
    "title": "Expanding Horizons",
    "zoneAreaId": 1519
@@ -95462,7 +95736,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Camping 101: Herbalism"
   },
   "97922": {
@@ -95972,7 +96246,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Camping 101: Skinning"
   },
   "97937": {
@@ -96006,7 +96280,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Camping 101: Tailoring"
   },
   "97938": {
@@ -96210,7 +96484,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Camping 101: Fishing"
   },
   "97944": {
@@ -96244,7 +96518,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Camping 101: Herbalism"
   },
   "97946": {
@@ -96482,7 +96756,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Camping 101: Enchanting"
   },
   "97954": {
@@ -96856,7 +97130,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 4,
    "title": "Camping 101: First Aid"
   },
   "97967": {
@@ -97665,7 +97939,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Stolen Freewind Supplies",
    "zoneAreaId": 400
   },
@@ -97714,7 +97988,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Stop the Screeching",
    "zoneAreaId": 400
   },
@@ -97755,7 +98029,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 279390,
    "title": "Brewer's Trade",
    "zoneAreaId": 267
@@ -98033,7 +98307,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 279589,
    "title": "Return the Statuette",
    "zoneAreaId": 11
@@ -98096,7 +98370,7 @@
      }
     ],
     "spellId": 1307068,
-    "xpDifficulty": 5,
+    "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
    "sources": 3,
@@ -98578,7 +98852,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Shipping Label",
    "zoneAreaId": 17
   },
@@ -98660,7 +98934,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "timeLimitSeconds": 240,
    "title": "A Void Path",
    "zoneAreaId": 16169
@@ -99451,7 +99725,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Great Cat Spirit"
   },
   "98341": {
@@ -99763,7 +100037,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Darkness in the Glade",
    "zoneAreaId": 141
   },
@@ -99860,7 +100134,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Great Cat Spirit"
   },
   "98397": {
@@ -100757,7 +101031,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Blessings of the Great Windborne Cat Spirit"
   },
   "98739": {
@@ -100856,7 +101130,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.2
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 287958,
    "title": "Earthen Echo",
    "zoneAreaId": 16732
@@ -100941,7 +101215,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Conflict at Darkspear Islands",
    "zoneAreaId": 16606
   },
@@ -101105,7 +101379,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Darkspear Islands Clash",
    "zoneAreaId": 16606
   },
@@ -101805,7 +102079,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "The Lost Runner",
    "zoneAreaId": 141
   },
@@ -101828,7 +102102,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Not Dead Yet",
    "zoneAreaId": 141
   },
@@ -102602,7 +102876,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Tomb Weed",
    "zoneAreaId": 85
   },
@@ -102716,7 +102990,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "As Above, So Below",
    "zoneAreaId": 85
   },
@@ -102978,7 +103252,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "A Donation of Wool",
    "zoneAreaId": 279
   },
