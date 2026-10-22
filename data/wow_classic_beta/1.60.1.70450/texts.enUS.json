@@ -134,6 +134,20 @@
     "times": 3
    }
   ],
+  "npc:1569": [
+   {
+    "broadcastTextIds": [
+     7586
+    ],
+    "sexes": {
+     "male": 5
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "No other race on Azeroth has suffered as much as our people, $c. To laugh in the face of death has become second nature for all of us.",
+    "times": 5
+   }
+  ],
   "npc:1652": [
    {
     "broadcastTextIds": [
@@ -191,6 +205,20 @@
     "template": "broadcastText",
     "text": "The Dark Lady has put the challenge forth. Now it is up to the Royal Apothecary Society to develop a new plague. We shall bring Arthas and his wretched army to their knees.",
     "times": 3
+   }
+  ],
+  "npc:2124": [
+   {
+    "broadcastTextIds": [
+     2527
+    ],
+    "sexes": {
+     "male": 4
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Greetings.  I'm an undead mage trainer, and you're a mage.",
+    "times": 4
    }
   ],
   "npc:2128": [
@@ -267,12 +295,12 @@
      290402
     ],
     "sexes": {
-     "male": 1
+     "male": 2
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "You may not be a paladin, but you may yet find solace in the light should you seek it.",
-    "times": 1
+    "times": 2
    }
   ],
   "npc:246152": [
@@ -485,10 +513,14 @@
   ],
   "npc:3143": [
    {
+    "broadcastTextIds": [
+     6016
+    ],
     "sexes": {
      "female": 7
     },
     "sources": 1,
+    "template": "broadcastText",
     "text": "The Valley of Trials will temper even the weakest into a warrior worthy to join the Horde. Those who cannot rise to its tests will be left to bake in the scorching desert sun.",
     "times": 7
    }
@@ -584,40 +616,56 @@
   ],
   "npc:3429": [
    {
+    "broadcastTextIds": [
+     5969
+    ],
     "sexes": {
      "male": 4
     },
     "sources": 1,
-    "text": "Welcome to the Crossroads, $c. My name is Thork--I lead the defenses here in the name of the Warchief.\n\nPlease, feel free to make yourself at home. As long as you mind your business, no one should have any problem with you taking up some space.\n\nThere are many threats to our safety here. If you've already become familiar with the lay of the land, speak to the others here--perhaps they have tasks for you to do.",
+    "template": "broadcastText",
+    "text": "Welcome to the Crossroads, $c. My name is Thork--I lead the defenses here in the name of the Warchief.$B$BPlease, feel free to make yourself at home. As long as you mind your business, no one should have any problem with you taking up some space.$B$BThere are many threats to our safety here. If you've already become familiar with the lay of the land, speak to the others here--perhaps they have tasks for you to do.",
     "times": 4
    }
   ],
   "npc:3442": [
    {
+    "broadcastTextIds": [
+     2464
+    ],
     "sexes": {
      "male": 2
     },
     "sources": 1,
-    "text": "Director Riddlevox put me in charge of the Union's shredder development program. Few months on the job and I'm already in hot water! I could use your help, $N!",
+    "template": "broadcastText",
+    "text": "Director Riddlevox put me in charge of the Union's shredder development program. Few months on the job and I'm already in hot water! I could use your help, $n!",
     "times": 2
    }
   ],
   "npc:3448": [
    {
+    "broadcastTextIds": [
+     7584
+    ],
     "sexes": {
      "male": 1
     },
     "sources": 1,
+    "template": "broadcastText",
     "text": "The times we live in are as fickle as the shifting winds, $c.  It is important to remember what is true and lasting in this world, and to preserve that.  Everything else is a waste.",
     "times": 1
    }
   ],
   "npc:3489": [
    {
+    "broadcastTextIds": [
+     8120
+    ],
     "sexes": {
      "male": 1
     },
     "sources": 1,
+    "template": "broadcastText",
     "text": "Have a look at my meats, friend.  You won't want to go out into the Barrens without a good stock of provisions.",
     "times": 1
    }
@@ -664,10 +712,14 @@
   ],
   "npc:3615": [
    {
+    "broadcastTextIds": [
+     8111
+    ],
     "sexes": {
      "male": 1
     },
     "sources": 1,
+    "template": "broadcastText",
     "text": "My wind riders are trained to fly quickly through the hot Barrens air.",
     "times": 1
    }
@@ -963,20 +1015,28 @@
   ],
   "npc:6791": [
    {
+    "broadcastTextIds": [
+     2828
+    ],
     "sexes": {
      "male": 1
     },
     "sources": 1,
+    "template": "broadcastText",
     "text": "Come in, come in. Just don't sit too close to the stove. It hasn't exploded yet today, but just to be safe I think you should sit elsewhere.",
     "times": 1
    }
   ],
   "npc:6928": [
    {
+    "broadcastTextIds": [
+     3003
+    ],
     "sexes": {
      "male": 1
     },
     "sources": 1,
+    "template": "broadcastText",
     "text": "If we are to make these new lands ours then we must have places to rest our battle weary bodies. Lay your axe by the fire and share the stories of your mighty battles.",
     "times": 1
    }
@@ -1207,7 +1267,7 @@
   "clientBuild": "1.60.1.70450",
   "collectedOn": {
    "first": "2026-10-20",
-   "last": "2026-10-21"
+   "last": "2026-10-22"
   },
   "dataset": "texts",
   "license": "CC BY 4.0",
@@ -1226,7 +1286,7 @@
     "books": 0,
     "gossip": 0,
     "greeting": 0,
-    "quests": 0
+    "quests": 1
    }
   }
  },
@@ -1809,6 +1869,21 @@
     }
    ]
   },
+  "364": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1569": 1
+     },
+     "text": "It is unfortunate that the Scourge cannot be brought into the fold, their large numbers would be useful in the battles ahead.\n\nBut they will not join us, so we have no choice but to destroy them.",
+     "times": 1
+    }
+   ]
+  },
   "365": {
    "complete": [
     {
@@ -1990,6 +2065,34 @@
       "npc:1521": 1
      },
      "text": "Do you have five Duskbat Pelts and some Coarse Thread yet, $N?",
+     "times": 1
+    }
+   ]
+  },
+  "376": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1661": 1
+     },
+     "text": "Thank you, $N. This armor should help you out.\n\nHopefully, it should do you more good than the last one to wear it...",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1661": 1
+     },
+     "text": "Do try your best to keep yourself unharmed until I get you some armor.",
      "times": 1
     }
    ]
@@ -2779,19 +2882,6 @@
      "text": "My blow was not enough to kill him, but looking at the damage I inflicted gives me some small measure of pride. That small measure will be all I have to sustain myself if I die, and in that light, the short list of my life's accomplishments fills me with anger.",
      "times": 1
     }
-   ],
-   "progress": [
-    {
-     "sexes": {
-      "female": 1
-     },
-     "sources": 1,
-     "speakers": {
-      "npc:3287": 1
-     },
-     "text": "Ahhh... my father always said I would never amount to much, and here, lying beneath a tree as life seeps away, I'm afraid it looks like he was right.\n\nAt least I wish to die knowing that my last enemy in life lays dead.",
-     "times": 1
-    }
    ]
   },
   "804": {
@@ -3207,6 +3297,34 @@
     }
    ]
   },
+  "3098": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2124": 1
+     },
+     "text": "You must return to me often if you are to become powerful enough to destroy those who would oppose us. The rules of magic still apply to you, $N. You will still find corruption follows you like hungry wolves in the night. You will find its caress is not unlike an addiction, an old lover still wanting to be by your side. But these things can be staved off. These things will only control you if you allow them to.\n\nGo now, return to me when you've grown more powerful.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2124": 1
+     },
+     "text": "I knew you would come to me, $N. Not because you do not have the will to follow your own path, but because we are kindred spirits. We both have felt pain. We have both suffered. And now we want the power to take back what we know is ours: this land, our lives, our destinies. But there is much for you to learn still.",
+     "times": 1
+    }
+   ]
+  },
   "3221": {
    "complete": [
     {
@@ -3218,6 +3336,21 @@
       "npc:1937": 1
      },
      "text": "Ah, very good.  There is a matter regarding the wolf hearts you brought to me earlier that demands our attention.",
+     "times": 1
+    }
+   ]
+  },
+  "3901": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1569": 1
+     },
+     "text": "I am finished with you, $N - you have shown yourself to be worthy of the freedom that you have been given.  Many will stand against you for what you have become, but know that no matter what they may try to do against us, we are free and will not be shackled again.\n\nTake these and be on your way.  You have much to accomplish, $c.",
      "times": 1
     }
    ]

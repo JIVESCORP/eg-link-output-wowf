@@ -3939,7 +3939,7 @@
     }
    ],
    "sources": 1,
-   "times": 3
+   "times": 4
   },
   "656366": {
    "name": "Naxxramas Crystal Fragment",
@@ -4589,7 +4589,7 @@
   "clientBuild": "1.60.1.70450",
   "collectedOn": {
    "first": "2026-10-20",
-   "last": "2026-10-21"
+   "last": "2026-10-22"
   },
   "dataset": "npcs",
   "license": "CC BY 4.0",
@@ -5525,6 +5525,85 @@
    },
    "windows": 0
   },
+  "1568": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-22",
+   "levels": [
+    5
+   ],
+   "name": "Undertaker Mordo",
+   "offers": {
+    "363": {
+     "title": "Rude Awakening"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3027,
+     "mapY": 0.7176,
+     "uiMap": 1420,
+     "worldX": 1675.8,
+     "worldY": 1665.6
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 0
+  },
+  "1569": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-22",
+   "levels": [
+    5
+   ],
+   "name": "Shadow Priest Sarvis",
+   "offers": {
+    "364": {
+     "title": "The Mindless Ones"
+    },
+    "3098": {
+     "level": 1,
+     "title": "Glyphic Scroll"
+    },
+    "3901": {
+     "level": 3,
+     "title": "Rattling the Rattlecages"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.309,
+     "mapY": 0.6622,
+     "uiMap": 1420,
+     "worldX": 1842.6,
+     "worldY": 1637.1
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "363": {
+     "level": 1,
+     "title": "Rude Awakening"
+    },
+    "364": {
+     "level": 2,
+     "title": "The Mindless Ones"
+    },
+    "3901": {
+     "level": 3,
+     "title": "Rattling the Rattlecages"
+    }
+   },
+   "windows": 7
+  },
   "1570": {
    "interactions": [
     "QuestGiver"
@@ -5647,24 +5726,35 @@
    "interactions": [
     "QuestGiver"
    ],
-   "lastSeen": "2026-10-16",
+   "lastSeen": "2026-10-22",
    "levels": [
     3
    ],
    "name": "Novice Elreth",
+   "offers": {
+    "376": {
+     "title": "The Damned"
+    },
+    "6395": {
+     "title": "Marla's Last Wish"
+    }
+   },
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.3092,
-     "mapY": 0.6613,
+     "mapX": 0.3091,
+     "mapY": 0.6615,
      "uiMap": 1420,
-     "worldX": 1845.4,
-     "worldY": 1636.2
+     "worldX": 1844.8,
+     "worldY": 1636.4
     }
    ],
    "side": "Horde",
    "sources": 1,
    "takes": {
+    "376": {
+     "title": "The Damned"
+    },
     "6395": {
      "title": "Marla's Last Wish"
     }
@@ -6211,7 +6301,7 @@
    "interactions": [
     "Merchant"
    ],
-   "lastSeen": "2026-10-16",
+   "lastSeen": "2026-10-22",
    "levels": [
     5
    ],
@@ -6219,16 +6309,16 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.323,
-     "mapY": 0.6553,
+     "mapX": 0.3228,
+     "mapY": 0.6554,
      "uiMap": 1420,
-     "worldX": 1863.5,
-     "worldY": 1574
+     "worldX": 1863.1,
+     "worldY": 1574.7
     }
    ],
    "side": "Horde",
    "sources": 1,
-   "windows": 4
+   "windows": 7
   },
   "2118": {
    "interactions": [
@@ -6302,6 +6392,43 @@
     }
    },
    "windows": 0
+  },
+  "2124": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-22",
+   "levels": [
+    5
+   ],
+   "name": "Isabella",
+   "options": {
+    "98012": {
+     "icon": 132058,
+     "name": "I am interested in mage training."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3097,
+     "mapY": 0.6617,
+     "uiMap": 1420,
+     "worldX": 1844.2,
+     "worldY": 1634.1
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "3098": {
+     "level": 1,
+     "title": "Glyphic Scroll"
+    }
+   },
+   "windows": 7
   },
   "2128": {
    "interactions": [
@@ -9126,19 +9253,25 @@
     "Gossip",
     "QuestGiver"
    ],
-   "lastSeen": "2026-10-16",
+   "lastSeen": "2026-10-22",
    "levels": [
     5
    ],
    "name": "Aramis Hammerhand",
+   "offers": {
+    "98389": {
+     "level": 4,
+     "title": "A Light in the Darkness"
+    }
+   },
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.3114,
+     "mapX": 0.3103,
      "mapY": 0.663,
      "uiMap": 1420,
-     "worldX": 1840.3,
-     "worldY": 1626.4
+     "worldX": 1840.2,
+     "worldY": 1631
     }
    ],
    "side": "Horde",
@@ -9149,7 +9282,7 @@
      "title": "A Light in the Darkness"
     }
    },
-   "windows": 1
+   "windows": 2
   },
   "246152": {
    "interactions": [

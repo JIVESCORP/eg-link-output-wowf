@@ -5828,7 +5828,10 @@
    "title": "Cry of the Thunderhawk"
   },
   "914": {
-   "sources": 1,
+   "factions": {
+    "Horde": 1
+   },
+   "sources": 2,
    "title": "Leaders of the Fang"
   },
   "916": {
@@ -6573,6 +6576,9 @@
    "factions": {
     "Alliance": 1
    },
+   "noDataFactions": {
+    "Horde": 1
+   },
    "sources": 1,
    "title": "Velinde's Effects"
   },
@@ -7162,7 +7168,10 @@
    "title": "Melor Sends Word"
   },
   "1131": {
-   "sources": 1,
+   "factions": {
+    "Horde": 1
+   },
+   "sources": 2,
    "title": "Steelsnap"
   },
   "1132": {
@@ -7611,9 +7620,10 @@
   },
   "1221": {
    "factions": {
-    "Alliance": 1
+    "Alliance": 1,
+    "Horde": 1
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Blueleaf Tubers"
   },
   "1222": {
@@ -10991,6 +11001,9 @@
    "factions": {
     "Alliance": 1
    },
+   "noDataFactions": {
+    "Horde": 1
+   },
    "sources": 1,
    "title": "Rune-Inscribed Tablet"
   },
@@ -13481,9 +13494,10 @@
   },
   "6393": {
    "factions": {
-    "Alliance": 1
+    "Alliance": 1,
+    "Horde": 1
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Elemental War"
   },
   "6394": {
@@ -18269,9 +18283,10 @@
   },
   "94013": {
    "factions": {
-    "Alliance": 1
+    "Alliance": 1,
+    "Horde": 1
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Taming the Beast"
   },
   "94049": {
@@ -22836,6 +22851,9 @@
    "factions": {
     "Alliance": 1
    },
+   "noDataFactions": {
+    "Horde": 1
+   },
    "sources": 1,
    "title": "The Valor Family"
   },
@@ -23498,7 +23516,7 @@
   "clientBuild": "1.60.1.70450",
   "collectedOn": {
    "first": "2026-10-20",
-   "last": "2026-10-21"
+   "last": "2026-10-22"
   },
   "dataset": "quest_scan",
   "license": "CC BY 4.0",
@@ -29372,7 +29390,7 @@
    "true": 1
   },
   "914": {
-   "true": 1
+   "true": 2
   },
   "916": {
    "true": 2
@@ -29879,7 +29897,7 @@
    "true": 1
   },
   "1131": {
-   "true": 1
+   "true": 2
   },
   "1132": {
    "true": 3
@@ -30050,7 +30068,7 @@
    "false": 4
   },
   "1221": {
-   "false": 2
+   "false": 3
   },
   "1222": {
    "false": 3
@@ -32258,7 +32276,7 @@
    "false": 2
   },
   "6393": {
-   "true": 2
+   "true": 3
   },
   "6394": {
    "true": 3
@@ -34058,7 +34076,7 @@
    "false": 1
   },
   "94013": {
-   "false": 1
+   "false": 2
   },
   "94049": {
    "false": 1
