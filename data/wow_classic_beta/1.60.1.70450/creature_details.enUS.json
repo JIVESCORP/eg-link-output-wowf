@@ -22382,6 +22382,33 @@
    "type": 7,
    "unitClass": 2
   },
+  "3274": {
+   "classification": 0,
+   "creatureDifficultyId": 3274,
+   "displays": [
+    {
+     "displayId": 9445,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Kolkar Pack Runner",
+   "questItems": [
+    5030
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 7,
+   "unitClass": 1
+  },
   "3281": {
    "classification": 0,
    "creatureDifficultyId": 3281,
@@ -30513,6 +30540,31 @@
    "sources": 1,
    "totalProbability": 100.0,
    "type": 7,
+   "unitClass": 1
+  },
+  "4316": {
+   "classification": 0,
+   "creatureDifficultyId": 4316,
+   "displays": [
+    {
+     "displayId": 1535,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 25,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Kolkar Packhound",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 1,
    "unitClass": 1
   },
   "4320": {
@@ -56456,7 +56508,7 @@
  },
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
-  "cacheFiles": 73,
+  "cacheFiles": 77,
   "cachesLeftOut": 0,
   "clientBuild": "1.60.1.70450",
   "collectedOn": {
