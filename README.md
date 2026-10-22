@@ -39,6 +39,7 @@ client language (`quests.enUS.json`):
 | `object_details.<locale>` | Every game object's name, type, model, size and quest drops |
 | `item_hotfixes.<locale>` | Items the server sent, removed or withheld, with the names the client files lack |
 | `broadcast_text.<locale>` | Broadcast texts the server sent (what NPCs say in gossip windows and speech), by ID |
+| `hotfixes.<locale>` | The server's hotfix rows for spell, trait, curve and condition tables, and its item names, every version with how many players have it |
 
 `data/index.json` lists every product, build and dataset with its record count. [DATASETS.md](DATASETS.md)
 documents every field and how players' contributions are combined.

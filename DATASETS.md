@@ -16,8 +16,9 @@ data/<product>/<clientBuild>/<dataset>.<locale>.json     the datasets in the gam
   4 November 2026.
 - `<clientBuild>` is the client's version, such as `1.60.1.70009`. A build's data is only what
   players recorded on that build, so compare builds to see what a patch changed.
-- `<locale>` is the game client's language, such as `enUS`. The five datasets read from the game's
-  caches (`quests`, `creature_details`, `object_details`, `item_hotfixes`, `broadcast_text`) are
+- `<locale>` is the game client's language, such as `enUS`. The six datasets read from the game's
+  caches (`quests`, `creature_details`, `object_details`, `item_hotfixes`, `broadcast_text`,
+  `hotfixes`) are
   mostly the server's text, and the three scans of the game's tooltips (`talent_scan`, `stat_scan`,
   `tooltip_scan`), the rank reader's spell descriptions (`rank_scan`) and the words its windows
   showed (`texts`) are the game's text, so each language gets its own file. Names in the other
@@ -544,11 +545,13 @@ back, and `names` what Efficient Games did, each per kind (`quests`, `greeting`,
 
 The game keeps the server's answers in cache files: what a quest says, what a creature or object is,
 and the rows of the game's tables the server sent after the client shipped ("hotfixes"). The last are
-in `DBCache.bin`: its `ItemSparse` rows make `item_hotfixes`, and its `BroadcastText` rows
-`broadcast_text`. EG Link's app uploads them as the game wrote them. A cache holds what the game asked
+in `DBCache.bin`: its `ItemSparse` rows make `item_hotfixes`, its `BroadcastText` rows
+`broadcast_text`, and its spell, trait, curve and `PlayerCondition` rows, with items' names, `hotfixes`.
+EG Link's app uploads them as the game wrote them. A cache holds what the game asked
 about since it last started one, so every upload adds to what's known, and a player's newer upload
 replaces only the records it has. For each record, the newest player's answer wins (for a pushed item, the newest push
-first), then the one most players have. `sources` counts the players who had it.
+first), then the one most players have. `sources` counts the players who had it. `hotfixes` is the
+exception: it publishes every player's answer, as its section says.
 
 A cache is read only when it's from the upload's build and language, and only when its record layout
 has been checked record by record. Otherwise the whole file is left out and counted in
@@ -632,3 +635,37 @@ in gossip windows and speech. `texts.<locale>` matches what players saw against 
   and `$r` for the reader's name, class and race, `$g<male>:<female>;` for the reader's gender, and
   `$b` or `$B` for a line break.
 - `sources`
+
+### hotfixes.&lt;locale&gt;
+
+The server's hotfix rows for the game's spell, trait, curve and `PlayerCondition` tables, and the
+names and descriptions it sent for items, from players' `DBCache.bin`. It's how a build's spells can
+be read as the game plays them without anyone's own client: a hotfix replaces the row the client
+shipped. Other tables' rows aren't published: never an item's `ItemSparse`, `Item` or
+`ItemSearchName` row (an item's stats stay with the server until it shows them), nor `TactKey`'s.
+
+Unlike the other cache datasets, nothing is picked here. Each player's game applies its newest record
+for a row, and every distinct newest record is published as a version, with `sources`: how many
+players' newest record it is. A version one player has is published too. A reader picks:
+data-miner applies a version once 2 players' newest records agree on it (the newest push of those,
+then the one most players have), and leaves a row as the client shipped it until they do.
+
+- `tables["<hash>"]`: one per table that has rows, keyed by the table's hash as eight uppercase hex
+  digits (as `DBCache.bin` and the client's table headers name it)
+  - `name`: the table's name, such as `SpellEffect`
+  - `rows[recordId]`: the row's versions, each with
+    - `pushId`: the server's hotfix push it came in (-1 for an answer to the game's own request)
+    - `status`: `valid` (the server sent the row), `removed` (it deleted the row), `invalid` (it
+      withdrew the push: the row stays as shipped) or `not_public` (it holds the row back). Only a
+      `valid` or `removed` version changes the row.
+    - `data`: for a `valid` version, the row's bytes as lowercase hex. A sparse table's row (`Spell`)
+      is in the table's own record format; any other table's has every column at its full declared
+      width and strings inline. The build's client describes the columns.
+    - `sources`
+- `items[itemId]`: the item's versions, from its `ItemSparse` hotfix, each with `pushId`, `status`
+  (as above), `name` and `description` for a `valid` version (either left out when empty), and
+  `sources`. No other field of the row is ever published; `item_hotfixes` has the item's one picked
+  record.
+
+Versions are sorted by `pushId`, newest first, then `status`, then `data` (for an item, `name`, then
+`description`). `data/index.json` counts a file's rows and items together as its `records`.

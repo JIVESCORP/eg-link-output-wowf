@@ -30,6 +30,7 @@ NAME_KEYED = {
     "tameable[*]",  # hunter_pets: lore.tameable[locale]["<Beast Lore's line>"]
     "abilities[*]",  # hunter_pets: lore.abilities[locale]["<Beast Lore's line>"]
     "lockedText[*]",  # barber: lockedText[locale]["<the game's reason>"]
+    "tables",  # hotfixes: tables["<table hash>"], eight hex digits that may start with a digit
 }
 
 LOCALE = re.compile(r"^[a-z]{2}[A-Z]{2}$")
