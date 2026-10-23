@@ -441,10 +441,11 @@ Counts add up; `level` and `passive` are facts, so the newest wins.
 ## character_stats
 
 What players' own character sheets say about a race, class and level (EG Link 0.2.34 and later; base
-melee and ranged crit from 0.2.35): base stats, and how the game turns stats into health, mana, regen,
-crit, dodge and attack power, which no client file fully holds. Each reading is the character pane's
-numbers at one moment, and only these counts are published: never a character, its gear, its talents
-or the day it was read.
+melee and ranged crit from 0.2.35; the pane's regen, speed and armor calls from 0.2.38, uploaded by the
+app 0.17.0 and later): base stats, and how the game turns stats into health, mana, regen, crit, dodge,
+attack power, speed and armor's damage reduction, which no client file fully holds. Each reading is
+the character pane's numbers at one moment, and only these counts are published: never a character,
+its gear, its talents or the day it was read.
 
 - `stats["<race>|<class>|<level>"]`, keyed by the game's race and class tokens (both Skyborne races are
   `Skyborne`; `Scourge` is Undead) and the character's level when read, such as `Skyborne|DRUID|26`:
@@ -474,6 +475,26 @@ From one reading (one count per reading):
 | `baseRangedCrit` | the same from ranged crit and the ranged slot's skill: Unarmed when the slot is empty or holds an idol, libram, relic or totem; Feral Combat's in a form | % |
 | `armorPerAgility` | armor over agility, only from a reading with nothing worn, no aura and no form | armor per point |
 
+`baseDodge`, `baseParry`, `baseSpellCrit`, `baseMeleeCrit` and `baseRangedCrit` also leave out what the
+reading's talents and racials add, as `stat_effects` gives them (a talent that works only in a form,
+only in that form), so a base is the class's and a sheet adds its talents on top once. A reading with
+such a talent or racial whose condition it can't settle (a weapon, a creature type, a zone) gives no
+base of that kind.
+
+From one reading's own pane calls (EG Link 0.2.38 and later; one count per reading). Each is the game's
+answer for that one reading, never a fit across readings:
+
+| Fact | What it is | Unit |
+|---|---|---|
+| `hpPerStamina` | the health a point of stamina gives, as the game says (`UnitHPPerStamina`) | health per point |
+| `healthRegenPerSpirit` | spirit's health regen (`GetHealthRegenFromSpirit`) over spirit's total | health per second per point |
+| `healthRegenBase` | the game's health regen (`GetHealthRegen`) less 0.75 of spirit's health regen, the share the pane counts | health per second |
+| `manaRegenPerSpirit` | spirit's mana regen (`GetManaRegenFromSpirit`) over spirit's total. Where the game's rate per point changes partway (0.25 up to 50 spirit and 0.125 above on the readings so far), this is the average over all of spirit | mana per second per point |
+| `manaRegenBase` | the game's mana regen while not casting (`GetManaRegen`) less spirit's part | mana per second |
+| `rangedAttackPowerFromAgility` | the ranged attack power the game says agility gives (`GetRangedAttackPowerForStat`) over agility's total | attack power per point |
+| `runSpeed`, `swimSpeed` | run and swim speed as read (`GetUnitSpeed`): the form's own, with whatever the gear, talents and auras add or take away, so a slowed reading shows as its own value | yards a second |
+| `armorEffectivenessFits` | `1` when every damage reduction the reading's armor tooltip gives (`C_PaperDollInfo.GetArmorEffectiveness`, for attackers from the character's effective level to 3 levels above it) is within 0.0001 of armor / (armor + 400 + 85 x attacker level), else `0` | 1 or 0 |
+
 From two readings of one character at one level and form, with the same talents and auras (for
 `formAttackPowerPerAgility`, the same talents and gear) and different totals of the stat (one count per pair):
 
@@ -492,16 +513,17 @@ for a form with no pair of its own that counts.
 
 | Fact | What it is | Unit |
 |---|---|---|
-| `baseHealth` | health less the first 20 stamina at 1 each and the rest at `healthPerStamina` | health |
+| `baseHealth` | health less the first 20 stamina at 1 each and the rest at the reading's own `hpPerStamina`, or `healthPerStamina` for a reading without it | health |
 | `baseMana` | mana less the first 20 intellect at 1 each and the rest at `manaPerIntellect` | mana |
 | `baseRegen` | mana regen less spirit at `regenPerSpirit` | mana per second |
-| `rangedAttackPowerBase` | ranged attack power less agility at `rangedAttackPowerPerAgility` | attack power |
+| `rangedAttackPowerBase` | ranged attack power less agility at the reading's own `rangedAttackPowerFromAgility`, or `rangedAttackPowerPerAgility` for a reading without it | attack power |
 | `attackPowerBase` | the game's base attack power less what all five stats give and agility at `formAttackPowerPerAgility` (negative for some classes, and its own value in a form, such as Cat Form's 32). A form read without a pair that counts keeps the form's agility part in it | attack power |
 
 A reading without its race, class, level or all five stats is left out, and so is one with any of the five
 stat totals 0 or less (a sheet read before the game had loaded the character, every number 0). A fact a
-reading can't give (no mana, no ranged attack power, no Defense value, an unsettled weapon skill) is left
-out of it, so a one-reading fact's counts can add up to fewer than `readings`.
+reading can't give (no mana, no ranged attack power, no Defense value, an unsettled weapon skill, a pane
+call EG Link didn't record before 0.2.38) is left out of it, so a one-reading fact's counts can add up
+to fewer than `readings`.
 
 ## texts.&lt;locale&gt;
 
