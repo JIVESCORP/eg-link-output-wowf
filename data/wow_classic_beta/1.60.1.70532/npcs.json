@@ -1,5 +1,44 @@
 {
- "approached": {},
+ "approached": {
+  "1617": {
+   "name": "Silverleaf",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3851,
+     "mapY": 0.5377,
+     "uiMap": 1412,
+     "worldX": -1939.1,
+     "worldY": 109.5
+    }
+   ],
+   "sources": 1,
+   "times": 2
+  },
+  "1618": {
+   "name": "Peacebloom",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5189,
+     "mapY": 0.4986,
+     "uiMap": 1412,
+     "worldX": -1778.6,
+     "worldY": -714.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5186,
+     "mapY": 0.4978,
+     "uiMap": 1412,
+     "worldX": -1775.4,
+     "worldY": -712.3
+    }
+   ],
+   "sources": 1,
+   "times": 2
+  }
+ },
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70532",
@@ -14,6 +53,89 @@
   "sources": 2
  },
  "npcs": {
+  "3065": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-10-23",
+   "levels": [
+    11
+   ],
+   "name": "Yaw Sharpmane",
+   "options": {
+    "97519": {
+     "icon": 132058,
+     "name": "I am a hunter and wish to train."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4683,
+     "mapY": 0.596,
+     "uiMap": 1412,
+     "worldX": -2178.3,
+     "worldY": -402.9
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4691,
+     "mapY": 0.5952,
+     "uiMap": 1412,
+     "worldX": -2175,
+     "worldY": -407.6
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 3
+  },
+  "3076": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-23",
+   "levels": [
+    12
+   ],
+   "name": "Moorat Longstride",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.453,
+     "mapY": 0.614,
+     "uiMap": 1412,
+     "worldX": -2252.1,
+     "worldY": -308.9
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "3081": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-23",
+   "levels": [
+    10
+   ],
+   "name": "Wunna Darkmane",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4553,
+     "mapY": 0.6181,
+     "uiMap": 1412,
+     "worldX": -2268.9,
+     "worldY": -322.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
   "3310": {
    "interactions": [
     "Gossip",
@@ -43,6 +165,67 @@
    "side": "Horde",
    "sources": 1,
    "windows": 2
+  },
+  "3615": {
+   "interactions": [
+    "Gossip",
+    "TaxiNode"
+   ],
+   "lastSeen": "2026-10-23",
+   "levels": [
+    55
+   ],
+   "name": "Devrak",
+   "options": {
+    "95583": {
+     "icon": 132057,
+     "name": "I need a ride."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5153,
+     "mapY": 0.3035,
+     "uiMap": 1413,
+     "worldX": -437.8,
+     "worldY": -2598.3
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
+  "5940": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-10-23",
+   "levels": [
+    9
+   ],
+   "name": "Harn Longcast",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4665,
+     "mapY": 0.5926,
+     "uiMap": 1412,
+     "worldX": -2164,
+     "worldY": -391.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4672,
+     "mapY": 0.5918,
+     "uiMap": 1412,
+     "worldX": -2160.9,
+     "worldY": -396.3
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 4
   },
   "251361": {
    "interactions": [
@@ -220,6 +403,40 @@
    ],
    "sources": 1,
    "windows": 1
+  },
+  "278680": {
+   "interactions": [
+    "Gossip",
+    "Merchant",
+    "Trainer"
+   ],
+   "lastSeen": "2026-10-23",
+   "levels": [
+    60
+   ],
+   "name": "Gabbi Goodwhistle",
+   "options": {
+    "143686": {
+     "icon": 132058,
+     "name": "I'd like some weapon training"
+    },
+    "143687": {
+     "icon": 132060,
+     "name": "I want to browse your goods."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4697,
+     "mapY": 0.631,
+     "uiMap": 1412,
+     "worldX": -2321.9,
+     "worldY": -411.6
+    }
+   ],
+   "sources": 1,
+   "windows": 4
   }
  },
  "objects": {
