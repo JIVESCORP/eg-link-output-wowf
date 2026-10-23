@@ -1,0 +1,164 @@
+{
+ "books": {},
+ "gossip": {
+  "npc:251361": [
+   {
+    "broadcastTextIds": [
+     304010
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What do you need of me, child of Zephras?",
+    "times": 2
+   }
+  ],
+  "npc:251487": [
+   {
+    "broadcastTextIds": [
+     304012
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What may I do for you, fellow windshaper?",
+    "times": 2
+   }
+  ],
+  "npc:3310": [
+   {
+    "broadcastTextIds": [
+     8122
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "You haven't lived until you've looked down on the world from the back of a wind rider.",
+    "times": 1
+   }
+  ]
+ },
+ "greeting": {},
+ "meta": {
+  "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
+  "clientBuild": "1.60.1.70532",
+  "collectedOn": {
+   "first": "2026-10-22",
+   "last": "2026-10-23"
+  },
+  "dataset": "texts",
+  "license": "CC BY 4.0",
+  "locale": "enUS",
+  "product": "wow_classic_beta",
+  "schemaVersion": 1,
+  "sources": 2,
+  "withheld": {
+   "addon": {
+    "books": 0,
+    "gossip": 0,
+    "greeting": 0,
+    "quests": 0
+   },
+   "names": {
+    "books": 0,
+    "gossip": 0,
+    "greeting": 0,
+    "quests": 0
+   }
+  }
+ },
+ "quests": {
+  "92461": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "text": "Thank you for your service to Zephras, young $c.\r\n\r\nThe vuldren are typically quite docile, but the animals that call Zephras home can sense when the magic on the winds is out of balance, which can lead to dangerous and unpredictable behavior if left unchecked.",
+     "times": 1
+    }
+   ]
+  },
+  "92462": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 1
+     },
+     "text": "Judging by the amount of bug entrails covering you, this must be quite the infestation.",
+     "times": 1
+    }
+   ]
+  },
+  "92463": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 1
+     },
+     "text": "If the forest is as thick with these insects as it sounds, simply killing the workers won't be enough.\r\n\r\nGo deeper into the forest and find the queen. She'll be close to the hive and surrounded by bigger and more aggressive soldiers, so be careful.\r\n\r\nPut her down and return here when it's done. That'll be one less problem to think about around here.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 1
+     },
+     "text": "Destroy the Cirrusfly Queen in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92598": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251487": 2
+     },
+     "text": "As a Windshaper, you have the ability to use the sacred skysight gifted to us by the elemental spirits. Travel to the standing stones to the northeast of the village. Find the elemental convergence there and use your gift.\r\n\r\nYou'll find that you may draw upon the skysight anywhere, but its boon is much more powerful if you do so in the presence of an elemental convergence. You may at times receive other bits of wisdom from the spirits that are drawn to such places of power, as well.",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251487": 2
+     },
+     "text": "Use your Skysight racial ability at the Elemental Convergence in Thendal Grove.",
+     "times": 2
+    }
+   ]
+  }
+ }
+}

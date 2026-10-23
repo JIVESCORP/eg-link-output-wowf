@@ -1,0 +1,117 @@
+{
+ "masters": {
+  "3310": {
+   "name": "Doras",
+   "node": 23,
+   "sources": 1
+  }
+ },
+ "meta": {
+  "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
+  "clientBuild": "1.60.1.70532",
+  "collectedOn": {
+   "first": "2026-10-22",
+   "last": "2026-10-23"
+  },
+  "dataset": "flights",
+  "license": "CC BY 4.0",
+  "product": "wow_classic_beta",
+  "schemaVersion": 1,
+  "sources": 2
+ },
+ "routes": {
+  "23>22": {
+   "costs": {
+    "5": 50
+   },
+   "hops": [
+    23,
+    22
+   ],
+   "sources": 1
+  },
+  "23>25": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.5151,
+     "mapY": 0.3041,
+     "uiMap": 1413,
+     "worldX": -442.1,
+     "worldY": -2596.3
+    }
+   ],
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    23,
+    25
+   ],
+   "seconds": {
+    "110": 1
+   },
+   "sources": 1
+  },
+  "23>40": {
+   "costs": {
+    "5": 730
+   },
+   "hops": [
+    23,
+    40
+   ],
+   "sources": 1
+  },
+  "23>44": {
+   "costs": {
+    "5": 830
+   },
+   "hops": [
+    23,
+    44
+   ],
+   "sources": 1
+  },
+  "23>48": {
+   "costs": {
+    "5": 830
+   },
+   "hops": [
+    23,
+    48
+   ],
+   "sources": 1
+  },
+  "23>53": {
+   "costs": {
+    "5": 1020
+   },
+   "hops": [
+    23,
+    53
+   ],
+   "sources": 1
+  },
+  "23>55": {
+   "costs": {
+    "5": 630
+   },
+   "hops": [
+    23,
+    55
+   ],
+   "sources": 1
+  },
+  "23>61": {
+   "costs": {
+    "5": 530
+   },
+   "hops": [
+    23,
+    61
+   ],
+   "sources": 1
+  }
+ }
+}

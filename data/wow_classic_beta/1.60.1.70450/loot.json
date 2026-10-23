@@ -1995,10 +1995,10 @@
    "unknown": 0
   },
   "npc:3272": {
-   "deaths": 2,
+   "deaths": 3,
    "empty": 1,
    "levels": {
-    "12": 1,
+    "12": 2,
     "13": 1
    },
    "sources": 1,
@@ -2147,10 +2147,10 @@
    "unknown": 0
   },
   "npc:3461": {
-   "deaths": 1,
+   "deaths": 2,
    "empty": 0,
    "levels": {
-    "16": 1
+    "16": 2
    },
    "sources": 1,
    "unknown": 0
@@ -11605,12 +11605,12 @@
    "copperWindows": 2,
    "items": {
     "2287": {
-     "chance": 0.25,
+     "chance": 0.3333,
      "drops": 1,
      "quantity": 1
     },
     "2589": {
-     "chance": 0.25,
+     "chance": 0.3333,
      "drops": 1,
      "quantity": 2
     }
@@ -12080,6 +12080,27 @@
      "windows": 1
     }
    },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:3461": {
+   "items": {
+    "5523": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4765,
+     "mapY": 0.4052,
+     "uiMap": 1413,
+     "worldX": -1125.2,
+     "worldY": -2205.9
+    }
+   ],
    "sources": 1,
    "windows": 1
   },

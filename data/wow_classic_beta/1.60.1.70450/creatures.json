@@ -9163,14 +9163,14 @@
     "casts": {
      "6660": {
       "name": "Shoot",
-      "starts": 3,
-      "successes": 3
+      "starts": 7,
+      "successes": 7
      }
     },
-    "deaths": 2,
-    "entries": 1,
+    "deaths": 3,
+    "entries": 2,
     "levels": {
-     "12": 1,
+     "12": 2,
      "13": 1
     },
     "maxHealth": {
@@ -9209,17 +9209,23 @@
      {
       "map": 1,
       "uiMap": 1413,
+      "x": -1148.04,
+      "y": -2174.9
+     },
+     {
+      "map": 1,
+      "uiMap": 1413,
       "x": -1126.36,
       "y": -2152.46
      }
     ],
     "sources": 1,
-    "spawns": 2
+    "spawns": 3
    },
-   "deaths": 2,
+   "deaths": 3,
    "levels": {
-    "12": 3,
-    "13": 3
+    "12": 4,
+    "13": 4
    },
    "name": "Kolkar Wrangler",
    "positions": [
@@ -9230,6 +9236,14 @@
      "uiMap": 1413,
      "worldX": -1151.3,
      "worldY": -2179.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4754,
+     "mapY": 0.4055,
+     "uiMap": 1413,
+     "worldX": -1127.1,
+     "worldY": -2194.9
     },
     {
      "instance": 1,
@@ -9245,7 +9259,7 @@
      2
     ]
    },
-   "seen": 6,
+   "seen": 8,
    "sources": 1
   },
   "3273": {
@@ -9299,7 +9313,7 @@
    },
    "deaths": 1,
    "levels": {
-    "13": 2
+    "13": 3
    },
    "name": "Kolkar Stormer",
    "positions": [
@@ -9317,7 +9331,7 @@
      2
     ]
    },
-   "seen": 2,
+   "seen": 3,
    "sources": 1
   },
   "3281": {
@@ -10184,13 +10198,21 @@
    "classifications": [
     "normal"
    ],
-   "deaths": 1,
+   "deaths": 2,
    "levels": {
-    "15": 3,
-    "16": 4
+    "15": 5,
+    "16": 6
    },
    "name": "Oasis Snapjaw",
    "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4765,
+     "mapY": 0.4052,
+     "uiMap": 1413,
+     "worldX": -1125.2,
+     "worldY": -2205.9
+    },
     {
      "instance": 1,
      "mapX": 0.4729,
@@ -10205,7 +10227,7 @@
      2
     ]
    },
-   "seen": 7,
+   "seen": 11,
    "sources": 1
   },
   "3464": {
@@ -15924,7 +15946,7 @@
    "first": "2026-10-20",
    "last": "2026-10-22"
   },
-  "combatLogUploads": 1,
+  "combatLogUploads": 2,
   "dataset": "creatures",
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",

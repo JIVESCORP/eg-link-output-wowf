@@ -1,0 +1,54 @@
+{
+ "meta": {
+  "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
+  "clientBuild": "1.60.1.70532",
+  "collectedOn": {
+   "first": "2026-10-22",
+   "last": "2026-10-23"
+  },
+  "dataset": "turn_ins",
+  "license": "CC BY 4.0",
+  "product": "wow_classic_beta",
+  "schemaVersion": 1,
+  "sources": 2
+ },
+ "quests": {
+  "92461": [
+   {
+    "faction": "Horde",
+    "level": 4,
+    "money": 15,
+    "race": "Skyborne",
+    "rep": [
+     {
+      "change": 50,
+      "factionId": 2778,
+      "to": 3225
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 240
+   }
+  ],
+  "92462": [
+   {
+    "faction": "Horde",
+    "level": 3,
+    "money": 35,
+    "race": "Skyborne",
+    "rep": [
+     {
+      "change": 50,
+      "factionId": 2778,
+      "to": 3175
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 510
+   }
+  ]
+ },
+ "withLegacy": {}
+}
