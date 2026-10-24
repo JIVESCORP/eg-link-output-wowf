@@ -1,0 +1,100 @@
+{
+ "masters": {
+  "10378": {
+   "name": "Omusa Thunderhorn",
+   "node": 77,
+   "sources": 1
+  }
+ },
+ "meta": {
+  "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
+  "clientBuild": "1.60.1.70291",
+  "collectedOn": {
+   "first": "2026-10-23",
+   "last": "2026-10-23"
+  },
+  "dataset": "flights",
+  "license": "CC BY 4.0",
+  "product": "wowf",
+  "schemaVersion": 1,
+  "sources": 1
+ },
+ "routes": {
+  "77>22": {
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    77,
+    22
+   ],
+   "sources": 1
+  },
+  "77>23": {
+   "costs": {
+    "5": 220
+   },
+   "hops": [
+    77,
+    25,
+    23
+   ],
+   "sources": 1
+  },
+  "77>25": {
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    77,
+    25
+   ],
+   "sources": 1
+  },
+  "77>29": {
+   "costs": {
+    "5": 320
+   },
+   "hops": [
+    77,
+    25,
+    29
+   ],
+   "sources": 1
+  },
+  "77>30": {
+   "costs": {
+    "5": 430
+   },
+   "hops": [
+    77,
+    30
+   ],
+   "sources": 1
+  },
+  "77>80": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.6312,
+     "mapY": 0.3711,
+     "uiMap": 1413,
+     "worldX": -894.6,
+     "worldY": -3773
+    }
+   ],
+   "costs": {
+    "5": 220
+   },
+   "hops": [
+    77,
+    25,
+    80
+   ],
+   "seconds": {
+    "131": 1
+   },
+   "sources": 1
+  }
+ }
+}
