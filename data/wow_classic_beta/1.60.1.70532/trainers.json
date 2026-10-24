@@ -10,13 +10,29 @@
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 2
+  "sources": 3
  },
  "trainers": {
   "278680": {
    "lastSeen": "2026-10-23",
    "name": "Gabbi Goodwhistle",
    "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.428,
+     "mapY": 0.6815,
+     "uiMap": 1411,
+     "worldX": -594,
+     "worldY": -4225.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4293,
+     "mapY": 0.6811,
+     "uiMap": 1411,
+     "worldX": -592.7,
+     "worldY": -4232.2
+    },
     {
      "instance": 1,
      "mapX": 0.4697,
@@ -61,6 +77,11 @@
      "spellId": 200
     },
     "201": {
+     "bartered": {
+      "?": {
+       "4": 1000
+      }
+     },
      "costs": {
       "4": 1000
      },
@@ -68,7 +89,7 @@
      "level": 0,
      "name": "One-Handed Swords",
      "skillRank": 0,
-     "sources": 1,
+     "sources": 2,
      "spellId": 201
     },
     "202": {
@@ -83,6 +104,11 @@
      "spellId": 202
     },
     "227": {
+     "bartered": {
+      "?": {
+       "4": 1000
+      }
+     },
      "costs": {
       "4": 1000
      },
@@ -90,7 +116,7 @@
      "level": 0,
      "name": "Staves",
      "skillRank": 0,
-     "sources": 1,
+     "sources": 2,
      "spellId": 227
     },
     "264": {
@@ -116,6 +142,11 @@
      "spellId": 266
     },
     "1180": {
+     "bartered": {
+      "?": {
+       "4": 1000
+      }
+     },
      "costs": {
       "4": 1000
      },
@@ -123,7 +154,7 @@
      "level": 0,
      "name": "Daggers",
      "skillRank": 0,
-     "sources": 1,
+     "sources": 2,
      "spellId": 1180
     },
     "2567": {
@@ -160,7 +191,7 @@
      "spellId": 15590
     }
    },
-   "sources": 1,
+   "sources": 2,
    "tradeskill": false,
    "trainerType": 0
   }

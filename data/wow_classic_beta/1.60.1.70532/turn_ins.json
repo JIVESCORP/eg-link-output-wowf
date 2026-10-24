@@ -10,7 +10,7 @@
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 2
+  "sources": 3
  },
  "quests": {
   "92461": [
@@ -50,5 +50,30 @@
    }
   ]
  },
- "withLegacy": {}
+ "withLegacy": {
+  "4641": [
+   {
+    "diplomat": "?",
+    "faction": "Horde",
+    "level": 1,
+    "money": 0,
+    "race": "Troll",
+    "rep": [
+     {
+      "change": 50,
+      "factionId": 76,
+      "to": 3150
+     },
+     {
+      "change": 50,
+      "factionId": 530,
+      "to": 4050
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 40
+   }
+  ]
+ }
 }

@@ -35,12 +35,12 @@
      330058
     ],
     "sexes": {
-     "female": 2
+     "female": 6
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "What can I do for ya?",
-    "times": 2
+    "times": 6
    }
   ],
   "npc:3065": [
@@ -51,6 +51,20 @@
     "sources": 1,
     "text": "Tauren have a passion for hunting; it is something that runs deep with our kind.",
     "times": 3
+   }
+  ],
+  "npc:3143": [
+   {
+    "broadcastTextIds": [
+     6016
+    ],
+    "sexes": {
+     "female": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The Valley of Trials will temper even the weakest into a warrior worthy to join the Horde. Those who cannot rise to its tests will be left to bake in the scorching desert sun.",
+    "times": 2
    }
   ],
   "npc:3310": [
@@ -91,7 +105,7 @@
   "locale": "enUS",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 2,
+  "sources": 3,
   "withheld": {
    "addon": {
     "books": 0,
@@ -108,6 +122,21 @@
   }
  },
  "quests": {
+  "4641": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3143": 1
+     },
+     "text": "Another one of Kaltunk's recruits, hm?\n\nA sorry state of affairs we find ourselves in if this is the best the Horde can produce. No matter. By the time we think you're ready to leave the Valley, you'll be a proud warrior of the Horde.",
+     "times": 1
+    }
+   ]
+  },
   "92461": {
    "complete": [
     {
@@ -191,6 +220,36 @@
      },
      "text": "Use your Skysight racial ability at the Elemental Convergence in Thendal Grove.",
      "times": 2
+    }
+   ]
+  },
+  "97279": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3143": 1
+     },
+     "template": "questCache",
+     "text": "With an influx of new recruits like yourself, it's been hard to keep our weapons supplied. Our weaponsmith, Kzan, is running low on training weapons and I'd like to see what kinds of skills you possess to get an idea of what I have to work with. Luckily for you, I have a solution to both.\r\n\r\nWhile you're out there cutting your teeth on boars, salvage six abandoned training weapons. Our failed recruits left them laying on the ground. Once you do, return them to our weaponsmith Kzan behind me in the Den.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3143": 1
+     },
+     "template": "questCache",
+     "text": "Collect $1oa Abandoned Training Weapons, then return to Kzan Thornslash in the Den.",
+     "times": 1
     }
    ]
   }

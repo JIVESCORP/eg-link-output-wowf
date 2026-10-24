@@ -37,6 +37,189 @@
    ],
    "sources": 1,
    "times": 2
+  },
+  "673476": {
+   "name": "Abandoned Training Weapon",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4378,
+     "mapY": 0.6747,
+     "uiMap": 1411,
+     "worldX": -569.9,
+     "worldY": -4277.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4386,
+     "mapY": 0.6718,
+     "uiMap": 1411,
+     "worldX": -559.9,
+     "worldY": -4281.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4393,
+     "mapY": 0.6661,
+     "uiMap": 1411,
+     "worldX": -539.6,
+     "worldY": -4285.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4402,
+     "mapY": 0.6616,
+     "uiMap": 1411,
+     "worldX": -523.7,
+     "worldY": -4290.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4417,
+     "mapY": 0.6613,
+     "uiMap": 1411,
+     "worldX": -522.9,
+     "worldY": -4297.8
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4396,
+     "mapY": 0.6599,
+     "uiMap": 1411,
+     "worldX": -517.8,
+     "worldY": -4287
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4401,
+     "mapY": 0.6574,
+     "uiMap": 1411,
+     "worldX": -509,
+     "worldY": -4289.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4388,
+     "mapY": 0.6552,
+     "uiMap": 1411,
+     "worldX": -501.3,
+     "worldY": -4282.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4388,
+     "mapY": 0.6543,
+     "uiMap": 1411,
+     "worldX": -498,
+     "worldY": -4282.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4441,
+     "mapY": 0.6542,
+     "uiMap": 1411,
+     "worldX": -497.7,
+     "worldY": -4310.8
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4467,
+     "mapY": 0.6541,
+     "uiMap": 1411,
+     "worldX": -497.5,
+     "worldY": -4324.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4482,
+     "mapY": 0.6537,
+     "uiMap": 1411,
+     "worldX": -496,
+     "worldY": -4332.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.452,
+     "mapY": 0.6506,
+     "uiMap": 1411,
+     "worldX": -485.1,
+     "worldY": -4352.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4563,
+     "mapY": 0.6504,
+     "uiMap": 1411,
+     "worldX": -484.5,
+     "worldY": -4375
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4431,
+     "mapY": 0.6494,
+     "uiMap": 1411,
+     "worldX": -480.7,
+     "worldY": -4305.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4404,
+     "mapY": 0.6481,
+     "uiMap": 1411,
+     "worldX": -476.1,
+     "worldY": -4291.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4363,
+     "mapY": 0.6474,
+     "uiMap": 1411,
+     "worldX": -473.9,
+     "worldY": -4269.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4438,
+     "mapY": 0.6473,
+     "uiMap": 1411,
+     "worldX": -473.3,
+     "worldY": -4309.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4478,
+     "mapY": 0.6365,
+     "uiMap": 1411,
+     "worldX": -435.2,
+     "worldY": -4330.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4492,
+     "mapY": 0.6353,
+     "uiMap": 1411,
+     "worldX": -431.3,
+     "worldY": -4337.8
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4533,
+     "mapY": 0.6278,
+     "uiMap": 1411,
+     "worldX": -404.8,
+     "worldY": -4359.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4575,
+     "mapY": 0.6171,
+     "uiMap": 1411,
+     "worldX": -366.9,
+     "worldY": -4381.6
+    }
+   ],
+   "sources": 1,
+   "times": 39
   }
  },
  "meta": {
@@ -50,7 +233,7 @@
   "license": "CC BY 4.0",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 2
+  "sources": 3
  },
  "npcs": {
   "3065": {
@@ -135,6 +318,49 @@
    "side": "Horde",
    "sources": 1,
    "windows": 1
+  },
+  "3143": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-23",
+   "levels": [
+    5
+   ],
+   "name": "Gornek",
+   "offers": {
+    "788": {
+     "title": "Cutting Teeth"
+    },
+    "97279": {
+     "level": 2,
+     "title": "Wayward Weapons"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4214,
+     "mapY": 0.6841,
+     "uiMap": 1411,
+     "worldX": -603.2,
+     "worldY": -4190.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "788": {
+     "level": 2,
+     "title": "Cutting Teeth"
+    },
+    "4641": {
+     "level": 1,
+     "title": "Your Place in the World"
+    }
+   },
+   "windows": 2
   },
   "3310": {
    "interactions": [
@@ -226,6 +452,34 @@
    "side": "Horde",
    "sources": 1,
    "windows": 4
+  },
+  "10176": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-10-23",
+   "levels": [
+    20
+   ],
+   "name": "Kaltunk",
+   "offers": {
+    "4641": {
+     "title": "Your Place in the World"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4328,
+     "mapY": 0.6862,
+     "uiMap": 1411,
+     "worldX": -610.4,
+     "worldY": -4251
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 0
   },
   "251361": {
    "interactions": [
@@ -428,6 +682,22 @@
    "positions": [
     {
      "instance": 1,
+     "mapX": 0.428,
+     "mapY": 0.6815,
+     "uiMap": 1411,
+     "worldX": -594,
+     "worldY": -4225.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4293,
+     "mapY": 0.6811,
+     "uiMap": 1411,
+     "worldX": -592.7,
+     "worldY": -4232.2
+    },
+    {
+     "instance": 1,
      "mapX": 0.4697,
      "mapY": 0.631,
      "uiMap": 1412,
@@ -435,8 +705,8 @@
      "worldY": -411.6
     }
    ],
-   "sources": 1,
-   "windows": 4
+   "sources": 2,
+   "windows": 12
   }
  },
  "objects": {

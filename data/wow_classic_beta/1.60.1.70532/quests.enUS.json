@@ -1,19 +1,19 @@
 {
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
-  "cacheFiles": 2,
+  "cacheFiles": 4,
   "cachesLeftOut": 0,
   "clientBuild": "1.60.1.70532",
   "collectedOn": {
    "first": "2026-10-22",
-   "last": "2026-10-22"
+   "last": "2026-10-23"
   },
   "dataset": "quests",
   "license": "CC BY 4.0",
   "locale": "enUS",
   "product": "wow_classic_beta",
   "schemaVersion": 1,
-  "sources": 1
+  "sources": 2
  },
  "quests": {
   "9": {
@@ -3884,7 +3884,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.95
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Solution to Doom",
    "zoneAreaId": 1517
   },
@@ -4347,6 +4347,190 @@
    "title": "Attack on Camp Narache",
    "zoneAreaId": 220
   },
+  "788": {
+   "description": "The first order of business will be to put a little strength in your backbone. I could send you out to the Barrens to hunt kodo, but well, in all honesty, you're more useful to us alive than dead.$b$bI believe you would find a good match with the mottled boars you'll find to the north of here.",
+   "flags": 8,
+   "level": 2,
+   "minLevel": 1,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 380882,
+     "objectId": 3098,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill 10 Mottled Boars then return to Gornek at the Den.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 4915
+     },
+     {
+      "count": 1,
+      "itemId": 4914
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     },
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Cutting Teeth",
+   "zoneAreaId": 363
+  },
+  "789": {
+   "description": "Powerful warrior and awkward novice alike have fallen to the venomous sting of the scorpid. You will find large numbers of scorpids northwest of here. Bring me ten of their tails as proof of your prowess in battle.$b$bThe antidote for their sting is actually made from venom extracted from their stingers. We keep large quantities of antidote for scorpid venom on hand to heal young bloods just like you...$b$bBut I'm sure you won't be needing any of that, will you?",
+   "flags": 8,
+   "level": 3,
+   "minLevel": 1,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 380649,
+     "objectId": 4862,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Get 10 Scorpid Worker Tails for Gornek in the Den.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 4919
+     },
+     {
+      "count": 1,
+      "itemId": 4920
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     },
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Sting of the Scorpid",
+   "zoneAreaId": 363
+  },
+  "790": {
+   "description": "$C! I thought I would die out here with none to know of it. While I was hunting the scorpids of the Valley, I came across a particularly vicious-looking one. Hurling myself at it, I managed to inflict a massive blow to its claw before it closed around my leg.$b$bI wasn't ready for its stinger though, and it sliced down and into my chest, cutting into my flesh and letting my blood. Please, you must kill the scorpid for me! My honor must be upheld! I fought it up on the plateau to the south.",
+   "flags": 8,
+   "level": 5,
+   "minLevel": 1,
+   "nextQuestId": 804,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380806,
+     "objectId": 4905,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Kill Sarkoth and bring his claw back to Hana'zua.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     },
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Sarkoth",
+   "zoneAreaId": 363
+  },
+  "792": {
+   "description": "I trust the Valley of Trials will teach you much, young $c.$B$BI was sent to the Valley to guide you, but I have discovered a growing taint here...$B$BA group that calls itself the Burning Blade has a coven here in the Valley of Trials.  They are skulking in a cave to the northeast, and their Vile Familiars have spilled from its mouth to cause havoc.$B$BAs your first task against the Burning Blade, I bid you, defeat these familiars. Slay many and, if you survive, return to me.",
+   "flags": 8,
+   "level": 4,
+   "minLevel": 2,
+   "nextQuestId": 794,
+   "objectives": [
+    {
+     "amount": 12,
+     "id": 380790,
+     "objectId": 3101,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill 12 Vile Familiars.$B$BReturn to Zureetha Fargaze outside the Den.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 4924
+     },
+     {
+      "count": 1,
+      "itemId": 4925
+     },
+     {
+      "count": 1,
+      "itemId": 4923
+     },
+     {
+      "count": 1,
+      "itemId": 5778
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 6
+     },
+     {
+      "factionId": 530,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Vile Familiars",
+   "zoneAreaId": 363
+  },
   "794": {
    "description": "Through my divinations, I see that an item of power hides deep within the Burning Blade Coven, guarded by beasts and black magic.$B$BIt is called the Burning Blade Medallion, and your next task is to find it and remove it from the coven.$B$BBut be wary, for the medallion may be possessed by an agent of the Burning Blade, and if so then the agent's power would be greater than the familiars you have already encountered.$B$BGo, $n.  You will find the coven in a cave, to the north and west.",
    "flags": 8,
@@ -4400,7 +4584,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Burning Blade Medallion",
    "zoneAreaId": 363
   },
@@ -4966,7 +5150,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.95
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Leaders of the Fang",
    "zoneAreaId": 718
   },
@@ -5265,6 +5449,40 @@
    "title": "Tools of the Highborne",
    "zoneAreaId": 148
   },
+  "959": {
+   "description": "Oops!$b$bHad a little mishap, as you can see! The morning cargo shipment from Booty Bay was huge. Huge I say! Never seen so many crates. Well, I was trying to expedite things so I started unloading a bit more than I could handle. That's when everything came tumbling down.$b$bBefore I knew what was going on, I saw that menace, Mad Magglish, go running off with a bottle of 99-year-old port. Chased him all the way to Wailing Caverns. No way I was going in there.$b$bMaybe you're brave enough to find him?",
+   "flags": 8,
+   "level": 18,
+   "minLevel": 14,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380999,
+     "objectId": 5334,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Crane Operator Bigglefuzz in Ratchet wants you to retrieve the bottle of 99-Year-Old Port from Mad Magglish who is hiding in the Wailing Caverns.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1000,
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.95
+   },
+   "sources": 1,
+   "title": "Trouble at the Docks",
+   "zoneAreaId": 718
+  },
   "962": {
    "description": "The Royal Apothecary Society, based in the great Undercity of Lordaeron, has sent me here for a very specific service, $n. Perhaps you wish to aid me, and in turn The Dark Lady in our efforts to advance the Forsaken.$b$bRecently I studied a rare specimen of flora named Serpentbloom. I believe in greater quantities this herb has great potential.$b$bUnfortunately Serpentbloom can only be found in the darkest recesses of the Wailing Caverns, a dangerous cave system located in the Barrens.",
    "flags": 8,
@@ -5309,7 +5527,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.95
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Serpentbloom",
    "zoneAreaId": 718
   },
@@ -5516,6 +5734,93 @@
    "sources": 1,
    "title": "Insane Druids",
    "zoneAreaId": 331
+  },
+  "1013": {
+   "description": "$n, Shadowfang Keep holds a book, the Book of Ur, which would be much prized in my collection.  Ur was a great mage of Dalaran before the coming of the Scourge, his studies in other worlds are of much value to ... certain parties among the Forsaken.$B$BEnter Shadowfang Keep and find the book.  Bring it to me, and I will report your service to our Dark Lady...",
+   "flags": 8,
+   "level": 26,
+   "minLevel": 16,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381306,
+     "objectId": 6283,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Book of Ur to Keeper Bel'dugur at the Apothecarium in the Undercity.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6335
+     },
+     {
+      "count": 1,
+      "itemId": 4534
+     },
+     {
+      "count": 1,
+      "itemId": 270030
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 2.675
+   },
+   "sources": 1,
+   "title": "The Book of Ur",
+   "zoneAreaId": 209
+  },
+  "1014": {
+   "description": "Arugal still resides in Shadowfang Keep. We cannot claim Silverpine as a strategic stronghold for the Dark Lady until Arugal is slain.$b$bI shall see to it that his magic is eradicated, $n. But I leave it in your hands to see that Arugal meets the death he so deserves.$b$bTravel to Shadowfang Keep and put an end to Arugal's foul spells once and for all. Bring to me the vile wizard's head!",
+   "flags": 8,
+   "level": 27,
+   "minLevel": 18,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380886,
+     "objectId": 5442,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Kill Arugal and bring his head to Dalar Dawnweaver at the Sepulcher.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 6414
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 7
+     }
+    ],
+    "spellId": 364161,
+    "xpDifficulty": 7,
+    "xpMultiplier": 2.675
+   },
+   "sources": 1,
+   "title": "Arugal Must Die",
+   "zoneAreaId": 209
   },
   "1016": {
    "description": "Take this divining scroll--it can determine the creator of these elementals. But you will need something from them to use as a reagent to focus scroll's magic--their bracers should do nicely.$B$BA few intact bracers from the creatures should be enough. The other bracers will be useless for our purposes, but they may be worth something to a merchant if you wish to sell them. Once you have the intact bracers attempt to use the scroll. Return to me with the results and we shall proceed from there.",
@@ -5728,7 +6033,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Compendium of the Fallen",
    "zoneAreaId": 796
   },
@@ -5777,7 +6082,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Vorrel's Revenge",
    "zoneAreaId": 796
   },
@@ -6155,6 +6460,44 @@
    "title": "Further Instructions",
    "zoneAreaId": 406
   },
+  "1098": {
+   "description": "In preparation for an assault on Shadowfang, two deathstalkers were sent to the keep to gather intelligence.  It has been many days and they have not returned, but we must receive their report if we're to have any hope of a successful attack!$B$BSo here is your task, $n.  Go to Shadowfang Keep to the south and find the Deathstalkers Adamant and Vincent.  Find them, and if they require aid then give it.$B$BThis mission is as dangerous as is it critical, $n.  Do not fail.",
+   "flags": 8,
+   "level": 25,
+   "minLevel": 18,
+   "objectivesText": "Find the Deathstalker Adamant and Deathstalker Vincent.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 3324
+     },
+     {
+      "count": 1,
+      "itemId": 270023
+     },
+     {
+      "count": 1,
+      "itemId": 270024
+     }
+    ],
+    "money": 1800,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 2.675
+   },
+   "sources": 1,
+   "title": "Deathstalkers in Shadowfang",
+   "zoneAreaId": 209
+  },
   "1101": {
    "description": "Poor Heralath! And this dwarf... Lonebrow. What a brave soul he was.$b$bWe must not let their valiance go for naught. This crone... Charlga Razorflank ... must be stopped.$b$bSurely, infiltrating the Kraul will be perilous. There isn't time to send word to Darnassus. $n, assemble a party to slay the crone.$b$bBring me Razorflank's Medallion as proof of demise.",
    "flags": 8,
@@ -6251,7 +6594,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 2.1
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Vengeful Fate",
    "zoneAreaId": 1717
   },
@@ -6312,7 +6655,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.1
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Going, Going, Guano!",
    "zoneAreaId": 1717
   },
@@ -6345,7 +6688,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Hearts of Zeal",
    "zoneAreaId": 796
   },
@@ -6392,6 +6735,48 @@
    "sources": 1,
    "title": "Dream Dust in the Swamp",
    "zoneAreaId": 400
+  },
+  "1144": {
+   "areaDescription": "Help Willix the Importer escape from Razorfen Kraul",
+   "description": "At last, help has arrived!$b$bYou have no clue how long I've been held prisoner here. I can't remember the last time I saw the outside of this place.$b$bYou see, I am an entrepreneur. Always out for a copper, as they say. I caught wind that Mebok Mizzyrix was paying well for Redleaf Tuber from this here pig pen. I figured it would be an easy in, easy out kind of affair. As you can see, I was a bit wrong!$b$bAnyway, if you'd be so kind as to help me get out of here, I'll make it worth your while.",
+   "flags": 2,
+   "level": 30,
+   "minLevel": 22,
+   "objectivesText": "Escort Willix the Importer out of Razorfen Kraul.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6748
+     },
+     {
+      "count": 1,
+      "itemId": 6750
+     },
+     {
+      "count": 1,
+      "itemId": 6749
+     },
+     {
+      "count": 1,
+      "itemId": 274078
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 2.375
+   },
+   "sources": 1,
+   "title": "Willix the Importer",
+   "zoneAreaId": 1717
   },
   "1150": {
    "description": "I'm pleased to see your courage remains steadfast in light of what you've already done. Since your faith is intact, the time has come to test your body.$B$BFirst is a test of endurance. Go with friends to the Roguefeather Den west of Freewind Post. Make your way to the depths of their lair and destroy their foodstuffs. By then you should have provoked their fury, and if you are able to survive long enough, Grenka Bloodscreech herself will come for you--kill her and bring me her claw to complete your test.",
@@ -6535,7 +6920,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Test of Lore",
    "zoneAreaId": 796
   },
@@ -6710,7 +7095,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Blueleaf Tubers",
    "zoneAreaId": 1717
   },
@@ -7572,6 +7957,110 @@
    "title": "The Corrupter",
    "zoneAreaId": 405
   },
+  "1486": {
+   "description": "As Naralex descended deeper into his nightmare, a strange breed of beasts arose from beneath the Barrens into the Wailing Caverns.$b$bThese deviate creatures have strange, otherworldly properties. While evil in nature, it is my opinion that some good can come from their existence here in Kalimdor. I believe their hides will be of particular use in the ways of leatherworking.$b$bIf you feel up to the task, venture into the caves below and retrieve some deviate hides.",
+   "flags": 8,
+   "level": 17,
+   "minLevel": 13,
+   "objectives": [
+    {
+     "amount": 20,
+     "id": 381767,
+     "objectId": 6443,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Nalpak in the Wailing Caverns wants 20 Deviate Hides.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 918
+     },
+     {
+      "count": 1,
+      "itemId": 6480
+     }
+    ],
+    "money": 1800,
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.95
+   },
+   "sources": 1,
+   "title": "Deviate Hides",
+   "zoneAreaId": 718
+  },
+  "1487": {
+   "description": "Naralex had a noble goal.$b$bOur great leader aspired to enter the Emerald Dream and help regrow these harsh lands back into the lush forest it once was. But something went terribly wrong.$b$bNaralex's dream turned into a nightmare and corrupt creatures began to inhabit the caverns.$b$bWhile some Disciples of Naralex seek to awake our master, my concern is with ridding these caves of the evil beasts.$b$bBrave the caverns, $n, and eradicate the deviate spawn.",
+   "flags": 8,
+   "level": 21,
+   "minLevel": 15,
+   "objectives": [
+    {
+     "amount": 7,
+     "id": 381389,
+     "objectId": 3636,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 7,
+     "id": 381390,
+     "objectId": 5755,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 7,
+     "id": 381391,
+     "objectId": 5761,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 7,
+     "id": 381392,
+     "objectId": 5056,
+     "storageIndex": 3,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Ebru in the Wailing Caverns wants you to kill 7 Deviate Ravagers, 7 Deviate Vipers, 7 Deviate Shamblers and 7 Deviate Dreadfangs.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6476
+     },
+     {
+      "count": 1,
+      "itemId": 8071
+     },
+     {
+      "count": 1,
+      "itemId": 6481
+     }
+    ],
+    "money": 2500,
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.95
+   },
+   "sources": 1,
+   "title": "Deviate Eradication",
+   "zoneAreaId": 718
+  },
   "1490": {
    "description": "I entered the land of dreams, and dreamed of a cult of druids who dwell in the Wailing Caverns.  I saw that their goals were once noble, but they have lost their way.  They are now servants of the taint seeping through the Barrens.$B$BI am old and my strength fails.  I could not long dwell in that dreaming place and know little more of the tainted druids.  But Nara is young and her spirit is fierce.  She remained in the dreaming when I fled.$B$BSpeak with Nara.  She is in the tent, over yonder.",
    "flags": 8,
@@ -7626,7 +8115,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.95
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Smart Drinks",
    "zoneAreaId": 718
   },
@@ -8330,6 +8819,33 @@
    "sources": 1,
    "title": "Laughing Sisters"
   },
+  "1951": {
+   "categoryId": 161,
+   "description": "Hm... now that I think about it, I don't have my book!  You see, I had some gambling debts and to pay them off I sold the last copy of Rituals of Power to a member of the clergy....$B$BA member of the Scarlet Brotherhood.  He must have taken it to their library in the Scarlet Monastery in Tirisfal Glades!$B$BIf you want that book, then you'll have to go to the monastery to find it.  And sorry about all the trouble.  I'm not myself these days...",
+   "flags": 8,
+   "level": 40,
+   "minLevel": 30,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381811,
+     "objectId": 7274,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the book Rituals of Power to Tabetha in Dustwallow Marsh.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 5,
+    "xpMultiplier": 2.0
+   },
+   "sources": 1,
+   "title": "Rituals of Power"
+  },
   "1998": {
    "categoryId": 162,
    "description": "Lord Varimathras has just sent me a missive about a threat to the Forsaken that must be immediately removed. His name is Fenwick Thatros, one whom Lord Varimathras believes is a leader of the undead that have taken root in Silverpine Forest.$b$bYour name came to mind immediately, $n. I have faith enough in your abilities that you will carry out this mission flawlessly.$b$bThe latest reports from the Deathstalkers in Silverpine indicate that Thatros can be found near the decrepit dock on Lordamere.",
@@ -8647,7 +9163,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Power Stones",
    "zoneAreaId": 1517
   },
@@ -8776,7 +9292,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Rig Wars",
    "zoneAreaId": 133
   },
@@ -8799,7 +9315,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Gnomer-gooooone!",
    "zoneAreaId": 133
   },
@@ -9001,7 +9517,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Fine Mess",
    "zoneAreaId": 133
   },
@@ -9128,7 +9644,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 9326,
    "title": "Grime-Encrusted Ring",
    "zoneAreaId": 133
@@ -9193,7 +9709,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Sparklematic 5200!",
    "zoneAreaId": 133
   },
@@ -9875,7 +10391,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 10682,
    "title": "Scourge of the Downs",
    "zoneAreaId": 722
@@ -10266,7 +10782,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Galgar's Cactus Apple Surprise",
    "zoneAreaId": 363
   },
@@ -10290,6 +10806,33 @@
    "sources": 1,
    "title": "The Sparklematic 5200!",
    "zoneAreaId": 133
+  },
+  "4641": {
+   "description": "Finally, you are of age, $n... of age to battle in the name of the Horde. To conquer for the glory of the Warchief.$B$BYes...$B$B<Kaltunk looks you over.>$B$BYou will do nicely.$B$BNo doubt you wish to find a great dragon or demon and strangle it with your bare hands, but perhaps it would be wise to start on something less... dangerous.$B$B<Kaltunk laughs.>$B$BReport to Gornek, he should be able to assign a task better suited to a young $c. You will find Gornek in the Den, to the west.\r\n",
+   "flags": 8,
+   "level": 1,
+   "minLevel": 1,
+   "nextQuestId": 788,
+   "objectivesText": "Speak with Gornek. You recall Kaltunk marking your map with his location and mentioning that Gornek resided in the Den, a building to the west. \r\n\r\n",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 3
+     },
+     {
+      "factionId": 530,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Your Place in the World",
+   "zoneAreaId": 363
   },
   "4722": {
    "description": "You find a corpse of a sea turtle that had beached itself on the coast of Darkshore some time ago.  It has been scavenged by the murlocs who have encamped themselves around the creature's remains.  Still, there appear to be some suitable samples left on the creature's remains that Gwennyth Bly'Leggonde in Auberdine might be able to make use of.",
@@ -10551,6 +11094,53 @@
    "sources": 1,
    "title": "Grimtotem Spying",
    "zoneAreaId": 400
+  },
+  "5441": {
+   "description": "Cursed peons!  They work hard gathering lumber from the trees of the valley, but they're always taking naps!  I need someone to help keep the peons in line.$B$BYou look like the right $r for my task.  Here, you take this blackjack and use it on any lazy peons you find sleeping on the job.  A good smack will get them right back to work!  Return the blackjack when you're done.$B$BLousy slacking peons...",
+   "flags": 0,
+   "level": 4,
+   "minLevel": 3,
+   "nextQuestId": 6394,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 383344,
+     "objectId": 10556,
+     "storageIndex": 0,
+     "text": "Peons Awoken",
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 383345,
+     "objectId": 16114,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Use the Foreman's Blackjack on Lazy Peons when they're sleeping.  Wake up 5 peons, then return the Foreman's Blackjack to Foreman Thazz'ril in the Valley of Trials.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 6
+     },
+     {
+      "factionId": 530,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 16114,
+   "title": "Lazy Peons",
+   "zoneAreaId": 363
   },
   "5481": {
    "description": "Master want weeds. Us gots big hands and not good at picking. You help us and we not hurt you. Us need gloom weed. Many weeds around here and near road.$b$bWhen you have gloom weed you take to Master Holland in Brill graveyard.\r\n",
@@ -10882,6 +11472,66 @@
    "sources": 1,
    "title": "Dark Sacrifice"
   },
+  "5722": {
+   "description": "The troggs are not the only thing that interested Magatha in Ragefire Chasm. She has heard word that one of her servants, a Maur Grimtotem, found something peculiar while in the Chasm, but he never made it out to show her what. She'd like Maur's body found--if it still exists--and any signs of what he found while attempting to speak to the troggs.$B$BReturn to Magatha any items of interest, and I'm sure she would be very generous in her reward.$B$BAgain, seek the Chasm in the darkest areas of Orgrimmar.",
+   "flags": 8,
+   "level": 16,
+   "minLevel": 9,
+   "nextQuestId": 5724,
+   "objectivesText": "Search Ragefire Chasm for Maur Grimtotem's corpse and search it for any items of interest.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 2.025
+   },
+   "sources": 1,
+   "title": "Searching for the Lost Satchel",
+   "zoneAreaId": 2437
+  },
+  "5723": {
+   "description": "Beneath the city of Orgrimmar, stout creatures known as troggs started coming to the surface from deep below the lava filled tunnels. In her ever-benevolence, Magatha sought to make peace with the creatures, but they turned on her diplomats, killing them. She will not allow such treatment of the tauren people and now consider the creatures a threat to all of the Horde.$B$BShe asks that you put an end to this trogg threat before it overwhelms the Horde from below. Find Ragefire Chasm and destroy them all.",
+   "flags": 8,
+   "level": 15,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 383908,
+     "objectId": 11318,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 8,
+     "id": 383909,
+     "objectId": 11319,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Search Orgrimmar for Ragefire Chasm, then kill 8 Ragefire Troggs and 8 Ragefire Shaman before returning to Rahauro in Thunder Bluff.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 700,
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 2.025
+   },
+   "sources": 1,
+   "title": "Testing an Enemy's Strength",
+   "zoneAreaId": 2437
+  },
   "5725": {
    "description": "Many denizens of the Legion bestow gifts on their followers as you may well know. Some of these gifts the Dark Lady feels would be better off in her hands than in the hands of those with... lesser vision.$B$BA sect of the Shadow Council hidden in caverns below Orgrimmar known as the Searing Blade are a prime example. The Lady tells me that members of the Searing Blade have come into the possession of two powerful spell books--she would like to \"borrow\" these books from them. You will get them for her.",
    "flags": 8,
@@ -10933,7 +11583,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.025
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Power to Destroy...",
    "zoneAreaId": 2437
   },
@@ -10976,8 +11626,36 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.025
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Hidden Enemies",
+   "zoneAreaId": 2437
+  },
+  "5761": {
+   "description": "The primary task set upon me by our great Warchief is to root out the creatures responsible for infesting our lord's great city with demonic influence. The Burning Blade is one threat, but there are others; the Searing Blade for instance, who make their home in Ragefire Chasm, secretly attempting to subvert innocent members of the Horde.$B$BIf they are to be stopped, then their leader must be slain--a Felguard named Taragaman the Hungerer.$B$BKill him, and his heart will appease Thrall, of this I'm sure.",
+   "flags": 8,
+   "level": 16,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383681,
+     "objectId": 14540,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Enter Ragefire Chasm and slay Taragaman the Hungerer, then bring his heart back to Neeru Fireblade in Orgrimmar.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 800,
+    "xpDifficulty": 5,
+    "xpMultiplier": 2.025
+   },
+   "sources": 1,
+   "title": "Slaying the Beast",
    "zoneAreaId": 2437
   },
   "5762": {
@@ -11549,6 +12227,43 @@
    "title": "Return to the Crossroads",
    "zoneAreaId": 17
   },
+  "6394": {
+   "description": "$n, you are a dependable $r.  Can I count on you for another task?$B$BSome time ago I was surveying the cave to the north for minerals, and I left my favorite pick behind.  When I later returned to retrieve it I found the cave was filled with vicious beasts!  Will you go into the cave, the Burning Blade Coven, and get my pick?$B$BI left it in a chamber with waterfalls.  My pick has a spell on it so you can see it in the dark, so you won't have to worry about finding it... just what's guarding it!",
+   "flags": 8,
+   "level": 4,
+   "minLevel": 3,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383764,
+     "objectId": 16332,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Thazz'ril's Pick to Foreman Thazz'ril.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 150,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 6
+     },
+     {
+      "factionId": 530,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Thazz'ril's Pick",
+   "zoneAreaId": 363
+  },
   "6421": {
    "areaDescription": "Investigate Cave in Boulderslide Ravine",
    "description": "Something is amiss here in Stonetalon. Can you feel the tension in the air, $n?$B$BSoutheast of here lies a deep cave in Boulderslide Ravine. The kobolds there are frantically mining a rare crystal called Resonite. I need you to bring back some ore samples so that I can understand what's happening in that cave.  I also need you to investigate the depth of that cave.$B$BGo young $c, it's imperative I know what evil lurks under these mountains.",
@@ -11689,9 +12404,181 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.1
    },
-   "sources": 1,
+   "sources": 2,
    "title": "An Unholy Alliance",
    "zoneAreaId": 722
+  },
+  "6522": {
+   "description": "My Lady,$B$BYou know very well what it is we are offering. The opportunity for you to take the Barrens and the lands beyond is a great one. We simply want your aid in return. By aid we mean nothing more than your giving us the freedom to take action in the area.$B$BPlease, allow us to discuss this further. We have great power and are willing to share with those wise enough to join us. I will remain outside Razorfen Downs for the time being.$B$BBest Regards,$BAmbassador Malcin",
+   "flags": 0,
+   "level": 36,
+   "minLevel": 28,
+   "nextQuestId": 6521,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383759,
+     "objectId": 17008,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Take the Small Scroll to Varimathras in the Undercity.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 4000,
+    "xpDifficulty": 5,
+    "xpMultiplier": 2.1
+   },
+   "sources": 1,
+   "startItemId": 17008,
+   "title": "An Unholy Alliance",
+   "zoneAreaId": 722
+  },
+  "6561": {
+   "description": "Strength has left me. Your help is needed!$b$bLong ago this site was a great temple of Elune. But misfortune led to ruin when the corruption of an Old God seeped up from beneath the earth and tainted the sacred Moon Well.$b$bAku'Mai, servant of the Old God, rose from the waters.$b$bThe Twilight's Hammer cultists have allied with the naga to occupy these grounds. The cultists, led by Kelris, sacrifice innocents to Aku'Mai for power.$b$bSlay Kelris and bring his head to Bashana in Thunder Bluff, $n, please.",
+   "flags": 8,
+   "level": 27,
+   "minLevel": 18,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383222,
+     "objectId": 5881,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the head of Twilight Lord Kelris to Bashana Runetotem in Thunder Bluff.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 7001
+     },
+     {
+      "count": 1,
+      "itemId": 7002
+     },
+     {
+      "count": 1,
+      "itemId": 270031
+     },
+     {
+      "count": 1,
+      "itemId": 270032
+     }
+    ],
+    "money": 6500,
+    "reputation": [
+     {
+      "factionId": 529,
+      "tier": 7
+     },
+     {
+      "factionId": 81,
+      "tier": 7
+     }
+    ],
+    "xpDifficulty": 7,
+    "xpMultiplier": 2.375
+   },
+   "sources": 1,
+   "title": "Blackfathom Villainy",
+   "zoneAreaId": 719
+  },
+  "6563": {
+   "description": "Within the beginning tunnels of Blackfathom Deeps, large sapphire clusters can be found along the cave walls. Recently it was noted that the naga were harvesting the crystals. Until it can be discerned why, I sense we should stop the naga from succeeding. The crystals have great elemental power and if used inappropriately, could make for a powerful arcane component.$B$BWill you help me, $n? Blackfathom Deeps can be found along Zoram Strand to the north of our outpost.",
+   "flags": 8,
+   "level": 22,
+   "minLevel": 17,
+   "objectives": [
+    {
+     "amount": 20,
+     "id": 382201,
+     "objectId": 16784,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 20 Sapphires of Aku'Mai to Je'neu Sancrea in Ashenvale.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 1400,
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 5
+     },
+     {
+      "factionId": 2787,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Essence of Aku'Mai",
+   "zoneAreaId": 719
+  },
+  "6565": {
+   "description": "This Twilight's Hammer follower cannot be allowed to complete his plan. The Twilight's Hammer do not understand the spirits of nature. They believe in the Old Gods--creatures of chaos and destruction that were long ago defeated. This Lorgus cannot be allowed to succeed. You must stop him, $n. I cannot do it myself--I am too weak.$B$BGo into Blackfathom Deeps, find him, and kill him. Return to me here at Zoram'gar when it's done.",
+   "flags": 8,
+   "level": 26,
+   "minLevel": 17,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 382180,
+     "objectId": 12902,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill Lorgus Jett in Blackfathom Deeps and then return to Je'neu Sancrea in Ashenvale.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 17694
+     },
+     {
+      "count": 1,
+      "itemId": 17695
+     }
+    ],
+    "money": 4000,
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 6
+     },
+     {
+      "factionId": 2787,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 2.375
+   },
+   "sources": 1,
+   "title": "Allegiance to the Old Gods",
+   "zoneAreaId": 719
   },
   "6626": {
    "description": "The Forsaken do not pass on their... illness... from what I have seen. This diplomat seems to be granting undeath to would-be followers. I am beginning to think he is one of the Scourge.$B$BFor now, my concern is not with him though, it's with the growing ranks around him. They creep from the shadows daily, almost begging him for more power.$B$BI'm not powerful enough to fight them on my own, $n. What do you say? Are you up for some hunting?",
@@ -11733,9 +12620,95 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Host of Evil",
    "zoneAreaId": 722
+  },
+  "6921": {
+   "description": "The Twilight's Hammer has moved into the Moonshrine Ruins of Blackfathom Deeps.  Their presence can only serve to coerce the elements into working against us.  If left unchecked, this region will be theirs for good.$B$B$n, go into Blackfathom and find the ruin's fathom stone; it should be somewhere close in the water.  In it is a fathom core - a device that when properly read it will relate a history of all elemental activity.  If I have it, I and the Earthen Ring can maybe do something to stop them!",
+   "flags": 8,
+   "level": 27,
+   "minLevel": 21,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383873,
+     "objectId": 16762,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Fathom Core to Je'neu Sancrea at Zoram'gar Outpost, Ashenvale.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 4500,
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 6
+     },
+     {
+      "factionId": 2787,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 2.375
+   },
+   "sources": 1,
+   "title": "Amongst the Ruins",
+   "zoneAreaId": 719
+  },
+  "6922": {
+   "description": "The defeated water elemental has left behind a strange water globe.  You surmise that the object somehow fed the beast energy.  Inside the globe, a putrid-looking form of water sloshes about.  The globe itself seems impervious to any sort of physical force.$B$BIf anyone can make any sense of this item, it would be Je'neu Sancrea of the Earthen Ring.  He is located at the Horde's Zoram'gar Outpost in Ashenvale.",
+   "flags": 16777216,
+   "level": 30,
+   "minLevel": 21,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383897,
+     "objectId": 16782,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Strange Water Globe to Je'neu Sancrea at Zoram'gar Outpost, Ashenvale.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 16886
+     },
+     {
+      "count": 1,
+      "itemId": 16887
+     },
+     {
+      "count": 1,
+      "itemId": 270043
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 2.375
+   },
+   "sources": 1,
+   "startItemId": 16782,
+   "title": "Baron Aquanis",
+   "zoneAreaId": 331
   },
   "6964": {
    "categoryId": 22,
@@ -11753,6 +12726,35 @@
    },
    "sources": 1,
    "title": "The Reason for the Season"
+  },
+  "6981": {
+   "areaDescription": "Speak with someone in Ratchet about the Glowing Shard",
+   "description": "The shard is a brilliant green, and although solid, what looks like smoke swirls just below the surface. You can't help staring into the depths of the crystal; at the same time, you know there is something very disturbing about it.$B$BMaybe you should see if anyone in Ratchet can tell you more about this strange shard.",
+   "flags": 2,
+   "level": 26,
+   "minLevel": 15,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383907,
+     "objectId": 10441,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Travel to Ratchet to find someone that can tell you more about the glowing shard.$B$BThen, deliver the shard as you are directed.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.95
+   },
+   "sources": 1,
+   "startItemId": 10441,
+   "title": "The Glowing Shard",
+   "zoneAreaId": 718
   },
   "7021": {
    "categoryId": 22,
@@ -13963,6 +14965,50 @@
    "title": "Wild Eyes",
    "zoneAreaId": 130
   },
+  "92401": {
+   "areaDescription": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
+   "description": "It's my husband Edward...\r\n\r\nHe has not returned from his weekly journey to the graveyard in the Lordaeron ruins. Our son was lost when Arthas razed the city, and my dear Edward is still filled with guilt and sorrow that we never found his body. I've tried to warn him against searching those overrun ruins, but he refuses to give up. I try not to worry, but it's been days.\r\n\r\nThere are things there I cannot contend with but if you are willing, I need to know the fate of my husband.",
+   "flags": 8,
+   "level": 22,
+   "minLevel": 15,
+   "objectives": [
+    {
+     "amount": 0,
+     "id": 464558,
+     "objectId": 39396,
+     "storageIndex": 1,
+     "type": "areaTriggerEnter",
+     "typeId": 19
+    }
+   ],
+   "objectivesText": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 251485
+     },
+     {
+      "count": 1,
+      "itemId": 251486
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 2.1
+   },
+   "sources": 1,
+   "title": "A Frightened Request",
+   "zoneAreaId": 16611
+  },
   "92421": {
    "description": "As a paladin of the Forsaken, it is my duty to exact the will of our Dark Lady while tending to our people's needs. We are fortunate with an opportunity to accomplish both.\r\n\r\nAbove the Undercity, the scourge still roam unchecked in great numbers. Our forces dwindle trying to reclaim our land, and decaying flesh cannot be reknit. Not without replacements.\r\n\r\nWould that our glorious captain Garek Bandarion still be with us, I know what he would wish. To finish what he started and heal our kin. For Lordaeron!",
    "flags": 8,
@@ -14003,8 +15049,51 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.1
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Light's Justice",
+   "zoneAreaId": 16611
+  },
+  "92422": {
+   "description": "Reports have come in from the Lordamere Overlook deep within the Ruins of Lordaeron. An unholy fog has taken over the streets and graveyard, affording the scourge up there some measure of stealth. \r\n\r\nOur scouts indicate they're being conjured by a new power within their ranks, a necromancer known as Rath'mael. We do not have the luxury of waiting this one out, $n.\r\n\r\nIf you have allies, summon them and their aid to the Forsaken. Drive this creature out of our lands.",
+   "flags": 8,
+   "level": 22,
+   "minLevel": 15,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 464644,
+     "objectId": 250657,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill Rath'mael in the Ruins of Lordaeron for Deathguard Kristof in Brill.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 251533
+     },
+     {
+      "count": 1,
+      "itemId": 251534
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 2.1
+   },
+   "sources": 1,
+   "title": "The Wrath of Rath'mael",
    "zoneAreaId": 16611
   },
   "92457": {
@@ -14062,7 +15151,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Starving Arcane",
    "zoneAreaId": 16544
   },
@@ -17377,7 +18466,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.75
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Moon-Kissed Blade"
   },
   "95065": {
@@ -17458,6 +18547,77 @@
    "title": "Remember That I Love You",
    "zoneAreaId": 16591
   },
+  "95204": {
+   "description": "<A weathered crest depicting the mark of Lordaeron. With so few relics left after the kingdom's fall, someone in the Undercity would be very keen to get their hands on this.>",
+   "flags": 36700160,
+   "level": 22,
+   "minLevel": 16,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 474232,
+     "objectId": 275521,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Crest of Lordaeron to Oran Snakewrithe in Undercity.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 280567
+     }
+    ],
+    "xpDifficulty": 7,
+    "xpMultiplier": 2.1
+   },
+   "sources": 1,
+   "startItemId": 275521,
+   "title": "Crest of Lordaeron",
+   "zoneAreaId": 16611
+  },
+  "95216": {
+   "description": "Welcome to the most vital organ of the Undercity: The Apothecarium! Here we experiment on the most virulent of Azeroth's exotic specimens.\r\n\r\nYou've caught me in a good mood, so I will let you in on my latest investigation. It appears there is a particularly venomous arthropod stalking the ruins above our fair city. Its toxins are said to eat through even undead flesh. How exhilarating!\r\n\r\nI wish to validate these claims. Should you find yourself withering away from its bite, I should love a sample.",
+   "flags": 36700168,
+   "level": 22,
+   "minLevel": 16,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 474185,
+     "objectId": 275443,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Collect the Highly Toxic Strain from Witherfang in Ruins of Lordaeron for Theodore Griffs in Undercity.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 279876
+     },
+     {
+      "count": 1,
+      "itemId": 279877
+     }
+    ],
+    "xpDifficulty": 7,
+    "xpMultiplier": 2.1
+   },
+   "sources": 1,
+   "title": "The New Plague",
+   "zoneAreaId": 16611
+  },
   "95328": {
    "description": "Against your better judgement you scrape up and collect the squirming remains of the beast. Someone in Undercity might have a use for them.",
    "flags": 0,
@@ -17521,8 +18681,67 @@
     "xpDifficulty": 2,
     "xpMultiplier": 2.2
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Elder Knowledge",
+   "zoneAreaId": 16732
+  },
+  "95682": {
+   "description": "Dragonmaw. <She lets out a dry, amused scoff.>\r\n\r\nThe remnants of the dragon-wrangling clan think they've found something that could lead to them rising to their former power. In the eyes of whom... their false warchief?\r\n\r\nClear out their ragtag clan within the Excavation Sites so our Deathstalkers can move in undetected.\r\n\r\nIf the Dragonmaw carry anything of note upon them, return it to me--this information must stay between us and our royal command.",
+   "flags": 8,
+   "level": 31,
+   "minLevel": 24,
+   "objectives": [
+    {
+     "amount": 2,
+     "id": 471710,
+     "objectId": 275045,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 4,
+     "id": 478837,
+     "objectId": 275044,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 478838,
+     "objectId": 284844,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Slay the Dragonmaw forces within the Excavation Site and return to the Deathstalker Agent outside with anything you recover.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 271740
+     },
+     {
+      "count": 1,
+      "itemId": 271732
+     }
+    ],
+    "items": [
+     {
+      "count": 1,
+      "itemId": 271745
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 2.2
+   },
+   "sources": 1,
+   "title": "Open the Maw",
    "zoneAreaId": 16732
   },
   "95697": {
@@ -17568,7 +18787,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.2
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Changing Tastes",
    "zoneAreaId": 16732
   },
@@ -17848,7 +19067,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.25
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Ancient Gurubashi Idol",
    "zoneAreaId": 16550
   },
@@ -17924,7 +19143,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 277507,
    "title": "Heart of Disruption",
    "zoneAreaId": 16544
@@ -17963,8 +19182,45 @@
     "xpDifficulty": 7,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Grave Knight",
+   "zoneAreaId": 16544
+  },
+  "96987": {
+   "description": "Well if it ain't a like-minded entrepreneur. Sneakin' into Dalaran durin' such troublesome times? Tsk tsk.\r\n\r\nMy kinda $r!\r\n\r\nWhile our mage friends here are occupied, maybe we could find ourselves some 'misplaced' treasures. They gots whole libraries dedicated to fancy arcane magics. If you could bring me one of their secret tomes, I could sell it for a pretty penny. Split the profits with ya.\r\n\r\nHey hey don't look at me like that. You ain't exactly here on a field trip yourself. You want in or what?",
+   "flags": 36700168,
+   "level": 33,
+   "minLevel": 24,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 474658,
+     "objectId": 275996,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Collect the Founding of Dalaran from the City of Dalaran for Rexxie Copperclutch near the sewer entrance.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 279845
+     },
+     {
+      "count": 1,
+      "itemId": 279846
+     }
+    ],
+    "xpDifficulty": 7,
+    "xpMultiplier": 2.375
+   },
+   "sources": 1,
+   "title": "Opportunistic Education",
    "zoneAreaId": 16544
   },
   "96988": {
@@ -18000,7 +19256,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Source of Power",
    "zoneAreaId": 16544
   },
@@ -18164,9 +19420,39 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Wayward Weapons",
    "zoneAreaId": 363
+  },
+  "97288": {
+   "areaDescription": "Deliver the Abominable Head to someone within the Undercity.",
+   "description": "<As the creature falls, its head comes toppling off. It seems as if it has been reattached several times, and the connection gets weaker with each reconnection.\r\n\r\nSomeone in the Undercity would know more about this unique abomination.>",
+   "flags": 36700160,
+   "level": 21,
+   "minLevel": 16,
+   "nextQuestId": 97289,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 475742,
+     "objectId": 280438,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Deliver the Abominable Head to Master Apothecary Faranell within the Undercity.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 5,
+    "xpMultiplier": 2.1
+   },
+   "sources": 1,
+   "startItemId": 280438,
+   "title": "Unending Torment",
+   "zoneAreaId": 16611
   },
   "97291": {
    "description": "With the head reattached, all we need now is to bind it to the Dark Lady's will. This should not be a problem. The beast barely has brains left as it is after all the beatings it's taken.\r\n\r\nWe simply need to motivate it.\r\n\r\nFetch me a Toxic Skullcap from Miss Grisette in the Trade Quarter. Oh, and some Blisterweed from our local herbalist trainers, the Alliestars. Feel free to just take some, they owe me. And lastly a bit of Essence of Agony. Any old poison vendor should do.\r\n\r\nWe have a potion to make!",
