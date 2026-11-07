@@ -1,0 +1,550 @@
+{
+ "masters": {
+  "2389": {
+   "name": "Zarise",
+   "node": 13,
+   "sources": 1
+  },
+  "3615": {
+   "name": "Devrak",
+   "node": 25,
+   "sources": 2
+  },
+  "4312": {
+   "name": "Tharm",
+   "node": 29,
+   "sources": 2
+  },
+  "4551": {
+   "name": "Michael Garrett",
+   "node": 11,
+   "sources": 1
+  },
+  "10378": {
+   "name": "Omusa Thunderhorn",
+   "node": 77,
+   "sources": 1
+  },
+  "16227": {
+   "name": "Bragok",
+   "node": 80,
+   "sources": 1
+  }
+ },
+ "meta": {
+  "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
+  "clientBuild": "1.60.1.70840",
+  "collectedOn": {
+   "first": "2026-11-07",
+   "last": "2026-11-07"
+  },
+  "dataset": "flights",
+  "license": "CC BY 4.0",
+  "product": "wowf",
+  "schemaVersion": 1,
+  "sources": 2
+ },
+ "routes": {
+  "11>10": {
+   "costs": {
+    "6": 99
+   },
+   "hops": [
+    11,
+    10
+   ],
+   "sources": 1
+  },
+  "11>13": {
+   "arrivals": [
+    {
+     "instance": 0,
+     "mapX": 0.6021,
+     "mapY": 0.1875,
+     "uiMap": 1424,
+     "worldX": -0.1,
+     "worldY": -859.9
+    }
+   ],
+   "costs": {
+    "6": 297
+   },
+   "hops": [
+    11,
+    13
+   ],
+   "seconds": {
+    "141": 1
+   },
+   "sources": 1
+  },
+  "11>17": {
+   "costs": {
+    "6": 477
+   },
+   "hops": [
+    11,
+    17
+   ],
+   "sources": 1
+  },
+  "11>21": {
+   "costs": {
+    "6": 567
+   },
+   "hops": [
+    11,
+    21
+   ],
+   "sources": 1
+  },
+  "11>68": {
+   "costs": {
+    "6": 918
+   },
+   "hops": [
+    11,
+    68
+   ],
+   "sources": 1
+  },
+  "11>76": {
+   "costs": {
+    "6": 657
+   },
+   "hops": [
+    11,
+    76
+   ],
+   "sources": 1
+  },
+  "13>10": {
+   "costs": {
+    "6": 99
+   },
+   "hops": [
+    13,
+    10
+   ],
+   "sources": 1
+  },
+  "13>11": {
+   "arrivals": [
+    {
+     "instance": 0,
+     "mapX": 0.6309,
+     "mapY": 0.4832,
+     "uiMap": 1458,
+     "worldX": 1568.6,
+     "worldY": 268
+    }
+   ],
+   "costs": {
+    "6": 297
+   },
+   "hops": [
+    13,
+    11
+   ],
+   "seconds": {
+    "139": 1
+   },
+   "sources": 1
+  },
+  "13>17": {
+   "costs": {
+    "6": 477
+   },
+   "hops": [
+    13,
+    17
+   ],
+   "sources": 1
+  },
+  "13>76": {
+   "costs": {
+    "6": 657
+   },
+   "hops": [
+    13,
+    76
+   ],
+   "sources": 1
+  },
+  "25>22": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.4665,
+     "mapY": 0.499,
+     "uiMap": 1456,
+     "worldX": -1197.2,
+     "worldY": 29.7
+    }
+   ],
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    25,
+    22
+   ],
+   "seconds": {
+    "182": 1
+   },
+   "sources": 2
+  },
+  "25>23": {
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    25,
+    23
+   ],
+   "sources": 2
+  },
+  "25>29": {
+   "costs": {
+    "5": 210
+   },
+   "hops": [
+    25,
+    29
+   ],
+   "sources": 2
+  },
+  "25>30": {
+   "costs": {
+    "5": 430
+   },
+   "hops": [
+    25,
+    30
+   ],
+   "sources": 2
+  },
+  "25>40": {
+   "costs": {
+    "5": 730
+   },
+   "hops": [
+    25,
+    40
+   ],
+   "sources": 2
+  },
+  "25>42": {
+   "costs": {
+    "5": 730
+   },
+   "hops": [
+    25,
+    42
+   ],
+   "sources": 2
+  },
+  "25>44": {
+   "costs": {
+    "5": 830
+   },
+   "hops": [
+    25,
+    44
+   ],
+   "sources": 2
+  },
+  "25>48": {
+   "costs": {
+    "5": 930
+   },
+   "hops": [
+    25,
+    48
+   ],
+   "sources": 2
+  },
+  "25>55": {
+   "costs": {
+    "5": 630
+   },
+   "hops": [
+    25,
+    55
+   ],
+   "sources": 2
+  },
+  "25>58": {
+   "costs": {
+    "5": 330
+   },
+   "hops": [
+    25,
+    58
+   ],
+   "sources": 2
+  },
+  "25>61": {
+   "costs": {
+    "5": 530
+   },
+   "hops": [
+    25,
+    61
+   ],
+   "sources": 2
+  },
+  "25>77": {
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    25,
+    77
+   ],
+   "sources": 2
+  },
+  "25>80": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.6312,
+     "mapY": 0.3711,
+     "uiMap": 1413,
+     "worldX": -894.6,
+     "worldY": -3773
+    }
+   ],
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    25,
+    80
+   ],
+   "seconds": {
+    "52": 1
+   },
+   "sources": 2
+  },
+  "29>22": {
+   "costs": {
+    "5": 210
+   },
+   "hops": [
+    29,
+    22
+   ],
+   "sources": 2
+  },
+  "29>23": {
+   "costs": {
+    "5": 320
+   },
+   "hops": [
+    29,
+    25,
+    23
+   ],
+   "sources": 2
+  },
+  "29>25": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.515,
+     "mapY": 0.304,
+     "uiMap": 1413,
+     "worldX": -441.7,
+     "worldY": -2595.9
+    }
+   ],
+   "costs": {
+    "5": 210
+   },
+   "hops": [
+    29,
+    25
+   ],
+   "seconds": {
+    "149": 1
+   },
+   "sources": 2
+  },
+  "29>38": {
+   "costs": {
+    "5": 530
+   },
+   "hops": [
+    29,
+    38
+   ],
+   "sources": 2
+  },
+  "29>77": {
+   "costs": {
+    "5": 320
+   },
+   "hops": [
+    29,
+    25,
+    77
+   ],
+   "sources": 1
+  },
+  "29>80": {
+   "costs": {
+    "5": 320
+   },
+   "hops": [
+    29,
+    25,
+    80
+   ],
+   "sources": 2
+  },
+  "77>22": {
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    77,
+    22
+   ],
+   "sources": 1
+  },
+  "77>23": {
+   "costs": {
+    "5": 220
+   },
+   "hops": [
+    77,
+    25,
+    23
+   ],
+   "sources": 1
+  },
+  "77>25": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.515,
+     "mapY": 0.3041,
+     "uiMap": 1413,
+     "worldX": -441.8,
+     "worldY": -2596.1
+    }
+   ],
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    77,
+    25
+   ],
+   "seconds": {
+    "80": 1
+   },
+   "sources": 1
+  },
+  "77>29": {
+   "costs": {
+    "5": 320
+   },
+   "hops": [
+    77,
+    25,
+    29
+   ],
+   "sources": 1
+  },
+  "77>30": {
+   "costs": {
+    "5": 430
+   },
+   "hops": [
+    77,
+    30
+   ],
+   "sources": 1
+  },
+  "77>80": {
+   "costs": {
+    "5": 220
+   },
+   "hops": [
+    77,
+    25,
+    80
+   ],
+   "sources": 1
+  },
+  "80>22": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.4665,
+     "mapY": 0.499,
+     "uiMap": 1456,
+     "worldX": -1197.2,
+     "worldY": 29.7
+    }
+   ],
+   "costs": {
+    "4": 220
+   },
+   "hops": [
+    80,
+    25,
+    22
+   ],
+   "seconds": {
+    "250": 1
+   },
+   "sources": 1
+  },
+  "80>23": {
+   "costs": {
+    "4": 220
+   },
+   "hops": [
+    80,
+    25,
+    23
+   ],
+   "sources": 1
+  },
+  "80>25": {
+   "costs": {
+    "4": 110
+   },
+   "hops": [
+    80,
+    25
+   ],
+   "sources": 1
+  },
+  "80>29": {
+   "costs": {
+    "4": 320
+   },
+   "hops": [
+    80,
+    25,
+    29
+   ],
+   "sources": 1
+  },
+  "80>77": {
+   "costs": {
+    "4": 220
+   },
+   "hops": [
+    80,
+    25,
+    77
+   ],
+   "sources": 1
+  }
+ }
+}
