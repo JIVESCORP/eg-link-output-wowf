@@ -1,13 +1,13 @@
 {
  "levelCap": {
   "maxLevelForLatestExpansion": {
-   "60": 1
+   "60": 3
   },
   "maxLevelForPlayerExpansion": {
-   "60": 1
+   "60": 3
   },
   "maxPlayerLevel": {
-   "60": 1
+   "60": 3
   }
  },
  "meta": {
@@ -15,42 +15,515 @@
   "clientBuild": "1.60.1.70862",
   "collectedOn": {
    "first": "2026-11-07",
-   "last": "2026-11-07"
+   "last": "2026-11-08"
   },
   "dataset": "game_rules",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 1
+  "sources": 3
  },
  "professionCaps": {
   "129": {
    "1": {
-    "75": 1
+    "75": 2
    }
   },
   "165": {
+   "2": {
+    "150": 2
+   }
+  },
+  "182": {
    "2": {
     "150": 1
    }
   },
   "185": {
    "1": {
+    "75": 2
+   },
+   "2": {
+    "150": 2
+   }
+  },
+  "186": {
+   "2": {
+    "150": 2
+   }
+  },
+  "197": {
+   "1": {
+    "75": 2
+   }
+  },
+  "202": {
+   "1": {
     "75": 1
+   },
+   "2": {
+    "150": 1
+   }
+  },
+  "333": {
+   "1": {
+    "75": 2
    }
   },
   "356": {
    "1": {
-    "75": 1
+    "75": 2
+   },
+   "2": {
+    "150": 1
+   },
+   "3": {
+    "225": 1
    }
   },
   "393": {
+   "1": {
+    "75": 1
+   },
+   "2": {
+    "150": 2
+   },
    "3": {
-    "225": 1
+    "225": 3
    }
   }
  },
  "questDifficulty": {
+  "1": {
+   "1": {
+    "2": 1
+   },
+   "2": {
+    "2": 1
+   }
+  },
+  "2": {
+   "1": {
+    "2": 1
+   },
+   "2": {
+    "2": 1
+   },
+   "3": {
+    "2": 1
+   }
+  },
+  "3": {
+   "2": {
+    "2": 1
+   },
+   "3": {
+    "2": 1
+   },
+   "4": {
+    "2": 1
+   },
+   "5": {
+    "2": 1
+   }
+  },
+  "4": {
+   "4": {
+    "2": 1
+   },
+   "5": {
+    "2": 1
+   }
+  },
+  "5": {
+   "4": {
+    "2": 1
+   },
+   "5": {
+    "2": 1
+   },
+   "6": {
+    "2": 1
+   },
+   "7": {
+    "2": 1
+   }
+  },
+  "6": {
+   "4": {
+    "2": 1
+   },
+   "5": {
+    "2": 2
+   },
+   "6": {
+    "2": 2
+   },
+   "7": {
+    "2": 2
+   },
+   "8": {
+    "2": 1
+   },
+   "10": {
+    "3": 1
+   }
+  },
+  "9": {
+   "6": {
+    "1": 1
+   },
+   "7": {
+    "2": 1
+   },
+   "8": {
+    "2": 1
+   },
+   "10": {
+    "2": 1
+   },
+   "11": {
+    "2": 1
+   },
+   "12": {
+    "3": 1
+   }
+  },
+  "10": {
+   "6": {
+    "1": 1
+   },
+   "7": {
+    "1": 1
+   },
+   "8": {
+    "2": 1
+   },
+   "9": {
+    "2": 1
+   },
+   "10": {
+    "2": 1
+   },
+   "11": {
+    "2": 1
+   },
+   "12": {
+    "2": 1
+   },
+   "15": {
+    "4": 1
+   },
+   "16": {
+    "4": 1
+   }
+  },
+  "11": {
+   "6": {
+    "1": 1
+   },
+   "8": {
+    "1": 1
+   },
+   "10": {
+    "2": 1
+   },
+   "11": {
+    "2": 1
+   },
+   "12": {
+    "2": 1
+   },
+   "15": {
+    "3": 1
+   },
+   "16": {
+    "4": 1
+   }
+  },
+  "12": {
+   "6": {
+    "0": 1
+   },
+   "8": {
+    "1": 1
+   },
+   "10": {
+    "2": 1
+   },
+   "11": {
+    "2": 1
+   },
+   "12": {
+    "2": 1
+   },
+   "13": {
+    "2": 1
+   },
+   "14": {
+    "2": 1
+   },
+   "15": {
+    "3": 1
+   },
+   "16": {
+    "3": 1
+   }
+  },
+  "13": {
+   "6": {
+    "0": 1
+   },
+   "10": {
+    "1": 1
+   },
+   "11": {
+    "2": 1
+   },
+   "12": {
+    "2": 1
+   },
+   "13": {
+    "2": 1
+   },
+   "14": {
+    "2": 1
+   },
+   "15": {
+    "2": 1
+   },
+   "16": {
+    "3": 1
+   },
+   "18": {
+    "4": 1
+   },
+   "20": {
+    "4": 1
+   }
+  },
+  "14": {
+   "6": {
+    "0": 1
+   },
+   "10": {
+    "1": 1
+   },
+   "11": {
+    "1": 1
+   },
+   "13": {
+    "2": 1
+   },
+   "14": {
+    "2": 1
+   },
+   "15": {
+    "2": 1
+   },
+   "16": {
+    "2": 1
+   },
+   "18": {
+    "3": 1
+   },
+   "20": {
+    "4": 1
+   }
+  },
+  "15": {
+   "6": {
+    "0": 1
+   },
+   "8": {
+    "0": 1
+   },
+   "11": {
+    "1": 1
+   },
+   "13": {
+    "2": 1
+   },
+   "14": {
+    "2": 1
+   },
+   "15": {
+    "2": 1
+   },
+   "16": {
+    "2": 1
+   },
+   "17": {
+    "2": 1
+   },
+   "18": {
+    "3": 1
+   },
+   "19": {
+    "3": 1
+   },
+   "20": {
+    "4": 1
+   }
+  },
+  "16": {
+   "6": {
+    "0": 1
+   },
+   "11": {
+    "1": 1
+   },
+   "12": {
+    "1": 1
+   },
+   "13": {
+    "1": 1
+   },
+   "14": {
+    "2": 1
+   },
+   "15": {
+    "2": 1
+   },
+   "16": {
+    "2": 1
+   },
+   "18": {
+    "2": 1
+   },
+   "19": {
+    "3": 1
+   },
+   "20": {
+    "3": 1
+   },
+   "21": {
+    "4": 1
+   },
+   "22": {
+    "4": 1
+   },
+   "26": {
+    "4": 1
+   }
+  },
+  "17": {
+   "6": {
+    "0": 1
+   },
+   "11": {
+    "0": 1
+   },
+   "12": {
+    "1": 1
+   },
+   "13": {
+    "1": 1
+   },
+   "14": {
+    "1": 1
+   },
+   "15": {
+    "2": 1
+   },
+   "16": {
+    "2": 1
+   },
+   "17": {
+    "2": 1
+   },
+   "18": {
+    "2": 1
+   },
+   "19": {
+    "2": 1
+   },
+   "20": {
+    "3": 1
+   },
+   "21": {
+    "3": 1
+   },
+   "22": {
+    "4": 1
+   },
+   "26": {
+    "4": 1
+   }
+  },
+  "18": {
+   "6": {
+    "0": 1
+   },
+   "12": {
+    "0": 1
+   },
+   "13": {
+    "1": 1
+   },
+   "14": {
+    "1": 1
+   },
+   "15": {
+    "1": 1
+   },
+   "16": {
+    "2": 1
+   },
+   "17": {
+    "2": 1
+   },
+   "18": {
+    "2": 1
+   },
+   "19": {
+    "2": 1
+   },
+   "20": {
+    "2": 1
+   },
+   "21": {
+    "3": 1
+   },
+   "22": {
+    "3": 1
+   },
+   "26": {
+    "4": 1
+   }
+  },
+  "23": {
+   "15": {
+    "0": 1
+   },
+   "16": {
+    "0": 1
+   },
+   "18": {
+    "1": 1
+   },
+   "19": {
+    "1": 1
+   },
+   "20": {
+    "1": 1
+   },
+   "21": {
+    "2": 1
+   },
+   "22": {
+    "2": 1
+   },
+   "25": {
+    "2": 1
+   },
+   "26": {
+    "3": 1
+   },
+   "30": {
+    "4": 1
+   }
+  },
   "25": {
    "14": {
     "0": 1
@@ -97,6 +570,167 @@
    "30": {
     "4": 1
    }
+  },
+  "26": {
+   "10": {
+    "0": 1
+   },
+   "14": {
+    "0": 1
+   },
+   "15": {
+    "0": 1
+   },
+   "16": {
+    "0": 2
+   },
+   "18": {
+    "0": 1
+   },
+   "19": {
+    "0": 1
+   },
+   "20": {
+    "1": 2
+   },
+   "21": {
+    "1": 1
+   },
+   "22": {
+    "1": 2
+   },
+   "23": {
+    "1": 2
+   },
+   "24": {
+    "2": 2
+   },
+   "25": {
+    "2": 2
+   },
+   "26": {
+    "2": 2
+   },
+   "28": {
+    "2": 2
+   },
+   "29": {
+    "3": 2
+   },
+   "30": {
+    "3": 1
+   }
+  },
+  "27": {
+   "16": {
+    "0": 1
+   },
+   "20": {
+    "0": 1
+   },
+   "22": {
+    "1": 1
+   },
+   "23": {
+    "1": 1
+   },
+   "24": {
+    "1": 1
+   },
+   "25": {
+    "2": 1
+   },
+   "26": {
+    "2": 1
+   },
+   "27": {
+    "2": 1
+   },
+   "28": {
+    "2": 1
+   },
+   "29": {
+    "2": 1
+   },
+   "30": {
+    "3": 1
+   },
+   "32": {
+    "4": 1
+   },
+   "35": {
+    "4": 1
+   }
+  },
+  "28": {
+   "16": {
+    "0": 1
+   },
+   "22": {
+    "1": 1
+   },
+   "24": {
+    "1": 1
+   },
+   "25": {
+    "1": 1
+   },
+   "26": {
+    "2": 1
+   },
+   "27": {
+    "2": 1
+   },
+   "28": {
+    "2": 1
+   },
+   "29": {
+    "2": 1
+   },
+   "30": {
+    "2": 1
+   },
+   "32": {
+    "3": 1
+   },
+   "35": {
+    "4": 1
+   }
+  },
+  "29": {
+   "16": {
+    "0": 1
+   },
+   "22": {
+    "0": 1
+   },
+   "25": {
+    "1": 1
+   },
+   "26": {
+    "1": 1
+   },
+   "27": {
+    "2": 1
+   },
+   "28": {
+    "2": 1
+   },
+   "29": {
+    "2": 1
+   },
+   "30": {
+    "2": 1
+   },
+   "32": {
+    "3": 1
+   },
+   "35": {
+    "4": 1
+   },
+   "60": {
+    "4": 1
+   }
   }
  },
  "renown": {
@@ -112,11 +746,11 @@
        "isAccountUnlock": false,
        "name": "Rank 1 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 750
     },
     "2": {
@@ -127,11 +761,11 @@
        "isAccountUnlock": false,
        "name": "Rank 2 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 1650
     },
     "3": {
@@ -142,11 +776,11 @@
        "isAccountUnlock": false,
        "name": "Rank 3 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 2700
     },
     "4": {
@@ -157,11 +791,11 @@
        "isAccountUnlock": false,
        "name": "Rank 4 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 3900
     },
     "5": {
@@ -172,11 +806,11 @@
        "isAccountUnlock": false,
        "name": "Rank 5 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 5250
     },
     "6": {
@@ -187,11 +821,11 @@
        "isAccountUnlock": false,
        "name": "Rank 6 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 6750
     },
     "7": {
@@ -202,11 +836,11 @@
        "isAccountUnlock": false,
        "name": "Rank 7 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 8400
     },
     "8": {
@@ -217,7 +851,7 @@
        "isAccountUnlock": false,
        "name": "Rank 8 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       },
       {
@@ -226,11 +860,11 @@
        "isAccountUnlock": false,
        "name": "Rank 8 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 10200
     },
     "9": {
@@ -241,11 +875,11 @@
        "isAccountUnlock": false,
        "name": "Rank 9 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 12150
     },
     "10": {
@@ -256,11 +890,11 @@
        "isAccountUnlock": false,
        "name": "Rank 10 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 14250
     },
     "11": {
@@ -271,11 +905,11 @@
        "isAccountUnlock": false,
        "name": "Rank 11 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 16600
     },
     "12": {
@@ -286,7 +920,7 @@
        "isAccountUnlock": false,
        "name": "Rank 12 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       },
       {
@@ -295,11 +929,11 @@
        "isAccountUnlock": false,
        "name": "Rank 12 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 19100
     },
     "13": {
@@ -310,7 +944,7 @@
        "isAccountUnlock": false,
        "name": "Rank 13 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       },
       {
@@ -319,11 +953,11 @@
        "isAccountUnlock": false,
        "name": "Rank 13 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 21750
     },
     "14": {
@@ -334,18 +968,18 @@
        "isAccountUnlock": false,
        "name": "Rank 14 Rewards",
        "renownRewardID": 0,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 24750
     }
    },
    "maxLevel": 14,
    "name": "PvP Rank Points",
    "renownLevelThreshold": 750,
-   "sources": 1
+   "sources": 3
   },
   "2802": {
    "expansionID": 0,
@@ -360,11 +994,11 @@
        "itemID": 276236,
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 15
     },
     "25": {
@@ -377,11 +1011,11 @@
        "name": "Spectral Bear Cub",
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 25
     },
     "40": {
@@ -394,11 +1028,11 @@
        "name": "Spectral Bear Tabard",
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 40
     },
     "55": {
@@ -411,33 +1045,215 @@
        "name": "Reins of the Spectral Bear",
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 1,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 1,
+     "sources": 3,
      "totalReputation": 55
     }
    },
    "maxLevel": 90,
    "name": "Legacy Track",
    "renownLevelThreshold": 1,
-   "sources": 1
+   "sources": 3
   }
  },
- "rewardSpells": {},
+ "rewardSpells": {
+  "889": {
+   "16618": {
+    "genericUnlock": false,
+    "hideSpellLearnText": false,
+    "isBoostSpell": false,
+    "isSpellLearned": false,
+    "isTradeskill": false,
+    "sources": 1,
+    "type": 0
+   }
+  },
+  "1504": {
+   "697": {
+    "genericUnlock": false,
+    "hideSpellLearnText": false,
+    "isBoostSpell": false,
+    "isSpellLearned": false,
+    "isTradeskill": false,
+    "sources": 1,
+    "type": 3
+   }
+  },
+  "5045": {
+   "10767": {
+    "genericUnlock": false,
+    "hideSpellLearnText": false,
+    "isBoostSpell": false,
+    "isSpellLearned": false,
+    "isTradeskill": false,
+    "sources": 1,
+    "type": 0
+   }
+  },
+  "97905": {
+   "1229705": {
+    "genericUnlock": false,
+    "hideSpellLearnText": false,
+    "isBoostSpell": false,
+    "isSpellLearned": false,
+    "isTradeskill": true,
+    "sources": 1,
+    "type": 2
+   }
+  },
+  "97908": {
+   "1229517": {
+    "genericUnlock": false,
+    "hideSpellLearnText": false,
+    "isBoostSpell": false,
+    "isSpellLearned": false,
+    "isTradeskill": true,
+    "sources": 1,
+    "type": 2
+   }
+  },
+  "97961": {
+   "1229504": {
+    "genericUnlock": false,
+    "hideSpellLearnText": false,
+    "isBoostSpell": false,
+    "isSpellLearned": false,
+    "isTradeskill": true,
+    "sources": 1,
+    "type": 2
+   }
+  }
+ },
  "standings": {
   "4": {
-   "0..3000": 1
+   "0..3000": 3
   },
   "5": {
-   "3000..9000": 1
+   "3000..9000": 3
+  },
+  "6": {
+   "9000..21000": 3
   }
  },
  "starts": {},
- "teleports": {},
+ "teleports": {
+  "3567": {
+   "count": 2,
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3864,
+     "mapY": 0.8594,
+     "uiMap": 1454,
+     "worldX": 1470,
+     "worldY": -4222.5
+    }
+   ],
+   "sources": 1,
+   "subZones": {
+    "enUS": {
+     "Valley of Spirits": 2
+    }
+   },
+   "zones": {
+    "enUS": {
+     "Orgrimmar": 2
+    }
+   }
+  },
+  "18960": {
+   "count": 1,
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5627,
+     "mapY": 0.3241,
+     "uiMap": 1450,
+     "worldX": 7992.6,
+     "worldY": -2680
+    }
+   ],
+   "sources": 1,
+   "subZones": {
+    "enUS": {
+     "Nighthaven": 1
+    }
+   },
+   "zones": {
+    "enUS": {
+     "Moonglade": 1
+    }
+   }
+  }
+ },
  "trivialRange": {
+  "1": {
+   "5": 1
+  },
+  "2": {
+   "5": 1
+  },
+  "3": {
+   "5": 1
+  },
+  "4": {
+   "5": 1
+  },
+  "5": {
+   "5": 1
+  },
+  "6": {
+   "5": 2
+  },
+  "9": {
+   "5": 1
+  },
+  "10": {
+   "5": 1
+  },
+  "11": {
+   "5": 1
+  },
+  "12": {
+   "5": 1
+  },
+  "13": {
+   "5": 1
+  },
+  "14": {
+   "5": 1
+  },
+  "15": {
+   "5": 1
+  },
+  "16": {
+   "5": 1
+  },
+  "17": {
+   "5": 1
+  },
+  "18": {
+   "5": 1
+  },
+  "23": {
+   "5": 1
+  },
   "25": {
+   "5": 1
+  },
+  "26": {
+   "5": 2
+  },
+  "27": {
+   "5": 1
+  },
+  "28": {
+   "5": 1
+  },
+  "29": {
    "5": 1
   }
  }

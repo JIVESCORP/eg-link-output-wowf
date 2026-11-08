@@ -4,169 +4,2645 @@
   "clientBuild": "1.60.1.70862",
   "collectedOn": {
    "first": "2026-11-07",
-   "last": "2026-11-07"
+   "last": "2026-11-08"
   },
   "dataset": "character_stats",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 1
+  "sources": 3
  },
  "stats": {
-  "Skyborne|DRUID|25": {
+  "Scourge|MAGE|26": {
    "forms": {
     "0": {
      "facts": {
       "agility": {
-       "36": {
+       "23": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "baseDodge": {
+       "3.2": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "baseHealth": {
+       "333": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "baseMeleeCrit": {
+       "3.2": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "baseRangedCrit": {
+       "3.16": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       },
+       "3.2": {
+        "count": 49,
+        "withAuras": 49,
+        "withTalents": 49
+       }
+      },
+      "baseSpellCrit": {
+       "0.2": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "critPerAgility": {
+       "0.072": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "dodgePerAgility": {
+       "0.072": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "formAttackPowerPerAgility": {
+       "0": {
+        "count": 276,
+        "withAuras": 276,
+        "withTalents": 276
+       }
+      },
+      "healthRegenBase": {
+       "-3.439": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "-4.2203": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "-4.889": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       },
+       "0": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       },
+       "1.2": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       },
+       "1.5463": {
         "count": 6,
         "withAuras": 6,
         "withTalents": 6
+       },
+       "2.7463": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "25.7463": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "26.0068": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "3.0068": {
+        "count": 4,
+        "withAuras": 4,
+        "withTalents": 4
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.0716": {
+        "count": 30,
+        "withAuras": 30,
+        "withTalents": 30
+       },
+       "0.0776": {
+        "count": 4,
+        "withAuras": 4,
+        "withTalents": 4
+       },
+       "0.0814": {
+        "count": 39,
+        "withAuras": 39,
+        "withTalents": 39
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "intellect": {
+       "55": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "manaRegenBase": {
+       "0.201": {
+        "count": 69,
+        "withAuras": 69,
+        "withTalents": 69
+       },
+       "286.326": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       },
+       "50.001": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.1869": {
+        "count": 30,
+        "withAuras": 30,
+        "withTalents": 30
+       },
+       "0.1994": {
+        "count": 4,
+        "withAuras": 4,
+        "withTalents": 4
+       },
+       "0.2072": {
+        "count": 39,
+        "withAuras": 39,
+        "withTalents": 39
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "runSpeed": {
+       "3.36": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "7": {
+        "count": 66,
+        "withAuras": 66,
+        "withTalents": 66
+       },
+       "9.1": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 6
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.0457": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "spirit": {
+       "60": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "stamina": {
+       "29": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "strength": {
+       "22": {
+        "count": 73,
+        "withAuras": 73,
+        "withTalents": 73
+       }
+      },
+      "swimSpeed": {
+       "2.2667": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "4.7222": {
+        "count": 72,
+        "withAuras": 72,
+        "withTalents": 72
+       }
+      }
+     },
+     "readings": 73,
+     "sources": 1,
+     "withAuras": 73,
+     "withTalents": 73
+    }
+   },
+   "sources": 1
+  },
+  "Scourge|MAGE|27": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "23": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "baseDodge": {
+       "3.2": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "baseHealth": {
+       "342": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "baseMeleeCrit": {
+       "3.2": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "baseRangedCrit": {
+       "3.16": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 6
+       },
+       "3.2": {
+        "count": 21,
+        "withAuras": 21,
+        "withTalents": 21
+       }
+      },
+      "baseSpellCrit": {
+       "0.2": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "critPerAgility": {
+       "0.072": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "dodgePerAgility": {
+       "0.072": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "healthRegenBase": {
+       "-4.9203": {
+        "count": 4,
+        "withAuras": 4,
+        "withTalents": 4
+       },
+       "0": {
+        "count": 20,
+        "withAuras": 20,
+        "withTalents": 20
+       },
+       "1.6401": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "24.6401": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.0772": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "intellect": {
+       "57": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "manaRegenBase": {
+       "0.201": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.1985": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.0436": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "spirit": {
+       "61": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "stamina": {
+       "30": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "strength": {
+       "22": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 27,
+        "withAuras": 27,
+        "withTalents": 27
+       }
+      }
+     },
+     "readings": 27,
+     "sources": 1,
+     "withAuras": 27,
+     "withTalents": 27
+    }
+   },
+   "sources": 1
+  },
+  "Scourge|MAGE|6": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "19": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "baseDodge": {
+       "3.2": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "baseHealth": {
+       "97": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "baseMeleeCrit": {
+       "3.2": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "baseRangedCrit": {
+       "3.2": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "baseSpellCrit": {
+       "0.2": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "critPerAgility": {
+       "0.0857": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "dodgePerAgility": {
+       "0.0857": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "healthRegenBase": {
+       "0": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.092": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "intellect": {
+       "27": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.1548": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "spirit": {
+       "33": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "stamina": {
+       "22": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "strength": {
+       "20": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      }
+     },
+     "readings": 1,
+     "sources": 1,
+     "withAuras": 0,
+     "withTalents": 0
+    }
+   },
+   "sources": 1
+  },
+  "Scourge|PRIEST|1": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "18": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "baseDodge": {
+       "3": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "baseHealth": {
+       "32": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "baseMeleeCrit": {
+       "3": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "baseRangedCrit": {
+       "3": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "baseSpellCrit": {
+       "0.8": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "critPerAgility": {
+       "0.1": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "dodgePerAgility": {
+       "0.1": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "healthRegenBase": {
+       "0": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.119": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "intellect": {
+       "20": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.1909": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "spirit": {
+       "28": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "stamina": {
+       "21": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "strength": {
+       "19": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       }
+      }
+     },
+     "readings": 1,
+     "sources": 1,
+     "withAuras": 0,
+     "withTalents": 0
+    }
+   },
+   "sources": 1
+  },
+  "Scourge|PRIEST|2": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "18": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "baseDodge": {
+       "3": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "baseHealth": {
+       "47": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "baseMeleeCrit": {
+       "3": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "baseRangedCrit": {
+       "3": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "baseSpellCrit": {
+       "0.8": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "critPerAgility": {
+       "0.1": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "dodgePerAgility": {
+       "0.1": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "healthRegenBase": {
+       "-2.6196": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       },
+       "0": {
+        "count": 4,
+        "withAuras": 2,
+        "withTalents": 0
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1204": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "intellect": {
+       "21": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.1826": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "spirit": {
+       "29": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "stamina": {
+       "21": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "strength": {
+       "19": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 6,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      }
+     },
+     "readings": 6,
+     "sources": 1,
+     "withAuras": 3,
+     "withTalents": 0
+    }
+   },
+   "sources": 1
+  },
+  "Scourge|PRIEST|3": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "18": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
        }
       },
       "armorEffectivenessFits": {
        "1": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "attackPowerBase": {
-       "-20": {
+       "-10": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "attackPowerPerAgility": {
        "0": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "attackPowerPerStrength": {
-       "2": {
+       "1": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "baseDodge": {
-       "0.9": {
+       "3": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "baseHealth": {
-       "318": {
+       "52": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "baseMeleeCrit": {
-       "0.9": {
+       "3": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "baseRangedCrit": {
-       "0.9": {
+       "3": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "baseSpellCrit": {
-       "1.8": {
+       "0.8": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "critPerAgility": {
-       "0.1025": {
+       "0.1": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "dodgePerAgility": {
-       "0.1025": {
+       "0.1": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "healthRegenBase": {
+       "-2.7412": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       },
        "0": {
-        "count": 6,
-        "withAuras": 6,
-        "withTalents": 6
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 0
+       },
+       "0.9137": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 0
        }
       },
       "healthRegenPerSpirit": {
-       "0.1091": {
+       "0.1218": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "hpPerStamina": {
        "10": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "intellect": {
-       "46": {
+       "22": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "manaRegenBase": {
-       "0.401": {
-        "count": 6,
-        "withAuras": 6,
-        "withTalents": 6
+       "0.001": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       },
+       "8.401": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
        }
       },
       "manaRegenPerSpirit": {
-       "0.2072": {
+       "0.25": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "rangedAttackPowerBase": {
        "0": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "rangedAttackPowerFromAgility": {
        "0": {
         "count": 6,
         "withAuras": 6,
-        "withTalents": 6
+        "withTalents": 0
        }
       },
       "runSpeed": {
        "7": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.175": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "spirit": {
+       "30": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "stamina": {
+       "22": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "strength": {
+       "19": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      }
+     },
+     "readings": 6,
+     "sources": 1,
+     "withAuras": 6,
+     "withTalents": 0
+    }
+   },
+   "sources": 1
+  },
+  "Scourge|PRIEST|4": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "19": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "baseDodge": {
+       "3": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "baseHealth": {
+       "67": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "baseMeleeCrit": {
+       "3": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "baseRangedCrit": {
+       "3": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "baseSpellCrit": {
+       "0.8": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "critPerAgility": {
+       "0.0952": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "dodgePerAgility": {
+       "0.0952": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "healthRegenBase": {
+       "-2.9574": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       },
+       "0": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       },
+       "0.9858": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1232": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "intellect": {
+       "23": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 8,
+        "withAuras": 8,
+        "withTalents": 0
+       },
+       "8.401": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.168": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "spirit": {
+       "32": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "stamina": {
+       "22": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "strength": {
+       "20": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 0
+       }
+      }
+     },
+     "readings": 9,
+     "sources": 1,
+     "withAuras": 9,
+     "withTalents": 0
+    }
+   },
+   "sources": 1
+  },
+  "Scourge|PRIEST|5": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "19": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "baseDodge": {
+       "3": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "baseHealth": {
+       "82": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "baseMeleeCrit": {
+       "3": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "baseRangedCrit": {
+       "3": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "baseSpellCrit": {
+       "0.8": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "critPerAgility": {
+       "0.0952": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "dodgePerAgility": {
+       "0.0952": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "healthRegenBase": {
+       "-3.0843": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       },
+       "0": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1246": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "intellect": {
+       "25": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.1556": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "spirit": {
+       "33": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "stamina": {
+       "22": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "strength": {
+       "20": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 0
+       }
+      }
+     },
+     "readings": 6,
+     "sources": 1,
+     "withAuras": 6,
+     "withTalents": 0
+    }
+   },
+   "sources": 1
+  },
+  "Scourge|PRIEST|6": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "19": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "baseDodge": {
+       "3": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "baseHealth": {
+       "87": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "baseMeleeCrit": {
+       "3": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "baseRangedCrit": {
+       "3": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "baseSpellCrit": {
+       "0.8": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "critPerAgility": {
+       "0.0952": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "dodgePerAgility": {
+       "0.0952": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "healthRegenBase": {
+       "0": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.126": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "intellect": {
+       "26": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.15": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "spirit": {
+       "34": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "stamina": {
+       "23": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "strength": {
+       "20": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      }
+     },
+     "readings": 1,
+     "sources": 1,
+     "withAuras": 1,
+     "withTalents": 0
+    }
+   },
+   "sources": 1
+  },
+  "Skyborne|DRUID|25": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "36": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "attackPowerBase": {
+       "-20": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "attackPowerPerStrength": {
+       "2": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "baseDodge": {
+       "0.9": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "baseHealth": {
+       "318": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "baseMeleeCrit": {
+       "0.9": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "baseRangedCrit": {
+       "0.9": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "baseRegen": {
+       "6.651": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "baseSpellCrit": {
+       "1.8": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "critPerAgility": {
+       "0.1025": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "dodgePerAgility": {
+       "0.1025": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "formAttackPowerPerAgility": {
+       "0": {
+        "count": 78,
+        "withAuras": 78,
+        "withTalents": 78
+       }
+      },
+      "healthPerStamina": {
+       "10": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "healthRegenBase": {
+       "-6.2196": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       },
+       "-6.3134": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       },
+       "0": {
+        "count": 37,
+        "withAuras": 36,
+        "withTalents": 37
+       },
+       "2.0732": {
         "count": 4,
         "withAuras": 4,
         "withTalents": 4
        },
-       "8.05": {
+       "2.1045": {
         "count": 1,
         "withAuras": 1,
         "withTalents": 1
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1079": {
+        "count": 13,
+        "withAuras": 13,
+        "withTalents": 13
+       },
+       "0.1091": {
+        "count": 32,
+        "withAuras": 32,
+        "withTalents": 32
+       },
+       "0.1124": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 2
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "intellect": {
+       "46": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "manaRegenBase": {
+       "0.401": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.2051": {
+        "count": 13,
+        "withAuras": 13,
+        "withTalents": 13
+       },
+       "0.2072": {
+        "count": 32,
+        "withAuras": 32,
+        "withTalents": 32
+       },
+       "0.213": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 2
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "regenPerSpirit": {
+       "0.125": {
+        "count": 4,
+        "withAuras": 4,
+        "withTalents": 4
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 42,
+        "withAuras": 41,
+        "withTalents": 42
+       },
+       "8.05": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       },
+       "9.1": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.0427": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "spirit": {
+       "53": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "stamina": {
+       "36": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "strength": {
+       "31": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 47,
+        "withAuras": 46,
+        "withTalents": 47
+       }
+      }
+     },
+     "readings": 47,
+     "sources": 1,
+     "withAuras": 46,
+     "withTalents": 47
+    },
+    "1": {
+     "facts": {
+      "agility": {
+       "36": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "attackPowerBase": {
+       "71": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "attackPowerPerStrength": {
+       "2": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "baseDodge": {
+       "0.9": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "baseHealth": {
+       "318": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "baseMeleeCrit": {
+       "0.86": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 6
+       },
+       "0.9": {
+        "count": 44,
+        "withAuras": 44,
+        "withTalents": 44
+       }
+      },
+      "baseRangedCrit": {
+       "0.86": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 6
+       },
+       "0.9": {
+        "count": 44,
+        "withAuras": 44,
+        "withTalents": 44
+       }
+      },
+      "baseRegen": {
+       "6.651": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "baseSpellCrit": {
+       "1.8": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "critPerAgility": {
+       "0.1025": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "dodgePerAgility": {
+       "0.1025": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "healthRegenBase": {
+       "-6.2196": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       },
+       "-6.3134": {
+        "count": 7,
+        "withAuras": 7,
+        "withTalents": 7
+       },
+       "0": {
+        "count": 37,
+        "withAuras": 37,
+        "withTalents": 37
+       },
+       "2.0732": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "2.1045": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       },
+       "5.5045": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1079": {
+        "count": 21,
+        "withAuras": 21,
+        "withTalents": 21
+       },
+       "0.1091": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "intellect": {
+       "46": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "manaRegenBase": {
+       "0.401": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.2051": {
+        "count": 21,
+        "withAuras": 21,
+        "withTalents": 21
+       },
+       "0.2072": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "regenPerSpirit": {
+       "0.125": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "runSpeed": {
+       "3.36": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       },
+       "3.395": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "3.5": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "7": {
+        "count": 40,
+        "withAuras": 40,
+        "withTalents": 40
+       },
+       "8.05": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       },
+       "9.1": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.0427": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "spirit": {
+       "53": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "stamina": {
+       "36": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "strength": {
+       "31": {
+        "count": 50,
+        "withAuras": 50,
+        "withTalents": 50
+       }
+      },
+      "swimSpeed": {
+       "2.2667": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       },
+       "2.2903": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "2.3611": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "4.7222": {
+        "count": 46,
+        "withAuras": 46,
+        "withTalents": 46
+       }
+      }
+     },
+     "readings": 50,
+     "sources": 1,
+     "withAuras": 50,
+     "withTalents": 50
+    },
+    "5": {
+     "facts": {
+      "agility": {
+       "36": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "attackPowerBase": {
+       "55": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "attackPowerPerStrength": {
+       "2": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "baseDodge": {
+       "0.9": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "baseHealth": {
+       "608": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "baseMeleeCrit": {
+       "0.9": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "baseRangedCrit": {
+       "0.9": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "baseRegen": {
+       "6.651": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "baseSpellCrit": {
+       "1.8": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "critPerAgility": {
+       "0.1025": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "dodgePerAgility": {
+       "0.1025": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "healthRegenBase": {
+       "-6.3134": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1079": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "intellect": {
+       "46": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "manaRegenBase": {
+       "0.401": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.2051": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
        },
        "9.1": {
         "count": 1,
@@ -176,44 +2652,2226 @@
       },
       "spellCritPerIntellect": {
        "0.0427": {
-        "count": 6,
-        "withAuras": 6,
-        "withTalents": 6
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
        }
       },
       "spirit": {
        "53": {
-        "count": 6,
-        "withAuras": 6,
-        "withTalents": 6
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
        }
       },
       "stamina": {
        "36": {
-        "count": 6,
-        "withAuras": 6,
-        "withTalents": 6
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
        }
       },
       "strength": {
        "31": {
-        "count": 6,
-        "withAuras": 6,
-        "withTalents": 6
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
        }
       },
       "swimSpeed": {
        "4.7222": {
-        "count": 6,
-        "withAuras": 6,
-        "withTalents": 6
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
        }
       }
      },
-     "readings": 6,
+     "readings": 3,
+     "sources": 1,
+     "withAuras": 3,
+     "withTalents": 3
+    }
+   },
+   "sources": 1
+  },
+  "Tauren|DRUID|1": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "15": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "attackPowerBase": {
+       "-20": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerStrength": {
+       "2": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "baseDodge": {
+       "0.9": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "baseHealth": {
+       "38": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "baseMeleeCrit": {
+       "0.9": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "baseRangedCrit": {
+       "0.9": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "baseSpellCrit": {
+       "1.8": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "critPerAgility": {
+       "0.205": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "dodgePerAgility": {
+       "0.205": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "healthRegenBase": {
+       "0": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.082": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "intellect": {
+       "17": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 1,
+        "withAuras": 0,
+        "withTalents": 0
+       },
+       "7.14": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.1455": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "spirit": {
+       "24": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "stamina": {
+       "22": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "strength": {
+       "26": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 0
+       }
+      }
+     },
+     "readings": 2,
+     "sources": 1,
+     "withAuras": 1,
+     "withTalents": 0
+    }
+   },
+   "sources": 1
+  },
+  "Troll|HUNTER|11": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "37": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "attackPowerBase": {
+       "2": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "attackPowerPerAgility": {
+       "1": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "baseDodge": {
+       "0": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "baseHealth": {
+       "116": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "baseMeleeCrit": {
+       "0": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "baseParry": {
+       "5": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "baseRangedCrit": {
+       "0": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "baseSpellCrit": {
+       "3.6": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "critPerAgility": {
+       "0.1351": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "dodgePerAgility": {
+       "0.2703": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "healthRegenBase": {
+       "0.7293": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1736": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "intellect": {
+       "21": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "rangedAttackPowerBase": {
+       "2": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "2": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.056": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "spirit": {
+       "28": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "stamina": {
+       "31": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "strength": {
+       "25": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      }
+     },
+     "readings": 1,
+     "sources": 1,
+     "withAuras": 1,
+     "withTalents": 1
+    }
+   },
+   "sources": 1
+  },
+  "Troll|HUNTER|12": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "38": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "attackPowerBase": {
+       "4": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "attackPowerPerAgility": {
+       "1": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "baseDodge": {
+       "0": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "baseHealth": {
+       "123": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "baseMeleeCrit": {
+       "0": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "baseParry": {
+       "5": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "baseRangedCrit": {
+       "-0.04": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 9
+       },
+       "0": {
+        "count": 15,
+        "withAuras": 15,
+        "withTalents": 15
+       }
+      },
+      "baseSpellCrit": {
+       "3.6": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "critPerAgility": {
+       "0.119": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "dodgePerAgility": {
+       "0.2381": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "formAttackPowerPerAgility": {
+       "0": {
+        "count": 56,
+        "withAuras": 56,
+        "withTalents": 56
+       }
+      },
+      "healthRegenBase": {
+       "-3.0901": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       },
+       "-3.3891": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "0.7607": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 6
+       },
+       "0.8132": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 6
+       },
+       "0.8919": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 6
+       },
+       "2.4395": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1749": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "intellect": {
+       "22": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "rangedAttackPowerBase": {
+       "4": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "2": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "rangedAttackPowerPerAgility": {
+       "2": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.0538": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "spirit": {
+       "29": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "stamina": {
+       "31": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "strength": {
+       "26": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 24,
+        "withAuras": 24,
+        "withTalents": 24
+       }
+      }
+     },
+     "readings": 24,
+     "sources": 1,
+     "withAuras": 24,
+     "withTalents": 24
+    }
+   },
+   "sources": 1
+  },
+  "Troll|SHAMAN|23": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "31": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "attackPowerBase": {
+       "51": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "attackPowerPerStrength": {
+       "2": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "baseDodge": {
+       "1.7": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "baseHealth": {
+       "219": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "baseMeleeCrit": {
+       "6.7": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 2
+       }
+      },
+      "baseRangedCrit": {
+       "1.7": {
+        "count": 7,
+        "withAuras": 4,
+        "withTalents": 7
+       },
+       "6.7": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 2
+       }
+      },
+      "baseSpellCrit": {
+       "2.3": {
+        "count": 8,
+        "withAuras": 5,
+        "withTalents": 8
+       },
+       "7.3": {
+        "count": 2,
+        "withAuras": 1,
+        "withTalents": 2
+       }
+      },
+      "critPerAgility": {
+       "0.1031": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "dodgePerAgility": {
+       "0.1031": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "healthPerStamina": {
+       "10": {
+        "count": 5,
+        "withAuras": 2,
+        "withTalents": 5
+       }
+      },
+      "healthRegenBase": {
+       "1.1236": {
+        "count": 7,
+        "withAuras": 4,
+        "withTalents": 7
+       },
+       "3.3709": {
+        "count": 3,
+        "withAuras": 2,
+        "withTalents": 3
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1561": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "intellect": {
+       "36": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "manaRegenBase": {
+       "0.201": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.0458": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "spirit": {
+       "45": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "stamina": {
+       "43": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "strength": {
+       "41": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 10,
+        "withAuras": 6,
+        "withTalents": 10
+       }
+      }
+     },
+     "readings": 10,
      "sources": 1,
      "withAuras": 6,
-     "withTalents": 6
+     "withTalents": 10
+    },
+    "16": {
+     "facts": {
+      "agility": {
+       "31": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "attackPowerBase": {
+       "51": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "attackPowerPerStrength": {
+       "2": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "baseDodge": {
+       "1.7": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "baseHealth": {
+       "219": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "baseSpellCrit": {
+       "2.3": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "critPerAgility": {
+       "0.1031": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "dodgePerAgility": {
+       "0.1031": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "healthRegenBase": {
+       "1.1236": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       },
+       "3.3709": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1561": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "intellect": {
+       "36": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "manaRegenBase": {
+       "0.201": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "runSpeed": {
+       "9.8": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.0458": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "spirit": {
+       "45": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "stamina": {
+       "43": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "strength": {
+       "41": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      }
+     },
+     "readings": 5,
+     "sources": 1,
+     "withAuras": 5,
+     "withTalents": 5
+    }
+   },
+   "sources": 1
+  },
+  "Troll|WARLOCK|10": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "25": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "baseDodge": {
+       "2": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "baseHealth": {
+       "108": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "baseMeleeCrit": {
+       "2": {
+        "count": 28,
+        "withAuras": 28,
+        "withTalents": 28
+       },
+       "4": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 3
+       }
+      },
+      "baseRangedCrit": {
+       "2": {
+        "count": 28,
+        "withAuras": 28,
+        "withTalents": 28
+       },
+       "4": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 3
+       }
+      },
+      "baseSpellCrit": {
+       "1.7": {
+        "count": 28,
+        "withAuras": 28,
+        "withTalents": 28
+       },
+       "3.7": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 3
+       }
+      },
+      "critPerAgility": {
+       "0.1304": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "dodgePerAgility": {
+       "0.1304": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "healthRegenBase": {
+       "-0.9125": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       },
+       "-1.1375": {
+        "count": 7,
+        "withAuras": 7,
+        "withTalents": 7
+       },
+       "-1.7318": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       },
+       "-2.1375": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       },
+       "1.2136": {
+        "count": 4,
+        "withAuras": 4,
+        "withTalents": 3
+       },
+       "1.5625": {
+        "count": 9,
+        "withAuras": 9,
+        "withTalents": 9
+       },
+       "1.6136": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       },
+       "2.4409": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       },
+       "2.6875": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       },
+       "6.7675": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1136": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "intellect": {
+       "27": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 30,
+        "withAuras": 30,
+        "withTalents": 28
+       },
+       "8.401": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.1065": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "spirit": {
+       "33": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "stamina": {
+       "27": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "strength": {
+       "24": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 33,
+        "withAuras": 33,
+        "withTalents": 31
+       }
+      }
+     },
+     "readings": 33,
+     "sources": 1,
+     "withAuras": 33,
+     "withTalents": 31
+    }
+   },
+   "sources": 1
+  },
+  "Troll|WARLOCK|11": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "26": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "baseDodge": {
+       "2": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "baseHealth": {
+       "123": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "baseMana": {
+       "200": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "baseMeleeCrit": {
+       "2": {
+        "count": 20,
+        "withAuras": 20,
+        "withTalents": 20
+       },
+       "4": {
+        "count": 11,
+        "withAuras": 11,
+        "withTalents": 11
+       }
+      },
+      "baseRangedCrit": {
+       "2": {
+        "count": 20,
+        "withAuras": 20,
+        "withTalents": 20
+       },
+       "4": {
+        "count": 11,
+        "withAuras": 11,
+        "withTalents": 11
+       }
+      },
+      "baseSpellCrit": {
+       "1.7": {
+        "count": 20,
+        "withAuras": 20,
+        "withTalents": 20
+       },
+       "3.7": {
+        "count": 11,
+        "withAuras": 11,
+        "withTalents": 11
+       }
+      },
+      "critPerAgility": {
+       "0.125": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "dodgePerAgility": {
+       "0.125": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "formAttackPowerPerAgility": {
+       "0": {
+        "count": 36,
+        "withAuras": 36,
+        "withTalents": 36
+       }
+      },
+      "healthRegenBase": {
+       "-1.3318": {
+        "count": 4,
+        "withAuras": 4,
+        "withTalents": 4
+       },
+       "-1.3966": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       },
+       "1.5795": {
+        "count": 6,
+        "withAuras": 6,
+        "withTalents": 6
+       },
+       "1.6136": {
+        "count": 4,
+        "withAuras": 4,
+        "withTalents": 4
+       },
+       "1.6307": {
+        "count": 8,
+        "withAuras": 8,
+        "withTalents": 8
+       },
+       "2.8409": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       },
+       "2.892": {
+        "count": 4,
+        "withAuras": 4,
+        "withTalents": 4
+       },
+       "6.972": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1136": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "intellect": {
+       "29": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "manaPerIntellect": {
+       "15": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 1
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.0971": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "spirit": {
+       "34": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "stamina": {
+       "27": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "strength": {
+       "24": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 31,
+        "withAuras": 31,
+        "withTalents": 31
+       }
+      }
+     },
+     "readings": 31,
+     "sources": 1,
+     "withAuras": 31,
+     "withTalents": 31
+    }
+   },
+   "sources": 1
+  },
+  "Troll|WARLOCK|12": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "26": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "baseDodge": {
+       "2": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "baseHealth": {
+       "128": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "baseMeleeCrit": {
+       "4": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "baseRangedCrit": {
+       "4": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "baseSpellCrit": {
+       "3.7": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "critPerAgility": {
+       "0.125": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "dodgePerAgility": {
+       "0.125": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "healthRegenBase": {
+       "-1.3966": {
+        "count": 11,
+        "withAuras": 11,
+        "withTalents": 11
+       },
+       "1.6307": {
+        "count": 13,
+        "withAuras": 13,
+        "withTalents": 13
+       },
+       "2.892": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 5
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1136": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "intellect": {
+       "30": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 26,
+        "withAuras": 26,
+        "withTalents": 26
+       },
+       "8.401": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 3
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.0892": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "spirit": {
+       "35": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "stamina": {
+       "28": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "strength": {
+       "24": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 29,
+        "withAuras": 29,
+        "withTalents": 29
+       }
+      }
+     },
+     "readings": 29,
+     "sources": 1,
+     "withAuras": 29,
+     "withTalents": 29
+    }
+   },
+   "sources": 1
+  },
+  "Troll|WARLOCK|13": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "26": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "baseDodge": {
+       "2": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "baseHealth": {
+       "143": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "baseMeleeCrit": {
+       "4": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "baseRangedCrit": {
+       "4": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "baseSpellCrit": {
+       "3.7": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "critPerAgility": {
+       "0.125": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "dodgePerAgility": {
+       "0.125": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "healthRegenBase": {
+       "1.6648": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.1136": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "intellect": {
+       "31": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.0825": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "spirit": {
+       "37": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "stamina": {
+       "28": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "strength": {
+       "25": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 2,
+        "withAuras": 2,
+        "withTalents": 2
+       }
+      }
+     },
+     "readings": 2,
+     "sources": 1,
+     "withAuras": 2,
+     "withTalents": 2
+    }
+   },
+   "sources": 1
+  },
+  "Troll|WARLOCK|9": {
+   "forms": {
+    "0": {
+     "facts": {
+      "agility": {
+       "25": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "armorEffectivenessFits": {
+       "1": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "attackPowerBase": {
+       "-10": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerAgility": {
+       "0": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "attackPowerPerStrength": {
+       "1": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "baseDodge": {
+       "2": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "baseHealth": {
+       "103": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "baseMeleeCrit": {
+       "4": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "baseRangedCrit": {
+       "4": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "baseSpellCrit": {
+       "3.7": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "critPerAgility": {
+       "0.1304": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "dodgePerAgility": {
+       "0.1304": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "healthRegenBase": {
+       "-1.4059": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       },
+       "1.1279": {
+        "count": 1,
+        "withAuras": 1,
+        "withTalents": 0
+       },
+       "1.1773": {
+        "count": 3,
+        "withAuras": 3,
+        "withTalents": 0
+       }
+      },
+      "healthRegenPerSpirit": {
+       "0.11": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "hpPerStamina": {
+       "10": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "intellect": {
+       "26": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "manaRegenBase": {
+       "0.001": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "manaRegenPerSpirit": {
+       "0.25": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerBase": {
+       "0": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "rangedAttackPowerFromAgility": {
+       "0": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "runSpeed": {
+       "7": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "spellCritPerIntellect": {
+       "0.11": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "spirit": {
+       "32": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "stamina": {
+       "26": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "strength": {
+       "23": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      },
+      "swimSpeed": {
+       "4.7222": {
+        "count": 5,
+        "withAuras": 5,
+        "withTalents": 0
+       }
+      }
+     },
+     "readings": 5,
+     "sources": 1,
+     "withAuras": 5,
+     "withTalents": 0
     }
    },
    "sources": 1
