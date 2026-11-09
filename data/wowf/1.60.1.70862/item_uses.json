@@ -3,8 +3,8 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70862",
   "collectedOn": {
-   "first": "2026-11-07",
-   "last": "2026-11-08"
+   "first": "2026-11-09",
+   "last": "2026-11-09"
   },
   "dataset": "item_uses",
   "license": "CC BY 4.0",
@@ -40,9 +40,17 @@
   "868": {
    "5059": {
     "objectives": {
-     "1": 6
+     "1": 12
     },
     "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.4443,
+      "mapY": 0.7262,
+      "uiMap": 1413,
+      "worldX": -3293.7,
+      "worldY": -1879.5
+     },
      {
       "instance": 1,
       "mapX": 0.4512,
@@ -58,6 +66,14 @@
       "uiMap": 1413,
       "worldX": -3260.8,
       "worldY": -1848.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4312,
+      "mapY": 0.7167,
+      "uiMap": 1413,
+      "worldX": -3230,
+      "worldY": -1747
      },
      {
       "instance": 1,
@@ -77,6 +93,14 @@
      },
      {
       "instance": 1,
+      "mapX": 0.4349,
+      "mapY": 0.7051,
+      "uiMap": 1413,
+      "worldX": -3151.4,
+      "worldY": -1783.9
+     },
+     {
+      "instance": 1,
       "mapX": 0.4501,
       "mapY": 0.7001,
       "uiMap": 1413,
@@ -90,15 +114,64 @@
       "uiMap": 1413,
       "worldX": -3113.8,
       "worldY": -1934.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4255,
+      "mapY": 0.6989,
+      "uiMap": 1413,
+      "worldX": -3109.7,
+      "worldY": -1689.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4248,
+      "mapY": 0.6977,
+      "uiMap": 1413,
+      "worldX": -3101,
+      "worldY": -1681.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4338,
+      "mapY": 0.6976,
+      "uiMap": 1413,
+      "worldX": -3100.5,
+      "worldY": -1773.2
      }
     ],
-    "progressed": 6,
-    "sources": 1,
+    "progressed": 12,
+    "sources": 2,
     "spellId": 5166,
     "targets": {
-     "object:3685": 6
+     "object:3685": 7,
+     "other": 1
     },
-    "uses": 6
+    "uses": 12
+   }
+  },
+  "877": {
+   "5068": {
+    "objectives": {
+     "1": 1
+    },
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.5562,
+      "mapY": 0.4276,
+      "uiMap": 1413,
+      "worldX": -1276.4,
+      "worldY": -3013.1
+     }
+    ],
+    "progressed": 1,
+    "sources": 1,
+    "spellId": 5206,
+    "targets": {
+     "object:3737": 1
+    },
+    "uses": 1
    }
   },
   "881": {
@@ -117,6 +190,48 @@
     "sources": 1,
     "spellId": 12189,
     "uses": 1
+   }
+  },
+  "905": {
+   "5165": {
+    "objectives": {
+     "1": 1,
+     "2": 1,
+     "3": 1
+    },
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.5242,
+      "mapY": 0.4652,
+      "uiMap": 1413,
+      "worldX": -1530.8,
+      "worldY": -2689.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5206,
+      "mapY": 0.4648,
+      "uiMap": 1413,
+      "worldX": -1527.9,
+      "worldY": -2652.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.526,
+      "mapY": 0.4618,
+      "uiMap": 1413,
+      "worldX": -1507.7,
+      "worldY": -2707.7
+     }
+    ],
+    "progressed": 3,
+    "sources": 1,
+    "spellId": 5316,
+    "targets": {
+     "other": 3
+    },
+    "uses": 3
    }
   },
   "924": {
@@ -164,6 +279,30 @@
     "uses": 1
    }
   },
+  "1197": {
+   "5868": {
+    "objectives": {
+     "1": 1
+    },
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.4196,
+      "mapY": 0.3162,
+      "uiMap": 1441,
+      "worldX": -4894.2,
+      "worldY": -2279.6
+     }
+    ],
+    "progressed": 1,
+    "sources": 1,
+    "spellId": 6805,
+    "targets": {
+     "object:20807": 1
+    },
+    "uses": 1
+   }
+  },
   "1504": {
    "7464": {
     "objectives": {
@@ -185,6 +324,69 @@
     "uses": 1
    }
   },
+  "1534": {
+   "7767": {
+    "objectives": {
+     "1": 1
+    },
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.336,
+      "mapY": 0.6745,
+      "uiMap": 1440,
+      "worldX": 2080.3,
+      "worldY": -237.4
+     }
+    ],
+    "progressed": 1,
+    "sources": 1,
+    "spellId": 9584,
+    "uses": 1
+   }
+  },
+  "1535": {
+   "7766": {
+    "objectives": {
+     "1": 1
+    },
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.442,
+      "mapY": 0.7689,
+      "uiMap": 1413,
+      "worldX": -3582.3,
+      "worldY": -1856
+     }
+    ],
+    "progressed": 1,
+    "sources": 1,
+    "spellId": 9586,
+    "uses": 1
+   }
+  },
+  "1536": {
+   "7768": {
+    "objectives": {
+     "1": 1
+    },
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.6221,
+      "mapY": 0.2077,
+      "uiMap": 1424,
+      "worldX": -43,
+      "worldY": -923.9
+     }
+    ],
+    "progressed": 1,
+    "sources": 1,
+    "spellId": 9583,
+    "uses": 1
+   }
+  },
   "1944": {
    "7269": {
     "objectives": {
@@ -203,6 +405,48 @@
     "progressed": 1,
     "sources": 1,
     "spellId": 9052,
+    "uses": 1
+   }
+  },
+  "5088": {
+   "12785": {
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.38,
+      "mapY": 0.354,
+      "uiMap": 1441,
+      "worldX": -5005,
+      "worldY": -2105.4
+     }
+    ],
+    "progressed": 0,
+    "sources": 1,
+    "spellId": 16996,
+    "targets": {
+     "object:175944": 1
+    },
+    "uses": 1
+   }
+  },
+  "5151": {
+   "12942": {
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.2277,
+      "mapY": 0.2449,
+      "uiMap": 1441,
+      "worldX": -4685,
+      "worldY": -1435.3
+     }
+    ],
+    "progressed": 0,
+    "sources": 1,
+    "spellId": 17176,
+    "targets": {
+     "object:176195": 1
+    },
     "uses": 1
    }
   },
@@ -287,6 +531,91 @@
     "sources": 1,
     "spellId": 20531,
     "uses": 1
+   }
+  },
+  "96241": {
+   "273015": {
+    "objectives": {
+     "1": 9
+    },
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.3301,
+      "mapY": 0.1163,
+      "uiMap": 1412,
+      "worldX": -210.5,
+      "worldY": 447.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3347,
+      "mapY": 0.1136,
+      "uiMap": 1412,
+      "worldX": -199.3,
+      "worldY": 419.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3401,
+      "mapY": 0.1113,
+      "uiMap": 1412,
+      "worldX": -190.1,
+      "worldY": 386.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3469,
+      "mapY": 0.1023,
+      "uiMap": 1412,
+      "worldX": -153,
+      "worldY": 344.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3363,
+      "mapY": 0.1022,
+      "uiMap": 1412,
+      "worldX": -152.8,
+      "worldY": 409.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3351,
+      "mapY": 0.0818,
+      "uiMap": 1412,
+      "worldX": -68.8,
+      "worldY": 417.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.329,
+      "mapY": 0.08,
+      "uiMap": 1412,
+      "worldX": -61.6,
+      "worldY": 454.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3317,
+      "mapY": 0.0763,
+      "uiMap": 1412,
+      "worldX": -46.3,
+      "worldY": 438
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3321,
+      "mapY": 0.0752,
+      "uiMap": 1412,
+      "worldX": -41.6,
+      "worldY": 435.6
+     }
+    ],
+    "progressed": 9,
+    "sources": 2,
+    "spellId": 1291549,
+    "uses": 10
    }
   },
   "99134": {
@@ -406,6 +735,11 @@
    "sources": 1,
    "spellId": 5161,
    "uses": 1
+  },
+  "6684": {
+   "sources": 1,
+   "spellId": 8283,
+   "uses": 16
   }
  }
 }
