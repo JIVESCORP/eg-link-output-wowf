@@ -137,6 +137,16 @@
     "times": 1
    }
   ],
+  "npc:233": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Rough times, huh, $N? No matter where you turn someone needs help, and my wife and I are no exception.",
+    "times": 1
+   }
+  ],
   "npc:2388": [
    {
     "broadcastTextIds": [
@@ -163,6 +173,16 @@
     "template": "broadcastText",
     "text": "Where would you like to fly to?",
     "times": 1
+   }
+  ],
+  "npc:253092": [
+   {
+    "sexes": {
+     "male": 4
+    },
+    "sources": 1,
+    "text": "I am told the farms of Westfall once supplied a bounty of crops for Stormwind. But now, the soil is barren and most of the farmers have fled.\r\n\r\nOn behalf of Darnassus I would like to offer my aid in replenishing this land. Will you assist me?",
+    "times": 4
    }
   ],
   "npc:265809": [
@@ -649,6 +669,16 @@
     "times": 1
    }
   ],
+  "npc:6740": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Welcome to my Inn, weary traveler. What can I do for you?",
+    "times": 1
+   }
+  ],
   "npc:6746": [
    {
     "broadcastTextIds": [
@@ -704,6 +734,16 @@
     "text": "I can teach you the finer points of Raptor Riding, provided you have enough gold to cover the lesson!",
     "times": 2
    }
+  ],
+  "npc:8931": [
+   {
+    "sexes": {
+     "male": 8
+    },
+    "sources": 1,
+    "text": "Welcome to my Inn, weary traveler. What can I do for you?",
+    "times": 8
+   }
   ]
  },
  "greeting": {
@@ -734,6 +774,16 @@
     },
     "sources": 1,
     "text": "We are but so close to developing the New Plague that our Dark Lady desires with such fervor.",
+    "times": 1
+   }
+  ],
+  "npc:234": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "A foul corruption has crept into Westfall.  While I was upholding my duty on the battlefields of Lordaeron these honest farms were overrun and made into hide-outs for thugs and murderers. The People's Militia needs your help.",
     "times": 1
    }
   ],
@@ -813,14 +863,14 @@
   "clientBuild": "1.60.1.70840",
   "collectedOn": {
    "first": "2026-11-09",
-   "last": "2026-11-09"
+   "last": "2026-11-10"
   },
   "dataset": "texts",
   "license": "CC BY 4.0",
   "locale": "enUS",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 2,
+  "sources": 3,
   "withheld": {
    "addon": {
     "books": 0,
@@ -837,6 +887,64 @@
   }
  },
  "quests": {
+  "9": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:233": 1
+     },
+     "text": "Good work, friend.  You have earned your pay well.  Who knows, perhaps Westfall will prosper once again.",
+     "times": 1
+    }
+   ]
+  },
+  "13": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:234": 1
+     },
+     "text": "Your worth to The People's Militia has been validated by your brave acts thus far.",
+     "times": 1
+    }
+   ]
+  },
+  "14": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:234": 1
+     },
+     "text": "Some Defias have eluded us.  My most trusted scout reports that these Defias have been looting and pillaging the countryside, all the way into Southern Westfall.  We believe they are hiding out in the Dagger Hills, plotting their next move.   Slay the wretches in the name of The People's Militia.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:234": 1
+     },
+     "text": "Gryan Stoutmantle wants you to kill 15 Defias Highwaymen, 5 Defias Pathstalkers and 5 Defias Knuckledusters then return to him on Sentinel Hill.",
+     "times": 1
+    }
+   ]
+  },
   "502": {
    "progress": [
     {
@@ -1938,6 +2046,34 @@
     }
    ]
   },
+  "3861": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:620": 1
+     },
+     "text": "\"BACAW!!!\"\n\nThe chicken starts to gobble up the feed you put down.\n\nAfter a moment, the chicken looks around, startled. It uncomfortably shuffles back and forth. Is this chicken pregnant? You think you better check underneath it.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:620": 1
+     },
+     "text": "The chicken stares at you with dark, cold eyes. It waits for you hungrily.\n\n\"BACAAAW!\n\nCluck...cluck...cluck.\"",
+     "times": 1
+    }
+   ]
+  },
   "4021": {
    "complete": [
     {
@@ -2533,6 +2669,49 @@
       "npc:11861": 1
      },
      "text": "I have important matters to consider, $c. Be quick.",
+     "times": 1
+    }
+   ]
+  },
+  "92745": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253092": 1
+     },
+     "text": "Well done, $N. But I fear the source of the poison may lie somewhere else...",
+     "times": 1
+    }
+   ]
+  },
+  "92747": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253092": 1
+     },
+     "text": "What is all this?",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253092": 1
+     },
+     "text": "Did you find anything?",
      "times": 1
     }
    ]

@@ -4,33 +4,35 @@
   "clientBuild": "1.60.1.70862",
   "collectedOn": {
    "first": "2026-11-09",
-   "last": "2026-11-09"
+   "last": "2026-11-10"
   },
   "dataset": "probes",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 3
+  "sources": 4
  },
  "probes": {
   "groupChecks": {
    "collectedOn": {
     "first": "2026-11-09",
-    "last": "2026-11-09"
+    "last": "2026-11-10"
    },
    "keys": {
+    "Freeforall|yes|none|more": 1,
+    "Freeforall|yes|none|none": 1,
     "Freeforall|yes|none|quest": 1,
     "Group|no|none|more": 8,
-    "Group|no|none|none": 200,
-    "Group|no|self|more": 21,
-    "Group|no|self|quest": 2,
-    "Group|yes|none|more": 115,
-    "Group|yes|none|none": 29,
-    "Group|yes|none|quest": 9,
-    "Group|yes|self|more": 87,
-    "Group|yes|self|quest": 4
+    "Group|no|none|none": 327,
+    "Group|no|self|more": 70,
+    "Group|no|self|quest": 5,
+    "Group|yes|none|more": 231,
+    "Group|yes|none|none": 51,
+    "Group|yes|none|quest": 14,
+    "Group|yes|self|more": 219,
+    "Group|yes|self|quest": 11
    },
-   "sources": 3
+   "sources": 4
   }
  }
 }

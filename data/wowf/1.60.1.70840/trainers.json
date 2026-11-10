@@ -4,13 +4,13 @@
   "clientBuild": "1.60.1.70840",
   "collectedOn": {
    "first": "2026-11-09",
-   "last": "2026-11-09"
+   "last": "2026-11-10"
   },
   "dataset": "trainers",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 2
+  "sources": 3
  },
  "trainers": {
   "2855": {
@@ -8887,6 +8887,91 @@
    "sources": 1,
    "tradeskill": true,
    "trainerType": 2
+  },
+  "11867": {
+   "lastSeen": "2026-11-07",
+   "name": "Woo Ping",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6381,
+     "mapY": 0.6903,
+     "uiMap": 1453,
+     "worldX": -8795.4,
+     "worldY": 614.2
+    }
+   ],
+   "services": {
+    "200": {
+     "costs": {
+      "5": 10000
+     },
+     "icon": 135129,
+     "level": 20,
+     "name": "Polearms",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 200
+    },
+    "201": {
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132223,
+     "level": 0,
+     "name": "One-Handed Swords",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 201
+    },
+    "202": {
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132223,
+     "level": 0,
+     "name": "Two-Handed Swords",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 202
+    },
+    "227": {
+     "costs": {
+      "5": 1000
+     },
+     "icon": 135145,
+     "level": 0,
+     "name": "Staves",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 227
+    },
+    "1180": {
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132321,
+     "level": 0,
+     "name": "Daggers",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1180
+    },
+    "5011": {
+     "costs": {
+      "5": 1000
+     },
+     "icon": 135530,
+     "level": 0,
+     "name": "Crossbows",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5011
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
   },
   "266881": {
    "lastSeen": "2026-11-07",

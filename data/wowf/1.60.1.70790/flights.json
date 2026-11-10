@@ -1,5 +1,15 @@
 {
  "masters": {
+  "352": {
+   "name": "Dungar Longdrink",
+   "node": 2,
+   "sources": 1
+  },
+  "523": {
+   "name": "Thor",
+   "node": 4,
+   "sources": 1
+  },
   "2226": {
    "name": "Karos Razok",
    "node": 10,
@@ -25,6 +35,11 @@
    "node": 25,
    "sources": 3
   },
+  "3838": {
+   "name": "Vesprystus",
+   "node": 27,
+   "sources": 1
+  },
   "4551": {
    "name": "Michael Garrett",
    "node": 11,
@@ -46,13 +61,13 @@
   "clientBuild": "1.60.1.70790",
   "collectedOn": {
    "first": "2026-11-09",
-   "last": "2026-11-09"
+   "last": "2026-11-10"
   },
   "dataset": "flights",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 3
+  "sources": 4
  },
  "routes": {
   "10>11": {
@@ -736,6 +751,158 @@
     "52": 5
    },
    "sources": 3
+  },
+  "27>26": {
+   "arrivals": [
+    {
+     "instance": 1,
+     "mapX": 0.364,
+     "mapY": 0.4562,
+     "uiMap": 1439,
+     "worldX": 6341.4,
+     "worldY": 557.7
+    }
+   ],
+   "seconds": {
+    "85": 1
+   },
+   "sources": 1
+  },
+  "2>12": {
+   "costs": {
+    "5": 330
+   },
+   "hops": [
+    2,
+    12
+   ],
+   "sources": 1
+  },
+  "2>19": {
+   "costs": {
+    "5": 630
+   },
+   "hops": [
+    2,
+    19
+   ],
+   "sources": 1
+  },
+  "2>4": {
+   "arrivals": [
+    {
+     "instance": 0,
+     "mapX": 0.5657,
+     "mapY": 0.5267,
+     "uiMap": 1436,
+     "worldX": -10628.9,
+     "worldY": 1036.7
+    }
+   ],
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    2,
+    4
+   ],
+   "seconds": {
+    "78": 2
+   },
+   "sources": 1
+  },
+  "2>45": {
+   "costs": {
+    "5": 830
+   },
+   "hops": [
+    2,
+    45
+   ],
+   "sources": 1
+  },
+  "2>5": {
+   "costs": {
+    "5": 210
+   },
+   "hops": [
+    2,
+    5
+   ],
+   "sources": 1
+  },
+  "2>6": {
+   "costs": {
+    "5": 50
+   },
+   "hops": [
+    2,
+    6
+   ],
+   "sources": 1
+  },
+  "2>71": {
+   "costs": {
+    "5": 830
+   },
+   "hops": [
+    2,
+    71
+   ],
+   "sources": 1
+  },
+  "4>12": {
+   "costs": {
+    "5": 330
+   },
+   "hops": [
+    4,
+    12
+   ],
+   "sources": 1
+  },
+  "4>19": {
+   "costs": {
+    "5": 630
+   },
+   "hops": [
+    4,
+    19
+   ],
+   "sources": 1
+  },
+  "4>2": {
+   "arrivals": [
+    {
+     "instance": 0,
+     "mapX": 0.7161,
+     "mapY": 0.7225,
+     "uiMap": 1453,
+     "worldX": -8832.8,
+     "worldY": 478.6
+    }
+   ],
+   "costs": {
+    "5": 110
+   },
+   "hops": [
+    4,
+    2
+   ],
+   "seconds": {
+    "81": 1
+   },
+   "sources": 1
+  },
+  "4>5": {
+   "costs": {
+    "5": 210
+   },
+   "hops": [
+    4,
+    5
+   ],
+   "sources": 1
   },
   "77>22": {
    "arrivals": [

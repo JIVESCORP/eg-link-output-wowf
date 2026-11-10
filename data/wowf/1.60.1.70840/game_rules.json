@@ -1,13 +1,13 @@
 {
  "levelCap": {
   "maxLevelForLatestExpansion": {
-   "60": 2
+   "60": 3
   },
   "maxLevelForPlayerExpansion": {
-   "60": 2
+   "60": 3
   },
   "maxPlayerLevel": {
-   "60": 2
+   "60": 3
   }
  },
  "meta": {
@@ -15,23 +15,23 @@
   "clientBuild": "1.60.1.70840",
   "collectedOn": {
    "first": "2026-11-09",
-   "last": "2026-11-09"
+   "last": "2026-11-10"
   },
   "dataset": "game_rules",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 2
+  "sources": 3
  },
  "professionCaps": {
   "129": {
    "1": {
-    "75": 2
+    "75": 3
    }
   },
   "165": {
    "1": {
-    "75": 1
+    "75": 2
    },
    "2": {
     "150": 2
@@ -39,7 +39,7 @@
   },
   "185": {
    "1": {
-    "75": 2
+    "75": 3
    }
   },
   "186": {
@@ -50,6 +50,11 @@
     "150": 2
    }
   },
+  "197": {
+   "1": {
+    "75": 1
+   }
+  },
   "202": {
    "1": {
     "75": 1
@@ -57,7 +62,7 @@
   },
   "333": {
    "1": {
-    "75": 1
+    "75": 2
    },
    "2": {
     "150": 1
@@ -70,7 +75,7 @@
   },
   "393": {
    "2": {
-    "150": 1
+    "150": 2
    },
    "3": {
     "225": 1
@@ -127,13 +132,13 @@
   },
   "5": {
    "2": {
-    "1": 1
+    "1": 2
    },
    "4": {
-    "2": 1
+    "2": 2
    },
    "5": {
-    "2": 1
+    "2": 2
    },
    "6": {
     "2": 1
@@ -254,6 +259,52 @@
    },
    "12": {
     "2": 1
+   }
+  },
+  "14": {
+   "1": {
+    "0": 1
+   },
+   "6": {
+    "0": 1
+   },
+   "12": {
+    "2": 1
+   },
+   "14": {
+    "2": 1
+   },
+   "15": {
+    "2": 1
+   },
+   "16": {
+    "2": 1
+   }
+  },
+  "15": {
+   "1": {
+    "0": 1
+   },
+   "6": {
+    "0": 1
+   },
+   "12": {
+    "1": 1
+   },
+   "14": {
+    "2": 1
+   },
+   "15": {
+    "2": 1
+   },
+   "16": {
+    "2": 1
+   },
+   "17": {
+    "2": 1
+   },
+   "18": {
+    "3": 1
    }
   },
   "24": {
@@ -390,11 +441,11 @@
        "isAccountUnlock": false,
        "name": "Rank 1 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 750
     },
     "2": {
@@ -405,11 +456,11 @@
        "isAccountUnlock": false,
        "name": "Rank 2 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 1650
     },
     "3": {
@@ -420,11 +471,11 @@
        "isAccountUnlock": false,
        "name": "Rank 3 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 2700
     },
     "4": {
@@ -435,11 +486,11 @@
        "isAccountUnlock": false,
        "name": "Rank 4 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 3900
     },
     "5": {
@@ -450,11 +501,11 @@
        "isAccountUnlock": false,
        "name": "Rank 5 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 5250
     },
     "6": {
@@ -465,11 +516,11 @@
        "isAccountUnlock": false,
        "name": "Rank 6 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 6750
     },
     "7": {
@@ -480,11 +531,11 @@
        "isAccountUnlock": false,
        "name": "Rank 7 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 8400
     },
     "8": {
@@ -495,7 +546,7 @@
        "isAccountUnlock": false,
        "name": "Rank 8 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       },
       {
@@ -504,11 +555,11 @@
        "isAccountUnlock": false,
        "name": "Rank 8 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 10200
     },
     "9": {
@@ -519,11 +570,11 @@
        "isAccountUnlock": false,
        "name": "Rank 9 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 12150
     },
     "10": {
@@ -534,11 +585,11 @@
        "isAccountUnlock": false,
        "name": "Rank 10 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 14250
     },
     "11": {
@@ -551,9 +602,18 @@
        "renownRewardID": 0,
        "sources": 2,
        "uiOrder": 0
+      },
+      {
+       "description": "Black War Mounts",
+       "icon": 132251,
+       "isAccountUnlock": false,
+       "name": "Rank 11 Rewards",
+       "renownRewardID": 0,
+       "sources": 1,
+       "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 16600
     },
     "12": {
@@ -564,7 +624,7 @@
        "isAccountUnlock": false,
        "name": "Rank 12 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       },
       {
@@ -573,11 +633,11 @@
        "isAccountUnlock": false,
        "name": "Rank 12 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 19100
     },
     "13": {
@@ -588,7 +648,7 @@
        "isAccountUnlock": false,
        "name": "Rank 13 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       },
       {
@@ -597,11 +657,11 @@
        "isAccountUnlock": false,
        "name": "Rank 13 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 21750
     },
     "14": {
@@ -612,18 +672,18 @@
        "isAccountUnlock": false,
        "name": "Rank 14 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 24750
     }
    },
    "maxLevel": 14,
    "name": "PvP Rank Points",
    "renownLevelThreshold": 750,
-   "sources": 2
+   "sources": 3
   },
   "2802": {
    "expansionID": 0,
@@ -638,11 +698,11 @@
        "itemID": 276236,
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 15
     },
     "25": {
@@ -655,11 +715,11 @@
        "name": "Spectral Bear Cub",
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 25
     },
     "40": {
@@ -672,11 +732,11 @@
        "name": "Spectral Bear Tabard",
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 40
     },
     "55": {
@@ -689,18 +749,18 @@
        "name": "Reins of the Spectral Bear",
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 2,
+       "sources": 3,
        "uiOrder": 0
       }
      ],
-     "sources": 2,
+     "sources": 3,
      "totalReputation": 55
     }
    },
    "maxLevel": 90,
    "name": "Legacy Track",
    "renownLevelThreshold": 1,
-   "sources": 2
+   "sources": 3
   }
  },
  "rewardSpells": {
@@ -721,7 +781,7 @@
    "0..3000": 2
   },
   "5": {
-   "3000..9000": 2
+   "3000..9000": 3
   },
   "6": {
    "9000..21000": 1
@@ -793,7 +853,7 @@
    "5": 1
   },
   "5": {
-   "5": 1
+   "5": 2
   },
   "6": {
    "5": 1
@@ -811,6 +871,12 @@
    "5": 1
   },
   "11": {
+   "5": 1
+  },
+  "14": {
+   "5": 1
+  },
+  "15": {
    "5": 1
   },
   "24": {

@@ -3112,6 +3112,20 @@
    ],
    "sources": 1,
    "times": 3
+  },
+  "696751": {
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6171,
+     "mapY": 0.7595,
+     "uiMap": 1453,
+     "worldX": -8875.6,
+     "worldY": 650.7
+    }
+   ],
+   "sources": 1,
+   "times": 1
   }
  },
  "meta": {
@@ -3119,15 +3133,297 @@
   "clientBuild": "1.60.1.70840",
   "collectedOn": {
    "first": "2026-11-09",
-   "last": "2026-11-09"
+   "last": "2026-11-10"
   },
   "dataset": "npcs",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 2
+  "sources": 3
  },
  "npcs": {
+  "233": {
+   "interactions": [
+    "Gossip",
+    "Merchant",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    20
+   ],
+   "name": "Farmer Saldean",
+   "options": {
+    "96270": {
+     "icon": 132060,
+     "name": "I'd like to see what you have to sell."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5616,
+     "mapY": 0.3134,
+     "uiMap": 1436,
+     "worldX": -10131.3,
+     "worldY": 1051.1
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "9": {
+     "level": 15,
+     "title": "The Killing Fields"
+    }
+   },
+   "windows": 7
+  },
+  "234": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    35
+   ],
+   "name": "Gryan Stoutmantle",
+   "offers": {
+    "14": {
+     "title": "The People's Militia"
+    },
+    "65": {
+     "title": "The Defias Brotherhood"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5625,
+     "mapY": 0.4767,
+     "uiMap": 1436,
+     "worldX": -10512.3,
+     "worldY": 1047.9
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "13": {
+     "title": "The People's Militia"
+    }
+   },
+   "windows": 0
+  },
+  "352": {
+   "interactions": [
+    "Gossip",
+    "TaxiNode"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    55
+   ],
+   "name": "Dungar Longdrink",
+   "options": {
+    "96455": {
+     "icon": 132057,
+     "name": "I need a ride."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7135,
+     "mapY": 0.7233,
+     "uiMap": 1453,
+     "worldX": -8833.6,
+     "worldY": 483.3
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
+  },
+  "491": {
+   "interactions": [
+    "Gossip",
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    20
+   ],
+   "name": "Quartermaster Lewis",
+   "options": {
+    "96963": {
+     "icon": 132060,
+     "name": "I would like to buy from you."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5695,
+     "mapY": 0.4723,
+     "uiMap": 1436,
+     "worldX": -10502,
+     "worldY": 1023.5
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
+  },
+  "523": {
+   "interactions": [
+    "Gossip",
+    "TaxiNode"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    55
+   ],
+   "name": "Thor",
+   "options": {
+    "96962": {
+     "icon": 132057,
+     "name": "I need a ride."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5652,
+     "mapY": 0.5271,
+     "uiMap": 1436,
+     "worldX": -10629.8,
+     "worldY": 1038.6
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
+  },
+  "620": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    1
+   ],
+   "name": "Chicken",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5616,
+     "mapY": 0.2951,
+     "uiMap": 1436,
+     "worldX": -10088.5,
+     "worldY": 1051.1
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "3861": {
+     "title": "CLUCK!"
+    }
+   },
+   "windows": 0
+  },
+  "843": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    15
+   ],
+   "name": "Gina MacGregor",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.575,
+     "mapY": 0.5411,
+     "uiMap": 1436,
+     "worldX": -10662.6,
+     "worldY": 1004.1
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 4
+  },
+  "1668": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    15
+   ],
+   "name": "William MacGregor",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5765,
+     "mapY": 0.5398,
+     "uiMap": 1436,
+     "worldX": -10659.6,
+     "worldY": 998.8
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 3
+  },
+  "1669": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    20
+   ],
+   "name": "Defias Profiteer",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.4347,
+     "mapY": 0.6696,
+     "uiMap": 1436,
+     "worldX": -10962.5,
+     "worldY": 1495.4
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "1670": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    20
+   ],
+   "name": "Mike Miller",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5766,
+     "mapY": 0.5377,
+     "uiMap": 1436,
+     "worldX": -10654.6,
+     "worldY": 998.6
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 1
+  },
   "2215": {
    "interactions": [
     "QuestGiver"
@@ -3321,6 +3617,36 @@
    "side": "Horde",
    "sources": 1,
    "windows": 1
+  },
+  "2457": {
+   "interactions": [
+    "Banker",
+    "Gossip"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    45
+   ],
+   "name": "John Burnside",
+   "options": {
+    "95532": {
+     "icon": 132050,
+     "name": "I would like to check my deposit box."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6332,
+     "mapY": 0.8118,
+     "uiMap": 1453,
+     "worldX": -8936.1,
+     "worldY": 622.7
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 4
   },
   "2855": {
    "interactions": [
@@ -5441,6 +5767,40 @@
    "sources": 1,
    "windows": 6
   },
+  "6740": {
+   "interactions": [
+    "Gossip",
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    30
+   ],
+   "name": "Innkeeper Allison",
+   "options": {
+    "96505": {
+     "icon": 132060,
+     "name": "Let me browse your goods."
+    },
+    "96506": {
+     "icon": 132052,
+     "name": "Make this inn your home."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6048,
+     "mapY": 0.7522,
+     "uiMap": 1453,
+     "worldX": -8867.2,
+     "worldY": 672.1
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
+  },
   "6746": {
    "interactions": [
     "Binder",
@@ -5785,6 +6145,29 @@
    },
    "windows": 0
   },
+  "8670": {
+   "interactions": [
+    "Auctioneer"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    50
+   ],
+   "name": "Auctioneer Chilton",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6079,
+     "mapY": 0.7145,
+     "uiMap": 1453,
+     "worldX": -8823.4,
+     "worldY": 666.8
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 4
+  },
   "8674": {
    "interactions": [
     "Auctioneer"
@@ -5851,6 +6234,64 @@
     }
    ],
    "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "8931": {
+   "interactions": [
+    "Binder",
+    "Gossip",
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    30
+   ],
+   "name": "Innkeeper Heather",
+   "options": {
+    "96505": {
+     "icon": 132060,
+     "name": "Let me browse your goods."
+    },
+    "96506": {
+     "icon": 132052,
+     "name": "Make this inn your home."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5291,
+     "mapY": 0.5372,
+     "uiMap": 1436,
+     "worldX": -10653.6,
+     "worldY": 1164.9
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 16
+  },
+  "8934": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    30
+   ],
+   "name": "Christopher Hewen",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5226,
+     "mapY": 0.5288,
+     "uiMap": 1436,
+     "worldX": -10633.9,
+     "worldY": 1187.6
+    }
+   ],
+   "side": "Alliance",
    "sources": 1,
    "windows": 1
   },
@@ -6278,6 +6719,40 @@
    "sources": 1,
    "windows": 0
   },
+  "11867": {
+   "interactions": [
+    "Gossip",
+    "Trainer"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    50
+   ],
+   "name": "Woo Ping",
+   "options": {
+    "96878": {
+     "icon": 132053,
+     "name": "What can other weapon masters teach?"
+    },
+    "96879": {
+     "icon": 132058,
+     "name": "I'd like some weapon training"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6381,
+     "mapY": 0.6903,
+     "uiMap": 1453,
+     "worldX": -8795.4,
+     "worldY": 614.2
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "windows": 2
+  },
   "11901": {
    "interactions": [
     "Gossip"
@@ -6415,6 +6890,50 @@
     }
    },
    "windows": 0
+  },
+  "253092": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-07",
+   "levels": [
+    24
+   ],
+   "name": "Alba Fairmoon",
+   "offers": {
+    "92747": {
+     "level": 15,
+     "title": "Moonbrook Espionage"
+    },
+    "92748": {
+     "level": 16,
+     "title": "Explosive Consultation"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5251,
+     "mapY": 0.5311,
+     "uiMap": 1436,
+     "worldX": -10639.2,
+     "worldY": 1178.8
+    }
+   ],
+   "side": "Alliance",
+   "sources": 1,
+   "takes": {
+    "92745": {
+     "level": 14,
+     "title": "The State of the Mines"
+    },
+    "92747": {
+     "level": 15,
+     "title": "Moonbrook Espionage"
+    }
+   },
+   "windows": 4
   },
   "265574": {
    "interactions": [
@@ -6705,6 +7224,25 @@
    "sources": 1,
    "windows": 2
   },
+  "153716": {
+   "interactions": [
+    "MailInfo"
+   ],
+   "lastSeen": "2026-11-07",
+   "name": "Mailbox",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5313,
+     "mapY": 0.5328,
+     "uiMap": 1436,
+     "worldX": -10643.3,
+     "worldY": 1157
+    }
+   ],
+   "sources": 1,
+   "windows": 4
+  },
   "177904": {
    "interactions": [
     "QuestGiver"
@@ -6904,6 +7442,44 @@
      "uiMap": 1454,
      "worldX": 1611.3,
      "worldY": -4394.4
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "696264": {
+   "interactions": [
+    "MailInfo"
+   ],
+   "lastSeen": "2026-11-07",
+   "name": "Mailbox",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.617,
+     "mapY": 0.7079,
+     "uiMap": 1453,
+     "worldX": -8815.8,
+     "worldY": 650.9
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "696751": {
+   "interactions": [
+    "MailInfo"
+   ],
+   "lastSeen": "2026-11-07",
+   "name": "Mailbox",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6175,
+     "mapY": 0.7605,
+     "uiMap": 1453,
+     "worldX": -8876.8,
+     "worldY": 650.1
     }
    ],
    "sources": 1,

@@ -4,15 +4,91 @@
   "clientBuild": "1.60.1.70840",
   "collectedOn": {
    "first": "2026-11-09",
-   "last": "2026-11-09"
+   "last": "2026-11-10"
   },
   "dataset": "turn_ins",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 2
+  "sources": 3
  },
  "quests": {
+  "9": [
+   {
+    "faction": "Alliance",
+    "level": 15,
+    "money": 0,
+    "race": "NightElf",
+    "rep": [
+     {
+      "change": 25,
+      "factionId": 47,
+      "to": 3467
+     },
+     {
+      "change": 25,
+      "factionId": 54,
+      "to": 3592
+     },
+     {
+      "change": 25,
+      "factionId": 69,
+      "to": 7837
+     },
+     {
+      "change": 100,
+      "factionId": 72,
+      "to": 4555
+     },
+     {
+      "change": 25,
+      "factionId": 469,
+      "to": 3667
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 1050
+   }
+  ],
+  "13": [
+   {
+    "faction": "Alliance",
+    "level": 15,
+    "money": 600,
+    "race": "NightElf",
+    "rep": [
+     {
+      "change": 25,
+      "factionId": 47,
+      "to": 3442
+     },
+     {
+      "change": 25,
+      "factionId": 54,
+      "to": 3567
+     },
+     {
+      "change": 25,
+      "factionId": 69,
+      "to": 7812
+     },
+     {
+      "change": 100,
+      "factionId": 72,
+      "to": 4405
+     },
+     {
+      "change": 25,
+      "factionId": 469,
+      "to": 3642
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 975
+   }
+  ],
   "502": [
    {
     "faction": "Horde",
@@ -839,6 +915,16 @@
     "xp": 2550
    }
   ],
+  "3861": [
+   {
+    "faction": "Alliance",
+    "level": 15,
+    "money": 0,
+    "race": "NightElf",
+    "sources": 1,
+    "xp": 5
+   }
+  ],
   "4021": [
    {
     "faction": "Horde",
@@ -1083,6 +1169,42 @@
     "race": "Skyborne",
     "sources": 1,
     "xp": 2100
+   }
+  ],
+  "92745": [
+   {
+    "faction": "Alliance",
+    "level": 14,
+    "money": 300,
+    "race": "NightElf",
+    "rep": [
+     {
+      "change": 50,
+      "factionId": 72,
+      "to": 4305
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 490
+   }
+  ],
+  "92747": [
+   {
+    "faction": "Alliance",
+    "level": 15,
+    "money": 0,
+    "race": "NightElf",
+    "rep": [
+     {
+      "change": 50,
+      "factionId": 72,
+      "to": 4455
+     }
+    ],
+    "repFrom": "event",
+    "sources": 1,
+    "xp": 800
    }
   ],
   "96604": [
