@@ -23448,13 +23448,13 @@
   "clientBuild": "1.60.1.70862",
   "collectedOn": {
    "first": "2026-11-09",
-   "last": "2026-11-10"
+   "last": "2026-11-11"
   },
   "dataset": "loot",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 4
+  "sources": 5
  },
  "rolls": {
   "encounter:2732|threshold:2": {
@@ -24591,6 +24591,37 @@
    ],
    "sources": 1,
    "windows": 39
+  },
+  "fishing:1456": {
+   "items": {
+    "6289": {
+     "chance": 0.5172,
+     "drops": 15,
+     "quantity": 15
+    },
+    "6291": {
+     "chance": 0.2414,
+     "drops": 7,
+     "quantity": 7
+    },
+    "6308": {
+     "chance": 0.2414,
+     "drops": 7,
+     "quantity": 7
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4143,
+     "mapY": 0.577,
+     "uiMap": 1456,
+     "worldX": -1251.5,
+     "worldY": 84.3
+    }
+   ],
+   "sources": 1,
+   "windows": 29
   },
   "item:16783": {
    "items": {
@@ -28536,6 +28567,27 @@
    ],
    "sources": 2,
    "windows": 2
+  },
+  "npc:12676|spell:8618": {
+   "items": {
+    "4234": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.7189,
+     "mapY": 0.6753,
+     "uiMap": 1440,
+     "worldX": 2077.4,
+     "worldY": -2445.8
+    }
+   ],
+   "sources": 1,
+   "windows": 1
   },
   "npc:12676|spell:8618|group": {
    "items": {

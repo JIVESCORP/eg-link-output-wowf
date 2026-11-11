@@ -448,10 +448,14 @@
     "times": 26
    },
    {
+    "broadcastTextIds": [
+     324283
+    ],
     "sexes": {
      "male": 1
     },
     "sources": 1,
+    "template": "broadcastText",
     "text": "So be it. I only ask that you share any findings with me that may help with our research into the Twilight's Hammer.\r\n\r\nElements be with you, $c.",
     "times": 1
    }
@@ -520,11 +524,15 @@
   ],
   "npc:12920": [
    {
+    "broadcastTextIds": [
+     8969
+    ],
     "sexes": {
      "male": 2
     },
     "sources": 1,
-    "text": "Greetings, $N. I am Doctor Gregory Victor, head trauma surgeon of Horde Trauma.",
+    "template": "broadcastText",
+    "text": "Greetings, $n. I am Doctor Gregory Victor, head trauma surgeon of Horde Trauma.",
     "times": 2
    }
   ],
@@ -645,6 +653,7 @@
    },
    {
     "broadcastTextIds": [
+     3458,
      6602,
      6769
     ],
@@ -701,10 +710,14 @@
   ],
   "npc:15126": [
    {
+    "broadcastTextIds": [
+     10624
+    ],
     "sexes": {
      "male": 2
     },
     "sources": 1,
+    "template": "broadcastText",
     "text": "I am Rutherford Twing, the main supplier for the Defilers posted here at Arathi Basin.  As you improve your standing with us, I will make available to you a fine selection of goods that you might find useful.  Should you find yourself in need of item repair, I also provide those services.",
     "times": 2
    }
@@ -799,6 +812,7 @@
    },
    {
     "broadcastTextIds": [
+     3458,
      6602,
      6769
     ],
@@ -1003,12 +1017,12 @@
      10753
     ],
     "sexes": {
-     "male": 1
+     "male": 2
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "Where would you like to fly to?",
-    "times": 1
+    "times": 2
    }
   ],
   "npc:2391": [
@@ -1065,6 +1079,20 @@
     "sources": 1,
     "template": "broadcastText",
     "text": "You may not be a paladin, but you may yet find solace in the light should you seek it.",
+    "times": 2
+   }
+  ],
+  "npc:248201": [
+   {
+    "broadcastTextIds": [
+     309861
+    ],
+    "sexes": {
+     "female": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Greetings, friend! I have an ample supply of leather and hides, and I know a few techniques I might be willing to share. Interested in doing business?",
     "times": 2
    }
   ],
@@ -1126,6 +1154,48 @@
     "times": 1
    }
   ],
+  "npc:251361": [
+   {
+    "broadcastTextIds": [
+     304010
+    ],
+    "sexes": {
+     "male": 4
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What do you need of me, child of Zephras?",
+    "times": 4
+   }
+  ],
+  "npc:251374": [
+   {
+    "broadcastTextIds": [
+     302815
+    ],
+    "sexes": {
+     "male": 3
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The spirits of the wind may have left us, but the power of the elements is not entirely out of reach for those with the patience to seek them out.\r\n\r\nIf you are initiated in the ways of the shaman, I can help you grasp them.",
+    "times": 3
+   }
+  ],
+  "npc:251487": [
+   {
+    "broadcastTextIds": [
+     304012
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What may I do for you, fellow windshaper?",
+    "times": 1
+   }
+  ],
   "npc:253092": [
    {
     "broadcastTextIds": [
@@ -1146,12 +1216,13 @@
      250597
     ],
     "sexes": {
+     "female": 4,
      "male": 2
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "We've had trouble with shipments going missing across Azeroth. If you find any, I'd appreciate if you could return them to me.",
-    "times": 2
+    "times": 6
    }
   ],
   "npc:256742": [
@@ -1166,6 +1237,20 @@
     "template": "broadcastText",
     "text": "Ah, I am afraid you and I have no business at this time.\r\n\r\nIf you end up fulfilling some contracts with the trade authority, then perhaps we will have something to discuss later.",
     "times": 1
+   }
+  ],
+  "npc:257554": [
+   {
+    "broadcastTextIds": [
+     306593
+    ],
+    "sexes": {
+     "male": 3
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "<The gaze of the ranger standing before you is fixed on the enormous anchor pylon in the distance.>",
+    "times": 3
    }
   ],
   "npc:259118": [
@@ -1222,6 +1307,20 @@
     "sources": 1,
     "template": "broadcastText",
     "text": "What has brought you to the Earthen Ring?",
+    "times": 1
+   }
+  ],
+  "npc:263113": [
+   {
+    "broadcastTextIds": [
+     312713
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "It can get boring up here, you know. I can only annoy that stuffy wretch Halaan so much before even that gets old.",
     "times": 1
    }
   ],
@@ -1340,10 +1439,14 @@
   ],
   "npc:269127": [
    {
+    "broadcastTextIds": [
+     320922
+    ],
     "sexes": {
      "male": 2
     },
     "sources": 1,
+    "template": "broadcastText",
     "text": "You've likely heard that Dalaran is suffering from a magical outbreak, and all of our mages are too preoccupied maintaining the city's wards to effectively contain it.\r\n\r\nI'd do anything to protect my city, $r. Even consorting with the likes of you.",
     "times": 2
    }
@@ -1601,12 +1704,12 @@
      2527
     ],
     "sexes": {
-     "male": 2
+     "male": 3
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "Greetings.  I'm an undead mage trainer, and you're a mage.",
-    "times": 2
+    "times": 3
    }
   ],
   "npc:3084": [
@@ -1766,12 +1869,12 @@
      325825
     ],
     "sexes": {
-     "female": 1
+     "female": 2
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "Mind yourself in the presence of the Warchief, $c. The Kor'kron will suffer no insolence or insult here.",
-    "times": 1
+    "times": 2
    }
   ],
   "npc:3296": [
@@ -1827,39 +1930,39 @@
      4621
     ],
     "sexes": {
-     "female": 8,
+     "female": 11,
      "male": 6
     },
     "sources": 3,
     "template": "broadcastText",
     "text": "Would you rather trust your goods with a goblin?",
-    "times": 14
+    "times": 17
    },
    {
     "broadcastTextIds": [
      4619
     ],
     "sexes": {
-     "female": 6,
+     "female": 9,
      "male": 4
     },
     "sources": 2,
     "template": "broadcastText",
     "text": "I guarantee this bank's security with my own blood, is that good enough for you?",
-    "times": 10
+    "times": 13
    },
    {
     "broadcastTextIds": [
      4617
     ],
     "sexes": {
-     "female": 4,
+     "female": 6,
      "male": 3
     },
     "sources": 2,
     "template": "broadcastText",
     "text": "Besides the Grunts outside, my brothers and I fought at the battle of Hyjal. Any who seek to steal from the bank must face us first.",
-    "times": 7
+    "times": 9
    }
   ],
   "npc:3310": [
@@ -1897,12 +2000,13 @@
      4621
     ],
     "sexes": {
+     "female": 1,
      "male": 2
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "Would you rather trust your goods with a goblin?",
-    "times": 2
+    "times": 3
    },
    {
     "broadcastTextIds": [
@@ -1914,6 +2018,18 @@
     "sources": 1,
     "template": "broadcastText",
     "text": "Besides the Grunts outside, my brothers and I fought at the battle of Hyjal. Any who seek to steal from the bank must face us first.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     4619
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I guarantee this bank's security with my own blood, is that good enough for you?",
     "times": 1
    }
   ],
@@ -2016,12 +2132,13 @@
      8020
     ],
     "sexes": {
+     "female": 1,
      "male": 3
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "You won't learn anything new from me; you know too much already. If you want more training, talk to the tauren Una in the northwestern shops of Thunder Bluff's central plateau. Send her my regards, eh?",
-    "times": 3
+    "times": 4
    }
   ],
   "npc:3368": [
@@ -2096,12 +2213,12 @@
      4792
     ],
     "sexes": {
-     "female": 8
+     "female": 9
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "We have our duties, $c.  Duties to the Horde.",
-    "times": 8
+    "times": 9
    }
   ],
   "npc:3399": [
@@ -2664,10 +2781,14 @@
     "times": 2
    },
    {
+    "broadcastTextIds": [
+     5881
+    ],
     "sexes": {
      "male": 1
     },
     "sources": 1,
+    "template": "broadcastText",
     "text": "Go to inner ring of War Quarter.  Brom Killian there.",
     "times": 1
    },
@@ -2842,6 +2963,7 @@
    },
    {
     "broadcastTextIds": [
+     3458,
      6602,
      6769
     ],
@@ -2930,12 +3052,13 @@
      2825
     ],
     "sexes": {
+     "female": 6,
      "male": 1
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "As the wind on the plains, you are always welcome here.",
-    "times": 1
+    "times": 7
    }
   ],
   "npc:6791": [
@@ -3336,11 +3459,12 @@
   "npc:2055": [
    {
     "sexes": {
-     "female": 1
+     "female": 1,
+     "male": 1
     },
-    "sources": 1,
+    "sources": 2,
     "text": "The Royal Apothecary Society shall heed The Dark Lady's call to uncover the New Plague and drive Arthas and his heathen Scourge Army from the world once and for all.",
-    "times": 1
+    "times": 2
    }
   ],
   "npc:211022": [
@@ -3653,14 +3777,14 @@
   "clientBuild": "1.60.1.70862",
   "collectedOn": {
    "first": "2026-11-09",
-   "last": "2026-11-10"
+   "last": "2026-11-11"
   },
   "dataset": "texts",
   "license": "CC BY 4.0",
   "locale": "enUS",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 4,
+  "sources": 5,
   "withheld": {
    "addon": {
     "books": 0,
@@ -9492,6 +9616,64 @@
     }
    ]
   },
+  "513": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2055": 1
+     },
+     "text": "Apothecary Lydon sent you?  Ah, why didn't you say so!\n\nDespite his gloomy disposition, Apothecary Lydon is one of our most dedicated and skilled members.\n\nThe good chap sends Mudsnout Composite!  I know what our friend in Hillsbrad is up to now.  And I like the way he thinks.  The Dark Lady would be most impressed with the progress he is making toward the new plague.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2055": 1
+     },
+     "text": "Can you not see I am busy, $c?  The Dark Lady insists on a new plague before the Scourge advance from Northrend overwhelms us.  And with the human threat pressing from the south, time becomes my most precious commodity.  This better be important!",
+     "times": 1
+    }
+   ]
+  },
+  "515": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2055": 1
+     },
+     "template": "questCache",
+     "text": "A mudsnout composite?  Absolutely brilliant!  Why didn't I think of that?$b$bLet me contribute my colloid of decay to this devilish brew.$b$bIn order to activate the contaminating agents in this mudsnout mixture, Lydon is going to need a strong troll's blood elixir, as well as some daggerspine scales and torn fin eyes from the southern coast of Hillsbrad.  He'll know what to do once you've gathered him all the reagents.  And my, how anxious I am to hear how his experiment goes!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2055": 1
+     },
+     "template": "questCache",
+     "text": "Bring the Mudsnout Mixture, a Strong Troll's Blood Elixir, 5 Daggerspine Scales and 5 Torn Fin Eyes to Apothecary Lydon in Tarren Mill.",
+     "times": 1
+    }
+   ]
+  },
   "516": {
    "accept": [
     {
@@ -14172,6 +14354,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3995": 1
+     },
+     "text": "Oh how happy these little woodland nymphs shall be! We'll make them feel right at home with this special concoction!",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -14183,6 +14378,19 @@
      },
      "template": "questCache",
      "text": "Witch Doctor Jin'Zil at Malaka'jin wants 5 portions of Stonetalon Sap, 5 Twilight Whiskers, 30 Courser Eyes and a Fey Dragon Scale.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3995": 1
+     },
+     "text": "Look at our poor little elf friends. All caged up with no forest to frolic in!\n\nNow were you able to find me some sap? How about the whiskers from the twilight runners? Don't suppose you have that fey dragon scale on you?\n\nAnd eyes! I'll need so many eyes! You just can't mix up a fierce forest magic brew without a good helping of eyes!",
      "times": 1
     }
    ]
@@ -14618,29 +14826,89 @@
    ]
   },
   "1145": {
-   "complete": [
+   "accept": [
     {
      "sexes": {
-      "male": 1
+      "female": 1
      },
      "sources": 1,
      "speakers": {
-      "npc:4485": 1
+      "npc:3428": 1
+     },
+     "template": "questCache",
+     "text": "Many travelers who've come through the Crossroads helped me gather eggs from the Field of Giants, and many of them have tales of how deadly the creatures are. I've heard enough to consider them insects a much larger threat than my masters first thought.$B$BI need a courier to travel to Orgrimmar to meet Belgrom Rockmaul. It be no simple matter, and someone who would take the task seriously should go.$B$BBelgrom usually be found outside the warriors' guild house.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:4485": 2
      },
      "text": "Ah, a note from Korran. He has been a loyal servant for some time now. I was wondering how his duties were going in the Crossroads.",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3428": 1
+     },
+     "template": "questCache",
+     "text": "Deliver Korran's Sealed Note to Belgrom Rockmaul in Orgrimmar.",
      "times": 1
     }
    ],
    "progress": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:4485": 2
+     },
+     "text": "I envy you, $c. You have the look of someone who's been outside the walls of Orgrimmar for a while.\n\nI myself would travel in the name of the Warchief if Thrall didn't have need of my skills here in the city. But he leads us well, and I trust his judgement--I remain here for as long as he needs me.",
+     "times": 2
+    }
+   ]
+  },
+  "1146": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
      },
      "sources": 1,
      "speakers": {
       "npc:4485": 1
      },
-     "text": "I envy you, $c. You have the look of someone who's been outside the walls of Orgrimmar for a while.\n\nI myself would travel in the name of the Warchief if Thrall didn't have need of my skills here in the city. But he leads us well, and I trust his judgement--I remain here for as long as he needs me.",
+     "template": "questCache",
+     "text": "So, Korran has come to a similar conclusion about these insects--they seem to be a larger threat than we assumed.$B$BA few days ago a hunter returned to me from Thousand Needles nearly dead. He was with a raiding party sent to drive a dwarven excavation team out of the Shimmering Flats. During the attack, more of these insects erupted from a cave in the dig site and nearly killed the party.$B$BThey were led by Moktar Krin, and they've taken refuge on the border of the Shimmering Flats. Bring him this note.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4485": 1
+     },
+     "template": "questCache",
+     "text": "Deliver Belgrom's Sealed Note to Moktar Krin in Thousand Needles.",
      "times": 1
     }
    ]
@@ -14922,28 +15190,148 @@
    "accept": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
+      "npc:3230": 1,
       "npc:4485": 1
      },
      "template": "questCache",
      "text": "A warrior of the Horde, Regthar Deathgate, is recruiting agents for a mission into the land of Desolace.  Speak with him if you wish to volunteer.  He is stationed in the Barrens, in a series of bunkers west of the Crossroads.$B$BAnd sharpen your weapons.  Desolace is a place torn by war.",
+     "times": 2
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3389": 1
+     },
+     "text": "Yes, I am recruiting.  This mission leads into Desolace, against the centaur there.  I will be brief so that you may quickly begin.",
      "times": 1
     }
    ],
    "objectives": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
+      "npc:3230": 1,
       "npc:4485": 1
      },
      "template": "questCache",
      "text": "Speak with Regthar Deathgate.",
+     "times": 2
+    }
+   ]
+  },
+  "1362": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3389": 1
+     },
+     "template": "questCache",
+     "text": "The Kolkar centaur live in Desolace, and their forces have spread into the Barrens.  This is a known fact and we have Horde agents dealing with them here.$B$BBut as long as the centaur are strong in Desolace, they will always pose a threat.  It is time we rid ourselves of that threat.$B$BSpeak with Felgur Twocuts at Ghost Walker Post in Desolace.  He was sent to gather intelligence on the centaur.  He will know how to best deal with the Kolkar of Desolace.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3389": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Felgur Twocuts at Ghost Walker Post in Desolace.",
+     "times": 1
+    }
+   ]
+  },
+  "1431": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5639": 1
+     },
+     "template": "questCache",
+     "text": "Be still, $c, and allow me to share with you something important to our people, but far from obvious.$B$BWe are a proud race, and the war with the humans tried even Thrall's great patience. You see, our Warchief is wise and prudent, and he continues to put his people first. Ultimately, he is a diplomat, and in his time with the humans he learned much of their ways.$B$BIf the tale I've started piques your interest, then find Keldran near the western exit of the city. His hovel is there.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5640": 1
+     },
+     "text": "Putanni, noble $c. I am Keldran, student of magic... and other mystical arts.\n\nThe business Craven sent you here to speak to me about requires a touch more subtlety than you've previously needed, but that does not mean you can not still aid our cause.\n\nPlease, make yourself comfortable, and I shall tell you why the Warchief has need of my aid... and yours.\n\nIt starts with appearances, $N. How the Horde sees itself. How our allies see us. And most importantly, how our enemies see us.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5639": 1
+     },
+     "template": "questCache",
+     "text": "Speak to Keldran in Orgrimmar.",
+     "times": 1
+    }
+   ]
+  },
+  "1432": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5640": 1
+     },
+     "template": "questCache",
+     "text": "As the Alliance progresses deeper and deeper into Kalimdor, incorrect conclusions may be drawn about the Horde making pacts with the Burning Legion. The Warchief cannot allow that to happen. And with his blessing, I am taking control of overseeing them removed.$B$BI have agents in the area of Desolace at the Ghost Walker Post north of the great Kodo Graveyard. Head south of the Charred Vale in the Stonetalon Mountains and you shall come across it. When you arrive, seek out Takata Steelblade.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5640": 1
+     },
+     "template": "questCache",
+     "text": "Speak to Takata Steelblade in Desolace.",
      "times": 1
     }
    ]
@@ -19457,55 +19845,59 @@
    "accept": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:12718": 1
+      "npc:12718": 2
      },
      "template": "questCache",
      "text": "I just picked up this shredder from Ratchet and I was on my way back to the Warsong Lumber Camp, where I am supposed to be on duty. I was given a manual on how to operate the shredder, but on the trip back, a huge gust of wind blew it from my hands. The pages went everywhere, and all I was left with was the cover.$B$BThe pages could be just about anywhere by now, I suppose... but I don't know how to use the shredder without them! Will you find them for me?",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:12718": 1
+      "npc:12718": 2
      },
      "text": "Reading isn't my strong point... but now I'll be able to get back to work! Thanks, $N!",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:12718": 1
+      "npc:12718": 2
      },
      "template": "questCache",
      "text": "Find the 12 missing pages of the Shredder Operating Manual, and put them together to form Chapters 1, 2, and 3. Return the pages to Gurda Ragescar near Splintertree Post.\r\n",
-     "times": 1
+     "times": 2
     }
    ],
    "progress": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:12718": 1
+      "npc:12718": 2
      },
      "text": "I hope you find the pages soon, $N! I really need to get back to work!",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -21054,11 +21446,81 @@
     }
    ]
   },
-  "91900": {
+  "91899": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:256386": 1
+     },
+     "text": "Thank you for your hard work, $N. There has been an uprising in bandits and thieves intercepting trade routes as of late. If you find other crates lying around, please bring them here and we'll handle the rest.\r\n\r\nHere is your payment.",
+     "times": 1
+    }
+   ],
    "progress": [
     {
      "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:256386": 1
+     },
+     "text": "Another delivery! Fantastic. Set it over by the pile and we can discuss your compensation.",
+     "times": 1
+    }
+   ]
+  },
+  "91900": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:256386": 1
+     },
+     "text": "Thank you for your hard work, $N. There has been an uprising in bandits and thieves intercepting trade routes as of late. If you find other crates lying around, please bring them here and we'll handle the rest.\r\n\r\nHere is your payment.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1,
       "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:256386": 2
+     },
+     "text": "Another delivery! Fantastic. Set it over by the pile and we can discuss your compensation.",
+     "times": 2
+    }
+   ]
+  },
+  "91904": {
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:256386": 1
+     },
+     "text": "Thank you for your hard work, $N. There has been an uprising in bandits and thieves intercepting trade routes as of late. If you find other crates lying around, please bring them here and we'll handle the rest.\r\n\r\nHere is your payment.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
      },
      "sources": 1,
      "speakers": {
@@ -21308,6 +21770,255 @@
       "npc:269127": 1
      },
      "text": "Stay your weapon, $r.\r\n\r\nI think you will find that key won't be enough to get past my wards. You didn't truly think we would leave such a vulnerability open at a time like this, did you?",
+     "times": 1
+    }
+   ]
+  },
+  "92461": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "text": "Thank you for your service to Zephras, young $c.\r\n\r\nThe vuldren are typically quite docile, but the animals that call Zephras home can sense when the magic on the winds is out of balance, which can lead to dangerous and unpredictable behavior if left unchecked.",
+     "times": 1
+    }
+   ]
+  },
+  "92462": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 1
+     },
+     "text": "Judging by the amount of bug entrails covering you, this must be quite the infestation.",
+     "times": 1
+    }
+   ]
+  },
+  "92463": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 1
+     },
+     "template": "questCache",
+     "text": "If the forest is as thick with these insects as it sounds, simply killing the workers won't be enough.\r\n\r\nGo deeper into the forest and find the queen. She'll be close to the hive and surrounded by bigger and more aggressive soldiers, so be careful.\r\n\r\nPut her down and return here when it's done. That'll be one less problem to think about around here.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 1
+     },
+     "template": "questCache",
+     "text": "Destroy the Cirrusfly Queen in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92464": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "Ever since our elemental benefactors left us, it seems that we are simply moving from one unrest to another. The problem we face now is that the manifestations of the winds near the standing stones to the northeast are agitated.\r\n\r\nNot truly self-aware like the sentient wind spirits that once lived here, these simple sprites respond in kind to forces, emotions, and intentions of the creatures around them. \r\n\r\nMy apprentice Yala Windwatcher went to observe them. Seek her out and discover what she's learned.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "Speak to Yala Windwatcher in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92466": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251374": 1
+     },
+     "template": "questCache",
+     "text": "While we owe much of our prosperity to the elements of wind, the path we walk requires that we obey the call of all four of the primary elements and undertake a trial for each. Before you begin your first trial in earnest however, you must prove the strength of your resolve.\r\n\r\nTravel to the standing stones to the east. A force of Al'Aketh converts has been spotted there and they must be driven off. Confront the cultists there and bring me one of their signets as proof of your deeds.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251374": 1
+     },
+     "template": "questCache",
+     "text": "Bring a Signet of Akir to Windshaper Boro.",
+     "times": 1
+    }
+   ]
+  },
+  "92474": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263113": 1
+     },
+     "template": "questCache",
+     "text": "Well hello there, $n! Want to play a game?\r\n\r\nAll you've got to do is step up on that ledge... then jump! Use your innate ability to walk on the air to slow your fall and see how far forward you can float.\r\n\r\nThe rules are made up and the points don't matter, but you get bonus points if you can land right in front of Rorian the Dayseeker and startle him! He won't like it but I'll certainly get a good laugh if you can get him all worked up! Hah!",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "text": "How many times do I need to tell Myriaal not to encourage others to make reckless usage of our skyborne gifts!\r\n\r\nThat being said, I suppose that a little bit of practice in the relative safety of the village is... acceptable.\r\n\r\nIn the future I'd simply suggest you to use your ability judiciously. You do not want to exhaust your magic thoughtlessly and then not be able to use it when you truly need it.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263113": 1
+     },
+     "template": "questCache",
+     "text": "Jump from the top of the watchtower in Thendal Grove and use your Walk on Air ability to slow your fall.",
+     "times": 1
+    }
+   ]
+  },
+  "92484": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "While you were away dealing with our vuldren problem, our resident Shaman trainer--Windshaper Boro--left this recall crystal for you. Please examine it, then speak with Boro just over yonder near the center of the village.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251374": 1
+     },
+     "text": "Can you hear it? The whispers of the winds? Doubtful, considering that the spirits stopped speaking with us when they left us those years ago. \r\n\r\nThose among us who would seek audience with the spirits of the four winds once more hone our understanding of the elements and the natural world, dearly hoping to reestablish the dialogue that was so abruptly ended. \r\n\r\nWould you walk this path and master the elements?\r\n\r\nSpeak with me again if you wish to take your next steps and I will train you.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "Examine the Humming Recall Crystal then speak with Windshaper Boro in Thendal Grove.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251374": 1
+     },
+     "text": "Winds guide you, $N.",
+     "times": 1
+    }
+   ]
+  },
+  "92598": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251487": 1
+     },
+     "template": "questCache",
+     "text": "As a Windshaper, you have the ability to use the sacred skysight gifted to us by the elemental spirits. Travel to the standing stones to the northeast of the village. Find the elemental convergence there and use your gift.\r\n\r\nYou'll find that you may draw upon the skysight anywhere, but its boon is much more powerful if you do so in the presence of an elemental convergence. You may at times receive other bits of wisdom from the spirits that are drawn to such places of power, as well.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251487": 1
+     },
+     "template": "questCache",
+     "text": "Use your Skysight racial ability at the Elemental Convergence in Thendal Grove.",
      "times": 1
     }
    ]
@@ -21949,6 +22660,36 @@
     }
    ]
   },
+  "93552": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251363": 1
+     },
+     "template": "questCache",
+     "text": "Windstones are a critical resource on Zephras Isle as they contain the raw, concentrated energy of the winds themselves. The wind elementals who used to live here on Zephras with us vanished a number of years ago, and since then, the magic that sustains this island is slowly fading. Not without limitations, the windstones are still a reliable energy source, and are incredibly valuable to us.\r\n\r\nYou'll find raw windstones scattered around the grove. Think you can help me harvest them?",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251363": 1
+     },
+     "template": "questCache",
+     "text": "Collect 15 Windstone Clusters from Raw Windstones in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
   "93680": {
    "complete": [
     {
@@ -22003,6 +22744,49 @@
      },
      "template": "questCache",
      "text": "Acquire the items requested by the customer and deliver them to the location marked on your map. This writ must be in your possession to complete the transaction.",
+     "times": 1
+    }
+   ]
+  },
+  "94414": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257554": 1
+     },
+     "template": "questCache",
+     "text": "Greetings, young $n. I oftentimes come here to look upon the ancient anchor pylon. Gifts from the spirits of the winds, they bind and sustain our island. Of late however, their magic has grown unstable and inconsistent.\r\n\r\nThey suffer no distress I can see. Their splendor has not changed.\r\n\r\nIf you'd like, I can lend you my gift to look upon them yourself.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257554": 1
+     },
+     "text": "Thank you for taking a moment to share this with me. I will continue to watch over the grove, and ponder on the state of our homeland.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257554": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Halaan Hawk-Eye and borrow his gift to view the anchor pylon in the distance.",
      "times": 1
     }
    ]
@@ -24534,55 +25318,59 @@
    "accept": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "none": 1
+      "none": 2
      },
      "template": "questCache",
      "text": "<A torn shipping label can be found on the side of the now fully stocked crate. Though the intended recipient is torn off, details of its origin still remain.\r\n\r\n\"Return damaged shipments or empty crates to the Durotar Supply and Logistics trade outpost, now conveniently located due west of the Crossroads in the Barrens. Your time is valuable and we will compensate you for your efforts!\"\r\n\r\nBeside the text is a crudely drawn map of the area near the aforementioned destination.>",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:256386": 1
+      "npc:256386": 2
      },
      "text": "You found the right place, and you're speaking with the right person! I can jot you down as one of our new associates. No paperwork necessary on your part, I can't be bothered with more of that.\r\n\r\nAll we ask of you is to assist in dealing with compromised deliveries you find during your travels. Doing so will earn you Merchant's Favor, which you can use to purchase goods and services right here. Here's a bit to get you settled in!\r\n\r\nDo you happen to have the crate this label came with?",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "none": 1
+      "none": 2
      },
      "template": "questCache",
      "text": "Deliver the Shipping Label to someone at the Durotar Supply and Logistics trade hub near the Crossroads in the Barrens.",
-     "times": 1
+     "times": 2
     }
    ],
    "progress": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:256386": 1
+      "npc:256386": 2
      },
      "text": "Good day, traveler. How can I assist?",
-     "times": 1
+     "times": 2
     }
    ]
   },

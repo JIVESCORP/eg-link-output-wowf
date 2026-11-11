@@ -4,13 +4,13 @@
   "clientBuild": "1.60.1.70862",
   "collectedOn": {
    "first": "2026-11-09",
-   "last": "2026-11-10"
+   "last": "2026-11-11"
   },
   "dataset": "trainers",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 4
+  "sources": 5
  },
  "trainers": {
   "377": {
@@ -14457,7 +14457,7 @@
    "trainerType": 0
   },
   "3047": {
-   "lastSeen": "2026-11-08",
+   "lastSeen": "2026-11-10",
    "name": "Archmage Shymm",
    "positions": [
     {
@@ -15003,7 +15003,7 @@
       "6": 8100
      },
      "icon": 135991,
-     "level": 34,
+     "level": 0,
      "name": "Mage Armor",
      "rankText": "Rank 1",
      "skillRank": 0,
@@ -15018,7 +15018,7 @@
       "6": 5580
      },
      "icon": 132797,
-     "level": 30,
+     "level": 0,
      "name": "Conjure Water",
      "rankText": "Rank 4",
      "skillRank": 0,
@@ -15033,7 +15033,7 @@
       "6": 7200
      },
      "icon": 133950,
-     "level": 32,
+     "level": 0,
      "name": "Conjure Food",
      "rankText": "Rank 4",
      "skillRank": 0,
@@ -15117,7 +15117,7 @@
       "6": 5580
      },
      "icon": 135843,
-     "level": 30,
+     "level": 0,
      "name": "Ice Armor",
      "rankText": "Rank 1",
      "skillRank": 0,
@@ -15252,7 +15252,7 @@
       "6": 5580
      },
      "icon": 135807,
-     "level": 30,
+     "level": 0,
      "name": "Fire Blast",
      "rankText": "Rank 4",
      "skillRank": 0,
@@ -15282,7 +15282,7 @@
       "6": 7200
      },
      "icon": 136096,
-     "level": 32,
+     "level": 0,
      "name": "Arcane Missiles",
      "rankText": "Rank 4",
      "skillRank": 0,
@@ -15312,7 +15312,7 @@
       "6": 7200
      },
      "icon": 135826,
-     "level": 32,
+     "level": 0,
      "name": "Flamestrike",
      "rankText": "Rank 3",
      "skillRank": 0,
@@ -15372,7 +15372,7 @@
       "6": 5580
      },
      "icon": 136116,
-     "level": 30,
+     "level": 0,
      "name": "Arcane Explosion",
      "rankText": "Rank 3",
      "skillRank": 0,
@@ -15447,7 +15447,7 @@
       "6": 3870
      },
      "icon": 136006,
-     "level": 24,
+     "level": 0,
      "name": "Dampen Magic",
      "rankText": "Rank 2",
      "skillRank": 0,
@@ -15477,7 +15477,7 @@
       "6": 5580
      },
      "icon": 135907,
-     "level": 30,
+     "level": 0,
      "name": "Amplify Magic",
      "rankText": "Rank 2",
      "skillRank": 0,
@@ -16623,7 +16623,7 @@
       "6": 5580
      },
      "icon": 135735,
-     "level": 30,
+     "level": 0,
      "name": "Arcane Blast",
      "rankText": "Rank 2",
      "skillRank": 0,
@@ -28025,7 +28025,7 @@
    "trainerType": 2
   },
   "3365": {
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "name": "Karolek",
    "positions": [
     {
@@ -28040,475 +28040,512 @@
    "services": {
     "2108": {
      "costs": {
-      "5": 10
+      "5": 10,
+      "6": 9
      },
      "icon": 133611,
      "level": 1,
      "name": "Apprentice Leatherworking",
      "profession": true,
      "skillRank": 0,
-     "sources": 2,
+     "sources": 3,
      "spellId": 2108
     },
     "2153": {
      "category": "Leather Legguards",
      "costs": {
-      "5": 50
+      "5": 50,
+      "6": 45
      },
      "icon": 134706,
      "level": 0,
      "name": "Handstitched Leather Pants",
      "skill": "Leatherworking",
      "skillRank": 15,
-     "sources": 2,
+     "sources": 3,
      "spellId": 2153
     },
     "2159": {
      "category": "Cloaks",
      "costs": {
-      "5": 250
+      "5": 250,
+      "6": 225
      },
      "icon": 133762,
      "level": 0,
      "name": "Fine Leather Cloak",
      "skill": "Leatherworking",
      "skillRank": 50,
-     "sources": 2,
+     "sources": 3,
      "spellId": 2159
     },
     "2160": {
      "category": "Leather Chestguards",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132724,
      "level": 0,
      "name": "Embossed Leather Vest",
      "skill": "Leatherworking",
      "skillRank": 35,
-     "sources": 2,
+     "sources": 3,
      "spellId": 2160
     },
     "2161": {
      "category": "Leather Boots",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132539,
      "level": 0,
      "name": "Embossed Leather Boots",
      "skill": "Leatherworking",
      "skillRank": 50,
-     "sources": 2,
+     "sources": 3,
      "spellId": 2161
     },
     "2162": {
      "category": "Cloaks",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 133150,
      "level": 0,
      "name": "Embossed Leather Cloak",
      "skill": "Leatherworking",
      "skillRank": 40,
-     "sources": 2,
+     "sources": 3,
      "spellId": 2162
     },
     "2165": {
      "category": "Armor Kits",
      "costs": {
-      "5": 250
+      "5": 250,
+      "6": 225
      },
      "icon": 133609,
      "level": 0,
      "name": "Medium Armor Kit",
      "skill": "Leatherworking",
      "skillRank": 75,
-     "sources": 2,
+     "sources": 3,
      "spellId": 2165
     },
     "2166": {
      "category": "Leather Chestguards",
      "costs": {
-      "5": 450
+      "5": 450,
+      "6": 405
      },
      "icon": 132725,
      "level": 0,
      "name": "Toughened Leather Armor",
      "skill": "Leatherworking",
      "skillRank": 95,
-     "sources": 2,
+     "sources": 3,
      "spellId": 2166
     },
     "2167": {
      "category": "Leather Boots",
      "costs": {
-      "5": 350
+      "5": 350,
+      "6": 315
      },
      "icon": 132539,
      "level": 0,
      "name": "Gray Leather Boots",
      "skill": "Leatherworking",
      "skillRank": 75,
-     "sources": 2,
+     "sources": 3,
      "spellId": 2167
     },
     "2168": {
      "category": "Cloaks",
      "costs": {
-      "5": 350
+      "5": 350,
+      "6": 315
      },
      "icon": 133762,
      "level": 0,
      "name": "Dark Leather Cloak",
      "skill": "Leatherworking",
      "skillRank": 85,
-     "sources": 2,
+     "sources": 3,
      "spellId": 2168
     },
     "3104": {
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 133611,
      "level": 10,
      "name": "Journeyman Leatherworking",
      "skill": "Leatherworking",
      "skillRank": 50,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3104,
      "step": true
     },
     "3753": {
      "category": "Leather Belts",
      "costs": {
-      "5": 75
+      "5": 75,
+      "6": 67
      },
      "icon": 132493,
      "level": 0,
      "name": "Handstitched Leather Belt",
      "skill": "Leatherworking",
      "skillRank": 25,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3753
     },
     "3756": {
      "category": "Leather Gauntlets",
      "costs": {
-      "5": 150
+      "5": 150,
+      "6": 135
      },
      "icon": 132939,
      "level": 0,
      "name": "Embossed Leather Gloves",
      "skill": "Leatherworking",
      "skillRank": 40,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3756
     },
     "3759": {
      "category": "Leather Legguards",
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 134582,
      "level": 0,
      "name": "Embossed Leather Pants",
      "skill": "Leatherworking",
      "skillRank": 50,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3759
     },
     "3760": {
      "category": "Cloaks",
      "costs": {
-      "5": 600
+      "5": 600,
+      "6": 540
      },
      "icon": 133759,
      "level": 0,
      "name": "Hillman's Cloak",
      "skill": "Leatherworking",
      "skillRank": 125,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3760
     },
     "3761": {
      "category": "Leather Chestguards",
      "costs": {
-      "5": 350
+      "5": 350,
+      "6": 315
      },
      "icon": 132724,
      "level": 0,
      "name": "Fine Leather Tunic",
      "skill": "Leatherworking",
      "skillRank": 60,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3761
     },
     "3763": {
      "category": "Leather Belts",
      "costs": {
-      "5": 300
+      "5": 300,
+      "6": 270
      },
      "icon": 132493,
      "level": 0,
      "name": "Fine Leather Belt",
      "skill": "Leatherworking",
      "skillRank": 55,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3763
     },
     "3764": {
      "category": "Leather Gauntlets",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132939,
      "level": 0,
      "name": "Hillman's Leather Gloves",
      "skill": "Leatherworking",
      "skillRank": 120,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3764
     },
     "3766": {
      "category": "Leather Belts",
      "costs": {
-      "5": 400
+      "5": 400,
+      "6": 360
      },
      "icon": 132492,
      "level": 0,
      "name": "Dark Leather Belt",
      "skill": "Leatherworking",
      "skillRank": 100,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3766
     },
     "3768": {
      "category": "Leather Pauldrons",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 135039,
      "level": 0,
      "name": "Hillman's Shoulders",
      "skill": "Leatherworking",
      "skillRank": 105,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3768
     },
     "3770": {
      "category": "Leather Gauntlets",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132958,
      "level": 0,
      "name": "Toughened Leather Gloves",
      "skill": "Leatherworking",
      "skillRank": 110,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3770
     },
     "3780": {
      "category": "Armor Kits",
      "costs": {
-      "5": 750
+      "5": 750,
+      "6": 675
      },
      "icon": 133610,
      "level": 0,
      "name": "Heavy Armor Kit",
      "skill": "Leatherworking",
      "skillRank": 125,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3780
     },
     "3816": {
      "category": "Reagents",
      "costs": {
-      "5": 50
+      "5": 50,
+      "6": 45
      },
      "icon": 134366,
      "level": 0,
      "name": "Cured Light Hide",
      "skill": "Leatherworking",
      "skillRank": 30,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3816
     },
     "3817": {
      "category": "Reagents",
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 134354,
      "level": 0,
      "name": "Cured Medium Hide",
      "skill": "Leatherworking",
      "skillRank": 75,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3817
     },
     "3818": {
      "category": "Reagents",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 134367,
      "level": 0,
      "name": "Cured Heavy Hide",
      "skill": "Leatherworking",
      "skillRank": 125,
-     "sources": 2,
+     "sources": 3,
      "spellId": 3818
     },
     "7135": {
      "category": "Leather Legguards",
      "costs": {
-      "5": 400
+      "5": 400,
+      "6": 360
      },
      "icon": 134589,
      "level": 0,
      "name": "Dark Leather Pants",
      "skill": "Leatherworking",
      "skillRank": 90,
-     "sources": 2,
+     "sources": 3,
      "spellId": 7135
     },
     "9060": {
      "category": "Quivers",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 134401,
      "level": 0,
      "name": "Light Leather Quiver",
      "skill": "Leatherworking",
      "skillRank": 25,
-     "sources": 2,
+     "sources": 3,
      "spellId": 9060
     },
     "9062": {
      "category": "Ammo Pouches",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 133581,
      "level": 0,
      "name": "Small Leather Ammo Pouch",
      "skill": "Leatherworking",
      "skillRank": 25,
-     "sources": 2,
+     "sources": 3,
      "spellId": 9062
     },
     "9065": {
      "category": "Leather Bracers",
      "costs": {
-      "5": 150
+      "5": 150,
+      "6": 135
      },
      "icon": 132603,
      "level": 0,
      "name": "Light Leather Bracers",
      "skill": "Leatherworking",
      "skillRank": 45,
-     "sources": 2,
+     "sources": 3,
      "spellId": 9065
     },
     "9068": {
      "category": "Leather Legguards",
      "costs": {
-      "5": 400
+      "5": 400,
+      "6": 360
      },
      "icon": 134582,
      "level": 0,
      "name": "Light Leather Pants",
      "skill": "Leatherworking",
      "skillRank": 70,
-     "sources": 2,
+     "sources": 3,
      "spellId": 9068
     },
     "9074": {
      "category": "Leather Gauntlets",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132939,
      "level": 0,
      "name": "Nimble Leather Gloves",
      "skill": "Leatherworking",
      "skillRank": 95,
-     "sources": 2,
+     "sources": 3,
      "spellId": 9074
     },
     "9145": {
      "category": "Leather Gauntlets",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132939,
      "level": 0,
      "name": "Fletcher's Gloves",
      "skill": "Leatherworking",
      "skillRank": 100,
-     "sources": 2,
+     "sources": 3,
      "spellId": 9145
     },
     "9193": {
      "category": "Quivers",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 134402,
      "level": 0,
      "name": "Heavy Quiver",
      "skill": "Leatherworking",
      "skillRank": 125,
-     "sources": 2,
+     "sources": 3,
      "spellId": 9193
     },
     "9194": {
      "category": "Ammo Pouches",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 133634,
      "level": 0,
      "name": "Heavy Leather Ammo Pouch",
      "skill": "Leatherworking",
      "skillRank": 125,
-     "sources": 2,
+     "sources": 3,
      "spellId": 9194
     },
     "20648": {
      "category": "Reagents",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 134254,
      "level": 0,
      "name": "Medium Leather",
      "skill": "Leatherworking",
      "skillRank": 75,
-     "sources": 2,
+     "sources": 3,
      "spellId": 20648
     },
     "20649": {
      "category": "Reagents",
      "costs": {
-      "5": 1000
+      "5": 1000,
+      "6": 900
      },
      "icon": 134256,
      "level": 0,
      "name": "Heavy Leather",
      "skill": "Leatherworking",
      "skillRank": 125,
-     "sources": 2,
+     "sources": 3,
      "spellId": 20649
     },
     "1229432": {
      "category": "Camping",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 134250,
      "level": 0,
@@ -28516,154 +28553,165 @@
      "rankText": "Tier 1",
      "skill": "Leatherworking",
      "skillRank": 20,
-     "sources": 2,
+     "sources": 3,
      "spellId": 1229432
     },
     "1255075": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 132515,
      "level": 0,
      "name": "Mender's Leather Belt",
      "skill": "Leatherworking",
      "skillRank": 150,
-     "sources": 2,
+     "sources": 3,
      "spellId": 1255075
     },
     "1255076": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 236903,
      "level": 0,
      "name": "Skycaller's Leather Belt",
      "skill": "Leatherworking",
      "skillRank": 150,
-     "sources": 2,
+     "sources": 3,
      "spellId": 1255076
     },
     "1255077": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 236895,
      "level": 0,
      "name": "Skirmisher's Leather Belt",
      "skill": "Leatherworking",
      "skillRank": 150,
-     "sources": 2,
+     "sources": 3,
      "spellId": 1255077
     },
     "1255078": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 132495,
      "level": 0,
      "name": "Warden's Leather Belt",
      "skill": "Leatherworking",
      "skillRank": 150,
-     "sources": 2,
+     "sources": 3,
      "spellId": 1255078
     },
     "1255079": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 132514,
      "level": 0,
      "name": "Stalker's Leather Belt",
      "skill": "Leatherworking",
      "skillRank": 150,
-     "sources": 2,
+     "sources": 3,
      "spellId": 1255079
     },
     "1255080": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 236896,
      "level": 0,
      "name": "Skulker's Leather Belt",
      "skill": "Leatherworking",
      "skillRank": 150,
-     "sources": 2,
+     "sources": 3,
      "spellId": 1255080
     },
     "1255081": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 236918,
      "level": 0,
      "name": "Prowler's Leather Belt",
      "skill": "Leatherworking",
      "skillRank": 150,
-     "sources": 2,
+     "sources": 3,
      "spellId": 1255081
     },
     "1255143": {
      "category": "Leather Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132560,
      "level": 0,
      "name": "Moonglow Boots",
      "skill": "Leatherworking",
      "skillRank": 35,
-     "sources": 2,
+     "sources": 3,
      "spellId": 1255143
     },
     "1255144": {
      "category": "Leather Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132571,
      "level": 0,
      "name": "Murloc Scale Shoes",
      "skill": "Leatherworking",
      "skillRank": 35,
-     "sources": 2,
+     "sources": 3,
      "spellId": 1255144
     },
     "1255145": {
      "category": "Leather Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132539,
      "level": 0,
      "name": "Dark Leather Boots",
      "skill": "Leatherworking",
      "skillRank": 35,
-     "sources": 2,
+     "sources": 3,
      "spellId": 1255145
     },
     "1255146": {
      "category": "Leather Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 321409,
      "level": 0,
      "name": "Black Whelp Slippers",
      "skill": "Leatherworking",
      "skillRank": 35,
-     "sources": 2,
+     "sources": 3,
      "spellId": 1255146
     }
    },
-   "sources": 2,
+   "sources": 3,
    "tradeskill": true,
    "trainerType": 2
   },
@@ -46062,6 +46110,75 @@
      "skillRank": 0,
      "sources": 1,
      "spellId": 1325256
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
+  "251374": {
+   "lastSeen": "2026-11-10",
+   "name": "Windshaper Boro",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.4275,
+     "mapY": 0.2356,
+     "uiMap": 2521,
+     "worldX": 4082.7,
+     "worldY": 1853.3
+    }
+   ],
+   "services": {
+    "332": {
+     "abilities": [
+      "Healing Wave (Rank 1)"
+     ],
+     "costs": {
+      "5": 100
+     },
+     "icon": 136052,
+     "level": 6,
+     "name": "Healing Wave",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 332
+    },
+    "2484": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 136102,
+     "level": 6,
+     "name": "Earthbind Totem",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2484
+    },
+    "8017": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 136086,
+     "level": 1,
+     "name": "Rockbiter Weapon",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8017
+    },
+    "8042": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 136026,
+     "level": 4,
+     "name": "Earth Shock",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8042
     }
    },
    "sources": 1,
