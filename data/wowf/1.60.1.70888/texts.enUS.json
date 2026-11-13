@@ -1161,6 +1161,35 @@
     "times": 2
    }
   ],
+  "npc:11177": [
+   {
+    "broadcastTextIds": [
+     6502,
+     325026
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What do you want?",
+    "times": 1
+   }
+  ],
+  "npc:11178": [
+   {
+    "broadcastTextIds": [
+     6500
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Hail, $c!",
+    "times": 1
+   }
+  ],
   "npc:11317": [
    {
     "broadcastTextIds": [
@@ -1201,6 +1230,20 @@
     "template": "broadcastText",
     "text": "I should find some hired help; I don't like sitting here all day selling fish supplies. I'd much rather go fishing, and then sell supplies.",
     "times": 3
+   }
+  ],
+  "npc:12136": [
+   {
+    "broadcastTextIds": [
+     7376
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "$g Hey there cutie, you looking for a ride to Grom'gol? I hear it gets mighty steamy down in those jungles, maybe I could join you for a short vacation, show you a real jungle cat. : Come, take a trip to the wonderful, gorgeous, tropical jungles of Stranglethorn. That's right, you too can be spending your time sunbathing by the crystal blue waters while I stand here in this unbearable heat with nothing to look at but my brother Frezza all day! Enjoy your trip!;",
+    "times": 1
    }
   ],
   "npc:12137": [
@@ -1265,11 +1308,25 @@
      5800
     ],
     "sexes": {
-     "male": 1
+     "male": 2
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "There is nothing more that I can teach - now get out! And don't even think of approaching Saru, for one as unworthy as you he will use your blood to temper his steel.",
+    "times": 2
+   }
+  ],
+  "npc:1387": [
+   {
+    "broadcastTextIds": [
+     10753
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Where would you like to fly to?",
     "times": 1
    }
   ],
@@ -1437,6 +1494,20 @@
     "times": 1
    }
   ],
+  "npc:16227": [
+   {
+    "broadcastTextIds": [
+     10753
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Where would you like to fly to?",
+    "times": 1
+   }
+  ],
   "npc:214529": [
    {
     "broadcastTextIds": [
@@ -1549,18 +1620,47 @@
     "times": 2
    }
   ],
+  "npc:2496": [
+   {
+    "broadcastTextIds": [
+     11154
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Welcome to Booty Bay, partner.  I hope your stay in my town is enjoyable and uneventful - emphasis on the latter.  We've got plenty of drink if you're thirsty, and plenty of bouncers if you're antsy.$B$BNow then... what can this humble servant of the Steamwheedle Cartel do for you?  Better still - what can you do for me, eh?",
+    "times": 1
+   }
+  ],
   "npc:251361": [
    {
     "broadcastTextIds": [
      304010
     ],
     "sexes": {
+     "female": 1,
      "male": 2
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "What do you need of me, child of Zephras?",
-    "times": 2
+    "times": 3
+   }
+  ],
+  "npc:251362": [
+   {
+    "broadcastTextIds": [
+     299873
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Hello, $c.",
+    "times": 1
    }
   ],
   "npc:251374": [
@@ -1569,12 +1669,12 @@
      302815
     ],
     "sexes": {
-     "male": 2
+     "male": 4
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "The spirits of the wind may have left us, but the power of the elements is not entirely out of reach for those with the patience to seek them out.\r\n\r\nIf you are initiated in the ways of the shaman, I can help you grasp them.",
-    "times": 2
+    "times": 4
    }
   ],
   "npc:251487": [
@@ -1591,17 +1691,144 @@
     "times": 1
    }
   ],
+  "npc:251523": [
+   {
+    "broadcastTextIds": [
+     300678
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "<Constable Aonda wears an intense look on her face, clearly deep in thought.>",
+    "times": 2
+   }
+  ],
   "npc:2519": [
    {
     "broadcastTextIds": [
      311861
     ],
     "sexes": {
-     "female": 2
+     "female": 2,
+     "male": 2
+    },
+    "sources": 2,
+    "template": "broadcastText",
+    "text": "What can these old bones do for you, $c? Perhaps you would like to hear of a troll legend?",
+    "times": 4
+   }
+  ],
+  "npc:251902": [
+   {
+    "broadcastTextIds": [
+     300663
+    ],
+    "sexes": {
+     "male": 4
     },
     "sources": 1,
     "template": "broadcastText",
-    "text": "What can these old bones do for you, $c? Perhaps you would like to hear of a troll legend?",
+    "text": "Greetings, child. I am Illaya Amberwind and I am the Elder Windshaper here on Zephras Isle. It's always nice to meet young new faces that make their way down from the grove.\r\n\r\nDon't let this old shaman hold you up, no doubt you've got many adventures to see to. Do feel free to stop by later if you'd like.",
+    "times": 4
+   },
+   {
+    "broadcastTextIds": [
+     300522
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Alas, I have prattled on long enough. Seek out my apprentice Ayessa Dawnsinger in the port of Valanaar if you find yourself out that way. She still hears the song--if only faintly. I am old and much of my power has left me. Ayessa represents the future of our people and the path we must now walk to survive. It's up to her and young skyborne such as yourself to carry the hopes for our people forward.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     300520
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "In all of our years dealing with the wind spirits, at no point did they speak of the Windlord as a figure of reverence. They acknowledged the existence of a being named Al'Akir, but they avoided invoking his name, almost as if they feared him. \r\n\r\nEven if this Al'Akir is an all-powerful \"Windlord\" or ruler of the wind elementals, my centuries of communion with the spirits has convinced me that at the very least he is not universally loved amongst the denizens of Skywall. I fear that attempting to treat with Al'Akir could merely hasten our doom.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     300518
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Many disagree on this point. I believe that simple communication is the key. The songs of the wind rang so clearly to us when the spirits were still here. Since they left, it's grown quiet and our power as windshapers has weakened. \r\n\r\nHowever, there are those of us who can still hear something. A hushed tone. Fragments of a melody. Those that can still hear and see into the elemental planes must grow in strength. I believe that is the key to our salvation.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     300519
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "The Cult? They are zealots and killers. They believe that we are being punished for some unspecific sin. The reality is that those that lead them are opportunists leftover from a dubious order of so-called \"Priests\" of Al'Akir, the Windlord. \r\n\r\nThey now find themselves in a position to weaponize the fear of our people to consolidate their own power... and they have been quick to do so.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     300516
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Where to begin? Our home is failing. The wards have fallen and the three provinces have begun to drift apart. There was a time not long ago when the spires of Shen'dramar were visible from the western watchtower. No longer. The anchor pylons are weakening, and if the chains finally break...",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     300517
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Why is this happening? Put simply, the spirits of the wind just... vanished. They were there one day, and they were gone the next. I can't quite describe the feeling that we windshapers felt when it happened. It was as if a great silence fell over all of us and then... a profound absence.\r\n\r\nThe petty wraiths you've likely encountered out there are just shades of the glory of the true spirits of wind. Non-sentient, aimless, and a far cry from the kindly spirits we lived in harmony alongside for thousands of years.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     300521
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "You must remember that while this realm has been our home for millennia, we will always be somewhat alien to this place. We are not in the terrestrial world that birthed our people. We are in the realm of Skywall, a part of the elemental plane.\r\n\r\nWe arrived here as the guests of spirits with whom we found common cause in ages past. Now that we Shen'dorei find ourselves bereft of their presence--and potentially--their protection, there's no telling how the other denizens of this plane may perceive us.",
+    "times": 1
+   }
+  ],
+  "npc:251905": [
+   {
+    "broadcastTextIds": [
+     300662
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "If you need training as a cook, I have a few tips and tricks I could pass on! Ho ho! Throw on an apron and let's get started!",
     "times": 2
    }
   ],
@@ -1661,6 +1888,20 @@
     "times": 7
    }
   ],
+  "npc:254089": [
+   {
+    "broadcastTextIds": [
+     303612
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Welcome to the Calmbreeze Inn, traveler. Would you like some refreshment?",
+    "times": 2
+   }
+  ],
   "npc:256390": [
    {
     "broadcastTextIds": [
@@ -1673,6 +1914,122 @@
     "template": "broadcastText",
     "text": "We've had trouble with shipments going missing across Azeroth. If you find any, I'd appreciate if you could return them to me.",
     "times": 2
+   }
+  ],
+  "npc:256930": [
+   {
+    "broadcastTextIds": [
+     305512
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Desperation? Hunger? I'm not exactly here doing this because I like robbing and murdering. I lost my home, had nowhere to go, and I don't much care to shave my head and worship some imaginary wind god, so I became a bandit. The rest is obvious.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     305508
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Killed a peacekeeper and stole some windstones.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     305516
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Largely, yes. The thing we all have in common is that we have nowhere else to go and that we prefer thieving over enslaving ourselves to some insane cult.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     305514
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Most of my outfit did. Displaced from the ground falling out from under our feet. Some came from other islands entirely. I came from the city of Shen'dramar, on the big island. Well, what used to be the big island, I suppose.\r\n\r\nMy family and I managed to get on one of the last skycutters out of there before the entire island broke apart. We thought that Zephras would save us. Well, it didn't. They are all long dead and now I'm here, awaiting execution.",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     305506
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "What are you looking at?",
+    "times": 1
+   },
+   {
+    "broadcastTextIds": [
+     305510
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Why bother denying it, the constable already passed her judgement. No point lying.",
+    "times": 1
+   }
+  ],
+  "npc:257018": [
+   {
+    "broadcastTextIds": [
+     306273
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I hope that your interruption is for a good cause. I was in the middle of some important work.",
+    "times": 1
+   }
+  ],
+  "npc:257019": [
+   {
+    "broadcastTextIds": [
+     306273
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I hope that your interruption is for a good cause. I was in the middle of some important work.",
+    "times": 1
+   }
+  ],
+  "npc:257021": [
+   {
+    "broadcastTextIds": [
+     306278
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Winds tidings. What can I help you with?",
+    "times": 1
    }
   ],
   "npc:260558": [
@@ -1715,6 +2072,20 @@
     "template": "broadcastText",
     "text": "Ain't nothing ever gonna compare to the smell of freshly discharged gunpowder, friend.",
     "times": 1
+   }
+  ],
+  "npc:263664": [
+   {
+    "broadcastTextIds": [
+     313486
+    ],
+    "sexes": {
+     "male": 5
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Greetings, traveler.",
+    "times": 5
    }
   ],
   "npc:264074": [
@@ -1779,6 +2150,34 @@
     "template": "broadcastText",
     "text": "Greetings, $c.\r\n\r\nI can show you how to weave magic about yourself to change the appearance of your equipment, if you so desire. Do you wish to utilize my services?",
     "times": 3
+   }
+  ],
+  "npc:2834": [
+   {
+    "broadcastTextIds": [
+     9210
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Your skill exceeds mine, though  I've heard that Old Man Heming in Booty Bay has copies of \"The Bass and You\".  That is sure to help you increase your skill.",
+    "times": 1
+   }
+  ],
+  "npc:2858": [
+   {
+    "broadcastTextIds": [
+     8095
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "How may I be of service?",
+    "times": 2
    }
   ],
   "npc:295": [
@@ -2027,6 +2426,20 @@
     "times": 1
    }
   ],
+  "npc:3318": [
+   {
+    "broadcastTextIds": [
+     4621
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Would you rather trust your goods with a goblin?",
+    "times": 1
+   }
+  ],
   "npc:332": [
    {
     "broadcastTextIds": [
@@ -2047,23 +2460,37 @@
      4617
     ],
     "sexes": {
-     "female": 1
+     "female": 1,
+     "male": 1
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "Besides the Grunts outside, my brothers and I fought at the battle of Hyjal. Any who seek to steal from the bank must face us first.",
-    "times": 1
+    "times": 2
    },
    {
     "broadcastTextIds": [
      4619
     ],
     "sexes": {
-     "female": 1
+     "female": 1,
+     "male": 1
+    },
+    "sources": 2,
+    "template": "broadcastText",
+    "text": "I guarantee this bank's security with my own blood, is that good enough for you?",
+    "times": 2
+   },
+   {
+    "broadcastTextIds": [
+     4621
+    ],
+    "sexes": {
+     "male": 1
     },
     "sources": 1,
     "template": "broadcastText",
-    "text": "I guarantee this bank's security with my own blood, is that good enough for you?",
+    "text": "Would you rather trust your goods with a goblin?",
     "times": 1
    }
   ],
@@ -2073,12 +2500,12 @@
      3944
     ],
     "sexes": {
-     "male": 1
+     "male": 4
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "Welcome to my forge, Blacksmith. Let me share with you a little secret. No one, no one in the world can you trust. Not men, not women, not beasts ... this you can trust, Steel.",
-    "times": 1
+    "times": 4
    }
   ],
   "npc:3365": [
@@ -2178,6 +2605,7 @@
   "npc:3537": [
    {
     "broadcastTextIds": [
+     6502,
      325026
     ],
     "sexes": {
@@ -2195,12 +2623,12 @@
      8111
     ],
     "sexes": {
-     "male": 6
+     "male": 10
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "My wind riders are trained to fly quickly through the hot Barrens air.",
-    "times": 6
+    "times": 10
    }
   ],
   "npc:3934": [
@@ -2233,11 +2661,11 @@
    },
    {
     "sexes": {
-     "male": 1
+     "male": 3
     },
     "sources": 1,
     "text": "Be careful where you put that foot of yours, mister. We're not all blessed with the lofty height of a skyborne.",
-    "times": 1
+    "times": 3
    }
   ],
   "npc:4488": [
@@ -2332,6 +2760,20 @@
     "template": "broadcastText",
     "text": "The warrior's role is one of protection.  Just as we protect our compatriots in battle, we must also protect the interests of the Forsaken.",
     "times": 1
+   }
+  ],
+  "npc:4631": [
+   {
+    "broadcastTextIds": [
+     8325
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "I see some interesting characters come and go here at the port. Watch yourself, $n. It's never clear who to trust, what with all of the shady activity that goes on here...",
+    "times": 2
    }
   ],
   "npc:4700": [
@@ -2432,12 +2874,12 @@
      320569
     ],
     "sexes": {
-     "male": 1
+     "male": 2
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "If you'd like to learn how to blacksmith your own weapons and armor, I'd be happy to help.",
-    "times": 1
+    "times": 2
    }
   ],
   "npc:5412": [
@@ -2489,12 +2931,12 @@
     ],
     "sexes": {
      "female": 1,
-     "male": 2
+     "male": 4
     },
     "sources": 2,
     "template": "broadcastText",
     "text": "It is not yet your time. I shall aid your journey back to the realm of the living... for a price.",
-    "times": 3
+    "times": 5
    }
   ],
   "npc:6548": [
@@ -2532,12 +2974,13 @@
      9017
     ],
     "sexes": {
-     "female": 3
+     "female": 3,
+     "male": 3
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "Master Nesingwary has a big hunt ahead of him.  I find helping him prepare for a day in the jungle is much more relaxing than helping him ready for combat.  Although I do miss some of those glorious moments on the battlefield.",
-    "times": 3
+    "times": 6
    }
   ],
   "npc:7230": [
@@ -2566,6 +3009,20 @@
     "template": "broadcastText",
     "text": "Can't ye see I'm busy? This had better be good.",
     "times": 1
+   }
+  ],
+  "npc:7853": [
+   {
+    "broadcastTextIds": [
+     4632
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Hello, $n! I am master engineer, Scooty.",
+    "times": 2
    }
   ],
   "npc:7854": [
@@ -2680,6 +3137,16 @@
     "times": 1
    }
   ],
+  "npc:1646": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Greetings, I am Baros Alexston, City Architect of Stormwind.",
+    "times": 1
+   }
+  ],
   "npc:2055": [
    {
     "sexes": {
@@ -2726,11 +3193,11 @@
   "npc:234": [
    {
     "sexes": {
-     "male": 5
+     "male": 6
     },
     "sources": 1,
     "text": "A foul corruption has crept into Westfall.  While I was upholding my duty on the battlefields of Lordaeron these honest farms were overrun and made into hide-outs for thugs and murderers. The People's Militia needs your help.",
-    "times": 5
+    "times": 6
    }
   ],
   "npc:2410": [
@@ -2757,11 +3224,32 @@
   "npc:2497": [
    {
     "sexes": {
-     "female": 3
+     "female": 3,
+     "male": 1
+    },
+    "sources": 2,
+    "text": "Eh? Ya have business with Nimboya?",
+    "times": 4
+   }
+  ],
+  "npc:3391": [
+   {
+    "sexes": {
+     "male": 1
     },
     "sources": 1,
-    "text": "Eh? Ya have business with Nimboya?",
-    "times": 3
+    "text": "Thrall paid me and my boys well for helping out with the construction of Orgrimmar, so I decided to set up a port here. We do most of our business through Booty Bay and Baron Revilgaz.",
+    "times": 1
+   }
+  ],
+  "npc:344": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Who is this $c who goes before the Court of Lakshire in the Kingdom of Stormwind?  State your business within this township, $R.  The orc threat to the Kingdom is far too great to squander time in idle conversation.",
+    "times": 1
    }
   ],
   "npc:3446": [
@@ -2795,25 +3283,35 @@
     "times": 1
    }
   ],
+  "npc:382": [
+   {
+    "sexes": {
+     "male": 4
+    },
+    "sources": 1,
+    "text": "I don't have time to chat, citizen, but if you're willing to give us a hand against the orcs, then I'll find a use for you.",
+    "times": 4
+   }
+  ],
   "npc:415": [
    {
     "sexes": {
-     "male": 3
+     "male": 5
     },
     "sources": 1,
     "text": "Hey buddy, do you think you could give me a hand with something?  I'm really in dire straits here...",
-    "times": 3
+    "times": 5
    }
   ],
   "npc:4452": [
    {
     "sexes": {
      "female": 2,
-     "male": 3
+     "male": 5
     },
     "sources": 2,
     "text": "Come a little closer.  We have important matters to discuss, you and I.\n\nAnd some of them we don't want everyone to hear...",
-    "times": 5
+    "times": 7
    }
   ],
   "npc:4498": [
@@ -2863,11 +3361,11 @@
   "npc:656": [
    {
     "sexes": {
-     "male": 2
+     "male": 3
     },
     "sources": 1,
     "text": "There were thieves everywhere! \n\nIt was horrible.  The cave came down on us.  I think the mining company is all dead, including my brother, the Foreman.",
-    "times": 2
+    "times": 3
    }
   ],
   "npc:715": [
@@ -2878,6 +3376,26 @@
     "sources": 1,
     "text": "Another fine day in the jungle!  It's going to be quite a hunt, I can feel it.  Once Barnil is done cleaning the guns, I'm taking the hunting party deep into the twisting vines.  Not such a bad way for an old war vet to spend his retirement, eh?",
     "times": 7
+   }
+  ],
+  "npc:737": [
+   {
+    "sexes": {
+     "male": 3
+    },
+    "sources": 1,
+    "text": "Well, hello there. You seem like you wouldn't be opposed to making some coin, hm? I can tell from the look in your eyes. I am Mogul Kebok, overseer of operations in Azeroth, and if it is riches you seek, perhaps I can make arrangements.",
+    "times": 3
+   }
+  ],
+  "npc:773": [
+   {
+    "sexes": {
+     "male": 5
+    },
+    "sources": 1,
+    "text": "$C, eh? I am Krazek, Baron Revilgaz's secretary. I know everything about the goings on in this jungle and beyond. Perhaps you'd be interested in knowing the going price on oil in Ratchet? No? Looking for work, maybe? I can help you there.",
+    "times": 5
    }
   ],
   "npc:8582": [
@@ -2896,7 +3414,7 @@
   "clientBuild": "1.60.1.70888",
   "collectedOn": {
    "first": "2026-11-10",
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "dataset": "texts",
   "license": "CC BY 4.0",
@@ -2944,6 +3462,148 @@
       "npc:234": 1
      },
      "text": "$N, now is no time for idle chatter.  If you still wish to prove yourself to The People's Militia you need to slay the Defias I notified you about earlier.  Return to me when you have completed your duty.",
+     "times": 1
+    }
+   ]
+  },
+  "19": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "template": "questCache",
+     "text": "Blackrock Outrunners and Renegades are running ambushes between here and Stonewatch Keep.  The leader of the Outrunners is an orc named Tharil'zun--we want this orc.  Bring me the head of Tharil'zun!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "template": "questCache",
+     "text": "Bring Tharil'zun's Head to Marshal Marris in Redridge.",
+     "times": 1
+    }
+   ]
+  },
+  "20": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "template": "questCache",
+     "text": "The Blackrock orcs have travelled from the Burning Steppes and claimed Stonewatch Keep to the north.  From there they maraud the areas north of Lakeshire and keep its citizens in town, penned like cattle.$B$BHelp rid Lakeshire of this menace.  Kill these Blackrock orcs and bring me ten of their Battleworn Axes as proof.$B$BAnd although Blackrocks threaten us from the north, we've received reports of more in the southeastern pocket of Redridge.  If you find any there, then they too should be hunted.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "text": "That makes for a lot fewer orcs to worry about, thanks.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "template": "questCache",
+     "text": "Bring 10 Battleworn Axes to Marshal Marris in Lakeshire.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "text": "Have you been slaying orcs, $N?  If so, then show me...",
+     "times": 1
+    }
+   ]
+  },
+  "34": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:342": 1
+     },
+     "template": "questCache",
+     "text": "Once again my garden was trampled and pillaged.  And I know the brute who is doing it.  It's that forsaken boar, the one Marshal Marris has taken to calling Bellygrub.$b$bI won't be able to re-plant the daffodils until next season now.  Ruined!  All ruined by that one menacing boar.  Put an end to that pest!  Show me his tusk and I'd be happy to reward you.  He seems to spend his time foraging in the field southwest of Lakeshire but occasionally he roams over here and into my garden.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:342": 1
+     },
+     "text": "Finally the menace is laid to rest!  Thank you, $N, you have done me a great service.  The garden shall be in full bloom this season!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:342": 1
+     },
+     "template": "questCache",
+     "text": "Martie Jainrose of Lakeshire wants you to kill Bellygrub.  Bring her his tusk as proof.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:342": 1
+     },
+     "text": "Is Bellygrub still at it or were you able to rid Lakeshire of the pest once and for all?",
      "times": 1
     }
    ]
@@ -3011,14 +3671,14 @@
    "complete": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:343": 1
+      "npc:343": 2
      },
      "text": "Well done, $N. Such fine specimens too! And here is your delicious delicacy known as Redridge Goulash!",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -3038,13 +3698,43 @@
    "progress": [
     {
      "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:343": 2
+     },
+     "text": "I still need five pieces of Tough Condor Meat, five Great Goretusk Snouts and five helpings of Crisp Spider Meat.",
+     "times": 2
+    }
+   ]
+  },
+  "115": {
+   "accept": [
+    {
+     "sexes": {
       "male": 1
      },
      "sources": 1,
      "speakers": {
-      "npc:343": 1
+      "npc:382": 1
      },
-     "text": "I still need five pieces of Tough Condor Meat, five Great Goretusk Snouts and five helpings of Crisp Spider Meat.",
+     "template": "questCache",
+     "text": "The Blackrock orcs enlisted shadowcasters to aid their attacks in Redridge, and they have brought with them devices of dark power--midnight orbs.  These orbs have struck telling blows against Redridge's defenders, and it's imperative we remove the demon-tainted items from the conflict.$B$BFind and deliver to me midnight orbs from slain Blackrock shadowcasters.  I will then have them disposed of, for this world would be a better place without them!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "template": "questCache",
+     "text": "Bring 3 Midnight Orbs to Marshal Marris in Lakeshire.",
      "times": 1
     }
    ]
@@ -3097,14 +3787,14 @@
    "complete": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:514": 1
+      "npc:514": 2
      },
      "text": "Heh, so old Verner needs some shoes, does he!?!",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -3124,14 +3814,14 @@
    "progress": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:514": 1
+      "npc:514": 2
      },
      "text": "What's that?  Verner sent you, you say?  Well give me his note.  And SPEAK UP!",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -3139,55 +3829,55 @@
    "accept": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:514": 1
+      "npc:514": 2
      },
      "template": "questCache",
      "text": "Ok, I'll give him his 50 horseshoes...$B$BHere they are, all boxed up and ready to go!  Tell Verner it was a pleasure doing business, and be sure he reads the note attached to this crate!",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:415": 1
+      "npc:415": 2
      },
      "text": "Thank you, this really helps me out.\n\nBut what's this?  Argus sent a note with the crate...What??  Argus wants me to PAY him?  Bah!\n\nWell, $N, thank you for your help.",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:514": 1
+      "npc:514": 2
      },
      "template": "questCache",
      "text": "Return to Verner Osgood in Redridge.  Give him the Crate of Horseshoes.",
-     "times": 1
+     "times": 2
     }
    ],
    "progress": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:415": 1
+      "npc:415": 2
      },
      "text": "Great, you're back!  Did you get the shoes?",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -3307,15 +3997,15 @@
    "accept": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:415": 1
+      "npc:415": 2
      },
      "template": "questCache",
      "text": "I need some underbelly scales from black dragon whelps to pay for the shoes Argus sent me from Goldshire.  If you can get 6 of them for me, then I can pay Argus with some... and have enough left to fashion something for you.$B$BBlack dragon whelps are often flying around south of Lakeshire, but they like to wander.  You might have to just keep an eye out and hunt them when you see them.",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
@@ -3334,15 +4024,15 @@
    "objectives": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:415": 1
+      "npc:415": 2
      },
      "template": "questCache",
      "text": "Gather 6 Underbelly Whelp Scales from Black Dragon Whelps, and bring them to Verner Osgood in Redridge.",
-     "times": 1
+     "times": 2
     }
    ],
    "progress": [
@@ -3363,15 +4053,15 @@
    "accept": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:415": 1
+      "npc:415": 2
      },
      "template": "questCache",
      "text": "As if the attacking orcs weren't enough!  Now I have gnoll brutes and mystics prowling along the ridge north of my stable, taking my horses when they stray...$B$BIf you can get rid of those gnolls, my horses and I would be very grateful.",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
@@ -3390,15 +4080,15 @@
    "objectives": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:415": 1
+      "npc:415": 2
      },
      "template": "questCache",
      "text": "Kill 10 Redridge Brutes and 8 Redridge Mystics, then return to Verner Osgood.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -3522,29 +4212,29 @@
    "accept": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:903": 1
+      "npc:903": 2
      },
      "template": "questCache",
      "text": "The Blackrock Clan must be destroyed. The Enemy has invaded our lands. These mountains fall under the sovereign right of the King of Stormwind. Our sources tell us that the leaders of each unit within the Clan are known as Champions. You'll find them in their encampment to the north, just west of the road to the Burning Steppes.$b$bMagistrate Solomon wants these foul brutes dead. Slay 15 Blackrock Champions and return to me.",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "npc:903": 1
+      "npc:903": 2
      },
      "template": "questCache",
      "text": "Kill 15 Blackrock Champions and Guard Howe in Lakeshire will reward you.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -3942,6 +4632,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:234": 1
+     },
+     "text": "Good Messenger, you have served your master well.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -3955,9 +4658,22 @@
      "text": "Magistrate Solomon wants you to take his written plea to Gryan Stoutmantle in Westfall.",
      "times": 1
     }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:234": 1
+     },
+     "text": "Hail, $c.  What business do you have with The People's Militia?",
+     "times": 1
+    }
    ]
   },
-  "150": {
+  "144": {
    "accept": [
     {
      "sexes": {
@@ -3965,10 +4681,10 @@
      },
      "sources": 1,
      "speakers": {
-      "npc:381": 1
+      "npc:234": 1
      },
      "template": "questCache",
-     "text": "Murlocs are becoming a problem.  Larger groups of the fishmen are dropping anchor along the shores of Lake Everstill and fishing up a storm!  We need them gone before they eat all the fish in the lake!$B$BHunt murlocs!  Bring me eight of their fins and I might have something for you...",
+     "text": "Magistrate Solomon's note pains me to read.  But it is obvious he knows not the war which is waged in Westfall or else he would know better than to expect aid from the Militia.  If Stormwind had not deserted us as well, we would not have the need for the Militia.$b$bTake this response to your master in Redridge, $c.  And let him know that my heart is heavy with the loss of good men.",
      "times": 1
     }
    ],
@@ -3979,9 +4695,9 @@
      },
      "sources": 1,
      "speakers": {
-      "npc:381": 1
+      "npc:344": 1
      },
-     "text": "Well done, $N.  I hope you didn't have too much trouble with those murlocs.\n\nIt's strange seeing them so far from the sea.  I wonder if they're here because they're running from something...",
+     "text": "I do say, this is not good at all.  I did not realize that Stoutmantle's situation was not unlike ours here in Lakeshire.  What action is so important that it calls the Stormwind Army away from its people?  Bah, I should not ponder aloud.\n\nHere, messenger.  Accept these coins in exchange for your service to the Township.  I might call upon you again.",
      "times": 1
     }
    ],
@@ -3992,10 +4708,10 @@
      },
      "sources": 1,
      "speakers": {
-      "npc:381": 1
+      "npc:234": 1
      },
      "template": "questCache",
-     "text": "Bring 8 Murloc Fins to Dockmaster Baren in Lakeshire.",
+     "text": "Return to Magistrate Solomon with Gryan Stoutmantle's response.",
      "times": 1
     }
    ],
@@ -4006,10 +4722,178 @@
      },
      "sources": 1,
      "speakers": {
-      "npc:381": 1
+      "npc:344": 1
+     },
+     "text": "Shall we expect the People's Militia soon?  Does Lord Stoutmantle's news bode well?",
+     "times": 1
+    }
+   ]
+  },
+  "145": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:344": 1
+     },
+     "template": "questCache",
+     "text": "I require your assistance once again.  I have written to Lord Ebonlocke, requesting that he sends his trained guards, the Night Watch, to help with Lakeshire's defense.  It is imperative this message makes it to him swiftly.  You must exercise extreme caution.  Ebonlocke is the mayor of Darkshire, in the heart of Duskwood.  Do not stray from the roads.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263": 1
+     },
+     "text": "Thank you for making the long journey here.  This is indeed important information.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:344": 1
+     },
+     "template": "questCache",
+     "text": "Magistrate Solomon wants you to take a letter to Lord Ebonlocke in Darkshire.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263": 1
+     },
+     "text": "You appear to have traveled from afar, $C.  What business do you have here in Darkshire?",
+     "times": 1
+    }
+   ]
+  },
+  "146": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263": 1
+     },
+     "template": "questCache",
+     "text": "If I did not know Magistrate Solomon personally, I would say the man has gone mad.  Send the Night Watch to Lakeshire because Stormwind refuses aid?  The Night Watch was formed because Stormwind left us when this foul magic seeped into the land.  If I sent my Night Watch, this town would be overrun by evil before the guards even reached the forest's edge.$b$bTake this letter of response to your Master in Lakeshire.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:344": 1
+     },
+     "text": "By the Light!  The Stormwind Army retreated from Westfall.  And the Guard no longer protects Darkshire?  There is some treachery abound.  How could this be so? \n\nOh I forgot to reward your service, $c.  Here are some coins.  Now excuse me.  Something is amiss in Stormwind and I must get to the bottom of it.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263": 1
+     },
+     "template": "questCache",
+     "text": "Return to Magistrate Solomon with Lord Ebonlocke's letter of response.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:344": 1
+     },
+     "text": "Ah, good to see you back, messenger.  Shall I inform the Marshal that the Night Watch is on its way from Darkshire?",
+     "times": 1
+    }
+   ]
+  },
+  "150": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:381": 2
+     },
+     "template": "questCache",
+     "text": "Murlocs are becoming a problem.  Larger groups of the fishmen are dropping anchor along the shores of Lake Everstill and fishing up a storm!  We need them gone before they eat all the fish in the lake!$B$BHunt murlocs!  Bring me eight of their fins and I might have something for you...",
+     "times": 2
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:381": 2
+     },
+     "text": "Well done, $N.  I hope you didn't have too much trouble with those murlocs.\n\nIt's strange seeing them so far from the sea.  I wonder if they're here because they're running from something...",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:381": 2
+     },
+     "template": "questCache",
+     "text": "Bring 8 Murloc Fins to Dockmaster Baren in Lakeshire.",
+     "times": 2
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:381": 2
      },
      "text": "Do you have those fins?  Hurry, we need those murlocs driven from the lake!",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -4071,6 +4955,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:234": 1
+     },
+     "text": "$N, your bravery is remarkable.  The People's Militia thanks you for your service to the people of Westfall.  With VanCleef dead, this marks the beginning of the end for the Defias Brotherhood.  Hopefully some day soon peace will once again grace the plains of this fair land.\n\nI salute you, Sir!",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -4082,6 +4979,19 @@
      },
      "template": "questCache",
      "text": "Kill Edwin VanCleef and bring his head to Gryan Stoutmantle.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:234": 1
+     },
+     "text": "How goes the hunt for Edwin VanCleef?",
      "times": 1
     }
    ]
@@ -4101,6 +5011,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:656": 1
+     },
+     "text": "My suspicions were correct.  My poor brother.... Well, thank you for bringing some conclusion to this mystery, even if the conclusion was grim.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -4112,6 +5035,19 @@
      },
      "template": "questCache",
      "text": "Bring Foreman Thistlenettle's Explorers' League Badge to Wilder Thistlenettle in Stormwind.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:656": 1
+     },
+     "text": "Did you find any sign of my brother?  Is there any hope after all this time?",
      "times": 1
     }
    ]
@@ -4131,6 +5067,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:656": 1
+     },
+     "text": "Thank you for collecting these, $N.  Your efforts will help bring peace to the dead in the wake of this tragedy.  I will see to it that the families are notified.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -4144,48 +5093,124 @@
      "text": "Retrieve 4 Miners' Union Cards and return them to Wilder Thistlenettle in Stormwind.",
      "times": 1
     }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:656": 1
+     },
+     "text": "Were you able to retrieve any of my old co-worker's Miners' Union Cards?",
+     "times": 1
+    }
    ]
   },
-  "185": {
+  "169": {
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "male": 1
      },
      "sources": 1,
      "speakers": {
-      "npc:717": 1
+      "object:60": 1
      },
      "template": "questCache",
-     "text": "When I was but a young girl, my father trained me in the art of tiger hunting.$b$bYou'll find the young felines much easier to track and slay.  For this reason, we'll start you out easy.  One can often find young tigers near the expedition camp.$b$bTest your tracking skills and see if you can hunt some of the beasts down.",
-     "times": 1
-    }
-   ],
-   "complete": [
-    {
-     "sexes": {
-      "female": 1
-     },
-     "sources": 1,
-     "speakers": {
-      "npc:717": 1
-     },
-     "text": "Nicely done, $N.  You are ready to move on.",
+     "text": "Wanted! Gath'Ilzogg, Leader of the Blackrock attacks on Stonewatch Keep and raids against the township of Lakeshire. $b$bGath'Ilzogg is extremely dangerous.  He is reportedly holed up in the recently conquered keep plotting the Blackrock clan's further crimes against humanity.  The orc infestation must be quelled at all costs.  A gracious reward will be given to whatever brave soul can deliver the head of Gath'Ilzogg to Magistrate Solomon.",
      "times": 1
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "male": 1
      },
      "sources": 1,
      "speakers": {
-      "npc:717": 1
+      "object:60": 1
+     },
+     "template": "questCache",
+     "text": "Kill Gath'Ilzogg and bring his head to Magistrate Solomon in Lakeshire for the reward.",
+     "times": 1
+    }
+   ]
+  },
+  "180": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:47": 1
+     },
+     "template": "questCache",
+     "text": "Wanted: Lieutenant Fangore$b$bKnown leader of the Shadowhide Gnoll Clan, working under the enemy of the Township and Kingdom, Morganth.  By mandate of Magistrate Solomon, this vile betrayer of Stormwind is wanted dead.  Show his paw to the Magistrate as proof of his death.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:47": 1
+     },
+     "template": "questCache",
+     "text": "Kill Lieutenant Fangore and return to Magistrate Solomon in Lakeshire with his paw.",
+     "times": 1
+    }
+   ]
+  },
+  "185": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:717": 2
+     },
+     "template": "questCache",
+     "text": "When I was but a young girl, my father trained me in the art of tiger hunting.$b$bYou'll find the young felines much easier to track and slay.  For this reason, we'll start you out easy.  One can often find young tigers near the expedition camp.$b$bTest your tracking skills and see if you can hunt some of the beasts down.",
+     "times": 2
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:717": 2
+     },
+     "text": "Nicely done, $N.  You are ready to move on.",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:717": 2
      },
      "template": "questCache",
      "text": "Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Young Stranglethorn Tigers.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -4193,15 +5218,16 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:717": 1
+      "npc:717": 2
      },
      "template": "questCache",
      "text": "You are learning, $c.  Let us test your skills with the mature cats now. Kill 10 Stranglethorn Tigers this time out.",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
@@ -4220,15 +5246,16 @@
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:717": 1
+      "npc:717": 2
      },
      "template": "questCache",
      "text": "Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Stranglethorn Tigers.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -4331,17 +5358,76 @@
     }
    ]
   },
-  "190": {
-   "complete": [
+  "189": {
+   "accept": [
     {
      "sexes": {
-      "female": 1
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:737": 2
+     },
+     "template": "questCache",
+     "text": "Damn trolls! They've been killing off our agents in the jungle! I've already lost a good number of my best guards to skirmishes with them. The costs are piling up! How will I explain this to Baron Revilgaz?$b$bDecisive action... Think, Kebok... you weren't assigned to the post you have today for sitting around... I've got it! You... $n, is it? You'll help me, won't you? There's money to be had!$b$bHere's the deal... you bring me the ears of fifteen Bloodscalp Trolls, and I'll compensate you well.",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:737": 2
+     },
+     "template": "questCache",
+     "text": "Acquire 15 Bloodscalp Ears and return them to Kebok in Booty Bay.",
+     "times": 2
+    }
+   ]
+  },
+  "190": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
      },
      "sources": 1,
      "speakers": {
       "npc:718": 1
      },
+     "template": "questCache",
+     "text": "If you want to be a part of the hunt with this crack group Hemet has assembled, you're going to need to prove yourself an able panther hunter.  We'll start you out easy -- don't you worry.  Let's see you kill 10 young panthers to start.$b$bTracking them down is only half the challenge...",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:718": 2
+     },
      "text": "Off to a good start, $N!",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:718": 1
+     },
+     "template": "questCache",
+     "text": "Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Young Panthers.",
      "times": 1
     }
    ]
@@ -4350,15 +5436,16 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:718": 1
+      "npc:718": 2
      },
      "template": "questCache",
      "text": "Now you're ready to turn it up a notch.  If you want to prove yourself worthy of socializing with the likes of these big game hunters, you'll need to prove that you can kill 10 panthers.$b$bThose big boys are tougher.  They're not as easy as the young ones you were killing earlier.",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
@@ -4377,14 +5464,28 @@
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:718": 2
+     },
+     "template": "questCache",
+     "text": "Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Panthers.",
+     "times": 2
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
      },
      "sources": 1,
      "speakers": {
       "npc:718": 1
      },
-     "template": "questCache",
-     "text": "Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Panthers.",
+     "text": "Go kill 10 panthers!  Show us what you've got!",
      "times": 1
     }
    ]
@@ -4423,15 +5524,16 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:715": 1
+      "npc:715": 2
      },
      "template": "questCache",
      "text": "So you think your hunting skills are in tip-top shape?  I can put them to the test in a jiffy.  Head out into that jungle and kill 10 Stranglethorn Raptors.  We'll see just how much of a big game hunter you are.$b$bAnd no, I won't tell you where you can find them!  Locating the beasts is half the challenge.",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
@@ -4445,20 +5547,32 @@
      },
      "text": "Nicely done, m'lady!",
      "times": 1
-    }
-   ],
-   "objectives": [
+    },
     {
      "sexes": {
-      "female": 1
+      "male": 1
      },
      "sources": 1,
      "speakers": {
       "npc:715": 1
      },
+     "text": "Nicely done, old chap!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:715": 2
+     },
      "template": "questCache",
      "text": "Hemet Nesingwary wants you to kill 10 Stranglethorn Raptors.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -4466,15 +5580,16 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:715": 1
+      "npc:715": 2
      },
      "template": "questCache",
      "text": "Now let's step up the challenge and see if you're up to it.  Venture into the jungle and bag yourself 10 of those bloody Lashtail Raptors.  Let's see what you've got!",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
@@ -4493,15 +5608,16 @@
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:715": 1
+      "npc:715": 2
      },
      "template": "questCache",
      "text": "Hemet Nesingwary wants you to kill 10 Lashtail Raptors.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -4535,6 +5651,79 @@
     }
    ]
   },
+  "201": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:773": 1
+     },
+     "template": "questCache",
+     "text": "I've gotten reports of a group of hunters that have set up camp upriver of the Venture Company mining camp on Lake Nazferiti. Now, normally I wouldn't care, but improbably, I heard that Hemet Nesingwary was one of the hunters there? He's certainly well-connected, if you catch my meaning, and you never can be too safe.$b$bWhy don't you go check out the camp, $n, see what they're about?",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:773": 1
+     },
+     "text": "Hmmm, so my information was correct, as usual. Interesting. Well, I don't suppose they pose any sort of threat of interference with our operation, but perhaps they have a need for some of our excellent manufactured products. Hmmm...",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:773": 1
+     },
+     "template": "questCache",
+     "text": "Find the hunters' camp and report its location to Krazek in Booty Bay.",
+     "times": 1
+    }
+   ]
+  },
+  "213": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:737": 1
+     },
+     "template": "questCache",
+     "text": "He's done it this time! Bad enough that Gelriz's muscling out the moguls who were appointed by the trade princes, now he tries to cut in on the most notorious pirate!$b$bRevilgaz won't have it, and he's told me to take care of the problem in my own way.$b$bMy way? Theft. The Venture Co. geologists near Lake Nazferiti are deeply interested in those strange blue crystals they have been finding in the mines. Bring me samples of the stone from their geologists, I don't care what you have to do to get them.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:737": 1
+     },
+     "template": "questCache",
+     "text": "Retrieve 8 Tumbled Crystals and return them to Kebok in Booty Bay.",
+     "times": 1
+    }
+   ]
+  },
   "214": {
    "accept": [
     {
@@ -4550,6 +5739,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:820": 1
+     },
+     "text": "Well done, $N!  On behalf of The People's Militia I salute you for your efforts.  Soon we will return this land to the people with help from brave souls like you.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -4561,6 +5763,19 @@
      },
      "template": "questCache",
      "text": "Scout Riell at the Sentinel Hill Tower wants you to bring her 10 Red Silk Bandanas.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:820": 1
+     },
+     "text": "Have you been reclaiming our land from the Defias gang?  If so show me 10 Red Silk Bandanas as proof.",
      "times": 1
     }
    ]
@@ -4623,6 +5838,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1070": 1
+     },
+     "text": "<Deputy Feldon listens to your report...>\n\nThere's a sizable force of gnolls encamped there, and from what you tell me they are tough ones.  It must not have been easy for you to gather this intelligence.\n\nHere you are, $N.  We are grateful for your aid.\n\nAnd if you haven't already done so, speak with Marshal Marris and Magistrate Solomon within Lakeshire.  Our situation grows ever more desperate - those two will have need of you I'm sure.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -4642,29 +5870,31 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:716": 1
+      "npc:716": 2
      },
      "template": "questCache",
      "text": "Master Nesingwary will be so upset if he finds out!$b$bHe trusted me to proofread the manuscript of his novel, The Green Hills of Stranglethorn.  Everything was going well, but a large gust of wind blew through the camp and scattered the pages everywhere!$b$bI was able to gather most of the pages but many are still strewn about the jungle.  Collect the pages to complete each of the four chapters.$b$bI will help you organize them.  Return the chapters to me once you have all four.",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:716": 1
+      "npc:716": 2
      },
      "template": "questCache",
      "text": "Collect the missing pages from The Green Hills of Stranglethorn manuscript.  Once all four chapters are complete, return them to Barnil.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -4698,6 +5928,135 @@
     }
    ]
   },
+  "373": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "none": 1
+     },
+     "template": "questCache",
+     "text": "Searching Edwin VanCleef's person, you discover, among other things, an unsent letter. It is addressed to Baros Alexston, the City Architect of Stormwind, City Hall, Cathedral Square.$B$BIt appears to be recently written and sealed.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1646": 1
+     },
+     "text": "Edwin VanCleef, you say? I would as much expect a letter from my dead grandmother... So you've killed him then? Pardon me in saying, but I'm somewhat surprised. He was a peerless fighter in his younger years. Let's see what he finds the need to write to me about after so many years.\n\n<Baros peruses the letter.>\n\nEdwin... I see the years haven't changed you a bit, an idealist as ever, and a romantic. He doesn't care who he hurts, $N. Revenge has consumed him. But then, I'm not sure I can blame him.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "none": 1
+     },
+     "template": "questCache",
+     "text": "Deliver the Letter to the City Architect to Baros Alexston in Stormwind.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1646": 1
+     },
+     "text": "Yes? Is there something I can help you with?",
+     "times": 1
+    }
+   ]
+  },
+  "389": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1646": 1
+     },
+     "template": "questCache",
+     "text": "VanCleef and I were members of the Stonemasons Guild. Our main project was to rebuild Stormwind after the War.$B$BWhen we had finished our duties, we were cheated. The nobles refused to pay us for our work. Some of the more senior of the Stonemasons were offered governmental jobs, but VanCleef refused it out of loyalty to all the Stonemasons. He led a riot and left the city, swearing revenge.$b$bHis lieutenant, Bazil Thredd, might know more about VanCleef's plans. He's being held prisoner in the Stockade.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1719": 1
+     },
+     "text": "What in the Light do you want? Can't you see we have a crisis here?\n\nBazil Thredd?! Why would you want to speak with that bastard? How am I supposed to know you're not one of his cronies, come down to help with his bloody riot? If all the blasted cells weren't open, I might throw you in one for a while!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1646": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Warden Thelwater in the Stockade.",
+     "times": 1
+    }
+   ]
+  },
+  "391": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1719": 1
+     },
+     "template": "questCache",
+     "text": "Let's get one thing straight, $n: I don't trust you. But, with the situation as it is, you probably won't make a difference.$B$BSo here's how it's going to be: go down there and have your talk with Thredd. If you're really on our side, then kill him and bring me his head when the job's done. And if it turns out you're on his side, and don't come out... when we find you, you'll die along with the rest of the maggots.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1719": 1
+     },
+     "template": "questCache",
+     "text": "Kill Bazil Thredd and bring his head back to Warden Thelwater at the Stockade.",
+     "times": 1
+    }
+   ]
+  },
   "399": {
    "accept": [
     {
@@ -4713,6 +6072,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1646": 1
+     },
+     "text": "Oh, thank you, $N! It's of no practical use to me, but the sentimental value... Needless to say, thank you for bringing this to me... at some cost to your own well-being, not to mention the time it took to go all the way down to Westfall. You have my gratitude, and have this as a token of my thanks.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -4724,6 +6096,19 @@
      },
      "template": "questCache",
      "text": "Go to Baros Alexston's house in Westfall and search for his compass, then return it to him in Cathedral Square of Stormwind.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:1646": 1
+     },
+     "text": "$N! Did you have any luck?",
      "times": 1
     }
    ]
@@ -5422,6 +6807,20 @@
    ]
   },
   "568": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2464": 1
+     },
+     "template": "questCache",
+     "text": "Throm'ka, $c!$b$bYour arrival at Grom'gol is timely, indeed.  As commander of the Warchief's base camp here in the jungle I am bound by honor to ensure the safety of all members of the Horde.  Our mission to provide a safe chain of supply to Stonard is being hampered by some of the local inhabitants.$b$bI am putting you in charge of thinning out the raptor population outside of Grom'gol.  Once you have made significant progress, report back to me for reassignment.",
+     "times": 1
+    }
+   ],
    "complete": [
     {
      "sexes": {
@@ -5434,47 +6833,442 @@
      "text": "Your duty was performed with honor, $c.",
      "times": 1
     }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2464": 1
+     },
+     "template": "questCache",
+     "text": "Commander Aggro'gosh of the Grom'gol base camp wants you to kill 15 Lashtail Raptors.",
+     "times": 1
+    }
    ]
   },
-  "583": {
+  "570": {
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "male": 1
      },
      "sources": 1,
      "speakers": {
-      "npc:716": 1
+      "npc:2465": 1
      },
      "template": "questCache",
-     "text": "Welcome to Stranglethorn!$b$bPerhaps you're not aware of this, but that dwarf over there is the one and only Hemet Nesingwary, renowned war hero of the Alliance and master big game hunter.  He's not one for welcoming strangers into his camp, but you look like you've seen quite a bit of action in your day, $c.$b$bBeing a veteran of many battles himself, Master Nesingwary has a soft spot for fellow heroes.$b$bGo and speak with him.  Perhaps he can give you some hunting pointers.",
-     "times": 1
-    }
-   ],
-   "complete": [
-    {
-     "sexes": {
-      "female": 1
-     },
-     "sources": 1,
-     "speakers": {
-      "npc:715": 1
-     },
-     "text": "Jolly nice to make your acquaintance, $N. Haven't seen a $c around these parts for some time.\n\nI situated myself with this expedition for one purpose: to hunt a great and elusive beast. Seeing that you're a hero of sorts I am willing to let you take part in the hunt, but you must first prove yourself.\n\nI shall teach the ways of raptor killing to you. Ajeck will train you with tiger hunting. And Sir Erlgadin is a master of panther tracking.\n\nProve your skill and I'll let you in on the big hunt.",
+     "text": "The power of the jungle's magic must be realized and then harnessed by the Horde.  My rituals have proven successful so far.  I can cast very powerful enchantments.  For you, brave $c, I shall make a special item indeed.$b$bBring to me some Shadowmaw Panther claws along with a Tigress fang.  Not just any fang will do.  It must be in pristine condition.$b$bThe beasts lurk throughout the jungle but you will find some close by, just across the river from Mizjah Ruins to the southeast.",
      "times": 1
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "male": 1
      },
      "sources": 1,
      "speakers": {
-      "npc:716": 1
+      "npc:2465": 1
+     },
+     "template": "questCache",
+     "text": "Far Seer Mok'thardin at the Grom'gol base camp wants 8 Shadowmaw Claws and a Pristine Tigress Fang.",
+     "times": 1
+    }
+   ]
+  },
+  "575": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2495": 1
+     },
+     "template": "questCache",
+     "text": "\"The finest leathercrafter of the South Seas and the worlds old and new.\" That's what they call me. Me! Drizzlik! The finest lea... Ahem. Well.$b$bMy leather goods are known far and wide as the most exquisite, a connoisseur's choice!$b$bI've just received an order from Director Riddlevox of the Tinkers' Union for a dozen of his favorite Excelsior-line boots. Our best sellers, actually.$b$bTo start on the basic shape, I'll need crocolisk skins from the crocs along the river in northern Stranglethorn.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2495": 1
+     },
+     "text": "These skins should do. Their quality isn't too important, given that they'll make up the inside layer of the boots, but it's still important that they're comfortable.\n\nIf they're a bit too rigid, I'll use some tiger blood to soften it up. Tricks o' the trade, you know?",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2495": 1
+     },
+     "template": "questCache",
+     "text": "Bring 2 Large River Crocolisk Skins to Drizzlik in Booty Bay.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2495": 1
+     },
+     "text": "My equipment is all ready to go, $N, I just need those skins. We don't want to keep Riddlevox waiting, that's for sure.\n\nIt's not a good idea for anyone to keep the chief inventor of the Tinkers' Union unsatisfied.",
+     "times": 1
+    }
+   ]
+  },
+  "577": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2495": 1
+     },
+     "template": "questCache",
+     "text": "Well, I've got the basic shape of the boots worked out, and they're coming along fine, but the skins you brought aren't going to be quite enough for the inner layers.$b$b\"What are we going to do, Drizzlik?\" No doubt the question on your lips, and well, isn't it lucky you're talking to Drizzlik, because he's going to tell you what we're going to do!$b$bThe inner layers will never really be seen, so we'll just get some of the thicker, cheaper skins from the crocs around Lake Nazferiti to fill the boots out.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2495": 1
+     },
+     "template": "questCache",
+     "text": "Bring 5 Snapjaw Crocolisks Skins to Drizzlik in Booty Bay.",
+     "times": 1
+    }
+   ]
+  },
+  "581": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2497": 1
+     },
+     "template": "questCache",
+     "text": "A doom, there is.  A doom on my chief's youngest son, Yenniku.  As is a custom with our people, he was given to the Gurubashi Trolls of Zul'Gurub, but after my tribe, the Darkspear tribe, left with the orc Thrall, poor Yenniku was lost to us.  I was sent from distant Orgrimmar, back to Stranglethorn, to search for my chief's son.$B$BAnd I believe the Bloodscalp tribe has him.$B$BIf you would help me, then hunt the Bloodscalps.  You may find them to the north.  Gather their tusks and return to me.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2497": 1
+     },
+     "text": "These are good tusks, $N.  You prove that you have the strength to hunt the Bloodscalps.\n\nAnd that is good, because you are not done hunting them.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2497": 1
+     },
+     "template": "questCache",
+     "text": "Bring 9 Bloodscalp Tusks to Nimboya at the Grom'gol Base Camp.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2497": 1
+     },
+     "text": "$C.  Show me you have made prey of the Bloodscalp tribe.\n\nShow me your trophies.",
+     "times": 1
+    }
+   ]
+  },
+  "582": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2497": 1
+     },
+     "template": "questCache",
+     "text": "We must find if Yenniku is dead.$B$BSlay the Bloodscalp Headhunters and take from them their Shrunken Heads.  You must gather many, many heads, and I will inspect them to make sure Yenniku's head is not among them.$B$BAnd if Yenniku was killed by the Bloodscalps, then may a 600-year curse fall on the spirit of their chief, Gan'zulah!$B$BGo, $n.  You may find many Headhunters at the ruins of Zuuldaia and Zul'Kunda, along the coast to the north.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2497": 1
+     },
+     "template": "questCache",
+     "text": "Bring 20 Shrunken Heads to Nimboya at the Grom'gol Base Camp.",
+     "times": 1
+    }
+   ]
+  },
+  "583": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:716": 2
+     },
+     "template": "questCache",
+     "text": "Welcome to Stranglethorn!$b$bPerhaps you're not aware of this, but that dwarf over there is the one and only Hemet Nesingwary, renowned war hero of the Alliance and master big game hunter.  He's not one for welcoming strangers into his camp, but you look like you've seen quite a bit of action in your day, $c.$b$bBeing a veteran of many battles himself, Master Nesingwary has a soft spot for fellow heroes.$b$bGo and speak with him.  Perhaps he can give you some hunting pointers.",
+     "times": 2
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:715": 2
+     },
+     "text": "Jolly nice to make your acquaintance, $N. Haven't seen a $c around these parts for some time.\n\nI situated myself with this expedition for one purpose: to hunt a great and elusive beast. Seeing that you're a hero of sorts I am willing to let you take part in the hunt, but you must first prove yourself.\n\nI shall teach the ways of raptor killing to you. Ajeck will train you with tiger hunting. And Sir Erlgadin is a master of panther tracking.\n\nProve your skill and I'll let you in on the big hunt.",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "npc:716": 2
      },
      "template": "questCache",
      "text": "Speak with Hemet Nesingwary.",
+     "times": 2
+    }
+   ]
+  },
+  "596": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2519": 1
+     },
+     "template": "questCache",
+     "text": "I was sent to Grom'gol  to aid Nimboya on his quest, but... I too have reasons for being here.$B$BThe Bloodscalp tribe is enemy to our tribe.  Collecting trophies of our enemies gives us power over them.  You may aid our tribe by hunting our enemies.$B$BThey dwell to the north.  Slay Bloodscalp trolls and take from them their bloody bone necklaces.  Collect many, and your reward will be great.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2519": 1
+     },
+     "template": "questCache",
+     "text": "Bring 25 Bloody Bone Necklaces to Kin'weelay at the Grom'gol Base Camp.",
+     "times": 1
+    }
+   ]
+  },
+  "600": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2498": 1
+     },
+     "template": "questCache",
+     "text": "The Venture Company has a string of operations through Stranglethorn which keeps hard-working goblins, like me, from making honest gold!  Please, you must help me!$B$BThe Venture Company is mining near the Crystalvein Mine to the north.  They can't get into the mine because of all the basilisks, but they're still able to dig up Singing Crystals from the surrounding hills.$B$BTake their crystals from them, and show them they don't have the run of the jungle.$B$BAnd... um... bring me those crystals as proof!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2498": 1
+     },
+     "template": "questCache",
+     "text": "Bring 10 Singing Blue Crystals to Crank Fizzlebub in Booty Bay.",
+     "times": 1
+    }
+   ]
+  },
+  "605": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2498": 1
+     },
+     "template": "questCache",
+     "text": "The Singing Crystals are unique to Stranglethorn, and are very valuable to certain parties.  I can move those crystals, but the cursed Venture Company makes it hard for an honest entrepreneur like myself to gather any!$B$BI'd like to hire you.$B$BThe basilisks in Stranglethorn eat the crystal.  This gives them their hardened skin, and sometimes decent quality crystal can be harvested from it.$B$BYou can get it from any basilisk, but the less nasty ones are along the shores south of Zul'Kunda, to the north.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2498": 1
+     },
+     "text": "Aha!  These will do nicely, $N.  Yes, quite nicely!\n\nHere is your cut, and...it was a pleasure doing business with you.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2498": 1
+     },
+     "template": "questCache",
+     "text": "Bring 10 Singing Crystal Shards to Crank Fizzlebub.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2498": 1
+     },
+     "text": "Do you have those shards yet?  I'll give you a decent cut from the profits!",
+     "times": 1
+    }
+   ]
+  },
+  "606": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2501": 1
+     },
+     "template": "questCache",
+     "text": "If there's one thing I can't stand, it's people who don't pay their gambling debts!  And there are a lot of people who owe me. Think you can help me collect?$B$BFirst, there's \"Shaky\" Phillipe down by the docks.  He owes me plenty after last week's game and I want my due!  But to get it, we'll have to scare him.$B$BGo out of town and hunt Elder Mistvale Gorillas.  Find a nice selection of giblets, then take them to Shaky.  Don't let on that they're from an animal; let him think the worst.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2501": 1
+     },
+     "template": "questCache",
+     "text": "Bring 5 Mistvale Giblets to \"Shaky\" Phillipe in Booty Bay.",
+     "times": 1
+    }
+   ]
+  },
+  "629": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2519": 1
+     },
+     "template": "questCache",
+     "text": "Long ago, a great shudder of the earth sunk an old troll city beneath the waters of the Savage Coast to the northwest.  We call that place the Vile Reef, for murlocs now reside in the ruins of the city, attacking any who draw close.$B$BThere is an old tablet among those ruins that tells the ancient tale of Gri'lek, a hero of troll legends.  The tale is sacred to the Darkspear tribe, and although the tablet is too large to move, I want a shard of it to enshrine in our new home in Orgrimmar.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2519": 1
+     },
+     "template": "questCache",
+     "text": "Bring a Tablet Shard to Kin'weelay at the Grom'gol Base Camp.",
      "times": 1
     }
    ]
@@ -5505,6 +7299,36 @@
      },
      "template": "questCache",
      "text": "Find the crystal from your vision.",
+     "times": 1
+    }
+   ]
+  },
+  "638": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2497": 1
+     },
+     "template": "questCache",
+     "text": "With Thoras Trollbane dead and Stromgarde in ruins, Vol'jin has instructed that we make every effort to spirit the legendary sword Trol'kalar from the humans' hands, so that we might use it in our coming battles against the trolls of Zul'Gurub.$b$bZengu, one of our seasoned hunters, was dispatched to Hammerfall in northeastern Arathi Highlands to oversee its procurement.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2497": 1
+     },
+     "template": "questCache",
+     "text": "Travel to Hammerfall in the Arathi Highlands and speak with Zengu.",
      "times": 1
     }
    ]
@@ -5565,6 +7389,36 @@
      },
      "template": "questCache",
      "text": "Bring the Tablet of Ryun'eh to Theldurin the Lost.",
+     "times": 1
+    }
+   ]
+  },
+  "888": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3391": 1
+     },
+     "template": "questCache",
+     "text": "While I'd like to recover all my goods, I'm sure that's not possible. Still, there's a few things that I absolutely must have!$b$bAs you see, my observatory is ready to go, but it needs the smaller of the two lenses. The first arrived by caravan from Durotar, but the second was bound by ship, and never arrived. Also, I never got my boot shipment from Drizzlik in Booty Bay!$b$bHead down to the pirate camp and see if you can find them.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3391": 1
+     },
+     "template": "questCache",
+     "text": "Retrieve the Shipment of Boots and Telescopic Lens for Gazlowe in Ratchet.",
      "times": 1
     }
    ]
@@ -5839,14 +7693,15 @@
    "complete": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4454": 1
+      "npc:4454": 2
      },
      "text": "All right!  This venom is going to work great!  Thanks, $N!\n\nNow I just need to boil it down, apply skipper-otomer, add a nega-catalyst, and... Drat!  Where are my notes!?",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -5867,14 +7722,15 @@
    "progress": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4454": 1
+      "npc:4454": 2
      },
      "text": "Hi hi hi!  Did you get that venom??",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -5897,14 +7753,15 @@
    "complete": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4453": 1
+      "npc:4453": 2
      },
      "text": "You got them!  Thanks, $N!\n\nWow, these shells are harder than I thought!  Heh, when I work with them I'll probably bend a whole box full of tools!",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -5925,14 +7782,15 @@
    "progress": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4453": 1
+      "npc:4453": 2
      },
      "text": "My brother is making progress with his new fuel design, and that has me worried.  I need to start work on a tortoise shell fuel tank as soon as possible!\n\n$N, do you have those shells yet?",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -5940,29 +7798,31 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4454": 1
+      "npc:4454": 2
      },
      "template": "questCache",
      "text": "I'm developing a new engine that'll make the car go so fast!  Fast enough to fly, I know it!  I just need to make pistons that can handle very very heavy stress.  All my trials have failed because I can't make pistons hard enough!$B$BBut there is someone who might know how.$B$BHis name is Martek the Exiled.  He is a great smith and knows more about metal than anyone.  Take him this letter, I know he can help!$B$BBut he's far far away -- in Azeroth, in the Badlands, in a camp, with a goblin!$B$BFind him!",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4454": 1
+      "npc:4454": 2
      },
      "template": "questCache",
      "text": "Bring Fizzle's Letter to Martek the Exiled in the Badlands.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -5970,29 +7830,31 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4453": 1
+      "npc:4453": 2
      },
      "template": "questCache",
      "text": "Our rocket car is the fastest thing on the flats!  So fast that ... I'm afraid friction is going to tear it apart!$B$BTo prevent that I need to create a composite to coat the car's moving parts.  It must be hard but not brittle, and must be resistant to salt corrosion, or time spent on the Shimmering Flats will eat it away.$B$BHave you heard of the Vile Reef, $n?  It's off the coast of Stranglethorn Vale.  Saltscale murlocs live there, and their tail fins are a crucial ingredient of my composite.",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4453": 1
+      "npc:4453": 2
      },
      "template": "questCache",
      "text": "Bring 10 Encrusted Tail Fins to Wizzle Brassbolts in the Shimmering Flats.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -6075,14 +7937,15 @@
    "complete": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4452": 1
+      "npc:4452": 2
      },
      "text": "Whoa, look at all that!  There's some good stuff in that heap of junk.  I'm sure I can pawn it off for a hefty sum.\n\nAnd... is that an ear I see squashed between those two sheets of metal??  Ouch!  Heh, I sure wouldn't want to be that pilot!\n\nThanks, $N.  Here's your pay.  And here's some advice, free of charge...\n\nIf you look hard enough, you can always find profit in someone else's tragedy.",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -6103,14 +7966,15 @@
    "progress": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4452": 1
+      "npc:4452": 2
      },
      "text": "$N, have you been out into the Flats?  Did you bring back that load of parts I wanted?",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -6193,14 +8057,15 @@
    "complete": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4452": 1
+      "npc:4452": 2
      },
      "text": "Great, you got them!  Now we need to get them to the gnomes.  But first...\n\nLet's take out one small item...",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -6221,14 +8086,15 @@
    "progress": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4452": 1
+      "npc:4452": 2
      },
      "text": "Did you make it to Ratchet and get those parts?",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -6292,55 +8158,59 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4452": 1
+      "npc:4452": 2
      },
      "template": "questCache",
      "text": "Now that I have what I need, give these parts to Fizzle Brassbolts.  He's been waiting a long time for them -- I'm sure he won't miss the little piece I removed from his order...$B$BAnd I wouldn't bother mentioning it to him.  It was small and worthless.$B$BTrust me.",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4454": 1
+      "npc:4454": 2
      },
      "text": "There they are!  My hydro ratchets and repeater bolts!  These will do just fine.  Thank you!",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4452": 1
+      "npc:4452": 2
      },
      "template": "questCache",
      "text": "Bring the Delicate Car Parts to Fizzle Brassbolts in Shimmering Flats.",
-     "times": 1
+     "times": 2
     }
    ],
    "progress": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4454": 1
+      "npc:4454": 2
      },
      "text": "You have something for me?  That's great!  let's see it!",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -6348,28 +8218,73 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4452": 1
+      "npc:4452": 2
      },
      "template": "questCache",
      "text": "Now that we've done a service for the gnomes, it's time to do the goblins a favor!  $B$BI hear that the goblin racer pilot, Nazz Steamboil, didn't always use that name.  I wonder why he changed it.  I wonder if it's a secret, and... I wonder if he values that secret.$B$BIf anyone knows the truth, then it's Krazek of Booty Bay, on the southern tip of Stranglethorn.  Speak with Krazek and ask him about our goblin pilot.$B$BIf you can get useful information from him, then we might just turn a profit from it.",
+     "times": 2
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:773": 1
+     },
+     "text": "You want to know about Nazz Steamboil?  He's a racer pilot out in the Shimmering Flats, isn't he?\n\nYeah, I might be able to find something out about him... but it won't be easy.  Or fast.\n\nOr cheap.",
      "times": 1
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4452": 1
+      "npc:4452": 2
      },
      "template": "questCache",
      "text": "Talk to Krazek in Booty Bay.",
+     "times": 2
+    }
+   ]
+  },
+  "1116": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:773": 1
+     },
+     "template": "questCache",
+     "text": "Getting the information on Nazz is quite a favor, $n.  Yes, quite a favor.  But you've come all the way from the Shimmering Flats to get it... are you willing to travel some more?$B$BWhile I contact my sources, why don't you gather something for me, eh?$B$BHm... what will it be?  How about dream dust, from the dragon whelps of the Swamp of Sorrows.  Yes, I'd love some dream dust for my snuff pouch!$B$BGet it for me, $n, and I'll give you the information you seek.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:773": 1
+     },
+     "template": "questCache",
+     "text": "Bring 10 Specks of Dream Dust to Krazek in Booty Bay.  Dream Dust is gathered from the dragon whelps of the Swamp of Sorrows.",
      "times": 1
     }
    ]
@@ -6547,14 +8462,15 @@
    "complete": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4483": 1
+      "npc:4483": 2
      },
      "text": "Don't mind the thundering echoes off the mountains' walls. The goblins and gnomes are out among the Flats racing one another in atrocities created by what they call science. There are bigger threats here in Thousand Needles, one of which killed more than half my war party.\n\nBut we remain here until we hear word from Belgrom in Orgrimmar. Until then, we hold our position here, and stay vigilant.",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -6574,14 +8490,15 @@
    "progress": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4483": 1
+      "npc:4483": 2
      },
      "text": "War brings my group and I to the Shimmering Flats, $c. What brings you here?",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -6589,15 +8506,16 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4483": 1
+      "npc:4483": 2
      },
      "template": "questCache",
      "text": "Hmm. Seems Belgrom thinks those monsters are a threat. He wants them pushed back into whatever depths they crawled up out of.$B$BI guess killing the dwarves sent by the Explorers' League wasn't enough--now I have to send a half-dead war party into another battle. We won't be able to do it ourselves; not while we're in this condition. The dig site's to the south of here. There shouldn't be anymore dwarves to deal with. Feel up to wielding a blade or staff and doing your part to aid us?",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
@@ -6616,15 +8534,16 @@
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4483": 1
+      "npc:4483": 2
      },
      "template": "questCache",
      "text": "Kill 5 Silithid Searchers, 5 Silithid Hive Drones, and 5 Silithid Invaders and return to Moktar Krin in Thousand Needles.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -6757,6 +8676,17 @@
      },
      "text": "Grenka was powerful, even by $r standards. You should be proud of your accomplishment this day.\n\nDuring your test of faith you displayed strength of spirit, and now you have shown endurance in battle by taking on the Roguefeather harpies, but the time has come for a new test.",
      "times": 1
+    },
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2986": 1
+     },
+     "text": "Grenka was powerful, even by skyborne standards. You should be proud of your accomplishment this day.\n\nDuring your test of faith you displayed strength of spirit, and now you have shown endurance in battle by taking on the Roguefeather harpies, but the time has come for a new test.",
+     "times": 1
     }
    ],
    "objectives": [
@@ -6777,14 +8707,15 @@
    "progress": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2986": 1
+      "npc:2986": 2
      },
      "text": "You must be prepared spiritually, physically and mentally for the challenges that lie ahead of you.\n\nToo often do we rush forward before we are ready. I consider it my duty to the youth, no matter which tribe they belong to, to prepare them for the dangers they may face after they leave the sanctity of their home.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -6792,55 +8723,59 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2986": 1
+      "npc:2986": 2
      },
      "template": "questCache",
      "text": "During the time of the Old Gods, elementals inhabited much of this world. They worshipped the Old Gods, and the Gods, through their power, kept the elementals bound to this world. When the Old Gods were banished, the elementals faded from our world and now only return at the bidding of powerful mages.$B$BThere are exceptions though. Some elementals were powerful enough to remain here on their own. One such elemental is Rok'Alim.$B$BTo test your strength, find Rok'Alim in Thousand Needles and slay him.",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2986": 1
+      "npc:2986": 2
      },
      "text": "The Test of Strength is done. You have shown strength and bravery, and you are now prepared for the final test before these rites are completed.",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2986": 1
+      "npc:2986": 2
      },
      "template": "questCache",
      "text": "Bring Fragments of Rok'Alim to Dorn Plainstalker in Thousand Needles.",
-     "times": 1
+     "times": 2
     }
    ],
    "progress": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2986": 1
+      "npc:2986": 2
      },
      "text": "Rok'Alim is also called the Pounder by the centaur tribes in Thousand Needles because of the thundering his fists make as he pummels the creatures brave, or stupid, enough to stand in his path.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -6848,15 +8783,16 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2986": 1
+      "npc:2986": 2
      },
      "template": "questCache",
      "text": "Your time with me is just about finished. I am knowledgeable, but the Test of Lore is not mine to give. There are lessons to be learned and places to visit that others claim domain over.$B$BIf you are prepared, then seek out Braug Dimspirit--he is a shaman of great wisdom. He will test you further, so heed his words, $n.$B$BWhen you are ready, find the tunnel that connects the Stonetalon Mountains with Ashenvale: Braug dwells near there. And be careful, $n, the night elves may wish to impede your test.",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
@@ -6875,15 +8811,16 @@
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2986": 1
+      "npc:2986": 2
      },
      "template": "questCache",
      "text": "Find Braug Dimspirit near the entrance to Talondeep Path in Stonetalon Mountains.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -7119,14 +9056,15 @@
    "complete": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4629": 1
+      "npc:4629": 2
      },
      "text": "I hope you didn't kill any of the basilisks on the tracks themselves! It takes a long time for the carcasses to decay in the sun, and I'd rather not have to take a shovel out to clean up.",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -7164,14 +9102,15 @@
    "complete": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4630": 1
+      "npc:4630": 2
      },
      "text": "Great! I can get the crew working on this right away. Thanks, $N!",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -7192,14 +9131,15 @@
    "progress": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4630": 1
+      "npc:4630": 2
      },
      "text": "Do you have those bones for me? I was just about to start working on lightening the steering rig, but I don't want to open her up without all the parts I need.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -7207,42 +9147,45 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4630": 1
+      "npc:4630": 2
      },
      "template": "questCache",
      "text": "Our racing team is the pride of goblins everywhere. You'd be surprised at some of the people who contribute in one way or another to our team.$b$bYou know Gazlowe? He tracks down parts from around the world for us. He even came down to work on one of our rigs once!$b$bA few weeks ago, he said he'd send us a new prototype fuel regulator but it hasn't come yet. He's usually very prompt... Maybe you wouldn't mind going to Ratchet to ask him about it? I wouldn't be so pushy, but the gnomes are gaining on us!",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:3391": 1
+      "npc:3391": 2
      },
      "text": "Pozzik sent you, huh? You know, Pozzik was one of the most respected tinkerers in Undermine before he retired to start working on the racers.\n\nThe first thing he did when he joined the team was develop the two engine model racers. Could be that the businesses will suffer without him working with the Tinkers' Union, but who cares, right? There's nothing like the races!",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:4630": 1
+      "npc:4630": 2
      },
      "template": "questCache",
      "text": "Speak to Gazlowe in Ratchet.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -7250,28 +9193,116 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:3391": 1
+      "npc:3391": 2
      },
      "template": "questCache",
      "text": "Back to what you came here about. I know I promised Pozzik that I'd deliver a new fuel regulator for him, but I still haven't received it yet. Revilgaz over in Booty Bay said he'd have it shipped over, but it might be it slipped through the cracks somehow.$b$bIf that's true, there's not much we can do about it. We can at least find out if it was dispatched from Booty Bay.$b$bCheck in with Wharfmaster Lozgil over there, he should be able to check the cargo records.",
+     "times": 2
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4631": 1
+     },
+     "text": "Shipments to Ratchet? Let me just check the logbooks...\n\nNo, the most recent shipment I have on record of going out to Ratchet were boots from Drizzlik. Hasn't been much else, other than building supplies and tools. Definitely no race parts.",
      "times": 1
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:3391": 1
+      "npc:3391": 2
      },
      "template": "questCache",
      "text": "Speak with Wharfmaster Lozgil in Booty Bay.",
+     "times": 2
+    }
+   ]
+  },
+  "1181": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4631": 1
+     },
+     "template": "questCache",
+     "text": "I'm afraid I can't be of much more help to you, $n. If you'd like to follow up on it more, I'd suggest you go hit up the Baron himself. If there's anyone who knows Revilgaz's business, it's Revilgaz.$b$bYou'll find him at the tavern across the harbor, top floor.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2496": 1
+     },
+     "text": "Oh, sure of course I know what you're talking about. Nope, can't help you though. Some of my men were supposed to go track down the blueprints for the fuel regulator, but they came back empty-handed.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4631": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Baron Revilgaz in Booty Bay.",
+     "times": 1
+    }
+   ]
+  },
+  "1182": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2496": 1
+     },
+     "template": "questCache",
+     "text": "See, the Venture Company shredders out in Lake Nazferiti (in northern Stranglethorn) have been equipped with a new model fuel regulator. I was thinking that Pozzik would be able to take advantage of it, if he could get some details. Unfortunately, Cozzle, the foreman out there, appears to be a little more clever than I gave him credit for.$b$bYou seem like you might have more luck finding the blueprints though. I know he keeps them in his house, but they're almost certainly under lock and key.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2496": 1
+     },
+     "template": "questCache",
+     "text": "Bring the Fuel Regulator Blueprints to Baron Revilgaz in Booty Bay.",
      "times": 1
     }
    ]
@@ -8351,6 +10382,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:6579": 1
+     },
+     "text": "Well done, $N. Thanks to you, Gnomeregan is one step closer to its day of liberation!",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -8362,6 +10406,19 @@
      },
      "template": "questCache",
      "text": "Retrieve the Gnoam Sprecklesprocket from the Deadmines and return it to Shoni the Shilent in Stormwind.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:6579": 1
+     },
+     "text": "Have you found the Gnoam Sprecklesprocket, $N?",
      "times": 1
     }
    ]
@@ -8411,6 +10468,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7790": 1
+     },
+     "text": "The bloodline will fade but perhaps the legend of Omosh will continue!\n\nYou have proven that you are a blacksmith, $N. For the blacksmith the reward is the satisfaction of seeing their weapons and armors coated in the blood of their enemies!\n\nMay the breastplates you create for the generations ahead be drenched in the blood of your enemies!\r\n",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -8422,6 +10492,49 @@
      },
      "template": "questCache",
      "text": "Bring two Patterned Bronze Bracers, two Bronze Greatswords, and two Sharp Claws to Orokk Omosh in Orgrimmar.\r\n",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7790": 1
+     },
+     "text": "Bronze, $N! More bronze!!",
+     "times": 1
+    }
+   ]
+  },
+  "2752": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7790": 1
+     },
+     "template": "questCache",
+     "text": "Orokk sees the eagerness in your eyes, $n. Like a sponge you soak in the wisdom of the Omosh.$B$BThree lessons I shall teach!$B$BReturn to the anvil, soak in the heat of the forge, create for Orokk four bronze battleaxes and four bronze warhammers. Only then will you learn of the iron pauldron.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7790": 1
+     },
+     "template": "questCache",
+     "text": "Bring four Bronze Battleaxes and four Bronze Warhammers to Orokk Omosh in Orgrimmar.",
      "times": 1
     }
    ]
@@ -8471,6 +10584,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7853": 1
+     },
+     "text": "She's a beauty, isn't she? Pinnacle of goblin transport technology -- only exploded a dozen or so times.\n\nDon't worry, $N, I've got her all fixed up. She won't blow up on you - and if she does, it'll be quick and painless.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -8482,6 +10608,49 @@
      },
      "template": "questCache",
      "text": "Speak with Scooty in Booty Bay.",
+     "times": 1
+    }
+   ]
+  },
+  "2843": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7853": 1
+     },
+     "template": "questCache",
+     "text": "As long as you have the transponder in your possession, all you need to do is step on the pad and you'll be teleported to Gnomeregan.$B$BYou may experience some unusual side effects, but none of those should be permanent... anymore.$B$BI almost forgot the most important part - getting back. When you're ready to come back, just step on the transpolyporter pad in Gnomeregan!$B$BNow to calibrate the transponder to your size and weight.\r\n",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7853": 1
+     },
+     "text": "All done! When you're ready, just step on the pad.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7853": 1
+     },
+     "template": "questCache",
+     "text": "Wait for Scooty to calibrate the Goblin Transponder.",
      "times": 1
     }
    ]
@@ -9371,14 +11540,15 @@
    "complete": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:715": 1
+      "npc:715": 2
      },
      "text": "Great, my package from Koalbeard!  Thank you $N.  This crate holds special-gauge ammunition, and it'll serve us well out in the jungle!\n\nHere's your pay, and tell me, how is crusty old Kravel these days?  Still up to no good I'd wager...",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -9398,14 +11568,15 @@
    "progress": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:715": 1
+      "npc:715": 2
      },
      "text": "Is that desert dust on your collar?\n\nHm... if my nose tells true, I'd say it's not desert dust, it's desert salt!   Been to the Shimmering Flats, have you?",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -10662,6 +12833,109 @@
     }
    ]
   },
+  "92460": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251362": 1
+     },
+     "template": "questCache",
+     "text": "Look at you, bright eyed and ready for adventure! We need all the help we can get here in Thendal Village and your arrival is most welcome. I imagine you are brimming with nerves for what is to come. After all, you only get to come of age once in a lifetime.\r\n\r\nGo, seek out our village leader Rorian the Dayseeker at the entrance to the greatfather tree just west of here. He will get you started on your journey.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "text": "Gale's greetings, $N. I am honored to bestow your coming of age relic today as you are recognized for the potential you bring to the shen'dorei. Our people have faced great hardship and persecution in our complex history.\r\n\r\nToday you are given this relic which is one of many held by those before you. Someday when your ashes are scattered to the winds it will pass to another to continue our tradition.\r\n\r\nAs you take this relic with you know that the winds of home will be with you wherever you travel.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251362": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Rorian the Dayseeker in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92461": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "We live in times of great uncertainty for our people. We face unprecedented challenges that may require bold solutions, but we also must contend with the ordinary and mundane here in Thendal Grove. Take, for example, the recent unsustainable rise in the vuldren population.\r\n\r\nThe vuldren are a vital part of our ecosystem. However, imbalances must be corrected to maintain the delicate harmony that all creatures in Thendal Grove share.\r\n\r\nHead east and cull some of the vuldren there.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251361": 1
+     },
+     "template": "questCache",
+     "text": "Slay 8 Vuldren Juveniles in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92462": {
+   "accept": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 1
+     },
+     "template": "questCache",
+     "text": "One of our rangers recently reported an infestation of cirrusflies here in Thendal Grove. \r\n\r\nCirrusflies can be dangerous if the swarm is allowed to grow too large, so please head to the eastern end of the Grove and exterminate as many as you can.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251368": 1
+     },
+     "template": "questCache",
+     "text": "Slay 8 Pesky Cirrusflies in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
   "92463": {
    "complete": [
     {
@@ -10821,6 +13095,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251374": 1
+     },
+     "text": "Good!\n\nThe totem I will craft for you is more than a symbol of your status among $c--it has abilities beyond that. One use of the totem is as a focus for spells. Those spells are tied to the earth, and as you earn greater and greater wisdom, more of the earth's abilities will be made accessible to you.\n\nThe trainers will know when you are ready for greater knowledge.\n\nBut for now, take this earth totem...",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -10832,6 +13119,19 @@
      },
      "template": "questCache",
      "text": "Bring the Rough Quartz to Windshaper Boros in Thendal Grove.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251374": 1
+     },
+     "text": "As you will come to learn, the path we walk is not as simple as it may seem. While we seek to find the voice needed to speak with the spirits of the winds, the winds are but one of the elemental forces of this world. Only through understanding, and--we hope--mastery of all four elements will we regain our voice to again sing the songs of the wind.",
      "times": 1
     }
    ]
@@ -10894,6 +13194,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "text": "Very well done. You've felled beasts and laid low cultist interlopers. You have shown great promise but your path must soon take you beyond the relative safety of Thendal Village.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -10905,6 +13218,19 @@
      },
      "template": "questCache",
      "text": "Slay 8 Ursera Scavengers and collect the head of the den mother, Urs'anah in Thendal Grove.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "text": "What I ask of you is not easy, but you must be prepared for much greater challenges if you are to survive long enough to be of service to Zephras Isle.",
      "times": 1
     }
    ]
@@ -10952,6 +13278,49 @@
     }
    ]
   },
+  "92472": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "template": "questCache",
+     "text": "One of the most pervasive threats on Zephras Isle is the Al'Aketh Cult. They are religious zealots devoted to the worship of the supposed elemental ruler of Skywall, Al'Akir the Windlord. They are brutal, single-minded, and their power and ambitions are growing more deadly by the day.\r\n\r\nYour path will soon take you to Shen'dar Village to the south. Present yourself to Constable Aonda when you arrive. The cult threatens Shen'dar and they are in need of aid. Tell Aonda that I sent you.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "text": "Aetheen sent you, then? I'll confess, you don't look like much to me, but Shen'dar Village won't turn down willing aid, much less aid sent from Elder Aetheen herself.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "template": "questCache",
+     "text": "Report to Constable Aonda in Shen'dar Village.",
+     "times": 1
+    }
+   ]
+  },
   "92473": {
    "accept": [
     {
@@ -10967,6 +13336,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257551": 1
+     },
+     "text": "Well done, $c. The Rangers of the Grove are in your debt.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -10978,6 +13360,134 @@
      },
      "template": "questCache",
      "text": "Collect 6 Scrawny Ursera Claws from Scrawny Ursera in Thendal Grove.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:257551": 1
+     },
+     "text": "The ursera have grown far more aggressive of late. I wonder what has changed to cause this shift in behavior?",
+     "times": 1
+    }
+   ]
+  },
+  "92514": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "You've got that \"Windshaper\" air about you. Something about how I can feel a tiny bit of static on my skin when near someone spirit-touched that gives it away. Before I properly put you to work around here, you should check in with our resident Windshaper elder, Illaya Amberwind. She's just outside, near the center of town.\r\n\r\nOh, and check in with Coriella Calmbreeze as well, she runs the local inn and can provide lodging and supplies, should you need them.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251523": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Illaya Amberwind and Coriella Calmbreeze in Shen'dar Village.",
+     "times": 1
+    }
+   ]
+  },
+  "92544": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252095": 1
+     },
+     "template": "questCache",
+     "text": "A band of Al'Aketh cult ruffians have taken up residence near the temple ruins just southwest of here, led by a real monster called Malduko Cloudcrush. This rabble has no doubt been dispatched here by High Priestess Lorthuna at the Shrine of Akir to attack travelers and coerce our people into joining the cult.\r\n\r\nI need to stay here at my post to alert travelers leaving the grove of the danger, but I would be grateful if you could do something about those cultists and their leader for me.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252095": 1
+     },
+     "text": "It was all I could do to stop myself from going over and joining you from my position here. I can only hope that these louts got the message and clear out of here soon. \r\n\r\nThank you, $c. You have the gratitude of the Rangers of Thendal Grove.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:252095": 1
+     },
+     "template": "questCache",
+     "text": "Slay 6 Al'Aketh Brutes, 4 Al'Aketh Neophytes, and Malduko Cloudcrush in Thendal Grove.",
+     "times": 1
+    }
+   ]
+  },
+  "92595": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251902": 1
+     },
+     "text": "<Illaya smiles warmly at you.> \r\n\r\nI am glad you returned to speak with me, child of the winds. I knew it the first moment you walked into my presence, that you were strong in the skysight. Even for a $C, you show particular aptitude in our gift.\r\n\r\nCome, let us speak about the mandate of the Windshapers, the nature of our struggles on Zephras, and the plight of our people.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251902": 1
+     },
+     "text": "I think you now understand how important the mission of the Windshapers is. Every soul who commands the skysight is of vital importance if we hope to establish dialogue with the spirits of the winds once again.\r\n\r\nBetween threats from within such as the Al'Aketh, and the uncertainty of our safety here in Skywall, it is our responsibility as Windshapers to use our gifts to save our home and ensure that the Shen'dorei can survive these trying times.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251902": 1
+     },
+     "template": "questCache",
+     "text": "Listen to what Illaya Amberwind has to say.",
      "times": 1
     }
    ]
@@ -11238,6 +13748,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253279": 1
+     },
+     "text": "So you found the forge, and planted the bomb... only one thing remains to be done.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -11278,6 +13801,49 @@
      },
      "text": "Long ago, all of the centaur clans in the Desolace agreed to trade in story. Specifically, carved totems that represent an individual or clan's great accomplishments. Despite the endless conflict, all clans continue to honor this tradition, even if trade opportunities between us have become few and far between.\r\n\r\nShould you collect any, such as from fallen centaur of other clans, bring them to me. The Gelkis can use more bartering power, and I will inform the Khan of your assistance.",
      "times": 4
+    }
+   ]
+  },
+  "92819": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253279": 1
+     },
+     "template": "questCache",
+     "text": "We are almost finished. Use the detonator, and end this.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253279": 1
+     },
+     "text": "I don't know what to say, $N. To think that Stormwind would put their military ambitions over the livelihood of their people...",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:253279": 1
+     },
+     "template": "questCache",
+     "text": "Use the detonator.",
+     "times": 1
     }
    ]
   },
@@ -11537,6 +14103,36 @@
     }
    ]
   },
+  "94411": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251902": 1
+     },
+     "template": "questCache",
+     "text": "Be warned, members of the High Order have been seen in the vicinity of the standing stones north of the village. We have warned them time and again to not meddle at our sacred sites, but they are growing more bold in pushing us. Prove your resolve to us by going to the standing stones and dispersing them.\r\n\r\nI am loathe to condone outright bloodshed, but do what you must to drive them off. Return to me when it's done.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251902": 1
+     },
+     "template": "questCache",
+     "text": "Slay 6 High Order Apprentices in Shen'dar Highlands.",
+     "times": 1
+    }
+   ]
+  },
   "94873": {
    "accept": [
     {
@@ -11623,6 +14219,141 @@
     }
    ]
   },
+  "95789": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:773": 1
+     },
+     "template": "questCache",
+     "text": "Hey pal, you look like you can handle yourself in a fight.\r\n\r\nBaron Revilgaz has me keep'n my ear to the ground for magical objects. Word on the street is that a sunken troll ruin has mysteriously become, eh, un-sunk, which means there are a lot of unclaimed goods, if you catch my meaning.\r\n\r\nProblem is, it's also caught the eye of pirates! Not just any pirates, the Saltseers specifically collect magical artifacts. I need you to go into the Drowned City, clear them out and take their stolen artifacts.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:773": 1
+     },
+     "template": "questCache",
+     "text": "Collect $1oa Voodoo Infused Artifacts from Saltseer pirates in the Drowned City.",
+     "times": 1
+    }
+   ]
+  },
+  "95791": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:773": 1
+     },
+     "template": "questCache",
+     "text": "The Saltseer pirates have been a thorn in my side recently and knowing they're in the Drowned City makes it worse! I mean they're always bad news, but there is one captain in particular I want outta the picture. That damned Captain Dreadrise!\r\n\r\nHe and his crew are very accomplished at gathering all the magical artifacts I've been after, and I'm tired of the competition.\r\n\r\nI want you to remove Captain Dreadrise and his Saltseer Coroners from the picture. Permanently.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:773": 1
+     },
+     "template": "questCache",
+     "text": "Slay 3 Saltseer Coroners and Captain Dreadrise in the Drowned City.",
+     "times": 1
+    }
+   ]
+  },
+  "95999": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 4
+     },
+     "sources": 1,
+     "speakers": {
+      "none": 3,
+      "object:649051": 1
+     },
+     "template": "questCache",
+     "text": "Wanted! Incinerator Gar'im, Leader of an orc incursion in Render's Valley. Purported to be working with the Blackrock of Stonewatch Keep.\r\n\r\nBeware of Incinerator Gar'im. He and his Shadowcasters are extremely dangerous. A handsome reward will be given to any brave soul that can deliver proof of Incinerator Gar'im's demise to Magistrate Solomon.",
+     "times": 4
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 4
+     },
+     "sources": 1,
+     "speakers": {
+      "none": 3,
+      "object:649051": 1
+     },
+     "template": "questCache",
+     "text": "Deliver the Broken Staff of Incinerator Gar'im to Magistrate Solomon in Lakeshire.",
+     "times": 4
+    }
+   ]
+  },
+  "96101": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "Greetings, $c. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless souls, seeking fortune and glory.\r\n\r\nYou'll need to learn to thrive in the wilds to be successful in this line of work. Not sure how your outdoor skills are but I can probably teach you a thing or two, if you'd be apt to learn.\r\n\r\nHave a seat near the fire and get comfortable. I'll walk you through it.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "text": "So now that we've learned the basics, why don't you go and learn a tradeskill from the trainers in the village nearby. They will also teach you how to create a camp fixture suitable to your new profession.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "Sit near Raan's Basic Campfire and wait until you receive the Boosted Rest buff.",
+     "times": 1
+    }
+   ]
+  },
   "96222": {
    "accept": [
     {
@@ -11649,6 +14380,92 @@
      },
      "template": "questCache",
      "text": "Bring the Maraudine Key Fragment to Umarak in the Desolace.",
+     "times": 1
+    }
+   ]
+  },
+  "96638": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "template": "questCache",
+     "text": "More and more adventurers like yourself have been seeking glory and fortune outside of the safety of Thendal Grove. There's one such adventurer who has made a camp outside of Shen'dar Village, along the road leading southwest out of Thendal Grove.\r\n\r\nSeek him out and see what you can learn from him that may help you in your own travels.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "text": "Well met!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251366": 1
+     },
+     "template": "questCache",
+     "text": "Speak to Raan Wildwind near Shen'dar Village.",
+     "times": 1
+    }
+   ]
+  },
+  "96646": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "So you want to learn more about camping, huh? Good for you, $c. The first step any adventurer needs to take is to become a cook and learn how to make a campfire.\r\n\r\nCooking's not just about making tasty foods. It's also the foundation for your camp.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:251905": 1
+     },
+     "text": "With this, you'll be able to set up a camp anywhere out in the wilderness. What you've learned is just the basics, so you won't be able to place too many furnishings around it.\r\n\r\nRaise your cooking skill and you might just be able to learn to make even bigger fires.\r\n\r\nYou can also learn the basics of furnishing your campsites from other tradeskill trainers if you're savvy in their skills.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Zerril Softbreeze in Shen'dar Village to learn to become a cook.",
      "times": 1
     }
    ]
@@ -12084,28 +14901,159 @@
    "accept": [
     {
      "sexes": {
-      "female": 1
+      "female": 1,
+      "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "object:661516": 1
+      "object:661516": 2
      },
      "template": "questCache",
      "text": "<As you sift through the debris left behind by a horrible zeppelin crash directly above, you find evidence of a hefty shipment of supplies that has long since been plundered of all its value. Even the shipping labels have been torn and shredded, leaving only the words 'Booty Bay' barely legible on one.\r\n\r\nCountless two-toed footprints and several patches of divotted earth all lead toward ruins in the northwest.>",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 1,
+      "male": 1
+     },
+     "sources": 2,
+     "speakers": {
+      "object:661516": 2
+     },
+     "template": "questCache",
+     "text": "Recover $1oa Stolen Shipments from the Ruins of Zul'Kunda in Stranglethorn Vale and return your haul to someone in Booty Bay.",
+     "times": 2
+    }
+   ]
+  },
+  "97329": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:268992": 2
+     },
+     "template": "questCache",
+     "text": "You! Yes, you! Come here, keep your voice down!\r\n\r\nI screwed up big time. I managed to secure a sweet deal for Booty Bay to use their zeppelin tower for expedited deliveries and on our very first route I saw a huge bird--err, got SHOT DOWN just to the east of here!\r\n\r\nI survived the crash, unfortunately, but before I woke up, I was already being dragged by my ears! Now I'm surrounded by bloodthirsty trolls and locked in a cage!\r\n\r\nLook, I just need the key, okay? I can escape on my own.",
+     "times": 2
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:268992": 1
+     },
+     "text": "Is that the key?\r\n\r\n<Zimmix lunges forward against the front of the cage and he repeatedly attempts to swipe the key from your possession.>\r\n\r\nJust hand it over!",
      "times": 1
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 1
+      "male": 2
      },
      "sources": 1,
      "speakers": {
-      "object:661516": 1
+      "npc:268992": 2
      },
      "template": "questCache",
-     "text": "Recover $1oa Stolen Shipments from the Ruins of Zul'Kunda in Stranglethorn Vale and return your haul to someone in Booty Bay.",
+     "text": "Bring the Primitive Key obtained from the trolls at the Ruins of Zul'kunda in Stranglethorn Vale to Zimmix Sputterspark.",
+     "times": 2
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:268992": 1
+     },
+     "text": "Listen, I like you and all, but you standing around here is making us look suspicious! If you don't have the key then, I dunno, GO GET IT!\r\n\r\nPlease?",
+     "times": 1
+    }
+   ]
+  },
+  "97331": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:268992": 1
+     },
+     "template": "questCache",
+     "text": "Wait, wait, don't go yet!\r\n\r\nI know I said I just needed the key but... well, they caught me once, they could do it again, right? I'm just one goblin, and there's hundreds of trolls around here!\r\n\r\nYou've already put enough of a dent in their numbers to get this key, so it should be easy enough to stand guard while we mosey on out of here, huh?",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4631": 1
+     },
+     "text": "Oh my gold. YOU were the one that rescued Zimmix?\r\n\r\nYour timing could not have been worse. We just had a celebratory toast thinking he was finally out of our hair for good, and we have another critical delivery coming up that has yet to be assigned. Of course, he's already trying to claim it and, of course, I have to argue against it or we risk another one of his big blunders!\r\n\r\nWord of advice: If you see a goblin trapped in a cage, they probably deserve it. Just leave them there next time.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:268992": 1
+     },
+     "template": "questCache",
+     "text": "Escort Zimmix Sputterspark away from the Ruins of Zul'Kunda then tell Wharfmaster Lozgil in Booty Bay of your successful rescue.",
+     "times": 1
+    }
+   ]
+  },
+  "97453": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:269166": 1
+     },
+     "template": "questCache",
+     "text": "Hi, can you help me?\r\n\r\nMy parents finally let me come along with them to this big jungle and they even let me pick a few plants just outside the gates. I'm trying to study herbalism so I can be an alchemist one day!\r\n\r\nAnyway, I almost filled my backpack when a bunch of huge, angry weeds came out of nowhere and started spitting at me!\r\n\r\nI ran away, and I'm fine, but now they won't let me play outside of the camp anymore. Can you make it safe for me, and then tell my mum?",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:269166": 1
+     },
+     "template": "questCache",
+     "text": "Slay $1oa Carnivorous Weeds south of Grom'gol and then inform Gemmil's mother.",
      "times": 1
     }
    ]
@@ -12136,6 +15084,36 @@
      },
      "template": "questCache",
      "text": "Check on Gorbold Steelhand in Auberdine in Darkshore.\r\n\r\nBorgus mentioned a boat on the southern-most dock in Stormwind Harbor that can take you there.",
+     "times": 1
+    }
+   ]
+  },
+  "97970": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "Mining isn't the most glamorous, but it's good honest work and a fine profession for you to explore.\r\n\r\nI reckon I know someone that can teach you how to craft a Lodestone for your camp. Build one of these and everyone who wants to swing a sword will be eager to gather round your fire and soak up the extra \"oomph\" it can provide to increase their combat prowess.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:263664": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Messana Crestwind in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
      "times": 1
     }
    ]
@@ -12366,6 +15344,62 @@
       "npc:271866": 1
      },
      "text": "The deceased Night Watchman lying before you is covered in deep gashes and cuts. It's clear to see that he was mauled by some sort of large beast.\r\n\r\nYou notice that the corpse has an unlit torch in his hand. You reach down and pry it from his stiff fingers. This could be useful in your travels through Duskwood and beyond to reveal things hidden by darkness.",
+     "times": 1
+    }
+   ]
+  },
+  "98387": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "template": "questCache",
+     "text": "You can't fight a war without weapons.\r\n\r\nThough the Blackrock orcs have encroached upon these lands, their brazen efforts are not without certain vulnerabilities.\r\n\r\nHead southeast below Stonewatch Keep, seek out their encampments, and target their weapons and supplies.\r\n\r\nWe'll see just how much of a threat they are without their tools of war.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "text": "Excellent work, $N. With the Blackrock orcs cut off from their allies in the Burning Steppes, they will have no hope of maintaining their foothold here without proper supplies.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "template": "questCache",
+     "text": "Bring $1oa Stolen Weapons and $2oa Blackrock Supplies to Marshal Marris in Lakeshire.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:382": 1
+     },
+     "text": "Most of what you find will have been raided from Lakeshire anyway. It will do me good to know our people will thrive while the orcs wither.",
      "times": 1
     }
    ]

@@ -1,0 +1,754 @@
+{
+ "books": {
+  "item:5838": {
+   "1": {
+    "texts": [
+     {
+      "sexes": {
+       "male": 1
+      },
+      "sources": 1,
+      "text": "To face Frostmaw, you must entice him with the meat of his favorite prey.\r\n\r\nGo to the Alterac Mountains in Azeroth and hunt a hulking mountain lion.  Kill it, and then take its carcass to the Growless Cave, a place held sacred by the bestial wendigo.\r\n\r\nPlace the carcass on the Flame of Uzel and the scent from burning meat will drift from the cave.\r\n\r\nAnd then, in time, Frostmaw will come.\r\n",
+      "times": 1
+     }
+    ],
+    "title": "Kodo Skin Scroll"
+   }
+  },
+  "item:7587": {
+   "1": {
+    "texts": [
+     {
+      "sexes": {
+       "male": 1
+      },
+      "sources": 1,
+      "text": "$N, below are the items needed to create your armor:\r\n\r\nSmokey iron ingots from the Windshear kobolds in the Windshear mine in the Stonetalon Mountains.\r\n\r\nPowdered azurite from the Hillsbrad miners in Hillsbrad.\r\n\r\nIron bars from miners, or from iron deposits if you are a miner.\r\n\r\nVial of phlogiston, from a quilboar named Roogug in Razorfen Kraul.\r\n",
+      "times": 1
+     }
+    ],
+    "title": "Thun'grim's Instructions"
+   }
+  }
+ },
+ "gossip": {
+  "npc:10378": [
+   {
+    "broadcastTextIds": [
+     10030
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Though the Crossroads seems to be the center of activity in The Barrens, I prefer the quietude of Camp Taurajo.  Where shall I send you?",
+    "times": 1
+   }
+  ],
+  "npc:1385": [
+   {
+    "broadcastTextIds": [
+     8014
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "We have only a small foothold on this continent for now, but the humans can't fight us off forever. Then they'll pay for enslaving us. We'll cut their lying tongues out for their treachery.",
+    "times": 1
+   }
+  ],
+  "npc:16227": [
+   {
+    "broadcastTextIds": [
+     10753
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Where would you like to fly to?",
+    "times": 2
+   }
+  ],
+  "npc:2425": [
+   {
+    "broadcastTextIds": [
+     7217
+    ],
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "Do not presume to speak to me as though you are my equal, $c. Sylvanas is my queen, and I will do as she bids.$B$BIf you do not show the proper respect, I assure you, we can find a more than suitable place for you in the Nether.$B$BBut there is no reason we cannot have words if you wish to aid the Dark Lady...",
+    "times": 2
+   }
+  ],
+  "npc:3043": [
+   {
+    "broadcastTextIds": [
+     3354
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "No matter how much one learns, there is always more to know.",
+    "times": 1
+   }
+  ],
+  "npc:3615": [
+   {
+    "broadcastTextIds": [
+     8111
+    ],
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "My wind riders are trained to fly quickly through the hot Barrens air.",
+    "times": 1
+   }
+  ]
+ },
+ "greeting": {
+  "npc:2055": [
+   {
+    "sexes": {
+     "male": 3
+    },
+    "sources": 1,
+    "text": "The Royal Apothecary Society shall heed The Dark Lady's call to uncover the New Plague and drive Arthas and his heathen Scourge Army from the world once and for all.",
+    "times": 3
+   }
+  ],
+  "npc:2497": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Eh? Ya have business with Nimboya?",
+    "times": 1
+   }
+  ],
+  "npc:3441": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "To hunt a beast, one must know that beast.  One must learn and respect its ways.\n\nTo do otherwise is not to hunt.  To do otherwise is merely to kill.",
+    "times": 1
+   }
+  ],
+  "npc:3446": [
+   {
+    "sexes": {
+     "male": 2
+    },
+    "sources": 1,
+    "text": "Yes yes yes!  You're just the skyborne I'm looking for!\n\nSit!  We have much to discuss!!",
+    "times": 2
+   }
+  ],
+  "npc:5878": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "My vision has darkened, but there are many kinds of sight...",
+    "times": 1
+   }
+  ]
+ },
+ "meta": {
+  "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
+  "clientBuild": "1.60.1.70938",
+  "collectedOn": {
+   "first": "2026-11-13",
+   "last": "2026-11-13"
+  },
+  "dataset": "texts",
+  "license": "CC BY 4.0",
+  "locale": "enUS",
+  "product": "wowf",
+  "schemaVersion": 1,
+  "sources": 1,
+  "withheld": {
+   "addon": {
+    "books": 0,
+    "gossip": 0,
+    "greeting": 0,
+    "quests": 0
+   },
+   "names": {
+    "books": 0,
+    "gossip": 0,
+    "greeting": 0,
+    "quests": 0
+   }
+  }
+ },
+ "quests": {
+  "495": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2227": 1
+     },
+     "template": "questCache",
+     "text": "Mug'Thol and his ogre warband was sent to Alterac to retrieve the Crown of Will for Lady Sylvanas. Unfortunately, instead of returning it, the idiot decided to try it on... I suppose ogres can't resist anything bright and shiny.$b$bHis bumbling actions have become something of a problem, however. The Crown of Will enabled him to resist the possession placed upon him to serve Lady Sylvanas.$b$bThe Dark Lady wants an example made, travel to Tarren Mill in Hillsbrad and report to Melisara, my lieutenant.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2227": 1
+     },
+     "template": "questCache",
+     "text": "Report to Melisara at Tarren Mill in the Hillsbrad Foothills.",
+     "times": 1
+    }
+   ]
+  },
+  "515": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2055": 1
+     },
+     "template": "questCache",
+     "text": "A mudsnout composite?  Absolutely brilliant!  Why didn't I think of that?$b$bLet me contribute my colloid of decay to this devilish brew.$b$bIn order to activate the contaminating agents in this mudsnout mixture, Lydon is going to need a strong troll's blood elixir, as well as some daggerspine scales and torn fin eyes from the southern coast of Hillsbrad.  He'll know what to do once you've gathered him all the reagents.  And my, how anxious I am to hear how his experiment goes!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2055": 1
+     },
+     "template": "questCache",
+     "text": "Bring the Mudsnout Mixture, a Strong Troll's Blood Elixir, 5 Daggerspine Scales and 5 Torn Fin Eyes to Apothecary Lydon in Tarren Mill.",
+     "times": 1
+    }
+   ]
+  },
+  "1048": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2425": 1
+     },
+     "template": "questCache",
+     "text": "Whilst the Dark Lady tends to the pressing issue of the Lich King's advance to the north, I am seeing to it that matters closer to home are being taken care of accordingly.$b$bNo doubt, the human pests who call themselves the Scarlet Crusade are proving to be the sharpest thorn in our side domestically. Tirisfal Glades is literally crawling with the little red ants.$b$bTravel to the Monastery, $c, and lay waste to High Inquisitor Whitemane and her top lieutenants.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2425": 1
+     },
+     "template": "questCache",
+     "text": "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity.",
+     "times": 1
+    }
+   ]
+  },
+  "1069": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3446": 1
+     },
+     "template": "questCache",
+     "text": "Spider egg omelettes are a new fad in Booty Bay!  The problem is... Booty Bay's got no eggs.$B$BI smell an opportunity!$B$BIn Windshear Crag and Sishir Canyon, in the Stonetalon Mountains to the northwest, lives the deepmoss spider.  Bring me its eggs and I'll pay a bundle!$B$BIn Windshear Crag, the eggs will be clustered under what trees remain.$B$BIn Sishir Canyon... well, if you have a weak stomach then maybe you should just collect the eggs at Windshear Crag...",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3446": 1
+     },
+     "template": "questCache",
+     "text": "Bring 15 Deepmoss Eggs to Mebok Mizzyrix in Ratchet.",
+     "times": 1
+    }
+   ]
+  },
+  "1102": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4451": 1
+     },
+     "text": "I see the nasty tribe of Razorfen Kraul now knows the pain of my people. Serves the foul beasts right.\n\nTo drive one from a holy land is a sin worthy of the most severe revenge.\n\nThank you, $N, for aiding me in my plight.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4451": 1
+     },
+     "text": "Once I know the foul beasts of Razorfen Kraul have been driven from their foul lair, I will be able to rest in peace, knowing that revenge has been served.\n\nHave you the driven the quilboar from the Kraul? Do you bring to me good news in the form of Razorflank's heart?",
+     "times": 1
+    }
+   ]
+  },
+  "1109": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2055": 1
+     },
+     "text": "Splendid! This is just the start we needed, $N.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2055": 1
+     },
+     "text": "Ah, I see you have returned. Were you able to procure any Kraul Guano?",
+     "times": 1
+    }
+   ]
+  },
+  "1113": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2055": 1
+     },
+     "template": "questCache",
+     "text": "Why do I need a rare type of guano, you might ask. Well, for this experiment I want to see what effect two diametrically opposed chemical substances can have on each other, especially when both are combined with an ever-toxic agent to ensure the most... ghastly results.$b$bIn the northeastern peaks of Tirisfal Glades lies the Scarlet Monastery. There the crazed disciples of the Scarlet Crusade congregate. Slay them and bring me their zealous hearts.$b$bOur concoction will be most wicked!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2055": 1
+     },
+     "template": "questCache",
+     "text": "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal.",
+     "times": 1
+    }
+   ]
+  },
+  "1136": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3441": 1
+     },
+     "text": "Both strength and cunning were needed to find and defeat Frostmaw, $N.  You have both.\n\nYour path has taken you to the valleys of Thousand Needles and to the high mountains of Alterac.  It will one day lead you through all the Earthmother's lands, for such is the way of the hunter.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3441": 1
+     },
+     "text": "Have you been to the Alterac Mountains, $N?  Did you face the elusive Frostmaw?",
+     "times": 1
+    }
+   ]
+  },
+  "1144": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "none": 1
+     },
+     "text": "Thanks again, friend! I told you I'd make it worth your while.",
+     "times": 1
+    }
+   ]
+  },
+  "1205": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3441": 1
+     },
+     "template": "questCache",
+     "text": "Deadmire is an ancient crocolisk in Dustwallow marsh.  And it is his time to die.$B$BOld bones grind as he pulls his huge body through the swamp, and although he still moves with the strength and speed of youth, his aging body tortures the great spirit within it, a spirit whose flame will not waver.$B$BYet now he lives in constant, maddening pain.  You must end the life of this noble creature, $n.  You must lead Deadmire to peace.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3441": 1
+     },
+     "template": "questCache",
+     "text": "Bring Deadmire's Tooth to Melor in Thunder Bluff.",
+     "times": 1
+    }
+   ]
+  },
+  "1221": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3446": 1
+     },
+     "template": "questCache",
+     "text": "Blueleaf tubers are a delicacy around the world!  But they're rare, very rare.  The only place to find them is here in the Barrens, deep in the earth, in Razorfen Kraul.$B$BAnd even then, they're impossible to find unless you know just where to look!  That's why I've trained these snufflenose gophers to find them for me.  They have great noses and can smell a tuber from fifty paces away.$B$BIt won't be easy, but if you get me some tubers I'll pay you handsomely.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3446": 1
+     },
+     "text": "Great, you got them!  I can sell these to my contacts for a bundle!\n\nThanks for the delivery, $N!  You are a great partner. ",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3446": 1
+     },
+     "template": "questCache",
+     "text": "Grab a Crate with Holes.$BGrab a Snufflenose Command Stick.$BGrab and read the Snufflenose Owner's Manual.$B$BIn Razorfen Kraul, use the Crate with Holes to summon a Snufflenose Gopher, and use the Command Stick on the gopher to make it search for Tubers.$B$BBring 6 Blueleaf Tubers, the Snufflenose Command Stick and the Crate with Holes to Mebok Mizzyrix in Ratchet.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3446": 1
+     },
+     "text": "Do you have the tubers, $N?",
+     "times": 1
+    }
+   ]
+  },
+  "1838": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5878": 1
+     },
+     "text": "You brought all that I asked.  Now, I will do my part...",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5878": 1
+     },
+     "text": "Do you have the items on my scroll, $N?",
+     "times": 1
+    }
+   ]
+  },
+  "1841": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5878": 1
+     },
+     "template": "questCache",
+     "text": "It is said that, before her death, Velora Nitely was one of the finest armorsmiths in Lordaeron.  Death, it seems, has not decreased her talents.  Speak with Velora--she will make your brutal legguards.$B$BVelora plies her trade in the Undercity of Lordaeron, in the trade quarter.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5878": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Velora Nitely in the Undercity.",
+     "times": 1
+    }
+   ]
+  },
+  "1848": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:5878": 1
+     },
+     "text": "I am sure you endured much hardship and shed much blood on my task, $N.  Here is the product of your toil.\n\nMay you wear it well, and may you one day return here with stories of its service to you.",
+     "times": 1
+    }
+   ]
+  },
+  "2932": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2497": 1
+     },
+     "template": "questCache",
+     "text": "The Witherbark trolls were once allies to the Horde, but they betrayed Thrall... and that must be punished!$B$BHere, take my pike and go to the Hinterlands, far to the north.  You will find it northeast of Tarren Mill, a village held by our allies, the Forsaken.$B$BWhen you enter the Hinterlands, hunt Witherbark trolls.  Gather their skulls and drive my pike into the ground at one of their smaller villages, Hiri'watha or Zun'watha.$B$BShow them their vile actions are of consequence!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2497": 1
+     },
+     "template": "questCache",
+     "text": "Gather Witherbark Skulls and place on Nimboya's Pike.  Place Nimboya's Laden Pike at one of the Witherbark Villages in the Hinterlands, then return to Nimboya in Stranglethorn.",
+     "times": 1
+    }
+   ]
+  },
+  "6521": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2425": 1
+     },
+     "template": "questCache",
+     "text": "Malcin claims he is outside Razorfen Downs. This ambassador must be slain--his mission a failure in the eyes of the Lich King.$B$BHis presence there does explain much of what we've discovered about the area--some of the quilboar have grown frightfully powerful while showing signs of the Plague in their own way. Truly that must be a sign of some sort of deal they've struck.$B$BFind Malcin and slay him, $n. Return to me after the deed is done.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2425": 1
+     },
+     "template": "questCache",
+     "text": "Bring Ambassador Malcin's Head to Varimathras in the Undercity.",
+     "times": 1
+    }
+   ]
+  },
+  "6522": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "none": 1
+     },
+     "template": "questCache",
+     "text": "My Lady,$B$BYou know very well what it is we are offering. The opportunity for you to take the Barrens and the lands beyond is a great one. We simply want your aid in return. By aid we mean nothing more than your giving us the freedom to take action in the area.$B$BPlease, allow us to discuss this further. We have great power and are willing to share with those wise enough to join us. I will remain outside Razorfen Downs for the time being.$B$BBest Regards,$BAmbassador Malcin",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2425": 1
+     },
+     "text": "I recognize the insignia on this scroll, $N. You found this on that crone who reigns over Razorfen Kraul? Interesting.\n\nThe Scourge aren't content with one continent it seems. This Ambassador Malcin--the one who wrote the note--is one of the Scourge's plagued servants, a human diplomat to the kingdom of Lordaeron before things... changed.\n\nIf the Scourge are trying to gain a foothold in Kalimdor, then it is up to us to act.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "none": 1
+     },
+     "template": "questCache",
+     "text": "Take the Small Scroll to Varimathras in the Undercity.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2425": 1
+     },
+     "text": "What business is it you wish to speak of, $N? You must feel it is important if you continue to pester me.",
+     "times": 1
+    }
+   ]
+  },
+  "97985": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:270038": 1
+     },
+     "text": "Excellent! I can hardly contain my excitement. Oh, and the heart still has electrical pulses? That's impressive. I won't have to shock it back to life then!\r\n\r\nThis heart will be a wonderful addition to the abomination, and certainly looks to be the specified size, if these notes are correct.\r\n\r\nAh, I love it when a plan comes together.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:270038": 1
+     },
+     "text": "Oh, you've returned in one piece! Pity, if you hadn't your flesh and organs would have made excellent fodder for my tinkering.",
+     "times": 1
+    }
+   ]
+  }
+ }
+}
