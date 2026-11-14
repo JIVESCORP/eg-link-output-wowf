@@ -4666,10 +4666,10 @@
   },
   "575": {
    "combatLog": {
-    "deaths": 2,
-    "entries": 2,
+    "deaths": 4,
+    "entries": 4,
     "levels": {
-     "36": 2
+     "36": 4
     },
     "maxHealth": {
      "36": [
@@ -4683,8 +4683,8 @@
     },
     "melee": {
      "36": {
-      "high": 61,
-      "hits": 12,
+      "high": 73,
+      "hits": 24,
       "low": 39
      }
     },
@@ -4693,12 +4693,24 @@
      {
       "map": 189,
       "uiMap": 0,
+      "x": 1637.83,
+      "y": -340.65
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1661.75,
+      "y": -366.71
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
       "x": 1707.99,
       "y": -340.34
      }
     ],
     "sources": 2,
-    "spawns": 2
+    "spawns": 5
    }
   },
   "587": {
@@ -17523,7 +17535,7 @@
     "normal"
    ],
    "levels": {
-    "30": 6
+    "30": 8
    },
    "name": "Fyr Mistrunner",
    "reactions": {
@@ -17532,7 +17544,7 @@
      6
     ]
    },
-   "seen": 6,
+   "seen": 8,
    "sources": 2
   },
   "3004": {
@@ -17850,7 +17862,7 @@
     "normal"
    ],
    "levels": {
-    "55": 23
+    "55": 32
    },
    "name": "Bluffwatcher",
    "reactions": {
@@ -17859,7 +17871,7 @@
      6
     ]
    },
-   "seen": 23,
+   "seen": 32,
    "sources": 3
   },
   "3085": {
@@ -18917,6 +18929,13 @@
    "classifications": [
     "normal"
    ],
+   "combatLog": {
+    "deaths": 0,
+    "entries": 1,
+    "name": "Orgrimmar Grunt",
+    "sources": 1,
+    "spawns": 3
+   },
    "levels": {
     "55": 40
    },
@@ -19223,6 +19242,15 @@
    },
    "seen": 1,
    "sources": 1
+  },
+  "3373": {
+   "combatLog": {
+    "deaths": 0,
+    "entries": 1,
+    "name": "Arnok",
+    "sources": 1,
+    "spawns": 1
+   }
   },
   "3379": {
    "classifications": [
@@ -20732,26 +20760,31 @@
   "3975": {
    "combatLog": {
     "casts": {
+     "8260": {
+      "name": "Rushing Charge",
+      "starts": 0,
+      "successes": 3
+     },
      "8269": {
       "name": "Enrage",
       "starts": 0,
-      "successes": 2
+      "successes": 3
      },
      "8989": {
       "name": "Whirlwind",
       "starts": 0,
-      "successes": 4
+      "successes": 7
      },
      "22540": {
       "name": "Cleave",
       "starts": 0,
-      "successes": 8
+      "successes": 9
      }
     },
-    "deaths": 2,
-    "entries": 2,
+    "deaths": 3,
+    "entries": 3,
     "levels": {
-     "40": 2
+     "40": 3
     },
     "maxHealth": {
      "40": [
@@ -20765,9 +20798,9 @@
     },
     "melee": {
      "40": {
-      "high": 491,
-      "hits": 22,
-      "low": 343
+      "high": 758,
+      "hits": 33,
+      "low": 323
      }
     },
     "name": "Herod",
@@ -20780,7 +20813,7 @@
      }
     ],
     "sources": 2,
-    "spawns": 2
+    "spawns": 3
    }
   },
   "3978": {
@@ -24705,7 +24738,7 @@
      }
     },
     "deaths": 1,
-    "entries": 2,
+    "entries": 4,
     "levels": {
      "30": 2
     },
@@ -24727,8 +24760,8 @@
      },
      "?": {
       "high": 108,
-      "hits": 6,
-      "low": 88
+      "hits": 8,
+      "low": 82
      }
     },
     "name": "Scarlet Scout",
@@ -24741,7 +24774,7 @@
      }
     ],
     "sources": 2,
-    "spawns": 3
+    "spawns": 5
    },
    "levels": {
     "29": 1,
@@ -24769,7 +24802,7 @@
      }
     },
     "deaths": 2,
-    "entries": 3,
+    "entries": 4,
     "levels": {
      "30": 2
     },
@@ -24790,8 +24823,8 @@
       "low": 46
      },
      "?": {
-      "high": 46,
-      "hits": 6,
+      "high": 47,
+      "hits": 9,
       "low": 38
      }
     },
@@ -24811,7 +24844,7 @@
      }
     ],
     "sources": 2,
-    "spawns": 5
+    "spawns": 7
    },
    "levels": {
     "30": 1
@@ -24830,11 +24863,11 @@
     "elite"
    ],
    "combatLog": {
-    "deaths": 8,
-    "entries": 4,
+    "deaths": 9,
+    "entries": 5,
     "levels": {
      "30": 2,
-     "31": 7
+     "31": 8
     },
     "maxHealth": {
      "30": [
@@ -24857,8 +24890,8 @@
      },
      "31": {
       "high": 113,
-      "hits": 64,
-      "low": 88
+      "hits": 77,
+      "low": 87
      },
      "?": {
       "high": 116,
@@ -24883,6 +24916,12 @@
      {
       "map": 0,
       "uiMap": 1420,
+      "x": 2887.18,
+      "y": -772.36
+     },
+     {
+      "map": 0,
+      "uiMap": 1420,
       "x": 2903.83,
       "y": -800.68
      },
@@ -24900,7 +24939,7 @@
      }
     ],
     "sources": 2,
-    "spawns": 14
+    "spawns": 15
    },
    "levels": {
     "30": 3,
@@ -24923,15 +24962,15 @@
     "casts": {
      "9613": {
       "name": "Shadow Bolt",
-      "starts": 14,
-      "successes": 9
+      "starts": 19,
+      "successes": 12
      }
     },
-    "deaths": 2,
-    "entries": 2,
+    "deaths": 3,
+    "entries": 3,
     "levels": {
-     "30": 1,
-     "31": 2
+     "30": 2,
+     "31": 3
     },
     "maxHealth": {
      "30": [
@@ -24950,12 +24989,12 @@
     "melee": {
      "30": {
       "high": 61,
-      "hits": 1,
-      "low": 61
+      "hits": 2,
+      "low": 58
      },
      "31": {
       "high": 52,
-      "hits": 4,
+      "hits": 5,
       "low": 47
      }
     },
@@ -24978,10 +25017,22 @@
       "uiMap": 1420,
       "x": 2853.36,
       "y": -755.75
+     },
+     {
+      "map": 0,
+      "uiMap": 1420,
+      "x": 2888.6,
+      "y": -787.99
+     },
+     {
+      "map": 0,
+      "uiMap": 1420,
+      "x": 2890.55,
+      "y": -810.98
      }
     ],
     "sources": 2,
-    "spawns": 5
+    "spawns": 7
    },
    "levels": {
     "30": 1,
@@ -25088,14 +25139,14 @@
      "3639": {
       "name": "Improved Blocking",
       "starts": 0,
-      "successes": 50
+      "successes": 70
      }
     },
-    "deaths": 32,
-    "entries": 2,
+    "deaths": 43,
+    "entries": 4,
     "levels": {
-     "35": 22,
-     "36": 10
+     "35": 30,
+     "36": 13
     },
     "maxHealth": {
      "35": [
@@ -25113,17 +25164,23 @@
     "melee": {
      "35": {
       "high": 130,
-      "hits": 140,
+      "hits": 215,
       "low": 77
      },
      "36": {
       "high": 133,
-      "hits": 117,
-      "low": 100
+      "hits": 159,
+      "low": 54
      }
     },
     "name": "Scarlet Soldier",
     "positions": [
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1620.11,
+      "y": -325.05
+     },
      {
       "map": 189,
       "uiMap": 0,
@@ -25163,6 +25220,12 @@
      {
       "map": 189,
       "uiMap": 0,
+      "x": 1670.93,
+      "y": -348.57
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
       "x": 1678.26,
       "y": -347.92
      },
@@ -25175,14 +25238,14 @@
      {
       "map": 189,
       "uiMap": 0,
-      "x": 1699.02,
-      "y": -372.04
+      "x": 1696.42,
+      "y": -370.03
      },
      {
       "map": 189,
       "uiMap": 0,
-      "x": 1700.57,
-      "y": -357.27
+      "x": 1697.87,
+      "y": -360.07
      },
      {
       "map": 189,
@@ -25195,6 +25258,18 @@
       "uiMap": 0,
       "x": 1710.72,
       "y": -336.77
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1715.22,
+      "y": -364.64
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1744.97,
+      "y": -368.13
      },
      {
       "map": 189,
@@ -25216,7 +25291,7 @@
      }
     ],
     "sources": 2,
-    "spawns": 32
+    "spawns": 45
    }
   },
   "4287": {
@@ -25425,8 +25500,8 @@
     "casts": {
      "2601": {
       "name": "Fire Shield III",
-      "starts": 8,
-      "successes": 8
+      "starts": 10,
+      "successes": 10
      },
      "8422": {
       "name": "Flamestrike",
@@ -25435,15 +25510,15 @@
      },
      "9053": {
       "name": "Fireball",
-      "starts": 34,
-      "successes": 18
+      "starts": 46,
+      "successes": 20
      }
     },
-    "deaths": 8,
-    "entries": 2,
+    "deaths": 12,
+    "entries": 3,
     "levels": {
-     "36": 2,
-     "37": 6
+     "36": 5,
+     "37": 7
     },
     "maxHealth": {
      "36": [
@@ -25460,14 +25535,25 @@
      ]
     },
     "melee": {
+     "36": {
+      "high": 57,
+      "hits": 11,
+      "low": 32
+     },
      "37": {
       "high": 58,
-      "hits": 18,
+      "hits": 20,
       "low": 49
      }
     },
     "name": "Scarlet Evoker",
     "positions": [
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1720.02,
+      "y": -362.94
+     },
      {
       "map": 189,
       "uiMap": 0,
@@ -25489,12 +25575,18 @@
      {
       "map": 189,
       "uiMap": 0,
+      "x": 1849.5,
+      "y": -416.36
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
       "x": 1900.45,
       "y": -403.89
      }
     ],
     "sources": 2,
-    "spawns": 8
+    "spawns": 12
    }
   },
   "4290": {
@@ -25503,19 +25595,19 @@
      "676": {
       "name": "Disarm",
       "starts": 0,
-      "successes": 10
+      "successes": 21
      },
      "7164": {
       "name": "Defensive Stance",
       "starts": 0,
-      "successes": 10
+      "successes": 21
      }
     },
-    "deaths": 10,
-    "entries": 2,
+    "deaths": 21,
+    "entries": 3,
     "levels": {
-     "36": 4,
-     "37": 6
+     "36": 9,
+     "37": 12
     },
     "maxHealth": {
      "36": [
@@ -25532,14 +25624,14 @@
     },
     "melee": {
      "36": {
-      "high": 234,
-      "hits": 44,
-      "low": 159
+      "high": 243,
+      "hits": 84,
+      "low": 143
      },
      "37": {
       "high": 262,
-      "hits": 50,
-      "low": 149
+      "hits": 107,
+      "low": 147
      }
     },
     "name": "Scarlet Guardsman",
@@ -25553,8 +25645,20 @@
      {
       "map": 189,
       "uiMap": 0,
-      "x": 1748.24,
-      "y": -375.17
+      "x": 1745.76,
+      "y": -371.2
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1756.69,
+      "y": -365.14
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1772.96,
+      "y": -380.15
      },
      {
       "map": 189,
@@ -25565,8 +25669,38 @@
      {
       "map": 189,
       "uiMap": 0,
+      "x": 1776.3,
+      "y": -408.33
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1802.6,
+      "y": -424.78
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
       "x": 1806.46,
       "y": -404.54
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1806.85,
+      "y": -429.0
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1849.7,
+      "y": -385.86
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1876.93,
+      "y": -397.44
      },
      {
       "map": 189,
@@ -25576,7 +25710,7 @@
      }
     ],
     "sources": 2,
-    "spawns": 10
+    "spawns": 21
    }
   },
   "4291": {
@@ -25703,20 +25837,20 @@
     "casts": {
      "3472": {
       "name": "Holy Light",
-      "starts": 24,
-      "successes": 4
+      "starts": 40,
+      "successes": 10
      },
      "8258": {
       "name": "Devotion Aura",
       "starts": 0,
-      "successes": 16
+      "successes": 26
      }
     },
-    "deaths": 20,
-    "entries": 2,
+    "deaths": 31,
+    "entries": 3,
     "levels": {
-     "36": 8,
-     "37": 12
+     "36": 13,
+     "37": 18
     },
     "maxHealth": {
      "36": [
@@ -25734,13 +25868,13 @@
     },
     "melee": {
      "36": {
-      "high": 120,
-      "hits": 72,
-      "low": 94
+      "high": 124,
+      "hits": 123,
+      "low": 73
      },
      "37": {
       "high": 128,
-      "hits": 94,
+      "hits": 173,
       "low": 75
      }
     },
@@ -25749,8 +25883,26 @@
      {
       "map": 189,
       "uiMap": 0,
+      "x": 1744.55,
+      "y": -368.36
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1747.19,
+      "y": -407.45
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
       "x": 1753.6,
       "y": -361.73
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1773.45,
+      "y": -411.58
      },
      {
       "map": 189,
@@ -25773,18 +25925,42 @@
      {
       "map": 189,
       "uiMap": 0,
+      "x": 1802.1,
+      "y": -401.3
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1877.16,
+      "y": -383.49
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1900.23,
+      "y": -375.54
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
       "x": 1907.68,
       "y": -388.68
      },
      {
       "map": 189,
       "uiMap": 0,
-      "x": 1927.19,
-      "y": -391.24
+      "x": 1926.0,
+      "y": -394.77
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1931.72,
+      "y": -363.25
      }
     ],
     "sources": 2,
-    "spawns": 20
+    "spawns": 31
    }
   },
   "4293": {
@@ -25859,14 +26035,14 @@
      "8269": {
       "name": "Enrage",
       "starts": 0,
-      "successes": 22
+      "successes": 30
      }
     },
-    "deaths": 22,
-    "entries": 2,
+    "deaths": 30,
+    "entries": 3,
     "levels": {
-     "37": 12,
-     "38": 10
+     "37": 15,
+     "38": 15
     },
     "maxHealth": {
      "37": [
@@ -25884,12 +26060,12 @@
     "melee": {
      "37": {
       "high": 258,
-      "hits": 270,
-      "low": 47
+      "hits": 385,
+      "low": 41
      },
      "38": {
       "high": 261,
-      "hits": 190,
+      "hits": 321,
       "low": 41
      }
     },
@@ -25898,20 +26074,26 @@
      {
       "map": 189,
       "uiMap": 0,
-      "x": 1849.55,
-      "y": -429.11
+      "x": 1847.8,
+      "y": -428.79
      },
      {
       "map": 189,
       "uiMap": 0,
-      "x": 1851.88,
-      "y": -385.46
+      "x": 1849.43,
+      "y": -388.46
      },
      {
       "map": 189,
       "uiMap": 0,
       "x": 1852.28,
       "y": -404.63
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1867.63,
+      "y": -382.69
      },
      {
       "map": 189,
@@ -25934,24 +26116,36 @@
      {
       "map": 189,
       "uiMap": 0,
+      "x": 1898.46,
+      "y": -366.25
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1901.71,
+      "y": -373.53
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
       "x": 1924.6,
       "y": -437.97
      },
      {
       "map": 189,
       "uiMap": 0,
-      "x": 1927.45,
-      "y": -363.28
+      "x": 1927.19,
+      "y": -391.24
      },
      {
       "map": 189,
       "uiMap": 0,
-      "x": 1931.53,
-      "y": -391.43
+      "x": 1927.45,
+      "y": -363.28
      }
     ],
     "sources": 2,
-    "spawns": 22
+    "spawns": 30
    }
   },
   "4296": {
@@ -26040,16 +26234,21 @@
   "4297": {
    "combatLog": {
     "casts": {
+     "8985": {
+      "name": "Summon Fire Elemental",
+      "starts": 0,
+      "successes": 1
+     },
      "9053": {
       "name": "Fireball",
-      "starts": 6,
+      "starts": 10,
       "successes": 2
      }
     },
-    "deaths": 2,
-    "entries": 2,
+    "deaths": 4,
+    "entries": 4,
     "levels": {
-     "36": 2
+     "36": 5
     },
     "maxHealth": {
      "36": [
@@ -26063,8 +26262,8 @@
     },
     "melee": {
      "36": {
-      "high": 47,
-      "hits": 8,
+      "high": 57,
+      "hits": 13,
       "low": 28
      }
     },
@@ -26073,12 +26272,30 @@
      {
       "map": 189,
       "uiMap": 0,
+      "x": 1637.66,
+      "y": -340.38
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1642.49,
+      "y": -356.17
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1660.4,
+      "y": -365.87
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
       "x": 1710.91,
       "y": -339.66
      }
     ],
     "sources": 2,
-    "spawns": 2
+    "spawns": 5
    }
   },
   "4298": {
@@ -26087,24 +26304,24 @@
      "3639": {
       "name": "Improved Blocking",
       "starts": 0,
-      "successes": 54
+      "successes": 98
      },
      "7164": {
       "name": "Defensive Stance",
       "starts": 0,
-      "successes": 30
+      "successes": 45
      },
      "11972": {
       "name": "Shield Bash",
       "starts": 0,
-      "successes": 52
+      "successes": 97
      }
     },
-    "deaths": 30,
-    "entries": 2,
+    "deaths": 45,
+    "entries": 4,
     "levels": {
-     "37": 18,
-     "38": 12
+     "37": 22,
+     "38": 23
     },
     "maxHealth": {
      "37": [
@@ -26122,12 +26339,12 @@
     "melee": {
      "37": {
       "high": 136,
-      "hits": 190,
-      "low": 75
+      "hits": 248,
+      "low": 74
      },
      "38": {
       "high": 139,
-      "hits": 118,
+      "hits": 298,
       "low": 73
      }
     },
@@ -26150,6 +26367,12 @@
       "uiMap": 0,
       "x": 1848.53,
       "y": -430.0
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1849.55,
+      "y": -418.03
      },
      {
       "map": 189,
@@ -26196,18 +26419,54 @@
      {
       "map": 189,
       "uiMap": 0,
+      "x": 1899.73,
+      "y": -412.5
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1899.83,
+      "y": -383.49
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1901.84,
+      "y": -378.89
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1905.94,
+      "y": -390.76
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1920.64,
+      "y": -421.96
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1924.11,
+      "y": -438.25
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
       "x": 1925.25,
       "y": -409.28
      },
      {
       "map": 189,
       "uiMap": 0,
-      "x": 1927.43,
-      "y": -436.99
+      "x": 1927.75,
+      "y": -433.58
      }
     ],
     "sources": 2,
-    "spawns": 30
+    "spawns": 46
    }
   },
   "4299": {
@@ -35103,6 +35362,15 @@
    "seen": 1,
    "sources": 1
   },
+  "4949": {
+   "combatLog": {
+    "deaths": 0,
+    "entries": 1,
+    "name": "Thrall",
+    "sources": 1,
+    "spawns": 1
+   }
+  },
   "4961": {
    "classifications": [
     "normal"
@@ -36425,6 +36693,15 @@
    "seen": 5,
    "sources": 2
   },
+  "5907": {
+   "combatLog": {
+    "deaths": 0,
+    "entries": 1,
+    "name": "Kranal Fiss",
+    "sources": 1,
+    "spawns": 1
+   }
+  },
   "5910": {
    "classifications": [
     "normal"
@@ -37645,10 +37922,10 @@
   },
   "6575": {
    "combatLog": {
-    "deaths": 40,
-    "entries": 2,
+    "deaths": 60,
+    "entries": 3,
     "levels": {
-     "30": 40
+     "30": 60
     },
     "maxHealth": {
      "30": [
@@ -37663,7 +37940,7 @@
     "melee": {
      "30": {
       "high": 48,
-      "hits": 28,
+      "hits": 59,
       "low": 26
      }
     },
@@ -37674,6 +37951,12 @@
       "uiMap": 0,
       "x": 1946.58,
       "y": -434.43
+     },
+     {
+      "map": 189,
+      "uiMap": 0,
+      "x": 1954.84,
+      "y": -447.66
      },
      {
       "map": 189,
@@ -37690,8 +37973,8 @@
      {
       "map": 189,
       "uiMap": 0,
-      "x": 1966.99,
-      "y": -441.1
+      "x": 1966.21,
+      "y": -441.66
      },
      {
       "map": 189,
@@ -37708,18 +37991,18 @@
      {
       "map": 189,
       "uiMap": 0,
-      "x": 1976.11,
-      "y": -421.13
+      "x": 1975.22,
+      "y": -438.98
      },
      {
       "map": 189,
       "uiMap": 0,
-      "x": 1978.69,
-      "y": -438.7
+      "x": 1976.11,
+      "y": -421.13
      }
     ],
     "sources": 2,
-    "spawns": 40
+    "spawns": 60
    }
   },
   "6579": {
@@ -40899,7 +41182,7 @@
     "normal"
    ],
    "levels": {
-    "30": 5
+    "30": 8
    },
    "name": "Chepi",
    "reactions": {
@@ -40908,7 +41191,7 @@
      6
     ]
    },
-   "seen": 5,
+   "seen": 8,
    "sources": 2
   },
   "8362": {
@@ -41220,7 +41503,7 @@
     "normal"
    ],
    "levels": {
-    "50": 11
+    "50": 21
    },
    "name": "Auctioneer Stampi",
    "reactions": {
@@ -41229,7 +41512,7 @@
      6
     ]
    },
-   "seen": 11,
+   "seen": 21,
    "sources": 3
   },
   "8719": {
@@ -41269,7 +41552,7 @@
     "normal"
    ],
    "levels": {
-    "50": 6
+    "50": 16
    },
    "name": "Auctioneer Gullem",
    "reactions": {
@@ -41278,7 +41561,7 @@
      6
     ]
    },
-   "seen": 6,
+   "seen": 16,
    "sources": 3
   },
   "8724": {
@@ -41760,7 +42043,7 @@
     "normal"
    ],
    "levels": {
-    "30": 4
+    "30": 7
    },
    "name": "Bulrug",
    "reactions": {
@@ -41768,7 +42051,7 @@
      6
     ]
    },
-   "seen": 4,
+   "seen": 7,
    "sources": 1
   },
   "10057": {
@@ -42131,10 +42414,10 @@
   "10719": {
    "combatLog": {
     "deaths": 0,
-    "entries": 4,
+    "entries": 6,
     "name": "Herald of Thrall",
     "sources": 2,
-    "spawns": 53
+    "spawns": 67
    }
   },
   "10720": {
@@ -42486,7 +42769,7 @@
     "normal"
    ],
    "levels": {
-    "3": 6
+    "3": 10
    },
    "name": "Bluff Runner Windstrider",
    "reactions": {
@@ -42495,7 +42778,7 @@
      6
     ]
    },
-   "seen": 6,
+   "seen": 10,
    "sources": 3
   },
   "10896": {
@@ -45444,6 +45727,13 @@
    "classifications": [
     "elite"
    ],
+   "combatLog": {
+    "deaths": 0,
+    "entries": 1,
+    "name": "Scout Manslayer",
+    "sources": 1,
+    "spawns": 1
+   },
    "levels": {
     "60": 2
    },
@@ -45473,6 +45763,15 @@
    },
    "seen": 2,
    "sources": 2
+  },
+  "14392": {
+   "combatLog": {
+    "deaths": 0,
+    "entries": 1,
+    "name": "Overlord Runthak",
+    "sources": 1,
+    "spawns": 1
+   }
   },
   "14394": {
    "classifications": [
@@ -45527,7 +45826,7 @@
     "elite"
    ],
    "levels": {
-    "60": 5
+    "60": 9
    },
    "name": "Hunter Sagewind",
    "reactions": {
@@ -45536,7 +45835,7 @@
      6
     ]
    },
-   "seen": 5,
+   "seen": 9,
    "sources": 2
   },
   "14441": {
@@ -45544,7 +45843,7 @@
     "elite"
    ],
    "levels": {
-    "60": 5
+    "60": 7
    },
    "name": "Hunter Ragetotem",
    "reactions": {
@@ -45553,7 +45852,7 @@
      6
     ]
    },
-   "seen": 5,
+   "seen": 7,
    "sources": 3
   },
   "14442": {
@@ -45561,7 +45860,7 @@
     "elite"
    ],
    "levels": {
-    "60": 5
+    "60": 11
    },
    "name": "Hunter Thunderhorn",
    "reactions": {
@@ -45570,13 +45869,20 @@
      6
     ]
    },
-   "seen": 5,
+   "seen": 11,
    "sources": 2
   },
   "14720": {
    "classifications": [
     "elite"
    ],
+   "combatLog": {
+    "deaths": 0,
+    "entries": 1,
+    "name": "High Overlord Saurfang",
+    "sources": 1,
+    "spawns": 1
+   },
    "levels": {
     "62": 1
    },
@@ -45605,6 +45911,15 @@
    },
    "seen": 2,
    "sources": 2
+  },
+  "14727": {
+   "combatLog": {
+    "deaths": 0,
+    "entries": 1,
+    "name": "Vehena",
+    "sources": 1,
+    "spawns": 1
+   }
   },
   "14728": {
    "classifications": [
@@ -45644,10 +45959,10 @@
    ],
    "combatLog": {
     "deaths": 0,
-    "entries": 6,
+    "entries": 7,
     "name": "Sayge",
     "sources": 5,
-    "spawns": 6
+    "spawns": 7
    },
    "levels": {
     "55": 2
@@ -45846,7 +46161,7 @@
     "normal"
    ],
    "levels": {
-    "30": 27
+    "30": 33
    },
    "name": "Warsong Emissary",
    "reactions": {
@@ -45854,7 +46169,7 @@
      4
     ]
    },
-   "seen": 27,
+   "seen": 33,
    "sources": 2
   },
   "15188": {
@@ -51621,6 +51936,15 @@
    "seen": 1,
    "sources": 1
   },
+  "269863": {
+   "combatLog": {
+    "deaths": 0,
+    "entries": 2,
+    "name": "Stormwind Crier",
+    "sources": 1,
+    "spawns": 3
+   }
+  },
   "270038": {
    "classifications": [
     "normal"
@@ -52230,7 +52554,7 @@
   "clientBuild": "1.60.1.70888",
   "collectedOn": {
    "first": "2026-11-10",
-   "last": "2026-11-13"
+   "last": "2026-11-14"
   },
   "combatLogUploads": 10,
   "dataset": "creatures",
