@@ -4,7 +4,7 @@
   "clientBuild": "1.60.1.70938",
   "collectedOn": {
    "first": "2026-11-16",
-   "last": "2026-11-16"
+   "last": "2026-11-17"
   },
   "dataset": "trainers",
   "license": "CC BY 4.0",
@@ -3973,6 +3973,154 @@
    "tradeskill": true,
    "trainerType": 2
   },
+  "1430": {
+   "lastSeen": "2026-11-17",
+   "name": "Tomas",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.4427,
+     "mapY": 0.6603,
+     "uiMap": 1429,
+     "worldX": -9467.8,
+     "worldY": -1.1
+    }
+   ],
+   "services": {
+    "2539": {
+     "category": "Agility Food",
+     "costs": {
+      "6": 45
+     },
+     "icon": 134021,
+     "level": 0,
+     "name": "Spiced Wolf Meat",
+     "skill": "Cooking",
+     "skillRank": 10,
+     "sources": 1,
+     "spellId": 2539
+    },
+    "2541": {
+     "category": "Agility Food",
+     "costs": {
+      "6": 90
+     },
+     "icon": 134021,
+     "level": 0,
+     "name": "Coyote Steak",
+     "skill": "Cooking",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 2541
+    },
+    "2544": {
+     "category": "Intellect Food",
+     "costs": {
+      "6": 180
+     },
+     "icon": 133950,
+     "level": 0,
+     "name": "Crab Cake",
+     "skill": "Cooking",
+     "skillRank": 75,
+     "sources": 1,
+     "spellId": 2544
+    },
+    "2546": {
+     "category": "Strength Food",
+     "costs": {
+      "6": 135
+     },
+     "icon": 134004,
+     "level": 0,
+     "name": "Dry Pork Ribs",
+     "skill": "Cooking",
+     "skillRank": 80,
+     "sources": 1,
+     "spellId": 2546
+    },
+    "2550": {
+     "costs": {
+      "6": 90
+     },
+     "icon": 133971,
+     "level": 0,
+     "name": "Apprentice Cook",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2550
+    },
+    "3102": {
+     "costs": {
+      "6": 450
+     },
+     "icon": 133971,
+     "level": 0,
+     "name": "Journeyman Cook",
+     "skill": "Cooking",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 3102,
+     "step": true
+    },
+    "6499": {
+     "category": "Everyday Meals",
+     "costs": {
+      "6": 90
+     },
+     "icon": 134432,
+     "level": 0,
+     "name": "Boiled Clams",
+     "skill": "Cooking",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 6499
+    },
+    "6500": {
+     "category": "Everyday Meals",
+     "costs": {
+      "6": 270
+     },
+     "icon": 134431,
+     "level": 0,
+     "name": "Goblin Deviled Clams",
+     "skill": "Cooking",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 6500
+    },
+    "21175": {
+     "category": "Everyday Meals",
+     "costs": {
+      "6": 3600
+     },
+     "icon": 134022,
+     "level": 0,
+     "name": "Spider Sausage",
+     "skill": "Cooking",
+     "skillRank": 200,
+     "sources": 1,
+     "spellId": 21175
+    },
+    "1229737": {
+     "category": "Camping",
+     "costs": {
+      "6": 90
+     },
+     "icon": 7808148,
+     "level": 0,
+     "name": "Basic Campfire Kit",
+     "rankText": "Tier 1",
+     "skill": "Cooking",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 1229737
+    }
+   },
+   "sources": 1,
+   "tradeskill": true,
+   "trainerType": 2
+  },
   "2834": {
    "lastSeen": "2026-11-14",
    "name": "Myizz Luckycatch",
@@ -4552,16 +4700,16 @@
    "trainerType": 2
   },
   "2879": {
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "name": "Karrina Mekenda",
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.6747,
-     "mapY": 0.3678,
+     "mapX": 0.675,
+     "mapY": 0.3683,
      "uiMap": 1453,
-     "worldX": -8421.9,
-     "worldY": 550.7
+     "worldX": -8422.4,
+     "worldY": 550.1
     }
    ],
    "services": {
@@ -4615,7 +4763,7 @@
       "5": 1400
      },
      "icon": 136112,
-     "level": 24,
+     "level": 0,
      "name": "Great Stamina",
      "rankText": "Rank 4",
      "skillRank": 0,
@@ -5119,7 +5267,7 @@
       "5": 1400
      },
      "icon": 136094,
-     "level": 24,
+     "level": 0,
      "name": "Natural Armor",
      "rankText": "Rank 4",
      "skillRank": 0,
@@ -11229,7 +11377,7 @@
    "trainerType": 2
   },
   "3354": {
-   "lastSeen": "2026-11-15",
+   "lastSeen": "2026-11-16",
    "name": "Sorek",
    "positions": [
     {
@@ -11244,7 +11392,8 @@
    "services": {
     "72": {
      "costs": {
-      "5": 900
+      "5": 900,
+      "6": 810
      },
      "icon": 132357,
      "level": 0,
@@ -11256,7 +11405,8 @@
     },
     "100": {
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132337,
      "level": 0,
@@ -11270,7 +11420,8 @@
       "Heroic Strike"
      ],
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 132282,
      "level": 0,
@@ -11284,7 +11435,8 @@
       "Heroic Strike"
      ],
      "costs": {
-      "5": 1500
+      "5": 1500,
+      "6": 1350
      },
      "icon": 132282,
      "level": 0,
@@ -11295,7 +11447,8 @@
     },
     "674": {
      "costs": {
-      "5": 3400
+      "5": 3400,
+      "6": 3060
      },
      "icon": 132147,
      "level": 20,
@@ -11310,7 +11463,8 @@
       "Defensive Stance"
      ],
      "costs": {
-      "5": 3200
+      "5": 3200,
+      "6": 2880
      },
      "icon": 132343,
      "level": 0,
@@ -11321,7 +11475,8 @@
     },
     "694": {
      "costs": {
-      "5": 1500
+      "5": 1500,
+      "6": 1350
      },
      "icon": 132350,
      "level": 0,
@@ -11333,7 +11488,8 @@
     },
     "750": {
      "costs": {
-      "5": 23000
+      "5": 23000,
+      "6": 20700
      },
      "icon": 132736,
      "level": 40,
@@ -11344,7 +11500,8 @@
     },
     "772": {
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132155,
      "level": 0,
@@ -11356,7 +11513,8 @@
     },
     "845": {
      "costs": {
-      "5": 3400
+      "5": 3400,
+      "6": 3060
      },
      "icon": 132338,
      "level": 0,
@@ -11371,7 +11529,8 @@
       "Defensive Stance"
      ],
      "costs": {
-      "5": 11000
+      "5": 11000,
+      "6": 9900
      },
      "icon": 132362,
      "level": 0,
@@ -11382,7 +11541,8 @@
     },
     "1160": {
      "costs": {
-      "5": 1100
+      "5": 1100,
+      "6": 990
      },
      "icon": 132366,
      "level": 0,
@@ -11394,7 +11554,8 @@
     },
     "1161": {
      "costs": {
-      "5": 7600
+      "5": 7600,
+      "6": 6840
      },
      "icon": 132091,
      "level": 0,
@@ -11408,7 +11569,8 @@
       "Heroic Strike"
      ],
      "costs": {
-      "5": 6400
+      "5": 6400,
+      "6": 5760
      },
      "icon": 132282,
      "level": 0,
@@ -11423,7 +11585,8 @@
       "Shield Bash (Rank 1)"
      ],
      "costs": {
-      "5": 13000
+      "5": 13000,
+      "6": 11700
      },
      "icon": 132357,
      "level": 32,
@@ -11438,7 +11601,8 @@
       "Shield Bash (Rank 2)"
      ],
      "costs": {
-      "5": 39000
+      "5": 39000,
+      "6": 35100
      },
      "icon": 132357,
      "level": 52,
@@ -11453,10 +11617,11 @@
       "Berserker Stance"
      ],
      "costs": {
-      "5": 18000
+      "5": 18000,
+      "6": 16200
      },
      "icon": 132369,
-     "level": 36,
+     "level": 0,
      "name": "Whirlwind",
      "skillRank": 0,
      "sources": 1,
@@ -11464,7 +11629,8 @@
     },
     "1715": {
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 132316,
      "level": 0,
@@ -11479,7 +11645,8 @@
       "Berserker Stance"
      ],
      "costs": {
-      "5": 36000
+      "5": 36000,
+      "6": 32400
      },
      "icon": 132109,
      "level": 50,
@@ -11493,7 +11660,8 @@
       "Defensive Stance"
      ],
      "costs": {
-      "5": 1500
+      "5": 1500,
+      "6": 1350
      },
      "icon": 132110,
      "level": 0,
@@ -11504,7 +11672,8 @@
     },
     "2687": {
      "costs": {
-      "5": 700
+      "5": 700,
+      "6": 630
      },
      "icon": 132277,
      "level": 0,
@@ -11515,7 +11684,8 @@
     },
     "3127": {
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132269,
      "level": 6,
@@ -11530,7 +11700,8 @@
       "Battle Shout"
      ],
      "costs": {
-      "5": 900
+      "5": 900,
+      "6": 810
      },
      "icon": 132333,
      "level": 0,
@@ -11541,7 +11712,8 @@
     },
     "5246": {
      "costs": {
-      "5": 5500
+      "5": 5500,
+      "6": 4950
      },
      "icon": 132154,
      "level": 0,
@@ -11552,7 +11724,8 @@
     },
     "5308": {
      "costs": {
-      "5": 6400
+      "5": 6400,
+      "6": 5760
      },
      "icon": 135358,
      "level": 0,
@@ -11566,7 +11739,8 @@
       "Charge"
      ],
      "costs": {
-      "5": 7600
+      "5": 7600,
+      "6": 6840
      },
      "icon": 132337,
      "level": 0,
@@ -11581,7 +11755,8 @@
       "Demoralizing Shout (Rank 1)"
      ],
      "costs": {
-      "5": 6400
+      "5": 6400,
+      "6": 5760
      },
      "icon": 132366,
      "level": 24,
@@ -11596,7 +11771,8 @@
       "Battle Shout"
      ],
      "costs": {
-      "5": 5500
+      "5": 5500,
+      "6": 4950
      },
      "icon": 132333,
      "level": 0,
@@ -11607,7 +11783,8 @@
     },
     "6343": {
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 136105,
      "level": 0,
@@ -11621,7 +11798,8 @@
       "Rend (Rank 1)"
      ],
      "costs": {
-      "5": 700
+      "5": 700,
+      "6": 630
      },
      "icon": 132155,
      "level": 0,
@@ -11636,7 +11814,8 @@
       "Rend (Rank 2)"
      ],
      "costs": {
-      "5": 3400
+      "5": 3400,
+      "6": 3060
      },
      "icon": 132155,
      "level": 0,
@@ -11651,7 +11830,8 @@
       "Rend (Rank 3)"
      ],
      "costs": {
-      "5": 12000
+      "5": 12000,
+      "6": 10800
      },
      "icon": 132155,
      "level": 0,
@@ -11666,7 +11846,8 @@
       "Berserker Stance"
      ],
      "costs": {
-      "5": 19000
+      "5": 19000,
+      "6": 17100
      },
      "icon": 132938,
      "level": 38,
@@ -11681,7 +11862,8 @@
       "Pummel (Rank 1)"
      ],
      "costs": {
-      "5": 48000
+      "5": 48000,
+      "6": 43200
      },
      "icon": 132938,
      "level": 58,
@@ -11696,7 +11878,8 @@
       "Defensive Stance"
      ],
      "costs": {
-      "5": 1100
+      "5": 1100,
+      "6": 990
      },
      "icon": 132353,
      "level": 0,
@@ -11711,7 +11894,8 @@
       "Revenge (Rank 1)"
      ],
      "costs": {
-      "5": 6400
+      "5": 6400,
+      "6": 5760
      },
      "icon": 132353,
      "level": 24,
@@ -11723,7 +11907,8 @@
     },
     "6673": {
      "costs": {
-      "5": 10
+      "5": 10,
+      "6": 9
      },
      "icon": 132333,
      "level": 0,
@@ -11737,7 +11922,8 @@
       "Cleave (Rank 1)"
      ],
      "costs": {
-      "5": 12000
+      "5": 12000,
+      "6": 10800
      },
      "icon": 132338,
      "level": 0,
@@ -11749,13 +11935,14 @@
     },
     "7372": {
      "abilities": [
-      "Hamstring (Rank 1)"
+      "Hamstring"
      ],
      "costs": {
-      "5": 13000
+      "5": 13000,
+      "6": 11700
      },
      "icon": 132316,
-     "level": 32,
+     "level": 0,
      "name": "Hamstring",
      "rankText": "Rank 2",
      "skillRank": 0,
@@ -11767,7 +11954,8 @@
       "Hamstring (Rank 2)"
      ],
      "costs": {
-      "5": 40000
+      "5": 40000,
+      "6": 36000
      },
      "icon": 132316,
      "level": 54,
@@ -11782,7 +11970,8 @@
       "Revenge (Rank 2)"
      ],
      "costs": {
-      "5": 14000
+      "5": 14000,
+      "6": 12600
      },
      "icon": 132353,
      "level": 34,
@@ -11794,7 +11983,8 @@
     },
     "7384": {
      "costs": {
-      "5": 900
+      "5": 900,
+      "6": 810
      },
      "icon": 132223,
      "level": 0,
@@ -11809,7 +11999,8 @@
       "Mocking Blow (Rank 1)"
      ],
      "costs": {
-      "5": 7600
+      "5": 7600,
+      "6": 6840
      },
      "icon": 132350,
      "level": 26,
@@ -11824,7 +12015,8 @@
       "Mocking Blow (Rank 2)"
      ],
      "costs": {
-      "5": 18000
+      "5": 18000,
+      "6": 16200
      },
      "icon": 132350,
      "level": 36,
@@ -11839,7 +12031,8 @@
       "Sunder Armor"
      ],
      "costs": {
-      "5": 5500
+      "5": 5500,
+      "6": 4950
      },
      "icon": 132363,
      "level": 0,
@@ -11853,7 +12046,8 @@
       "Overpower (Rank 1)"
      ],
      "costs": {
-      "5": 11000
+      "5": 11000,
+      "6": 9900
      },
      "icon": 132223,
      "level": 0,
@@ -11868,7 +12062,8 @@
       "Thunder Clap"
      ],
      "costs": {
-      "5": 3200
+      "5": 3200,
+      "6": 2880
      },
      "icon": 136105,
      "level": 0,
@@ -11883,7 +12078,8 @@
       "Thunder Clap (Rank 2)"
      ],
      "costs": {
-      "5": 11000
+      "5": 11000,
+      "6": 9900
      },
      "icon": 136105,
      "level": 28,
@@ -11898,7 +12094,8 @@
       "Thunder Clap (Rank 3)"
      ],
      "costs": {
-      "5": 19000
+      "5": 19000,
+      "6": 17100
      },
      "icon": 136105,
      "level": 38,
@@ -11913,7 +12110,8 @@
       "Sunder Armor"
      ],
      "costs": {
-      "5": 14000
+      "5": 14000,
+      "6": 12600
      },
      "icon": 132363,
      "level": 0,
@@ -11928,7 +12126,8 @@
       "Slam (Rank 2)"
      ],
      "costs": {
-      "5": 19000
+      "5": 19000,
+      "6": 17100
      },
      "icon": 132340,
      "level": 38,
@@ -11943,7 +12142,8 @@
       "Battle Shout"
      ],
      "costs": {
-      "5": 13000
+      "5": 13000,
+      "6": 11700
      },
      "icon": 132333,
      "level": 0,
@@ -11958,7 +12158,8 @@
       "Battle Shout (Rank 4)"
      ],
      "costs": {
-      "5": 30000
+      "5": 30000,
+      "6": 27000
      },
      "icon": 132333,
      "level": 42,
@@ -11973,7 +12174,8 @@
       "Battle Shout (Rank 5)"
      ],
      "costs": {
-      "5": 39000
+      "5": 39000,
+      "6": 35100
      },
      "icon": 132333,
      "level": 52,
@@ -11988,7 +12190,8 @@
       "Demoralizing Shout (Rank 2)"
      ],
      "costs": {
-      "5": 14000
+      "5": 14000,
+      "6": 12600
      },
      "icon": 132366,
      "level": 34,
@@ -12003,7 +12206,8 @@
       "Demoralizing Shout (Rank 3)"
      ],
      "costs": {
-      "5": 31000
+      "5": 31000,
+      "6": 27900
      },
      "icon": 132366,
      "level": 44,
@@ -12018,7 +12222,8 @@
       "Demoralizing Shout (Rank 4)"
      ],
      "costs": {
-      "5": 40000
+      "5": 40000,
+      "6": 36000
      },
      "icon": 132366,
      "level": 54,
@@ -12030,13 +12235,14 @@
     },
     "11564": {
      "abilities": [
-      "Heroic Strike (Rank 4)"
+      "Heroic Strike"
      ],
      "costs": {
-      "5": 13000
+      "5": 13000,
+      "6": 11700
      },
      "icon": 132282,
-     "level": 32,
+     "level": 0,
      "name": "Heroic Strike",
      "rankText": "Rank 5",
      "skillRank": 0,
@@ -12048,7 +12254,8 @@
       "Heroic Strike (Rank 5)"
      ],
      "costs": {
-      "5": 23000
+      "5": 23000,
+      "6": 20700
      },
      "icon": 132282,
      "level": 40,
@@ -12063,7 +12270,8 @@
       "Heroic Strike (Rank 6)"
      ],
      "costs": {
-      "5": 33000
+      "5": 33000,
+      "6": 29700
      },
      "icon": 132282,
      "level": 48,
@@ -12078,7 +12286,8 @@
       "Heroic Strike (Rank 7)"
      ],
      "costs": {
-      "5": 42000
+      "5": 42000,
+      "6": 37800
      },
      "icon": 132282,
      "level": 56,
@@ -12093,7 +12302,8 @@
       "Rend (Rank 4)"
      ],
      "costs": {
-      "5": 23000
+      "5": 23000,
+      "6": 20700
      },
      "icon": 132155,
      "level": 40,
@@ -12108,7 +12318,8 @@
       "Rend (Rank 5)"
      ],
      "costs": {
-      "5": 36000
+      "5": 36000,
+      "6": 32400
      },
      "icon": 132155,
      "level": 50,
@@ -12123,7 +12334,8 @@
       "Rend (Rank 6)"
      ],
      "costs": {
-      "5": 49000
+      "5": 49000,
+      "6": 44100
      },
      "icon": 132155,
      "level": 60,
@@ -12138,7 +12350,8 @@
       "Charge (Rank 2)"
      ],
      "costs": {
-      "5": 32000
+      "5": 32000,
+      "6": 28800
      },
      "icon": 132337,
      "level": 46,
@@ -12153,7 +12366,8 @@
       "Thunder Clap (Rank 4)"
      ],
      "costs": {
-      "5": 33000
+      "5": 33000,
+      "6": 29700
      },
      "icon": 136105,
      "level": 48,
@@ -12168,7 +12382,8 @@
       "Thunder Clap (Rank 5)"
      ],
      "costs": {
-      "5": 48000
+      "5": 48000,
+      "6": 43200
      },
      "icon": 136105,
      "level": 58,
@@ -12183,7 +12398,8 @@
       "Overpower (Rank 2)"
      ],
      "costs": {
-      "5": 31000
+      "5": 31000,
+      "6": 27900
      },
      "icon": 132223,
      "level": 44,
@@ -12198,7 +12414,8 @@
       "Overpower (Rank 3)"
      ],
      "costs": {
-      "5": 49000
+      "5": 49000,
+      "6": 44100
      },
      "icon": 132223,
      "level": 60,
@@ -12213,7 +12430,8 @@
       "Sunder Armor (Rank 3)"
      ],
      "costs": {
-      "5": 32000
+      "5": 32000,
+      "6": 28800
      },
      "icon": 132363,
      "level": 46,
@@ -12228,7 +12446,8 @@
       "Sunder Armor (Rank 4)"
      ],
      "costs": {
-      "5": 48000
+      "5": 48000,
+      "6": 43200
      },
      "icon": 132363,
      "level": 58,
@@ -12243,7 +12462,8 @@
       "Revenge (Rank 3)"
      ],
      "costs": {
-      "5": 31000
+      "5": 31000,
+      "6": 27900
      },
      "icon": 132353,
      "level": 44,
@@ -12258,7 +12478,8 @@
       "Revenge (Rank 4)"
      ],
      "costs": {
-      "5": 40000
+      "5": 40000,
+      "6": 36000
      },
      "icon": 132353,
      "level": 54,
@@ -12273,7 +12494,8 @@
       "Slam (Rank 3)"
      ],
      "costs": {
-      "5": 32000
+      "5": 32000,
+      "6": 28800
      },
      "icon": 132340,
      "level": 46,
@@ -12288,7 +12510,8 @@
       "Slam (Rank 4)"
      ],
      "costs": {
-      "5": 40000
+      "5": 40000,
+      "6": 36000
      },
      "icon": 132340,
      "level": 54,
@@ -12303,7 +12526,8 @@
       "Cleave (Rank 2)"
      ],
      "costs": {
-      "5": 23000
+      "5": 23000,
+      "6": 20700
      },
      "icon": 132338,
      "level": 40,
@@ -12318,7 +12542,8 @@
       "Cleave (Rank 3)"
      ],
      "costs": {
-      "5": 36000
+      "5": 36000,
+      "6": 32400
      },
      "icon": 132338,
      "level": 50,
@@ -12333,7 +12558,8 @@
       "Berserker Stance"
      ],
      "costs": {
-      "5": 12000
+      "5": 12000,
+      "6": 10800
      },
      "icon": 136009,
      "level": 0,
@@ -12344,7 +12570,8 @@
     },
     "20230": {
      "costs": {
-      "5": 3400
+      "5": 3400,
+      "6": 3060
      },
      "icon": 132336,
      "level": 0,
@@ -12358,7 +12585,8 @@
       "Mocking Blow (Rank 3)"
      ],
      "costs": {
-      "5": 32000
+      "5": 32000,
+      "6": 28800
      },
      "icon": 132350,
      "level": 46,
@@ -12373,7 +12601,8 @@
       "Mocking Blow (Rank 4)"
      ],
      "costs": {
-      "5": 42000
+      "5": 42000,
+      "6": 37800
      },
      "icon": 132350,
      "level": 56,
@@ -12388,7 +12617,8 @@
       "Cleave (Rank 4)"
      ],
      "costs": {
-      "5": 49000
+      "5": 49000,
+      "6": 44100
      },
      "icon": 132338,
      "level": 60,
@@ -12403,7 +12633,8 @@
       "Intercept (Rank 1)"
      ],
      "costs": {
-      "5": 30000
+      "5": 30000,
+      "6": 27000
      },
      "icon": 132307,
      "level": 42,
@@ -12418,7 +12649,8 @@
       "Intercept (Rank 2)"
      ],
      "costs": {
-      "5": 39000
+      "5": 39000,
+      "6": 35100
      },
      "icon": 132307,
      "level": 52,
@@ -12433,7 +12665,8 @@
       "Execute"
      ],
      "costs": {
-      "5": 13000
+      "5": 13000,
+      "6": 11700
      },
      "icon": 135358,
      "level": 0,
@@ -12448,7 +12681,8 @@
       "Execute (Rank 2)"
      ],
      "costs": {
-      "5": 23000
+      "5": 23000,
+      "6": 20700
      },
      "icon": 135358,
      "level": 40,
@@ -12463,7 +12697,8 @@
       "Execute (Rank 3)"
      ],
      "costs": {
-      "5": 33000
+      "5": 33000,
+      "6": 29700
      },
      "icon": 135358,
      "level": 48,
@@ -12478,7 +12713,8 @@
       "Execute (Rank 4)"
      ],
      "costs": {
-      "5": 42000
+      "5": 42000,
+      "6": 37800
      },
      "icon": 135358,
      "level": 56,
@@ -12493,7 +12729,8 @@
       "Mortal Strike"
      ],
      "costs": {
-      "5": 33000
+      "5": 33000,
+      "6": 29700
      },
      "icon": 132355,
      "level": 48,
@@ -12508,7 +12745,8 @@
       "Mortal Strike (Rank 2)"
      ],
      "costs": {
-      "5": 40000
+      "5": 40000,
+      "6": 36000
      },
      "icon": 132355,
      "level": 54,
@@ -12523,7 +12761,8 @@
       "Mortal Strike (Rank 3)"
      ],
      "costs": {
-      "5": 49000
+      "5": 49000,
+      "6": 44100
      },
      "icon": 132355,
      "level": 60,
@@ -12538,7 +12777,8 @@
       "Bloodthirst"
      ],
      "costs": {
-      "5": 33000
+      "5": 33000,
+      "6": 29700
      },
      "icon": 136012,
      "level": 48,
@@ -12553,7 +12793,8 @@
       "Bloodthirst (Rank 2)"
      ],
      "costs": {
-      "5": 40000
+      "5": 40000,
+      "6": 36000
      },
      "icon": 136012,
      "level": 54,
@@ -12568,7 +12809,8 @@
       "Bloodthirst (Rank 3)"
      ],
      "costs": {
-      "5": 49000
+      "5": 49000,
+      "6": 44100
      },
      "icon": 136012,
      "level": 60,
@@ -12583,7 +12825,8 @@
       "Shield Slam"
      ],
      "costs": {
-      "5": 33000
+      "5": 33000,
+      "6": 29700
      },
      "icon": 134951,
      "level": 48,
@@ -12598,7 +12841,8 @@
       "Shield Slam (Rank 2)"
      ],
      "costs": {
-      "5": 40000
+      "5": 40000,
+      "6": 36000
      },
      "icon": 134951,
      "level": 54,
@@ -12613,7 +12857,8 @@
       "Shield Slam (Rank 3)"
      ],
      "costs": {
-      "5": 49000
+      "5": 49000,
+      "6": 44100
      },
      "icon": 134951,
      "level": 60,
@@ -12625,7 +12870,8 @@
     },
     "402927": {
      "costs": {
-      "5": 3400
+      "5": 3400,
+      "6": 3060
      },
      "icon": 132342,
      "level": 0,
@@ -12636,7 +12882,8 @@
     },
     "1240193": {
      "costs": {
-      "5": 3400
+      "5": 3400,
+      "6": 3060
      },
      "icon": 132340,
      "level": 0,
@@ -12647,7 +12894,8 @@
     },
     "1310185": {
      "costs": {
-      "5": 1100
+      "5": 1100,
+      "6": 990
      },
      "icon": 136031,
      "level": 0,
@@ -12661,7 +12909,8 @@
       "Slam"
      ],
      "costs": {
-      "5": 12000
+      "5": 12000,
+      "6": 10800
      },
      "icon": 132340,
      "level": 0,
@@ -12677,22 +12926,23 @@
    "trainerType": 0
   },
   "3355": {
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "name": "Saru Steelfury",
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.8221,
-     "mapY": 0.2293,
+     "mapX": 0.8223,
+     "mapY": 0.23,
      "uiMap": 1454,
-     "worldX": 2059.4,
-     "worldY": -4833.6
+     "worldX": 2058.7,
+     "worldY": -4833.9
     }
    ],
    "services": {
     "2018": {
      "costs": {
-      "5": 10
+      "5": 10,
+      "6": 9
      },
      "icon": 136241,
      "level": 1,
@@ -12705,7 +12955,8 @@
     "2661": {
      "category": "Mail Belts",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132491,
      "level": 0,
@@ -12718,7 +12969,8 @@
     "2662": {
      "category": "Mail Legguards",
      "costs": {
-      "5": 50
+      "5": 50,
+      "6": 45
      },
      "icon": 134583,
      "level": 0,
@@ -12731,7 +12983,8 @@
     "2664": {
      "category": "Mail Bracers",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132602,
      "level": 0,
@@ -12744,7 +12997,8 @@
     "2665": {
      "category": "Weapon Stones",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 135249,
      "level": 0,
@@ -12757,7 +13011,8 @@
     "2666": {
      "category": "Mail Belts",
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 132492,
      "level": 0,
@@ -12770,7 +13025,8 @@
     "2668": {
      "category": "Mail Legguards",
      "costs": {
-      "5": 300
+      "5": 300,
+      "6": 270
      },
      "icon": 134583,
      "level": 0,
@@ -12783,7 +13039,8 @@
     "2670": {
      "category": "Mail Chestguards",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132630,
      "level": 0,
@@ -12796,7 +13053,8 @@
     "2672": {
      "category": "Mail Bracers",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132606,
      "level": 0,
@@ -12809,7 +13067,8 @@
     "2674": {
      "category": "Weapon Stones",
      "costs": {
-      "5": 1000
+      "5": 1000,
+      "6": 900
      },
      "icon": 135250,
      "level": 0,
@@ -12822,7 +13081,8 @@
     "2675": {
      "category": "Mail Chestguards",
      "costs": {
-      "5": 1000
+      "5": 1000,
+      "6": 900
      },
      "icon": 132750,
      "level": 0,
@@ -12835,7 +13095,8 @@
     "2737": {
      "category": "One-Handed Maces",
      "costs": {
-      "5": 50
+      "5": 50,
+      "6": 45
      },
      "icon": 133476,
      "level": 0,
@@ -12848,7 +13109,8 @@
     "2738": {
      "category": "One-Handed Axes",
      "costs": {
-      "5": 50
+      "5": 50,
+      "6": 45
      },
      "icon": 132417,
      "level": 0,
@@ -12861,7 +13123,8 @@
     "2739": {
      "category": "One-Handed Swords",
      "costs": {
-      "5": 50
+      "5": 50,
+      "6": 45
      },
      "icon": 135327,
      "level": 0,
@@ -12874,7 +13137,8 @@
     "2740": {
      "category": "One-Handed Maces",
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 133483,
      "level": 0,
@@ -12887,7 +13151,8 @@
     "2741": {
      "category": "One-Handed Axes",
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 132408,
      "level": 0,
@@ -12900,7 +13165,8 @@
     "2742": {
      "category": "One-Handed Swords",
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 135274,
      "level": 0,
@@ -12912,7 +13178,8 @@
     },
     "3100": {
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 136241,
      "level": 10,
@@ -12925,7 +13192,8 @@
     "3116": {
      "category": "Weapon Stones",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 135256,
      "level": 0,
@@ -12938,7 +13206,8 @@
     "3117": {
      "category": "Weapon Stones",
      "costs": {
-      "5": 1000
+      "5": 1000,
+      "6": 900
      },
      "icon": 135257,
      "level": 0,
@@ -12951,7 +13220,8 @@
     "3292": {
      "category": "Two-Handed Swords",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 135312,
      "level": 0,
@@ -12964,7 +13234,8 @@
     "3293": {
      "category": "Two-Handed Axes",
      "costs": {
-      "5": 250
+      "5": 250,
+      "6": 225
      },
      "icon": 135420,
      "level": 0,
@@ -12977,7 +13248,8 @@
     "3294": {
      "category": "One-Handed Axes",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 135419,
      "level": 0,
@@ -12990,7 +13262,8 @@
     "3296": {
      "category": "One-Handed Maces",
      "costs": {
-      "5": 1000
+      "5": 1000,
+      "6": 900
      },
      "icon": 133483,
      "level": 0,
@@ -13003,7 +13276,8 @@
     "3319": {
      "category": "Mail Boots",
      "costs": {
-      "5": 50
+      "5": 50,
+      "6": 45
      },
      "icon": 132535,
      "level": 0,
@@ -13016,7 +13290,8 @@
     "3320": {
      "category": "Reagents",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 135243,
      "level": 0,
@@ -13029,7 +13304,8 @@
     "3323": {
      "category": "Mail Gauntlets",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132938,
      "level": 0,
@@ -13042,7 +13318,8 @@
     "3324": {
      "category": "Mail Legguards",
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 134583,
      "level": 0,
@@ -13055,7 +13332,8 @@
     "3326": {
      "category": "Reagents",
      "costs": {
-      "5": 250
+      "5": 250,
+      "6": 225
      },
      "icon": 135244,
      "level": 0,
@@ -13068,7 +13346,8 @@
     "3328": {
      "category": "Mail Pauldrons",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 135036,
      "level": 0,
@@ -13081,7 +13360,8 @@
     "3331": {
      "category": "Mail Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132535,
      "level": 0,
@@ -13094,7 +13374,8 @@
     "3333": {
      "category": "Mail Gauntlets",
      "costs": {
-      "5": 1000
+      "5": 1000,
+      "6": 900
      },
      "icon": 132939,
      "level": 0,
@@ -13107,7 +13388,8 @@
     "3337": {
      "category": "Reagents",
      "costs": {
-      "5": 1000
+      "5": 1000,
+      "6": 900
      },
      "icon": 135245,
      "level": 0,
@@ -13120,7 +13402,8 @@
     "3491": {
      "category": "Daggers",
      "costs": {
-      "5": 600
+      "5": 600,
+      "6": 540
      },
      "icon": 135640,
      "level": 0,
@@ -13133,7 +13416,8 @@
     "3501": {
      "category": "Mail Bracers",
      "costs": {
-      "5": 1000
+      "5": 1000,
+      "6": 900
      },
      "icon": 132605,
      "level": 0,
@@ -13146,7 +13430,8 @@
     "3502": {
      "category": "Mail Helmets",
      "costs": {
-      "5": 1250
+      "5": 1250,
+      "6": 1125
      },
      "icon": 133071,
      "level": 0,
@@ -13159,7 +13444,8 @@
     "3506": {
      "category": "Mail Legguards",
      "costs": {
-      "5": 5000
+      "5": 5000,
+      "6": 4500
      },
      "icon": 134585,
      "level": 0,
@@ -13172,7 +13458,8 @@
     "3508": {
      "category": "Mail Chestguards",
      "costs": {
-      "5": 7500
+      "5": 7500,
+      "6": 6750
      },
      "icon": 132624,
      "level": 0,
@@ -13184,7 +13471,8 @@
     },
     "3538": {
      "costs": {
-      "5": 5000
+      "5": 5000,
+      "6": 4500
      },
      "icon": 136241,
      "level": 20,
@@ -13198,7 +13486,8 @@
     "6517": {
      "category": "Daggers",
      "costs": {
-      "5": 800
+      "5": 800,
+      "6": 720
      },
      "icon": 135641,
      "level": 0,
@@ -13211,7 +13500,8 @@
     "7223": {
      "category": "Mail Bracers",
      "costs": {
-      "5": 1000
+      "5": 1000,
+      "6": 900
      },
      "icon": 132609,
      "level": 0,
@@ -13224,7 +13514,8 @@
     "7408": {
      "category": "Two-Handed Maces",
      "costs": {
-      "5": 300
+      "5": 300,
+      "6": 270
      },
      "icon": 133055,
      "level": 0,
@@ -13237,7 +13528,8 @@
     "7817": {
      "category": "Mail Boots",
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 132535,
      "level": 0,
@@ -13250,7 +13542,8 @@
     "7818": {
      "category": "Inert Enchanting Rods",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 135138,
      "level": 0,
@@ -13263,7 +13556,8 @@
     "8768": {
      "category": "Reagents",
      "costs": {
-      "5": 250
+      "5": 250,
+      "6": 225
      },
      "icon": 133607,
      "level": 0,
@@ -13276,7 +13570,8 @@
     "8880": {
      "category": "Daggers",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 135650,
      "level": 0,
@@ -13289,7 +13584,8 @@
     "9916": {
      "category": "Mail Chestguards",
      "costs": {
-      "5": 2500
+      "5": 2500,
+      "6": 2250
      },
      "icon": 132740,
      "level": 0,
@@ -13302,7 +13598,8 @@
     "9918": {
      "category": "Weapon Stones",
      "costs": {
-      "5": 2500
+      "5": 2500,
+      "6": 2250
      },
      "icon": 135251,
      "level": 0,
@@ -13315,7 +13612,8 @@
     "9920": {
      "category": "Reagents",
      "costs": {
-      "5": 2500
+      "5": 2500,
+      "6": 2250
      },
      "icon": 135246,
      "level": 0,
@@ -13328,7 +13626,8 @@
     "9921": {
      "category": "Weapon Stones",
      "costs": {
-      "5": 2500
+      "5": 2500,
+      "6": 2250
      },
      "icon": 135258,
      "level": 0,
@@ -13341,7 +13640,8 @@
     "9926": {
      "category": "Plate Pauldrons",
      "costs": {
-      "5": 5000
+      "5": 5000,
+      "6": 4500
      },
      "icon": 135053,
      "level": 0,
@@ -13354,7 +13654,8 @@
     "9928": {
      "category": "Plate Gauntlets",
      "costs": {
-      "5": 5000
+      "5": 5000,
+      "6": 4500
      },
      "icon": 132961,
      "level": 0,
@@ -13367,7 +13668,8 @@
     "9931": {
      "category": "Mail Legguards",
      "costs": {
-      "5": 5000
+      "5": 5000,
+      "6": 4500
      },
      "icon": 134584,
      "level": 0,
@@ -13380,7 +13682,8 @@
     "9935": {
      "category": "Plate Helmets",
      "costs": {
-      "5": 5000
+      "5": 5000,
+      "6": 4500
      },
      "icon": 133071,
      "level": 0,
@@ -13393,7 +13696,8 @@
     "9983": {
      "category": "Two-Handed Swords",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 135322,
      "level": 0,
@@ -13406,7 +13710,8 @@
     "9985": {
      "category": "Two-Handed Maces",
      "costs": {
-      "5": 250
+      "5": 250,
+      "6": 225
      },
      "icon": 133055,
      "level": 0,
@@ -13419,7 +13724,8 @@
     "9986": {
      "category": "Two-Handed Swords",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 135321,
      "level": 0,
@@ -13432,7 +13738,8 @@
     "9987": {
      "category": "Two-Handed Axes",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132415,
      "level": 0,
@@ -13445,7 +13752,8 @@
     "9993": {
      "category": "One-Handed Axes",
      "costs": {
-      "5": 10000
+      "5": 10000,
+      "6": 9000
      },
      "icon": 132405,
      "level": 0,
@@ -13458,7 +13766,8 @@
     "14379": {
      "category": "Inert Enchanting Rods",
      "costs": {
-      "5": 250
+      "5": 250,
+      "6": 225
      },
      "icon": 135147,
      "level": 0,
@@ -13471,7 +13780,8 @@
     "14380": {
      "category": "Inert Enchanting Rods",
      "costs": {
-      "5": 2500
+      "5": 2500,
+      "6": 2250
      },
      "icon": 135148,
      "level": 0,
@@ -13484,7 +13794,8 @@
     "15972": {
      "category": "Daggers",
      "costs": {
-      "5": 7500
+      "5": 7500,
+      "6": 6750
      },
      "icon": 135641,
      "level": 0,
@@ -13497,7 +13808,8 @@
     "19666": {
      "category": "Miscellaneous",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 134237,
      "level": 0,
@@ -13510,7 +13822,8 @@
     "19667": {
      "category": "Miscellaneous",
      "costs": {
-      "5": 250
+      "5": 250,
+      "6": 225
      },
      "icon": 134247,
      "level": 0,
@@ -13523,7 +13836,8 @@
     "19668": {
      "category": "Miscellaneous",
      "costs": {
-      "5": 2500
+      "5": 2500,
+      "6": 2250
      },
      "icon": 134245,
      "level": 0,
@@ -13536,7 +13850,8 @@
     "1230171": {
      "category": "Camping",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 135243,
      "level": 0,
@@ -13550,7 +13865,8 @@
     "1252229": {
      "category": "Mail Boots",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132554,
      "level": 0,
@@ -13563,7 +13879,8 @@
     "1252230": {
      "category": "Mail Boots",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132582,
      "level": 0,
@@ -13576,7 +13893,8 @@
     "1252231": {
      "category": "Mail Boots",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132535,
      "level": 0,
@@ -13589,7 +13907,8 @@
     "1252305": {
      "category": "Mail Belts",
      "costs": {
-      "5": 4250
+      "5": 4250,
+      "6": 3825
      },
      "icon": 132509,
      "level": 0,
@@ -13602,7 +13921,8 @@
     "1252306": {
      "category": "Mail Belts",
      "costs": {
-      "5": 4250
+      "5": 4250,
+      "6": 3825
      },
      "icon": 236895,
      "level": 0,
@@ -13615,7 +13935,8 @@
     "1252307": {
      "category": "Mail Belts",
      "costs": {
-      "5": 4250
+      "5": 4250,
+      "6": 3825
      },
      "icon": 132518,
      "level": 0,
@@ -13628,7 +13949,8 @@
     "1252308": {
      "category": "Mail Belts",
      "costs": {
-      "5": 4250
+      "5": 4250,
+      "6": 3825
      },
      "icon": 132497,
      "level": 0,
@@ -13641,7 +13963,8 @@
     "1252309": {
      "category": "Mail Belts",
      "costs": {
-      "5": 4250
+      "5": 4250,
+      "6": 3825
      },
      "icon": 132502,
      "level": 0,
@@ -15863,6 +16186,999 @@
    "tradeskill": true,
    "trainerType": 2
   },
+  "4576": {
+   "lastSeen": "2026-11-16",
+   "name": "Josef Gregorian",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7041,
+     "mapY": 0.305,
+     "uiMap": 1458,
+     "worldX": 1682.7,
+     "worldY": 197.7
+    }
+   ],
+   "services": {
+    "2385": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135009,
+     "level": 0,
+     "name": "Brown Linen Vest",
+     "skill": "Tailoring",
+     "skillRank": 10,
+     "sources": 1,
+     "spellId": 2385
+    },
+    "2386": {
+     "category": "Shoes",
+     "costs": {
+      "5": 200
+     },
+     "icon": 132543,
+     "level": 0,
+     "name": "Linen Boots",
+     "skill": "Tailoring",
+     "skillRank": 40,
+     "sources": 1,
+     "spellId": 2386
+    },
+    "2392": {
+     "category": "Shirts",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135029,
+     "level": 0,
+     "name": "Red Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 2392
+    },
+    "2393": {
+     "category": "Shirts",
+     "costs": {
+      "5": 25
+     },
+     "icon": 135030,
+     "level": 0,
+     "name": "White Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 1,
+     "sources": 1,
+     "spellId": 2393
+    },
+    "2394": {
+     "category": "Shirts",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135023,
+     "level": 0,
+     "name": "Blue Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 2394
+    },
+    "2395": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132715,
+     "level": 0,
+     "name": "Barbaric Linen Vest",
+     "skill": "Tailoring",
+     "skillRank": 40,
+     "sources": 1,
+     "spellId": 2395
+    },
+    "2396": {
+     "category": "Shirts",
+     "costs": {
+      "5": 200
+     },
+     "icon": 135024,
+     "level": 0,
+     "name": "Green Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 40,
+     "sources": 1,
+     "spellId": 2396
+    },
+    "2397": {
+     "category": "Cloaks",
+     "costs": {
+      "5": 200
+     },
+     "icon": 133759,
+     "level": 0,
+     "name": "Reinforced Linen Cape",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 2397
+    },
+    "2399": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132680,
+     "level": 0,
+     "name": "Green Woolen Vest",
+     "skill": "Tailoring",
+     "skillRank": 60,
+     "sources": 1,
+     "spellId": 2399
+    },
+    "2401": {
+     "category": "Shoes",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132543,
+     "level": 0,
+     "name": "Woolen Boots",
+     "skill": "Tailoring",
+     "skillRank": 70,
+     "sources": 1,
+     "spellId": 2401
+    },
+    "2402": {
+     "category": "Cloaks",
+     "costs": {
+      "5": 250
+     },
+     "icon": 133762,
+     "level": 0,
+     "name": "Woolen Cape",
+     "skill": "Tailoring",
+     "skillRank": 55,
+     "sources": 1,
+     "spellId": 2402
+    },
+    "2406": {
+     "category": "Shirts",
+     "costs": {
+      "5": 200
+     },
+     "icon": 135025,
+     "level": 0,
+     "name": "Gray Woolen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 80,
+     "sources": 1,
+     "spellId": 2406
+    },
+    "2964": {
+     "category": "Reagents",
+     "costs": {
+      "5": 100
+     },
+     "icon": 132913,
+     "level": 0,
+     "name": "Bolt of Woolen Cloth",
+     "skill": "Tailoring",
+     "skillRank": 55,
+     "sources": 1,
+     "spellId": 2964
+    },
+    "3755": {
+     "category": "Bags",
+     "costs": {
+      "5": 100
+     },
+     "icon": 133622,
+     "level": 0,
+     "name": "Linen Bag",
+     "skill": "Tailoring",
+     "skillRank": 5,
+     "sources": 1,
+     "spellId": 3755
+    },
+    "3757": {
+     "category": "Bags",
+     "costs": {
+      "5": 200
+     },
+     "icon": 133639,
+     "level": 0,
+     "name": "Woolen Bag",
+     "skill": "Tailoring",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 3757
+    },
+    "3813": {
+     "category": "Bags",
+     "costs": {
+      "5": 800
+     },
+     "icon": 133628,
+     "level": 0,
+     "name": "Small Silk Pack",
+     "skill": "Tailoring",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 3813
+    },
+    "3839": {
+     "category": "Reagents",
+     "costs": {
+      "5": 500
+     },
+     "icon": 132907,
+     "level": 0,
+     "name": "Bolt of Silk Cloth",
+     "skill": "Tailoring",
+     "skillRank": 100,
+     "sources": 1,
+     "spellId": 3839
+    },
+    "3840": {
+     "category": "Gloves",
+     "costs": {
+      "5": 100
+     },
+     "icon": 132939,
+     "level": 0,
+     "name": "Heavy Linen Gloves",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 3840
+    },
+    "3841": {
+     "category": "Bracers",
+     "costs": {
+      "5": 200
+     },
+     "icon": 132611,
+     "level": 0,
+     "name": "Green Linen Bracers",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 3841
+    },
+    "3842": {
+     "category": "Leggings",
+     "costs": {
+      "5": 300
+     },
+     "icon": 134587,
+     "level": 0,
+     "name": "Handstitched Linen Britches",
+     "skill": "Tailoring",
+     "skillRank": 45,
+     "sources": 1,
+     "spellId": 3842
+    },
+    "3843": {
+     "category": "Gloves",
+     "costs": {
+      "5": 400
+     },
+     "icon": 132939,
+     "level": 0,
+     "name": "Heavy Woolen Gloves",
+     "skill": "Tailoring",
+     "skillRank": 60,
+     "sources": 1,
+     "spellId": 3843
+    },
+    "3845": {
+     "category": "Shoes",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132543,
+     "level": 0,
+     "name": "Soft-soled Linen Boots",
+     "skill": "Tailoring",
+     "skillRank": 55,
+     "sources": 1,
+     "spellId": 3845
+    },
+    "3848": {
+     "category": "Spaulders",
+     "costs": {
+      "5": 500
+     },
+     "icon": 135037,
+     "level": 0,
+     "name": "Double-Stitched Woolen Shoulders",
+     "skill": "Tailoring",
+     "skillRank": 85,
+     "sources": 1,
+     "spellId": 3848
+    },
+    "3850": {
+     "category": "Leggings",
+     "costs": {
+      "5": 500
+     },
+     "icon": 134581,
+     "level": 0,
+     "name": "Heavy Woolen Pants",
+     "skill": "Tailoring",
+     "skillRank": 85,
+     "sources": 1,
+     "spellId": 3850
+    },
+    "3852": {
+     "category": "Gloves",
+     "costs": {
+      "5": 750
+     },
+     "icon": 132939,
+     "level": 0,
+     "name": "Gloves of Meditation",
+     "skill": "Tailoring",
+     "skillRank": 105,
+     "sources": 1,
+     "spellId": 3852
+    },
+    "3855": {
+     "category": "Shoes",
+     "costs": {
+      "5": 750
+     },
+     "icon": 132539,
+     "level": 0,
+     "name": "Spidersilk Boots",
+     "skill": "Tailoring",
+     "skillRank": 100,
+     "sources": 1,
+     "spellId": 3855
+    },
+    "3859": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 750
+     },
+     "icon": 132678,
+     "level": 0,
+     "name": "Azure Silk Vest",
+     "skill": "Tailoring",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 3859
+    },
+    "3861": {
+     "category": "Cloaks",
+     "costs": {
+      "5": 1000
+     },
+     "icon": 133754,
+     "level": 0,
+     "name": "Long Silken Cloak",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 3861
+    },
+    "3865": {
+     "category": "Reagents",
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132894,
+     "level": 0,
+     "name": "Bolt of Mageweave",
+     "skill": "Tailoring",
+     "skillRank": 140,
+     "sources": 1,
+     "spellId": 3865
+    },
+    "3866": {
+     "category": "Shirts",
+     "costs": {
+      "5": 250
+     },
+     "icon": 135029,
+     "level": 0,
+     "name": "Stylish Red Shirt",
+     "skill": "Tailoring",
+     "skillRank": 85,
+     "sources": 1,
+     "spellId": 3866
+    },
+    "3871": {
+     "category": "Shirts",
+     "costs": {
+      "5": 500
+     },
+     "icon": 135012,
+     "level": 0,
+     "name": "Formal White Shirt",
+     "skill": "Tailoring",
+     "skillRank": 135,
+     "sources": 1,
+     "spellId": 3871
+    },
+    "3908": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 136249,
+     "level": 1,
+     "name": "Apprentice Tailoring",
+     "profession": true,
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3908
+    },
+    "3909": {
+     "costs": {
+      "5": 500
+     },
+     "icon": 136249,
+     "level": 10,
+     "name": "Journeyman Tailoring",
+     "skill": "Tailoring",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 3909
+    },
+    "3910": {
+     "costs": {
+      "5": 5000
+     },
+     "icon": 136249,
+     "level": 20,
+     "name": "Expert Tailoring",
+     "skill": "Tailoring",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 3910,
+     "step": true
+    },
+    "3914": {
+     "category": "Leggings",
+     "costs": {
+      "5": 50
+     },
+     "icon": 134586,
+     "level": 0,
+     "name": "Brown Linen Pants",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 3914
+    },
+    "6521": {
+     "category": "Cloaks",
+     "costs": {
+      "5": 400
+     },
+     "icon": 133763,
+     "level": 0,
+     "name": "Pearl-clasped Cloak",
+     "skill": "Tailoring",
+     "skillRank": 70,
+     "sources": 1,
+     "spellId": 6521
+    },
+    "6690": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132658,
+     "level": 0,
+     "name": "Lesser Wizard's Robe",
+     "skill": "Tailoring",
+     "skillRank": 110,
+     "sources": 1,
+     "spellId": 6690
+    },
+    "7623": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132662,
+     "level": 0,
+     "name": "Brown Linen Robe",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 7623
+    },
+    "7624": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132645,
+     "level": 0,
+     "name": "White Linen Robe",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 7624
+    },
+    "8465": {
+     "category": "Dressed for the Occasion",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135016,
+     "level": 0,
+     "name": "Simple Dress",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 8465
+    },
+    "8467": {
+     "category": "Dressed for the Occasion",
+     "costs": {
+      "5": 250
+     },
+     "icon": 135016,
+     "level": 0,
+     "name": "White Woolen Dress",
+     "skill": "Tailoring",
+     "skillRank": 85,
+     "sources": 1,
+     "spellId": 8467
+    },
+    "8483": {
+     "category": "Shirts",
+     "costs": {
+      "5": 500
+     },
+     "icon": 135030,
+     "level": 0,
+     "name": "White Swashbuckler's Shirt",
+     "skill": "Tailoring",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 8483
+    },
+    "8489": {
+     "category": "Shirts",
+     "costs": {
+      "5": 750
+     },
+     "icon": 135029,
+     "level": 0,
+     "name": "Red Swashbuckler's Shirt",
+     "skill": "Tailoring",
+     "skillRank": 140,
+     "sources": 1,
+     "spellId": 8489
+    },
+    "8758": {
+     "category": "Leggings",
+     "costs": {
+      "5": 600
+     },
+     "icon": 134588,
+     "level": 0,
+     "name": "Azure Silk Pants",
+     "skill": "Tailoring",
+     "skillRank": 115,
+     "sources": 1,
+     "spellId": 8758
+    },
+    "8760": {
+     "category": "Hoods",
+     "costs": {
+      "5": 600
+     },
+     "icon": 133131,
+     "level": 0,
+     "name": "Azure Silk Hood",
+     "skill": "Tailoring",
+     "skillRank": 120,
+     "sources": 1,
+     "spellId": 8760
+    },
+    "8762": {
+     "category": "Hoods",
+     "costs": {
+      "5": 750
+     },
+     "icon": 133693,
+     "level": 0,
+     "name": "Silk Headband",
+     "skill": "Tailoring",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 8762
+    },
+    "8764": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 900
+     },
+     "icon": 135008,
+     "level": 0,
+     "name": "Earthen Vest",
+     "skill": "Tailoring",
+     "skillRank": 135,
+     "sources": 1,
+     "spellId": 8764
+    },
+    "8766": {
+     "category": "Belts",
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132511,
+     "level": 0,
+     "name": "Azure Silk Belt",
+     "skill": "Tailoring",
+     "skillRank": 140,
+     "sources": 1,
+     "spellId": 8766
+    },
+    "8770": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132643,
+     "level": 0,
+     "name": "Robe of Power",
+     "skill": "Tailoring",
+     "skillRank": 155,
+     "sources": 1,
+     "spellId": 8770
+    },
+    "8772": {
+     "category": "Belts",
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132493,
+     "level": 0,
+     "name": "Crimson Silk Belt",
+     "skill": "Tailoring",
+     "skillRank": 140,
+     "sources": 1,
+     "spellId": 8772
+    },
+    "8774": {
+     "category": "Spaulders",
+     "costs": {
+      "5": 1000
+     },
+     "icon": 135049,
+     "level": 0,
+     "name": "Green Silken Shoulders",
+     "skill": "Tailoring",
+     "skillRank": 145,
+     "sources": 1,
+     "spellId": 8774
+    },
+    "8776": {
+     "category": "Belts",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132494,
+     "level": 0,
+     "name": "Linen Belt",
+     "skill": "Tailoring",
+     "skillRank": 15,
+     "sources": 1,
+     "spellId": 8776
+    },
+    "8791": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 2500
+     },
+     "icon": 135008,
+     "level": 0,
+     "name": "Crimson Silk Vest",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 8791
+    },
+    "8799": {
+     "category": "Leggings",
+     "costs": {
+      "5": 3000
+     },
+     "icon": 134586,
+     "level": 0,
+     "name": "Crimson Silk Pantaloons",
+     "skill": "Tailoring",
+     "skillRank": 160,
+     "sources": 1,
+     "spellId": 8799
+    },
+    "8804": {
+     "category": "Gloves",
+     "costs": {
+      "5": 5000
+     },
+     "icon": 132939,
+     "level": 0,
+     "name": "Crimson Silk Gloves",
+     "skill": "Tailoring",
+     "skillRank": 175,
+     "sources": 1,
+     "spellId": 8804
+    },
+    "12045": {
+     "category": "Shoes",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132539,
+     "level": 0,
+     "name": "Simple Linen Boots",
+     "skill": "Tailoring",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 12045
+    },
+    "12046": {
+     "category": "Leggings",
+     "costs": {
+      "5": 300
+     },
+     "icon": 134591,
+     "level": 0,
+     "name": "Simple Kilt",
+     "skill": "Tailoring",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 12046
+    },
+    "12048": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 4000
+     },
+     "icon": 132718,
+     "level": 0,
+     "name": "Black Mageweave Vest",
+     "skill": "Tailoring",
+     "skillRank": 170,
+     "sources": 1,
+     "spellId": 12048
+    },
+    "12049": {
+     "category": "Leggings",
+     "costs": {
+      "5": 4000
+     },
+     "icon": 134589,
+     "level": 0,
+     "name": "Black Mageweave Leggings",
+     "skill": "Tailoring",
+     "skillRank": 170,
+     "sources": 1,
+     "spellId": 12049
+    },
+    "12050": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 4000
+     },
+     "icon": 132654,
+     "level": 0,
+     "name": "Black Mageweave Robe",
+     "skill": "Tailoring",
+     "skillRank": 175,
+     "sources": 1,
+     "spellId": 12050
+    },
+    "12053": {
+     "category": "Gloves",
+     "costs": {
+      "5": 5000
+     },
+     "icon": 132939,
+     "level": 0,
+     "name": "Black Mageweave Gloves",
+     "skill": "Tailoring",
+     "skillRank": 180,
+     "sources": 1,
+     "spellId": 12053
+    },
+    "12061": {
+     "category": "Shirts",
+     "costs": {
+      "5": 2500
+     },
+     "icon": 135027,
+     "level": 0,
+     "name": "Orange Mageweave Shirt",
+     "skill": "Tailoring",
+     "skillRank": 180,
+     "sources": 1,
+     "spellId": 12061
+    },
+    "12065": {
+     "category": "Bags",
+     "costs": {
+      "5": 5000
+     },
+     "icon": 133640,
+     "level": 0,
+     "name": "Mageweave Bag",
+     "skill": "Tailoring",
+     "skillRank": 190,
+     "sources": 1,
+     "spellId": 12065
+    },
+    "12067": {
+     "category": "Gloves",
+     "costs": {
+      "5": 5000
+     },
+     "icon": 132952,
+     "level": 0,
+     "name": "Dreamweave Gloves",
+     "skill": "Tailoring",
+     "skillRank": 190,
+     "sources": 1,
+     "spellId": 12067
+    },
+    "12069": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 5000
+     },
+     "icon": 132666,
+     "level": 0,
+     "name": "Cindercloth Robe",
+     "skill": "Tailoring",
+     "skillRank": 190,
+     "sources": 1,
+     "spellId": 12069
+    },
+    "12070": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 5000
+     },
+     "icon": 132683,
+     "level": 0,
+     "name": "Dreamweave Vest",
+     "skill": "Tailoring",
+     "skillRank": 190,
+     "sources": 1,
+     "spellId": 12070
+    },
+    "1229504": {
+     "category": "Camping",
+     "costs": {
+      "5": 100
+     },
+     "icon": 132484,
+     "level": 0,
+     "name": "Faction Banner",
+     "rankText": "Tier 1",
+     "skill": "Tailoring",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 1229504
+    },
+    "1257368": {
+     "category": "Belts",
+     "costs": {
+      "5": 500
+     },
+     "icon": 236919,
+     "level": 0,
+     "name": "Novice Arcanist's Sash",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 1257368
+    },
+    "1257369": {
+     "category": "Belts",
+     "costs": {
+      "5": 500
+     },
+     "icon": 236918,
+     "level": 0,
+     "name": "Novice Ardent's Sash",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 1257369
+    },
+    "1257426": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132565,
+     "level": 0,
+     "name": "Gilded Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257426
+    },
+    "1257427": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132560,
+     "level": 0,
+     "name": "Frothing Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257427
+    },
+    "1257428": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132559,
+     "level": 0,
+     "name": "Fiery Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257428
+    },
+    "1257429": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132578,
+     "level": 0,
+     "name": "Black Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257429
+    },
+    "1257430": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132563,
+     "level": 0,
+     "name": "Golden Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257430
+    },
+    "1257431": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 341559,
+     "level": 0,
+     "name": "Radiant Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257431
+    }
+   },
+   "sources": 1,
+   "tradeskill": true,
+   "trainerType": 2
+  },
   "4586": {
    "lastSeen": "2026-11-15",
    "name": "Graham Van Talen",
@@ -16255,6 +17571,7 @@
    "services": {
     "7411": {
      "costs": {
+      "5": 10,
       "6": 9
      },
      "icon": 136244,
@@ -16262,11 +17579,12 @@
      "name": "Apprentice Enchanting",
      "profession": true,
      "skillRank": 0,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7411
     },
     "7412": {
      "costs": {
+      "5": 500,
       "6": 450
      },
      "icon": 136244,
@@ -16274,13 +17592,14 @@
      "name": "Journeyman Enchanting",
      "skill": "Enchanting",
      "skillRank": 50,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7412,
      "step": true
     },
     "7420": {
      "category": "Chest Enchants",
      "costs": {
+      "5": 50,
       "6": 45
      },
      "icon": 135913,
@@ -16288,12 +17607,13 @@
      "name": "Enchant Chest - Inferior Stamina",
      "skill": "Enchanting",
      "skillRank": 15,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7420
     },
     "7426": {
      "category": "Chest Enchants",
      "costs": {
+      "5": 100,
       "6": 90
      },
      "icon": 135913,
@@ -16301,12 +17621,13 @@
      "name": "Enchant Chest - Minor Absorption",
      "skill": "Enchanting",
      "skillRank": 40,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7426
     },
     "7454": {
      "category": "Cloak Enchants",
      "costs": {
+      "5": 100,
       "6": 90
      },
      "icon": 135913,
@@ -16314,12 +17635,13 @@
      "name": "Enchant Cloak - Minor Resistance",
      "skill": "Enchanting",
      "skillRank": 45,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7454
     },
     "7457": {
      "category": "Bracer Enchants",
      "costs": {
+      "5": 250,
       "6": 225
      },
      "icon": 135913,
@@ -16327,12 +17649,13 @@
      "name": "Enchant Bracer - Minor Stamina",
      "skill": "Enchanting",
      "skillRank": 50,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7457
     },
     "7745": {
      "category": "Two-Handed Weapon Enchants",
      "costs": {
+      "5": 500,
       "6": 450
      },
      "icon": 135913,
@@ -16340,12 +17663,13 @@
      "name": "Enchant 2H Weapon - Minor Impact",
      "skill": "Enchanting",
      "skillRank": 100,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7745
     },
     "7748": {
      "category": "Chest Enchants",
      "costs": {
+      "5": 250,
       "6": 225
      },
      "icon": 135913,
@@ -16353,12 +17677,13 @@
      "name": "Enchant Chest - Lesser Stamina",
      "skill": "Enchanting",
      "skillRank": 60,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7748
     },
     "7771": {
      "category": "Cloak Enchants",
      "costs": {
+      "5": 200,
       "6": 180
      },
      "icon": 135913,
@@ -16366,12 +17691,13 @@
      "name": "Enchant Cloak - Minor Protection",
      "skill": "Enchanting",
      "skillRank": 70,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7771
     },
     "7779": {
      "category": "Bracer Enchants",
      "costs": {
+      "5": 400,
       "6": 360
      },
      "icon": 135913,
@@ -16379,12 +17705,13 @@
      "name": "Enchant Bracer - Minor Agility",
      "skill": "Enchanting",
      "skillRank": 80,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7779
     },
     "7788": {
      "category": "Weapon Enchants",
      "costs": {
+      "5": 500,
       "6": 450
      },
      "icon": 135913,
@@ -16392,12 +17719,13 @@
      "name": "Enchant Weapon - Minor Striking",
      "skill": "Enchanting",
      "skillRank": 90,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7788
     },
     "7795": {
      "category": "Runed Enchanting Rods",
      "costs": {
+      "5": 1000,
       "6": 900
      },
      "icon": 135138,
@@ -16405,12 +17733,13 @@
      "name": "Runed Silver Rod",
      "skill": "Enchanting",
      "skillRank": 100,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7795
     },
     "7857": {
      "category": "Chest Enchants",
      "costs": {
+      "5": 1000,
       "6": 900
      },
      "icon": 135913,
@@ -16418,12 +17747,13 @@
      "name": "Enchant Chest - Stamina",
      "skill": "Enchanting",
      "skillRank": 120,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7857
     },
     "7861": {
      "category": "Cloak Enchants",
      "costs": {
+      "5": 1250,
       "6": 1125
      },
      "icon": 135913,
@@ -16431,12 +17761,13 @@
      "name": "Enchant Cloak - Lesser Fire Resistance",
      "skill": "Enchanting",
      "skillRank": 125,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7861
     },
     "7863": {
      "category": "Boots Enchants",
      "costs": {
+      "5": 1400,
       "6": 1260
      },
      "icon": 135913,
@@ -16444,12 +17775,13 @@
      "name": "Enchant Boots - Minor Stamina",
      "skill": "Enchanting",
      "skillRank": 125,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7863
     },
     "13378": {
      "category": "Shield Enchants",
      "costs": {
+      "5": 600,
       "6": 540
      },
      "icon": 135913,
@@ -16457,12 +17789,13 @@
      "name": "Enchant Shield - Minor Stamina",
      "skill": "Enchanting",
      "skillRank": 105,
-     "sources": 1,
+     "sources": 2,
      "spellId": 13378
     },
     "13421": {
      "category": "Cloak Enchants",
      "costs": {
+      "5": 800,
       "6": 720
      },
      "icon": 135913,
@@ -16470,12 +17803,13 @@
      "name": "Enchant Cloak - Lesser Protection",
      "skill": "Enchanting",
      "skillRank": 115,
-     "sources": 1,
+     "sources": 2,
      "spellId": 13421
     },
     "13485": {
      "category": "Shield Enchants",
      "costs": {
+      "5": 1500,
       "6": 1350
      },
      "icon": 135913,
@@ -16483,12 +17817,13 @@
      "name": "Enchant Shield - Lesser Spirit",
      "skill": "Enchanting",
      "skillRank": 130,
-     "sources": 1,
+     "sources": 2,
      "spellId": 13485
     },
     "13501": {
      "category": "Bracer Enchants",
      "costs": {
+      "5": 1500,
       "6": 1350
      },
      "icon": 135913,
@@ -16496,12 +17831,13 @@
      "name": "Enchant Bracer - Lesser Stamina",
      "skill": "Enchanting",
      "skillRank": 130,
-     "sources": 1,
+     "sources": 2,
      "spellId": 13501
     },
     "13503": {
      "category": "Weapon Enchants",
      "costs": {
+      "5": 2000,
       "6": 1800
      },
      "icon": 135913,
@@ -16509,12 +17845,13 @@
      "name": "Enchant Weapon - Lesser Striking",
      "skill": "Enchanting",
      "skillRank": 140,
-     "sources": 1,
+     "sources": 2,
      "spellId": 13503
     },
     "13529": {
      "category": "Two-Handed Weapon Enchants",
      "costs": {
+      "5": 2400,
       "6": 2160
      },
      "icon": 135913,
@@ -16522,12 +17859,13 @@
      "name": "Enchant 2H Weapon - Lesser Impact",
      "skill": "Enchanting",
      "skillRank": 145,
-     "sources": 1,
+     "sources": 2,
      "spellId": 13529
     },
     "13538": {
      "category": "Chest Enchants",
      "costs": {
+      "5": 2500,
       "6": 2250
      },
      "icon": 135913,
@@ -16535,12 +17873,13 @@
      "name": "Enchant Chest - Lesser Absorption",
      "skill": "Enchanting",
      "skillRank": 140,
-     "sources": 1,
+     "sources": 2,
      "spellId": 13538
     },
     "13607": {
      "category": "Chest Enchants",
      "costs": {
+      "5": 2400,
       "6": 2160
      },
      "icon": 135913,
@@ -16548,12 +17887,13 @@
      "name": "Enchant Chest - Intellect",
      "skill": "Enchanting",
      "skillRank": 145,
-     "sources": 1,
+     "sources": 2,
      "spellId": 13607
     },
     "13622": {
      "category": "Bracer Enchants",
      "costs": {
+      "5": 2500,
       "6": 2250
      },
      "icon": 135913,
@@ -16561,12 +17901,13 @@
      "name": "Enchant Bracer - Lesser Intellect",
      "skill": "Enchanting",
      "skillRank": 150,
-     "sources": 1,
+     "sources": 2,
      "spellId": 13622
     },
     "13626": {
      "category": "Chest Enchants",
      "costs": {
+      "5": 2500,
       "6": 2250
      },
      "icon": 135913,
@@ -16574,12 +17915,13 @@
      "name": "Enchant Chest - Minor Stats",
      "skill": "Enchanting",
      "skillRank": 150,
-     "sources": 1,
+     "sources": 2,
      "spellId": 13626
     },
     "13628": {
      "category": "Runed Enchanting Rods",
      "costs": {
+      "5": 2500,
       "6": 2250
      },
      "icon": 135147,
@@ -16587,12 +17929,13 @@
      "name": "Runed Golden Rod",
      "skill": "Enchanting",
      "skillRank": 150,
-     "sources": 1,
+     "sources": 2,
      "spellId": 13628
     },
     "14293": {
      "category": "Wands",
      "costs": {
+      "5": 50,
       "6": 45
      },
      "icon": 135139,
@@ -16600,12 +17943,13 @@
      "name": "Lesser Magic Wand",
      "skill": "Enchanting",
      "skillRank": 10,
-     "sources": 1,
+     "sources": 2,
      "spellId": 14293
     },
     "14807": {
      "category": "Wands",
      "costs": {
+      "5": 200,
       "6": 180
      },
      "icon": 135144,
@@ -16613,12 +17957,13 @@
      "name": "Greater Magic Wand",
      "skill": "Enchanting",
      "skillRank": 70,
-     "sources": 1,
+     "sources": 2,
      "spellId": 14807
     },
     "1230643": {
      "category": "Camping",
      "costs": {
+      "5": 100,
       "6": 90
      },
      "icon": 4631367,
@@ -16627,8 +17972,156 @@
      "rankText": "Tier 1",
      "skill": "Enchanting",
      "skillRank": 20,
-     "sources": 1,
+     "sources": 2,
      "spellId": 1230643
+    }
+   },
+   "sources": 2,
+   "tradeskill": true,
+   "trainerType": 2
+  },
+  "5482": {
+   "lastSeen": "2026-11-17",
+   "name": "Stephen Ryback",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7814,
+     "mapY": 0.5325,
+     "uiMap": 1453,
+     "worldX": -8612.6,
+     "worldY": 365.2
+    }
+   ],
+   "services": {
+    "2539": {
+     "category": "Agility Food",
+     "costs": {
+      "6": 45
+     },
+     "icon": 134021,
+     "level": 0,
+     "name": "Spiced Wolf Meat",
+     "skill": "Cooking",
+     "skillRank": 10,
+     "sources": 1,
+     "spellId": 2539
+    },
+    "2541": {
+     "category": "Agility Food",
+     "costs": {
+      "6": 90
+     },
+     "icon": 134021,
+     "level": 0,
+     "name": "Coyote Steak",
+     "skill": "Cooking",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 2541
+    },
+    "2544": {
+     "category": "Intellect Food",
+     "costs": {
+      "6": 180
+     },
+     "icon": 133950,
+     "level": 0,
+     "name": "Crab Cake",
+     "skill": "Cooking",
+     "skillRank": 75,
+     "sources": 1,
+     "spellId": 2544
+    },
+    "2546": {
+     "category": "Strength Food",
+     "costs": {
+      "6": 135
+     },
+     "icon": 134004,
+     "level": 0,
+     "name": "Dry Pork Ribs",
+     "skill": "Cooking",
+     "skillRank": 80,
+     "sources": 1,
+     "spellId": 2546
+    },
+    "2550": {
+     "costs": {
+      "6": 90
+     },
+     "icon": 133971,
+     "level": 0,
+     "name": "Apprentice Cook",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2550
+    },
+    "3102": {
+     "costs": {
+      "6": 450
+     },
+     "icon": 133971,
+     "level": 0,
+     "name": "Journeyman Cook",
+     "skill": "Cooking",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 3102,
+     "step": true
+    },
+    "6499": {
+     "category": "Everyday Meals",
+     "costs": {
+      "6": 90
+     },
+     "icon": 134432,
+     "level": 0,
+     "name": "Boiled Clams",
+     "skill": "Cooking",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 6499
+    },
+    "6500": {
+     "category": "Everyday Meals",
+     "costs": {
+      "6": 270
+     },
+     "icon": 134431,
+     "level": 0,
+     "name": "Goblin Deviled Clams",
+     "skill": "Cooking",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 6500
+    },
+    "21175": {
+     "category": "Everyday Meals",
+     "costs": {
+      "6": 3600
+     },
+     "icon": 134022,
+     "level": 0,
+     "name": "Spider Sausage",
+     "skill": "Cooking",
+     "skillRank": 200,
+     "sources": 1,
+     "spellId": 21175
+    },
+    "1229737": {
+     "category": "Camping",
+     "costs": {
+      "6": 90
+     },
+     "icon": 7808148,
+     "level": 0,
+     "name": "Basic Campfire Kit",
+     "rankText": "Tier 1",
+     "skill": "Cooking",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 1229737
     }
    },
    "sources": 1,
@@ -19202,7 +20695,7 @@
    "trainerType": 2
   },
   "5515": {
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "name": "Einris Brightspear",
    "positions": [
     {
@@ -19718,7 +21211,7 @@
       "6": 6660
      },
      "icon": 132204,
-     "level": 26,
+     "level": 0,
      "name": "Serpent Sting",
      "rankText": "Rank 4",
      "skillRank": 0,
@@ -19865,7 +21358,7 @@
       "6": 6480
      },
      "icon": 132223,
-     "level": 24,
+     "level": 0,
      "name": "Raptor Strike",
      "rankText": "Rank 4",
      "skillRank": 0,
@@ -23257,7 +24750,7 @@
    "trainerType": 2
   },
   "5564": {
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-17",
    "name": "Simon Tanner",
    "positions": [
     {
@@ -23272,7 +24765,8 @@
    "services": {
     "2108": {
      "costs": {
-      "5": 10
+      "5": 10,
+      "6": 9
      },
      "icon": 133611,
      "level": 1,
@@ -23285,7 +24779,8 @@
     "2153": {
      "category": "Leather Legguards",
      "costs": {
-      "5": 50
+      "5": 50,
+      "6": 45
      },
      "icon": 134706,
      "level": 0,
@@ -23298,7 +24793,8 @@
     "2159": {
      "category": "Cloaks",
      "costs": {
-      "5": 250
+      "5": 250,
+      "6": 225
      },
      "icon": 133762,
      "level": 0,
@@ -23311,7 +24807,8 @@
     "2160": {
      "category": "Leather Chestguards",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132724,
      "level": 0,
@@ -23324,7 +24821,8 @@
     "2161": {
      "category": "Leather Boots",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132539,
      "level": 0,
@@ -23337,7 +24835,8 @@
     "2162": {
      "category": "Cloaks",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 133150,
      "level": 0,
@@ -23350,7 +24849,8 @@
     "2165": {
      "category": "Armor Kits",
      "costs": {
-      "5": 250
+      "5": 250,
+      "6": 225
      },
      "icon": 133609,
      "level": 0,
@@ -23363,7 +24863,8 @@
     "2166": {
      "category": "Leather Chestguards",
      "costs": {
-      "5": 450
+      "5": 450,
+      "6": 405
      },
      "icon": 132725,
      "level": 0,
@@ -23376,7 +24877,8 @@
     "2167": {
      "category": "Leather Boots",
      "costs": {
-      "5": 350
+      "5": 350,
+      "6": 315
      },
      "icon": 132539,
      "level": 0,
@@ -23389,7 +24891,8 @@
     "2168": {
      "category": "Cloaks",
      "costs": {
-      "5": 350
+      "5": 350,
+      "6": 315
      },
      "icon": 133762,
      "level": 0,
@@ -23401,7 +24904,8 @@
     },
     "3104": {
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 133611,
      "level": 10,
@@ -23415,7 +24919,8 @@
     "3753": {
      "category": "Leather Belts",
      "costs": {
-      "5": 75
+      "5": 75,
+      "6": 67
      },
      "icon": 132493,
      "level": 0,
@@ -23428,7 +24933,8 @@
     "3756": {
      "category": "Leather Gauntlets",
      "costs": {
-      "5": 150
+      "5": 150,
+      "6": 135
      },
      "icon": 132939,
      "level": 0,
@@ -23441,7 +24947,8 @@
     "3759": {
      "category": "Leather Legguards",
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 134582,
      "level": 0,
@@ -23454,7 +24961,8 @@
     "3760": {
      "category": "Cloaks",
      "costs": {
-      "5": 600
+      "5": 600,
+      "6": 540
      },
      "icon": 133759,
      "level": 0,
@@ -23467,7 +24975,8 @@
     "3761": {
      "category": "Leather Chestguards",
      "costs": {
-      "5": 350
+      "5": 350,
+      "6": 315
      },
      "icon": 132724,
      "level": 0,
@@ -23480,7 +24989,8 @@
     "3763": {
      "category": "Leather Belts",
      "costs": {
-      "5": 300
+      "5": 300,
+      "6": 270
      },
      "icon": 132493,
      "level": 0,
@@ -23493,7 +25003,8 @@
     "3764": {
      "category": "Leather Gauntlets",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132939,
      "level": 0,
@@ -23506,7 +25017,8 @@
     "3766": {
      "category": "Leather Belts",
      "costs": {
-      "5": 400
+      "5": 400,
+      "6": 360
      },
      "icon": 132492,
      "level": 0,
@@ -23519,7 +25031,8 @@
     "3768": {
      "category": "Leather Pauldrons",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 135039,
      "level": 0,
@@ -23532,7 +25045,8 @@
     "3770": {
      "category": "Leather Gauntlets",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132958,
      "level": 0,
@@ -23545,7 +25059,8 @@
     "3780": {
      "category": "Armor Kits",
      "costs": {
-      "5": 750
+      "5": 750,
+      "6": 675
      },
      "icon": 133610,
      "level": 0,
@@ -23558,7 +25073,8 @@
     "3816": {
      "category": "Reagents",
      "costs": {
-      "5": 50
+      "5": 50,
+      "6": 45
      },
      "icon": 134366,
      "level": 0,
@@ -23571,7 +25087,8 @@
     "3817": {
      "category": "Reagents",
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 134354,
      "level": 0,
@@ -23584,7 +25101,8 @@
     "3818": {
      "category": "Reagents",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 134367,
      "level": 0,
@@ -23597,7 +25115,8 @@
     "7135": {
      "category": "Leather Legguards",
      "costs": {
-      "5": 400
+      "5": 400,
+      "6": 360
      },
      "icon": 134589,
      "level": 0,
@@ -23610,7 +25129,8 @@
     "9060": {
      "category": "Quivers",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 134401,
      "level": 0,
@@ -23623,7 +25143,8 @@
     "9062": {
      "category": "Ammo Pouches",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 133581,
      "level": 0,
@@ -23636,7 +25157,8 @@
     "9065": {
      "category": "Leather Bracers",
      "costs": {
-      "5": 150
+      "5": 150,
+      "6": 135
      },
      "icon": 132603,
      "level": 0,
@@ -23649,7 +25171,8 @@
     "9068": {
      "category": "Leather Legguards",
      "costs": {
-      "5": 400
+      "5": 400,
+      "6": 360
      },
      "icon": 134582,
      "level": 0,
@@ -23662,7 +25185,8 @@
     "9074": {
      "category": "Leather Gauntlets",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132939,
      "level": 0,
@@ -23675,7 +25199,8 @@
     "9145": {
      "category": "Leather Gauntlets",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132939,
      "level": 0,
@@ -23688,7 +25213,8 @@
     "9193": {
      "category": "Quivers",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 134402,
      "level": 0,
@@ -23701,7 +25227,8 @@
     "9194": {
      "category": "Ammo Pouches",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 133634,
      "level": 0,
@@ -23714,7 +25241,8 @@
     "20648": {
      "category": "Reagents",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 134254,
      "level": 0,
@@ -23727,7 +25255,8 @@
     "20649": {
      "category": "Reagents",
      "costs": {
-      "5": 1000
+      "5": 1000,
+      "6": 900
      },
      "icon": 134256,
      "level": 0,
@@ -23740,7 +25269,8 @@
     "1229432": {
      "category": "Camping",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 134250,
      "level": 0,
@@ -23754,7 +25284,8 @@
     "1255075": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 132515,
      "level": 0,
@@ -23767,7 +25298,8 @@
     "1255076": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 236903,
      "level": 0,
@@ -23780,7 +25312,8 @@
     "1255077": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 236895,
      "level": 0,
@@ -23793,7 +25326,8 @@
     "1255078": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 132495,
      "level": 0,
@@ -23806,7 +25340,8 @@
     "1255079": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 132514,
      "level": 0,
@@ -23819,7 +25354,8 @@
     "1255080": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 236896,
      "level": 0,
@@ -23832,7 +25368,8 @@
     "1255081": {
      "category": "Leather Belts",
      "costs": {
-      "5": 2000
+      "5": 2000,
+      "6": 1800
      },
      "icon": 236918,
      "level": 0,
@@ -23845,7 +25382,8 @@
     "1255143": {
      "category": "Leather Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132560,
      "level": 0,
@@ -23858,7 +25396,8 @@
     "1255144": {
      "category": "Leather Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132571,
      "level": 0,
@@ -23871,7 +25410,8 @@
     "1255145": {
      "category": "Leather Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132539,
      "level": 0,
@@ -23884,7 +25424,8 @@
     "1255146": {
      "category": "Leather Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 321409,
      "level": 0,
@@ -25202,22 +26743,1050 @@
    "tradeskill": true,
    "trainerType": 2
   },
+  "11048": {
+   "lastSeen": "2026-11-16",
+   "name": "Victor Ward",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7013,
+     "mapY": 0.3024,
+     "uiMap": 1458,
+     "worldX": 1684.4,
+     "worldY": 200.3
+    }
+   ],
+   "services": {
+    "2385": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135009,
+     "level": 0,
+     "name": "Brown Linen Vest",
+     "skill": "Tailoring",
+     "skillRank": 10,
+     "sources": 1,
+     "spellId": 2385
+    },
+    "2386": {
+     "category": "Shoes",
+     "costs": {
+      "5": 200
+     },
+     "icon": 132543,
+     "level": 0,
+     "name": "Linen Boots",
+     "skill": "Tailoring",
+     "skillRank": 40,
+     "sources": 1,
+     "spellId": 2386
+    },
+    "2392": {
+     "category": "Shirts",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135029,
+     "level": 0,
+     "name": "Red Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 2392
+    },
+    "2393": {
+     "category": "Shirts",
+     "costs": {
+      "5": 25
+     },
+     "icon": 135030,
+     "level": 0,
+     "name": "White Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 1,
+     "sources": 1,
+     "spellId": 2393
+    },
+    "2394": {
+     "category": "Shirts",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135023,
+     "level": 0,
+     "name": "Blue Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 2394
+    },
+    "2395": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132715,
+     "level": 0,
+     "name": "Barbaric Linen Vest",
+     "skill": "Tailoring",
+     "skillRank": 40,
+     "sources": 1,
+     "spellId": 2395
+    },
+    "2396": {
+     "category": "Shirts",
+     "costs": {
+      "5": 200
+     },
+     "icon": 135024,
+     "level": 0,
+     "name": "Green Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 40,
+     "sources": 1,
+     "spellId": 2396
+    },
+    "2397": {
+     "category": "Cloaks",
+     "costs": {
+      "5": 200
+     },
+     "icon": 133759,
+     "level": 0,
+     "name": "Reinforced Linen Cape",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 2397
+    },
+    "2402": {
+     "category": "Cloaks",
+     "costs": {
+      "5": 250
+     },
+     "icon": 133762,
+     "level": 0,
+     "name": "Woolen Cape",
+     "skill": "Tailoring",
+     "skillRank": 55,
+     "sources": 1,
+     "spellId": 2402
+    },
+    "2964": {
+     "category": "Reagents",
+     "costs": {
+      "5": 100
+     },
+     "icon": 132913,
+     "level": 0,
+     "name": "Bolt of Woolen Cloth",
+     "skill": "Tailoring",
+     "skillRank": 55,
+     "sources": 1,
+     "spellId": 2964
+    },
+    "3755": {
+     "category": "Bags",
+     "costs": {
+      "5": 100
+     },
+     "icon": 133622,
+     "level": 0,
+     "name": "Linen Bag",
+     "skill": "Tailoring",
+     "skillRank": 5,
+     "sources": 1,
+     "spellId": 3755
+    },
+    "3840": {
+     "category": "Gloves",
+     "costs": {
+      "5": 100
+     },
+     "icon": 132939,
+     "level": 0,
+     "name": "Heavy Linen Gloves",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 3840
+    },
+    "3841": {
+     "category": "Bracers",
+     "costs": {
+      "5": 200
+     },
+     "icon": 132611,
+     "level": 0,
+     "name": "Green Linen Bracers",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 3841
+    },
+    "3842": {
+     "category": "Leggings",
+     "costs": {
+      "5": 300
+     },
+     "icon": 134587,
+     "level": 0,
+     "name": "Handstitched Linen Britches",
+     "skill": "Tailoring",
+     "skillRank": 45,
+     "sources": 1,
+     "spellId": 3842
+    },
+    "3908": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 136249,
+     "level": 1,
+     "name": "Apprentice Tailoring",
+     "profession": true,
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3908,
+     "step": true
+    },
+    "3914": {
+     "category": "Leggings",
+     "costs": {
+      "5": 50
+     },
+     "icon": 134586,
+     "level": 0,
+     "name": "Brown Linen Pants",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 3914
+    },
+    "7623": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132662,
+     "level": 0,
+     "name": "Brown Linen Robe",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 7623
+    },
+    "7624": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132645,
+     "level": 0,
+     "name": "White Linen Robe",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 7624
+    },
+    "8465": {
+     "category": "Dressed for the Occasion",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135016,
+     "level": 0,
+     "name": "Simple Dress",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 8465
+    },
+    "8776": {
+     "category": "Belts",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132494,
+     "level": 0,
+     "name": "Linen Belt",
+     "skill": "Tailoring",
+     "skillRank": 15,
+     "sources": 1,
+     "spellId": 8776
+    },
+    "12045": {
+     "category": "Shoes",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132539,
+     "level": 0,
+     "name": "Simple Linen Boots",
+     "skill": "Tailoring",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 12045
+    },
+    "12046": {
+     "category": "Leggings",
+     "costs": {
+      "5": 300
+     },
+     "icon": 134591,
+     "level": 0,
+     "name": "Simple Kilt",
+     "skill": "Tailoring",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 12046
+    },
+    "1229504": {
+     "category": "Camping",
+     "costs": {
+      "5": 100
+     },
+     "icon": 132484,
+     "level": 0,
+     "name": "Faction Banner",
+     "rankText": "Tier 1",
+     "skill": "Tailoring",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 1229504
+    },
+    "1257368": {
+     "category": "Belts",
+     "costs": {
+      "5": 500
+     },
+     "icon": 236919,
+     "level": 0,
+     "name": "Novice Arcanist's Sash",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 1257368
+    },
+    "1257369": {
+     "category": "Belts",
+     "costs": {
+      "5": 500
+     },
+     "icon": 236918,
+     "level": 0,
+     "name": "Novice Ardent's Sash",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 1257369
+    }
+   },
+   "sources": 1,
+   "tradeskill": true,
+   "trainerType": 2
+  },
+  "11049": {
+   "lastSeen": "2026-11-16",
+   "name": "Rhiannon Davis",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7013,
+     "mapY": 0.3024,
+     "uiMap": 1458,
+     "worldX": 1684.4,
+     "worldY": 200.3
+    }
+   ],
+   "services": {
+    "2385": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135009,
+     "level": 0,
+     "name": "Brown Linen Vest",
+     "skill": "Tailoring",
+     "skillRank": 10,
+     "sources": 1,
+     "spellId": 2385
+    },
+    "2386": {
+     "category": "Shoes",
+     "costs": {
+      "5": 200
+     },
+     "icon": 132543,
+     "level": 0,
+     "name": "Linen Boots",
+     "skill": "Tailoring",
+     "skillRank": 40,
+     "sources": 1,
+     "spellId": 2386
+    },
+    "2392": {
+     "category": "Shirts",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135029,
+     "level": 0,
+     "name": "Red Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 2392
+    },
+    "2393": {
+     "category": "Shirts",
+     "costs": {
+      "5": 25
+     },
+     "icon": 135030,
+     "level": 0,
+     "name": "White Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 1,
+     "sources": 1,
+     "spellId": 2393
+    },
+    "2394": {
+     "category": "Shirts",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135023,
+     "level": 0,
+     "name": "Blue Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 2394
+    },
+    "2395": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132715,
+     "level": 0,
+     "name": "Barbaric Linen Vest",
+     "skill": "Tailoring",
+     "skillRank": 40,
+     "sources": 1,
+     "spellId": 2395
+    },
+    "2396": {
+     "category": "Shirts",
+     "costs": {
+      "5": 200
+     },
+     "icon": 135024,
+     "level": 0,
+     "name": "Green Linen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 40,
+     "sources": 1,
+     "spellId": 2396
+    },
+    "2397": {
+     "category": "Cloaks",
+     "costs": {
+      "5": 200
+     },
+     "icon": 133759,
+     "level": 0,
+     "name": "Reinforced Linen Cape",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 2397
+    },
+    "2399": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132680,
+     "level": 0,
+     "name": "Green Woolen Vest",
+     "skill": "Tailoring",
+     "skillRank": 60,
+     "sources": 1,
+     "spellId": 2399
+    },
+    "2401": {
+     "category": "Shoes",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132543,
+     "level": 0,
+     "name": "Woolen Boots",
+     "skill": "Tailoring",
+     "skillRank": 70,
+     "sources": 1,
+     "spellId": 2401
+    },
+    "2402": {
+     "category": "Cloaks",
+     "costs": {
+      "5": 250
+     },
+     "icon": 133762,
+     "level": 0,
+     "name": "Woolen Cape",
+     "skill": "Tailoring",
+     "skillRank": 55,
+     "sources": 1,
+     "spellId": 2402
+    },
+    "2406": {
+     "category": "Shirts",
+     "costs": {
+      "5": 200
+     },
+     "icon": 135025,
+     "level": 0,
+     "name": "Gray Woolen Shirt",
+     "skill": "Tailoring",
+     "skillRank": 80,
+     "sources": 1,
+     "spellId": 2406
+    },
+    "2964": {
+     "category": "Reagents",
+     "costs": {
+      "5": 100
+     },
+     "icon": 132913,
+     "level": 0,
+     "name": "Bolt of Woolen Cloth",
+     "skill": "Tailoring",
+     "skillRank": 55,
+     "sources": 1,
+     "spellId": 2964
+    },
+    "3755": {
+     "category": "Bags",
+     "costs": {
+      "5": 100
+     },
+     "icon": 133622,
+     "level": 0,
+     "name": "Linen Bag",
+     "skill": "Tailoring",
+     "skillRank": 5,
+     "sources": 1,
+     "spellId": 3755
+    },
+    "3757": {
+     "category": "Bags",
+     "costs": {
+      "5": 200
+     },
+     "icon": 133639,
+     "level": 0,
+     "name": "Woolen Bag",
+     "skill": "Tailoring",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 3757
+    },
+    "3813": {
+     "category": "Bags",
+     "costs": {
+      "5": 800
+     },
+     "icon": 133628,
+     "level": 0,
+     "name": "Small Silk Pack",
+     "skill": "Tailoring",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 3813
+    },
+    "3839": {
+     "category": "Reagents",
+     "costs": {
+      "5": 500
+     },
+     "icon": 132907,
+     "level": 0,
+     "name": "Bolt of Silk Cloth",
+     "skill": "Tailoring",
+     "skillRank": 100,
+     "sources": 1,
+     "spellId": 3839
+    },
+    "3840": {
+     "category": "Gloves",
+     "costs": {
+      "5": 100
+     },
+     "icon": 132939,
+     "level": 0,
+     "name": "Heavy Linen Gloves",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 3840
+    },
+    "3841": {
+     "category": "Bracers",
+     "costs": {
+      "5": 200
+     },
+     "icon": 132611,
+     "level": 0,
+     "name": "Green Linen Bracers",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 3841
+    },
+    "3842": {
+     "category": "Leggings",
+     "costs": {
+      "5": 300
+     },
+     "icon": 134587,
+     "level": 0,
+     "name": "Handstitched Linen Britches",
+     "skill": "Tailoring",
+     "skillRank": 45,
+     "sources": 1,
+     "spellId": 3842
+    },
+    "3843": {
+     "category": "Gloves",
+     "costs": {
+      "5": 400
+     },
+     "icon": 132939,
+     "level": 0,
+     "name": "Heavy Woolen Gloves",
+     "skill": "Tailoring",
+     "skillRank": 60,
+     "sources": 1,
+     "spellId": 3843
+    },
+    "3845": {
+     "category": "Shoes",
+     "costs": {
+      "5": 300
+     },
+     "icon": 132543,
+     "level": 0,
+     "name": "Soft-soled Linen Boots",
+     "skill": "Tailoring",
+     "skillRank": 55,
+     "sources": 1,
+     "spellId": 3845
+    },
+    "3848": {
+     "category": "Spaulders",
+     "costs": {
+      "5": 500
+     },
+     "icon": 135037,
+     "level": 0,
+     "name": "Double-Stitched Woolen Shoulders",
+     "skill": "Tailoring",
+     "skillRank": 85,
+     "sources": 1,
+     "spellId": 3848
+    },
+    "3850": {
+     "category": "Leggings",
+     "costs": {
+      "5": 500
+     },
+     "icon": 134581,
+     "level": 0,
+     "name": "Heavy Woolen Pants",
+     "skill": "Tailoring",
+     "skillRank": 85,
+     "sources": 1,
+     "spellId": 3850
+    },
+    "3852": {
+     "category": "Gloves",
+     "costs": {
+      "5": 750
+     },
+     "icon": 132939,
+     "level": 0,
+     "name": "Gloves of Meditation",
+     "skill": "Tailoring",
+     "skillRank": 105,
+     "sources": 1,
+     "spellId": 3852
+    },
+    "3855": {
+     "category": "Shoes",
+     "costs": {
+      "5": 750
+     },
+     "icon": 132539,
+     "level": 0,
+     "name": "Spidersilk Boots",
+     "skill": "Tailoring",
+     "skillRank": 100,
+     "sources": 1,
+     "spellId": 3855
+    },
+    "3859": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 750
+     },
+     "icon": 132678,
+     "level": 0,
+     "name": "Azure Silk Vest",
+     "skill": "Tailoring",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 3859
+    },
+    "3866": {
+     "category": "Shirts",
+     "costs": {
+      "5": 250
+     },
+     "icon": 135029,
+     "level": 0,
+     "name": "Stylish Red Shirt",
+     "skill": "Tailoring",
+     "skillRank": 85,
+     "sources": 1,
+     "spellId": 3866
+    },
+    "3908": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 136249,
+     "level": 1,
+     "name": "Apprentice Tailoring",
+     "profession": true,
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3908
+    },
+    "3909": {
+     "costs": {
+      "5": 500
+     },
+     "icon": 136249,
+     "level": 10,
+     "name": "Journeyman Tailoring",
+     "skill": "Tailoring",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 3909,
+     "step": true
+    },
+    "3914": {
+     "category": "Leggings",
+     "costs": {
+      "5": 50
+     },
+     "icon": 134586,
+     "level": 0,
+     "name": "Brown Linen Pants",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 3914
+    },
+    "6521": {
+     "category": "Cloaks",
+     "costs": {
+      "5": 400
+     },
+     "icon": 133763,
+     "level": 0,
+     "name": "Pearl-clasped Cloak",
+     "skill": "Tailoring",
+     "skillRank": 70,
+     "sources": 1,
+     "spellId": 6521
+    },
+    "6690": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 1000
+     },
+     "icon": 132658,
+     "level": 0,
+     "name": "Lesser Wizard's Robe",
+     "skill": "Tailoring",
+     "skillRank": 110,
+     "sources": 1,
+     "spellId": 6690
+    },
+    "7623": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132662,
+     "level": 0,
+     "name": "Brown Linen Robe",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 7623
+    },
+    "7624": {
+     "category": "Robes and Vests",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132645,
+     "level": 0,
+     "name": "White Linen Robe",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 7624
+    },
+    "8465": {
+     "category": "Dressed for the Occasion",
+     "costs": {
+      "5": 50
+     },
+     "icon": 135016,
+     "level": 0,
+     "name": "Simple Dress",
+     "skill": "Tailoring",
+     "skillRank": 25,
+     "sources": 1,
+     "spellId": 8465
+    },
+    "8467": {
+     "category": "Dressed for the Occasion",
+     "costs": {
+      "5": 250
+     },
+     "icon": 135016,
+     "level": 0,
+     "name": "White Woolen Dress",
+     "skill": "Tailoring",
+     "skillRank": 85,
+     "sources": 1,
+     "spellId": 8467
+    },
+    "8758": {
+     "category": "Leggings",
+     "costs": {
+      "5": 600
+     },
+     "icon": 134588,
+     "level": 0,
+     "name": "Azure Silk Pants",
+     "skill": "Tailoring",
+     "skillRank": 115,
+     "sources": 1,
+     "spellId": 8758
+    },
+    "8760": {
+     "category": "Hoods",
+     "costs": {
+      "5": 600
+     },
+     "icon": 133131,
+     "level": 0,
+     "name": "Azure Silk Hood",
+     "skill": "Tailoring",
+     "skillRank": 120,
+     "sources": 1,
+     "spellId": 8760
+    },
+    "8776": {
+     "category": "Belts",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132494,
+     "level": 0,
+     "name": "Linen Belt",
+     "skill": "Tailoring",
+     "skillRank": 15,
+     "sources": 1,
+     "spellId": 8776
+    },
+    "12045": {
+     "category": "Shoes",
+     "costs": {
+      "5": 50
+     },
+     "icon": 132539,
+     "level": 0,
+     "name": "Simple Linen Boots",
+     "skill": "Tailoring",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 12045
+    },
+    "12046": {
+     "category": "Leggings",
+     "costs": {
+      "5": 300
+     },
+     "icon": 134591,
+     "level": 0,
+     "name": "Simple Kilt",
+     "skill": "Tailoring",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 12046
+    },
+    "1229504": {
+     "category": "Camping",
+     "costs": {
+      "5": 100
+     },
+     "icon": 132484,
+     "level": 0,
+     "name": "Faction Banner",
+     "rankText": "Tier 1",
+     "skill": "Tailoring",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 1229504
+    },
+    "1257368": {
+     "category": "Belts",
+     "costs": {
+      "5": 500
+     },
+     "icon": 236919,
+     "level": 0,
+     "name": "Novice Arcanist's Sash",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 1257368
+    },
+    "1257369": {
+     "category": "Belts",
+     "costs": {
+      "5": 500
+     },
+     "icon": 236918,
+     "level": 0,
+     "name": "Novice Ardent's Sash",
+     "skill": "Tailoring",
+     "skillRank": 35,
+     "sources": 1,
+     "spellId": 1257369
+    },
+    "1257426": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132565,
+     "level": 0,
+     "name": "Gilded Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257426
+    },
+    "1257427": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132560,
+     "level": 0,
+     "name": "Frothing Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257427
+    },
+    "1257428": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132559,
+     "level": 0,
+     "name": "Fiery Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257428
+    },
+    "1257429": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132578,
+     "level": 0,
+     "name": "Black Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257429
+    },
+    "1257430": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 132563,
+     "level": 0,
+     "name": "Golden Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257430
+    },
+    "1257431": {
+     "category": "Shoes",
+     "costs": {
+      "5": 1450
+     },
+     "icon": 341559,
+     "level": 0,
+     "name": "Radiant Slippers",
+     "skill": "Tailoring",
+     "skillRank": 150,
+     "sources": 1,
+     "spellId": 1257431
+    }
+   },
+   "sources": 1,
+   "tradeskill": true,
+   "trainerType": 2
+  },
   "11067": {
    "lastSeen": "2026-11-16",
    "name": "Malcomb Wynn",
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.6219,
-     "mapY": 0.604,
+     "mapX": 0.6209,
+     "mapY": 0.6057,
      "uiMap": 1458,
-     "worldX": 1491.3,
-     "worldY": 276.6
+     "worldX": 1490.2,
+     "worldY": 277.5
     }
    ],
    "services": {
     "7411": {
      "costs": {
+      "5": 10,
       "6": 9
      },
      "icon": 136244,
@@ -25225,13 +27794,14 @@
      "name": "Apprentice Enchanting",
      "profession": true,
      "skillRank": 0,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7411,
      "step": true
     },
     "7420": {
      "category": "Chest Enchants",
      "costs": {
+      "5": 50,
       "6": 45
      },
      "icon": 135913,
@@ -25239,12 +27809,13 @@
      "name": "Enchant Chest - Inferior Stamina",
      "skill": "Enchanting",
      "skillRank": 15,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7420
     },
     "7426": {
      "category": "Chest Enchants",
      "costs": {
+      "5": 100,
       "6": 90
      },
      "icon": 135913,
@@ -25252,12 +27823,13 @@
      "name": "Enchant Chest - Minor Absorption",
      "skill": "Enchanting",
      "skillRank": 40,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7426
     },
     "7454": {
      "category": "Cloak Enchants",
      "costs": {
+      "5": 100,
       "6": 90
      },
      "icon": 135913,
@@ -25265,12 +27837,13 @@
      "name": "Enchant Cloak - Minor Resistance",
      "skill": "Enchanting",
      "skillRank": 45,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7454
     },
     "7457": {
      "category": "Bracer Enchants",
      "costs": {
+      "5": 250,
       "6": 225
      },
      "icon": 135913,
@@ -25278,12 +27851,13 @@
      "name": "Enchant Bracer - Minor Stamina",
      "skill": "Enchanting",
      "skillRank": 50,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7457
     },
     "7748": {
      "category": "Chest Enchants",
      "costs": {
+      "5": 250,
       "6": 225
      },
      "icon": 135913,
@@ -25291,12 +27865,13 @@
      "name": "Enchant Chest - Lesser Stamina",
      "skill": "Enchanting",
      "skillRank": 60,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7748
     },
     "7771": {
      "category": "Cloak Enchants",
      "costs": {
+      "5": 200,
       "6": 180
      },
      "icon": 135913,
@@ -25304,12 +27879,13 @@
      "name": "Enchant Cloak - Minor Protection",
      "skill": "Enchanting",
      "skillRank": 70,
-     "sources": 1,
+     "sources": 2,
      "spellId": 7771
     },
     "14293": {
      "category": "Wands",
      "costs": {
+      "5": 50,
       "6": 45
      },
      "icon": 135139,
@@ -25317,12 +27893,13 @@
      "name": "Lesser Magic Wand",
      "skill": "Enchanting",
      "skillRank": 10,
-     "sources": 1,
+     "sources": 2,
      "spellId": 14293
     },
     "14807": {
      "category": "Wands",
      "costs": {
+      "5": 200,
       "6": 180
      },
      "icon": 135144,
@@ -25330,12 +27907,13 @@
      "name": "Greater Magic Wand",
      "skill": "Enchanting",
      "skillRank": 70,
-     "sources": 1,
+     "sources": 2,
      "spellId": 14807
     },
     "1230643": {
      "category": "Camping",
      "costs": {
+      "5": 100,
       "6": 90
      },
      "icon": 4631367,
@@ -25344,11 +27922,11 @@
      "rankText": "Tier 1",
      "skill": "Enchanting",
      "skillRank": 20,
-     "sources": 1,
+     "sources": 2,
      "spellId": 1230643
     }
    },
-   "sources": 1,
+   "sources": 2,
    "tradeskill": true,
    "trainerType": 2
   },
@@ -25503,22 +28081,23 @@
    "trainerType": 2
   },
   "11096": {
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-17",
    "name": "Randal Worth",
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.72,
-     "mapY": 0.6269,
+     "mapX": 0.7219,
+     "mapY": 0.6273,
      "uiMap": 1453,
-     "worldX": -8721.9,
-     "worldY": 471.9
+     "worldX": -8722.5,
+     "worldY": 468.6
     }
    ],
    "services": {
     "2108": {
      "costs": {
-      "5": 10
+      "5": 10,
+      "6": 9
      },
      "icon": 133611,
      "level": 1,
@@ -25532,7 +28111,8 @@
     "2153": {
      "category": "Leather Legguards",
      "costs": {
-      "5": 50
+      "5": 50,
+      "6": 45
      },
      "icon": 134706,
      "level": 0,
@@ -25545,7 +28125,8 @@
     "2160": {
      "category": "Leather Chestguards",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132724,
      "level": 0,
@@ -25558,7 +28139,8 @@
     "2161": {
      "category": "Leather Boots",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 132539,
      "level": 0,
@@ -25571,7 +28153,8 @@
     "2162": {
      "category": "Cloaks",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 133150,
      "level": 0,
@@ -25584,7 +28167,8 @@
     "3753": {
      "category": "Leather Belts",
      "costs": {
-      "5": 75
+      "5": 75,
+      "6": 67
      },
      "icon": 132493,
      "level": 0,
@@ -25597,7 +28181,8 @@
     "3756": {
      "category": "Leather Gauntlets",
      "costs": {
-      "5": 150
+      "5": 150,
+      "6": 135
      },
      "icon": 132939,
      "level": 0,
@@ -25610,7 +28195,8 @@
     "3759": {
      "category": "Leather Legguards",
      "costs": {
-      "5": 200
+      "5": 200,
+      "6": 180
      },
      "icon": 134582,
      "level": 0,
@@ -25623,7 +28209,8 @@
     "3816": {
      "category": "Reagents",
      "costs": {
-      "5": 50
+      "5": 50,
+      "6": 45
      },
      "icon": 134366,
      "level": 0,
@@ -25636,7 +28223,8 @@
     "9060": {
      "category": "Quivers",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 134401,
      "level": 0,
@@ -25649,7 +28237,8 @@
     "9062": {
      "category": "Ammo Pouches",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 133581,
      "level": 0,
@@ -25662,7 +28251,8 @@
     "9065": {
      "category": "Leather Bracers",
      "costs": {
-      "5": 150
+      "5": 150,
+      "6": 135
      },
      "icon": 132603,
      "level": 0,
@@ -25675,7 +28265,8 @@
     "1229432": {
      "category": "Camping",
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "icon": 134250,
      "level": 0,
@@ -25689,7 +28280,8 @@
     "1255143": {
      "category": "Leather Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132560,
      "level": 0,
@@ -25702,7 +28294,8 @@
     "1255144": {
      "category": "Leather Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132571,
      "level": 0,
@@ -25715,7 +28308,8 @@
     "1255145": {
      "category": "Leather Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 132539,
      "level": 0,
@@ -25728,7 +28322,8 @@
     "1255146": {
      "category": "Leather Boots",
      "costs": {
-      "5": 500
+      "5": 500,
+      "6": 450
      },
      "icon": 321409,
      "level": 0,
@@ -25937,6 +28532,2352 @@
      "skillRank": 0,
      "sources": 1,
      "spellId": 202
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
+  "13417": {
+   "lastSeen": "2026-11-16",
+   "name": "Sagorne Creststrider",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.385,
+     "mapY": 0.3631,
+     "uiMap": 1454,
+     "worldX": 1934.3,
+     "worldY": -4220.7
+    }
+   ],
+   "services": {
+    "131": {
+     "costs": {
+      "6": 2970
+     },
+     "icon": 136148,
+     "level": 0,
+     "name": "Water Breathing",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 131
+    },
+    "324": {
+     "costs": {
+      "6": 90
+     },
+     "icon": 136051,
+     "level": 0,
+     "name": "Lightning Shield",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 324
+    },
+    "325": {
+     "abilities": [
+      "Lightning Shield (Rank 1)"
+     ],
+     "costs": {
+      "6": 990
+     },
+     "icon": 136051,
+     "level": 0,
+     "name": "Lightning Shield",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 325
+    },
+    "332": {
+     "abilities": [
+      "Healing Wave (Rank 1)"
+     ],
+     "costs": {
+      "6": 90
+     },
+     "icon": 136052,
+     "level": 0,
+     "name": "Healing Wave",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 332
+    },
+    "370": {
+     "costs": {
+      "6": 630
+     },
+     "icon": 136075,
+     "level": 0,
+     "name": "Purge",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 370
+    },
+    "421": {
+     "costs": {
+      "6": 6300
+     },
+     "icon": 136015,
+     "level": 0,
+     "name": "Chain Lightning",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 421
+    },
+    "526": {
+     "costs": {
+      "6": 990
+     },
+     "icon": 136067,
+     "level": 0,
+     "name": "Cure Poison",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 526
+    },
+    "529": {
+     "abilities": [
+      "Lightning Bolt (Rank 1)"
+     ],
+     "costs": {
+      "6": 90
+     },
+     "icon": 136048,
+     "level": 0,
+     "name": "Lightning Bolt",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 529
+    },
+    "546": {
+     "costs": {
+      "6": 4500
+     },
+     "icon": 135863,
+     "level": 0,
+     "name": "Water Walking",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 546
+    },
+    "547": {
+     "abilities": [
+      "Healing Wave (Rank 2)"
+     ],
+     "costs": {
+      "6": 630
+     },
+     "icon": 136052,
+     "level": 0,
+     "name": "Healing Wave",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 547
+    },
+    "548": {
+     "abilities": [
+      "Lightning Bolt (Rank 2)"
+     ],
+     "costs": {
+      "6": 810
+     },
+     "icon": 136048,
+     "level": 0,
+     "name": "Lightning Bolt",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 548
+    },
+    "556": {
+     "costs": {
+      "6": 5130
+     },
+     "icon": 136010,
+     "level": 0,
+     "name": "Astral Recall",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 556
+    },
+    "905": {
+     "abilities": [
+      "Lightning Shield (Rank 2)"
+     ],
+     "costs": {
+      "6": 3060
+     },
+     "icon": 136051,
+     "level": 0,
+     "name": "Lightning Shield",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 905
+    },
+    "913": {
+     "abilities": [
+      "Healing Wave (Rank 3)"
+     ],
+     "costs": {
+      "6": 1080
+     },
+     "icon": 136052,
+     "level": 0,
+     "name": "Healing Wave",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 913
+    },
+    "915": {
+     "abilities": [
+      "Lightning Bolt (Rank 3)"
+     ],
+     "costs": {
+      "6": 2070
+     },
+     "icon": 136048,
+     "level": 0,
+     "name": "Lightning Bolt",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 915
+    },
+    "930": {
+     "abilities": [
+      "Chain Lightning (Rank 1)"
+     ],
+     "costs": {
+      "6": 10800
+     },
+     "icon": 136015,
+     "level": 40,
+     "name": "Chain Lightning",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 930
+    },
+    "939": {
+     "abilities": [
+      "Healing Wave (Rank 4)"
+     ],
+     "costs": {
+      "6": 3060
+     },
+     "icon": 136052,
+     "level": 0,
+     "name": "Healing Wave",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 939
+    },
+    "943": {
+     "abilities": [
+      "Lightning Bolt (Rank 4)"
+     ],
+     "costs": {
+      "6": 3870
+     },
+     "icon": 136048,
+     "level": 26,
+     "name": "Lightning Bolt",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 943
+    },
+    "945": {
+     "abilities": [
+      "Lightning Shield (Rank 3)"
+     ],
+     "costs": {
+      "6": 6300
+     },
+     "icon": 136051,
+     "level": 0,
+     "name": "Lightning Shield",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 945
+    },
+    "959": {
+     "abilities": [
+      "Healing Wave (Rank 5)"
+     ],
+     "costs": {
+      "6": 6300
+     },
+     "icon": 136052,
+     "level": 0,
+     "name": "Healing Wave",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 959
+    },
+    "1064": {
+     "costs": {
+      "6": 10800
+     },
+     "icon": 136042,
+     "level": 0,
+     "name": "Chain Heal",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1064
+    },
+    "2008": {
+     "costs": {
+      "6": 630
+     },
+     "icon": 136077,
+     "level": 0,
+     "name": "Ancestral Spirit",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2008
+    },
+    "2484": {
+     "costs": {
+      "6": 90
+     },
+     "icon": 136102,
+     "level": 0,
+     "name": "Earthbind Totem",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2484
+    },
+    "2860": {
+     "abilities": [
+      "Chain Lightning (Rank 2)"
+     ],
+     "costs": {
+      "6": 18900
+     },
+     "icon": 136015,
+     "level": 48,
+     "name": "Chain Lightning",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2860
+    },
+    "2870": {
+     "costs": {
+      "6": 2970
+     },
+     "icon": 136083,
+     "level": 0,
+     "name": "Cure Disease",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2870
+    },
+    "5675": {
+     "costs": {
+      "6": 3870
+     },
+     "icon": 136053,
+     "level": 0,
+     "name": "Mana Spring Totem",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5675
+    },
+    "5730": {
+     "costs": {
+      "6": 90
+     },
+     "icon": 136097,
+     "level": 0,
+     "name": "Stoneclaw Totem",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5730
+    },
+    "6041": {
+     "abilities": [
+      "Lightning Bolt (Rank 5)"
+     ],
+     "costs": {
+      "6": 6300
+     },
+     "icon": 136048,
+     "level": 32,
+     "name": "Lightning Bolt",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6041
+    },
+    "6196": {
+     "costs": {
+      "6": 3870
+     },
+     "icon": 136034,
+     "level": 0,
+     "name": "Far Sight",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6196
+    },
+    "6363": {
+     "abilities": [
+      "Searing Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 2070
+     },
+     "icon": 135825,
+     "level": 0,
+     "name": "Searing Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6363
+    },
+    "6364": {
+     "abilities": [
+      "Searing Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 5130
+     },
+     "icon": 135825,
+     "level": 0,
+     "name": "Searing Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6364
+    },
+    "6365": {
+     "abilities": [
+      "Searing Totem (Rank 3)"
+     ],
+     "costs": {
+      "6": 10800
+     },
+     "icon": 135825,
+     "level": 0,
+     "name": "Searing Totem",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6365
+    },
+    "6375": {
+     "abilities": [
+      "Healing Stream Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 5130
+     },
+     "icon": 135127,
+     "level": 0,
+     "name": "Healing Stream Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6375
+    },
+    "6377": {
+     "abilities": [
+      "Healing Stream Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 10800
+     },
+     "icon": 135127,
+     "level": 0,
+     "name": "Healing Stream Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6377
+    },
+    "6390": {
+     "abilities": [
+      "Stoneclaw Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 1080
+     },
+     "icon": 136097,
+     "level": 0,
+     "name": "Stoneclaw Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6390
+    },
+    "6391": {
+     "abilities": [
+      "Stoneclaw Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 4500
+     },
+     "icon": 136097,
+     "level": 0,
+     "name": "Stoneclaw Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6391
+    },
+    "6392": {
+     "abilities": [
+      "Stoneclaw Totem (Rank 3)"
+     ],
+     "costs": {
+      "6": 9000
+     },
+     "icon": 136097,
+     "level": 0,
+     "name": "Stoneclaw Totem",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6392
+    },
+    "6495": {
+     "costs": {
+      "6": 7200
+     },
+     "icon": 136082,
+     "level": 0,
+     "name": "Sentry Totem",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 6495
+    },
+    "8004": {
+     "costs": {
+      "6": 2070
+     },
+     "icon": 136043,
+     "level": 0,
+     "name": "Lesser Healing Wave",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8004
+    },
+    "8005": {
+     "abilities": [
+      "Healing Wave (Rank 6)"
+     ],
+     "costs": {
+      "6": 10800
+     },
+     "icon": 136052,
+     "level": 0,
+     "name": "Healing Wave",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8005
+    },
+    "8008": {
+     "abilities": [
+      "Lesser Healing Wave (Rank 1)"
+     ],
+     "costs": {
+      "6": 4500
+     },
+     "icon": 136043,
+     "level": 0,
+     "name": "Lesser Healing Wave",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8008
+    },
+    "8010": {
+     "abilities": [
+      "Lesser Healing Wave (Rank 2)"
+     ],
+     "costs": {
+      "6": 8100
+     },
+     "icon": 136043,
+     "level": 0,
+     "name": "Lesser Healing Wave",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8010
+    },
+    "8012": {
+     "abilities": [
+      "Purge (Rank 1)"
+     ],
+     "costs": {
+      "6": 6300
+     },
+     "icon": 136075,
+     "level": 0,
+     "name": "Purge",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8012
+    },
+    "8017": {
+     "costs": {
+      "6": 9
+     },
+     "icon": 136086,
+     "level": 0,
+     "name": "Rockbiter Weapon",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8017
+    },
+    "8018": {
+     "abilities": [
+      "Rockbiter Weapon (Rank 1)"
+     ],
+     "costs": {
+      "6": 90
+     },
+     "icon": 136086,
+     "level": 0,
+     "name": "Rockbiter Weapon",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8018
+    },
+    "8019": {
+     "abilities": [
+      "Rockbiter Weapon (Rank 2)"
+     ],
+     "costs": {
+      "6": 990
+     },
+     "icon": 136086,
+     "level": 0,
+     "name": "Rockbiter Weapon",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8019
+    },
+    "8024": {
+     "costs": {
+      "6": 360
+     },
+     "icon": 135814,
+     "level": 0,
+     "name": "Flametongue Weapon",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8024
+    },
+    "8027": {
+     "abilities": [
+      "Flametongue Weapon (Rank 1)"
+     ],
+     "costs": {
+      "6": 1080
+     },
+     "icon": 135814,
+     "level": 0,
+     "name": "Flametongue Weapon",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8027
+    },
+    "8030": {
+     "abilities": [
+      "Flametongue Weapon (Rank 2)"
+     ],
+     "costs": {
+      "6": 3870
+     },
+     "icon": 135814,
+     "level": 0,
+     "name": "Flametongue Weapon",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8030
+    },
+    "8033": {
+     "costs": {
+      "6": 2070
+     },
+     "icon": 135847,
+     "level": 0,
+     "name": "Frostbrand Weapon",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8033
+    },
+    "8038": {
+     "abilities": [
+      "Frostbrand Weapon (Rank 1)"
+     ],
+     "costs": {
+      "6": 4500
+     },
+     "icon": 135847,
+     "level": 28,
+     "name": "Frostbrand Weapon",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8038
+    },
+    "8042": {
+     "costs": {
+      "6": 90
+     },
+     "icon": 136026,
+     "level": 0,
+     "name": "Earth Shock",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8042
+    },
+    "8044": {
+     "abilities": [
+      "Earth Shock (Rank 1)"
+     ],
+     "costs": {
+      "6": 90
+     },
+     "icon": 136026,
+     "level": 0,
+     "name": "Earth Shock",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8044
+    },
+    "8045": {
+     "abilities": [
+      "Earth Shock (Rank 2)"
+     ],
+     "costs": {
+      "6": 810
+     },
+     "icon": 136026,
+     "level": 0,
+     "name": "Earth Shock",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8045
+    },
+    "8046": {
+     "abilities": [
+      "Earth Shock (Rank 3)"
+     ],
+     "costs": {
+      "6": 3060
+     },
+     "icon": 136026,
+     "level": 0,
+     "name": "Earth Shock",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8046
+    },
+    "8050": {
+     "costs": {
+      "6": 360
+     },
+     "icon": 135813,
+     "level": 0,
+     "name": "Flame Shock",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8050
+    },
+    "8052": {
+     "abilities": [
+      "Flame Shock (Rank 1)"
+     ],
+     "costs": {
+      "6": 1080
+     },
+     "icon": 135813,
+     "level": 0,
+     "name": "Flame Shock",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8052
+    },
+    "8053": {
+     "abilities": [
+      "Flame Shock (Rank 2)"
+     ],
+     "costs": {
+      "6": 4500
+     },
+     "icon": 135813,
+     "level": 0,
+     "name": "Flame Shock",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8053
+    },
+    "8056": {
+     "costs": {
+      "6": 2070
+     },
+     "icon": 135849,
+     "level": 0,
+     "name": "Frost Shock",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8056
+    },
+    "8058": {
+     "abilities": [
+      "Frost Shock (Rank 1)"
+     ],
+     "costs": {
+      "6": 7200
+     },
+     "icon": 135849,
+     "level": 0,
+     "name": "Frost Shock",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8058
+    },
+    "8075": {
+     "costs": {
+      "6": 360
+     },
+     "icon": 136023,
+     "level": 0,
+     "name": "Strength of Earth Totem",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8075
+    },
+    "8134": {
+     "abilities": [
+      "Lightning Shield (Rank 4)"
+     ],
+     "costs": {
+      "6": 10800
+     },
+     "icon": 136051,
+     "level": 0,
+     "name": "Lightning Shield",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8134
+    },
+    "8143": {
+     "costs": {
+      "6": 1080
+     },
+     "icon": 136108,
+     "level": 0,
+     "name": "Tremor Totem",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8143
+    },
+    "8154": {
+     "abilities": [
+      "Stoneskin Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 810
+     },
+     "icon": 136098,
+     "level": 0,
+     "name": "Stoneskin Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8154
+    },
+    "8155": {
+     "abilities": [
+      "Stoneskin Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 3060
+     },
+     "icon": 136098,
+     "level": 0,
+     "name": "Stoneskin Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8155
+    },
+    "8160": {
+     "abilities": [
+      "Strength of Earth Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 3060
+     },
+     "icon": 136023,
+     "level": 0,
+     "name": "Strength of Earth Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8160
+    },
+    "8161": {
+     "abilities": [
+      "Strength of Earth Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 9000
+     },
+     "icon": 136023,
+     "level": 0,
+     "name": "Strength of Earth Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8161
+    },
+    "8166": {
+     "costs": {
+      "6": 2970
+     },
+     "icon": 136070,
+     "level": 0,
+     "name": "Poison Cleansing Totem",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8166
+    },
+    "8170": {
+     "costs": {
+      "6": 9000
+     },
+     "icon": 136019,
+     "level": 0,
+     "name": "Disease Cleansing Totem",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8170
+    },
+    "8177": {
+     "costs": {
+      "6": 5130
+     },
+     "icon": 136039,
+     "level": 0,
+     "name": "Grounding Totem",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8177
+    },
+    "8181": {
+     "costs": {
+      "6": 3060
+     },
+     "icon": 135866,
+     "level": 0,
+     "name": "Frost Resistance Totem",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8181
+    },
+    "8184": {
+     "costs": {
+      "6": 4500
+     },
+     "icon": 135832,
+     "level": 0,
+     "name": "Fire Resistance Totem",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8184
+    },
+    "8190": {
+     "costs": {
+      "6": 3870
+     },
+     "icon": 135826,
+     "level": 0,
+     "name": "Magma Totem",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8190
+    },
+    "8227": {
+     "costs": {
+      "6": 4500
+     },
+     "icon": 136040,
+     "level": 0,
+     "name": "Flametongue Totem",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8227
+    },
+    "8232": {
+     "costs": {
+      "6": 5130
+     },
+     "icon": 136018,
+     "level": 0,
+     "name": "Windfury Weapon",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8232
+    },
+    "8235": {
+     "abilities": [
+      "Windfury Weapon (Rank 1)"
+     ],
+     "costs": {
+      "6": 10800
+     },
+     "icon": 136018,
+     "level": 0,
+     "name": "Windfury Weapon",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8235
+    },
+    "8249": {
+     "abilities": [
+      "Flametongue Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 9000
+     },
+     "icon": 136040,
+     "level": 38,
+     "name": "Flametongue Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8249
+    },
+    "8512": {
+     "costs": {
+      "6": 6300
+     },
+     "icon": 136114,
+     "level": 0,
+     "name": "Windfury Totem",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8512
+    },
+    "8737": {
+     "costs": {
+      "6": 10800
+     },
+     "icon": 132627,
+     "level": 40,
+     "name": "Mail",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8737
+    },
+    "8835": {
+     "costs": {
+      "6": 16200
+     },
+     "icon": 136046,
+     "level": 42,
+     "name": "Grace of Air Totem",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8835
+    },
+    "10391": {
+     "abilities": [
+      "Lightning Bolt (Rank 6)"
+     ],
+     "costs": {
+      "6": 9000
+     },
+     "icon": 136048,
+     "level": 38,
+     "name": "Lightning Bolt",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10391
+    },
+    "10392": {
+     "abilities": [
+      "Lightning Bolt (Rank 7)"
+     ],
+     "costs": {
+      "6": 17100
+     },
+     "icon": 136048,
+     "level": 44,
+     "name": "Lightning Bolt",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10392
+    },
+    "10395": {
+     "abilities": [
+      "Healing Wave (Rank 7)"
+     ],
+     "costs": {
+      "6": 18900
+     },
+     "icon": 136052,
+     "level": 48,
+     "name": "Healing Wave",
+     "rankText": "Rank 8",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10395
+    },
+    "10396": {
+     "abilities": [
+      "Healing Wave (Rank 8)"
+     ],
+     "costs": {
+      "6": 25200
+     },
+     "icon": 136052,
+     "level": 56,
+     "name": "Healing Wave",
+     "rankText": "Rank 9",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10396
+    },
+    "10399": {
+     "abilities": [
+      "Rockbiter Weapon (Rank 3)"
+     ],
+     "costs": {
+      "6": 3060
+     },
+     "icon": 136086,
+     "level": 0,
+     "name": "Rockbiter Weapon",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10399
+    },
+    "10406": {
+     "abilities": [
+      "Stoneskin Totem (Rank 3)"
+     ],
+     "costs": {
+      "6": 7200
+     },
+     "icon": 136098,
+     "level": 0,
+     "name": "Stoneskin Totem",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10406
+    },
+    "10407": {
+     "abilities": [
+      "Stoneskin Totem (Rank 4)"
+     ],
+     "costs": {
+      "6": 17100
+     },
+     "icon": 136098,
+     "level": 44,
+     "name": "Stoneskin Totem",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10407
+    },
+    "10408": {
+     "abilities": [
+      "Stoneskin Totem (Rank 5)"
+     ],
+     "costs": {
+      "6": 24300
+     },
+     "icon": 136098,
+     "level": 54,
+     "name": "Stoneskin Totem",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10408
+    },
+    "10412": {
+     "abilities": [
+      "Earth Shock (Rank 4)"
+     ],
+     "costs": {
+      "6": 8100
+     },
+     "icon": 136026,
+     "level": 0,
+     "name": "Earth Shock",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10412
+    },
+    "10413": {
+     "abilities": [
+      "Earth Shock (Rank 5)"
+     ],
+     "costs": {
+      "6": 18900
+     },
+     "icon": 136026,
+     "level": 48,
+     "name": "Earth Shock",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10413
+    },
+    "10414": {
+     "abilities": [
+      "Earth Shock (Rank 6)"
+     ],
+     "costs": {
+      "6": 29700
+     },
+     "icon": 136026,
+     "level": 60,
+     "name": "Earth Shock",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10414
+    },
+    "10427": {
+     "abilities": [
+      "Stoneclaw Totem (Rank 4)"
+     ],
+     "costs": {
+      "6": 18900
+     },
+     "icon": 136097,
+     "level": 48,
+     "name": "Stoneclaw Totem",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10427
+    },
+    "10428": {
+     "abilities": [
+      "Stoneclaw Totem (Rank 5)"
+     ],
+     "costs": {
+      "6": 28800
+     },
+     "icon": 136097,
+     "level": 58,
+     "name": "Stoneclaw Totem",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10428
+    },
+    "10431": {
+     "abilities": [
+      "Lightning Shield (Rank 5)"
+     ],
+     "costs": {
+      "6": 18900
+     },
+     "icon": 136051,
+     "level": 48,
+     "name": "Lightning Shield",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10431
+    },
+    "10432": {
+     "abilities": [
+      "Lightning Shield (Rank 6)"
+     ],
+     "costs": {
+      "6": 25200
+     },
+     "icon": 136051,
+     "level": 56,
+     "name": "Lightning Shield",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10432
+    },
+    "10437": {
+     "abilities": [
+      "Searing Totem (Rank 4)"
+     ],
+     "costs": {
+      "6": 22500
+     },
+     "icon": 135825,
+     "level": 50,
+     "name": "Searing Totem",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10437
+    },
+    "10438": {
+     "abilities": [
+      "Searing Totem (Rank 5)"
+     ],
+     "costs": {
+      "6": 29700
+     },
+     "icon": 135825,
+     "level": 60,
+     "name": "Searing Totem",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10438
+    },
+    "10442": {
+     "abilities": [
+      "Strength of Earth Totem (Rank 3)"
+     ],
+     "costs": {
+      "6": 23400
+     },
+     "icon": 136023,
+     "level": 52,
+     "name": "Strength of Earth Totem",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10442
+    },
+    "10447": {
+     "abilities": [
+      "Flame Shock (Rank 3)"
+     ],
+     "costs": {
+      "6": 10800
+     },
+     "icon": 135813,
+     "level": 0,
+     "name": "Flame Shock",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10447
+    },
+    "10448": {
+     "abilities": [
+      "Flame Shock (Rank 4)"
+     ],
+     "costs": {
+      "6": 23400
+     },
+     "icon": 135813,
+     "level": 52,
+     "name": "Flame Shock",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10448
+    },
+    "10456": {
+     "abilities": [
+      "Frostbrand Weapon (Rank 2)"
+     ],
+     "costs": {
+      "6": 9000
+     },
+     "icon": 135847,
+     "level": 38,
+     "name": "Frostbrand Weapon",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10456
+    },
+    "10462": {
+     "abilities": [
+      "Healing Stream Totem (Rank 3)"
+     ],
+     "costs": {
+      "6": 22500
+     },
+     "icon": 135127,
+     "level": 50,
+     "name": "Healing Stream Totem",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10462
+    },
+    "10463": {
+     "abilities": [
+      "Healing Stream Totem (Rank 4)"
+     ],
+     "costs": {
+      "6": 29700
+     },
+     "icon": 135127,
+     "level": 60,
+     "name": "Healing Stream Totem",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10463
+    },
+    "10466": {
+     "abilities": [
+      "Lesser Healing Wave (Rank 3)"
+     ],
+     "costs": {
+      "6": 17100
+     },
+     "icon": 136043,
+     "level": 44,
+     "name": "Lesser Healing Wave",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10466
+    },
+    "10467": {
+     "abilities": [
+      "Lesser Healing Wave (Rank 4)"
+     ],
+     "costs": {
+      "6": 23400
+     },
+     "icon": 136043,
+     "level": 52,
+     "name": "Lesser Healing Wave",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10467
+    },
+    "10468": {
+     "abilities": [
+      "Lesser Healing Wave (Rank 5)"
+     ],
+     "costs": {
+      "6": 29700
+     },
+     "icon": 136043,
+     "level": 60,
+     "name": "Lesser Healing Wave",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10468
+    },
+    "10472": {
+     "abilities": [
+      "Frost Shock (Rank 2)"
+     ],
+     "costs": {
+      "6": 18000
+     },
+     "icon": 135849,
+     "level": 46,
+     "name": "Frost Shock",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10472
+    },
+    "10473": {
+     "abilities": [
+      "Frost Shock (Rank 3)"
+     ],
+     "costs": {
+      "6": 28800
+     },
+     "icon": 135849,
+     "level": 58,
+     "name": "Frost Shock",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10473
+    },
+    "10478": {
+     "abilities": [
+      "Frost Resistance Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 9000
+     },
+     "icon": 135866,
+     "level": 0,
+     "name": "Frost Resistance Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10478
+    },
+    "10479": {
+     "abilities": [
+      "Frost Resistance Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 24300
+     },
+     "icon": 135866,
+     "level": 54,
+     "name": "Frost Resistance Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10479
+    },
+    "10486": {
+     "abilities": [
+      "Windfury Weapon (Rank 2)"
+     ],
+     "costs": {
+      "6": 22500
+     },
+     "icon": 136018,
+     "level": 50,
+     "name": "Windfury Weapon",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10486
+    },
+    "10495": {
+     "abilities": [
+      "Mana Spring Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 8100
+     },
+     "icon": 136053,
+     "level": 0,
+     "name": "Mana Spring Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10495
+    },
+    "10496": {
+     "abilities": [
+      "Mana Spring Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 18000
+     },
+     "icon": 136053,
+     "level": 46,
+     "name": "Mana Spring Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10496
+    },
+    "10497": {
+     "abilities": [
+      "Mana Spring Totem (Rank 3)"
+     ],
+     "costs": {
+      "6": 25200
+     },
+     "icon": 136053,
+     "level": 56,
+     "name": "Mana Spring Totem",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10497
+    },
+    "10526": {
+     "abilities": [
+      "Flametongue Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 18900
+     },
+     "icon": 136040,
+     "level": 48,
+     "name": "Flametongue Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10526
+    },
+    "10537": {
+     "abilities": [
+      "Fire Resistance Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 16200
+     },
+     "icon": 135832,
+     "level": 42,
+     "name": "Fire Resistance Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10537
+    },
+    "10538": {
+     "abilities": [
+      "Fire Resistance Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 28800
+     },
+     "icon": 135832,
+     "level": 58,
+     "name": "Fire Resistance Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10538
+    },
+    "10585": {
+     "abilities": [
+      "Magma Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 8100
+     },
+     "icon": 135826,
+     "level": 0,
+     "name": "Magma Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10585
+    },
+    "10586": {
+     "abilities": [
+      "Magma Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 18000
+     },
+     "icon": 135826,
+     "level": 46,
+     "name": "Magma Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10586
+    },
+    "10587": {
+     "abilities": [
+      "Magma Totem (Rank 3)"
+     ],
+     "costs": {
+      "6": 25200
+     },
+     "icon": 135826,
+     "level": 56,
+     "name": "Magma Totem",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10587
+    },
+    "10595": {
+     "costs": {
+      "6": 5130
+     },
+     "icon": 136061,
+     "level": 0,
+     "name": "Nature Resistance Totem",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10595
+    },
+    "10600": {
+     "abilities": [
+      "Nature Resistance Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 17100
+     },
+     "icon": 136061,
+     "level": 44,
+     "name": "Nature Resistance Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10600
+    },
+    "10601": {
+     "abilities": [
+      "Nature Resistance Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 29700
+     },
+     "icon": 136061,
+     "level": 60,
+     "name": "Nature Resistance Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10601
+    },
+    "10605": {
+     "abilities": [
+      "Chain Lightning (Rank 3)"
+     ],
+     "costs": {
+      "6": 25200
+     },
+     "icon": 136015,
+     "level": 56,
+     "name": "Chain Lightning",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10605
+    },
+    "10613": {
+     "abilities": [
+      "Windfury Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 16200
+     },
+     "icon": 136114,
+     "level": 42,
+     "name": "Windfury Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10613
+    },
+    "10614": {
+     "abilities": [
+      "Windfury Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 23400
+     },
+     "icon": 136114,
+     "level": 52,
+     "name": "Windfury Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10614
+    },
+    "10622": {
+     "abilities": [
+      "Chain Heal (Rank 1)"
+     ],
+     "costs": {
+      "6": 18000
+     },
+     "icon": 136042,
+     "level": 46,
+     "name": "Chain Heal",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10622
+    },
+    "10623": {
+     "abilities": [
+      "Chain Heal (Rank 2)"
+     ],
+     "costs": {
+      "6": 24300
+     },
+     "icon": 136042,
+     "level": 54,
+     "name": "Chain Heal",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10623
+    },
+    "10627": {
+     "abilities": [
+      "Grace of Air Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 25200
+     },
+     "icon": 136046,
+     "level": 56,
+     "name": "Grace of Air Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 10627
+    },
+    "15107": {
+     "costs": {
+      "6": 8100
+     },
+     "icon": 136022,
+     "level": 0,
+     "name": "Windwall Totem",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 15107
+    },
+    "15111": {
+     "abilities": [
+      "Windwall Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 18000
+     },
+     "icon": 136022,
+     "level": 46,
+     "name": "Windwall Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 15111
+    },
+    "15112": {
+     "abilities": [
+      "Windwall Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 25200
+     },
+     "icon": 136022,
+     "level": 56,
+     "name": "Windwall Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 15112
+    },
+    "15207": {
+     "abilities": [
+      "Lightning Bolt (Rank 8)"
+     ],
+     "costs": {
+      "6": 22500
+     },
+     "icon": 136048,
+     "level": 50,
+     "name": "Lightning Bolt",
+     "rankText": "Rank 9",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 15207
+    },
+    "15208": {
+     "abilities": [
+      "Lightning Bolt (Rank 9)"
+     ],
+     "costs": {
+      "6": 25200
+     },
+     "icon": 136048,
+     "level": 56,
+     "name": "Lightning Bolt",
+     "rankText": "Rank 10",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 15208
+    },
+    "16314": {
+     "abilities": [
+      "Rockbiter Weapon (Rank 4)"
+     ],
+     "costs": {
+      "6": 7200
+     },
+     "icon": 136086,
+     "level": 0,
+     "name": "Rockbiter Weapon",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 16314
+    },
+    "16315": {
+     "abilities": [
+      "Rockbiter Weapon (Rank 5)"
+     ],
+     "costs": {
+      "6": 17100
+     },
+     "icon": 136086,
+     "level": 44,
+     "name": "Rockbiter Weapon",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 16315
+    },
+    "16316": {
+     "abilities": [
+      "Rockbiter Weapon (Rank 6)"
+     ],
+     "costs": {
+      "6": 24300
+     },
+     "icon": 136086,
+     "level": 54,
+     "name": "Rockbiter Weapon",
+     "rankText": "Rank 7",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 16316
+    },
+    "16339": {
+     "abilities": [
+      "Flametongue Weapon (Rank 3)"
+     ],
+     "costs": {
+      "6": 8100
+     },
+     "icon": 135814,
+     "level": 0,
+     "name": "Flametongue Weapon",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 16339
+    },
+    "16341": {
+     "abilities": [
+      "Flametongue Weapon (Rank 4)"
+     ],
+     "costs": {
+      "6": 18000
+     },
+     "icon": 135814,
+     "level": 46,
+     "name": "Flametongue Weapon",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 16341
+    },
+    "16342": {
+     "abilities": [
+      "Flametongue Weapon (Rank 5)"
+     ],
+     "costs": {
+      "6": 25200
+     },
+     "icon": 135814,
+     "level": 56,
+     "name": "Flametongue Weapon",
+     "rankText": "Rank 6",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 16342
+    },
+    "16355": {
+     "abilities": [
+      "Frostbrand Weapon (Rank 3)"
+     ],
+     "costs": {
+      "6": 18900
+     },
+     "icon": 135847,
+     "level": 48,
+     "name": "Frostbrand Weapon",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 16355
+    },
+    "16356": {
+     "abilities": [
+      "Frostbrand Weapon (Rank 4)"
+     ],
+     "costs": {
+      "6": 28800
+     },
+     "icon": 135847,
+     "level": 58,
+     "name": "Frostbrand Weapon",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 16356
+    },
+    "16362": {
+     "abilities": [
+      "Windfury Weapon (Rank 3)"
+     ],
+     "costs": {
+      "6": 29700
+     },
+     "icon": 136018,
+     "level": 60,
+     "name": "Windfury Weapon",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 16362
+    },
+    "16387": {
+     "abilities": [
+      "Flametongue Totem (Rank 3)"
+     ],
+     "costs": {
+      "6": 28800
+     },
+     "icon": 136040,
+     "level": 58,
+     "name": "Flametongue Totem",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 16387
+    },
+    "17354": {
+     "abilities": [
+      "Mana Tide Totem (Rank 1)"
+     ],
+     "costs": {
+      "6": 9000
+     },
+     "icon": 135861,
+     "level": 38,
+     "name": "Mana Tide Totem",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17354
+    },
+    "17359": {
+     "abilities": [
+      "Mana Tide Totem (Rank 2)"
+     ],
+     "costs": {
+      "6": 18900
+     },
+     "icon": 135861,
+     "level": 48,
+     "name": "Mana Tide Totem",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 17359
+    },
+    "20608": {
+     "costs": {
+      "6": 5130
+     },
+     "icon": 136080,
+     "level": 0,
+     "name": "Reincarnation",
+     "rankText": "Passive",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20608
+    },
+    "20609": {
+     "abilities": [
+      "Ancestral Spirit (Rank 1)"
+     ],
+     "costs": {
+      "6": 3060
+     },
+     "icon": 136077,
+     "level": 24,
+     "name": "Ancestral Spirit",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20609
+    },
+    "20610": {
+     "abilities": [
+      "Ancestral Spirit (Rank 2)"
+     ],
+     "costs": {
+      "6": 8100
+     },
+     "icon": 136077,
+     "level": 36,
+     "name": "Ancestral Spirit",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20610
+    },
+    "20776": {
+     "abilities": [
+      "Ancestral Spirit (Rank 3)"
+     ],
+     "costs": {
+      "6": 18900
+     },
+     "icon": 136077,
+     "level": 48,
+     "name": "Ancestral Spirit",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20776
+    },
+    "20777": {
+     "abilities": [
+      "Ancestral Spirit (Rank 4)"
+     ],
+     "costs": {
+      "6": 29700
+     },
+     "icon": 136077,
+     "level": 60,
+     "name": "Ancestral Spirit",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 20777
+    },
+    "36936": {
+     "costs": {
+      "6": 2070
+     },
+     "icon": 310733,
+     "level": 0,
+     "name": "Totemic Recall",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 36936
+    },
+    "66842": {
+     "costs": {
+      "6": 2070
+     },
+     "icon": 310730,
+     "level": 0,
+     "name": "Call of the Elements",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 66842
+    },
+    "66843": {
+     "abilities": [
+      "Call of the Elements"
+     ],
+     "costs": {
+      "6": 5130
+     },
+     "icon": 310731,
+     "level": 0,
+     "name": "Call of the Ancestors",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 66843
+    },
+    "66844": {
+     "abilities": [
+      "Call of the Ancestors"
+     ],
+     "costs": {
+      "6": 10800
+     },
+     "icon": 310732,
+     "level": 40,
+     "name": "Call of the Spirits",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 66844
+    },
+    "408341": {
+     "costs": {
+      "6": 630
+     },
+     "icon": 135824,
+     "level": 0,
+     "name": "Fire Nova",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 408341
+    },
+    "408342": {
+     "abilities": [
+      "Fire Nova (Rank 1)"
+     ],
+     "costs": {
+      "6": 2970
+     },
+     "icon": 135824,
+     "level": 0,
+     "name": "Fire Nova",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 408342
+    },
+    "408343": {
+     "abilities": [
+      "Fire Nova (Rank 2)"
+     ],
+     "costs": {
+      "6": 6300
+     },
+     "icon": 135824,
+     "level": 0,
+     "name": "Fire Nova",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 408343
+    },
+    "408344": {
+     "abilities": [
+      "Fire Nova (Rank 3)"
+     ],
+     "costs": {
+      "6": 16200
+     },
+     "icon": 135824,
+     "level": 42,
+     "name": "Fire Nova",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 408344
+    },
+    "408345": {
+     "abilities": [
+      "Fire Nova (Rank 4)"
+     ],
+     "costs": {
+      "6": 23400
+     },
+     "icon": 135824,
+     "level": 52,
+     "name": "Fire Nova",
+     "rankText": "Rank 5",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 408345
+    },
+    "437009": {
+     "costs": {
+      "6": 2970
+     },
+     "icon": 538574,
+     "level": 0,
+     "name": "Totemic Call",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 437009
+    },
+    "1238640": {
+     "costs": {
+      "6": 2070
+     },
+     "icon": 136095,
+     "level": 0,
+     "name": "Ghost Wolf",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1238640
+    },
+    "1239242": {
+     "abilities": [
+      "Riptide (Rank 1)"
+     ],
+     "costs": {
+      "6": 22500
+     },
+     "icon": 252995,
+     "level": 50,
+     "name": "Riptide",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1239242
+    },
+    "1239243": {
+     "abilities": [
+      "Riptide (Rank 2)"
+     ],
+     "costs": {
+      "6": 29700
+     },
+     "icon": 252995,
+     "level": 60,
+     "name": "Riptide",
+     "rankText": "Rank 3",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1239243
+    },
+    "1325256": {
+     "abilities": [
+      "Mana Tide Totem (Rank 3)"
+     ],
+     "costs": {
+      "6": 28800
+     },
+     "icon": 135861,
+     "level": 58,
+     "name": "Mana Tide Totem",
+     "rankText": "Rank 4",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1325256
     }
    },
    "sources": 1,
@@ -28265,6 +33206,165 @@
    "tradeskill": false,
    "trainerType": 0
   },
+  "251373": {
+   "lastSeen": "2026-11-17",
+   "name": "Xyton Silverwind",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.4173,
+     "mapY": 0.2337,
+     "uiMap": 2521,
+     "worldX": 4089.6,
+     "worldY": 1909.8
+    }
+   ],
+   "services": {
+    "467": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 136104,
+     "level": 6,
+     "name": "Thorns",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 467
+    },
+    "774": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 136081,
+     "level": 4,
+     "name": "Rejuvenation",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 774
+    },
+    "1126": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 136078,
+     "level": 0,
+     "name": "Mark of the Wild",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1126
+    },
+    "5177": {
+     "abilities": [
+      "Wrath (Rank 1)"
+     ],
+     "costs": {
+      "5": 100
+     },
+     "icon": 136006,
+     "level": 6,
+     "name": "Wrath",
+     "rankText": "Rank 2",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 5177
+    },
+    "8921": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 136096,
+     "level": 4,
+     "name": "Moonfire",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 8921
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
+  "251376": {
+   "lastSeen": "2026-11-17",
+   "name": "Tai'ree Farsight",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.4251,
+     "mapY": 0.2377,
+     "uiMap": 2521,
+     "worldX": 4074.6,
+     "worldY": 1866.6
+    }
+   ],
+   "services": {
+    "1130": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 132212,
+     "level": 6,
+     "name": "Hunter's Mark",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1130
+    },
+    "1494": {
+     "costs": {
+      "5": 10
+     },
+     "icon": 132328,
+     "level": 1,
+     "name": "Track Beasts",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1494
+    },
+    "1978": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 132204,
+     "level": 4,
+     "name": "Serpent Sting",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1978
+    },
+    "3044": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 132218,
+     "level": 6,
+     "name": "Arcane Shot",
+     "rankText": "Rank 1",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 3044
+    },
+    "13163": {
+     "costs": {
+      "5": 100
+     },
+     "icon": 132159,
+     "level": 4,
+     "name": "Aspect of the Monkey",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 13163
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
   "251507": {
    "lastSeen": "2026-11-15",
    "name": "Josephine Carson",
@@ -30119,6 +35219,162 @@
    "sources": 3,
    "tradeskill": false,
    "trainerType": 0
+  },
+  "256655": {
+   "lastSeen": "2026-11-16",
+   "name": "Gorg",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5865,
+     "mapY": 0.4471,
+     "uiMap": 2548,
+     "worldX": -7912.3,
+     "worldY": -4736.2
+    },
+    {
+     "instance": 0,
+     "mapX": 0.5856,
+     "mapY": 0.4456,
+     "uiMap": 2548,
+     "worldX": -7907.4,
+     "worldY": -4731.9
+    }
+   ],
+   "services": {
+    "2539": {
+     "category": "Agility Food",
+     "costs": {
+      "6": 45
+     },
+     "icon": 134021,
+     "level": 0,
+     "name": "Spiced Wolf Meat",
+     "skill": "Cooking",
+     "skillRank": 10,
+     "sources": 1,
+     "spellId": 2539
+    },
+    "2541": {
+     "category": "Agility Food",
+     "costs": {
+      "6": 90
+     },
+     "icon": 134021,
+     "level": 0,
+     "name": "Coyote Steak",
+     "skill": "Cooking",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 2541
+    },
+    "2544": {
+     "category": "Intellect Food",
+     "costs": {
+      "6": 180
+     },
+     "icon": 133950,
+     "level": 0,
+     "name": "Crab Cake",
+     "skill": "Cooking",
+     "skillRank": 75,
+     "sources": 1,
+     "spellId": 2544
+    },
+    "2546": {
+     "category": "Strength Food",
+     "costs": {
+      "6": 135
+     },
+     "icon": 134004,
+     "level": 0,
+     "name": "Dry Pork Ribs",
+     "skill": "Cooking",
+     "skillRank": 80,
+     "sources": 1,
+     "spellId": 2546
+    },
+    "2550": {
+     "costs": {
+      "6": 90
+     },
+     "icon": 133971,
+     "level": 0,
+     "name": "Apprentice Cook",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2550
+    },
+    "3102": {
+     "costs": {
+      "6": 450
+     },
+     "icon": 133971,
+     "level": 0,
+     "name": "Journeyman Cook",
+     "skill": "Cooking",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 3102,
+     "step": true
+    },
+    "6499": {
+     "category": "Everyday Meals",
+     "costs": {
+      "6": 90
+     },
+     "icon": 134432,
+     "level": 0,
+     "name": "Boiled Clams",
+     "skill": "Cooking",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 6499
+    },
+    "6500": {
+     "category": "Everyday Meals",
+     "costs": {
+      "6": 270
+     },
+     "icon": 134431,
+     "level": 0,
+     "name": "Goblin Deviled Clams",
+     "skill": "Cooking",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 6500
+    },
+    "21175": {
+     "category": "Everyday Meals",
+     "costs": {
+      "6": 3600
+     },
+     "icon": 134022,
+     "level": 0,
+     "name": "Spider Sausage",
+     "skill": "Cooking",
+     "skillRank": 200,
+     "sources": 1,
+     "spellId": 21175
+    },
+    "1229737": {
+     "category": "Camping",
+     "costs": {
+      "6": 90
+     },
+     "icon": 7808148,
+     "level": 0,
+     "name": "Basic Campfire Kit",
+     "rankText": "Tier 1",
+     "skill": "Cooking",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 1229737
+    }
+   },
+   "sources": 1,
+   "tradeskill": true,
+   "trainerType": 2
   },
   "257018": {
    "lastSeen": "2026-11-15",
