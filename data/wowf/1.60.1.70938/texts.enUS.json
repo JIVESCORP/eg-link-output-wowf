@@ -1674,13 +1674,13 @@
      11154
     ],
     "sexes": {
-     "female": 1,
+     "female": 2,
      "male": 1
     },
     "sources": 2,
     "template": "broadcastText",
     "text": "Welcome to Booty Bay, partner.  I hope your stay in my town is enjoyable and uneventful - emphasis on the latter.  We've got plenty of drink if you're thirsty, and plenty of bouncers if you're antsy.$B$BNow then... what can this humble servant of the Steamwheedle Cartel do for you?  Better still - what can you do for me, eh?",
-    "times": 2
+    "times": 3
    }
   ],
   "npc:251361": [
@@ -1813,13 +1813,13 @@
      311861
     ],
     "sexes": {
-     "female": 9,
+     "female": 10,
      "male": 4
     },
     "sources": 2,
     "template": "broadcastText",
     "text": "What can these old bones do for you, $c? Perhaps you would like to hear of a troll legend?",
-    "times": 13
+    "times": 14
    }
   ],
   "npc:251905": [
@@ -2714,12 +2714,12 @@
      3944
     ],
     "sexes": {
-     "male": 4
+     "male": 5
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "Welcome to my forge, Blacksmith. Let me share with you a little secret. No one, no one in the world can you trust. Not men, not women, not beasts ... this you can trust, Steel.",
-    "times": 4
+    "times": 5
    }
   ],
   "npc:3363": [
@@ -2908,12 +2908,12 @@
      8095
     ],
     "sexes": {
-     "male": 8
+     "male": 9
     },
     "sources": 2,
     "template": "broadcastText",
     "text": "How may I be of service?",
-    "times": 8
+    "times": 9
    }
   ],
   "npc:4576": [
@@ -3664,12 +3664,12 @@
   "npc:2464": [
    {
     "sexes": {
-     "female": 4,
+     "female": 7,
      "male": 2
     },
     "sources": 2,
     "text": "Grom'Gol's safety is my highest priority.",
-    "times": 6
+    "times": 9
    }
   ],
   "npc:2497": [
@@ -3982,22 +3982,22 @@
   "npc:715": [
    {
     "sexes": {
-     "female": 4
+     "female": 5
     },
     "sources": 1,
     "text": "Another fine day in the jungle!  It's going to be quite a hunt, I can feel it.  Once Barnil is done cleaning the guns, I'm taking the hunting party deep into the twisting vines.  Not such a bad way for an old war vet to spend his retirement, eh?",
-    "times": 4
+    "times": 5
    }
   ],
   "npc:737": [
    {
     "sexes": {
-     "female": 4,
+     "female": 5,
      "male": 1
     },
     "sources": 2,
     "text": "Well, hello there. You seem like you wouldn't be opposed to making some coin, hm? I can tell from the look in your eyes. I am Mogul Kebok, overseer of operations in Azeroth, and if it is riches you seek, perhaps I can make arrangements.",
-    "times": 5
+    "times": 6
    }
   ],
   "npc:7407": [
@@ -4013,11 +4013,11 @@
   "npc:773": [
    {
     "sexes": {
-     "female": 7
+     "female": 8
     },
     "sources": 1,
     "text": "$C, eh? I am Krazek, Baron Revilgaz's secretary. I know everything about the goings on in this jungle and beyond. Perhaps you'd be interested in knowing the going price on oil in Ratchet? No? Looking for work, maybe? I can help you there.",
-    "times": 7
+    "times": 8
    }
   ],
   "npc:823": [
@@ -4056,8 +4056,8 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70938",
   "collectedOn": {
-   "first": "2026-11-16",
-   "last": "2026-11-17"
+   "first": "2026-11-18",
+   "last": "2026-11-18"
   },
   "dataset": "texts",
   "license": "CC BY 4.0",
@@ -8475,14 +8475,15 @@
    "complete": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:737": 1
+      "npc:737": 2
      },
      "text": "Fascinating. That the crystals have been tumbled using this process can only indicate that they are planning to use them as some sort of fuel or other catalyst. I don't know much more than that. Samples will have to be dispatched to Head Chemist Gigglefont.",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -8502,14 +8503,15 @@
    "progress": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:737": 1
+      "npc:737": 2
      },
      "text": "I need those stones, $N. By whatever means necessary! Just do it, don't give me the details!\n\nIt's about results, $N, nothing more, nothing less.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -11289,31 +11291,31 @@
    "accept": [
     {
      "sexes": {
-      "female": 1,
+      "female": 2,
       "male": 1
      },
      "sources": 2,
      "speakers": {
-      "npc:2465": 2
+      "npc:2465": 3
      },
      "template": "questCache",
      "text": "The items you gathered from the feline beasts of the Vale are only the first requirement for a powerful enchanted item.  These jungle trinkets combined with my shamanistic ritual will provide you with a very useful tool in assisting the Horde and the Warchief.$b$bBut now you must gather for me some Jungle Stalker Feathers.  The feathers are traditionally worn by the beasts on their armbands.  You will find a tribe of the raptors directly south of Grom'gol, not far from the great arena.",
-     "times": 2
+     "times": 3
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 1,
+      "female": 2,
       "male": 1
      },
      "sources": 2,
      "speakers": {
-      "npc:2465": 2
+      "npc:2465": 3
      },
      "template": "questCache",
      "text": "Bring 10 Jungle Stalker Feathers to Far Seer Mok'thardin at the Grom'gol base camp.",
-     "times": 2
+     "times": 3
     }
    ]
   },
@@ -12575,6 +12577,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2771": 2
+     },
+     "text": "You are as strong as a kodo, and your lust for battle does your people proud.",
+     "times": 2
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -12586,6 +12601,66 @@
      },
      "template": "questCache",
      "text": "Kill 10 Boulderfist Brutes and 4 Boulderfist Magi, and return to Drum Fel in the Hammerfall outpost.",
+     "times": 1
+    }
+   ]
+  },
+  "679": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2771": 1
+     },
+     "template": "questCache",
+     "text": "The head of the beast is ready to be taken off... with great force, $n. You have shown every sign that you are able to help us with this final mighty blow. The leaders of these attacks have made their lair within the ruins of Stromgarde, a glaring symbol of human frailty.$B$BFind and slay those Boulderfist lords and their lackey shaman who would try and drive us from these lands.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2771": 1
+     },
+     "template": "questCache",
+     "text": "Kill 15 Boulderfist Shaman and 10 Boulderfist Lords and return to Drum Fel in the Hammerfall outpost.",
+     "times": 1
+    }
+   ]
+  },
+  "680": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2772": 1
+     },
+     "template": "questCache",
+     "text": "You serve my husband well, $c, but he does not know why Hammerfall is under attack.$B$BOr'Kalar, Mug'thol's pawn in Stromgarde, has an intense hatred for my husband, and wishes nothing more than my husband's death for defeating him years ago.$B$BMy auguries tell me that Or'Kalar has laid a trap for my husband, so I have hidden signs of the ogre's presence from him.$B$BMy husband will rush off foolishly if he learns of the ogre's whereabouts and I would ask for your help in slaying the creature.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2772": 1
+     },
+     "template": "questCache",
+     "text": "Slay Or'Kalar and bring his Head to Korin Fel in the Hammerfall outpost.",
      "times": 1
     }
    ]
@@ -15147,14 +15222,15 @@
    "complete": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2496": 1
+      "npc:2496": 2
      },
      "text": "Now, let me just get a copy of these blueprints for my own notes and you can bring these straight to Pozzik. Wouldn't want him to think that one of his sponsors was abandoning him.",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -15174,14 +15250,15 @@
    "progress": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2496": 1
+      "npc:2496": 2
      },
      "text": "Much as I hate to admit it, that gnome team they have out there is pretty good. Our boys need every edge they can get.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -15189,15 +15266,16 @@
    "accept": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2496": 1
+      "npc:2496": 2
      },
      "template": "questCache",
      "text": "You should be all set to go. Give Pozzik my regards and tell him that if he ever needs anything, not to hesitate to ask. I'll be waiting for the news that he breaks the track record soon!",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
@@ -15216,15 +15294,16 @@
    "objectives": [
     {
      "sexes": {
+      "female": 1,
       "male": 1
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:2496": 1
+      "npc:2496": 2
      },
      "template": "questCache",
      "text": "Deliver the Fuel Regulator Blueprints to Pozzik on the Shimmering Flats.",
-     "times": 1
+     "times": 2
     }
    ],
    "progress": [
@@ -16547,31 +16626,31 @@
    "accept": [
     {
      "sexes": {
-      "female": 4,
+      "female": 5,
       "male": 2
      },
      "sources": 2,
      "speakers": {
-      "npc:2497": 6
+      "npc:2497": 7
      },
      "template": "questCache",
      "text": "The Witherbark trolls were once allies to the Horde, but they betrayed Thrall... and that must be punished!$B$BHere, take my pike and go to the Hinterlands, far to the north.  You will find it northeast of Tarren Mill, a village held by our allies, the Forsaken.$B$BWhen you enter the Hinterlands, hunt Witherbark trolls.  Gather their skulls and drive my pike into the ground at one of their smaller villages, Hiri'watha or Zun'watha.$B$BShow them their vile actions are of consequence!",
-     "times": 6
+     "times": 7
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "female": 4,
+      "female": 5,
       "male": 2
      },
      "sources": 2,
      "speakers": {
-      "npc:2497": 6
+      "npc:2497": 7
      },
      "template": "questCache",
      "text": "Gather Witherbark Skulls and place on Nimboya's Pike.  Place Nimboya's Laden Pike at one of the Witherbark Villages in the Hinterlands, then return to Nimboya in Stranglethorn.",
-     "times": 6
+     "times": 7
     }
    ]
   },
@@ -18050,6 +18129,19 @@
      "times": 2
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:715": 1
+     },
+     "text": "Now there's a feather for your cap! Nicely done, $N.\r\n\r\nYou can rest here for a while, if you like. I'm sure your trek through the desert was arduous.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -18062,6 +18154,19 @@
      "template": "questCache",
      "text": "Get a Crimson Trophy Quill from Gharrik in the Badlands. Then, return to Hemet Nesingwary in Stranglethorn Vale.",
      "times": 2
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:715": 1
+     },
+     "text": "How goes the hunt? Surely the bird hasn't got you beat!",
+     "times": 1
     }
    ]
   },
@@ -22628,14 +22733,57 @@
    "accept": [
     {
      "sexes": {
+      "female": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2519": 2
+     },
+     "template": "questCache",
+     "text": "What I am about to ask you is no small feat, $c, and will likely require strong allies to accomplish.\r\n\r\nI want to know more about the ruins on the other side of the cavern the naga are guarding. If my suspicions prove correct, it could indeed be the lost city of I'lalai. The amount of lost historical knowledge at our fingertips could be unrivaled, but I am too old to venture myself.\r\n\r\nEnter the ruins and gather etchings of any tablets you find there, then return to me.",
+     "times": 2
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "female": 2
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2519": 2
+     },
+     "template": "questCache",
+     "text": "Use the hide and charcoal to create rubbings of the tablets found in the Drowned City.",
+     "times": 2
+    }
+   ]
+  },
+  "95776": {
+   "accept": [
+    {
+     "sexes": {
       "female": 1
      },
      "sources": 1,
      "speakers": {
-      "npc:2519": 1
+      "npc:2464": 1
      },
      "template": "questCache",
-     "text": "What I am about to ask you is no small feat, $c, and will likely require strong allies to accomplish.\r\n\r\nI want to know more about the ruins on the other side of the cavern the naga are guarding. If my suspicions prove correct, it could indeed be the lost city of I'lalai. The amount of lost historical knowledge at our fingertips could be unrivaled, but I am too old to venture myself.\r\n\r\nEnter the ruins and gather etchings of any tablets you find there, then return to me.",
+     "text": "You have done well to slay the naga just off of our coast, but the fact that they are in our waters in such numbers means there is yet a larger threat.\r\n\r\nI have spoken to Kin'weelay, and he thinks these Brinescale naga are infiltrating the ruins of the Drowned City. If the naga are there, then they are up to no good and are likely searching for something.\r\n\r\nWe can't let them get their hands on anything that could compromise us here and it is time to put an end to this. Slay their leader and return to me.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "female": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2464": 1
+     },
+     "text": "I see you have returned. I take it to mean you have slain their leader?\r\n\r\nGood. One less thing for us to worry about here. You have done well, $c.",
      "times": 1
     }
    ],
@@ -22646,10 +22794,10 @@
      },
      "sources": 1,
      "speakers": {
-      "npc:2519": 1
+      "npc:2464": 1
      },
      "template": "questCache",
-     "text": "Use the hide and charcoal to create rubbings of the tablets found in the Drowned City.",
+     "text": "Slay Var'Taka in the Drowned City.",
      "times": 1
     }
    ]

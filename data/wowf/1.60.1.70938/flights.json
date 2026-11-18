@@ -125,8 +125,8 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70938",
   "collectedOn": {
-   "first": "2026-11-16",
-   "last": "2026-11-17"
+   "first": "2026-11-18",
+   "last": "2026-11-18"
   },
   "dataset": "flights",
   "license": "CC BY 4.0",
@@ -247,7 +247,7 @@
     17
    ],
    "seconds": {
-    "300": 1,
+    "300": 2,
     "301": 2
    },
    "sources": 3
@@ -299,7 +299,7 @@
     17,
     3203
    ],
-   "sources": 1
+   "sources": 2
   },
   "11>56": {
    "costs": {
@@ -791,7 +791,8 @@
     18
    ],
    "seconds": {
-    "81": 3
+    "81": 3,
+    "82": 1
    },
    "sources": 2
   },
@@ -1859,6 +1860,16 @@
    "sources": 1
   },
   "3203>20": {
+   "arrivals": [
+    {
+     "instance": 0,
+     "mapX": 0.3251,
+     "mapY": 0.2928,
+     "uiMap": 1434,
+     "worldX": -12414.2,
+     "worldY": 146.3
+    }
+   ],
    "costs": {
     "6": 1134
    },
@@ -1867,6 +1878,9 @@
     56,
     20
    ],
+   "seconds": {
+    "342": 1
+   },
    "sources": 1
   },
   "3203>21": {

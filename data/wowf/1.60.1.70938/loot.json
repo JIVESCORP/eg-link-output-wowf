@@ -22598,8 +22598,8 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70938",
   "collectedOn": {
-   "first": "2026-11-16",
-   "last": "2026-11-17"
+   "first": "2026-11-18",
+   "last": "2026-11-18"
   },
   "dataset": "loot",
   "license": "CC BY 4.0",
@@ -23069,6 +23069,81 @@
    "kills": 1,
    "names": {
     "enUS": "Charlga Razorflank"
+   },
+   "sources": 1,
+   "unconfirmed": 0
+  },
+  "encounter:3474|threshold:2": {
+   "items": {
+    "274598": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "kills": 1,
+   "names": {
+    "enUS": "Zul'Alai"
+   },
+   "sources": 1,
+   "unconfirmed": 0
+  },
+  "encounter:3475|threshold:2": {
+   "items": {
+    "274602": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "kills": 1,
+   "names": {
+    "enUS": "Var'Taka"
+   },
+   "sources": 1,
+   "unconfirmed": 0
+  },
+  "encounter:3476|threshold:2": {
+   "items": {
+    "274603": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "kills": 1,
+   "names": {
+    "enUS": "Captain Dreadrise"
+   },
+   "sources": 1,
+   "unconfirmed": 0
+  },
+  "encounter:3478|threshold:2": {
+   "items": {
+    "274614": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "kills": 1,
+   "names": {
+    "enUS": "Deathless Guardians"
+   },
+   "sources": 1,
+   "unconfirmed": 0
+  },
+  "encounter:3479|threshold:2": {
+   "items": {
+    "274608": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "kills": 1,
+   "names": {
+    "enUS": "Min'loth the Serpent"
    },
    "sources": 1,
    "unconfirmed": 0
@@ -49473,6 +49548,77 @@
    "sources": 1,
    "windows": 2
   },
+  "npc:258792|group": {
+   "coins": 2,
+   "items": {
+    "1708": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 1
+    },
+    "3798": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 1
+    },
+    "4306": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 3
+    },
+    "213544": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 2
+  },
+  "npc:258797|group": {
+   "coins": 1,
+   "items": {
+    "4306": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 1
+    },
+    "248708": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 2
+  },
+  "npc:258799|group": {
+   "coins": 4,
+   "items": {
+    "537": {
+     "chance": 0.1667,
+     "drops": 1,
+     "quantity": 1
+    },
+    "4306": {
+     "chance": 0.1667,
+     "drops": 1,
+     "quantity": 3
+    },
+    "6419": {
+     "chance": 0.1667,
+     "drops": 1,
+     "quantity": 1
+    },
+    "7441": {
+     "chance": 0.1667,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 6
+  },
   "npc:2587|quest|group": {
    "coins": 8,
    "items": {
@@ -49878,6 +50024,55 @@
    "sources": 1,
    "windows": 9
   },
+  "npc:258804|group": {
+   "coins": 1,
+   "items": {
+    "4306": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 3
+    },
+    "262889": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 2
+  },
+  "npc:258818|group": {
+   "items": {
+    "3864": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 1
+    },
+    "5569": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 1
+    },
+    "7438": {
+     "chance": 0.5,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 2
+  },
+  "npc:258897|group": {
+   "items": {
+    "7418": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
   "npc:2588|quest": {
    "coins": 14,
    "copper": 6395,
@@ -50160,6 +50355,28 @@
    ],
    "sources": 1,
    "windows": 2
+  },
+  "npc:258905|group": {
+   "items": {
+    "274598": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:258924|group": {
+   "items": {
+    "274602": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
   },
   "npc:2589|quest|group": {
    "coins": 11,
@@ -52167,6 +52384,76 @@
    "sources": 1,
    "windows": 1
   },
+  "npc:259979|group": {
+   "coins": 1,
+   "items": {
+    "270333": {
+     "chance": 1.0,
+     "drops": 3,
+     "quantity": 3,
+     "quest": true
+    }
+   },
+   "sources": 1,
+   "windows": 3
+  },
+  "npc:259987|group": {
+   "coins": 1,
+   "items": {
+    "4306": {
+     "chance": 0.3333,
+     "drops": 1,
+     "quantity": 4
+    },
+    "270333": {
+     "chance": 1.0,
+     "drops": 3,
+     "quantity": 3,
+     "quest": true
+    }
+   },
+   "sources": 1,
+   "windows": 3
+  },
+  "npc:260042|group": {
+   "items": {
+    "274603": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:260202|group": {
+   "items": {
+    "274614": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    },
+    "276894": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1,
+     "quest": true
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "npc:260243|group": {
+   "items": {
+    "274608": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
   "npc:260429": {
    "coins": 1,
    "copper": 7,
@@ -53089,6 +53376,11 @@
    },
    "sources": 1,
    "windows": 4
+  },
+  "npc:263196|group": {
+   "coins": 1,
+   "sources": 1,
+   "windows": 1
   },
   "npc:263307": {
    "items": {
@@ -80987,6 +81279,27 @@
    "sources": 1,
    "windows": 3
   },
+  "npc:686|spell:10768|group": {
+   "items": {
+    "4234": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.315,
+     "mapY": 0.2206,
+     "uiMap": 1434,
+     "worldX": -12107,
+     "worldY": 210.9
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
   "npc:689|quest": {
    "items": {
     "1701": {
@@ -92516,6 +92829,42 @@
   "object:629065|spell:1269930|group": {
    "items": {
     "267361": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1,
+     "quest": true
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "object:642943|spell:3365|group": {
+   "items": {
+    "270308": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1,
+     "quest": true
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "object:642944|spell:3365|group": {
+   "items": {
+    "270309": {
+     "chance": 1.0,
+     "drops": 1,
+     "quantity": 1,
+     "quest": true
+    }
+   },
+   "sources": 1,
+   "windows": 1
+  },
+  "object:642946|spell:3365|group": {
+   "items": {
+    "270311": {
      "chance": 1.0,
      "drops": 1,
      "quantity": 1,
