@@ -4,29 +4,31 @@
   "clientBuild": "1.60.1.70959",
   "collectedOn": {
    "first": "2026-11-18",
-   "last": "2026-11-18"
+   "last": "2026-11-19"
   },
   "dataset": "probes",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 3
+  "sources": 5
  },
  "probes": {
   "groupChecks": {
    "collectedOn": {
     "first": "2026-11-18",
-    "last": "2026-11-18"
+    "last": "2026-11-19"
    },
    "keys": {
-    "Group|no|none|none": 30,
-    "Group|no|self|more": 3,
-    "Group|yes|none|more": 33,
-    "Group|yes|none|none": 9,
-    "Group|yes|none|quest": 1,
-    "Group|yes|self|more": 3
+    "Group|no|none|more": 3,
+    "Group|no|none|none": 224,
+    "Group|no|self|more": 4,
+    "Group|yes|none|more": 200,
+    "Group|yes|none|none": 36,
+    "Group|yes|none|quest": 19,
+    "Group|yes|self|more": 83,
+    "Group|yes|self|quest": 1
    },
-   "sources": 3
+   "sources": 5
   }
  }
 }
