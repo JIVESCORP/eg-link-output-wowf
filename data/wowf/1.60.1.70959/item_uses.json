@@ -3,16 +3,134 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70959",
   "collectedOn": {
-   "first": "2026-11-18",
-   "last": "2026-11-19"
+   "first": "2026-11-19",
+   "last": "2026-11-20"
   },
   "dataset": "item_uses",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 8
+  "sources": 9
  },
  "quests": {
+  "992": {
+   "8584": {
+    "objectives": {
+     "1": 1
+    },
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.3898,
+      "mapY": 0.2928,
+      "uiMap": 1446,
+      "worldX": -7221.7,
+      "worldY": -2908.2
+     }
+    ],
+    "progressed": 1,
+    "sources": 1,
+    "spellId": 11758,
+    "uses": 1
+   }
+  },
+  "3123": {
+   "9618": {
+    "objectives": {
+     "1": 10
+    },
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.4006,
+      "mapY": 0.5745,
+      "uiMap": 1425,
+      "worldX": -7.9,
+      "worldY": -3117.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2652,
+      "mapY": 0.5673,
+      "uiMap": 1425,
+      "worldX": 10.6,
+      "worldY": -2596
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2689,
+      "mapY": 0.5631,
+      "uiMap": 1425,
+      "worldX": 21.3,
+      "worldY": -2610.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.407,
+      "mapY": 0.5555,
+      "uiMap": 1425,
+      "worldX": 40.9,
+      "worldY": -3141.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2877,
+      "mapY": 0.5543,
+      "uiMap": 1425,
+      "worldX": 44.1,
+      "worldY": -2682.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4209,
+      "mapY": 0.5477,
+      "uiMap": 1425,
+      "worldX": 61,
+      "worldY": -3195.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2841,
+      "mapY": 0.5382,
+      "uiMap": 1425,
+      "worldX": 85.4,
+      "worldY": -2668.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2865,
+      "mapY": 0.5374,
+      "uiMap": 1425,
+      "worldX": 87.4,
+      "worldY": -2678.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2456,
+      "mapY": 0.5367,
+      "uiMap": 1425,
+      "worldX": 89.1,
+      "worldY": -2520.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2357,
+      "mapY": 0.4976,
+      "uiMap": 1425,
+      "worldX": 189.4,
+      "worldY": -2482.4
+     }
+    ],
+    "progressed": 10,
+    "sources": 1,
+    "spellId": 11886,
+    "targets": {
+     "npc:2927": 7,
+     "npc:2928": 3
+    },
+    "uses": 10
+   }
+  },
   "6622": {
    "16991": {
     "positions": [
@@ -64,6 +182,242 @@
     "spellId": 1273312,
     "targets": {
      "npc:256749": 2
+    },
+    "uses": 2
+   }
+  },
+  "94748": {
+   "265821": {
+    "objectives": {
+     "1": 1
+    },
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.274,
+      "mapY": 0.4369,
+      "uiMap": 2548,
+      "worldX": -7879.3,
+      "worldY": -3220.7
+     }
+    ],
+    "progressed": 1,
+    "sources": 1,
+    "spellId": 1277271,
+    "targets": {
+     "other": 1
+    },
+    "uses": 1
+   }
+  },
+  "95124": {
+   "268505": {
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.9088,
+      "mapY": 0.3943,
+      "uiMap": 2548,
+      "worldX": -7741.7,
+      "worldY": -6299.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.9058,
+      "mapY": 0.2954,
+      "uiMap": 2548,
+      "worldX": -7421.8,
+      "worldY": -6284.9
+     }
+    ],
+    "progressed": 0,
+    "sources": 1,
+    "spellId": 1282576,
+    "targets": {
+     "other": 2
+    },
+    "uses": 2
+   },
+   "268520": {
+    "objectives": {
+     "2": 1
+    },
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.9053,
+      "mapY": 0.2923,
+      "uiMap": 2548,
+      "worldX": -7411.6,
+      "worldY": -6282.5
+     }
+    ],
+    "progressed": 1,
+    "sources": 1,
+    "spellId": 1282662,
+    "targets": {
+     "other": 1
+    },
+    "uses": 1
+   }
+  },
+  "95162": {
+   "268521": {
+    "objectives": {
+     "1": 1
+    },
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.5446,
+      "mapY": 0.785,
+      "uiMap": 2548,
+      "worldX": -9004.8,
+      "worldY": -4533
+     },
+     {
+      "instance": 0,
+      "mapX": 0.5339,
+      "mapY": 0.7522,
+      "uiMap": 2548,
+      "worldX": -8898.9,
+      "worldY": -4481.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.5649,
+      "mapY": 0.7384,
+      "uiMap": 2548,
+      "worldX": -8854.1,
+      "worldY": -4631.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7676,
+      "mapY": 0.3924,
+      "uiMap": 2548,
+      "worldX": -7735.5,
+      "worldY": -5614.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6704,
+      "mapY": 0.3678,
+      "uiMap": 2548,
+      "worldX": -7656,
+      "worldY": -5143.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6846,
+      "mapY": 0.3605,
+      "uiMap": 2548,
+      "worldX": -7632.1,
+      "worldY": -5212
+     }
+    ],
+    "progressed": 1,
+    "sources": 1,
+    "spellId": 1289718,
+    "targets": {
+     "npc:258331": 6
+    },
+    "uses": 6
+   }
+  },
+  "95163": {
+   "268521": {
+    "objectives": {
+     "1": 5
+    },
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.5446,
+      "mapY": 0.785,
+      "uiMap": 2548,
+      "worldX": -9004.8,
+      "worldY": -4533
+     },
+     {
+      "instance": 0,
+      "mapX": 0.5339,
+      "mapY": 0.7522,
+      "uiMap": 2548,
+      "worldX": -8898.9,
+      "worldY": -4481.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.5649,
+      "mapY": 0.7384,
+      "uiMap": 2548,
+      "worldX": -8854.1,
+      "worldY": -4631.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7676,
+      "mapY": 0.3924,
+      "uiMap": 2548,
+      "worldX": -7735.5,
+      "worldY": -5614.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6704,
+      "mapY": 0.3678,
+      "uiMap": 2548,
+      "worldX": -7656,
+      "worldY": -5143.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6846,
+      "mapY": 0.3605,
+      "uiMap": 2548,
+      "worldX": -7632.1,
+      "worldY": -5212
+     }
+    ],
+    "progressed": 5,
+    "sources": 1,
+    "spellId": 1289718,
+    "targets": {
+     "npc:258331": 6
+    },
+    "uses": 6
+   }
+  },
+  "95165": {
+   "268505": {
+    "objectives": {
+     "2": 1,
+     "3": 1
+    },
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.9088,
+      "mapY": 0.3943,
+      "uiMap": 2548,
+      "worldX": -7741.7,
+      "worldY": -6299.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.9058,
+      "mapY": 0.2954,
+      "uiMap": 2548,
+      "worldX": -7421.8,
+      "worldY": -6284.9
+     }
+    ],
+    "progressed": 2,
+    "sources": 1,
+    "spellId": 1282576,
+    "targets": {
+     "other": 2
     },
     "uses": 2
    }
@@ -186,5 +540,21 @@
    }
   }
  },
- "untied": {}
+ "untied": {
+  "9241": {
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.596,
+     "mapY": 0.778,
+     "uiMap": 1425,
+     "worldX": -530.2,
+     "worldY": -3869.7
+    }
+   ],
+   "sources": 1,
+   "spellId": 11435,
+   "uses": 1
+  }
+ }
 }

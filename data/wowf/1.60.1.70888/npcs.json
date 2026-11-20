@@ -2434,6 +2434,22 @@
     },
     {
      "instance": 0,
+     "mapX": 0.6623,
+     "mapY": 0.4553,
+     "uiMap": 1421,
+     "worldX": 391.9,
+     "worldY": 668.4
+    },
+    {
+     "instance": 0,
+     "mapX": 0.6579,
+     "mapY": 0.4458,
+     "uiMap": 1421,
+     "worldX": 418.4,
+     "worldY": 687
+    },
+    {
+     "instance": 0,
      "mapX": 0.3715,
      "mapY": 0.1028,
      "uiMap": 1434,
@@ -2505,8 +2521,8 @@
      "worldY": 3251.8
     }
    ],
-   "sources": 1,
-   "times": 282
+   "sources": 2,
+   "times": 302
   },
   "36727": {
    "name": "Summoning Portal",
@@ -8162,8 +8178,8 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.70888",
   "collectedOn": {
-   "first": "2026-11-10",
-   "last": "2026-11-19"
+   "first": "2026-11-20",
+   "last": "2026-11-20"
   },
   "dataset": "npcs",
   "license": "CC BY 4.0",
@@ -9054,7 +9070,7 @@
      "worldY": -53.9
     }
    ],
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "194": {
      "title": "Raptor Mastery"
@@ -9131,14 +9147,14 @@
      "worldY": -54.1
     }
    ],
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "338": {
      "level": 40,
      "title": "The Green Hills of Stranglethorn"
     }
    },
-   "windows": 6
+   "windows": 7
   },
   "717": {
    "interactions": [
@@ -9171,9 +9187,25 @@
      "uiMap": 1434,
      "worldX": -11623.8,
      "worldY": -50.6
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3567,
+     "mapY": 0.1063,
+     "uiMap": 1434,
+     "worldX": -11621.1,
+     "worldY": -55.3
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3559,
+     "mapY": 0.1057,
+     "uiMap": 1434,
+     "worldX": -11618.4,
+     "worldY": -50.5
     }
    ],
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "185": {
      "title": "Tiger Mastery"
@@ -9208,6 +9240,9 @@
     },
     "192": {
      "title": "Panther Mastery"
+    },
+    "193": {
+     "title": "Panther Mastery"
     }
    },
    "positions": [
@@ -9228,12 +9263,15 @@
      "worldY": -45.2
     }
    ],
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "190": {
      "title": "Panther Mastery"
     },
     "191": {
+     "title": "Panther Mastery"
+    },
+    "192": {
      "title": "Panther Mastery"
     }
    },
@@ -9252,6 +9290,9 @@
     "189": {
      "title": "Bloodscalp Ears"
     },
+    "209": {
+     "title": "Skullsplitter Tusks"
+    },
     "213": {
      "title": "Hostile Takeover"
     }
@@ -9266,8 +9307,11 @@
      "worldY": 496.9
     }
    ],
-   "sources": 1,
+   "sources": 2,
    "takes": {
+    "189": {
+     "title": "Bloodscalp Ears"
+    },
     "213": {
      "title": "Hostile Takeover"
     }
@@ -9309,7 +9353,7 @@
      "worldY": 499.8
     }
    ],
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "201": {
      "title": "Investigate the Camp"
@@ -9664,14 +9708,38 @@
     }
    ],
    "side": "Horde",
-   "sources": 2,
-   "windows": 2
+   "sources": 3,
+   "windows": 3
   },
-  "1148": {
+  "1147": {
    "interactions": [
     "Merchant"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-10",
+   "levels": [
+    40
+   ],
+   "name": "Hragran",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3159,
+     "mapY": 0.2908,
+     "uiMap": 1434,
+     "worldX": -12406,
+     "worldY": 205.1
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "1148": {
+   "interactions": [
+    "Merchant",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-12",
    "levels": [
     40
    ],
@@ -9679,16 +9747,21 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.3266,
-     "mapY": 0.2921,
+     "mapX": 0.3263,
+     "mapY": 0.2922,
      "uiMap": 1434,
-     "worldX": -12411.4,
-     "worldY": 136.5
+     "worldX": -12411.9,
+     "worldY": 138.7
     }
    ],
    "side": "Horde",
-   "sources": 2,
-   "windows": 2
+   "sources": 3,
+   "takes": {
+    "97453": {
+     "title": "Weed Whacked"
+    }
+   },
+   "windows": 4
   },
   "1149": {
    "interactions": [
@@ -9992,16 +10065,24 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.3251,
-     "mapY": 0.293,
+     "mapX": 0.325,
+     "mapY": 0.2933,
      "uiMap": 1434,
-     "worldX": -12415.3,
-     "worldY": 146.4
+     "worldX": -12416.3,
+     "worldY": 147.2
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3256,
+     "mapY": 0.2925,
+     "uiMap": 1434,
+     "worldX": -12413.1,
+     "worldY": 142.9
     }
    ],
    "side": "Horde",
-   "sources": 1,
-   "windows": 2
+   "sources": 2,
+   "windows": 11
   },
   "1416": {
    "interactions": [
@@ -10157,23 +10238,23 @@
    "positions": [
     {
      "instance": 0,
+     "mapX": 0.4916,
+     "mapY": 0.6973,
+     "uiMap": 1458,
+     "worldX": 1431.6,
+     "worldY": 401.5
+    },
+    {
+     "instance": 0,
      "mapX": 0.4853,
      "mapY": 0.697,
      "uiMap": 1458,
      "worldX": 1431.8,
      "worldY": 407.6
-    },
-    {
-     "instance": 0,
-     "mapX": 0.4906,
-     "mapY": 0.6952,
-     "uiMap": 1458,
-     "worldX": 1433,
-     "worldY": 402.5
     }
    ],
    "side": "Horde",
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "513": {
      "title": "Elixir of Agony"
@@ -10244,6 +10325,9 @@
     },
     "513": {
      "title": "Elixir of Agony"
+    },
+    "517": {
+     "title": "Elixir of Agony"
     }
    },
    "positions": [
@@ -10257,7 +10341,7 @@
     }
    ],
    "side": "Horde",
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "496": {
      "title": "Elixir of Suffering"
@@ -10266,6 +10350,9 @@
      "title": "Elixir of Pain"
     },
     "509": {
+     "title": "Elixir of Agony"
+    },
+    "515": {
      "title": "Elixir of Agony"
     }
    },
@@ -10305,7 +10392,7 @@
    "interactions": [
     "QuestGiver"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-13",
    "levels": [
     25
    ],
@@ -10318,15 +10405,15 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.5726,
-     "mapY": 0.9374,
+     "mapX": 0.5723,
+     "mapY": 0.94,
      "uiMap": 1458,
-     "worldX": 1277.9,
-     "worldY": 323.9
+     "worldX": 1276.3,
+     "worldY": 324.2
     }
    ],
    "side": "Horde",
-   "sources": 1,
+   "sources": 2,
    "windows": 0
   },
   "2274": {
@@ -10376,21 +10463,54 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.6257,
-     "mapY": 0.2058,
+     "mapX": 0.6249,
+     "mapY": 0.206,
      "uiMap": 1424,
-     "worldX": -39,
-     "worldY": -935.6
+     "worldX": -39.5,
+     "worldY": -933.1
     }
    ],
    "side": "Horde",
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "495": {
      "title": "The Crown of Will"
     },
     "96986": {
      "title": "The Grave Knight"
+    }
+   },
+   "windows": 0
+  },
+  "2308": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    40
+   ],
+   "name": "Andrew Brownell",
+   "offers": {
+    "3341": {
+     "title": "Bring the End"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7421,
+     "mapY": 0.328,
+     "uiMap": 1458,
+     "worldX": 1668,
+     "worldY": 161.2
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "3341": {
+     "title": "Bring the End"
     }
    },
    "windows": 0
@@ -10452,16 +10572,24 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.6019,
-     "mapY": 0.1873,
+     "mapX": 0.6024,
+     "mapY": 0.1881,
      "uiMap": 1424,
-     "worldX": 0.4,
-     "worldY": -859.6
+     "worldX": -1.3,
+     "worldY": -861.1
+    },
+    {
+     "instance": 0,
+     "mapX": 0.602,
+     "mapY": 0.1858,
+     "uiMap": 1424,
+     "worldX": 3.6,
+     "worldY": -859.7
     }
    ],
    "side": "Horde",
-   "sources": 2,
-   "windows": 4
+   "sources": 3,
+   "windows": 8
   },
   "2393": {
    "interactions": [
@@ -10559,6 +10687,29 @@
    "sources": 1,
    "windows": 1
   },
+  "2401": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-10",
+   "levels": [
+    30
+   ],
+   "name": "Kayren Soothallow",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6248,
+     "mapY": 0.1995,
+     "uiMap": 1424,
+     "worldX": -25.6,
+     "worldY": -932.6
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 3
+  },
   "2409": {
    "interactions": [
     "Gossip",
@@ -10626,7 +10777,7 @@
     }
    ],
    "side": "Horde",
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "544": {
      "title": "Prison Break In"
@@ -10660,15 +10811,15 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.627,
-     "mapY": 0.2032,
+     "mapX": 0.6265,
+     "mapY": 0.2034,
      "uiMap": 1424,
-     "worldX": -33.6,
-     "worldY": -939.6
+     "worldX": -33.9,
+     "worldY": -938.2
     }
    ],
    "side": "Horde",
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "547": {
      "title": "Humbert's Sword"
@@ -10681,7 +10832,7 @@
     "Gossip",
     "QuestGiver"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-13",
    "levels": [
     -1
    ],
@@ -10699,26 +10850,30 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.564,
-     "mapY": 0.9278,
+     "mapX": 0.5641,
+     "mapY": 0.9277,
      "uiMap": 1458,
      "worldX": 1284.1,
-     "worldY": 332.1
+     "worldY": 332
     }
    ],
    "side": "Horde",
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "1048": {
      "level": 42,
      "title": "Into The Scarlet Monastery"
+    },
+    "6521": {
+     "level": 36,
+     "title": "An Unholy Alliance"
     },
     "6522": {
      "level": 36,
      "title": "An Unholy Alliance"
     }
    },
-   "windows": 2
+   "windows": 3
   },
   "2429": {
    "interactions": [
@@ -10855,6 +11010,29 @@
    "sources": 1,
    "windows": 30
   },
+  "2458": {
+   "interactions": [
+    "CharacterBanker"
+   ],
+   "lastSeen": "2026-11-12",
+   "levels": [
+    45
+   ],
+   "name": "Randolph Montague",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6593,
+     "mapY": 0.4289,
+     "uiMap": 1458,
+     "worldX": 1603.4,
+     "worldY": 240.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
   "2459": {
    "interactions": [
     "CharacterBanker"
@@ -10896,6 +11074,10 @@
     },
     "95141": {
      "title": "Report to Rog'mar"
+    },
+    "97386": {
+     "infoId": 1,
+     "title": "The Offense of Grom'gol"
     }
    },
    "positions": [
@@ -10925,9 +11107,12 @@
     }
    ],
    "side": "Horde",
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "568": {
+     "title": "The Defense of Grom'gol"
+    },
+    "569": {
      "title": "The Defense of Grom'gol"
     }
    },
@@ -10945,6 +11130,9 @@
    "offers": {
     "570": {
      "title": "Mok'thardin's Enchantment"
+    },
+    "572": {
+     "title": "Mok'thardin's Enchantment"
     }
    },
    "positions": [
@@ -10955,10 +11143,23 @@
      "uiMap": 1434,
      "worldX": -12412.1,
      "worldY": 168.2
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3209,
+     "mapY": 0.2918,
+     "uiMap": 1434,
+     "worldX": -12410.2,
+     "worldY": 173.4
     }
    ],
    "side": "Horde",
-   "sources": 2,
+   "sources": 3,
+   "takes": {
+    "570": {
+     "title": "Mok'thardin's Enchantment"
+    }
+   },
    "windows": 0
   },
   "2483": {
@@ -10978,9 +11179,47 @@
      "uiMap": 1434,
      "worldX": -11623.5,
      "worldY": -59.6
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3571,
+     "mapY": 0.1056,
+     "uiMap": 1434,
+     "worldX": -11617.9,
+     "worldY": -57.6
     }
    ],
-   "sources": 2,
+   "sources": 3,
+   "windows": 7
+  },
+  "2492": {
+   "interactions": [
+    "Gossip",
+    "Trainer"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    35
+   ],
+   "name": "Lexington Mortaim",
+   "options": {
+    "96161": {
+     "icon": 132058,
+     "name": "Please teach me."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.84,
+     "mapY": 0.1577,
+     "uiMap": 1458,
+     "worldX": 1777,
+     "worldY": 67.3
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
    "windows": 4
   },
   "2495": {
@@ -10998,6 +11237,9 @@
     },
     "577": {
      "title": "Some Assembly Required"
+    },
+    "628": {
+     "title": "Excelsior"
     }
    },
    "positions": [
@@ -11010,10 +11252,13 @@
      "worldY": 417.4
     }
    ],
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "575": {
      "title": "Supply and Demand"
+    },
+    "577": {
+     "title": "Some Assembly Required"
     }
    },
    "windows": 0
@@ -11031,26 +11276,33 @@
    "offers": {
     "1182": {
      "title": "Goblin Sponsorship"
+    },
+    "1183": {
+     "title": "Goblin Sponsorship"
     }
    },
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.2719,
-     "mapY": 0.7691,
+     "mapX": 0.2717,
+     "mapY": 0.7693,
      "uiMap": 1434,
-     "worldX": -14440.4,
-     "worldY": 485.6
+     "worldX": -14441.4,
+     "worldY": 486.9
     }
    ],
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "1181": {
      "level": 37,
      "title": "Goblin Sponsorship"
+    },
+    "1182": {
+     "level": 37,
+     "title": "Goblin Sponsorship"
     }
    },
-   "windows": 1
+   "windows": 3
   },
   "2497": {
    "interactions": [
@@ -11068,6 +11320,9 @@
     "582": {
      "title": "Headhunting"
     },
+    "584": {
+     "title": "Bloodscalp Clan Heads"
+    },
     "638": {
      "title": "Trollbane"
     },
@@ -11078,18 +11333,29 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.3218,
-     "mapY": 0.2775,
+     "mapX": 0.3214,
+     "mapY": 0.2781,
      "uiMap": 1434,
-     "worldX": -12349.3,
-     "worldY": 167.4
+     "worldX": -12351.9,
+     "worldY": 169.8
+    },
+    {
+     "instance": 0,
+     "mapX": 0.3213,
+     "mapY": 0.2768,
+     "uiMap": 1434,
+     "worldX": -12346.2,
+     "worldY": 170.8
     }
    ],
    "side": "Horde",
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "581": {
      "title": "Hunt for Yenniku"
+    },
+    "582": {
+     "title": "Headhunting"
     },
     "2932": {
      "title": "Grim Message"
@@ -11112,20 +11378,26 @@
     },
     "605": {
      "title": "Singing Blue Shards"
+    },
+    "621": {
+     "title": "Zanzil's Secret"
     }
    },
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.2711,
-     "mapY": 0.7727,
+     "mapX": 0.2712,
+     "mapY": 0.773,
      "uiMap": 1434,
-     "worldX": -14455.8,
-     "worldY": 491
+     "worldX": -14457.4,
+     "worldY": 490.3
     }
    ],
-   "sources": 1,
+   "sources": 2,
    "takes": {
+    "600": {
+     "title": "Venture Company Mining"
+    },
     "605": {
      "title": "Singing Blue Shards"
     }
@@ -11174,24 +11446,32 @@
      "level": 37,
      "title": "Bloody Bone Necklaces"
     },
+    "598": {
+     "level": 42,
+     "title": "Split Bone Necklace"
+    },
     "629": {
      "infoId": 1,
      "level": 37,
      "title": "The Vile Reef"
+    },
+    "95748": {
+     "level": 40,
+     "title": "The Gurubashi Legends of Old"
     }
    },
    "positions": [
     {
      "instance": 0,
      "mapX": 0.3222,
-     "mapY": 0.2775,
+     "mapY": 0.2778,
      "uiMap": 1434,
-     "worldX": -12349.5,
-     "worldY": 165
+     "worldX": -12350.5,
+     "worldY": 164.7
     }
    ],
    "side": "Horde",
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "596": {
      "level": 37,
@@ -11200,9 +11480,13 @@
     "629": {
      "level": 37,
      "title": "The Vile Reef"
+    },
+    "95748": {
+     "level": 40,
+     "title": "The Gurubashi Legends of Old"
     }
    },
-   "windows": 4
+   "windows": 12
   },
   "2626": {
    "interactions": [
@@ -11332,6 +11616,50 @@
    "sources": 1,
    "windows": 1
   },
+  "2846": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-12",
+   "levels": [
+    43
+   ],
+   "name": "Blixrez Goodstitch",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2826,
+     "mapY": 0.7752,
+     "uiMap": 1434,
+     "worldX": -14466.7,
+     "worldY": 417.5
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "2848": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-12",
+   "levels": [
+    45
+   ],
+   "name": "Glyx Brewright",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2813,
+     "mapY": 0.7803,
+     "uiMap": 1434,
+     "worldX": -14488.1,
+     "worldY": 425.8
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
   "2858": {
    "interactions": [
     "Gossip",
@@ -11351,16 +11679,16 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.2688,
+     "mapX": 0.2691,
      "mapY": 0.7705,
      "uiMap": 1434,
-     "worldX": -14446.6,
-     "worldY": 505.4
+     "worldX": -14446.7,
+     "worldY": 503.8
     }
    ],
    "side": "Horde",
-   "sources": 1,
-   "windows": 3
+   "sources": 2,
+   "windows": 5
   },
   "2861": {
    "interactions": [
@@ -11482,7 +11810,7 @@
     "Gossip",
     "TaxiNode"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-13",
    "levels": [
     55
    ],
@@ -11496,16 +11824,16 @@
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.4679,
-     "mapY": 0.5013,
+     "mapX": 0.4667,
+     "mapY": 0.5031,
      "uiMap": 1456,
-     "worldX": -1198.8,
-     "worldY": 28.3
+     "worldX": -1200.1,
+     "worldY": 29.6
     }
    ],
    "side": "Horde",
-   "sources": 2,
-   "windows": 12
+   "sources": 3,
+   "windows": 18
   },
   "2998": {
    "interactions": [
@@ -11615,11 +11943,19 @@
      "uiMap": 1456,
      "worldX": -1223.2,
      "worldY": 85
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4082,
+     "mapY": 0.531,
+     "uiMap": 1456,
+     "worldX": -1219.5,
+     "worldY": 90.7
     }
    ],
    "side": "Horde",
-   "sources": 2,
-   "windows": 8
+   "sources": 3,
+   "windows": 11
   },
   "3005": {
    "interactions": [
@@ -11808,6 +12144,84 @@
      "uiMap": 1456,
      "worldX": -993.5,
      "worldY": 274.6
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
+  "3047": {
+   "interactions": [
+    "Gossip",
+    "Trainer"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    60
+   ],
+   "name": "Archmage Shymm",
+   "options": {
+    "96666": {
+     "icon": 132053,
+     "name": "I wish to unlearn my class or legacy talents."
+    },
+    "96667": {
+     "icon": 132058,
+     "name": "I am interested in mage training."
+    },
+    "131749": {
+     "icon": 132053,
+     "name": "Learn about Dual Talent Specialization."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2255,
+     "mapY": 0.151,
+     "uiMap": 1456,
+     "worldX": -955.1,
+     "worldY": 281.3
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 4
+  },
+  "3048": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-10",
+   "levels": [
+    40
+   ],
+   "name": "Ursyn Ghull",
+   "offers": {
+    "1953": {
+     "level": 40,
+     "title": "Return to the Marsh"
+    }
+   },
+   "options": {
+    "97292": {
+     "icon": 132053,
+     "name": "I wish to unlearn my class or legacy talents."
+    },
+    "97293": {
+     "icon": 132058,
+     "name": "I am interested in mage training."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2588,
+     "mapY": 0.1466,
+     "uiMap": 1456,
+     "worldX": -952,
+     "worldY": 246.6
     }
    ],
    "side": "Horde",
@@ -12254,7 +12668,7 @@
     "Gossip",
     "TaxiNode"
    ],
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "levels": [
     55
    ],
@@ -12268,16 +12682,16 @@
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.4532,
-     "mapY": 0.6381,
+     "mapX": 0.453,
+     "mapY": 0.6407,
      "uiMap": 1454,
-     "worldX": 1677,
-     "worldY": -4316.2
+     "worldX": 1674.6,
+     "worldY": -4316
     }
    ],
    "side": "Horde",
-   "sources": 1,
-   "windows": 6
+   "sources": 2,
+   "windows": 10
   },
   "3318": {
    "interactions": [
@@ -12298,16 +12712,16 @@
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.4998,
-     "mapY": 0.6891,
+     "mapX": 0.5007,
+     "mapY": 0.6908,
      "uiMap": 1454,
-     "worldX": 1629.2,
-     "worldY": -4381.7
+     "worldX": 1627.7,
+     "worldY": -4382.9
     }
    ],
    "side": "Horde",
-   "sources": 1,
-   "windows": 2
+   "sources": 2,
+   "windows": 4
   },
   "3320": {
    "interactions": [
@@ -12361,6 +12775,29 @@
    "side": "Horde",
    "sources": 2,
    "windows": 2
+  },
+  "3323": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-10",
+   "levels": [
+    30
+   ],
+   "name": "Horthus",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4562,
+     "mapY": 0.5667,
+     "uiMap": 1454,
+     "worldX": 1743.8,
+     "worldY": -4320.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
   },
   "3355": {
    "interactions": [
@@ -12435,8 +12872,8 @@
     }
    ],
    "side": "Horde",
-   "sources": 1,
-   "windows": 1
+   "sources": 2,
+   "windows": 2
   },
   "3358": {
    "interactions": [
@@ -12604,16 +13041,39 @@
      "mapY": 0.363,
      "uiMap": 1413,
      "worldX": -839.8,
-     "worldY": -3727.2
+     "worldY": -3727.6
     }
    ],
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "1178": {
      "title": "Goblin Sponsorship"
     }
    },
    "windows": 0
+  },
+  "3400": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-12",
+   "levels": [
+    30
+   ],
+   "name": "Xen'to",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5755,
+     "mapY": 0.5325,
+     "uiMap": 1454,
+     "worldX": 1775.8,
+     "worldY": -4487.9
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
   },
   "3403": {
    "interactions": [
@@ -12734,14 +13194,14 @@
     {
      "instance": 1,
      "mapX": 0.5109,
-     "mapY": 0.2959,
+     "mapY": 0.2961,
      "uiMap": 1413,
-     "worldX": -386.9,
-     "worldY": -2554.6
+     "worldX": -388.3,
+     "worldY": -2554.5
     }
    ],
    "side": "Horde",
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "1148": {
      "title": "Parts of the Swarm"
@@ -12862,7 +13322,7 @@
     }
    ],
    "side": "Horde",
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "1131": {
      "title": "Steelsnap"
@@ -12877,7 +13337,7 @@
    "interactions": [
     "QuestGiver"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-13",
    "levels": [
     17
    ],
@@ -12899,12 +13359,23 @@
      "uiMap": 1413,
      "worldX": -930.7,
      "worldY": -3701.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6235,
+     "mapY": 0.3763,
+     "uiMap": 1413,
+     "worldX": -930,
+     "worldY": -3695.4
     }
    ],
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "1221": {
      "title": "Blueleaf Tubers"
+    },
+    "1270": {
+     "title": "Stinky's Escape"
     }
    },
    "windows": 0
@@ -12970,7 +13441,7 @@
    "interactions": [
     "CharacterBanker"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-13",
    "levels": [
     45
    ],
@@ -12978,15 +13449,15 @@
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.6263,
-     "mapY": 0.3747,
+     "mapX": 0.6266,
+     "mapY": 0.3748,
      "uiMap": 1413,
-     "worldX": -918.8,
-     "worldY": -3723.9
+     "worldX": -919.6,
+     "worldY": -3726.4
     }
    ],
-   "sources": 1,
-   "windows": 1
+   "sources": 2,
+   "windows": 2
   },
   "3537": {
    "interactions": [
@@ -13012,10 +13483,26 @@
      "uiMap": 1424,
      "worldX": -342.9,
      "worldY": -711.3
+    },
+    {
+     "instance": 0,
+     "mapX": 0.6085,
+     "mapY": 0.1989,
+     "uiMap": 1424,
+     "worldX": -24.2,
+     "worldY": -880.5
+    },
+    {
+     "instance": 0,
+     "mapX": 0.6069,
+     "mapY": 0.1977,
+     "uiMap": 1424,
+     "worldX": -21.7,
+     "worldY": -875.3
     }
    ],
-   "sources": 1,
-   "windows": 2
+   "sources": 2,
+   "windows": 6
   },
   "3544": {
    "interactions": [
@@ -13091,8 +13578,8 @@
     }
    ],
    "side": "Horde",
-   "sources": 2,
-   "windows": 30
+   "sources": 3,
+   "windows": 32
   },
   "3689": {
    "interactions": [
@@ -13311,22 +13798,22 @@
    "positions": [
     {
      "instance": 1,
+     "mapX": 0.7774,
+     "mapY": 0.7726,
+     "uiMap": 1441,
+     "worldX": -6232.8,
+     "worldY": -3853.9
+    },
+    {
+     "instance": 1,
      "mapX": 0.7786,
      "mapY": 0.7724,
      "uiMap": 1441,
      "worldX": -6232.3,
      "worldY": -3859
-    },
-    {
-     "instance": 1,
-     "mapX": 0.7771,
-     "mapY": 0.7718,
-     "uiMap": 1441,
-     "worldX": -6230.5,
-     "worldY": -3852.6
     }
    ],
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "1110": {
      "title": "Rocket Car Parts"
@@ -13366,16 +13853,24 @@
      "uiMap": 1441,
      "worldX": -6227.8,
      "worldY": -3874
+    },
+    {
+     "instance": 1,
+     "mapX": 0.7806,
+     "mapY": 0.7706,
+     "uiMap": 1441,
+     "worldX": -6227.1,
+     "worldY": -3868
     }
    ],
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "1105": {
      "level": 30,
      "title": "Hardened Shells"
     }
    },
-   "windows": 6
+   "windows": 7
   },
   "4454": {
    "interactions": [
@@ -13412,7 +13907,7 @@
      "worldY": -3866
     }
    ],
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "1104": {
      "title": "Salt Flat Venom"
@@ -13448,7 +13943,7 @@
     }
    ],
    "side": "Horde",
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "1146": {
      "title": "The Swarm Grows"
@@ -13471,23 +13966,29 @@
    "offers": {
     "1146": {
      "title": "The Swarm Grows"
+    },
+    "1361": {
+     "title": "Regthar Deathgate"
     }
    },
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.7501,
-     "mapY": 0.3409,
+     "mapX": 0.7502,
+     "mapY": 0.3411,
      "uiMap": 1454,
-     "worldX": 1955,
-     "worldY": -4732.7
+     "worldX": 1954.9,
+     "worldY": -4732.8
     }
    ],
    "side": "Horde",
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "1145": {
      "title": "The Swarm Grows"
+    },
+    "1184": {
+     "title": "Parts of the Swarm"
     }
    },
    "windows": 0
@@ -13517,7 +14018,12 @@
     }
    ],
    "side": "Horde",
-   "sources": 1,
+   "sources": 2,
+   "takes": {
+    "1164": {
+     "title": "To Steal From Thieves"
+    }
+   },
    "windows": 0
   },
   "4488": {
@@ -13562,15 +14068,23 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.5766,
-     "mapY": 0.6555,
+     "mapX": 0.5763,
+     "mapY": 0.6573,
      "uiMap": 1458,
-     "worldX": 1458.4,
-     "worldY": 320.1
+     "worldX": 1457.2,
+     "worldY": 320.3
+    },
+    {
+     "instance": 0,
+     "mapX": 0.5792,
+     "mapY": 0.6504,
+     "uiMap": 1458,
+     "worldX": 1461.6,
+     "worldY": 317.6
     }
    ],
    "side": "Horde",
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "1159": {
      "level": 30,
@@ -13585,7 +14099,7 @@
      "title": "Test of Lore"
     }
    },
-   "windows": 4
+   "windows": 8
   },
   "4489": {
    "interactions": [
@@ -13605,6 +14119,7 @@
      "title": "Test of Lore"
     },
     "6627": {
+     "level": 30,
      "title": "Test of Lore"
     }
    },
@@ -13637,7 +14152,7 @@
     }
    ],
    "side": "Horde",
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "1152": {
      "level": 30,
@@ -13652,7 +14167,7 @@
      "title": "Test of Lore"
     }
    },
-   "windows": 5
+   "windows": 10
   },
   "4498": {
    "interactions": [
@@ -13702,11 +14217,43 @@
    },
    "windows": 0
   },
+  "4503": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    42
+   ],
+   "name": "Mudcrush Durtfeet",
+   "offers": {
+    "1177": {
+     "title": "Hungry!"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3506,
+     "mapY": 0.3829,
+     "uiMap": 1445,
+     "worldX": -3373.6,
+     "worldY": -2815.7
+    }
+   ],
+   "sources": 1,
+   "takes": {
+    "1177": {
+     "title": "Hungry!"
+    }
+   },
+   "windows": 0
+  },
   "4549": {
    "interactions": [
     "CharacterBanker"
    ],
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-11",
    "levels": [
     45
    ],
@@ -13722,8 +14269,8 @@
     }
    ],
    "side": "Horde",
-   "sources": 2,
-   "windows": 2
+   "sources": 3,
+   "windows": 3
   },
   "4550": {
    "interactions": [
@@ -13745,8 +14292,8 @@
     }
    ],
    "side": "Horde",
-   "sources": 2,
-   "windows": 8
+   "sources": 3,
+   "windows": 15
   },
   "4551": {
    "interactions": [
@@ -13772,11 +14319,19 @@
      "uiMap": 1458,
      "worldX": 1565.6,
      "worldY": 264.1
+    },
+    {
+     "instance": 0,
+     "mapX": 0.6305,
+     "mapY": 0.4826,
+     "uiMap": 1458,
+     "worldX": 1569,
+     "worldY": 268.3
     }
    ],
    "side": "Horde",
-   "sources": 2,
-   "windows": 10
+   "sources": 3,
+   "windows": 16
   },
   "4553": {
    "interactions": [
@@ -13798,8 +14353,31 @@
     }
    ],
    "side": "Horde",
-   "sources": 2,
-   "windows": 2
+   "sources": 3,
+   "windows": 3
+  },
+  "4555": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    30
+   ],
+   "name": "Eleanor Rusk",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6883,
+     "mapY": 0.4841,
+     "uiMap": 1458,
+     "worldX": 1568,
+     "worldY": 212.9
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
   },
   "4556": {
    "interactions": [
@@ -13828,8 +14406,146 @@
     }
    ],
    "side": "Horde",
+   "sources": 2,
+   "windows": 4
+  },
+  "4558": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-11",
+   "levels": [
+    30
+   ],
+   "name": "Lauren Newcomb",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6405,
+     "mapY": 0.3835,
+     "uiMap": 1458,
+     "worldX": 1632.5,
+     "worldY": 258.7
+    }
+   ],
+   "side": "Horde",
    "sources": 1,
-   "windows": 2
+   "windows": 1
+  },
+  "4561": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    30
+   ],
+   "name": "Daniel Bartlett",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6438,
+     "mapY": 0.3796,
+     "uiMap": 1458,
+     "worldX": 1635,
+     "worldY": 255.6
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "4562": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    30
+   ],
+   "name": "Thomas Mordan",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6932,
+     "mapY": 0.3966,
+     "uiMap": 1458,
+     "worldX": 1624.1,
+     "worldY": 208.2
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
+  },
+  "4568": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver",
+    "Trainer"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    40
+   ],
+   "name": "Anastasia Hartwell",
+   "offers": {
+    "2861": {
+     "infoId": 81,
+     "level": 46,
+     "title": "Tabetha's Task"
+    }
+   },
+   "options": {
+    "97294": {
+     "icon": 132053,
+     "name": "I wish to unlearn my class or legacy talents."
+    },
+    "97295": {
+     "icon": 132058,
+     "name": "I am interested in mage training."
+    },
+    "131752": {
+     "icon": 132053,
+     "name": "Learn about Dual Talent Specialization."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.8477,
+     "mapY": 0.1063,
+     "uiMap": 1458,
+     "worldX": 1809.9,
+     "worldY": 59.9
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 7
+  },
+  "4581": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-11",
+   "levels": [
+    30
+   ],
+   "name": "Salazar Bloch",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.773,
+     "mapY": 0.3852,
+     "uiMap": 1458,
+     "worldX": 1631.4,
+     "worldY": 131.6
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 4
   },
   "4593": {
    "interactions": [
@@ -13920,7 +14636,7 @@
      "worldY": -4021.9
     }
    ],
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "1175": {
      "title": "A Bump in the Road"
@@ -13963,7 +14679,7 @@
      "worldY": -3961.8
     }
    ],
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "1176": {
      "title": "Load Lightening"
@@ -13984,19 +14700,22 @@
    "offers": {
     "1181": {
      "title": "Goblin Sponsorship"
+    },
+    "97332": {
+     "title": "Twice Misplaced Trust"
     }
    },
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.264,
-     "mapY": 0.7357,
+     "mapX": 0.2642,
+     "mapY": 0.7359,
      "uiMap": 1434,
-     "worldX": -14298.5,
-     "worldY": 536.4
+     "worldX": -14299.4,
+     "worldY": 535.1
     }
    ],
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "1180": {
      "level": 37,
@@ -14011,7 +14730,7 @@
      "title": "Zimmix's Great Escape"
     }
    },
-   "windows": 2
+   "windows": 5
   },
   "4700": {
    "interactions": [
@@ -14184,6 +14903,201 @@
    },
    "windows": 7
   },
+  "4731": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    30
+   ],
+   "name": "Zachariah Post",
+   "offers": {
+    "96997": {
+     "level": 40,
+     "title": "A Steed in Death as They Were in Life"
+    }
+   },
+   "options": {
+    "97480": {
+     "icon": 132060,
+     "name": "I would like to buy from you."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5991,
+     "mapY": 0.5265,
+     "uiMap": 1420,
+     "worldX": 2251.5,
+     "worldY": 326.2
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "96997": {
+     "level": 40,
+     "title": "A Steed in Death as They Were in Life"
+    },
+    "97203": {
+     "level": 40,
+     "title": "Learning to Ride"
+    }
+   },
+   "windows": 4
+  },
+  "4773": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver",
+    "Trainer"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    30
+   ],
+   "name": "Velma Warnam",
+   "offers": {
+    "97203": {
+     "level": 40,
+     "title": "Learning to Ride"
+    }
+   },
+   "options": {
+    "97093": {
+     "icon": 132058,
+     "name": "I seek training to ride a steed."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6017,
+     "mapY": 0.5254,
+     "uiMap": 1420,
+     "worldX": 2254.8,
+     "worldY": 314.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 3
+  },
+  "4775": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    30
+   ],
+   "name": "Felicia Doan",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6415,
+     "mapY": 0.4982,
+     "uiMap": 1458,
+     "worldX": 1559,
+     "worldY": 257.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
+  "4791": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    48
+   ],
+   "name": "Nazeer Bloodpike",
+   "offers": {
+    "1201": {
+     "title": "Theramore Spies"
+    },
+    "1202": {
+     "title": "The Theramore Docks"
+    },
+    "1240": {
+     "title": "The Troll Witchdoctor"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3526,
+     "mapY": 0.3076,
+     "uiMap": 1445,
+     "worldX": -3109.8,
+     "worldY": -2826.2
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "1201": {
+     "title": "Theramore Spies"
+    },
+    "1202": {
+     "title": "The Theramore Docks"
+    },
+    "1238": {
+     "title": "The Lost Report"
+    },
+    "1239": {
+     "title": "The Severed Head"
+    }
+   },
+   "windows": 0
+  },
+  "4792": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    42
+   ],
+   "name": "\"Swamp Eye\" Jarl",
+   "offers": {
+    "1203": {
+     "title": "Jarl Needs a Blade"
+    },
+    "1206": {
+     "title": "Jarl Needs Eyes"
+    },
+    "1218": {
+     "title": "Soothing Spices"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5544,
+     "mapY": 0.2638,
+     "uiMap": 1445,
+     "worldX": -2956.5,
+     "worldY": -3885.4
+    }
+   ],
+   "sources": 1,
+   "takes": {
+    "1206": {
+     "title": "Jarl Needs Eyes"
+    },
+    "1218": {
+     "title": "Soothing Spices"
+    }
+   },
+   "windows": 0
+  },
   "4875": {
    "interactions": [
     "Merchant"
@@ -14292,16 +15206,51 @@
    "sources": 1,
    "windows": 1
   },
+  "4880": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    35
+   ],
+   "name": "\"Stinky\" Ignatz",
+   "offers": {
+    "1270": {
+     "title": "Stinky's Escape"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4689,
+     "mapY": 0.1761,
+     "uiMap": 1445,
+     "worldX": -2649.8,
+     "worldY": -3436.5
+    }
+   ],
+   "sources": 1,
+   "windows": 0
+  },
   "4884": {
    "interactions": [
     "Merchant"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-13",
    "levels": [
     43
    ],
    "name": "Zulrg",
    "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3624,
+     "mapY": 0.3173,
+     "uiMap": 1445,
+     "worldX": -3143.8,
+     "worldY": -2877.7
+    },
     {
      "instance": 1,
      "mapX": 0.3612,
@@ -14312,8 +15261,168 @@
     }
    ],
    "side": "Horde",
+   "sources": 2,
+   "windows": 3
+  },
+  "4926": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    40
+   ],
+   "name": "Krog",
+   "offers": {
+    "1276": {
+     "level": 37,
+     "title": "The Black Shield"
+    },
+    "1321": {
+     "title": "The Black Shield"
+    }
+   },
+   "options": {
+    "95626": {
+     "icon": 132053,
+     "name": "Finding Reethe."
+    },
+    "95627": {
+     "icon": 132053,
+     "name": "The Burning Inn."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3636,
+     "mapY": 0.318,
+     "uiMap": 1445,
+     "worldX": -3146.2,
+     "worldY": -2884.1
+    }
+   ],
+   "side": "Horde",
    "sources": 1,
-   "windows": 1
+   "takes": {
+    "1251": {
+     "level": 35,
+     "title": "The Black Shield"
+    },
+    "1268": {
+     "level": 35,
+     "title": "Suspicious Hoofprints"
+    },
+    "1269": {
+     "level": 37,
+     "title": "Lieutenant Paval Reethe"
+    },
+    "1273": {
+     "level": 37,
+     "title": "Questioning Reethe"
+    },
+    "1323": {
+     "level": 37,
+     "title": "The Black Shield"
+    }
+   },
+   "windows": 6
+  },
+  "4943": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    30
+   ],
+   "name": "Mosarn",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5436,
+     "mapY": 0.8029,
+     "uiMap": 1456,
+     "worldX": -1408.7,
+     "worldY": -50.8
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "1276": {
+     "title": "The Black Shield"
+    }
+   },
+   "windows": 0
+  },
+  "4983": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    35
+   ],
+   "name": "Ogron",
+   "offers": {
+    "1273": {
+     "title": "Questioning Reethe"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4096,
+     "mapY": 0.3655,
+     "uiMap": 1445,
+     "worldX": -3312.6,
+     "worldY": -3125.6
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 0
+  },
+  "5087": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    30
+   ],
+   "name": "Do'gol",
+   "offers": {
+    "1322": {
+     "title": "The Black Shield"
+    },
+    "1323": {
+     "title": "The Black Shield"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3651,
+     "mapY": 0.309,
+     "uiMap": 1445,
+     "worldX": -3115,
+     "worldY": -2891.5
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "takes": {
+    "1321": {
+     "title": "The Black Shield"
+    },
+    "1322": {
+     "title": "The Black Shield"
+    }
+   },
+   "windows": 0
   },
   "5395": {
    "interactions": [
@@ -14728,7 +15837,7 @@
    "interactions": [
     "QuestGiver"
    ],
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-13",
    "levels": [
     15
    ],
@@ -14749,7 +15858,7 @@
     }
    ],
    "side": "Horde",
-   "sources": 1,
+   "sources": 2,
    "windows": 0
   },
   "5811": {
@@ -14811,6 +15920,45 @@
    "sources": 1,
    "windows": 2
   },
+  "5814": {
+   "interactions": [
+    "Binder",
+    "Gossip",
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-12",
+   "levels": [
+    30
+   ],
+   "name": "Innkeeper Thulbek",
+   "options": {
+    "96312": {
+     "icon": 132053,
+     "name": "Tell me about dungeons I could explore."
+    },
+    "96313": {
+     "icon": 132060,
+     "name": "I want to browse your goods."
+    },
+    "96314": {
+     "icon": 132052,
+     "name": "Make this inn your home."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3143,
+     "mapY": 0.2973,
+     "uiMap": 1434,
+     "worldX": -12433.7,
+     "worldY": 215.1
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 8
+  },
   "5905": {
    "interactions": [
     "QuestGiver"
@@ -14855,6 +16003,36 @@
     }
    },
    "windows": 0
+  },
+  "5958": {
+   "interactions": [
+    "Gossip",
+    "Trainer"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    45
+   ],
+   "name": "Thuul",
+   "options": {
+    "97929": {
+     "icon": 132058,
+     "name": "Please teach me."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3861,
+     "mapY": 0.8568,
+     "uiMap": 1454,
+     "worldX": 1472.4,
+     "worldY": -4222.1
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
   },
   "6019": {
    "interactions": [
@@ -15060,6 +16238,29 @@
    },
    "windows": 7
   },
+  "6567": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    43
+   ],
+   "name": "Ghok'kah",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3523,
+     "mapY": 0.3085,
+     "uiMap": 1445,
+     "worldX": -3113,
+     "worldY": -2824.6
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 2
+  },
   "6579": {
    "interactions": [
     "QuestGiver"
@@ -15151,15 +16352,91 @@
     },
     {
      "instance": 1,
-     "mapX": 0.7771,
-     "mapY": 0.7775,
+     "mapX": 0.777,
+     "mapY": 0.7778,
      "uiMap": 1441,
-     "worldX": -6247.4,
-     "worldY": -3852.6
+     "worldX": -6248.1,
+     "worldY": -3852.2
     }
    ],
+   "sources": 2,
+   "windows": 4
+  },
+  "6741": {
+   "interactions": [
+    "Gossip",
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-11",
+   "levels": [
+    30
+   ],
+   "name": "Innkeeper Norman",
+   "options": {
+    "96512": {
+     "icon": 132053,
+     "name": "Tell me about dungeons I could explore."
+    },
+    "96513": {
+     "icon": 132052,
+     "name": "Make this inn your home."
+    },
+    "142299": {
+     "icon": 132060,
+     "name": "Let me browse your goods."
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6766,
+     "mapY": 0.3842,
+     "uiMap": 1458,
+     "worldX": 1632,
+     "worldY": 224.1
+    }
+   ],
+   "side": "Horde",
    "sources": 1,
    "windows": 2
+  },
+  "6746": {
+   "interactions": [
+    "Gossip",
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    30
+   ],
+   "name": "Innkeeper Pala",
+   "options": {
+    "96518": {
+     "icon": 132053,
+     "name": "Tell me about dungeons I could explore."
+    },
+    "96519": {
+     "icon": 132060,
+     "name": "Let me browse your goods."
+    },
+    "96520": {
+     "icon": 132052,
+     "name": "Make this inn your home."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4569,
+     "mapY": 0.6433,
+     "uiMap": 1456,
+     "worldX": -1297.6,
+     "worldY": 39.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 6
   },
   "6929": {
    "interactions": [
@@ -15250,6 +16527,51 @@
     }
    ],
    "side": "Alliance",
+   "sources": 1,
+   "windows": 1
+  },
+  "7311": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    40
+   ],
+   "name": "Uthel'nay",
+   "offers": {
+    "7068": {
+     "infoId": 81,
+     "level": 42,
+     "title": "Shadowshard Fragments"
+    }
+   },
+   "options": {
+    "97422": {
+     "icon": 132053,
+     "name": "I wish to unlearn my class or legacy talents."
+    },
+    "97423": {
+     "icon": 132058,
+     "name": "I am interested in mage training."
+    },
+    "131732": {
+     "icon": 132053,
+     "name": "Learn about Dual Talent Specialization."
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3905,
+     "mapY": 0.8587,
+     "uiMap": 1454,
+     "worldX": 1470.7,
+     "worldY": -4228.3
+    }
+   ],
+   "side": "Horde",
    "sources": 1,
    "windows": 1
   },
@@ -15395,9 +16717,17 @@
      "uiMap": 1434,
      "worldX": -14464.3,
      "worldY": 457.6
+    },
+    {
+     "instance": 0,
+     "mapX": 0.2755,
+     "mapY": 0.7743,
+     "uiMap": 1434,
+     "worldX": -14462.9,
+     "worldY": 462.7
     }
    ],
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "2842": {
      "level": 35,
@@ -15406,9 +16736,13 @@
     "2843": {
      "level": 35,
      "title": "Gnomer-gooooone!"
+    },
+    "2904": {
+     "level": 30,
+     "title": "A Fine Mess"
     }
    },
-   "windows": 2
+   "windows": 3
   },
   "7854": {
    "interactions": [
@@ -15481,7 +16815,7 @@
    "interactions": [
     "CharacterBanker"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-13",
    "levels": [
     45
    ],
@@ -15490,14 +16824,14 @@
     {
      "instance": 1,
      "mapX": 0.6268,
-     "mapY": 0.3745,
+     "mapY": 0.3747,
      "uiMap": 1413,
-     "worldX": -917.4,
-     "worldY": -3729
+     "worldX": -919.2,
+     "worldY": -3728.7
     }
    ],
-   "sources": 1,
-   "windows": 1
+   "sources": 2,
+   "windows": 3
   },
   "8144": {
    "interactions": [
@@ -15590,6 +16924,29 @@
    "side": "Horde",
    "sources": 2,
    "windows": 15
+  },
+  "8357": {
+   "interactions": [
+    "CharacterBanker"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    45
+   ],
+   "name": "Atepa",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4678,
+     "mapY": 0.5916,
+     "uiMap": 1456,
+     "worldX": -1261.7,
+     "worldY": 28.4
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 3
   },
   "8358": {
    "interactions": [
@@ -15716,6 +17073,29 @@
    "sources": 1,
    "windows": 7
   },
+  "8672": {
+   "interactions": [
+    "Auctioneer"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    50
+   ],
+   "name": "Auctioneer Leeka",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6806,
+     "mapY": 0.522,
+     "uiMap": 1458,
+     "worldX": 1543.8,
+     "worldY": 220.2
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 4
+  },
   "8673": {
    "interactions": [
     "Auctioneer"
@@ -15768,7 +17148,7 @@
    ],
    "side": "Horde",
    "sources": 3,
-   "windows": 70
+   "windows": 85
   },
   "8719": {
    "interactions": [
@@ -15816,6 +17196,37 @@
    "sources": 2,
    "windows": 2
   },
+  "8722": {
+   "interactions": [
+    "Auctioneer"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    50
+   ],
+   "name": "Auctioneer Gullem",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3921,
+     "mapY": 0.5084,
+     "uiMap": 1456,
+     "worldX": -1203.7,
+     "worldY": 107.4
+    },
+    {
+     "instance": 1,
+     "mapX": 0.3851,
+     "mapY": 0.5067,
+     "uiMap": 1456,
+     "worldX": -1202.5,
+     "worldY": 114.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 5
+  },
   "8724": {
    "interactions": [
     "Auctioneer"
@@ -15828,16 +17239,16 @@
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.5552,
-     "mapY": 0.6479,
+     "mapX": 0.5551,
+     "mapY": 0.6495,
      "uiMap": 1454,
-     "worldX": 1667.9,
-     "worldY": -4459.3
+     "worldX": 1666.3,
+     "worldY": -4459.2
     }
    ],
    "side": "Horde",
-   "sources": 1,
-   "windows": 6
+   "sources": 2,
+   "windows": 10
   },
   "8878": {
    "interactions": [
@@ -16404,14 +17815,14 @@
     }
    ],
    "side": "Horde",
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "96988": {
      "level": 33,
      "title": "Source of Power"
     }
    },
-   "windows": 3
+   "windows": 4
   },
   "11069": {
    "interactions": [
@@ -16816,7 +18227,7 @@
     "Gossip",
     "TaxiNode"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-13",
    "levels": [
     55
    ],
@@ -16838,8 +18249,8 @@
     }
    ],
    "side": "Horde",
-   "sources": 1,
-   "windows": 4
+   "sources": 2,
+   "windows": 6
   },
   "12027": {
    "interactions": [
@@ -17085,6 +18496,65 @@
     }
    },
    "windows": 0
+  },
+  "12866": {
+   "interactions": [
+    "Gossip",
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    35
+   ],
+   "name": "Myriam Moonsinger",
+   "offers": {
+    "6626": {
+     "infoId": 81,
+     "level": 35,
+     "title": "A Host of Evil"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.49,
+     "mapY": 0.949,
+     "uiMap": 1413,
+     "worldX": -4799,
+     "worldY": -2342
+    }
+   ],
+   "sources": 1,
+   "takes": {
+    "6626": {
+     "level": 35,
+     "title": "A Host of Evil"
+    }
+   },
+   "windows": 2
+  },
+  "13476": {
+   "interactions": [
+    "Merchant"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    43
+   ],
+   "name": "Balai Lok'Wein",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3651,
+     "mapY": 0.3048,
+     "uiMap": 1445,
+     "worldX": -3100.2,
+     "worldY": -2891.7
+    }
+   ],
+   "side": "Horde",
+   "sources": 1,
+   "windows": 1
   },
   "14728": {
    "interactions": [
@@ -17488,7 +18958,7 @@
    "interactions": [
     "Auctioneer"
    ],
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-11",
    "levels": [
     50
    ],
@@ -17496,16 +18966,16 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.642,
-     "mapY": 0.356,
+     "mapX": 0.6409,
+     "mapY": 0.3625,
      "uiMap": 1458,
-     "worldX": 1650.1,
-     "worldY": 257.2
+     "worldX": 1645.9,
+     "worldY": 258.4
     }
    ],
    "side": "Horde",
-   "sources": 1,
-   "windows": 2
+   "sources": 2,
+   "windows": 5
   },
   "15684": {
    "interactions": [
@@ -17534,7 +19004,7 @@
    "interactions": [
     "Auctioneer"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-12",
    "levels": [
     50
    ],
@@ -17542,16 +19012,16 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.6054,
-     "mapY": 0.4708,
+     "mapX": 0.6066,
+     "mapY": 0.4718,
      "uiMap": 1458,
-     "worldX": 1576.6,
-     "worldY": 292.3
+     "worldX": 1575.9,
+     "worldY": 291.3
     }
    ],
    "side": "Horde",
-   "sources": 2,
-   "windows": 2
+   "sources": 3,
+   "windows": 5
   },
   "16227": {
    "interactions": [
@@ -17583,12 +19053,12 @@
      "mapX": 0.6306,
      "mapY": 0.3714,
      "uiMap": 1413,
-     "worldX": -896.4,
-     "worldY": -3766.9
+     "worldX": -896.7,
+     "worldY": -3767.6
     }
    ],
-   "sources": 2,
-   "windows": 6
+   "sources": 3,
+   "windows": 8
   },
   "211022": {
    "interactions": [
@@ -17715,6 +19185,68 @@
    ],
    "sources": 1,
    "windows": 2
+  },
+  "218229": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-12",
+   "levels": [
+    40
+   ],
+   "name": "Captain Aransas",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2771,
+     "mapY": 0.767,
+     "uiMap": 1434,
+     "worldX": -14431.8,
+     "worldY": 452.7
+    }
+   ],
+   "sources": 1,
+   "takes": {
+    "97048": {
+     "title": "Returning to Port"
+    }
+   },
+   "windows": 0
+  },
+  "218230": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-12",
+   "levels": [
+    25
+   ],
+   "name": "Wendel Mathers",
+   "offers": {
+    "97047": {
+     "title": "The Cook in the Cage"
+    },
+    "97048": {
+     "title": "Returning to Port"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.4427,
+     "mapY": 0.0804,
+     "uiMap": 1434,
+     "worldX": -11510.6,
+     "worldY": -603.9
+    }
+   ],
+   "sources": 1,
+   "takes": {
+    "97047": {
+     "title": "The Cook in the Cage"
+    }
+   },
+   "windows": 0
   },
   "246152": {
    "interactions": [
@@ -19102,7 +20634,7 @@
     "Merchant",
     "QuestGiver"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-13",
    "levels": [
     30
    ],
@@ -19130,20 +20662,20 @@
      "worldY": 355
     }
    ],
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "97196": {
      "level": 41,
      "title": "The Coldbringer's Eye"
     }
    },
-   "windows": 3
+   "windows": 9
   },
   "265574": {
    "interactions": [
     "Merchant"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-13",
    "levels": [
     22
    ],
@@ -19152,10 +20684,122 @@
     {
      "instance": 1,
      "mapX": 0.6255,
-     "mapY": 0.3757,
+     "mapY": 0.3759,
      "uiMap": 1413,
-     "worldX": -926,
-     "worldY": -3715.8
+     "worldX": -927.2,
+     "worldY": -3715.5
+    }
+   ],
+   "sources": 2,
+   "windows": 3
+  },
+  "267354": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    1
+   ],
+   "name": "Black Skeletal Horse",
+   "options": {
+    "140252": {
+     "icon": 132053,
+     "name": "<Back away from the skeletal horse.>"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5996,
+     "mapY": 0.5241,
+     "uiMap": 1420,
+     "worldX": 2258.5,
+     "worldY": 323.8
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "267357": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    1
+   ],
+   "name": "Red Skeletal Horse",
+   "options": {
+    "140251": {
+     "icon": 132053,
+     "name": "<Back away from the skeletal horse.>"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6003,
+     "mapY": 0.5256,
+     "uiMap": 1420,
+     "worldX": 2254.1,
+     "worldY": 320.6
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "267358": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    1
+   ],
+   "name": "Blue Skeletal Horse",
+   "options": {
+    "140249": {
+     "icon": 132053,
+     "name": "<Back away from the skeletal horse.>"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5991,
+     "mapY": 0.5274,
+     "uiMap": 1420,
+     "worldX": 2248.7,
+     "worldY": 326.1
+    }
+   ],
+   "sources": 1,
+   "windows": 1
+  },
+  "267364": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    1
+   ],
+   "name": "Brown Skeletal Horse",
+   "options": {
+    "140250": {
+     "icon": 132053,
+     "name": "<Back away from the skeletal horse.>"
+    }
+   },
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.599,
+     "mapY": 0.526,
+     "uiMap": 1420,
+     "worldX": 2252.9,
+     "worldY": 326.7
     }
    ],
    "sources": 1,
@@ -19237,14 +20881,14 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.2341,
+     "mapX": 0.2342,
      "mapY": 0.1275,
      "uiMap": 1434,
      "worldX": -11711.2,
-     "worldY": 726.9
+     "worldY": 726
     }
    ],
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "97329": {
      "title": "Where's the Key?"
@@ -19277,7 +20921,7 @@
      "worldY": 566.9
     }
    ],
-   "sources": 2,
+   "sources": 3,
    "takes": {
     "92434": {
      "level": 34,
@@ -19288,7 +20932,7 @@
      "title": "Shrewd Negotiations"
     }
    },
-   "windows": 3
+   "windows": 4
   },
   "269166": {
    "interactions": [
@@ -19315,7 +20959,7 @@
     }
    ],
    "side": "Horde",
-   "sources": 1,
+   "sources": 2,
    "windows": 0
   },
   "270038": {
@@ -19343,7 +20987,7 @@
     }
    ],
    "side": "Horde",
-   "sources": 1,
+   "sources": 2,
    "takes": {
     "97985": {
      "title": "Thundering Hearts"
@@ -19411,6 +21055,28 @@
     }
    },
    "windows": 0
+  },
+  "272633": {
+   "interactions": [
+    "Gossip"
+   ],
+   "lastSeen": "2026-11-13",
+   "levels": [
+    60
+   ],
+   "name": "Nuara Tremorhoof",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3346,
+     "mapY": 0.2256,
+     "uiMap": 1412,
+     "worldX": -658.8,
+     "worldY": 419.8
+    }
+   ],
+   "sources": 1,
+   "windows": 1
   }
  },
  "objects": {
@@ -19500,6 +21166,105 @@
      "title": "Helcular's Revenge"
     }
    },
+   "windows": 0
+  },
+  "20985": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "name": "Loose Dirt",
+   "offers": {
+    "1238": {
+     "title": "The Lost Report"
+    },
+    "1239": {
+     "title": "The Severed Head"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5543,
+     "mapY": 0.2607,
+     "uiMap": 1445,
+     "worldX": -2945.8,
+     "worldY": -3885.1
+    }
+   ],
+   "sources": 1,
+   "windows": 0
+  },
+  "20992": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "name": "Black Shield",
+   "offers": {
+    "1251": {
+     "title": "The Black Shield"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2964,
+     "mapY": 0.485,
+     "uiMap": 1445,
+     "worldX": -3730.7,
+     "worldY": -2530.9
+    }
+   ],
+   "sources": 1,
+   "windows": 0
+  },
+  "21016": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "name": "Hoofprints",
+   "offers": {
+    "1268": {
+     "title": "Suspicious Hoofprints"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2971,
+     "mapY": 0.4753,
+     "uiMap": 1445,
+     "worldX": -3697,
+     "worldY": -2534.9
+    }
+   ],
+   "sources": 1,
+   "windows": 0
+  },
+  "21042": {
+   "interactions": [
+    "QuestGiver"
+   ],
+   "lastSeen": "2026-11-13",
+   "name": "Theramore Guard Badge",
+   "offers": {
+    "1269": {
+     "title": "Lieutenant Paval Reethe"
+    }
+   },
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2979,
+     "mapY": 0.4817,
+     "uiMap": 1445,
+     "worldX": -3719.2,
+     "worldY": -2538.9
+    }
+   ],
+   "sources": 1,
    "windows": 0
   },
   "89931": {
@@ -19607,8 +21372,8 @@
      "worldY": 45.1
     }
    ],
-   "sources": 2,
-   "windows": 51
+   "sources": 3,
+   "windows": 72
   },
   "143988": {
    "interactions": [
@@ -19626,8 +21391,8 @@
      "worldY": -927.7
     }
    ],
-   "sources": 1,
-   "windows": 1
+   "sources": 2,
+   "windows": 3
   },
   "144112": {
    "interactions": [
@@ -19671,20 +21436,20 @@
    "interactions": [
     "MailInfo"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-12",
    "name": "Mailbox",
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.3244,
-     "mapY": 0.2866,
+     "mapX": 0.3247,
+     "mapY": 0.2872,
      "uiMap": 1434,
-     "worldX": -12388,
-     "worldY": 150.7
+     "worldX": -12390.4,
+     "worldY": 148.8
     }
    ],
-   "sources": 1,
-   "windows": 1
+   "sources": 2,
+   "windows": 3
   },
   "176115": {
    "interactions": [
@@ -19726,8 +21491,8 @@
      "worldY": -2449.2
     }
    ],
-   "sources": 1,
-   "windows": 1
+   "sources": 2,
+   "windows": 2
   },
   "177786": {
    "interactions": [
@@ -19820,8 +21585,8 @@
      "worldY": -928.8
     }
    ],
-   "sources": 2,
-   "windows": 2
+   "sources": 3,
+   "windows": 4
   },
   "556669": {
    "interactions": [
@@ -19875,7 +21640,7 @@
    "interactions": [
     "MailInfo"
    ],
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-13",
    "name": "Mailbox",
    "positions": [
     {
@@ -19887,16 +21652,24 @@
      "worldY": 202.3
     }
    ],
-   "sources": 1,
-   "windows": 1
+   "sources": 2,
+   "windows": 5
   },
   "644438": {
    "interactions": [
     "MailInfo"
    ],
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "name": "Mailbox",
    "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6223,
+     "mapY": 0.5191,
+     "uiMap": 1458,
+     "worldX": 1545.7,
+     "worldY": 276.2
+    },
     {
      "instance": 0,
      "mapX": 0.6185,
@@ -19906,27 +21679,27 @@
      "worldY": 279.8
     }
    ],
-   "sources": 1,
-   "windows": 11
+   "sources": 2,
+   "windows": 12
   },
   "644439": {
    "interactions": [
     "MailInfo"
    ],
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-11",
    "name": "Mailbox",
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.62,
-     "mapY": 0.368,
+     "mapX": 0.6202,
+     "mapY": 0.3716,
      "uiMap": 1458,
-     "worldX": 1642.4,
-     "worldY": 278.4
+     "worldX": 1640.1,
+     "worldY": 278.2
     }
    ],
-   "sources": 1,
-   "windows": 1
+   "sources": 2,
+   "windows": 3
   },
   "644440": {
    "interactions": [
@@ -19947,11 +21720,30 @@
    "sources": 1,
    "windows": 3
   },
+  "644441": {
+   "interactions": [
+    "MailInfo"
+   ],
+   "lastSeen": "2026-11-11",
+   "name": "Mailbox",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6611,
+     "mapY": 0.4998,
+     "uiMap": 1458,
+     "worldX": 1558,
+     "worldY": 238.9
+    }
+   ],
+   "sources": 1,
+   "windows": 3
+  },
   "644488": {
    "interactions": [
     "MailInfo"
    ],
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-11",
    "name": "Mailbox",
    "positions": [
     {
@@ -19963,8 +21755,8 @@
      "worldY": 222.1
     }
    ],
-   "sources": 1,
-   "windows": 1
+   "sources": 2,
+   "windows": 5
   },
   "649051": {
    "interactions": [
@@ -20049,14 +21841,60 @@
      "worldY": -4430.4
     }
    ],
+   "sources": 2,
+   "windows": 6
+  },
+  "658923": {
+   "interactions": [
+    "MailInfo"
+   ],
+   "lastSeen": "2026-11-13",
+   "name": "Mailbox",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5151,
+     "mapY": 0.5936,
+     "uiMap": 1454,
+     "worldX": 1718.6,
+     "worldY": -4403.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.5175,
+     "mapY": 0.5889,
+     "uiMap": 1454,
+     "worldX": 1723,
+     "worldY": -4406.4
+    }
+   ],
    "sources": 1,
-   "windows": 5
+   "windows": 3
+  },
+  "658927": {
+   "interactions": [
+    "MailInfo"
+   ],
+   "lastSeen": "2026-11-12",
+   "name": "Mailbox",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4946,
+     "mapY": 0.7144,
+     "uiMap": 1454,
+     "worldX": 1605.6,
+     "worldY": -4374.4
+    }
+   ],
+   "sources": 1,
+   "windows": 1
   },
   "658970": {
    "interactions": [
     "MailInfo"
    ],
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "name": "Mailbox",
    "positions": [
     {
@@ -20066,10 +21904,26 @@
      "uiMap": 1454,
      "worldX": 1890.8,
      "worldY": -4555.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6206,
+     "mapY": 0.406,
+     "uiMap": 1454,
+     "worldX": 1894.1,
+     "worldY": -4551.1
+    },
+    {
+     "instance": 1,
+     "mapX": 0.6239,
+     "mapY": 0.4014,
+     "uiMap": 1454,
+     "worldX": 1898.4,
+     "worldY": -4555.7
     }
    ],
-   "sources": 1,
-   "windows": 2
+   "sources": 2,
+   "windows": 8
   },
   "659159": {
    "interactions": [
@@ -20103,8 +21957,8 @@
      "worldY": -4394
     }
    ],
-   "sources": 2,
-   "windows": 20
+   "sources": 3,
+   "windows": 21
   },
   "659816": {
    "interactions": [
@@ -20139,22 +21993,22 @@
    "positions": [
     {
      "instance": 0,
+     "mapX": 0.3156,
+     "mapY": 0.129,
+     "uiMap": 1434,
+     "worldX": -11717.7,
+     "worldY": 207
+    },
+    {
+     "instance": 0,
      "mapX": 0.3146,
      "mapY": 0.1282,
      "uiMap": 1434,
      "worldX": -11714.3,
      "worldY": 213.3
-    },
-    {
-     "instance": 0,
-     "mapX": 0.3154,
-     "mapY": 0.128,
-     "uiMap": 1434,
-     "worldX": -11713.3,
-     "worldY": 208.2
     }
    ],
-   "sources": 2,
+   "sources": 3,
    "windows": 0
   },
   "696264": {
