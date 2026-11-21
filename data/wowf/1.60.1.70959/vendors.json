@@ -4,13 +4,13 @@
   "clientBuild": "1.60.1.70959",
   "collectedOn": {
    "first": "2026-11-19",
-   "last": "2026-11-20"
+   "last": "2026-11-21"
   },
   "dataset": "vendors",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 9
+  "sources": 10
  },
  "vendors": {
   "222": {
@@ -886,7 +886,7 @@
      },
      "itemId": 12164,
      "name": "Plans: Massive Iron Axe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2520": {
@@ -895,7 +895,7 @@
      },
      "itemId": 2520,
      "name": "Broadsword",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2521": {
@@ -904,7 +904,7 @@
      },
      "itemId": 2521,
      "name": "Flamberge",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2522": {
@@ -913,7 +913,7 @@
      },
      "itemId": 2522,
      "name": "Crescent Axe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2523": {
@@ -922,7 +922,7 @@
      },
      "itemId": 2523,
      "name": "Bullova",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2524": {
@@ -931,7 +931,7 @@
      },
      "itemId": 2524,
      "name": "Truncheon",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2525": {
@@ -940,7 +940,7 @@
      },
      "itemId": 2525,
      "name": "War Hammer",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2526": {
@@ -949,7 +949,7 @@
      },
      "itemId": 2526,
      "name": "Main Gauche",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2527": {
@@ -958,25 +958,170 @@
      },
      "itemId": 2527,
      "name": "Battle Staff",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     }
    },
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-20",
    "name": "Vharr",
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.323,
-     "mapY": 0.2794,
+     "mapX": 0.3231,
+     "mapY": 0.2799,
      "uiMap": 1434,
-     "worldX": -12357.2,
-     "worldY": 159.4
+     "worldX": -12359.4,
+     "worldY": 159
+    }
+   ],
+   "repairs": true,
+   "sources": 2,
+   "visits": 4
+  },
+  "1147": {
+   "entries": {
+    "item:2429": {
+     "costs": {
+      "6": 9125
+     },
+     "itemId": 2429,
+     "name": "Russet Vest",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2431": {
+     "costs": {
+      "6": 9194
+     },
+     "itemId": 2431,
+     "name": "Russet Pants",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2432": {
+     "costs": {
+      "6": 6921
+     },
+     "itemId": 2432,
+     "name": "Russet Boots",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2434": {
+     "costs": {
+      "6": 4649
+     },
+     "itemId": 2434,
+     "name": "Russet Gloves",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2463": {
+     "costs": {
+      "6": 12326
+     },
+     "itemId": 2463,
+     "name": "Studded Doublet",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2464": {
+     "costs": {
+      "6": 6184
+     },
+     "itemId": 2464,
+     "name": "Studded Belt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2465": {
+     "costs": {
+      "6": 11230
+     },
+     "itemId": 2465,
+     "name": "Studded Pants",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2467": {
+     "costs": {
+      "6": 8487
+     },
+     "itemId": 2467,
+     "name": "Studded Boots",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2468": {
+     "costs": {
+      "6": 5679
+     },
+     "itemId": 2468,
+     "name": "Studded Bracers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2469": {
+     "costs": {
+      "6": 5701
+     },
+     "itemId": 2469,
+     "name": "Studded Gloves",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3593": {
+     "costs": {
+      "6": 4930
+     },
+     "itemId": 3593,
+     "name": "Russet Belt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3594": {
+     "costs": {
+      "6": 4948
+     },
+     "itemId": 3594,
+     "name": "Russet Bracers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3889": {
+     "costs": {
+      "6": 7130
+     },
+     "itemId": 3889,
+     "name": "Russet Hat",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3890": {
+     "costs": {
+      "6": 9181
+     },
+     "itemId": 3890,
+     "name": "Studded Hat",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Hragran",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.3156,
+     "mapY": 0.2916,
+     "uiMap": 1434,
+     "worldX": -12409.2,
+     "worldY": 206.8
     }
    ],
    "repairs": true,
    "sources": 1,
-   "visits": 1
+   "visits": 3
   },
   "1148": {
    "entries": {
@@ -986,7 +1131,7 @@
      },
      "itemId": 12228,
      "name": "Recipe: Roast Raptor",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:12231": {
@@ -995,7 +1140,7 @@
      },
      "itemId": 12231,
      "name": "Recipe: Jungle Stew",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2320": {
@@ -1004,7 +1149,7 @@
      },
      "itemId": 2320,
      "name": "Coarse Thread",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2321": {
@@ -1013,7 +1158,7 @@
      },
      "itemId": 2321,
      "name": "Fine Thread",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2325": {
@@ -1022,7 +1167,7 @@
      },
      "itemId": 2325,
      "name": "Black Dye",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2604": {
@@ -1031,7 +1176,7 @@
      },
      "itemId": 2604,
      "name": "Red Dye",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2678": {
@@ -1040,7 +1185,7 @@
      },
      "itemId": 2678,
      "name": "Mild Spices",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:2692": {
@@ -1049,7 +1194,7 @@
      },
      "itemId": 2692,
      "name": "Hot Spices",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2880": {
@@ -1058,7 +1203,7 @@
      },
      "itemId": 2880,
      "name": "Weak Flux",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2901": {
@@ -1067,7 +1212,7 @@
      },
      "itemId": 2901,
      "name": "Mining Pick",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2928": {
@@ -1076,7 +1221,7 @@
      },
      "itemId": 2928,
      "name": "Dust of Decay",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3371": {
@@ -1085,7 +1230,7 @@
      },
      "itemId": 3371,
      "name": "Empty Vial",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:3372": {
@@ -1094,7 +1239,7 @@
      },
      "itemId": 3372,
      "name": "Leaded Vial",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:3466": {
@@ -1103,7 +1248,7 @@
      },
      "itemId": 3466,
      "name": "Strong Flux",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3682": {
@@ -1112,7 +1257,7 @@
      },
      "itemId": 3682,
      "name": "Recipe: Curiously Tasty Omelet",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3713": {
@@ -1121,7 +1266,7 @@
      },
      "itemId": 3713,
      "name": "Soothing Spices",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3857": {
@@ -1130,7 +1275,7 @@
      },
      "itemId": 3857,
      "name": "Coal",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4289": {
@@ -1139,7 +1284,7 @@
      },
      "itemId": 4289,
      "name": "Salt",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4291": {
@@ -1148,7 +1293,7 @@
      },
      "itemId": 4291,
      "name": "Silken Thread",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4340": {
@@ -1157,7 +1302,7 @@
      },
      "itemId": 4340,
      "name": "Gray Dye",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4341": {
@@ -1166,7 +1311,7 @@
      },
      "itemId": 4341,
      "name": "Yellow Dye",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4342": {
@@ -1175,7 +1320,7 @@
      },
      "itemId": 4342,
      "name": "Purple Dye",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4399": {
@@ -1184,7 +1329,7 @@
      },
      "itemId": 4399,
      "name": "Wooden Stock",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4400": {
@@ -1193,7 +1338,7 @@
      },
      "itemId": 4400,
      "name": "Heavy Stock",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:6217": {
@@ -1202,7 +1347,7 @@
      },
      "itemId": 6217,
      "name": "Copper Rod",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:6256": {
@@ -1211,7 +1356,7 @@
      },
      "itemId": 6256,
      "name": "Fishing Pole",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:6530": {
@@ -1220,7 +1365,7 @@
      },
      "itemId": 6530,
      "name": "Nightcrawlers",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:6532": {
@@ -1229,7 +1374,7 @@
      },
      "itemId": 6532,
      "name": "Bright Baubles",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:7005": {
@@ -1238,7 +1383,7 @@
      },
      "itemId": 7005,
      "name": "Skinning Knife",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:8343": {
@@ -1247,7 +1392,7 @@
      },
      "itemId": 8343,
      "name": "Heavy Silken Thread",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:8925": {
@@ -1256,25 +1401,25 @@
      },
      "itemId": 8925,
      "name": "Crystal Vial",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     }
    },
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-20",
    "name": "Nerrist",
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.3265,
-     "mapY": 0.2919,
+     "mapX": 0.3267,
+     "mapY": 0.2924,
      "uiMap": 1434,
-     "worldX": -12410.5,
-     "worldY": 137.4
+     "worldX": -12412.6,
+     "worldY": 136.2
     }
    ],
    "repairs": false,
-   "sources": 1,
-   "visits": 2
+   "sources": 2,
+   "visits": 6
   },
   "1214": {
    "entries": {
@@ -2588,7 +2733,7 @@
    ],
    "repairs": true,
    "sources": 2,
-   "visits": 62
+   "visits": 94
   },
   "1310": {
    "entries": {
@@ -2852,6 +2997,223 @@
    "repairs": false,
    "sources": 1,
    "visits": 2
+  },
+  "1407": {
+   "entries": {
+    "item:2429": {
+     "costs": {
+      "6": 9125
+     },
+     "itemId": 2429,
+     "name": "Russet Vest",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2431": {
+     "costs": {
+      "6": 9194
+     },
+     "itemId": 2431,
+     "name": "Russet Pants",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2432": {
+     "costs": {
+      "6": 6921
+     },
+     "itemId": 2432,
+     "name": "Russet Boots",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2434": {
+     "costs": {
+      "6": 4649
+     },
+     "itemId": 2434,
+     "name": "Russet Gloves",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2463": {
+     "costs": {
+      "6": 12326
+     },
+     "itemId": 2463,
+     "name": "Studded Doublet",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2464": {
+     "costs": {
+      "6": 6184
+     },
+     "itemId": 2464,
+     "name": "Studded Belt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2465": {
+     "costs": {
+      "6": 11230
+     },
+     "itemId": 2465,
+     "name": "Studded Pants",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2467": {
+     "costs": {
+      "6": 8487
+     },
+     "itemId": 2467,
+     "name": "Studded Boots",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2468": {
+     "costs": {
+      "6": 5679
+     },
+     "itemId": 2468,
+     "name": "Studded Bracers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2469": {
+     "costs": {
+      "6": 5701
+     },
+     "itemId": 2469,
+     "name": "Studded Gloves",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2528": {
+     "costs": {
+      "6": 46653
+     },
+     "itemId": 2528,
+     "name": "Falchion",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2529": {
+     "costs": {
+      "6": 58528
+     },
+     "itemId": 2529,
+     "name": "Zweihander",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2530": {
+     "costs": {
+      "6": 46998
+     },
+     "itemId": 2530,
+     "name": "Francisca",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2531": {
+     "costs": {
+      "6": 50553
+     },
+     "itemId": 2531,
+     "name": "Great Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2532": {
+     "costs": {
+      "6": 47348
+     },
+     "itemId": 2532,
+     "name": "Morning Star",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2533": {
+     "costs": {
+      "6": 54997
+     },
+     "itemId": 2533,
+     "name": "War Maul",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2534": {
+     "costs": {
+      "6": 40888
+     },
+     "itemId": 2534,
+     "name": "Rondel",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2535": {
+     "costs": {
+      "6": 55401
+     },
+     "itemId": 2535,
+     "name": "War Staff",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3593": {
+     "costs": {
+      "6": 4930
+     },
+     "itemId": 3593,
+     "name": "Russet Belt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3594": {
+     "costs": {
+      "6": 4948
+     },
+     "itemId": 3594,
+     "name": "Russet Bracers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3889": {
+     "costs": {
+      "6": 7130
+     },
+     "itemId": 3889,
+     "name": "Russet Hat",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3890": {
+     "costs": {
+      "6": 9181
+     },
+     "itemId": 3890,
+     "name": "Studded Hat",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Sranda",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.0306,
+     "mapY": 0.4744,
+     "uiMap": 1418,
+     "worldX": -6676.3,
+     "worldY": -2155.3
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 3
   },
   "1448": {
    "entries": {
@@ -5172,7 +5534,7 @@
      },
      "itemId": 12164,
      "name": "Plans: Massive Iron Axe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2522": {
@@ -5181,7 +5543,7 @@
      },
      "itemId": 2522,
      "name": "Crescent Axe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2523": {
@@ -5190,7 +5552,7 @@
      },
      "itemId": 2523,
      "name": "Bullova",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2530": {
@@ -5199,7 +5561,7 @@
      },
      "itemId": 2530,
      "name": "Francisca",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2531": {
@@ -5208,7 +5570,7 @@
      },
      "itemId": 2531,
      "name": "Great Axe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     }
    },
@@ -5218,10 +5580,10 @@
     {
      "instance": 0,
      "mapX": 0.3573,
-     "mapY": 0.1073,
+     "mapY": 0.1074,
      "uiMap": 1434,
-     "worldX": -11625.3,
-     "worldY": -59.1
+     "worldX": -11625.5,
+     "worldY": -59.3
     },
     {
      "instance": 0,
@@ -5241,8 +5603,92 @@
     }
    ],
    "repairs": true,
+   "sources": 2,
+   "visits": 6
+  },
+  "2626": {
+   "entries": {
+    "item:16083": {
+     "costs": {
+      "4": 10000
+     },
+     "itemId": 16083,
+     "name": "Expert Fishing - The Bass and You",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:273636": {
+     "costs": {
+      "4": 300
+     },
+     "itemId": 273636,
+     "name": "Chef's Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6256": {
+     "costs": {
+      "4": 23
+     },
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6529": {
+     "costs": {
+      "4": 50
+     },
+     "itemId": 6529,
+     "name": "Shiny Bauble",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6530": {
+     "costs": {
+      "4": 100
+     },
+     "itemId": 6530,
+     "name": "Nightcrawlers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6532": {
+     "costs": {
+      "4": 250
+     },
+     "itemId": 6532,
+     "name": "Bright Baubles",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6533": {
+     "costs": {
+      "4": 250
+     },
+     "itemId": 6533,
+     "limited": true,
+     "name": "Aquadynamic Fish Attractor",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 2
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Old Man Heming",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2745,
+     "mapY": 0.7711,
+     "uiMap": 1434,
+     "worldX": -14449,
+     "worldY": 468.9
+    }
+   ],
+   "repairs": false,
    "sources": 1,
-   "visits": 4
+   "visits": 1
   },
   "2663": {
    "entries": {
@@ -5824,181 +6270,331 @@
    "sources": 1,
    "visits": 1
   },
+  "2685": {
+   "entries": {
+    "item:10647": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 10647,
+     "name": "Engineer's Ink",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:10648": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 10648,
+     "name": "Blank Parchment",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:13310": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 13310,
+     "name": "Schematic: Accurate Scope",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:18651": {
+     "costs": {
+      "5": 12000
+     },
+     "itemId": 18651,
+     "name": "Schematic: Truesilver Transformer",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2880": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 2880,
+     "name": "Weak Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2901": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2901,
+     "name": "Mining Pick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3466": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 3466,
+     "name": "Strong Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4357": {
+     "costs": {
+      "5": 16
+     },
+     "itemId": 4357,
+     "limited": true,
+     "name": "Rough Blasting Powder",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 4
+    },
+    "item:4364": {
+     "costs": {
+      "5": 48
+     },
+     "itemId": 4364,
+     "limited": true,
+     "name": "Coarse Blasting Powder",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 4
+    },
+    "item:4399": {
+     "costs": {
+      "5": 200
+     },
+     "itemId": 4399,
+     "name": "Wooden Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4400": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 4400,
+     "name": "Heavy Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:5956": {
+     "costs": {
+      "5": 18
+     },
+     "itemId": 5956,
+     "name": "Blacksmith Hammer",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Mazk Snipeshot",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2843,
+     "mapY": 0.7512,
+     "uiMap": 1434,
+     "worldX": -14364.4,
+     "worldY": 406.7
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
   "2832": {
    "entries": {
     "item:1179": {
      "costs": {
-      "4": 125
+      "4": 125,
+      "5": 125
      },
      "itemId": 1179,
      "name": "Ice Cold Milk",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:1205": {
      "costs": {
-      "4": 500
+      "4": 500,
+      "5": 500
      },
      "itemId": 1205,
      "name": "Melon Juice",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:159": {
      "costs": {
-      "4": 25
+      "4": 25,
+      "5": 25
      },
      "itemId": 159,
      "name": "Refreshing Spring Water",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:1645": {
      "costs": {
-      "4": 2000
+      "4": 2000,
+      "5": 2000
      },
      "itemId": 1645,
      "name": "Moonberry Juice",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:1708": {
      "costs": {
-      "4": 1000
+      "4": 1000,
+      "5": 1000
      },
      "itemId": 1708,
      "name": "Sweet Nectar",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:2593": {
      "costs": {
-      "4": 150
+      "4": 150,
+      "5": 150
      },
      "itemId": 2593,
      "name": "Flask of Stormwind Tawny",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2594": {
      "costs": {
-      "4": 1500
+      "4": 1500,
+      "5": 1500
      },
      "itemId": 2594,
      "name": "Flagon of Dwarven Honeymead",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2595": {
      "costs": {
-      "4": 2000
+      "4": 2000,
+      "5": 2000
      },
      "itemId": 2595,
      "name": "Jug of Badlands Bourbon",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2596": {
      "costs": {
-      "4": 120
+      "4": 120,
+      "5": 120
      },
      "itemId": 2596,
      "name": "Skin of Dwarven Stout",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2723": {
      "costs": {
-      "4": 50
+      "4": 50,
+      "5": 50
      },
      "itemId": 2723,
      "name": "Bottle of Dalaran Noir",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4540": {
      "costs": {
-      "4": 25
+      "4": 25,
+      "5": 25
      },
      "itemId": 4540,
      "name": "Tough Hunk of Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4541": {
      "costs": {
-      "4": 125
+      "4": 125,
+      "5": 125
      },
      "itemId": 4541,
      "name": "Freshly Baked Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4542": {
      "costs": {
-      "4": 500
+      "4": 500,
+      "5": 500
      },
      "itemId": 4542,
      "name": "Moist Cornbread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4544": {
      "costs": {
-      "4": 1000
+      "4": 1000,
+      "5": 1000
      },
      "itemId": 4544,
      "name": "Mulgore Spice Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4595": {
      "costs": {
-      "4": 300
+      "4": 300,
+      "5": 300
      },
      "itemId": 4595,
      "name": "Junglevine Wine",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4600": {
      "costs": {
-      "4": 340
+      "4": 340,
+      "5": 340
      },
      "itemId": 4600,
      "name": "Cherry Grog",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4601": {
      "costs": {
-      "4": 2000
+      "4": 2000,
+      "5": 2000
      },
      "itemId": 4601,
      "name": "Soft Banana Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:8766": {
      "costs": {
-      "4": 4000
+      "4": 4000,
+      "5": 4000
      },
      "itemId": 8766,
      "name": "Morning Glory Dew",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:8950": {
      "costs": {
-      "4": 4000
+      "4": 4000,
+      "5": 4000
      },
      "itemId": 8950,
      "name": "Homemade Cherry Pie",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     }
    },
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-20",
    "name": "Nixxrax Fillamug",
    "positions": [
     {
@@ -6011,8 +6607,8 @@
     }
    ],
    "repairs": false,
-   "sources": 1,
-   "visits": 1
+   "sources": 2,
+   "visits": 2
   },
   "2839": {
    "entries": {
@@ -6354,60 +6950,66 @@
    "entries": {
     "item:4540": {
      "costs": {
+      "5": 25,
       "6": 23
      },
      "itemId": 4540,
      "name": "Tough Hunk of Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4541": {
      "costs": {
+      "5": 125,
       "6": 113
      },
      "itemId": 4541,
      "name": "Freshly Baked Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4542": {
      "costs": {
+      "5": 500,
       "6": 450
      },
      "itemId": 4542,
      "name": "Moist Cornbread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4544": {
      "costs": {
+      "5": 1000,
       "6": 900
      },
      "itemId": 4544,
      "name": "Mulgore Spice Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4601": {
      "costs": {
+      "5": 2000,
       "6": 1800
      },
      "itemId": 4601,
      "name": "Soft Banana Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:8950": {
      "costs": {
+      "5": 4000,
       "6": 3600
      },
      "itemId": 8950,
      "name": "Homemade Cherry Pie",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     }
    },
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-20",
    "name": "Fyr Mistrunner",
    "positions": [
     {
@@ -6417,11 +7019,19 @@
      "uiMap": 1456,
      "worldX": -1225.5,
      "worldY": 86.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.4167,
+     "mapY": 0.5352,
+     "uiMap": 1456,
+     "worldX": -1222.4,
+     "worldY": 81.7
     }
    ],
    "repairs": false,
-   "sources": 1,
-   "visits": 3
+   "sources": 2,
+   "visits": 6
   },
   "3010": {
    "entries": {
@@ -6478,100 +7088,1172 @@
    "sources": 1,
    "visits": 1
   },
+  "3015": {
+   "entries": {
+    "item:11285": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 11285,
+     "name": "Jagged Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:11303": {
+     "costs": {
+      "5": 3184
+     },
+     "itemId": 11303,
+     "limited": true,
+     "name": "Fine Shortbow",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 1
+    },
+    "item:11362": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 11362,
+     "name": "Medium Quiver",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2512": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2512,
+     "name": "Rough Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2515": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 2515,
+     "name": "Sharp Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:287063": {
+     "costs": {
+      "5": 3612
+     },
+     "itemId": 287063,
+     "limited": true,
+     "name": "Serrated Knife",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 1
+    },
+    "item:3026": {
+     "costs": {
+      "5": 3812
+     },
+     "itemId": 3026,
+     "name": "Reinforced Bow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3027": {
+     "costs": {
+      "5": 6349
+     },
+     "itemId": 3027,
+     "name": "Heavy Recurve Bow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3030": {
+     "costs": {
+      "5": 300
+     },
+     "itemId": 3030,
+     "name": "Razor Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:5439": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 5439,
+     "name": "Small Quiver",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Kuna Thunderhorn",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4711,
+     "mapY": 0.4625,
+     "uiMap": 1456,
+     "worldX": -1171.9,
+     "worldY": 24.9
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
+  },
+  "3029": {
+   "entries": {
+    "item:273636": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 273636,
+     "name": "Chef's Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6256": {
+     "costs": {
+      "6": 21
+     },
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6325": {
+     "costs": {
+      "6": 36
+     },
+     "itemId": 6325,
+     "name": "Recipe: Brilliant Smallfish",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6330": {
+     "costs": {
+      "6": 1080
+     },
+     "itemId": 6330,
+     "name": "Recipe: Bristle Whisker Catfish",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6529": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 6529,
+     "name": "Shiny Bauble",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6530": {
+     "costs": {
+      "6": 90
+     },
+     "itemId": 6530,
+     "name": "Nightcrawlers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6532": {
+     "costs": {
+      "6": 225
+     },
+     "itemId": 6532,
+     "name": "Bright Baubles",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-18",
+   "name": "Sewa Mistrunner",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5579,
+     "mapY": 0.4747,
+     "uiMap": 1456,
+     "worldX": -1180.3,
+     "worldY": -65.7
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "3158": {
+   "entries": {
+    "item:159": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2512": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2512,
+     "name": "Rough Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2516": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2516,
+     "name": "Light Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:277113": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 277113,
+     "name": "Apprentice's Herb Pouch",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277114": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 277114,
+     "name": "Apprentice's Skinning Satchel",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277115": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 277115,
+     "name": "Apprentice's Mining Pack",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2901": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2901,
+     "name": "Mining Pick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2947": {
+     "costs": {
+      "5": 42
+     },
+     "itemId": 2947,
+     "name": "Small Throwing Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3111": {
+     "costs": {
+      "5": 42
+     },
+     "itemId": 3111,
+     "name": "Crude Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4540": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 4540,
+     "name": "Tough Hunk of Bread",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:7005": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 7005,
+     "name": "Skinning Knife",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-18",
+   "name": "Duokna",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4261,
+     "mapY": 0.6746,
+     "uiMap": 1411,
+     "worldX": -569.6,
+     "worldY": -4215.4
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 8
+  },
+  "3167": {
+   "entries": {
+    "item:17185": {
+     "costs": {
+      "5": 243
+     },
+     "itemId": 17185,
+     "name": "Round Buckler",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2376": {
+     "costs": {
+      "5": 447
+     },
+     "itemId": 2376,
+     "name": "Worn Heater Shield",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2398": {
+     "costs": {
+      "5": 434
+     },
+     "itemId": 2398,
+     "name": "Light Chain Armor",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2399": {
+     "costs": {
+      "5": 217
+     },
+     "itemId": 2399,
+     "name": "Light Chain Belt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2400": {
+     "costs": {
+      "5": 437
+     },
+     "itemId": 2400,
+     "name": "Light Chain Leggings",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2401": {
+     "costs": {
+      "5": 330
+     },
+     "itemId": 2401,
+     "name": "Light Chain Boots",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2402": {
+     "costs": {
+      "5": 219
+     },
+     "itemId": 2402,
+     "name": "Light Chain Bracers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2403": {
+     "costs": {
+      "5": 220
+     },
+     "itemId": 2403,
+     "name": "Light Chain Gloves",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2880": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 2880,
+     "name": "Weak Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2901": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2901,
+     "name": "Mining Pick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3466": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 3466,
+     "name": "Strong Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3857": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 3857,
+     "name": "Coal",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-18",
+   "name": "Wuark",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5199,
+     "mapY": 0.4118,
+     "uiMap": 1411,
+     "worldX": 356.9,
+     "worldY": -4711.2
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
+  },
+  "3313": {
+   "entries": {
+    "item:11284": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 11284,
+     "name": "Accurate Slugs",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:11285": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 11285,
+     "name": "Jagged Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:11291": {
+     "costs": {
+      "6": 4050
+     },
+     "itemId": 11291,
+     "name": "Star Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1179": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 1179,
+     "name": "Ice Cold Milk",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1205": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:15326": {
+     "costs": {
+      "6": 22330
+     },
+     "itemId": 15326,
+     "name": "Gleaming Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:15327": {
+     "costs": {
+      "6": 22330
+     },
+     "itemId": 15327,
+     "name": "Wicked Throwing Dagger",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:159": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2512": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 2512,
+     "name": "Rough Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2515": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2515,
+     "name": "Sharp Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2516": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 2516,
+     "name": "Light Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2519": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2519,
+     "name": "Heavy Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:277113": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 277113,
+     "name": "Apprentice's Herb Pouch",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277114": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 277114,
+     "name": "Apprentice's Skinning Satchel",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277115": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 277115,
+     "name": "Apprentice's Mining Pack",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2901": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 2901,
+     "name": "Mining Pick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2946": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 2946,
+     "name": "Balanced Throwing Dagger",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2947": {
+     "costs": {
+      "6": 38
+     },
+     "itemId": 2947,
+     "name": "Small Throwing Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3030": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 3030,
+     "name": "Razor Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3033": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 3033,
+     "name": "Solid Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3107": {
+     "costs": {
+      "6": 1647
+     },
+     "itemId": 3107,
+     "name": "Keen Throwing Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3108": {
+     "costs": {
+      "6": 6834
+     },
+     "itemId": 3108,
+     "name": "Heavy Throwing Dagger",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3111": {
+     "costs": {
+      "6": 38
+     },
+     "itemId": 3111,
+     "name": "Crude Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3131": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 3131,
+     "name": "Weighted Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3135": {
+     "costs": {
+      "6": 1647
+     },
+     "itemId": 3135,
+     "name": "Sharp Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3137": {
+     "costs": {
+      "6": 6834
+     },
+     "itemId": 3137,
+     "name": "Deadly Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4470": {
+     "costs": {
+      "6": 35
+     },
+     "itemId": 4470,
+     "name": "Simple Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4471": {
+     "costs": {
+      "6": 122
+     },
+     "itemId": 4471,
+     "name": "Flint and Tinder",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4496": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 4496,
+     "name": "Small Brown Pouch",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4497": {
+     "costs": {
+      "6": 18000
+     },
+     "itemId": 4497,
+     "name": "Heavy Brown Bag",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4498": {
+     "costs": {
+      "6": 2250
+     },
+     "itemId": 4498,
+     "name": "Brown Leather Satchel",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4540": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 4540,
+     "name": "Tough Hunk of Bread",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:5042": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 5042,
+     "name": "Red Ribboned Wrapping Paper",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:5048": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 5048,
+     "name": "Blue Ribboned Wrapping Paper",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:7005": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 7005,
+     "name": "Skinning Knife",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-18",
+   "name": "Trak'gen",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4814,
+     "mapY": 0.8024,
+     "uiMap": 1454,
+     "worldX": 1523.3,
+     "worldY": -4355.8
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 2
+  },
+  "3319": {
+   "entries": {
+    "item:1202": {
+     "costs": {
+      "6": 1656
+     },
+     "itemId": 1202,
+     "name": "Wall Shield",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17185": {
+     "costs": {
+      "6": 219
+     },
+     "itemId": 17185,
+     "name": "Round Buckler",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17187": {
+     "costs": {
+      "6": 971
+     },
+     "itemId": 17187,
+     "name": "Banded Buckler",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17188": {
+     "costs": {
+      "6": 2039
+     },
+     "itemId": 17188,
+     "name": "Ringed Buckler",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1845": {
+     "costs": {
+      "6": 790
+     },
+     "itemId": 1845,
+     "name": "Chainmail Belt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1846": {
+     "costs": {
+      "6": 792
+     },
+     "itemId": 1846,
+     "name": "Chainmail Bracers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1852": {
+     "costs": {
+      "6": 1516
+     },
+     "itemId": 1852,
+     "name": "Scalemail Bracers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1853": {
+     "costs": {
+      "6": 1521
+     },
+     "itemId": 1853,
+     "name": "Scalemail Belt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2376": {
+     "costs": {
+      "6": 403
+     },
+     "itemId": 2376,
+     "name": "Worn Heater Shield",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2398": {
+     "costs": {
+      "6": 391
+     },
+     "itemId": 2398,
+     "name": "Light Chain Armor",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2399": {
+     "costs": {
+      "6": 196
+     },
+     "itemId": 2399,
+     "name": "Light Chain Belt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2400": {
+     "costs": {
+      "6": 394
+     },
+     "itemId": 2400,
+     "name": "Light Chain Leggings",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2401": {
+     "costs": {
+      "6": 297
+     },
+     "itemId": 2401,
+     "name": "Light Chain Boots",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2402": {
+     "costs": {
+      "6": 198
+     },
+     "itemId": 2402,
+     "name": "Light Chain Bracers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2403": {
+     "costs": {
+      "6": 198
+     },
+     "itemId": 2403,
+     "name": "Light Chain Gloves",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2445": {
+     "costs": {
+      "6": 3090
+     },
+     "itemId": 2445,
+     "name": "Large Metal Shield",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:285": {
+     "costs": {
+      "6": 3200
+     },
+     "itemId": 285,
+     "name": "Scalemail Vest",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:286": {
+     "costs": {
+      "6": 2907
+     },
+     "itemId": 286,
+     "name": "Scalemail Pants",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:287": {
+     "costs": {
+      "6": 2197
+     },
+     "itemId": 287,
+     "name": "Scalemail Boots",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:718": {
+     "costs": {
+      "6": 1453
+     },
+     "itemId": 718,
+     "name": "Scalemail Gloves",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:847": {
+     "costs": {
+      "6": 1575
+     },
+     "itemId": 847,
+     "name": "Chainmail Armor",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:848": {
+     "costs": {
+      "6": 1580
+     },
+     "itemId": 848,
+     "name": "Chainmail Pants",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:849": {
+     "costs": {
+      "6": 1194
+     },
+     "itemId": 849,
+     "name": "Chainmail Boots",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:850": {
+     "costs": {
+      "6": 795
+     },
+     "itemId": 850,
+     "name": "Chainmail Gloves",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Sana",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.558,
+     "mapY": 0.7305,
+     "uiMap": 1454,
+     "worldX": 1590.6,
+     "worldY": -4463.3
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
+  },
   "3322": {
    "entries": {
     "item:11284": {
+     "bartered": {
+      "2": {
+       "6": 810
+      }
+     },
      "costs": {
       "5": 1000,
       "6": 900
      },
      "itemId": 11284,
      "name": "Accurate Slugs",
-     "sources": 3,
+     "sources": 4,
      "stack": 200
     },
     "item:2509": {
+     "bartered": {
+      "2": {
+       "6": 336
+      }
+     },
      "costs": {
       "5": 414,
       "6": 373
      },
      "itemId": 2509,
      "name": "Ornate Blunderbuss",
-     "sources": 3,
+     "sources": 4,
      "stack": 1
     },
     "item:2511": {
+     "bartered": {
+      "2": {
+       "6": 1073
+      }
+     },
      "costs": {
       "5": 1324,
       "6": 1192
      },
      "itemId": 2511,
      "name": "Hunter's Boomstick",
-     "sources": 3,
+     "sources": 4,
      "stack": 1
     },
     "item:2516": {
+     "bartered": {
+      "2": {
+       "6": 9
+      }
+     },
      "costs": {
       "5": 10,
       "6": 9
      },
      "itemId": 2516,
      "name": "Light Shot",
-     "sources": 3,
+     "sources": 4,
      "stack": 200
     },
     "item:2519": {
+     "bartered": {
+      "2": {
+       "6": 41
+      }
+     },
      "costs": {
       "5": 50,
       "6": 45
      },
      "itemId": 2519,
      "name": "Heavy Shot",
-     "sources": 3,
+     "sources": 4,
      "stack": 200
     },
     "item:3023": {
+     "bartered": {
+      "2": {
+       "6": 3055
+      }
+     },
      "costs": {
       "5": 3771,
       "6": 3394
      },
      "itemId": 3023,
      "name": "Large Bore Blunderbuss",
-     "sources": 3,
+     "sources": 4,
      "stack": 1
     },
     "item:3024": {
+     "bartered": {
+      "2": {
+       "6": 5750
+      }
+     },
      "costs": {
       "5": 7098,
       "6": 6389
      },
      "itemId": 3024,
      "name": "BKP 2700 \"Enforcer\"",
-     "sources": 3,
+     "sources": 4,
      "stack": 1
     },
     "item:3033": {
+     "bartered": {
+      "2": {
+       "6": 243
+      }
+     },
      "costs": {
       "5": 300,
       "6": 270
      },
      "itemId": 3033,
      "name": "Solid Shot",
-     "sources": 3,
+     "sources": 4,
      "stack": 200
     },
     "item:5441": {
+     "bartered": {
+      "2": {
+       "6": 81
+      }
+     },
      "costs": {
       "5": 100,
       "6": 90
      },
      "itemId": 5441,
      "name": "Small Shot Pouch",
-     "sources": 3,
+     "sources": 4,
      "stack": 1
     }
    },
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-21",
    "name": "Kaja",
    "positions": [
     {
@@ -6592,59 +8274,325 @@
     }
    ],
    "repairs": true,
-   "sources": 3,
-   "visits": 44
+   "sources": 4,
+   "visits": 91
   },
-  "3400": {
+  "3323": {
    "entries": {
-    "item:10284": {
+    "item:16583": {
      "costs": {
-      "5": 200
+      "6": 9000
      },
-     "itemId": 10284,
-     "name": "Simple Flour",
+     "itemId": 16583,
+     "name": "Demonic Figurine",
      "sources": 1,
      "stack": 1
     },
-    "item:11291": {
+    "item:17020": {
      "costs": {
-      "5": 4500
+      "6": 900
      },
-     "itemId": 11291,
-     "name": "Star Wood",
+     "itemId": 17020,
+     "name": "Arcane Powder",
      "sources": 1,
      "stack": 1
     },
-    "item:159": {
+    "item:17021": {
      "costs": {
-      "5": 25
+      "6": 630
      },
-     "itemId": 159,
-     "name": "Refreshing Spring Water",
+     "itemId": 17021,
+     "name": "Wild Berries",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17026": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 17026,
+     "name": "Wild Thornroot",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17028": {
+     "costs": {
+      "6": 630
+     },
+     "itemId": 17028,
+     "name": "Holy Candle",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17029": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 17029,
+     "name": "Sacred Candle",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17030": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 17030,
+     "name": "Ankh",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17031": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 17031,
+     "name": "Rune of Teleportation",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17032": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 17032,
+     "name": "Rune of Portals",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17033": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 17033,
+     "name": "Symbol of Divinity",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17034": {
+     "costs": {
+      "6": 180
+     },
+     "itemId": 17034,
+     "name": "Maple Seed",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17035": {
+     "costs": {
+      "6": 360
+     },
+     "itemId": 17035,
+     "name": "Stranglethorn Seed",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17036": {
+     "costs": {
+      "6": 720
+     },
+     "itemId": 17036,
+     "name": "Ashwood Seed",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17037": {
+     "costs": {
+      "6": 1260
+     },
+     "itemId": 17037,
+     "name": "Hornbeam Seed",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17038": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 17038,
+     "name": "Ironwood Seed",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:21177": {
+     "costs": {
+      "6": 2700
+     },
+     "itemId": 21177,
+     "name": "Symbol of Kings",
+     "sources": 1,
+     "stack": 20
+    },
+    "item:5565": {
+     "costs": {
+      "6": 4500
+     },
+     "itemId": 5565,
+     "name": "Infernal Stone",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-18",
+   "name": "Horthus",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4555,
+     "mapY": 0.5693,
+     "uiMap": 1454,
+     "worldX": 1741.3,
+     "worldY": -4319.5
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 3
+  },
+  "3348": {
+   "entries": {
+    "item:13478": {
+     "bartered": {
+      "2": {
+       "6": 10530
+      }
+     },
+     "itemId": 13478,
+     "name": "Recipe: Elixir of Superior Defense",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:18256": {
+     "bartered": {
+      "2": {
+       "6": 24300
+      }
+     },
+     "itemId": 18256,
+     "name": "Imbued Vial",
      "sources": 1,
      "stack": 5
     },
-    "item:21099": {
-     "costs": {
-      "5": 500
+    "item:3371": {
+     "bartered": {
+      "2": {
+       "6": 17
+      }
      },
-     "itemId": 21099,
-     "name": "Recipe: Smoked Sagefish",
+     "itemId": 3371,
+     "name": "Empty Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3372": {
+     "bartered": {
+      "2": {
+       "6": 162
+      }
+     },
+     "itemId": 3372,
+     "name": "Leaded Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:5642": {
+     "bartered": {
+      "2": {
+       "6": 1458
+      }
+     },
+     "itemId": 5642,
+     "name": "Recipe: Free Action Potion",
      "sources": 1,
      "stack": 1
     },
-    "item:21219": {
-     "costs": {
-      "5": 5000
+    "item:8925": {
+     "bartered": {
+      "2": {
+       "6": 2025
+      }
      },
-     "itemId": 21219,
-     "name": "Recipe: Sagefish Delight",
+     "itemId": 8925,
+     "name": "Crystal Vial",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Kor'geld",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5632,
+     "mapY": 0.3443,
+     "uiMap": 1454,
+     "worldX": 1951.8,
+     "worldY": -4470.6
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 3
+  },
+  "3367": {
+   "entries": {
+    "item:2320": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 2320,
+     "name": "Coarse Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2321": {
+     "costs": {
+      "6": 90
+     },
+     "itemId": 2321,
+     "name": "Fine Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2324": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 2324,
+     "name": "Bleach",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2325": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 2325,
+     "name": "Black Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2604": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2604,
+     "name": "Red Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2605": {
+     "costs": {
+      "6": 90
+     },
+     "itemId": 2605,
+     "name": "Green Dye",
      "sources": 1,
      "stack": 1
     },
     "item:2678": {
      "costs": {
-      "5": 10
+      "6": 9
      },
      "itemId": 2678,
      "name": "Mild Spices",
@@ -6653,74 +8601,468 @@
     },
     "item:2692": {
      "costs": {
-      "5": 40
+      "6": 36
      },
      "itemId": 2692,
      "name": "Hot Spices",
      "sources": 1,
      "stack": 1
     },
-    "item:272941": {
+    "item:277113": {
      "costs": {
-      "5": 200000
+      "6": 23
      },
-     "itemId": 272941,
-     "name": "Thick Logs",
+     "itemId": 277113,
+     "name": "Apprentice's Herb Pouch",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277114": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 277114,
+     "name": "Apprentice's Skinning Satchel",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277115": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 277115,
+     "name": "Apprentice's Mining Pack",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2880": {
+     "costs": {
+      "6": 90
+     },
+     "itemId": 2880,
+     "name": "Weak Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2901": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 2901,
+     "name": "Mining Pick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2928": {
+     "costs": {
+      "6": 18
+     },
+     "itemId": 2928,
+     "name": "Dust of Decay",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3371": {
+     "costs": {
+      "6": 18
+     },
+     "itemId": 3371,
+     "name": "Empty Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3372": {
+     "costs": {
+      "6": 180
+     },
+     "itemId": 3372,
+     "name": "Leaded Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3466": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 3466,
+     "name": "Strong Flux",
      "sources": 1,
      "stack": 1
     },
     "item:3713": {
      "costs": {
-      "5": 160
+      "6": 144
      },
      "itemId": 3713,
      "name": "Soothing Spices",
      "sources": 1,
      "stack": 1
     },
-    "item:4470": {
+    "item:3857": {
      "costs": {
-      "5": 38
+      "6": 450
      },
-     "itemId": 4470,
-     "name": "Simple Wood",
+     "itemId": 3857,
+     "name": "Coal",
      "sources": 1,
      "stack": 1
     },
-    "item:4471": {
+    "item:4289": {
      "costs": {
-      "5": 135
+      "6": 45
      },
-     "itemId": 4471,
-     "name": "Flint and Tinder",
+     "itemId": 4289,
+     "name": "Salt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4291": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 4291,
+     "name": "Silken Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4340": {
+     "costs": {
+      "6": 315
+     },
+     "itemId": 4340,
+     "name": "Gray Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4341": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 4341,
+     "name": "Yellow Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4342": {
+     "costs": {
+      "6": 2250
+     },
+     "itemId": 4342,
+     "name": "Purple Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4399": {
+     "costs": {
+      "6": 180
+     },
+     "itemId": 4399,
+     "name": "Wooden Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4400": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 4400,
+     "name": "Heavy Stock",
      "sources": 1,
      "stack": 1
     },
     "item:4536": {
      "costs": {
-      "5": 25
+      "6": 23
      },
      "itemId": 4536,
      "name": "Shiny Red Apple",
      "sources": 1,
      "stack": 5
+    },
+    "item:5956": {
+     "costs": {
+      "6": 17
+     },
+     "itemId": 5956,
+     "name": "Blacksmith Hammer",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6217": {
+     "costs": {
+      "6": 112
+     },
+     "itemId": 6217,
+     "name": "Copper Rod",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6256": {
+     "costs": {
+      "6": 21
+     },
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6260": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 6260,
+     "name": "Blue Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6529": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 6529,
+     "name": "Shiny Bauble",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6530": {
+     "costs": {
+      "6": 90
+     },
+     "itemId": 6530,
+     "name": "Nightcrawlers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6532": {
+     "costs": {
+      "6": 225
+     },
+     "itemId": 6532,
+     "name": "Bright Baubles",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:7005": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 7005,
+     "name": "Skinning Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8343": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 8343,
+     "name": "Heavy Silken Thread",
+     "sources": 1,
+     "stack": 1
     }
    },
-   "lastSeen": "2026-11-19",
-   "name": "Xen'to",
+   "lastSeen": "2026-11-20",
+   "name": "Felika",
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.5746,
-     "mapY": 0.5333,
+     "mapX": 0.5612,
+     "mapY": 0.5814,
      "uiMap": 1454,
-     "worldX": 1775,
-     "worldY": -4486.6
+     "worldX": 1730,
+     "worldY": -4467.7
     }
    ],
    "repairs": false,
    "sources": 1,
-   "visits": 2
+   "visits": 1
+  },
+  "3400": {
+   "entries": {
+    "item:10284": {
+     "bartered": {
+      "2": {
+       "6": 162
+      }
+     },
+     "costs": {
+      "5": 200
+     },
+     "itemId": 10284,
+     "name": "Simple Flour",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:11291": {
+     "bartered": {
+      "2": {
+       "6": 3645
+      }
+     },
+     "costs": {
+      "5": 4500
+     },
+     "itemId": 11291,
+     "name": "Star Wood",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:159": {
+     "bartered": {
+      "2": {
+       "6": 21
+      }
+     },
+     "costs": {
+      "5": 25
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:21099": {
+     "bartered": {
+      "2": {
+       "6": 405
+      }
+     },
+     "costs": {
+      "5": 500
+     },
+     "itemId": 21099,
+     "name": "Recipe: Smoked Sagefish",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:21219": {
+     "bartered": {
+      "2": {
+       "6": 4050
+      }
+     },
+     "costs": {
+      "5": 5000
+     },
+     "itemId": 21219,
+     "name": "Recipe: Sagefish Delight",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2678": {
+     "bartered": {
+      "2": {
+       "6": 9
+      }
+     },
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2678,
+     "name": "Mild Spices",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:2692": {
+     "bartered": {
+      "2": {
+       "6": 33
+      }
+     },
+     "costs": {
+      "5": 40
+     },
+     "itemId": 2692,
+     "name": "Hot Spices",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:272941": {
+     "bartered": {
+      "2": {
+       "6": 162000
+      }
+     },
+     "costs": {
+      "5": 200000
+     },
+     "itemId": 272941,
+     "name": "Thick Logs",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3713": {
+     "bartered": {
+      "2": {
+       "6": 130
+      }
+     },
+     "costs": {
+      "5": 160
+     },
+     "itemId": 3713,
+     "name": "Soothing Spices",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:4470": {
+     "bartered": {
+      "2": {
+       "6": 31
+      }
+     },
+     "costs": {
+      "5": 38
+     },
+     "itemId": 4470,
+     "name": "Simple Wood",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:4471": {
+     "bartered": {
+      "2": {
+       "6": 110
+      }
+     },
+     "costs": {
+      "5": 135
+     },
+     "itemId": 4471,
+     "name": "Flint and Tinder",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:4536": {
+     "bartered": {
+      "2": {
+       "6": 21
+      }
+     },
+     "costs": {
+      "5": 25
+     },
+     "itemId": 4536,
+     "name": "Shiny Red Apple",
+     "sources": 2,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Xen'to",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5756,
+     "mapY": 0.534,
+     "uiMap": 1454,
+     "worldX": 1774.3,
+     "worldY": -4487.9
+    }
+   ],
+   "repairs": false,
+   "sources": 2,
+   "visits": 6
   },
   "3497": {
    "entries": {
@@ -6987,6 +9329,97 @@
    "sources": 1,
    "visits": 1
   },
+  "3539": {
+   "entries": {
+    "item:2209": {
+     "costs": {
+      "6": 6404
+     },
+     "itemId": 2209,
+     "name": "Kris",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:922": {
+     "costs": {
+      "6": 10835
+     },
+     "itemId": 922,
+     "name": "Dacian Falx",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:923": {
+     "costs": {
+      "6": 7869
+     },
+     "itemId": 923,
+     "name": "Longsword",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:924": {
+     "costs": {
+      "6": 9875
+     },
+     "itemId": 924,
+     "name": "Maul",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:925": {
+     "costs": {
+      "6": 7018
+     },
+     "itemId": 925,
+     "name": "Flail",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:926": {
+     "costs": {
+      "6": 8806
+     },
+     "itemId": 926,
+     "name": "Battle Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:927": {
+     "costs": {
+      "6": 6258
+     },
+     "itemId": 927,
+     "name": "Double Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:928": {
+     "costs": {
+      "6": 8874
+     },
+     "itemId": 928,
+     "name": "Long Staff",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Ott",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6049,
+     "mapY": 0.2639,
+     "uiMap": 1424,
+     "worldX": -163,
+     "worldY": -869
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
+  },
   "3541": {
    "entries": {
     "item:11284": {
@@ -7203,6 +9636,208 @@
    "repairs": false,
    "sources": 1,
    "visits": 1
+  },
+  "3572": {
+   "entries": {
+    "item:273636": {
+     "costs": {
+      "5": 300
+     },
+     "itemId": 273636,
+     "name": "Chef's Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6256": {
+     "costs": {
+      "5": 23
+     },
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6529": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 6529,
+     "name": "Shiny Bauble",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6530": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 6530,
+     "name": "Nightcrawlers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6532": {
+     "costs": {
+      "5": 250
+     },
+     "itemId": 6532,
+     "name": "Bright Baubles",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6533": {
+     "costs": {
+      "5": 250
+     },
+     "itemId": 6533,
+     "limited": true,
+     "name": "Aquadynamic Fish Attractor",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 1
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Zizzek",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6204,
+     "mapY": 0.3912,
+     "uiMap": 1413,
+     "worldX": -1030.9,
+     "worldY": -3663.5
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "3882": {
+   "entries": {
+    "item:117": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 117,
+     "name": "Tough Jerky",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1179": {
+     "costs": {
+      "5": 125
+     },
+     "itemId": 1179,
+     "name": "Ice Cold Milk",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1205": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:159": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2287": {
+     "costs": {
+      "5": 125
+     },
+     "itemId": 2287,
+     "name": "Haunch of Meat",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3770": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 3770,
+     "name": "Mutton Chop",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3771": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 3771,
+     "name": "Wild Hog Shank",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4599": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 4599,
+     "name": "Cured Ham Steak",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8766": {
+     "costs": {
+      "5": 4000
+     },
+     "itemId": 8766,
+     "name": "Morning Glory Dew",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8952": {
+     "costs": {
+      "5": 4000
+     },
+     "itemId": 8952,
+     "name": "Roasted Quail",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-18",
+   "name": "Zlagk",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.427,
+     "mapY": 0.6728,
+     "uiMap": 1411,
+     "worldX": -563.1,
+     "worldY": -4220.1
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 5
   },
   "3954": {
    "entries": {
@@ -7655,6 +10290,357 @@
    "repairs": false,
    "sources": 1,
    "visits": 3
+  },
+  "4553": {
+   "entries": {
+    "item:10284": {
+     "bartered": {
+      "2": {
+       "5": 180
+      }
+     },
+     "costs": {
+      "5": 200
+     },
+     "itemId": 10284,
+     "name": "Simple Flour",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:11291": {
+     "bartered": {
+      "2": {
+       "5": 4050
+      }
+     },
+     "costs": {
+      "5": 4500
+     },
+     "itemId": 11291,
+     "name": "Star Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:159": {
+     "bartered": {
+      "2": {
+       "5": 23
+      }
+     },
+     "costs": {
+      "5": 25
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:21099": {
+     "bartered": {
+      "2": {
+       "5": 450
+      }
+     },
+     "costs": {
+      "5": 500
+     },
+     "itemId": 21099,
+     "name": "Recipe: Smoked Sagefish",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:21219": {
+     "bartered": {
+      "2": {
+       "5": 4500
+      }
+     },
+     "costs": {
+      "5": 5000
+     },
+     "itemId": 21219,
+     "name": "Recipe: Sagefish Delight",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2678": {
+     "bartered": {
+      "2": {
+       "5": 9
+      }
+     },
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2678,
+     "name": "Mild Spices",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2692": {
+     "bartered": {
+      "2": {
+       "5": 36
+      }
+     },
+     "costs": {
+      "5": 40
+     },
+     "itemId": 2692,
+     "name": "Hot Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272941": {
+     "bartered": {
+      "2": {
+       "5": 180000
+      }
+     },
+     "costs": {
+      "5": 200000
+     },
+     "itemId": 272941,
+     "name": "Thick Logs",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3713": {
+     "bartered": {
+      "2": {
+       "5": 144
+      }
+     },
+     "costs": {
+      "5": 160
+     },
+     "itemId": 3713,
+     "name": "Soothing Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4470": {
+     "bartered": {
+      "2": {
+       "5": 35
+      }
+     },
+     "costs": {
+      "5": 38
+     },
+     "itemId": 4470,
+     "name": "Simple Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4471": {
+     "bartered": {
+      "2": {
+       "5": 122
+      }
+     },
+     "costs": {
+      "5": 135
+     },
+     "itemId": 4471,
+     "name": "Flint and Tinder",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4536": {
+     "bartered": {
+      "2": {
+       "5": 23
+      }
+     },
+     "costs": {
+      "5": 25
+     },
+     "itemId": 4536,
+     "name": "Shiny Red Apple",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:6330": {
+     "bartered": {
+      "2": {
+       "5": 1080
+      }
+     },
+     "costs": {
+      "5": 1200
+     },
+     "itemId": 6330,
+     "name": "Recipe: Bristle Whisker Catfish",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6368": {
+     "bartered": {
+      "2": {
+       "5": 360
+      }
+     },
+     "costs": {
+      "5": 400
+     },
+     "itemId": 6368,
+     "name": "Recipe: Rainbow Fin Albacore",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Ronald Burch",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6261,
+     "mapY": 0.435,
+     "uiMap": 1458,
+     "worldX": 1599.5,
+     "worldY": 272.6
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 2
+  },
+  "4554": {
+   "entries": {
+    "item:1179": {
+     "costs": {
+      "5": 125
+     },
+     "itemId": 1179,
+     "name": "Ice Cold Milk",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1205": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:159": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:281246": {
+     "costs": {
+      "5": 150
+     },
+     "itemId": 281246,
+     "name": "Toxic Skullcap",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4604": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 4604,
+     "name": "Forest Mushroom Cap",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4605": {
+     "costs": {
+      "5": 125
+     },
+     "itemId": 4605,
+     "name": "Red-speckled Mushroom",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4606": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 4606,
+     "name": "Spongy Morel",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4607": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 4607,
+     "name": "Delicious Cave Mold",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4608": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 4608,
+     "name": "Raw Black Truffle",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8766": {
+     "costs": {
+      "5": 4000
+     },
+     "itemId": 8766,
+     "name": "Morning Glory Dew",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8948": {
+     "costs": {
+      "5": 4000
+     },
+     "itemId": 8948,
+     "name": "Dried King Bolete",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Tawny Grisette",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6354,
+     "mapY": 0.4831,
+     "uiMap": 1458,
+     "worldX": 1568.7,
+     "worldY": 263.6
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
   },
   "4555": {
    "entries": {
@@ -8280,6 +11266,275 @@
    "sources": 1,
    "visits": 1
   },
+  "4577": {
+   "entries": {
+    "item:10290": {
+     "bartered": {
+      "2": {
+       "5": 2250
+      }
+     },
+     "itemId": 10290,
+     "name": "Pink Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:10321": {
+     "bartered": {
+      "2": {
+       "5": 4050
+      }
+     },
+     "itemId": 10321,
+     "name": "Pattern: Tuxedo Shirt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:10323": {
+     "bartered": {
+      "2": {
+       "5": 4050
+      }
+     },
+     "itemId": 10323,
+     "name": "Pattern: Tuxedo Pants",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:10326": {
+     "bartered": {
+      "2": {
+       "5": 4500
+      }
+     },
+     "itemId": 10326,
+     "name": "Pattern: Tuxedo Jacket",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:14341": {
+     "bartered": {
+      "2": {
+       "5": 4500
+      }
+     },
+     "itemId": 14341,
+     "name": "Rune Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2320": {
+     "bartered": {
+      "2": {
+       "5": 9
+      }
+     },
+     "itemId": 2320,
+     "name": "Coarse Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2321": {
+     "bartered": {
+      "2": {
+       "5": 90
+      }
+     },
+     "itemId": 2321,
+     "name": "Fine Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2324": {
+     "bartered": {
+      "2": {
+       "5": 23
+      }
+     },
+     "itemId": 2324,
+     "name": "Bleach",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2325": {
+     "bartered": {
+      "2": {
+       "5": 900
+      }
+     },
+     "itemId": 2325,
+     "name": "Black Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:253665": {
+     "bartered": {
+      "2": {
+       "5": 135
+      }
+     },
+     "itemId": 253665,
+     "name": "Pattern: Linen Reagent Bag",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:253668": {
+     "bartered": {
+      "2": {
+       "5": 225
+      }
+     },
+     "itemId": 253668,
+     "name": "Pattern: Woolen Reagent Bag",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2604": {
+     "bartered": {
+      "2": {
+       "5": 45
+      }
+     },
+     "itemId": 2604,
+     "name": "Red Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2605": {
+     "bartered": {
+      "2": {
+       "5": 90
+      }
+     },
+     "itemId": 2605,
+     "name": "Green Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4291": {
+     "bartered": {
+      "2": {
+       "5": 450
+      }
+     },
+     "itemId": 4291,
+     "name": "Silken Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4340": {
+     "bartered": {
+      "2": {
+       "5": 315
+      }
+     },
+     "itemId": 4340,
+     "name": "Gray Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4341": {
+     "bartered": {
+      "2": {
+       "5": 450
+      }
+     },
+     "itemId": 4341,
+     "name": "Yellow Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4342": {
+     "bartered": {
+      "2": {
+       "5": 2250
+      }
+     },
+     "itemId": 4342,
+     "name": "Purple Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:5772": {
+     "bartered": {
+      "2": {
+       "5": 450
+      }
+     },
+     "itemId": 5772,
+     "name": "Pattern: Red Woolen Bag",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6260": {
+     "bartered": {
+      "2": {
+       "5": 45
+      }
+     },
+     "itemId": 6260,
+     "name": "Blue Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6261": {
+     "bartered": {
+      "2": {
+       "5": 900
+      }
+     },
+     "itemId": 6261,
+     "name": "Orange Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6275": {
+     "bartered": {
+      "2": {
+       "5": 720
+      }
+     },
+     "itemId": 6275,
+     "name": "Pattern: Greater Adept's Robe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8343": {
+     "bartered": {
+      "2": {
+       "5": 1800
+      }
+     },
+     "itemId": 8343,
+     "name": "Heavy Silken Thread",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Millie Gregorian",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7061,
+     "mapY": 0.3046,
+     "uiMap": 1458,
+     "worldX": 1683,
+     "worldY": 195.8
+    },
+    {
+     "instance": 0,
+     "mapX": 0.7072,
+     "mapY": 0.2969,
+     "uiMap": 1458,
+     "worldX": 1687.9,
+     "worldY": 194.7
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 36
+  },
   "4581": {
    "entries": {
     "item:10647": {
@@ -8355,6 +11610,115 @@
      "uiMap": 1458,
      "worldX": 1631.7,
      "worldY": 132.6
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "4585": {
+   "entries": {
+    "item:2928": {
+     "costs": {
+      "5": 20
+     },
+     "itemId": 2928,
+     "name": "Dust of Decay",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2930": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 2930,
+     "name": "Essence of Pain",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3371": {
+     "costs": {
+      "5": 20
+     },
+     "itemId": 3371,
+     "name": "Empty Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3372": {
+     "costs": {
+      "5": 200
+     },
+     "itemId": 3372,
+     "name": "Leaded Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:5060": {
+     "costs": {
+      "5": 1500
+     },
+     "itemId": 5060,
+     "name": "Thieves' Tools",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:5140": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 5140,
+     "name": "Flash Powder",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:5173": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 5173,
+     "name": "Deathweed",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8923": {
+     "costs": {
+      "5": 200
+     },
+     "itemId": 8923,
+     "name": "Essence of Agony",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8924": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 8924,
+     "name": "Dust of Deterioration",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8925": {
+     "costs": {
+      "5": 2500
+     },
+     "itemId": 8925,
+     "name": "Crystal Vial",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Ezekiel Graves",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7558,
+     "mapY": 0.5161,
+     "uiMap": 1458,
+     "worldX": 1547.6,
+     "worldY": 148.1
     }
    ],
    "repairs": false,
@@ -8474,6 +11838,192 @@
    "sources": 1,
    "visits": 3
   },
+  "4597": {
+   "entries": {
+    "item:18567": {
+     "bartered": {
+      "2": {
+       "5": 135000
+      }
+     },
+     "itemId": 18567,
+     "name": "Elemental Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2880": {
+     "bartered": {
+      "2": {
+       "5": 90
+      }
+     },
+     "itemId": 2880,
+     "name": "Weak Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2901": {
+     "bartered": {
+      "2": {
+       "5": 9
+      }
+     },
+     "itemId": 2901,
+     "name": "Mining Pick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3466": {
+     "bartered": {
+      "2": {
+       "5": 1800
+      }
+     },
+     "itemId": 3466,
+     "name": "Strong Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3857": {
+     "bartered": {
+      "2": {
+       "5": 450
+      }
+     },
+     "itemId": 3857,
+     "name": "Coal",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:5956": {
+     "bartered": {
+      "2": {
+       "5": 17
+      }
+     },
+     "itemId": 5956,
+     "name": "Blacksmith Hammer",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-18",
+   "name": "Samuel Van Brunt",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6135,
+     "mapY": 0.3044,
+     "uiMap": 1458,
+     "worldX": 1683.1,
+     "worldY": 284.6
+    },
+    {
+     "instance": 0,
+     "mapX": 0.6122,
+     "mapY": 0.295,
+     "uiMap": 1458,
+     "worldX": 1689.1,
+     "worldY": 285.9
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 5
+  },
+  "4610": {
+   "entries": {
+    "item:13477": {
+     "bartered": {
+      "2": {
+       "5": 10800
+      }
+     },
+     "itemId": 13477,
+     "name": "Recipe: Superior Mana Potion",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:18256": {
+     "bartered": {
+      "2": {
+       "5": 27000
+      }
+     },
+     "itemId": 18256,
+     "name": "Imbued Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3371": {
+     "bartered": {
+      "2": {
+       "5": 18
+      }
+     },
+     "itemId": 3371,
+     "name": "Empty Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3372": {
+     "bartered": {
+      "2": {
+       "5": 180
+      }
+     },
+     "itemId": 3372,
+     "name": "Leaded Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8925": {
+     "bartered": {
+      "2": {
+       "5": 2250
+      }
+     },
+     "itemId": 8925,
+     "name": "Crystal Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:9301": {
+     "bartered": {
+      "2": {
+       "5": 9000
+      }
+     },
+     "itemId": 9301,
+     "name": "Recipe: Elixir of Shadow Power",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Algernon",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5168,
+     "mapY": 0.7527,
+     "uiMap": 1458,
+     "worldX": 1396.1,
+     "worldY": 377.3
+    },
+    {
+     "instance": 0,
+     "mapX": 0.5198,
+     "mapY": 0.7425,
+     "uiMap": 1458,
+     "worldX": 1402.7,
+     "worldY": 374.5
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 4
+  },
   "4775": {
    "entries": {
     "item:2320": {
@@ -8483,7 +12033,7 @@
      },
      "itemId": 2320,
      "name": "Coarse Thread",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:2321": {
@@ -8493,7 +12043,7 @@
      },
      "itemId": 2321,
      "name": "Fine Thread",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:2324": {
@@ -8503,7 +12053,7 @@
      },
      "itemId": 2324,
      "name": "Bleach",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:2604": {
@@ -8513,7 +12063,7 @@
      },
      "itemId": 2604,
      "name": "Red Dye",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:2605": {
@@ -8523,7 +12073,7 @@
      },
      "itemId": 2605,
      "name": "Green Dye",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:2678": {
@@ -8533,7 +12083,7 @@
      },
      "itemId": 2678,
      "name": "Mild Spices",
-     "sources": 2,
+     "sources": 3,
      "stack": 5
     },
     "item:2692": {
@@ -8543,7 +12093,7 @@
      },
      "itemId": 2692,
      "name": "Hot Spices",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:277113": {
@@ -8553,7 +12103,7 @@
      },
      "itemId": 277113,
      "name": "Apprentice's Herb Pouch",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:277114": {
@@ -8563,7 +12113,7 @@
      },
      "itemId": 277114,
      "name": "Apprentice's Skinning Satchel",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:277115": {
@@ -8573,7 +12123,7 @@
      },
      "itemId": 277115,
      "name": "Apprentice's Mining Pack",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:2880": {
@@ -8583,7 +12133,7 @@
      },
      "itemId": 2880,
      "name": "Weak Flux",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:2901": {
@@ -8593,7 +12143,7 @@
      },
      "itemId": 2901,
      "name": "Mining Pick",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:2928": {
@@ -8603,7 +12153,7 @@
      },
      "itemId": 2928,
      "name": "Dust of Decay",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:3371": {
@@ -8613,7 +12163,7 @@
      },
      "itemId": 3371,
      "name": "Empty Vial",
-     "sources": 2,
+     "sources": 3,
      "stack": 5
     },
     "item:3372": {
@@ -8623,7 +12173,7 @@
      },
      "itemId": 3372,
      "name": "Leaded Vial",
-     "sources": 2,
+     "sources": 3,
      "stack": 5
     },
     "item:3466": {
@@ -8633,7 +12183,7 @@
      },
      "itemId": 3466,
      "name": "Strong Flux",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:3713": {
@@ -8643,7 +12193,7 @@
      },
      "itemId": 3713,
      "name": "Soothing Spices",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:3857": {
@@ -8653,7 +12203,7 @@
      },
      "itemId": 3857,
      "name": "Coal",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:4289": {
@@ -8663,7 +12213,7 @@
      },
      "itemId": 4289,
      "name": "Salt",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:4291": {
@@ -8673,7 +12223,7 @@
      },
      "itemId": 4291,
      "name": "Silken Thread",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:4399": {
@@ -8683,7 +12233,7 @@
      },
      "itemId": 4399,
      "name": "Wooden Stock",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:4400": {
@@ -8693,7 +12243,7 @@
      },
      "itemId": 4400,
      "name": "Heavy Stock",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:4536": {
@@ -8703,7 +12253,7 @@
      },
      "itemId": 4536,
      "name": "Shiny Red Apple",
-     "sources": 2,
+     "sources": 3,
      "stack": 5
     },
     "item:5956": {
@@ -8713,7 +12263,7 @@
      },
      "itemId": 5956,
      "name": "Blacksmith Hammer",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:6217": {
@@ -8723,7 +12273,7 @@
      },
      "itemId": 6217,
      "name": "Copper Rod",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:6256": {
@@ -8733,7 +12283,7 @@
      },
      "itemId": 6256,
      "name": "Fishing Pole",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:6260": {
@@ -8743,7 +12293,7 @@
      },
      "itemId": 6260,
      "name": "Blue Dye",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:6529": {
@@ -8753,7 +12303,7 @@
      },
      "itemId": 6529,
      "name": "Shiny Bauble",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:6530": {
@@ -8763,7 +12313,7 @@
      },
      "itemId": 6530,
      "name": "Nightcrawlers",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:6532": {
@@ -8773,7 +12323,7 @@
      },
      "itemId": 6532,
      "name": "Bright Baubles",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:7005": {
@@ -8783,7 +12333,7 @@
      },
      "itemId": 7005,
      "name": "Skinning Knife",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     }
    },
@@ -8800,8 +12350,8 @@
     }
    ],
    "repairs": false,
-   "sources": 2,
-   "visits": 3
+   "sources": 3,
+   "visits": 4
   },
   "5108": {
    "entries": {
@@ -9564,7 +13114,7 @@
      },
      "itemId": 117,
      "name": "Tough Jerky",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:1179": {
@@ -9573,7 +13123,7 @@
      },
      "itemId": 1179,
      "name": "Ice Cold Milk",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:1205": {
@@ -9582,7 +13132,7 @@
      },
      "itemId": 1205,
      "name": "Melon Juice",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:159": {
@@ -9591,7 +13141,7 @@
      },
      "itemId": 159,
      "name": "Refreshing Spring Water",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:1645": {
@@ -9600,7 +13150,7 @@
      },
      "itemId": 1645,
      "name": "Moonberry Juice",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:1708": {
@@ -9609,7 +13159,7 @@
      },
      "itemId": 1708,
      "name": "Sweet Nectar",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:2287": {
@@ -9618,7 +13168,7 @@
      },
      "itemId": 2287,
      "name": "Haunch of Meat",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:2593": {
@@ -9627,7 +13177,7 @@
      },
      "itemId": 2593,
      "name": "Flask of Stormwind Tawny",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2594": {
@@ -9636,7 +13186,7 @@
      },
      "itemId": 2594,
      "name": "Flagon of Dwarven Honeymead",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2595": {
@@ -9645,7 +13195,7 @@
      },
      "itemId": 2595,
      "name": "Jug of Badlands Bourbon",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2596": {
@@ -9654,7 +13204,7 @@
      },
      "itemId": 2596,
      "name": "Skin of Dwarven Stout",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2723": {
@@ -9663,7 +13213,7 @@
      },
      "itemId": 2723,
      "name": "Bottle of Dalaran Noir",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3770": {
@@ -9672,7 +13222,7 @@
      },
      "itemId": 3770,
      "name": "Mutton Chop",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:3771": {
@@ -9681,7 +13231,7 @@
      },
      "itemId": 3771,
      "name": "Wild Hog Shank",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4599": {
@@ -9690,7 +13240,7 @@
      },
      "itemId": 4599,
      "name": "Cured Ham Steak",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:8766": {
@@ -9699,7 +13249,7 @@
      },
      "itemId": 8766,
      "name": "Morning Glory Dew",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:8952": {
@@ -9708,134 +13258,194 @@
      },
      "itemId": 8952,
      "name": "Roasted Quail",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     }
    },
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "name": "Barkeep Morag",
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.545,
-     "mapY": 0.6788,
+     "mapX": 0.5445,
+     "mapY": 0.6803,
      "uiMap": 1454,
-     "worldX": 1638.9,
-     "worldY": -4445
+     "worldX": 1637.5,
+     "worldY": -4444.3
     }
    ],
    "repairs": false,
-   "sources": 1,
-   "visits": 1
+   "sources": 2,
+   "visits": 4
   },
   "5688": {
    "entries": {
     "item:1179": {
+     "bartered": {
+      "2": {
+       "5": 113
+      }
+     },
      "costs": {
       "5": 125
      },
      "itemId": 1179,
      "name": "Ice Cold Milk",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:1205": {
+     "bartered": {
+      "2": {
+       "5": 450
+      }
+     },
      "costs": {
       "5": 500
      },
      "itemId": 1205,
      "name": "Melon Juice",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:159": {
+     "bartered": {
+      "2": {
+       "5": 23
+      }
+     },
      "costs": {
       "5": 25
      },
      "itemId": 159,
      "name": "Refreshing Spring Water",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:1645": {
+     "bartered": {
+      "2": {
+       "5": 1800
+      }
+     },
      "costs": {
       "5": 2000
      },
      "itemId": 1645,
      "name": "Moonberry Juice",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:1708": {
+     "bartered": {
+      "2": {
+       "5": 900
+      }
+     },
      "costs": {
       "5": 1000
      },
      "itemId": 1708,
      "name": "Sweet Nectar",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4604": {
+     "bartered": {
+      "2": {
+       "5": 23
+      }
+     },
      "costs": {
       "5": 25
      },
      "itemId": 4604,
      "name": "Forest Mushroom Cap",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4605": {
+     "bartered": {
+      "2": {
+       "5": 113
+      }
+     },
      "costs": {
       "5": 125
      },
      "itemId": 4605,
      "name": "Red-speckled Mushroom",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4606": {
+     "bartered": {
+      "2": {
+       "5": 450
+      }
+     },
      "costs": {
       "5": 500
      },
      "itemId": 4606,
      "name": "Spongy Morel",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4607": {
+     "bartered": {
+      "2": {
+       "5": 900
+      }
+     },
      "costs": {
       "5": 1000
      },
      "itemId": 4607,
      "name": "Delicious Cave Mold",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4608": {
+     "bartered": {
+      "2": {
+       "5": 1800
+      }
+     },
      "costs": {
       "5": 2000
      },
      "itemId": 4608,
      "name": "Raw Black Truffle",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:8766": {
+     "bartered": {
+      "2": {
+       "5": 3600
+      }
+     },
      "costs": {
       "5": 4000
      },
      "itemId": 8766,
      "name": "Morning Glory Dew",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:8948": {
+     "bartered": {
+      "2": {
+       "5": 3600
+      }
+     },
      "costs": {
       "5": 4000
      },
      "itemId": 8948,
      "name": "Dried King Bolete",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     }
    },
@@ -9852,468 +13462,723 @@
     }
    ],
    "repairs": false,
-   "sources": 1,
-   "visits": 3
+   "sources": 2,
+   "visits": 4
   },
   "5819": {
    "entries": {
     "item:17189": {
+     "bartered": {
+      "2": {
+       "5": 10839
+      }
+     },
      "costs": {
       "5": 12043
      },
      "itemId": 17189,
      "name": "Metal Buckler",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:17190": {
+     "bartered": {
+      "2": {
+       "5": 31149
+      }
+     },
      "costs": {
       "5": 34609
      },
      "itemId": 17190,
      "name": "Ornate Buckler",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:17192": {
+     "bartered": {
+      "2": {
+       "5": 3960
+      }
+     },
      "costs": {
       "5": 4399
      },
      "itemId": 17192,
      "name": "Reinforced Targe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:1845": {
+     "bartered": {
+      "2": {
+       "5": 790
+      }
+     },
      "costs": {
       "5": 877
      },
      "itemId": 1845,
      "name": "Chainmail Belt",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:1846": {
+     "bartered": {
+      "2": {
+       "5": 792
+      }
+     },
      "costs": {
       "5": 880
      },
      "itemId": 1846,
      "name": "Chainmail Bracers",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:1852": {
+     "bartered": {
+      "2": {
+       "5": 1516
+      }
+     },
      "costs": {
       "5": 1684
      },
      "itemId": 1852,
      "name": "Scalemail Bracers",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:1853": {
+     "bartered": {
+      "2": {
+       "5": 1521
+      }
+     },
      "costs": {
       "5": 1690
      },
      "itemId": 1853,
      "name": "Scalemail Belt",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2148": {
+     "bartered": {
+      "2": {
+       "5": 2617
+      }
+     },
      "costs": {
       "5": 2907
      },
      "itemId": 2148,
      "name": "Polished Scale Belt",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2149": {
+     "bartered": {
+      "2": {
+       "5": 3958
+      }
+     },
      "costs": {
       "5": 4397
      },
      "itemId": 2149,
      "name": "Polished Scale Boots",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2150": {
+     "bartered": {
+      "2": {
+       "5": 2637
+      }
+     },
      "costs": {
       "5": 2930
      },
      "itemId": 2150,
      "name": "Polished Scale Bracers",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2151": {
+     "bartered": {
+      "2": {
+       "5": 2647
+      }
+     },
      "costs": {
       "5": 2941
      },
      "itemId": 2151,
      "name": "Polished Scale Gloves",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2152": {
+     "bartered": {
+      "2": {
+       "5": 5316
+      }
+     },
      "costs": {
       "5": 5906
      },
      "itemId": 2152,
      "name": "Polished Scale Leggings",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2153": {
+     "bartered": {
+      "2": {
+       "5": 5335
+      }
+     },
      "costs": {
       "5": 5927
      },
      "itemId": 2153,
      "name": "Polished Scale Vest",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2392": {
+     "bartered": {
+      "2": {
+       "5": 372
+      }
+     },
      "costs": {
       "5": 413
      },
      "itemId": 2392,
      "name": "Light Mail Armor",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2393": {
+     "bartered": {
+      "2": {
+       "5": 186
+      }
+     },
      "costs": {
       "5": 206
      },
      "itemId": 2393,
      "name": "Light Mail Belt",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2394": {
+     "bartered": {
+      "2": {
+       "5": 375
+      }
+     },
      "costs": {
       "5": 416
      },
      "itemId": 2394,
      "name": "Light Mail Leggings",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2395": {
+     "bartered": {
+      "2": {
+       "5": 290
+      }
+     },
      "costs": {
       "5": 322
      },
      "itemId": 2395,
      "name": "Light Mail Boots",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2396": {
+     "bartered": {
+      "2": {
+       "5": 194
+      }
+     },
      "costs": {
       "5": 215
      },
      "itemId": 2396,
      "name": "Light Mail Bracers",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2397": {
+     "bartered": {
+      "2": {
+       "5": 194
+      }
+     },
      "costs": {
       "5": 215
      },
      "itemId": 2397,
      "name": "Light Mail Gloves",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2417": {
+     "bartered": {
+      "2": {
+       "5": 14106
+      }
+     },
      "costs": {
       "5": 15673
      },
      "itemId": 2417,
      "name": "Augmented Chain Vest",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2418": {
+     "bartered": {
+      "2": {
+       "5": 14158
+      }
+     },
      "costs": {
       "5": 15731
      },
      "itemId": 2418,
      "name": "Augmented Chain Leggings",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2419": {
+     "bartered": {
+      "2": {
+       "5": 7105
+      }
+     },
      "costs": {
       "5": 7894
      },
      "itemId": 2419,
      "name": "Augmented Chain Belt",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2420": {
+     "bartered": {
+      "2": {
+       "5": 10744
+      }
+     },
      "costs": {
       "5": 11937
      },
      "itemId": 2420,
      "name": "Augmented Chain Boots",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2421": {
+     "bartered": {
+      "2": {
+       "5": 7157
+      }
+     },
      "costs": {
       "5": 7952
      },
      "itemId": 2421,
      "name": "Augmented Chain Bracers",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2422": {
+     "bartered": {
+      "2": {
+       "5": 7183
+      }
+     },
      "costs": {
       "5": 7981
      },
      "itemId": 2422,
      "name": "Augmented Chain Gloves",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2423": {
+     "bartered": {
+      "2": {
+       "5": 38493
+      }
+     },
      "costs": {
       "5": 42770
      },
      "itemId": 2423,
      "name": "Brigandine Vest",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2424": {
+     "bartered": {
+      "2": {
+       "5": 19315
+      }
+     },
      "costs": {
       "5": 21461
      },
      "itemId": 2424,
      "name": "Brigandine Belt",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2425": {
+     "bartered": {
+      "2": {
+       "5": 38770
+      }
+     },
      "costs": {
       "5": 43077
      },
      "itemId": 2425,
      "name": "Brigandine Leggings",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2426": {
+     "bartered": {
+      "2": {
+       "5": 29312
+      }
+     },
      "costs": {
       "5": 32568
      },
      "itemId": 2426,
      "name": "Brigandine Boots",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2427": {
+     "bartered": {
+      "2": {
+       "5": 18132
+      }
+     },
      "costs": {
       "5": 20146
      },
      "itemId": 2427,
      "name": "Brigandine Bracers",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2428": {
+     "bartered": {
+      "2": {
+       "5": 18200
+      }
+     },
      "costs": {
       "5": 20222
      },
      "itemId": 2428,
      "name": "Brigandine Gloves",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2446": {
+     "bartered": {
+      "2": {
+       "5": 5564
+      }
+     },
      "costs": {
       "5": 6182
      },
      "itemId": 2446,
      "name": "Kite Shield",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2448": {
+     "bartered": {
+      "2": {
+       "5": 14543
+      }
+     },
      "costs": {
       "5": 16158
      },
      "itemId": 2448,
      "name": "Heavy Pavise",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2451": {
+     "bartered": {
+      "2": {
+       "5": 39267
+      }
+     },
      "costs": {
       "5": 43629
      },
      "itemId": 2451,
      "name": "Crested Heater Shield",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:285": {
+     "bartered": {
+      "2": {
+       "5": 3200
+      }
+     },
      "costs": {
       "5": 3555
      },
      "itemId": 285,
      "name": "Scalemail Vest",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:286": {
+     "bartered": {
+      "2": {
+       "5": 2907
+      }
+     },
      "costs": {
       "5": 3229
      },
      "itemId": 286,
      "name": "Scalemail Pants",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:287": {
+     "bartered": {
+      "2": {
+       "5": 2197
+      }
+     },
      "costs": {
       "5": 2441
      },
      "itemId": 287,
      "name": "Scalemail Boots",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3891": {
+     "bartered": {
+      "2": {
+       "5": 11056
+      }
+     },
      "costs": {
       "5": 12284
      },
      "itemId": 3891,
      "name": "Augmented Chain Helm",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3894": {
+     "bartered": {
+      "2": {
+       "5": 26988
+      }
+     },
      "costs": {
       "5": 29986
      },
      "itemId": 3894,
      "name": "Brigandine Helm",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:718": {
+     "bartered": {
+      "2": {
+       "5": 1453
+      }
+     },
      "costs": {
       "5": 1614
      },
      "itemId": 718,
      "name": "Scalemail Gloves",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:8088": {
+     "bartered": {
+      "2": {
+       "5": 12002
+      }
+     },
      "costs": {
       "5": 13335
      },
      "itemId": 8088,
      "name": "Platemail Belt",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:8089": {
+     "bartered": {
+      "2": {
+       "5": 18073
+      }
+     },
      "costs": {
       "5": 20081
      },
      "itemId": 8089,
      "name": "Platemail Boots",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:8090": {
+     "bartered": {
+      "2": {
+       "5": 12096
+      }
+     },
      "costs": {
       "5": 13439
      },
      "itemId": 8090,
      "name": "Platemail Bracers",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:8091": {
+     "bartered": {
+      "2": {
+       "5": 12141
+      }
+     },
      "costs": {
       "5": 13489
      },
      "itemId": 8091,
      "name": "Platemail Gloves",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:8092": {
+     "bartered": {
+      "2": {
+       "5": 18281
+      }
+     },
      "costs": {
       "5": 20312
      },
      "itemId": 8092,
      "name": "Platemail Helm",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:8093": {
+     "bartered": {
+      "2": {
+       "5": 24468
+      }
+     },
      "costs": {
       "5": 27186
      },
      "itemId": 8093,
      "name": "Platemail Leggings",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:8094": {
+     "bartered": {
+      "2": {
+       "5": 24561
+      }
+     },
      "costs": {
       "5": 27290
      },
      "itemId": 8094,
      "name": "Platemail Armor",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:847": {
+     "bartered": {
+      "2": {
+       "5": 1575
+      }
+     },
      "costs": {
       "5": 1749
      },
      "itemId": 847,
      "name": "Chainmail Armor",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:848": {
+     "bartered": {
+      "2": {
+       "5": 1580
+      }
+     },
      "costs": {
       "5": 1755
      },
      "itemId": 848,
      "name": "Chainmail Pants",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:849": {
+     "bartered": {
+      "2": {
+       "5": 1194
+      }
+     },
      "costs": {
       "5": 1326
      },
      "itemId": 849,
      "name": "Chainmail Boots",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:850": {
+     "bartered": {
+      "2": {
+       "5": 795
+      }
+     },
      "costs": {
       "5": 883
      },
      "itemId": 850,
      "name": "Chainmail Gloves",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     }
    },
@@ -10322,16 +14187,16 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.6143,
-     "mapY": 0.2856,
+     "mapX": 0.6129,
+     "mapY": 0.2899,
      "uiMap": 1458,
-     "worldX": 1695.1,
-     "worldY": 283.9
+     "worldX": 1692.4,
+     "worldY": 285.2
     }
    ],
    "repairs": true,
-   "sources": 1,
-   "visits": 1
+   "sources": 2,
+   "visits": 3
   },
   "6731": {
    "entries": {
@@ -10750,6 +14615,145 @@
    "sources": 1,
    "visits": 1
   },
+  "6791": {
+   "entries": {
+    "item:1179": {
+     "costs": {
+      "5": 125
+     },
+     "itemId": 1179,
+     "name": "Ice Cold Milk",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1205": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:159": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4603": {
+     "costs": {
+      "5": 80
+     },
+     "itemId": 4603,
+     "limited": true,
+     "name": "Raw Spotted Yellowtail",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6289": {
+     "costs": {
+      "5": 20
+     },
+     "itemId": 6289,
+     "limited": true,
+     "name": "Raw Longjaw Mud Snapper",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6303": {
+     "costs": {
+      "5": 20
+     },
+     "itemId": 6303,
+     "limited": true,
+     "name": "Raw Slitherskin Mackerel",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6308": {
+     "costs": {
+      "5": 40
+     },
+     "itemId": 6308,
+     "limited": true,
+     "name": "Raw Bristle Whisker Catfish",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6362": {
+     "costs": {
+      "5": 80
+     },
+     "itemId": 6362,
+     "limited": true,
+     "name": "Raw Rockscale Cod",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:8766": {
+     "costs": {
+      "5": 4000
+     },
+     "itemId": 8766,
+     "name": "Morning Glory Dew",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8959": {
+     "costs": {
+      "5": 3200
+     },
+     "itemId": 8959,
+     "limited": true,
+     "name": "Raw Spinefin Halibut",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Innkeeper Wiley",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6204,
+     "mapY": 0.3941,
+     "uiMap": 1413,
+     "worldX": -1050.1,
+     "worldY": -3664.3
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 2
+  },
   "6807": {
    "entries": {
     "item:1179": {
@@ -10878,11 +14882,11 @@
    "sources": 1,
    "visits": 1
   },
-  "6929": {
+  "6928": {
    "entries": {
     "item:117": {
      "costs": {
-      "6": 23
+      "5": 25
      },
      "itemId": 117,
      "name": "Tough Jerky",
@@ -10891,7 +14895,7 @@
     },
     "item:1179": {
      "costs": {
-      "6": 113
+      "5": 125
      },
      "itemId": 1179,
      "name": "Ice Cold Milk",
@@ -10900,7 +14904,7 @@
     },
     "item:1205": {
      "costs": {
-      "6": 450
+      "5": 500
      },
      "itemId": 1205,
      "name": "Melon Juice",
@@ -10909,7 +14913,7 @@
     },
     "item:159": {
      "costs": {
-      "6": 23
+      "5": 25
      },
      "itemId": 159,
      "name": "Refreshing Spring Water",
@@ -10918,7 +14922,7 @@
     },
     "item:1645": {
      "costs": {
-      "6": 1800
+      "5": 2000
      },
      "itemId": 1645,
      "name": "Moonberry Juice",
@@ -10927,7 +14931,7 @@
     },
     "item:1708": {
      "costs": {
-      "6": 900
+      "5": 1000
      },
      "itemId": 1708,
      "name": "Sweet Nectar",
@@ -10936,7 +14940,7 @@
     },
     "item:2287": {
      "costs": {
-      "6": 113
+      "5": 125
      },
      "itemId": 2287,
      "name": "Haunch of Meat",
@@ -10945,7 +14949,7 @@
     },
     "item:3770": {
      "costs": {
-      "6": 450
+      "5": 500
      },
      "itemId": 3770,
      "name": "Mutton Chop",
@@ -10954,7 +14958,7 @@
     },
     "item:3771": {
      "costs": {
-      "6": 900
+      "5": 1000
      },
      "itemId": 3771,
      "name": "Wild Hog Shank",
@@ -10963,7 +14967,7 @@
     },
     "item:4599": {
      "costs": {
-      "6": 1800
+      "5": 2000
      },
      "itemId": 4599,
      "name": "Cured Ham Steak",
@@ -10972,7 +14976,7 @@
     },
     "item:8766": {
      "costs": {
-      "6": 3600
+      "5": 4000
      },
      "itemId": 8766,
      "name": "Morning Glory Dew",
@@ -10981,7 +14985,7 @@
     },
     "item:8952": {
      "costs": {
-      "6": 3600
+      "5": 4000
      },
      "itemId": 8952,
      "name": "Roasted Quail",
@@ -10990,20 +14994,147 @@
     }
    },
    "lastSeen": "2026-11-18",
-   "name": "Innkeeper Gryshka",
+   "name": "Innkeeper Grosk",
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.5408,
-     "mapY": 0.6849,
-     "uiMap": 1454,
-     "worldX": 1633.2,
-     "worldY": -4439.1
+     "mapX": 0.5157,
+     "mapY": 0.4174,
+     "uiMap": 1411,
+     "worldX": 337,
+     "worldY": -4689.3
     }
    ],
    "repairs": false,
    "sources": 1,
-   "visits": 1
+   "visits": 2
+  },
+  "6929": {
+   "entries": {
+    "item:117": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 117,
+     "name": "Tough Jerky",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:1179": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 1179,
+     "name": "Ice Cold Milk",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:1205": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:159": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:2287": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 2287,
+     "name": "Haunch of Meat",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:3770": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 3770,
+     "name": "Mutton Chop",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:3771": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 3771,
+     "name": "Wild Hog Shank",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:4599": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 4599,
+     "name": "Cured Ham Steak",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:8766": {
+     "costs": {
+      "6": 3600
+     },
+     "itemId": 8766,
+     "name": "Morning Glory Dew",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:8952": {
+     "costs": {
+      "6": 3600
+     },
+     "itemId": 8952,
+     "name": "Roasted Quail",
+     "sources": 2,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Innkeeper Gryshka",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5406,
+     "mapY": 0.6851,
+     "uiMap": 1454,
+     "worldX": 1633,
+     "worldY": -4438.8
+    }
+   ],
+   "repairs": false,
+   "sources": 2,
+   "visits": 2
   },
   "7564": {
    "entries": {
@@ -11035,6 +15166,34 @@
      "uiMap": 1446,
      "worldX": -7189.5,
      "worldY": -3794.1
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "7683": {
+   "entries": {
+    "item:8523": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 8523,
+     "name": "Field Testing Kit",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Alessandro Luca",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5829,
+     "mapY": 0.5526,
+     "uiMap": 1458,
+     "worldX": 1524.2,
+     "worldY": 313.9
     }
    ],
    "repairs": false,
@@ -11403,29 +15562,122 @@
    "sources": 1,
    "visits": 1
   },
-  "9179": {
+  "8363": {
    "entries": {
-    "item:10858": {
+    "item:2320": {
      "costs": {
-      "5": 3000
+      "5": 10,
+      "6": 9
      },
-     "itemId": 10858,
-     "name": "Plans: Solid Iron Maul",
+     "itemId": 2320,
+     "name": "Coarse Thread",
      "sources": 1,
      "stack": 1
     },
-    "item:18567": {
+    "item:2321": {
      "costs": {
-      "5": 150000
+      "5": 100,
+      "6": 90
      },
-     "itemId": 18567,
-     "name": "Elemental Flux",
+     "itemId": 2321,
+     "name": "Fine Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2324": {
+     "costs": {
+      "5": 25,
+      "6": 23
+     },
+     "itemId": 2324,
+     "name": "Bleach",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2325": {
+     "costs": {
+      "5": 1000,
+      "6": 900
+     },
+     "itemId": 2325,
+     "name": "Black Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2604": {
+     "costs": {
+      "5": 50,
+      "6": 45
+     },
+     "itemId": 2604,
+     "name": "Red Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2605": {
+     "costs": {
+      "5": 100,
+      "6": 90
+     },
+     "itemId": 2605,
+     "name": "Green Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2678": {
+     "costs": {
+      "5": 10,
+      "6": 9
+     },
+     "itemId": 2678,
+     "name": "Mild Spices",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2692": {
+     "costs": {
+      "5": 40,
+      "6": 36
+     },
+     "itemId": 2692,
+     "name": "Hot Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277113": {
+     "costs": {
+      "5": 25,
+      "6": 23
+     },
+     "itemId": 277113,
+     "name": "Apprentice's Herb Pouch",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277114": {
+     "costs": {
+      "5": 25,
+      "6": 23
+     },
+     "itemId": 277114,
+     "name": "Apprentice's Skinning Satchel",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277115": {
+     "costs": {
+      "5": 25,
+      "6": 23
+     },
+     "itemId": 277115,
+     "name": "Apprentice's Mining Pack",
      "sources": 1,
      "stack": 1
     },
     "item:2880": {
      "costs": {
-      "5": 100
+      "5": 100,
+      "6": 90
      },
      "itemId": 2880,
      "name": "Weak Flux",
@@ -11434,11 +15686,360 @@
     },
     "item:2901": {
      "costs": {
-      "5": 10
+      "5": 10,
+      "6": 9
      },
      "itemId": 2901,
      "name": "Mining Pick",
      "sources": 1,
+     "stack": 1
+    },
+    "item:2928": {
+     "costs": {
+      "5": 20,
+      "6": 18
+     },
+     "itemId": 2928,
+     "name": "Dust of Decay",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3371": {
+     "costs": {
+      "5": 20,
+      "6": 18
+     },
+     "itemId": 3371,
+     "name": "Empty Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3372": {
+     "costs": {
+      "5": 200,
+      "6": 180
+     },
+     "itemId": 3372,
+     "name": "Leaded Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3466": {
+     "costs": {
+      "5": 2000,
+      "6": 1800
+     },
+     "itemId": 3466,
+     "name": "Strong Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3713": {
+     "costs": {
+      "5": 160,
+      "6": 144
+     },
+     "itemId": 3713,
+     "name": "Soothing Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3857": {
+     "costs": {
+      "5": 500,
+      "6": 450
+     },
+     "itemId": 3857,
+     "name": "Coal",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4289": {
+     "costs": {
+      "5": 50,
+      "6": 45
+     },
+     "itemId": 4289,
+     "name": "Salt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4291": {
+     "costs": {
+      "5": 500,
+      "6": 450
+     },
+     "itemId": 4291,
+     "name": "Silken Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4340": {
+     "costs": {
+      "5": 350,
+      "6": 315
+     },
+     "itemId": 4340,
+     "name": "Gray Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4341": {
+     "costs": {
+      "5": 500,
+      "6": 450
+     },
+     "itemId": 4341,
+     "name": "Yellow Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4342": {
+     "costs": {
+      "5": 2500,
+      "6": 2250
+     },
+     "itemId": 4342,
+     "name": "Purple Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4399": {
+     "costs": {
+      "5": 200,
+      "6": 180
+     },
+     "itemId": 4399,
+     "name": "Wooden Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4400": {
+     "costs": {
+      "5": 2000,
+      "6": 1800
+     },
+     "itemId": 4400,
+     "name": "Heavy Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4536": {
+     "costs": {
+      "5": 25,
+      "6": 23
+     },
+     "itemId": 4536,
+     "name": "Shiny Red Apple",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:5956": {
+     "costs": {
+      "5": 18,
+      "6": 17
+     },
+     "itemId": 5956,
+     "name": "Blacksmith Hammer",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6217": {
+     "costs": {
+      "5": 124,
+      "6": 112
+     },
+     "itemId": 6217,
+     "name": "Copper Rod",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6256": {
+     "costs": {
+      "5": 23,
+      "6": 21
+     },
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6260": {
+     "costs": {
+      "5": 50,
+      "6": 45
+     },
+     "itemId": 6260,
+     "name": "Blue Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6529": {
+     "costs": {
+      "5": 50,
+      "6": 45
+     },
+     "itemId": 6529,
+     "name": "Shiny Bauble",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6530": {
+     "costs": {
+      "5": 100,
+      "6": 90
+     },
+     "itemId": 6530,
+     "name": "Nightcrawlers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6532": {
+     "costs": {
+      "5": 250,
+      "6": 225
+     },
+     "itemId": 6532,
+     "name": "Bright Baubles",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:7005": {
+     "costs": {
+      "5": 10,
+      "6": 9
+     },
+     "itemId": 7005,
+     "name": "Skinning Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8343": {
+     "costs": {
+      "5": 2000,
+      "6": 1800
+     },
+     "itemId": 8343,
+     "name": "Heavy Silken Thread",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Shadi Mistrunner",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4052,
+     "mapY": 0.6336,
+     "uiMap": 1456,
+     "worldX": -1290.9,
+     "worldY": 93.8
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 5
+  },
+  "8404": {
+   "entries": {
+    "item:10360": {
+     "bartered": {
+      "2": {
+       "6": 4050
+      }
+     },
+     "itemId": 10360,
+     "name": "Black Kingsnake",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:10361": {
+     "bartered": {
+      "2": {
+       "6": 4050
+      }
+     },
+     "itemId": 10361,
+     "name": "Brown Snake",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:10392": {
+     "bartered": {
+      "2": {
+       "6": 4050
+      }
+     },
+     "itemId": 10392,
+     "name": "Crimson Snake",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:280703": {
+     "bartered": {
+      "2": {
+       "6": 4050
+      }
+     },
+     "itemId": 280703,
+     "name": "Jungle Boa",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Xan'tish",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3404,
+     "mapY": 0.8094,
+     "uiMap": 1454,
+     "worldX": 1516.8,
+     "worldY": -4158.1
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "9179": {
+   "entries": {
+    "item:10858": {
+     "costs": {
+      "5": 3000
+     },
+     "itemId": 10858,
+     "name": "Plans: Solid Iron Maul",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:18567": {
+     "costs": {
+      "5": 150000
+     },
+     "itemId": 18567,
+     "name": "Elemental Flux",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2880": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 2880,
+     "name": "Weak Flux",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2901": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2901,
+     "name": "Mining Pick",
+     "sources": 2,
      "stack": 1
     },
     "item:3466": {
@@ -11447,7 +16048,7 @@
      },
      "itemId": 3466,
      "name": "Strong Flux",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3857": {
@@ -11456,7 +16057,7 @@
      },
      "itemId": 3857,
      "name": "Coal",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:5956": {
@@ -11465,7 +16066,7 @@
      },
      "itemId": 5956,
      "name": "Blacksmith Hammer",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     }
    },
@@ -11479,11 +16080,19 @@
      "uiMap": 1418,
      "worldX": -6763.4,
      "worldY": -3134.2
+    },
+    {
+     "instance": 0,
+     "mapX": 0.4262,
+     "mapY": 0.5262,
+     "uiMap": 1418,
+     "worldX": -6762.2,
+     "worldY": -3139.3
     }
    ],
    "repairs": true,
-   "sources": 1,
-   "visits": 2
+   "sources": 2,
+   "visits": 9
   },
   "9356": {
    "entries": {
@@ -11606,6 +16215,713 @@
      "uiMap": 1418,
      "worldX": -6652.9,
      "worldY": -2152.8
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "10380": {
+   "entries": {
+    "item:1843": {
+     "costs": {
+      "6": 653
+     },
+     "itemId": 1843,
+     "name": "Tanned Leather Belt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1844": {
+     "costs": {
+      "6": 656
+     },
+     "itemId": 1844,
+     "name": "Tanned Leather Bracers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:843": {
+     "costs": {
+      "6": 970
+     },
+     "itemId": 843,
+     "name": "Tanned Leather Boots",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:844": {
+     "costs": {
+      "6": 648
+     },
+     "itemId": 844,
+     "name": "Tanned Leather Gloves",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:845": {
+     "costs": {
+      "6": 1303
+     },
+     "itemId": 845,
+     "name": "Tanned Leather Pants",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:846": {
+     "costs": {
+      "6": 1307
+     },
+     "itemId": 846,
+     "name": "Tanned Leather Jerkin",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Sanuye Runetotem",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4508,
+     "mapY": 0.5901,
+     "uiMap": 1413,
+     "worldX": -2374.3,
+     "worldY": -1945.1
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
+  },
+  "11106": {
+   "entries": {
+    "item:1179": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 1179,
+     "name": "Ice Cold Milk",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1205": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:159": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1707": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 1707,
+     "name": "Stormwind Brie",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2070": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 2070,
+     "name": "Darnassian Bleu",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3927": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 3927,
+     "name": "Fine Aged Cheddar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:414": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 414,
+     "name": "Dalaran Sharp",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:422": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 422,
+     "name": "Dwarven Mild",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8766": {
+     "costs": {
+      "6": 3600
+     },
+     "itemId": 8766,
+     "name": "Morning Glory Dew",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8932": {
+     "costs": {
+      "6": 3600
+     },
+     "itemId": 8932,
+     "name": "Alterac Swiss",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Innkeeper Sikewa",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2414,
+     "mapY": 0.6828,
+     "uiMap": 1443,
+     "worldX": -1594.8,
+     "worldY": 3147.9
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "12028": {
+   "entries": {
+    "item:2320": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2320,
+     "name": "Coarse Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2321": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 2321,
+     "name": "Fine Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2324": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 2324,
+     "name": "Bleach",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2325": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 2325,
+     "name": "Black Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2604": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 2604,
+     "name": "Red Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2678": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2678,
+     "name": "Mild Spices",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2692": {
+     "costs": {
+      "5": 40
+     },
+     "itemId": 2692,
+     "name": "Hot Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2880": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 2880,
+     "name": "Weak Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2901": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2901,
+     "name": "Mining Pick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2928": {
+     "costs": {
+      "5": 20
+     },
+     "itemId": 2928,
+     "name": "Dust of Decay",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3371": {
+     "costs": {
+      "5": 20
+     },
+     "itemId": 3371,
+     "name": "Empty Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3372": {
+     "costs": {
+      "5": 200
+     },
+     "itemId": 3372,
+     "name": "Leaded Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3466": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 3466,
+     "name": "Strong Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3713": {
+     "costs": {
+      "5": 160
+     },
+     "itemId": 3713,
+     "name": "Soothing Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3857": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 3857,
+     "name": "Coal",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4289": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 4289,
+     "name": "Salt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4291": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 4291,
+     "name": "Silken Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4340": {
+     "costs": {
+      "5": 350
+     },
+     "itemId": 4340,
+     "name": "Gray Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4341": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 4341,
+     "name": "Yellow Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4342": {
+     "costs": {
+      "5": 2500
+     },
+     "itemId": 4342,
+     "name": "Purple Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4399": {
+     "costs": {
+      "5": 200
+     },
+     "itemId": 4399,
+     "name": "Wooden Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4400": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 4400,
+     "name": "Heavy Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:5956": {
+     "costs": {
+      "5": 18
+     },
+     "itemId": 5956,
+     "name": "Blacksmith Hammer",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6217": {
+     "costs": {
+      "5": 124
+     },
+     "itemId": 6217,
+     "name": "Copper Rod",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6256": {
+     "costs": {
+      "5": 23
+     },
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6529": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 6529,
+     "name": "Shiny Bauble",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6530": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 6530,
+     "name": "Nightcrawlers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6532": {
+     "costs": {
+      "5": 250
+     },
+     "itemId": 6532,
+     "name": "Bright Baubles",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:7005": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 7005,
+     "name": "Skinning Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8343": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 8343,
+     "name": "Heavy Silken Thread",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Lah'Mawhani",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.231,
+     "mapY": 0.7177,
+     "uiMap": 1443,
+     "worldX": -1699.5,
+     "worldY": 3194.9
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "12031": {
+   "entries": {
+    "item:273636": {
+     "costs": {
+      "5": 300
+     },
+     "itemId": 273636,
+     "name": "Chef's Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6256": {
+     "costs": {
+      "5": 23
+     },
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6529": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 6529,
+     "name": "Shiny Bauble",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6530": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 6530,
+     "name": "Nightcrawlers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6532": {
+     "costs": {
+      "5": 250
+     },
+     "itemId": 6532,
+     "name": "Bright Baubles",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Mai'Lahii",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2273,
+     "mapY": 0.7208,
+     "uiMap": 1443,
+     "worldX": -1708.7,
+     "worldY": 3211.5
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "12033": {
+   "entries": {
+    "item:10284": {
+     "costs": {
+      "5": 200
+     },
+     "itemId": 10284,
+     "name": "Simple Flour",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:11291": {
+     "costs": {
+      "5": 4500
+     },
+     "itemId": 11291,
+     "name": "Star Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:159": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:16072": {
+     "costs": {
+      "5": 10000
+     },
+     "itemId": 16072,
+     "name": "Expert Cookbook",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17062": {
+     "costs": {
+      "5": 2200
+     },
+     "itemId": 17062,
+     "name": "Recipe: Mithril Head Trout",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:21099": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 21099,
+     "name": "Recipe: Smoked Sagefish",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:21219": {
+     "costs": {
+      "5": 5000
+     },
+     "itemId": 21219,
+     "name": "Recipe: Sagefish Delight",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2678": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2678,
+     "name": "Mild Spices",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2692": {
+     "costs": {
+      "5": 40
+     },
+     "itemId": 2692,
+     "name": "Hot Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272941": {
+     "costs": {
+      "5": 200000
+     },
+     "itemId": 272941,
+     "name": "Thick Logs",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3713": {
+     "costs": {
+      "5": 160
+     },
+     "itemId": 3713,
+     "name": "Soothing Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4470": {
+     "costs": {
+      "5": 38
+     },
+     "itemId": 4470,
+     "name": "Simple Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4471": {
+     "costs": {
+      "5": 135
+     },
+     "itemId": 4471,
+     "name": "Flint and Tinder",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4536": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 4536,
+     "name": "Shiny Red Apple",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:6369": {
+     "costs": {
+      "5": 2200
+     },
+     "itemId": 6369,
+     "name": "Recipe: Rockscale Cod",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Wulan",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.2618,
+     "mapY": 0.6976,
+     "uiMap": 1443,
+     "worldX": -1639.4,
+     "worldY": 3056.4
     }
    ],
    "repairs": false,
@@ -11740,16 +17056,16 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.7816,
-     "mapY": 0.8127,
+     "mapX": 0.7815,
+     "mapY": 0.8136,
      "uiMap": 1425,
-     "worldX": -619.4,
-     "worldY": -4584.3
+     "worldX": -621.5,
+     "worldY": -4583.8
     }
    ],
    "repairs": false,
    "sources": 1,
-   "visits": 2
+   "visits": 3
   },
   "14737": {
    "entries": {
@@ -11814,23 +17130,31 @@
     {
      "instance": 0,
      "mapX": 0.7754,
-     "mapY": 0.802,
+     "mapY": 0.8024,
      "uiMap": 1425,
-     "worldX": -591.7,
-     "worldY": -4560.2
+     "worldX": -592.8,
+     "worldY": -4560.3
     },
     {
      "instance": 0,
-     "mapX": 0.7731,
-     "mapY": 0.8006,
+     "mapX": 0.7733,
+     "mapY": 0.8011,
      "uiMap": 1425,
-     "worldX": -588.1,
-     "worldY": -4551.5
+     "worldX": -589.6,
+     "worldY": -4552.1
+    },
+    {
+     "instance": 0,
+     "mapX": 0.7722,
+     "mapY": 0.7994,
+     "uiMap": 1425,
+     "worldX": -585.2,
+     "worldY": -4547.9
     }
    ],
    "repairs": true,
    "sources": 1,
-   "visits": 2
+   "visits": 4
   },
   "14738": {
    "entries": {
@@ -11948,16 +17272,16 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.793,
-     "mapY": 0.791,
+     "mapX": 0.7929,
+     "mapY": 0.7915,
      "uiMap": 1425,
-     "worldX": -563.7,
-     "worldY": -4628
+     "worldX": -564.8,
+     "worldY": -4627.7
     }
    ],
    "repairs": false,
    "sources": 1,
-   "visits": 1
+   "visits": 3
   },
   "14739": {
    "entries": {
@@ -13410,7 +18734,7 @@
      },
      "itemId": 11284,
      "name": "Accurate Slugs",
-     "sources": 1,
+     "sources": 2,
      "stack": 200
     },
     "item:11285": {
@@ -13419,7 +18743,7 @@
      },
      "itemId": 11285,
      "name": "Jagged Arrow",
-     "sources": 1,
+     "sources": 2,
      "stack": 200
     },
     "item:11291": {
@@ -13428,7 +18752,7 @@
      },
      "itemId": 11291,
      "name": "Star Wood",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:1205": {
@@ -13437,7 +18761,7 @@
      },
      "itemId": 1205,
      "name": "Melon Juice",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:15326": {
@@ -13446,7 +18770,7 @@
      },
      "itemId": 15326,
      "name": "Gleaming Throwing Axe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:15327": {
@@ -13455,7 +18779,7 @@
      },
      "itemId": 15327,
      "name": "Wicked Throwing Dagger",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:159": {
@@ -13464,7 +18788,7 @@
      },
      "itemId": 159,
      "name": "Refreshing Spring Water",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:1645": {
@@ -13473,7 +18797,7 @@
      },
      "itemId": 1645,
      "name": "Moonberry Juice",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:1708": {
@@ -13482,7 +18806,7 @@
      },
      "itemId": 1708,
      "name": "Sweet Nectar",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:2515": {
@@ -13491,7 +18815,7 @@
      },
      "itemId": 2515,
      "name": "Sharp Arrow",
-     "sources": 1,
+     "sources": 2,
      "stack": 200
     },
     "item:2519": {
@@ -13500,7 +18824,7 @@
      },
      "itemId": 2519,
      "name": "Heavy Shot",
-     "sources": 1,
+     "sources": 2,
      "stack": 200
     },
     "item:2520": {
@@ -13509,7 +18833,7 @@
      },
      "itemId": 2520,
      "name": "Broadsword",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2521": {
@@ -13518,7 +18842,7 @@
      },
      "itemId": 2521,
      "name": "Flamberge",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2522": {
@@ -13527,7 +18851,7 @@
      },
      "itemId": 2522,
      "name": "Crescent Axe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2523": {
@@ -13536,7 +18860,7 @@
      },
      "itemId": 2523,
      "name": "Bullova",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2524": {
@@ -13545,7 +18869,7 @@
      },
      "itemId": 2524,
      "name": "Truncheon",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2525": {
@@ -13554,7 +18878,7 @@
      },
      "itemId": 2525,
      "name": "War Hammer",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2526": {
@@ -13563,7 +18887,7 @@
      },
      "itemId": 2526,
      "name": "Main Gauche",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2527": {
@@ -13572,7 +18896,7 @@
      },
      "itemId": 2527,
      "name": "Battle Staff",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:276199": {
@@ -13581,7 +18905,7 @@
      },
      "itemId": 276199,
      "name": "Haughty Fellow's Monocle",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:276200": {
@@ -13590,7 +18914,7 @@
      },
      "itemId": 276200,
      "name": "Crawler's Clackers",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:276201": {
@@ -13599,7 +18923,7 @@
      },
      "itemId": 276201,
      "name": "Misplaced Pantaloons",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:276202": {
@@ -13608,7 +18932,7 @@
      },
      "itemId": 276202,
      "name": "Disengagement Ring",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:276203": {
@@ -13617,7 +18941,7 @@
      },
      "itemId": 276203,
      "name": "Primitive Fishing Pole",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:276204": {
@@ -13626,7 +18950,7 @@
      },
      "itemId": 276204,
      "name": "Thrash's Trash",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2928": {
@@ -13635,7 +18959,7 @@
      },
      "itemId": 2928,
      "name": "Dust of Decay",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2930": {
@@ -13644,7 +18968,7 @@
      },
      "itemId": 2930,
      "name": "Essence of Pain",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3030": {
@@ -13653,7 +18977,7 @@
      },
      "itemId": 3030,
      "name": "Razor Arrow",
-     "sources": 1,
+     "sources": 2,
      "stack": 200
     },
     "item:3033": {
@@ -13662,7 +18986,7 @@
      },
      "itemId": 3033,
      "name": "Solid Shot",
-     "sources": 1,
+     "sources": 2,
      "stack": 200
     },
     "item:3107": {
@@ -13671,7 +18995,7 @@
      },
      "itemId": 3107,
      "name": "Keen Throwing Knife",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3108": {
@@ -13680,7 +19004,7 @@
      },
      "itemId": 3108,
      "name": "Heavy Throwing Dagger",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3135": {
@@ -13689,7 +19013,7 @@
      },
      "itemId": 3135,
      "name": "Sharp Throwing Axe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3137": {
@@ -13698,7 +19022,7 @@
      },
      "itemId": 3137,
      "name": "Deadly Throwing Axe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3371": {
@@ -13707,7 +19031,7 @@
      },
      "itemId": 3371,
      "name": "Empty Vial",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:3372": {
@@ -13716,7 +19040,7 @@
      },
      "itemId": 3372,
      "name": "Leaded Vial",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4470": {
@@ -13725,7 +19049,7 @@
      },
      "itemId": 4470,
      "name": "Simple Wood",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4471": {
@@ -13734,7 +19058,7 @@
      },
      "itemId": 4471,
      "name": "Flint and Tinder",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4497": {
@@ -13743,7 +19067,7 @@
      },
      "itemId": 4497,
      "name": "Heavy Brown Bag",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:4498": {
@@ -13752,7 +19076,7 @@
      },
      "itemId": 4498,
      "name": "Brown Leather Satchel",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:5060": {
@@ -13761,7 +19085,7 @@
      },
      "itemId": 5060,
      "name": "Thieves' Tools",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:5140": {
@@ -13770,7 +19094,7 @@
      },
      "itemId": 5140,
      "name": "Flash Powder",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:5173": {
@@ -13779,7 +19103,7 @@
      },
      "itemId": 5173,
      "name": "Deathweed",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:8923": {
@@ -13788,7 +19112,7 @@
      },
      "itemId": 8923,
      "name": "Essence of Agony",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:8924": {
@@ -13797,7 +19121,7 @@
      },
      "itemId": 8924,
      "name": "Dust of Deterioration",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:8925": {
@@ -13806,7 +19130,7 @@
      },
      "itemId": 8925,
      "name": "Crystal Vial",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     }
    },
@@ -13815,16 +19139,24 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.7713,
-     "mapY": 0.5295,
+     "mapX": 0.7719,
+     "mapY": 0.5296,
      "uiMap": 2548,
-     "worldX": -8178.7,
-     "worldY": -5632.6
+     "worldX": -8179,
+     "worldY": -5635.2
+    },
+    {
+     "instance": 0,
+     "mapX": 0.7707,
+     "mapY": 0.5285,
+     "uiMap": 2548,
+     "worldX": -8175.4,
+     "worldY": -5629.6
     }
    ],
    "repairs": false,
-   "sources": 1,
-   "visits": 1
+   "sources": 2,
+   "visits": 2
   },
   "256657": {
    "entries": {
@@ -13834,7 +19166,7 @@
      },
      "itemId": 17189,
      "name": "Metal Buckler",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2417": {
@@ -13843,7 +19175,7 @@
      },
      "itemId": 2417,
      "name": "Augmented Chain Vest",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2418": {
@@ -13852,7 +19184,7 @@
      },
      "itemId": 2418,
      "name": "Augmented Chain Leggings",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2419": {
@@ -13861,7 +19193,7 @@
      },
      "itemId": 2419,
      "name": "Augmented Chain Belt",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2420": {
@@ -13870,7 +19202,7 @@
      },
      "itemId": 2420,
      "name": "Augmented Chain Boots",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2421": {
@@ -13879,7 +19211,7 @@
      },
      "itemId": 2421,
      "name": "Augmented Chain Bracers",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2422": {
@@ -13888,7 +19220,7 @@
      },
      "itemId": 2422,
      "name": "Augmented Chain Gloves",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2429": {
@@ -13897,7 +19229,7 @@
      },
      "itemId": 2429,
      "name": "Russet Vest",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2431": {
@@ -13906,7 +19238,7 @@
      },
      "itemId": 2431,
      "name": "Russet Pants",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2432": {
@@ -13915,7 +19247,7 @@
      },
      "itemId": 2432,
      "name": "Russet Boots",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2434": {
@@ -13924,7 +19256,7 @@
      },
      "itemId": 2434,
      "name": "Russet Gloves",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2448": {
@@ -13933,7 +19265,7 @@
      },
      "itemId": 2448,
      "name": "Heavy Pavise",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2463": {
@@ -13942,7 +19274,7 @@
      },
      "itemId": 2463,
      "name": "Studded Doublet",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2464": {
@@ -13951,7 +19283,7 @@
      },
      "itemId": 2464,
      "name": "Studded Belt",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2465": {
@@ -13960,7 +19292,7 @@
      },
      "itemId": 2465,
      "name": "Studded Pants",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2467": {
@@ -13969,7 +19301,7 @@
      },
      "itemId": 2467,
      "name": "Studded Boots",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2468": {
@@ -13978,7 +19310,7 @@
      },
      "itemId": 2468,
      "name": "Studded Bracers",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2469": {
@@ -13987,7 +19319,7 @@
      },
      "itemId": 2469,
      "name": "Studded Gloves",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2520": {
@@ -13996,7 +19328,7 @@
      },
      "itemId": 2520,
      "name": "Broadsword",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2521": {
@@ -14005,7 +19337,7 @@
      },
      "itemId": 2521,
      "name": "Flamberge",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2522": {
@@ -14014,7 +19346,7 @@
      },
      "itemId": 2522,
      "name": "Crescent Axe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2523": {
@@ -14023,7 +19355,7 @@
      },
      "itemId": 2523,
      "name": "Bullova",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2524": {
@@ -14032,7 +19364,7 @@
      },
      "itemId": 2524,
      "name": "Truncheon",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2525": {
@@ -14041,7 +19373,7 @@
      },
      "itemId": 2525,
      "name": "War Hammer",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2526": {
@@ -14050,7 +19382,7 @@
      },
      "itemId": 2526,
      "name": "Main Gauche",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2527": {
@@ -14059,7 +19391,7 @@
      },
      "itemId": 2527,
      "name": "Battle Staff",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3593": {
@@ -14068,7 +19400,7 @@
      },
      "itemId": 3593,
      "name": "Russet Belt",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3594": {
@@ -14077,7 +19409,7 @@
      },
      "itemId": 3594,
      "name": "Russet Bracers",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3889": {
@@ -14086,7 +19418,7 @@
      },
      "itemId": 3889,
      "name": "Russet Hat",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3890": {
@@ -14095,7 +19427,7 @@
      },
      "itemId": 3890,
      "name": "Studded Hat",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:3891": {
@@ -14104,7 +19436,7 @@
      },
      "itemId": 3891,
      "name": "Augmented Chain Helm",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     }
    },
@@ -14118,11 +19450,158 @@
      "uiMap": 2548,
      "worldX": -7955.9,
      "worldY": -4798.4
+    },
+    {
+     "instance": 0,
+     "mapX": 0.5985,
+     "mapY": 0.4595,
+     "uiMap": 2548,
+     "worldX": -7952.3,
+     "worldY": -4794.4
     }
    ],
    "repairs": true,
+   "sources": 2,
+   "visits": 11
+  },
+  "256675": {
+   "entries": {
+    "item:1179": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 1179,
+     "name": "Ice Cold Milk",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1205": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:159": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4603": {
+     "costs": {
+      "6": 72
+     },
+     "itemId": 4603,
+     "limited": true,
+     "name": "Raw Spotted Yellowtail",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6289": {
+     "costs": {
+      "6": 18
+     },
+     "itemId": 6289,
+     "limited": true,
+     "name": "Raw Longjaw Mud Snapper",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6303": {
+     "costs": {
+      "6": 18
+     },
+     "itemId": 6303,
+     "limited": true,
+     "name": "Raw Slitherskin Mackerel",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6308": {
+     "costs": {
+      "6": 36
+     },
+     "itemId": 6308,
+     "limited": true,
+     "name": "Raw Bristle Whisker Catfish",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6362": {
+     "costs": {
+      "6": 72
+     },
+     "itemId": 6362,
+     "limited": true,
+     "name": "Raw Rockscale Cod",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:8766": {
+     "costs": {
+      "6": 3600
+     },
+     "itemId": 8766,
+     "name": "Morning Glory Dew",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8959": {
+     "costs": {
+      "6": 2880
+     },
+     "itemId": 8959,
+     "limited": true,
+     "name": "Raw Spinefin Halibut",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    }
+   },
+   "lastSeen": "2026-11-18",
+   "name": "Innkeeper Toka",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5802,
+     "mapY": 0.4505,
+     "uiMap": 2548,
+     "worldX": -7923.2,
+     "worldY": -4705.4
+    }
+   ],
+   "repairs": false,
    "sources": 1,
-   "visits": 4
+   "visits": 1
   },
   "256734": {
    "entries": {
@@ -15619,7 +21098,7 @@
      "name": "Fine Shortbow",
      "sources": 1,
      "stack": 1,
-     "stockMax": 1
+     "stockMax": 2
     },
     "item:2488": {
      "costs": {
@@ -15705,7 +21184,7 @@
      "stockMax": 1
     }
    },
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "name": "Railee Thriceforged",
    "positions": [
     {
@@ -15719,7 +21198,7 @@
    ],
    "repairs": true,
    "sources": 1,
-   "visits": 1
+   "visits": 2
   },
   "258306": {
    "entries": {
@@ -15839,6 +21318,55 @@
    "sources": 1,
    "visits": 1
   },
+  "258415": {
+   "entries": {
+    "item:253665": {
+     "bartered": {
+      "2": {
+       "5": 135
+      }
+     },
+     "itemId": 253665,
+     "name": "Pattern: Linen Reagent Bag",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:253668": {
+     "bartered": {
+      "2": {
+       "5": 225
+      }
+     },
+     "itemId": 253668,
+     "name": "Pattern: Woolen Reagent Bag",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Angela Ward",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7046,
+     "mapY": 0.302,
+     "uiMap": 1458,
+     "worldX": 1684.7,
+     "worldY": 197.2
+    },
+    {
+     "instance": 0,
+     "mapX": 0.7045,
+     "mapY": 0.2934,
+     "uiMap": 1458,
+     "worldX": 1690.2,
+     "worldY": 197.3
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 4
+  },
   "258568": {
    "entries": {
     "item:253665": {
@@ -15875,6 +21403,341 @@
    "repairs": false,
    "sources": 1,
    "visits": 2
+  },
+  "259962": {
+   "entries": {
+    "item:10284": {
+     "costs": {
+      "4": 200
+     },
+     "itemId": 10284,
+     "name": "Simple Flour",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:11291": {
+     "costs": {
+      "4": 4500
+     },
+     "itemId": 11291,
+     "name": "Star Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:159": {
+     "costs": {
+      "4": 25
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:21099": {
+     "costs": {
+      "4": 500
+     },
+     "itemId": 21099,
+     "name": "Recipe: Smoked Sagefish",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:21219": {
+     "costs": {
+      "4": 5000
+     },
+     "itemId": 21219,
+     "name": "Recipe: Sagefish Delight",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2678": {
+     "costs": {
+      "4": 10
+     },
+     "itemId": 2678,
+     "name": "Mild Spices",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2692": {
+     "costs": {
+      "4": 40
+     },
+     "itemId": 2692,
+     "name": "Hot Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272941": {
+     "costs": {
+      "4": 200000
+     },
+     "itemId": 272941,
+     "name": "Thick Logs",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3713": {
+     "costs": {
+      "4": 160
+     },
+     "itemId": 3713,
+     "name": "Soothing Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4470": {
+     "costs": {
+      "4": 38
+     },
+     "itemId": 4470,
+     "name": "Simple Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4471": {
+     "costs": {
+      "4": 135
+     },
+     "itemId": 4471,
+     "name": "Flint and Tinder",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4536": {
+     "costs": {
+      "4": 25
+     },
+     "itemId": 4536,
+     "name": "Shiny Red Apple",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Fimbo Greasemitz",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7903,
+     "mapY": 0.5418,
+     "uiMap": 2548,
+     "worldX": -8218.4,
+     "worldY": -5724.5
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "260343": {
+   "entries": {
+    "item:11284": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 11284,
+     "name": "Accurate Slugs",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:11285": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 11285,
+     "name": "Jagged Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:11291": {
+     "costs": {
+      "6": 4050
+     },
+     "itemId": 11291,
+     "name": "Star Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1205": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:15326": {
+     "costs": {
+      "6": 22330
+     },
+     "itemId": 15326,
+     "name": "Gleaming Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:15327": {
+     "costs": {
+      "6": 22330
+     },
+     "itemId": 15327,
+     "name": "Wicked Throwing Dagger",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:159": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2515": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2515,
+     "name": "Sharp Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2519": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2519,
+     "name": "Heavy Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3030": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 3030,
+     "name": "Razor Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3033": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 3033,
+     "name": "Solid Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3107": {
+     "costs": {
+      "6": 1647
+     },
+     "itemId": 3107,
+     "name": "Keen Throwing Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3108": {
+     "costs": {
+      "6": 6834
+     },
+     "itemId": 3108,
+     "name": "Heavy Throwing Dagger",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3135": {
+     "costs": {
+      "6": 1647
+     },
+     "itemId": 3135,
+     "name": "Sharp Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3137": {
+     "costs": {
+      "6": 6834
+     },
+     "itemId": 3137,
+     "name": "Deadly Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4470": {
+     "costs": {
+      "6": 35
+     },
+     "itemId": 4470,
+     "name": "Simple Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4471": {
+     "costs": {
+      "6": 122
+     },
+     "itemId": 4471,
+     "name": "Flint and Tinder",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4497": {
+     "costs": {
+      "6": 18000
+     },
+     "itemId": 4497,
+     "name": "Heavy Brown Bag",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4498": {
+     "costs": {
+      "6": 2250
+     },
+     "itemId": 4498,
+     "name": "Brown Leather Satchel",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-19",
+   "name": "Maka",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5823,
+     "mapY": 0.4592,
+     "uiMap": 2548,
+     "worldX": -7951.3,
+     "worldY": -4715.6
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
   },
   "260566": {
    "entries": {
@@ -16128,16 +21991,16 @@
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.2831,
-     "mapY": 0.7477,
+     "mapX": 0.2833,
+     "mapY": 0.7482,
      "uiMap": 1434,
-     "worldX": -14349.7,
-     "worldY": 414.3
+     "worldX": -14351.6,
+     "worldY": 412.8
     }
    ],
    "repairs": false,
    "sources": 1,
-   "visits": 1
+   "visits": 2
   },
   "265576": {
    "entries": {
@@ -16220,7 +22083,7 @@
      },
      "itemId": 269671,
      "name": "Swift Empyrean Galestrider",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:269678": {
@@ -16229,7 +22092,7 @@
      },
      "itemId": 269678,
      "name": "Swift Stormy Galestrider",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:269681": {
@@ -16238,7 +22101,7 @@
      },
      "itemId": 269681,
      "name": "Empyrean Galestrider",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:269683": {
@@ -16247,7 +22110,7 @@
      },
      "itemId": 269683,
      "name": "Stormy Galestrider",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:274930": {
@@ -16256,7 +22119,7 @@
      },
      "itemId": 274930,
      "name": "Umber Galestrider",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:274933": {
@@ -16265,7 +22128,7 @@
      },
      "itemId": 274933,
      "name": "Swift Umber Galestrider",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     }
    },
@@ -16274,16 +22137,307 @@
    "positions": [
     {
      "instance": 2991,
-     "mapX": 0.5378,
-     "mapY": 0.8129,
+     "mapX": 0.5381,
+     "mapY": 0.8132,
      "uiMap": 2521,
-     "worldX": 1941.9,
-     "worldY": 1239.7
+     "worldX": 1940.6,
+     "worldY": 1238
     }
    ],
    "repairs": true,
-   "sources": 2,
-   "visits": 2
+   "sources": 3,
+   "visits": 5
+  },
+  "270780": {
+   "entries": {
+    "item:10284": {
+     "costs": {
+      "5": 200
+     },
+     "itemId": 10284,
+     "name": "Simple Flour",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:11291": {
+     "costs": {
+      "5": 4500
+     },
+     "itemId": 11291,
+     "name": "Star Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:159": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:21099": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 21099,
+     "name": "Recipe: Smoked Sagefish",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:21219": {
+     "costs": {
+      "5": 5000
+     },
+     "itemId": 21219,
+     "name": "Recipe: Sagefish Delight",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2678": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2678,
+     "name": "Mild Spices",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2692": {
+     "costs": {
+      "5": 40
+     },
+     "itemId": 2692,
+     "name": "Hot Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272941": {
+     "costs": {
+      "5": 200000
+     },
+     "itemId": 272941,
+     "name": "Thick Logs",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3713": {
+     "costs": {
+      "5": 160
+     },
+     "itemId": 3713,
+     "name": "Soothing Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4470": {
+     "costs": {
+      "5": 38
+     },
+     "itemId": 4470,
+     "name": "Simple Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4471": {
+     "costs": {
+      "5": 135
+     },
+     "itemId": 4471,
+     "name": "Flint and Tinder",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4536": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 4536,
+     "name": "Shiny Red Apple",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Qujo",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7791,
+     "mapY": 0.7801,
+     "uiMap": 1425,
+     "worldX": -535.7,
+     "worldY": -4574.6
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "271465": {
+   "entries": {
+    "item:277104": {
+     "costs": {
+      "5": 2135
+     },
+     "itemId": 277104,
+     "name": "Zephrali Greatsword",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277105": {
+     "costs": {
+      "5": 1714
+     },
+     "itemId": 277105,
+     "name": "Zephrali Blade",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277106": {
+     "costs": {
+      "5": 2151
+     },
+     "itemId": 277106,
+     "name": "Zephrali Smasher",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277107": {
+     "costs": {
+      "5": 1727
+     },
+     "itemId": 277107,
+     "name": "Zephrali Bludgeon",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277108": {
+     "costs": {
+      "5": 1734
+     },
+     "itemId": 277108,
+     "name": "Zephrali Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277109": {
+     "costs": {
+      "5": 2176
+     },
+     "itemId": 277109,
+     "name": "Zephrali Greatstaff",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277110": {
+     "costs": {
+      "5": 1345
+     },
+     "itemId": 277110,
+     "name": "Zephrali Bow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277111": {
+     "costs": {
+      "5": 1350
+     },
+     "itemId": 277111,
+     "name": "Zephrali Crossbow",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Falfaan Halfwind",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.5945,
+     "mapY": 0.7578,
+     "uiMap": 2521,
+     "worldX": 2146,
+     "worldY": 924.1
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
+  },
+  "271478": {
+   "entries": {
+    "item:277080": {
+     "costs": {
+      "5": 1009
+     },
+     "itemId": 277080,
+     "name": "Zephrali Chainmail",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277081": {
+     "costs": {
+      "5": 506
+     },
+     "itemId": 277081,
+     "name": "Zephrali Wristguards",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277082": {
+     "costs": {
+      "5": 508
+     },
+     "itemId": 277082,
+     "name": "Zephrali Gauntlets",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277083": {
+     "costs": {
+      "5": 510
+     },
+     "itemId": 277083,
+     "name": "Zephrali Chain",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277084": {
+     "costs": {
+      "5": 1024
+     },
+     "itemId": 277084,
+     "name": "Zephrali Legguards",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:277085": {
+     "costs": {
+      "5": 775
+     },
+     "itemId": 277085,
+     "name": "Zephrali Greaves",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-20",
+   "name": "Elaria Anvilwind",
+   "positions": [
+    {
+     "instance": 2991,
+     "mapX": 0.5955,
+     "mapY": 0.7603,
+     "uiMap": 2521,
+     "worldX": 2136.8,
+     "worldY": 918.6
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
   },
   "271483": {
    "entries": {
@@ -16396,21 +22550,29 @@
      "stack": 1
     }
    },
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "name": "Ergaan Eastwind",
    "positions": [
     {
      "instance": 2991,
-     "mapX": 0.5968,
-     "mapY": 0.7593,
+     "mapX": 0.5963,
+     "mapY": 0.7598,
      "uiMap": 2521,
-     "worldX": 2140.3,
-     "worldY": 911.8
+     "worldX": 2138.6,
+     "worldY": 914.6
+    },
+    {
+     "instance": 2991,
+     "mapX": 0.5972,
+     "mapY": 0.7589,
+     "uiMap": 2521,
+     "worldX": 2142.1,
+     "worldY": 909.2
     }
    ],
    "repairs": true,
    "sources": 1,
-   "visits": 4
+   "visits": 7
   }
  }
 }
