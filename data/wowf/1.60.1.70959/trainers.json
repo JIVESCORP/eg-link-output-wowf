@@ -4,7 +4,7 @@
   "clientBuild": "1.60.1.70959",
   "collectedOn": {
    "first": "2026-11-19",
-   "last": "2026-11-21"
+   "last": "2026-11-22"
   },
   "dataset": "trainers",
   "license": "CC BY 4.0",
@@ -439,6 +439,90 @@
    "sources": 1,
    "tradeskill": true,
    "trainerType": 2
+  },
+  "2704": {
+   "lastSeen": "2026-11-21",
+   "name": "Hanashi",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.8135,
+     "mapY": 0.1953,
+     "uiMap": 1454,
+     "worldX": 2091.2,
+     "worldY": -4821.7
+    }
+   ],
+   "services": {
+    "196": {
+     "bartered": {
+      "2": {
+       "6": 900
+      }
+     },
+     "icon": 132392,
+     "level": 0,
+     "name": "One-Handed Axes",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 196
+    },
+    "197": {
+     "bartered": {
+      "2": {
+       "6": 900
+      }
+     },
+     "icon": 132395,
+     "level": 0,
+     "name": "Two-Handed Axes",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 197
+    },
+    "227": {
+     "bartered": {
+      "2": {
+       "6": 900
+      }
+     },
+     "icon": 135145,
+     "level": 0,
+     "name": "Staves",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 227
+    },
+    "264": {
+     "bartered": {
+      "2": {
+       "6": 900
+      }
+     },
+     "icon": 135493,
+     "level": 0,
+     "name": "Bows",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 264
+    },
+    "2567": {
+     "bartered": {
+      "2": {
+       "6": 900
+      }
+     },
+     "icon": 135426,
+     "level": 0,
+     "name": "Thrown",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2567
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
   },
   "2798": {
    "lastSeen": "2026-11-20",
@@ -1573,6 +1657,98 @@
      "skillRank": 300,
      "sources": 1,
      "spellId": 1306126
+    }
+   },
+   "sources": 1,
+   "tradeskill": true,
+   "trainerType": 2
+  },
+  "3013": {
+   "lastSeen": "2026-11-22",
+   "name": "Komin Winterhoof",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4976,
+     "mapY": 0.3996,
+     "uiMap": 1456,
+     "worldX": -1128,
+     "worldY": -2.7
+    }
+   ],
+   "services": {
+    "2366": {
+     "bartered": {
+      "2": {
+       "5": 10
+      }
+     },
+     "icon": 136246,
+     "level": 0,
+     "name": "Apprentice Herbalism",
+     "profession": true,
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2366,
+     "step": true
+    },
+    "2368": {
+     "bartered": {
+      "2": {
+       "5": 500
+      }
+     },
+     "icon": 136246,
+     "level": 0,
+     "name": "Journeyman Herbalism",
+     "skill": "Herbalism",
+     "skillRank": 50,
+     "sources": 1,
+     "spellId": 2368
+    },
+    "3570": {
+     "bartered": {
+      "2": {
+       "5": 5000
+      }
+     },
+     "icon": 136246,
+     "level": 0,
+     "name": "Expert Herbalism",
+     "skill": "Herbalism",
+     "skillRank": 125,
+     "sources": 1,
+     "spellId": 3570
+    },
+    "11993": {
+     "bartered": {
+      "2": {
+       "5": 50000
+      }
+     },
+     "icon": 136246,
+     "level": 0,
+     "name": "Artisan Herbalism",
+     "skill": "Herbalism",
+     "skillRank": 200,
+     "sources": 1,
+     "spellId": 11993
+    },
+    "1229705": {
+     "bartered": {
+      "2": {
+       "5": 100
+      }
+     },
+     "category": "Camping",
+     "icon": 133751,
+     "level": 0,
+     "name": "Incense Candle",
+     "rankText": "Tier 1",
+     "skill": "Herbalism",
+     "skillRank": 20,
+     "sources": 1,
+     "spellId": 1229705
     }
    },
    "sources": 1,
@@ -14693,31 +14869,24 @@
    "trainerType": 0
   },
   "4576": {
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-21",
    "name": "Josef Gregorian",
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.709,
-     "mapY": 0.3048,
+     "mapX": 0.707,
+     "mapY": 0.3058,
      "uiMap": 1458,
-     "worldX": 1682.9,
-     "worldY": 193
-    },
-    {
-     "instance": 0,
-     "mapX": 0.7035,
-     "mapY": 0.3021,
-     "uiMap": 1458,
-     "worldX": 1684.6,
-     "worldY": 198.2
+     "worldX": 1682.2,
+     "worldY": 194.9
     }
    ],
    "services": {
     "2385": {
      "bartered": {
       "2": {
-       "5": 50
+       "5": 50,
+       "6": 45
       }
      },
      "category": "Robes and Vests",
@@ -14732,7 +14901,8 @@
     "2386": {
      "bartered": {
       "2": {
-       "5": 200
+       "5": 200,
+       "6": 180
       }
      },
      "category": "Shoes",
@@ -14747,7 +14917,8 @@
     "2392": {
      "bartered": {
       "2": {
-       "5": 50
+       "5": 50,
+       "6": 45
       }
      },
      "category": "Shirts",
@@ -14762,7 +14933,8 @@
     "2393": {
      "bartered": {
       "2": {
-       "5": 25
+       "5": 25,
+       "6": 22
       }
      },
      "category": "Shirts",
@@ -14777,7 +14949,8 @@
     "2394": {
      "bartered": {
       "2": {
-       "5": 50
+       "5": 50,
+       "6": 45
       }
      },
      "category": "Shirts",
@@ -14792,7 +14965,8 @@
     "2395": {
      "bartered": {
       "2": {
-       "5": 300
+       "5": 300,
+       "6": 270
       }
      },
      "category": "Robes and Vests",
@@ -14807,7 +14981,8 @@
     "2396": {
      "bartered": {
       "2": {
-       "5": 200
+       "5": 200,
+       "6": 180
       }
      },
      "category": "Shirts",
@@ -14822,7 +14997,8 @@
     "2397": {
      "bartered": {
       "2": {
-       "5": 200
+       "5": 200,
+       "6": 180
       }
      },
      "category": "Cloaks",
@@ -14837,7 +15013,8 @@
     "2399": {
      "bartered": {
       "2": {
-       "5": 300
+       "5": 300,
+       "6": 270
       }
      },
      "category": "Robes and Vests",
@@ -14852,7 +15029,8 @@
     "2401": {
      "bartered": {
       "2": {
-       "5": 300
+       "5": 300,
+       "6": 270
       }
      },
      "category": "Shoes",
@@ -14867,7 +15045,8 @@
     "2402": {
      "bartered": {
       "2": {
-       "5": 250
+       "5": 250,
+       "6": 225
       }
      },
      "category": "Cloaks",
@@ -14882,7 +15061,8 @@
     "2406": {
      "bartered": {
       "2": {
-       "5": 200
+       "5": 200,
+       "6": 180
       }
      },
      "category": "Shirts",
@@ -14897,7 +15077,8 @@
     "2964": {
      "bartered": {
       "2": {
-       "5": 100
+       "5": 100,
+       "6": 90
       }
      },
      "category": "Reagents",
@@ -14912,7 +15093,8 @@
     "3755": {
      "bartered": {
       "2": {
-       "5": 100
+       "5": 100,
+       "6": 90
       }
      },
      "category": "Bags",
@@ -14927,7 +15109,8 @@
     "3757": {
      "bartered": {
       "2": {
-       "5": 200
+       "5": 200,
+       "6": 180
       }
      },
      "category": "Bags",
@@ -14942,7 +15125,8 @@
     "3813": {
      "bartered": {
       "2": {
-       "5": 800
+       "5": 800,
+       "6": 720
       }
      },
      "category": "Bags",
@@ -14957,7 +15141,8 @@
     "3839": {
      "bartered": {
       "2": {
-       "5": 500
+       "5": 500,
+       "6": 450
       }
      },
      "category": "Reagents",
@@ -14972,7 +15157,8 @@
     "3840": {
      "bartered": {
       "2": {
-       "5": 100
+       "5": 100,
+       "6": 90
       }
      },
      "category": "Gloves",
@@ -14987,7 +15173,8 @@
     "3841": {
      "bartered": {
       "2": {
-       "5": 200
+       "5": 200,
+       "6": 180
       }
      },
      "category": "Bracers",
@@ -15002,7 +15189,8 @@
     "3842": {
      "bartered": {
       "2": {
-       "5": 300
+       "5": 300,
+       "6": 270
       }
      },
      "category": "Leggings",
@@ -15017,7 +15205,8 @@
     "3843": {
      "bartered": {
       "2": {
-       "5": 400
+       "5": 400,
+       "6": 360
       }
      },
      "category": "Gloves",
@@ -15032,7 +15221,8 @@
     "3845": {
      "bartered": {
       "2": {
-       "5": 300
+       "5": 300,
+       "6": 270
       }
      },
      "category": "Shoes",
@@ -15047,7 +15237,8 @@
     "3848": {
      "bartered": {
       "2": {
-       "5": 500
+       "5": 500,
+       "6": 450
       }
      },
      "category": "Spaulders",
@@ -15062,7 +15253,8 @@
     "3850": {
      "bartered": {
       "2": {
-       "5": 500
+       "5": 500,
+       "6": 450
       }
      },
      "category": "Leggings",
@@ -15077,7 +15269,8 @@
     "3852": {
      "bartered": {
       "2": {
-       "5": 750
+       "5": 750,
+       "6": 675
       }
      },
      "category": "Gloves",
@@ -15092,7 +15285,8 @@
     "3855": {
      "bartered": {
       "2": {
-       "5": 750
+       "5": 750,
+       "6": 675
       }
      },
      "category": "Shoes",
@@ -15107,7 +15301,8 @@
     "3859": {
      "bartered": {
       "2": {
-       "5": 750
+       "5": 750,
+       "6": 675
       }
      },
      "category": "Robes and Vests",
@@ -15122,7 +15317,8 @@
     "3861": {
      "bartered": {
       "2": {
-       "5": 1000
+       "5": 1000,
+       "6": 900
       }
      },
      "category": "Cloaks",
@@ -15137,7 +15333,8 @@
     "3865": {
      "bartered": {
       "2": {
-       "5": 1000
+       "5": 1000,
+       "6": 900
       }
      },
      "category": "Reagents",
@@ -15152,7 +15349,8 @@
     "3866": {
      "bartered": {
       "2": {
-       "5": 250
+       "5": 250,
+       "6": 225
       }
      },
      "category": "Shirts",
@@ -15167,7 +15365,8 @@
     "3871": {
      "bartered": {
       "2": {
-       "5": 500
+       "5": 500,
+       "6": 450
       }
      },
      "category": "Shirts",
@@ -15182,7 +15381,8 @@
     "3908": {
      "bartered": {
       "2": {
-       "5": 10
+       "5": 10,
+       "6": 9
       }
      },
      "icon": 136249,
@@ -15196,7 +15396,8 @@
     "3909": {
      "bartered": {
       "2": {
-       "5": 500
+       "5": 500,
+       "6": 450
       }
      },
      "icon": 136249,
@@ -15210,7 +15411,8 @@
     "3910": {
      "bartered": {
       "2": {
-       "5": 5000
+       "5": 5000,
+       "6": 4500
       }
      },
      "icon": 136249,
@@ -15225,7 +15427,8 @@
     "3914": {
      "bartered": {
       "2": {
-       "5": 50
+       "5": 50,
+       "6": 45
       }
      },
      "category": "Leggings",
@@ -15240,7 +15443,8 @@
     "6521": {
      "bartered": {
       "2": {
-       "5": 400
+       "5": 400,
+       "6": 360
       }
      },
      "category": "Cloaks",
@@ -15255,7 +15459,8 @@
     "6690": {
      "bartered": {
       "2": {
-       "5": 1000
+       "5": 1000,
+       "6": 900
       }
      },
      "category": "Robes and Vests",
@@ -15270,7 +15475,8 @@
     "7623": {
      "bartered": {
       "2": {
-       "5": 50
+       "5": 50,
+       "6": 45
       }
      },
      "category": "Robes and Vests",
@@ -15285,7 +15491,8 @@
     "7624": {
      "bartered": {
       "2": {
-       "5": 50
+       "5": 50,
+       "6": 45
       }
      },
      "category": "Robes and Vests",
@@ -15300,7 +15507,8 @@
     "8465": {
      "bartered": {
       "2": {
-       "5": 50
+       "5": 50,
+       "6": 45
       }
      },
      "category": "Dressed for the Occasion",
@@ -15315,7 +15523,8 @@
     "8467": {
      "bartered": {
       "2": {
-       "5": 250
+       "5": 250,
+       "6": 225
       }
      },
      "category": "Dressed for the Occasion",
@@ -15330,7 +15539,8 @@
     "8483": {
      "bartered": {
       "2": {
-       "5": 500
+       "5": 500,
+       "6": 450
       }
      },
      "category": "Shirts",
@@ -15345,7 +15555,8 @@
     "8489": {
      "bartered": {
       "2": {
-       "5": 750
+       "5": 750,
+       "6": 675
       }
      },
      "category": "Shirts",
@@ -15360,7 +15571,8 @@
     "8758": {
      "bartered": {
       "2": {
-       "5": 600
+       "5": 600,
+       "6": 540
       }
      },
      "category": "Leggings",
@@ -15375,7 +15587,8 @@
     "8760": {
      "bartered": {
       "2": {
-       "5": 600
+       "5": 600,
+       "6": 540
       }
      },
      "category": "Hoods",
@@ -15390,7 +15603,8 @@
     "8762": {
      "bartered": {
       "2": {
-       "5": 750
+       "5": 750,
+       "6": 675
       }
      },
      "category": "Hoods",
@@ -15405,7 +15619,8 @@
     "8764": {
      "bartered": {
       "2": {
-       "5": 900
+       "5": 900,
+       "6": 810
       }
      },
      "category": "Robes and Vests",
@@ -15420,7 +15635,8 @@
     "8766": {
      "bartered": {
       "2": {
-       "5": 1000
+       "5": 1000,
+       "6": 900
       }
      },
      "category": "Belts",
@@ -15435,7 +15651,8 @@
     "8770": {
      "bartered": {
       "2": {
-       "5": 1000
+       "5": 1000,
+       "6": 900
       }
      },
      "category": "Robes and Vests",
@@ -15450,7 +15667,8 @@
     "8772": {
      "bartered": {
       "2": {
-       "5": 1000
+       "5": 1000,
+       "6": 900
       }
      },
      "category": "Belts",
@@ -15465,7 +15683,8 @@
     "8774": {
      "bartered": {
       "2": {
-       "5": 1000
+       "5": 1000,
+       "6": 900
       }
      },
      "category": "Spaulders",
@@ -15480,7 +15699,8 @@
     "8776": {
      "bartered": {
       "2": {
-       "5": 50
+       "5": 50,
+       "6": 45
       }
      },
      "category": "Belts",
@@ -15495,7 +15715,8 @@
     "8791": {
      "bartered": {
       "2": {
-       "5": 2500
+       "5": 2500,
+       "6": 2250
       }
      },
      "category": "Robes and Vests",
@@ -15510,7 +15731,8 @@
     "8799": {
      "bartered": {
       "2": {
-       "5": 3000
+       "5": 3000,
+       "6": 2700
       }
      },
      "category": "Leggings",
@@ -15525,7 +15747,8 @@
     "8804": {
      "bartered": {
       "2": {
-       "5": 5000
+       "5": 5000,
+       "6": 4500
       }
      },
      "category": "Gloves",
@@ -15540,7 +15763,8 @@
     "12045": {
      "bartered": {
       "2": {
-       "5": 50
+       "5": 50,
+       "6": 45
       }
      },
      "category": "Shoes",
@@ -15555,7 +15779,8 @@
     "12046": {
      "bartered": {
       "2": {
-       "5": 300
+       "5": 300,
+       "6": 270
       }
      },
      "category": "Leggings",
@@ -15570,7 +15795,8 @@
     "12048": {
      "bartered": {
       "2": {
-       "5": 4000
+       "5": 4000,
+       "6": 3600
       }
      },
      "category": "Robes and Vests",
@@ -15585,7 +15811,8 @@
     "12049": {
      "bartered": {
       "2": {
-       "5": 4000
+       "5": 4000,
+       "6": 3600
       }
      },
      "category": "Leggings",
@@ -15600,7 +15827,8 @@
     "12050": {
      "bartered": {
       "2": {
-       "5": 4000
+       "5": 4000,
+       "6": 3600
       }
      },
      "category": "Robes and Vests",
@@ -15615,7 +15843,8 @@
     "12053": {
      "bartered": {
       "2": {
-       "5": 5000
+       "5": 5000,
+       "6": 4500
       }
      },
      "category": "Gloves",
@@ -15630,7 +15859,8 @@
     "12061": {
      "bartered": {
       "2": {
-       "5": 2500
+       "5": 2500,
+       "6": 2250
       }
      },
      "category": "Shirts",
@@ -15645,7 +15875,8 @@
     "12065": {
      "bartered": {
       "2": {
-       "5": 5000
+       "5": 5000,
+       "6": 4500
       }
      },
      "category": "Bags",
@@ -15660,7 +15891,8 @@
     "12067": {
      "bartered": {
       "2": {
-       "5": 5000
+       "5": 5000,
+       "6": 4500
       }
      },
      "category": "Gloves",
@@ -15675,7 +15907,8 @@
     "12069": {
      "bartered": {
       "2": {
-       "5": 5000
+       "5": 5000,
+       "6": 4500
       }
      },
      "category": "Robes and Vests",
@@ -15690,7 +15923,8 @@
     "12070": {
      "bartered": {
       "2": {
-       "5": 5000
+       "5": 5000,
+       "6": 4500
       }
      },
      "category": "Robes and Vests",
@@ -15705,7 +15939,8 @@
     "1229504": {
      "bartered": {
       "2": {
-       "5": 100
+       "5": 100,
+       "6": 90
       }
      },
      "category": "Camping",
@@ -15721,7 +15956,8 @@
     "1257368": {
      "bartered": {
       "2": {
-       "5": 500
+       "5": 500,
+       "6": 450
       }
      },
      "category": "Belts",
@@ -15736,7 +15972,8 @@
     "1257369": {
      "bartered": {
       "2": {
-       "5": 500
+       "5": 500,
+       "6": 450
       }
      },
      "category": "Belts",
@@ -15751,7 +15988,8 @@
     "1257426": {
      "bartered": {
       "2": {
-       "5": 1450
+       "5": 1450,
+       "6": 1305
       }
      },
      "category": "Shoes",
@@ -15766,7 +16004,8 @@
     "1257427": {
      "bartered": {
       "2": {
-       "5": 1450
+       "5": 1450,
+       "6": 1305
       }
      },
      "category": "Shoes",
@@ -15781,7 +16020,8 @@
     "1257428": {
      "bartered": {
       "2": {
-       "5": 1450
+       "5": 1450,
+       "6": 1305
       }
      },
      "category": "Shoes",
@@ -15796,7 +16036,8 @@
     "1257429": {
      "bartered": {
       "2": {
-       "5": 1450
+       "5": 1450,
+       "6": 1305
       }
      },
      "category": "Shoes",
@@ -15811,7 +16052,8 @@
     "1257430": {
      "bartered": {
       "2": {
-       "5": 1450
+       "5": 1450,
+       "6": 1305
       }
      },
      "category": "Shoes",
@@ -15826,7 +16068,8 @@
     "1257431": {
      "bartered": {
       "2": {
-       "5": 1450
+       "5": 1450,
+       "6": 1305
       }
      },
      "category": "Shoes",
@@ -29611,6 +29854,161 @@
      "skillRank": 0,
      "sources": 1,
      "spellId": 5011
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
+  "11868": {
+   "lastSeen": "2026-11-21",
+   "name": "Sayoc",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.8153,
+     "mapY": 0.1955,
+     "uiMap": 1454,
+     "worldX": 2091,
+     "worldY": -4824.1
+    }
+   ],
+   "services": {
+    "196": {
+     "bartered": {
+      "2": {
+       "6": 900
+      }
+     },
+     "icon": 132392,
+     "level": 0,
+     "name": "One-Handed Axes",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 196
+    },
+    "197": {
+     "bartered": {
+      "2": {
+       "6": 900
+      }
+     },
+     "icon": 132395,
+     "level": 0,
+     "name": "Two-Handed Axes",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 197
+    },
+    "264": {
+     "bartered": {
+      "2": {
+       "6": 900
+      }
+     },
+     "icon": 135493,
+     "level": 0,
+     "name": "Bows",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 264
+    },
+    "1180": {
+     "bartered": {
+      "2": {
+       "6": 900
+      }
+     },
+     "icon": 132321,
+     "level": 0,
+     "name": "Daggers",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 1180
+    },
+    "2567": {
+     "bartered": {
+      "2": {
+       "6": 900
+      }
+     },
+     "icon": 135426,
+     "level": 0,
+     "name": "Thrown",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 2567
+    },
+    "15590": {
+     "bartered": {
+      "2": {
+       "6": 900
+      }
+     },
+     "icon": 132938,
+     "level": 0,
+     "name": "Fist Weapons",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 15590
+    }
+   },
+   "sources": 1,
+   "tradeskill": false,
+   "trainerType": 0
+  },
+  "11869": {
+   "lastSeen": "2026-11-22",
+   "name": "Ansekhwa",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.409,
+     "mapY": 0.6214,
+     "uiMap": 1456,
+     "worldX": -1282.4,
+     "worldY": 89.8
+    }
+   ],
+   "services": {
+    "198": {
+     "bartered": {
+      "2": {
+       "5": 1000
+      }
+     },
+     "icon": 133476,
+     "level": 0,
+     "name": "One-Handed Maces",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 198
+    },
+    "199": {
+     "bartered": {
+      "2": {
+       "5": 1000
+      }
+     },
+     "icon": 133479,
+     "level": 0,
+     "name": "Two-Handed Maces",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 199
+    },
+    "227": {
+     "bartered": {
+      "2": {
+       "5": 1000
+      }
+     },
+     "icon": 135145,
+     "level": 0,
+     "name": "Staves",
+     "skillRank": 0,
+     "sources": 1,
+     "spellId": 227
     }
    },
    "sources": 1,

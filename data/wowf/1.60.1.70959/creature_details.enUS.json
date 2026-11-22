@@ -378,6 +378,30 @@
    "type": 7,
    "unitClass": 1
   },
+  "89": {
+   "classification": 0,
+   "creatureDifficultyId": 89,
+   "displays": [
+    {
+     "displayId": 131450,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.6,
+   "movementInfoId": 1699,
+   "name": "Infernal",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 3,
+   "unitClass": 1
+  },
   "92": {
    "classification": 0,
    "creatureDifficultyId": 92,
@@ -3555,7 +3579,7 @@
    "hpMultiplier": 1.0,
    "movementInfoId": 1693,
    "name": "Tarantula",
-   "sources": 2,
+   "sources": 3,
    "totalProbability": 1.0,
    "type": 1,
    "unitClass": 1
@@ -13553,7 +13577,7 @@
    "questItems": [
     2606
    ],
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 1.0,
    "type": 1,
    "unitClass": 1
@@ -21673,7 +21697,7 @@
    "hpMultiplier": 1.3,
    "movementInfoId": 1693,
    "name": "Slavering Ghoul",
-   "sources": 2,
+   "sources": 3,
    "totalProbability": 1.0,
    "type": 6,
    "unitClass": 1
@@ -21802,6 +21826,30 @@
    "type": 1,
    "unitClass": 1
   },
+  "1802": {
+   "classification": 0,
+   "creatureDifficultyId": 1802,
+   "displays": [
+    {
+     "displayId": 4629,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.35,
+   "movementInfoId": 1693,
+   "name": "Hungering Wraith",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 6,
+   "unitClass": 1
+  },
   "1805": {
    "classification": 1,
    "creatureDifficultyId": 1805,
@@ -21908,6 +21956,34 @@
     20611
    ],
    "sources": 4,
+   "totalProbability": 1.0,
+   "type": 1,
+   "unitClass": 1
+  },
+  "1816": {
+   "classification": 0,
+   "creatureDifficultyId": 1816,
+   "displays": [
+    {
+     "displayId": 1083,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 4,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.5,
+   "movementInfoId": 1693,
+   "name": "Diseased Grizzly",
+   "questItems": [
+    20611
+   ],
+   "sources": 1,
    "totalProbability": 1.0,
    "type": 1,
    "unitClass": 1
@@ -30910,6 +30986,39 @@
    "totalProbability": 2.0,
    "type": 7,
    "unitClass": 2
+  },
+  "2558": {
+   "classification": 1,
+   "creatureDifficultyId": 2558,
+   "displays": [
+    {
+     "displayId": 4001,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 4002,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 3.0,
+   "movementInfoId": 1693,
+   "name": "Witherbark Berserker",
+   "questItems": [
+    4503,
+    7273
+   ],
+   "sources": 1,
+   "totalProbability": 2.0,
+   "type": 7,
+   "unitClass": 1
   },
   "2559": {
    "classification": 0,
@@ -52469,7 +52578,7 @@
    "questItems": [
     277936
    ],
-   "sources": 3,
+   "sources": 4,
    "totalProbability": 0.0,
    "type": 7,
    "unitClass": 2
@@ -56825,6 +56934,33 @@
    "type": 1,
    "unitClass": 1
   },
+  "4517": {
+   "classification": 1,
+   "creatureDifficultyId": 4517,
+   "displays": [
+    {
+     "displayId": 6096,
+     "probability": 0.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 3.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 3.0,
+   "movementInfoId": 1693,
+   "name": "Death's Head Priest",
+   "questItems": [
+    5825
+   ],
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 7,
+   "unitClass": 2
+  },
   "4525": {
    "classification": 1,
    "creatureDifficultyId": 4525,
@@ -58975,6 +59111,31 @@
    "totalProbability": 0.0,
    "type": 3,
    "unitClass": 2
+  },
+  "4695": {
+   "classification": 0,
+   "creatureDifficultyId": 4695,
+   "displays": [
+    {
+     "displayId": 10825,
+     "probability": 0.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 7,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.15,
+   "movementInfoId": 1693,
+   "name": "Carrion Horror",
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 1,
+   "unitClass": 1
   },
   "4696": {
    "classification": 0,
@@ -70904,6 +71065,31 @@
    "type": 7,
    "unitClass": 2
   },
+  "5988": {
+   "classification": 0,
+   "creatureDifficultyId": 5988,
+   "displays": [
+    {
+     "displayId": 6068,
+     "probability": 0.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 20,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.3,
+   "movementInfoId": 1693,
+   "name": "Scorpok Stinger",
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 1,
+   "unitClass": 1
+  },
   "5994": {
    "classification": 0,
    "creatureDifficultyId": 5994,
@@ -72473,6 +72659,33 @@
    "totalProbability": 0.0,
    "type": 3,
    "unitClass": 8
+  },
+  "6206": {
+   "classification": 1,
+   "creatureDifficultyId": 6206,
+   "displays": [
+    {
+     "displayId": 830,
+     "probability": 0.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 3.25,
+   "movementInfoId": 1693,
+   "name": "Caverndeep Burrower",
+   "questItems": [
+    9309
+   ],
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 7,
+   "unitClass": 1
   },
   "6218": {
    "classification": 1,
@@ -76224,7 +76437,7 @@
    "questItems": [
     12230
    ],
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 0.0,
    "type": 10,
    "unitClass": 1
@@ -76480,7 +76693,7 @@
    "questItems": [
     11503
    ],
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 0.0,
    "type": 4,
    "unitClass": 1
@@ -76534,7 +76747,7 @@
    "questItems": [
     11674
    ],
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 0.0,
    "type": 3,
    "unitClass": 2
@@ -77031,7 +77244,7 @@
    "hpMultiplier": 1.3,
    "movementInfoId": 1693,
    "name": "Deadwood Shaman",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 0.0,
    "type": 7,
    "unitClass": 2
@@ -79243,6 +79456,30 @@
    "type": 11,
    "unitClass": 1
   },
+  "7487": {
+   "classification": 0,
+   "creatureDifficultyId": 7487,
+   "displays": [
+    {
+     "displayId": 4590,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 0.05,
+   "movementInfoId": 1693,
+   "name": "Grace of Air Totem II",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 11,
+   "unitClass": 1
+  },
   "7489": {
    "classification": 0,
    "creatureDifficultyId": 7489,
@@ -79314,6 +79551,33 @@
    "totalProbability": 1.0,
    "type": 7,
    "unitClass": 1
+  },
+  "7523": {
+   "classification": 0,
+   "creatureDifficultyId": 7523,
+   "displays": [
+    {
+     "displayId": 10701,
+     "probability": 0.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.3,
+   "movementInfoId": 1693,
+   "name": "Suffering Highborne",
+   "questItems": [
+    21936
+   ],
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 6,
+   "unitClass": 2
   },
   "7527": {
    "classification": 0,
@@ -84208,6 +84472,34 @@
    "type": 3,
    "unitClass": 1
   },
+  "8601": {
+   "classification": 0,
+   "creatureDifficultyId": 8601,
+   "displays": [
+    {
+     "displayId": 7896,
+     "probability": 0.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 24,
+   "flags": [
+    134217729,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.35,
+   "movementInfoId": 1693,
+   "name": "Noxious Plaguebat",
+   "questItems": [
+    238935
+   ],
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 1,
+   "unitClass": 1
+  },
   "8603": {
    "classification": 0,
    "creatureDifficultyId": 8603,
@@ -85824,6 +86116,30 @@
    "totalProbability": 0.0,
    "type": 4,
    "unitClass": 1
+  },
+  "9031": {
+   "classification": 1,
+   "creatureDifficultyId": 9031,
+   "displays": [
+    {
+     "displayId": 3004,
+     "probability": 0.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 5.0,
+   "flags": [
+    134217728,
+    128,
+    0
+   ],
+   "hpMultiplier": 8.0,
+   "movementInfoId": 1693,
+   "name": "Anub'shiah",
+   "sources": 1,
+   "totalProbability": 0.0,
+   "type": 6,
+   "unitClass": 2
   },
   "9041": {
    "classification": 1,
@@ -87857,6 +88173,30 @@
    "sources": 1,
    "totalProbability": 0.0,
    "type": 1,
+   "unitClass": 1
+  },
+  "9687": {
+   "classification": 0,
+   "creatureDifficultyId": 9687,
+   "displays": [
+    {
+     "displayId": 4590,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 0.05,
+   "movementInfoId": 1693,
+   "name": "Windwall Totem",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 11,
    "unitClass": 1
   },
   "9689": {
@@ -91841,7 +92181,7 @@
    "hpMultiplier": 1.35,
    "movementInfoId": 1693,
    "name": "Decrepit Guardian",
-   "sources": 1,
+   "sources": 2,
    "totalProbability": 0.0,
    "type": 6,
    "unitClass": 1
@@ -92770,6 +93110,30 @@
    "title": "Master Leatherworker",
    "totalProbability": 1.0,
    "type": 7,
+   "unitClass": 1
+  },
+  "11100": {
+   "classification": 0,
+   "creatureDifficultyId": 11100,
+   "displays": [
+    {
+     "displayId": 4587,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 0.05,
+   "movementInfoId": 1693,
+   "name": "Mana Tide Totem II",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 11,
    "unitClass": 1
   },
   "11101": {
@@ -96423,6 +96787,45 @@
    "sources": 2,
    "totalProbability": 1.0,
    "type": 1,
+   "unitClass": 1
+  },
+  "12380": {
+   "classification": 0,
+   "creatureDifficultyId": 12380,
+   "displays": [
+    {
+     "displayId": 12430,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 12431,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 13949,
+     "probability": 1.0,
+     "scale": 1.0
+    },
+    {
+     "displayId": 13950,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.35,
+   "movementInfoId": 1693,
+   "name": "Unliving Resident",
+   "sources": 1,
+   "totalProbability": 4.0,
+   "type": 6,
    "unitClass": 1
   },
   "12383": {
@@ -101956,6 +102359,31 @@
    "name": "Frostwolf Emissary",
    "sources": 4,
    "totalProbability": 4.0,
+   "type": 7,
+   "unitClass": 1
+  },
+  "15116": {
+   "classification": 0,
+   "creatureDifficultyId": 15116,
+   "displays": [
+    {
+     "displayId": 15237,
+     "probability": 100.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217728,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "movementInfoId": 1693,
+   "name": "Grinkle",
+   "sources": 1,
+   "title": "Fishing Promoter",
+   "totalProbability": 100.0,
    "type": 7,
    "unitClass": 1
   },
@@ -109392,6 +109820,33 @@
    "totalProbability": 2.0,
    "type": 7,
    "unitClass": 2
+  },
+  "253529": {
+   "classification": 0,
+   "creatureDifficultyId": 334414,
+   "displays": [
+    {
+     "displayId": 3035,
+     "probability": 1.0,
+     "scale": 0.7
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "family": 5,
+   "flags": [
+    1,
+    0,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "name": "Bristleback Snortsnout",
+   "proxyCreatureIds": [
+    253852
+   ],
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 1,
+   "unitClass": 1
   },
   "253622": {
    "classification": 0,
@@ -125929,6 +126384,29 @@
    "type": 11,
    "unitClass": 1
   },
+  "271645": {
+   "classification": 0,
+   "creatureDifficultyId": 355369,
+   "displays": [
+    {
+     "displayId": 146718,
+     "probability": 1.0,
+     "scale": 1.0
+    }
+   ],
+   "energyMultiplier": 1.0,
+   "flags": [
+    134217792,
+    67109958,
+    0
+   ],
+   "hpMultiplier": 1.0,
+   "name": "I Went This Way",
+   "sources": 1,
+   "totalProbability": 1.0,
+   "type": 11,
+   "unitClass": 1
+  },
   "271648": {
    "classification": 0,
    "creatureDifficultyId": 355372,
@@ -127670,7 +128148,7 @@
    "hpMultiplier": 0.3041,
    "movementInfoId": 1699,
    "name": "Spider Swarmling",
-   "sources": 2,
+   "sources": 3,
    "totalProbability": 1.0,
    "type": 1,
    "unitClass": 1
@@ -130872,7 +131350,7 @@
    "hpMultiplier": 1.0,
    "movementInfoId": 1693,
    "name": "Krazore",
-   "sources": 2,
+   "sources": 3,
    "totalProbability": 1.0,
    "type": 7,
    "unitClass": 2
@@ -131294,12 +131772,12 @@
  },
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
-  "cacheFiles": 266,
+  "cacheFiles": 324,
   "cachesLeftOut": 0,
   "clientBuild": "1.60.1.70959",
   "collectedOn": {
    "first": "2026-11-17",
-   "last": "2026-11-21"
+   "last": "2026-11-22"
   },
   "dataset": "creature_details",
   "license": "CC BY 4.0",
