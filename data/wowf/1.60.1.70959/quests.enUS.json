@@ -1,12 +1,12 @@
 {
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
-  "cacheFiles": 323,
+  "cacheFiles": 369,
   "cachesLeftOut": 0,
   "clientBuild": "1.60.1.70959",
   "collectedOn": {
    "first": "2026-11-17",
-   "last": "2026-11-22"
+   "last": "2026-11-23"
   },
   "dataset": "quests",
   "license": "CC BY 4.0",
@@ -270,7 +270,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "The Scrimshank Redemption",
    "zoneAreaId": 440
   },
@@ -2668,7 +2668,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Noxious Lair Investigation",
    "zoneAreaId": 440
   },
@@ -11571,7 +11571,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 5,
+   "sources": 6,
    "title": "The Green Hills of Stranglethorn",
    "zoneAreaId": 33
   },
@@ -11947,7 +11947,33 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 5,
+   "sources": 6,
+   "title": "Stranglethorn Fever",
+   "zoneAreaId": 33
+  },
+  "349": {
+   "description": "temp text 02 - description",
+   "flags": 8,
+   "level": 35,
+   "minLevel": 32,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 380213,
+     "objectId": 2799,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "temp text 02 - log",
+   "questType": 0,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
    "title": "Stranglethorn Fever",
    "zoneAreaId": 33
   },
@@ -13607,6 +13633,40 @@
    "title": "The Curious Visitor",
    "zoneAreaId": 1519
   },
+  "393": {
+   "description": "I really haven't a clue, $n. There is someone else who might be able to help you, and it so happens that he owes me a favor for--well, let's not get into that. Master Mathias Shaw of SI:7 can be found in the barracks in Old Town. Shaw has his thumb on most of the shady, or underhanded dealings of the city.$B$BIf anyone knows, it'd be him.",
+   "flags": 0,
+   "level": 29,
+   "minLevel": 16,
+   "nextQuestId": 350,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380192,
+     "objectId": 8687,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Sealed Description of Thredd's Visitor to Master Mathias Shaw in Stormwind.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 8687,
+   "title": "Shadow of the Past",
+   "zoneAreaId": 1519
+  },
   "394": {
    "description": "Find Shaw in Old Town. Let him know that the Lescovar threat has been dealt with and about your involvement in the Lord's plots against the city. I'm sure he'll be proud to have another hero among Stormwind's citizens.$B$BHe'll more than likely send you off to meet with the Prince or some other noble. Don't let it get to your head, $n. The nobles can think they rule the city all they want, but some things remain out of their hands.",
    "flags": 8,
@@ -14615,7 +14675,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Arugal's Folly",
    "zoneAreaId": 130
   },
@@ -15108,7 +15168,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 4,
+   "sources": 5,
    "startItemId": 3234,
    "title": "Rot Hide Clues",
    "zoneAreaId": 130
@@ -15294,7 +15354,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 4,
+   "sources": 5,
    "startItemId": 3237,
    "title": "Rot Hide Origins",
    "zoneAreaId": 130
@@ -15598,7 +15658,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "A Recipe For Death",
    "zoneAreaId": 130
   },
@@ -16496,7 +16556,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 4,
+   "sources": 5,
    "startItemId": 3353,
    "title": "Maps and Runes",
    "zoneAreaId": 130
@@ -16606,7 +16666,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "startItemId": 3353,
    "title": "Dalar's Analysis",
    "zoneAreaId": 130
@@ -20404,7 +20464,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 4,
+   "sources": 5,
    "title": "Whiskey Slim's Lost Grog",
    "zoneAreaId": 33
   },
@@ -20675,7 +20735,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Up to Snuff",
    "zoneAreaId": 33
   },
@@ -20731,7 +20791,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 4,
+   "sources": 5,
    "title": "The Singing Crystals",
    "zoneAreaId": 33
   },
@@ -20941,7 +21001,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Bloodsail Buccaneers",
    "zoneAreaId": 33
   },
@@ -21010,7 +21070,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Bloodsail Buccaneers",
    "zoneAreaId": 33
   },
@@ -21211,7 +21271,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "The Bloodsail Buccaneers",
    "zoneAreaId": 33
   },
@@ -21391,7 +21451,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 5,
+   "sources": 6,
    "title": "The Bloodsail Buccaneers",
    "zoneAreaId": 33
   },
@@ -22864,7 +22924,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "timeLimitSeconds": 7200,
    "title": "Tanaris Field Sampling",
    "zoneAreaId": 440
@@ -25281,6 +25341,39 @@
    "title": "Prospect of Faith",
    "zoneAreaId": 3
   },
+  "724": {
+   "description": "Okay, okay... who would know what to do?$B$BHistorian Karnik! That's it!$B$BHe's in Ironforge. He'll be able to help. He and Hammertoe were workin' together to find the lost artifacts in Uldaman.$B$BGuess the Shadowforge found out the two of them knew more than they were lettin' on.$B$BTell Karnik what's happened to Hammertoe and give him the amulet--he'll tell you what needs to be done next.",
+   "flags": 0,
+   "level": 40,
+   "minLevel": 35,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380971,
+     "objectId": 4635,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Take Hammertoe's Amulet to Historian Karnik in Ironforge.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 47,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 4635,
+   "title": "Prospect of Faith",
+   "zoneAreaId": 3
+  },
   "725": {
    "description": "$n, run and find Advisor Belgrum as quickly as you can. Tell him what you've witnessed and ask him how he wants us to proceed. This note will explain more to him.$B$BIn the meantime, I will take the time to speak to Hammertoe's spirit. Maybe he knows something that will help us put a stop to those Shadowforge cretins' activities in the Badlands. We can only pray.",
    "flags": 0,
@@ -25862,7 +25955,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Dangers of the Windfury",
    "zoneAreaId": 215
   },
@@ -25912,7 +26005,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Preparation for Ceremony",
    "zoneAreaId": 1638
   },
@@ -25967,7 +26060,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Sharing the Land",
    "zoneAreaId": 215
   },
@@ -26015,7 +26108,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 4,
+   "sources": 5,
    "title": "Dwarven Digging",
    "zoneAreaId": 215
   },
@@ -26105,7 +26198,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Poison Water",
    "zoneAreaId": 215
   },
@@ -26290,7 +26383,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 5411,
    "title": "Winterhoof Cleansing",
    "zoneAreaId": 215
@@ -26530,7 +26623,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Swoop Hunting",
    "zoneAreaId": 215
   },
@@ -26760,7 +26853,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 5,
+   "sources": 6,
    "title": "Mazzranache",
    "zoneAreaId": 215
   },
@@ -26950,7 +27043,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Rite of Vision",
    "zoneAreaId": 215
   },
@@ -27079,7 +27172,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Rites of the Earthmother",
    "zoneAreaId": 215
   },
@@ -28266,7 +28359,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "A Solvent Spirit",
    "zoneAreaId": 14
   },
@@ -28371,7 +28464,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Chen's Empty Keg",
    "zoneAreaId": 17
   },
@@ -28871,7 +28964,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 5,
+   "sources": 6,
    "title": "A Sacred Burial",
    "zoneAreaId": 215
   },
@@ -29759,7 +29852,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Tear of the Moons",
    "zoneAreaId": 17
   },
@@ -30710,7 +30803,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Ishamuhale",
    "zoneAreaId": 17
   },
@@ -30743,7 +30836,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 4,
+   "sources": 5,
    "startItemId": 5099,
    "title": "Lakota'mani",
    "zoneAreaId": 17
@@ -31417,7 +31510,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Samophlange",
    "zoneAreaId": 17
   },
@@ -31624,7 +31717,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Enraged Thunder Lizards",
    "zoneAreaId": 17
   },
@@ -31751,7 +31844,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Cry of the Thunderhawk",
    "zoneAreaId": 17
   },
@@ -39374,7 +39467,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Test of Lore",
    "zoneAreaId": 400
   },
@@ -41077,7 +41170,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 5918,
    "title": "The Troll Witchdoctor",
    "zoneAreaId": 15
@@ -43134,7 +43227,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Raid on the Kolkar",
    "zoneAreaId": 405
   },
@@ -46017,6 +46110,34 @@
    },
    "sources": 3,
    "title": "News of Dogran"
+  },
+  "1511": {
+   "categoryId": 61,
+   "description": "I figured there might be another coming to get the draught, so I prepared it anyways.$b$bHere you go, $n. Mind you, you should only give half of it to him! That will give him enough strength to move without bleeding himself dry. Wait a night, then give him the other half.$b$bAnyways, you'll want to bring this to Logmar at Camp Taurajo. From what the first one told me, he should have an idea where this Dogran is.",
+   "flags": 0,
+   "level": 20,
+   "minLevel": 20,
+   "nextQuestId": 1515,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381661,
+     "objectId": 6624,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Ken'zigla's Draught to Grunt Logmar at Camp Taurajo.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 6624,
+   "title": "Ken'zigla's Draught"
   },
   "1512": {
    "categoryId": 61,
@@ -50035,6 +50156,43 @@
    "sources": 3,
    "title": "Speak with Un'thuwa"
   },
+  "1884": {
+   "categoryId": 161,
+   "description": "The warlock Zalazane of the Echo Isles has disrupted the normal flow of magic in Durotar.  He does this through tainted fetishes, ju-ju heaps, which he has placed among his huts on the main Echo Isle.$B$BThese heaps corrupt our wildlife and give power to the warlocks and infernal creatures that lurk in the land's dark corners.$B$BYou must destroy the ju-ju heaps, $n, before the flow of magic is forever altered.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 4,
+     "id": 381915,
+     "objectId": 102986,
+     "storageIndex": 0,
+     "text": "Ju-Ju Heaps Destroyed",
+     "type": "gameObject",
+     "typeId": 2
+    }
+   ],
+   "objectivesText": "Destroy 4 Ju-Ju Heaps, then return to Un'thuwa in Sen'jin Village.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 7508
+     },
+     {
+      "count": 1,
+      "itemId": 9513
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Ju-Ju Heaps"
+  },
   "1885": {
    "categoryId": 162,
    "description": "$n? Not quite what I was expecting, considering Carkad himself has taken an interest to you. Looks can be deceiving though, right?$b$bEither way, you should go see him as soon as possible. You wouldn't want to know what happened to the last few that chose to ignore his summons.",
@@ -50078,6 +50236,33 @@
    },
    "sources": 1,
    "startItemId": 7231,
+   "title": "The Deathstalkers"
+  },
+  "1899": {
+   "categoryId": 162,
+   "description": "You'll find the ledger with the information your employers seek on the bookshelf behind me. Deliver it with my regards, and tell them that I would prefer it if they sent you, if they find enough value that they should wish to continue our arrangement.",
+   "flags": 8,
+   "level": 13,
+   "minLevel": 10,
+   "nextQuestId": 1978,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381919,
+     "objectId": 7294,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Astor's Ledger to Mennet Carkad in the Rogues' Quarter of Undercity.",
+   "questType": 2,
+   "raceMask": "0000000000000010",
+   "rewards": {
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
    "title": "The Deathstalkers"
   },
   "1918": {
@@ -53391,7 +53576,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Boar's Vitality",
    "zoneAreaId": 4
   },
@@ -53973,7 +54158,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Rin'ji is Trapped!",
    "zoneAreaId": 47
   },
@@ -54496,7 +54681,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 8663,
    "title": "Booty Bay or Bust!"
   },
@@ -54665,7 +54850,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Great Silver Deceiver"
   },
   "2763": {
@@ -54705,7 +54890,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Art of the Imbue"
   },
   "2764": {
@@ -56339,7 +56524,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Stoley's Shipment",
    "zoneAreaId": 440
   },
@@ -57127,7 +57312,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 4,
+   "sources": 5,
    "title": "Undamaged Venom Sac",
    "zoneAreaId": 47
   },
@@ -57439,7 +57624,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 6064,
    "title": "Seeing What Happens",
    "zoneAreaId": 1537
@@ -57820,7 +58005,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 6064,
    "title": "Seeing What Happens",
    "zoneAreaId": 1638
@@ -60178,7 +60363,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 9558,
    "title": "Encrypted Memorandum"
   },
@@ -60475,7 +60660,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "startItemId": 9628,
    "title": "Return to Witch Doctor Uzer'i",
    "zoneAreaId": 357
@@ -61301,7 +61486,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Thistleshrub Valley",
    "zoneAreaId": 440
   },
@@ -61796,7 +61981,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.8
    },
-   "sources": 3,
+   "sources": 4,
    "title": "The Sunken Temple",
    "zoneAreaId": 1417
   },
@@ -63084,7 +63269,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "startItemId": 10699,
    "title": "Screecher Spirits",
    "zoneAreaId": 440
@@ -66322,7 +66507,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 11146,
    "title": "Rilli Greasygob",
    "zoneAreaId": 17
@@ -87926,7 +88111,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Naga at the Zoram Strand",
    "zoneAreaId": 331
   },
@@ -88446,8 +88631,38 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 4,
+   "sources": 5,
    "title": "Torek's Assault",
+   "zoneAreaId": 331
+  },
+  "6546": {
+   "flags": 8,
+   "level": 25,
+   "minLevel": 17,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383608,
+     "objectId": 16746,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "questType": 0,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 16765
+     }
+    ],
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Warsong Outrider Update",
    "zoneAreaId": 331
   },
   "6548": {
@@ -96493,7 +96708,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Stalking the Stalkers",
    "zoneAreaId": 47
   },
@@ -96929,7 +97144,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Cannibalistic Cousins",
    "zoneAreaId": 47
   },
@@ -97118,7 +97333,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Dark Vessels",
    "zoneAreaId": 47
   },
@@ -97232,7 +97447,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Job Opening: Guard Captain of Revantusk Village",
    "zoneAreaId": 47
   },
@@ -102609,7 +102824,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Pirate Hats Ahoy!",
    "zoneAreaId": 440
   },
@@ -102676,7 +102891,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 4,
+   "sources": 5,
    "title": "Southsea Shakedown",
    "zoneAreaId": 440
   },
@@ -113943,7 +114158,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "startItemId": 206159,
    "title": "Stalk With The Earthmother",
    "zoneAreaId": 215
@@ -114013,7 +114228,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "startItemId": 206344,
    "title": "Stalk With The Earthmother",
    "zoneAreaId": 215
@@ -114678,7 +114893,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 211272,
    "title": "Terror of the Desert Skies",
    "zoneAreaId": 3
@@ -122779,7 +122994,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Bloodfury Trinkets",
    "zoneAreaId": 406
   },
@@ -134812,7 +135027,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Carved Centaur Totems",
    "zoneAreaId": 405
   },
@@ -135975,7 +136190,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Partially Digested Collar",
    "zoneAreaId": 16651
   },
@@ -142496,7 +142711,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Big Voodoo Mask",
    "treasurePickerIds": [
     4818
@@ -146858,7 +147073,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Jom-jom's Escape",
    "zoneAreaId": 16591
   },
@@ -152918,7 +153133,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Coming to Collect",
    "zoneAreaId": 16591
   },
@@ -153258,7 +153473,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "We've Been Robbed!",
    "zoneAreaId": 16591
   },
@@ -153693,7 +153908,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Torn Mystical Scroll",
    "zoneAreaId": 33
   },
@@ -154258,7 +154473,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Vrang's Game",
    "zoneAreaId": 17
   },
@@ -154291,7 +154506,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Unwelcome Guests",
    "zoneAreaId": 17
   },
@@ -155430,7 +155645,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Enemies in the Water",
    "zoneAreaId": 33
   },
@@ -168112,7 +168327,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 4,
+   "sources": 5,
    "title": "Dunemaul Dues",
    "zoneAreaId": 440
   },
@@ -172764,9 +172979,44 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Never Coming Back",
    "zoneAreaId": 1638
+  },
+  "98252": {
+   "description": "Show my Eye of Kilrogg the way out of this ravine and back to the Ashenvale road. Keep it moving and I'll follow once I see a clear path.\r\n\r\nI'll stay here--one of us should keep our bearings. If you lose the way, I can guide you back through the eye. I will not have us both wandering blind in this malicious forest.\r\n\r\nI can hold the channel for four minutes. No longer. Reach the road before the vision breaks, or return to me and we try again.",
+   "flags": 3145728,
+   "level": 23,
+   "minLevel": 18,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 477150,
+     "objectId": 271182,
+     "storageIndex": 0,
+     "text": "Eye of Kilrogg guided to the road",
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Show Va'xug's Eye of Kilrogg the way back to the main Ashenvale road.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 81,
+      "tier": 1
+     }
+    ],
+    "spellId": 1308019,
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "timeLimitSeconds": 240,
+   "title": "A Void Path",
+   "zoneAreaId": 16169
   },
   "98282": {
    "description": "Certain alchemical recipes require ingredients sourced from, well, very dangerous places. And those are often just the base herbs! The other ingredients are even worse!\r\n\r\nI need to make more antivenom before I can leave again. I swear everything in this marsh is venomous. It's like it runs through the land itself!\r\n\r\nCan you help me? I'll need a venom gland from the spiders in Thelgen Rock to the far southeast. But it has to be unruptured, or too much venom will spill out before you can get here. Sorry!",
@@ -173141,7 +173391,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 4,
+   "sources": 5,
    "title": "Arugal's Folly",
    "zoneAreaId": 130
   },
@@ -173189,7 +173439,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 5,
+   "sources": 6,
    "title": "Stop the Spread",
    "zoneAreaId": 130
   },
@@ -174363,7 +174613,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Fizsprocket's Notes",
    "zoneAreaId": 215
   },
@@ -176419,7 +176669,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Drive Them Out",
    "zoneAreaId": 215
   },
@@ -178603,7 +178853,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Kyle's Gone Missing!",
    "zoneAreaId": 215
   },
