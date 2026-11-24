@@ -1,7 +1,7 @@
 {
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
-  "cacheFiles": 369,
+  "cacheFiles": 373,
   "cachesLeftOut": 0,
   "clientBuild": "1.60.1.70959",
   "collectedOn": {
@@ -3392,7 +3392,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "The Totem of Infliction",
    "zoneAreaId": 10
   },
@@ -16075,7 +16075,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "<UNUSED>",
    "zoneAreaId": 11
   },
@@ -20421,7 +20421,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 3898,
    "title": "The Stone of the Tides",
    "zoneAreaId": 33
@@ -20815,7 +20815,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Rogue's Deal",
    "zoneAreaId": 154
   },
@@ -24928,7 +24928,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Study of the Elements: Rock",
    "zoneAreaId": 3
   },
@@ -49205,6 +49205,33 @@
    "startItemId": 6999,
    "title": "The Binding"
   },
+  "1796": {
+   "categoryId": 61,
+   "description": "The first item I will aid you in creating is a robe. You will gather the items for me, and we will put them together. Afterwards, assuming you succeed, you will have the first of many items that will make you more powerful and aid you in your struggles.$B$BTo start, you must have crafted Robes of Arcana. A tailor can make this for you, or perhaps you can purchase one from someone else--I'd be most impressed if you could make it yourself--but regardless, bring me the robes, and we shall go from there.",
+   "flags": 8,
+   "level": 31,
+   "minLevel": 31,
+   "nextQuestId": 4781,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381862,
+     "objectId": 5770,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring Robes of the Arcana to Menara Voidrender in the Barrens.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Components for the Enchanted Gold Bloodrobe"
+  },
   "1798": {
    "categoryId": 61,
    "description": "It is time you learned the felhunter summoning, $n. I do not have the reagents and items necessary to teach you here, so you will have to seek out another, Strahad Farsan, another of our inner circle.$b$bHe makes his residence in the goblin port of Ratchet. I will send word ahead of you to inform him of your coming.",
@@ -49739,7 +49766,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Orm Stonehoof and the Brutal Helm"
   },
   "1841": {
@@ -51935,7 +51962,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Simple Subterfugin'"
   },
   "2239": {
@@ -64090,7 +64117,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "<UNUSED>",
    "zoneAreaId": 1657
   },
@@ -69169,7 +69196,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Scent of Lar'korwi",
    "zoneAreaId": 490
   },
@@ -74432,7 +74459,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 12721,
    "title": "Two Halves Become One",
    "zoneAreaId": 28
@@ -81399,7 +81426,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Desperate Prayer"
   },
   "5639": {
@@ -81445,6 +81472,27 @@
    },
    "sources": 4,
    "title": "Desperate Prayer"
+  },
+  "5641": {
+   "categoryId": 262,
+   "flags": 2097160,
+   "level": 20,
+   "minLevel": 20,
+   "questType": 0,
+   "raceMask": "0000000000000004",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 1277331,
+      "type": 3
+     }
+    ],
+    "spellId": 19337,
+    "xpDifficulty": 0,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Chastise"
   },
   "5642": {
    "categoryId": 262,
@@ -81765,7 +81813,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Hex of Weakness"
   },
   "5656": {
@@ -82205,7 +82253,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "One Shot. One Kill.",
    "zoneAreaId": 148
   },
@@ -82437,7 +82485,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Hidden Enemies",
    "zoneAreaId": 1637
   },
@@ -83416,7 +83464,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Salve via Mining",
    "zoneAreaId": 361
   },
@@ -83973,7 +84021,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Back to Thunder Bluff"
   },
   "5941": {
@@ -84864,7 +84912,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 15917,
    "title": "Taming the Beast"
   },
@@ -95365,6 +95413,39 @@
    "title": "JOB OPPORTUNITY: Culling the Competition",
    "zoneAreaId": 51
   },
+  "7730": {
+   "description": "From what scouting we have managed to muster, we believe that the foe south of the gnolls is an insect-like race.  Frankly, it is irrelevant whether or not if they're sentient.  If they are driving the gnolls to frenzy against us, then they are as big of a threat - if not more - than the gnolls.$B$BDrive deep into where these Zukk'ash insects dwell; it is known as the Writhing Deep.  Thin their numbers and report back to me what you find, bringing back their carapaces as evidence of your handiwork.",
+   "flags": 8,
+   "level": 45,
+   "minLevel": 39,
+   "objectives": [
+    {
+     "amount": 20,
+     "id": 383939,
+     "objectId": 18961,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 20 Zukk'ash Carapaces to Hadoken Swiftstrider at Camp Mojache, Feralas.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 6500,
+    "reputation": [
+     {
+      "factionId": 67,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Zukk'ash Infestation",
+   "zoneAreaId": 357
+  },
   "7731": {
    "description": "In surveying the Writhing Deep, one of our scouts reported seeing a giant insect - much larger than the other insects spotted - wandering about the twisted terrain.  Not only is it larger, it also seems to secrete some sort of aura that the other insects don't.  We've given it a name - Stinglasher.$B$BThe innards of this beast would be invaluable to study as we figure out the best way to deal with this new threat.  Cut out its secretion glands and bring it back to me immediately!",
    "flags": 8,
@@ -96741,7 +96822,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Hunt the Savages",
    "zoneAreaId": 47
   },
@@ -120626,6 +120707,52 @@
    "title": "Just Compensation",
    "zoneAreaId": 1537
   },
+  "84169": {
+   "description": "You kept your word and brought the device built by Mux.  I believe a reward is in order if I'm to keep you interested in saving my skin.  Bring me the belt and set of gloves that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+   "flags": 8,
+   "level": 60,
+   "minLevel": 58,
+   "nextQuestId": 8929,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 451911,
+     "objectId": 16702,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 451912,
+     "objectId": 16705,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring a Dreadmist Belt and a set of Dreadmist Wraps to Deliana in Ironforge.",
+   "questInfoId": 81,
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 226911
+     },
+     {
+      "count": 1,
+      "itemId": 226905
+     }
+    ],
+    "xpDifficulty": 7,
+    "xpMultiplier": 2.0
+   },
+   "sources": 1,
+   "title": "Just Compensation",
+   "zoneAreaId": 1537
+  },
   "84170": {
    "description": "You kept your word and brought the device built by Mux.  I believe a reward is in order if I'm to keep you interested in saving my skin.  Bring me the belt and set of gauntlets that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
    "flags": 8,
@@ -122471,7 +122598,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Oh No Ye Don't!"
   },
   "84330": {
@@ -127403,7 +127530,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Spear of the Skylord",
    "zoneAreaId": 616
   },
@@ -136594,7 +136721,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Lost in Transit",
    "zoneAreaId": 8
   },
@@ -139702,7 +139829,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Heavy Leather Ball",
    "treasurePickerIds": [
     4817
@@ -142405,7 +142532,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Dusky Bracers",
    "treasurePickerIds": [
     4818
@@ -150584,7 +150711,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 268036,
    "title": "Curios of Curiosity",
    "zoneAreaId": 16842

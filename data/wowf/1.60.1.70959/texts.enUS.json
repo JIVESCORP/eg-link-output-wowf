@@ -1549,12 +1549,12 @@
     ],
     "sexes": {
      "female": 1,
-     "male": 11
+     "male": 12
     },
     "sources": 2,
     "template": "broadcastText",
     "text": "Where would you like to fly to?",
-    "times": 12
+    "times": 13
    }
   ],
   "npc:1652": [
@@ -2062,12 +2062,12 @@
     ],
     "sexes": {
      "female": 2,
-     "male": 31
+     "male": 34
     },
     "sources": 3,
     "template": "broadcastText",
     "text": "What can these old bones do for you, $c? Perhaps you would like to hear of a troll legend?",
-    "times": 33
+    "times": 36
    }
   ],
   "npc:251902": [
@@ -2940,6 +2940,16 @@
     "times": 2
    }
   ],
+  "npc:260857": [
+   {
+    "sexes": {
+     "male": 3
+    },
+    "sources": 1,
+    "text": "Nothin' like a good view of the port so you can call first dibs on shipments.",
+    "times": 3
+   }
+  ],
   "npc:260873": [
    {
     "broadcastTextIds": [
@@ -3387,12 +3397,12 @@
      8095
     ],
     "sexes": {
-     "male": 7
+     "male": 9
     },
     "sources": 3,
     "template": "broadcastText",
     "text": "How may I be of service?",
-    "times": 7
+    "times": 9
    }
   ],
   "npc:2861": [
@@ -4257,6 +4267,16 @@
     "times": 1
    }
   ],
+  "npc:4453": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Be careful where you put that foot of yours, mister. We're not all blessed with the lofty height of a skyborne.",
+    "times": 1
+   }
+  ],
   "npc:4489": [
    {
     "broadcastTextIds": [
@@ -4903,12 +4923,12 @@
      3792
     ],
     "sexes": {
-     "male": 6
+     "male": 7
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "Living out here in the desert is rough! I get so thirsty standing outside in this heat.",
-    "times": 6
+    "times": 7
    }
   ],
   "npc:7683": [
@@ -4946,12 +4966,12 @@
      5983
     ],
     "sexes": {
-     "male": 3
+     "male": 6
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "Ah a visitor! Must be an adventurer, we don't get many tourists down this way. Grab a chair and a drink, make yourself comfortable. Say, you look like you have some meat on your bones. You thinkin about competing in the cage matches?",
-    "times": 3
+    "times": 6
    }
   ],
   "npc:7763": [
@@ -4994,6 +5014,16 @@
     "template": "broadcastText",
     "text": "I know, I know, I'm out here in the middle of nowhere!$B$BMy home is actually in Ratchet, but after crashing my zeppelin here, I thought I might as well start the research I came here to do!",
     "times": 6
+   }
+  ],
+  "npc:7804": [
+   {
+    "sexes": {
+     "male": 1
+    },
+    "sources": 1,
+    "text": "Sul'thraze... the first time I heard the word uttered I was around your age. It meant nothing to me then, as it means nothing to you now. It was not until a warband of trolls coming from Zul'Farrak laid waste to the land that I understood... and feared.\n\nMany will tell you that the Splitblade of Suffering does not exist. That it's a myth; a rumor started to scare children 'straight.' But believe me, skyborne, it exists.\n\n<Trenton loses focus as he runs his hand across the jagged scar on his face.>",
+    "times": 1
    }
   ],
   "npc:7824": [
@@ -5072,12 +5102,12 @@
      4565
     ],
     "sexes": {
-     "male": 2
+     "male": 3
     },
-    "sources": 1,
+    "sources": 2,
     "template": "broadcastText",
     "text": "Greetings, $c.  Though time and drink have dulled my outer senses, my inner eyes remain strong.",
-    "times": 2
+    "times": 3
    }
   ],
   "npc:8587": [
@@ -5644,11 +5674,11 @@
   "npc:7407": [
    {
     "sexes": {
-     "male": 3
+     "male": 7
     },
-    "sources": 1,
+    "sources": 2,
     "text": "The name's Bilgewhizzle, and I am the chief engineer of the Gadgetzan Water Company.  What can I assist you with?",
-    "times": 3
+    "times": 7
    }
   ],
   "npc:773": [
@@ -5665,21 +5695,21 @@
   "npc:7876": [
    {
     "sexes": {
-     "male": 2
+     "male": 5
     },
-    "sources": 1,
+    "sources": 2,
     "text": "Some people wonder what we're doing out here in the desert.  Well... if I told you, then you'd stay and try to make our profits!",
-    "times": 2
+    "times": 5
    }
   ],
   "npc:7882": [
    {
     "sexes": {
-     "male": 2
+     "male": 5
     },
-    "sources": 1,
+    "sources": 2,
     "text": "We're here to make a profit.  And having our goods stolen is no way to make a profit.",
-    "times": 2
+    "times": 5
    }
   ],
   "npc:8379": [
@@ -5695,11 +5725,11 @@
   "object:150075": [
    {
     "sexes": {
-     "male": 1
+     "male": 2
     },
-    "sources": 1,
+    "sources": 2,
     "text": " ",
-    "times": 1
+    "times": 2
    }
   ],
   "object:2076": [
@@ -5719,7 +5749,7 @@
   "clientBuild": "1.60.1.70959",
   "collectedOn": {
    "first": "2026-11-19",
-   "last": "2026-11-23"
+   "last": "2026-11-24"
   },
   "dataset": "texts",
   "license": "CC BY 4.0",
@@ -7229,6 +7259,19 @@
      "template": "questCache",
      "text": "You will be headed to the Tanaris desert, testing the tissue consistency of the basilisks, scorpids, and hyena native there.  Obtain tissue samples and use them with the testing kit in tow; expect a chunk of the samples to fail.  I need eight acceptable samples of each creature type.$B$BIn addition, the goblins of Gadgetzan have a power source that must be used with this kind of modified kit.  Speak to Chief Engineer Bilgewhizzle and acquire one for the kit.$B$BReturn to me only when you are successful.",
      "times": 2
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7407": 1
+     },
+     "text": "Ah, our model 4711-FTZ power sources!  We normally use them to power the water wells, but THANKS TO THE VILE NOMADS, we have an over abundance of power sources right now.\n\nSure, I can get you a power source for whatever nefarious science experiment you think you're trying to hide from me.  It ain't gonna be free though, skyborne.  Nothing's free in Gadgetzan.",
+     "times": 1
     }
    ],
    "objectives": [
@@ -10059,6 +10102,19 @@
      "times": 2
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2465": 1
+     },
+     "text": "A most ideal sinew, $N.  Your efforts will pay off soon.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -10071,6 +10127,19 @@
      "template": "questCache",
      "text": "Bring an Aged Gorilla Sinew to Far Seer Mok'thardin in Grom'gol.",
      "times": 2
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2465": 1
+     },
+     "text": "Has fortune been on your side, $N?  Were you able to obtain an aged gorilla sinew?",
+     "times": 1
     }
    ]
   },
@@ -10127,6 +10196,49 @@
      },
      "text": "Did your gathering efforts prove fruitful?",
      "times": 2
+    }
+   ]
+  },
+  "573": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2465": 1
+     },
+     "template": "questCache",
+     "text": "There is but one final reagent needed to complete the enchantment.$b$bIn the south, towards the western coast, high above the bluffs, lies a Holy Spring.  This spring is the subject of great conflict amongst religious and mystical scholars.  Every race in Azeroth claims that the spring waters were made divine for their people.$b$bMy final request of you: bring to me Holy Spring Water.  Be warned.  An expedition of naga explorers have advanced upon the spring.  They will need to be dealt with as well.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2465": 1
+     },
+     "template": "questCache",
+     "text": "Far Seer Mok'thardin of Grom'gol needs Holy Spring Water.  He also wants you to kill 10 Naga Explorers.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2465": 1
+     },
+     "text": "I am almost ready to complete the enchantment.  Have you performed my bidding?",
+     "times": 1
     }
    ]
   },
@@ -10555,6 +10667,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2519": 1
+     },
+     "text": "You have done well, $N.  These shards are well formed.  Already I hear them sing to me.\n\nAnd while you were gone, I spoke with the spirits of the jungle.  I know where the Mind's Eye rests...\n\n...And who guards it.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -10566,6 +10691,49 @@
      },
      "template": "questCache",
      "text": "Bring 3 Pulsing Blue Shards to Kin'weelay at the Grom'gol Base Camp.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2519": 1
+     },
+     "text": "Do you have the shards, $N?  They are needed for my final ritual, after we have the Mind's Eye.",
+     "times": 1
+    }
+   ]
+  },
+  "591": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2519": 1
+     },
+     "template": "questCache",
+     "text": "The Mind's Eye is held by an ogre mage, east of here and deep within the Mosh'Ogg ogre mound.  His name is Mai'Zoth.  I know him from when the Darkspears dwelt in Stranglethorn - he is vicious, and his magic is strong.$B$BAnd if he has the Mind's Eye, then his magic will be stronger still.$B$BYou must face Mai'Zoth and wrest from him the Mind's Eye.  It is a perilous task, but it is the only hope we have of saving Yenniku.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2519": 1
+     },
+     "template": "questCache",
+     "text": "Bring the Mind's Eye to Kin'weelay at the Grom'gol Base Camp.",
      "times": 1
     }
    ]
@@ -10829,6 +10997,19 @@
      "times": 2
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2498": 1
+     },
+     "text": "Great!  Wonderful!  I can get a bundle for these!!\n\nThat Venture Company sure picked the wrong jungle to mine in, didn't they?  We'd all be in better shape if they moved out of here.\n\nThank you, $N.  You've done a good deed this day.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -10842,6 +11023,19 @@
      "template": "questCache",
      "text": "Bring 10 Singing Blue Crystals to Crank Fizzlebub in Booty Bay.",
      "times": 2
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2498": 1
+     },
+     "text": "Do you have those crystals??  I need them!!\n\nI mean...I need to know the evil Venture Company is losing ground in Stranglethorn.  Because, you know, we honest folk have to make a living!",
+     "times": 1
     }
    ]
   },
@@ -11088,6 +11282,62 @@
     }
    ]
   },
+  "613": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "none": 1
+     },
+     "template": "questCache",
+     "text": "Curses!  That swab Maury put a lock on his foot, and I can't open it!  His loot's inside the foot, and that's what he owes me!$B$BWe need to find the key to open the lock.  Maury was known to gamble with the Mosh'Ogg ogres, at their mound to the northeast.  And he told me, when he was still alive, that the last time he went to the mound he was chased off after winning too much.  Maybe the Ogres there have his key.$B$BBut if they do, you might have to kill a load of them to find the right one...",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2501": 1
+     },
+     "text": "You found it!  Thanks a million, $N.  You've been a big help to me!\n\nHere you go - you earned this!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "none": 1
+     },
+     "template": "questCache",
+     "text": "Bring Maury's Key to \"Sea Wolf\" Mackinley in Booty Bay.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2501": 1
+     },
+     "text": "Ahoy, $N!  Have you yet found Maury's Key?",
+     "times": 1
+    }
+   ]
+  },
   "617": {
    "accept": [
     {
@@ -11115,6 +11365,19 @@
      "template": "questCache",
      "text": "Bring 10 Bundles of Akiris Reed to Privateer Bloads in Booty Bay.",
      "times": 3
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2494": 1
+     },
+     "text": "If ya got no business with me, then move along, $N.",
+     "times": 1
     }
    ]
   },
@@ -14282,6 +14545,79 @@
     }
    ]
   },
+  "1114": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4452": 1
+     },
+     "template": "questCache",
+     "text": "Now that I have what I need, give these parts to Fizzle Brassbolts.  He's been waiting a long time for them -- I'm sure he won't miss the little piece I removed from his order...$B$BAnd I wouldn't bother mentioning it to him.  It was small and worthless.$B$BTrust me.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4452": 1
+     },
+     "template": "questCache",
+     "text": "Bring the Delicate Car Parts to Fizzle Brassbolts in Shimmering Flats.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4454": 1
+     },
+     "text": "You have something for me?  That's great!  let's see it!",
+     "times": 1
+    }
+   ]
+  },
+  "1115": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4452": 1
+     },
+     "template": "questCache",
+     "text": "Now that we've done a service for the gnomes, it's time to do the goblins a favor!  $B$BI hear that the goblin racer pilot, Nazz Steamboil, didn't always use that name.  I wonder why he changed it.  I wonder if it's a secret, and... I wonder if he values that secret.$B$BIf anyone knows the truth, then it's Krazek of Booty Bay, on the southern tip of Stranglethorn.  Speak with Krazek and ask him about our goblin pilot.$B$BIf you can get useful information from him, then we might just turn a profit from it.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4452": 1
+     },
+     "template": "questCache",
+     "text": "Talk to Krazek in Booty Bay.",
+     "times": 1
+    }
+   ]
+  },
   "1130": {
    "accept": [
     {
@@ -14544,6 +14880,21 @@
     }
    ]
   },
+  "1187": {
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4706": 1
+     },
+     "text": "How'm I supposed to show my face around the track without a little extra kick to get me going? It's a travesty, I tell you.",
+     "times": 1
+    }
+   ]
+  },
   "1189": {
    "accept": [
     {
@@ -14570,6 +14921,21 @@
      },
      "template": "questCache",
      "text": "Return the Modified Seaforium Booster to Razzeric on the Shimmering Flats.",
+     "times": 1
+    }
+   ]
+  },
+  "1190": {
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:20805": 1
+     },
+     "text": "Scribbled in a hasty, hurried hand, a scroll of notes and designs for the refinement of some raw material.",
      "times": 1
     }
    ]
@@ -15028,14 +15394,14 @@
    "complete": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:7407": 1
+      "npc:7407": 2
      },
      "text": "Now that's what I call efficiency!  You've helped thin out the nomad's numbers enough now that we can start to think about how we can win back those water wells.\n\nThe Gadgetzan Water Company thanks you for your help, but we're far from done in dealing with those foul nomads.  Listen close - here's what we need next...",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
@@ -15057,29 +15423,29 @@
    "accept": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:7407": 1
+      "npc:7407": 2
      },
      "template": "questCache",
      "text": "We need you to take on the stronger ranks of the Wastewander nomads now.  You've done a good job thus far, but if we are to take back those water wells, then it only makes sense to do it against as few nomads as possible!$B$BThis time around we need you to take down their rogues, assassins, and shadow mages.  You'll find them east and southeast of here.$B$BI'm not going to lie to you - they're a nasty lot.  Do this for us though, and we'll be on our way to taking back what is rightfully ours!",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:7407": 1
+      "npc:7407": 2
      },
      "template": "questCache",
      "text": "Take down 10 Wastewander Shadow Mages, 8 Wastewander Rogues, and 6 Wastewander Assassins for Chief Engineer Bilgewhizzle in Gadgetzan.\r\n",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -15128,14 +15494,14 @@
    "progress": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:7408": 1
+      "npc:7408": 2
      },
      "text": "Got the five Wastewander water pouches we need?  If you do, then the Gadgetzan Water Company Care Package, Model 103-XB, will be yours!",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -15405,15 +15771,15 @@
    "accept": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:7564": 1
+      "npc:7564": 2
      },
      "template": "questCache",
      "text": "I've got an idea, see. I've heard of some strange creatures called dew collectors that live to the southwest... and that they are able to store water in special glands.$B$BI think that if I could get one of these glands, I could create a drink that would quench my terrible thirst! Do you think you could help me, $n?$B$BLook for the cactus garden, $n; that's where you'll find the dew collectors.",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
@@ -15432,15 +15798,15 @@
    "objectives": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:7564": 1
+      "npc:7564": 2
      },
      "template": "questCache",
      "text": "Collect a Laden Dew Gland and bring it to Marin Noggenfogger in Gadgetzan.",
-     "times": 1
+     "times": 2
     }
    ],
    "progress": [
@@ -15616,14 +15982,14 @@
    "progress": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "object:142071": 1
+      "object:142071": 2
      },
      "text": "The Super Egg-O-Matic is the latest of Curgle Cranklehop's inventions. It is quite an impressive piece of machinery.\n\nThe Super Egg-O-Matic sputters wildly as you approach the control panel.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -15713,6 +16079,66 @@
     }
    ]
   },
+  "2768": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7407": 1
+     },
+     "template": "questCache",
+     "text": "Sergeant Bly stole from me!  He said he'd only borrow it, but he stole my cherished divino-matic rod!!  Without that rod how will I know where to dig new water holes??$B$BFind Bly and bring me my rod!  I heard he led his band of ill-reputed adventurers to go treasure hunting in Zul'Farrak to the west.  I bet you'll find him there.$B$BLet's hope the trolls took care of him, because if you have to fight him for the rod then you're in for a serious fight.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7407": 1
+     },
+     "template": "questCache",
+     "text": "Bring the Divino-matic Rod to Chief Engineer Bilgewhizzle in Gadgetzan.",
+     "times": 1
+    }
+   ]
+  },
+  "2770": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4453": 1
+     },
+     "template": "questCache",
+     "text": "Deep in Zul'Farrak, the sand troll city in Tanaris, there is a sacred pool.  From that pool the trolls summon a huge beast!  Gahz'rilla!  He's so fierce that even his scales crackle with energy.  It's that energy I want to harness for my car!$B$BBring me the electrified scale of Gahz'rilla!$B$BBut the summoning of Gahz'rilla is a well-kept secret of the trolls.  To face him, you must first wrest the secret from them.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:4453": 1
+     },
+     "template": "questCache",
+     "text": "Bring Gahz'rilla's Electrified Scale to Wizzle Brassbolts in the Shimmering Flats.",
+     "times": 1
+    }
+   ]
+  },
   "2781": {
    "accept": [
     {
@@ -15725,6 +16151,19 @@
      },
      "template": "questCache",
      "text": "WANTED: Caliph Scorpidsting!$B$BThe Gadgetzan Water Company of Gadgetzan, Tanaris will pay a high bounty for the head of Caliph Scorpidsting, leader of the Wastewander outlaws.  His crimes include:$B$B1.  Murdering Gadgetzan Water Co. employees!$B2.Stealing Gadgetzan Water Co. resources!$B3.Seizing Gadgetzan Water Co. property!$B$BBring proof of Caliph Scorpidsting's demise to Chief Engineer Bilgewhizzle for an immediate reward!",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7407": 1
+     },
+     "text": "Finally - justice is served!  You have struck a mighty blow against those vile nomads!  With Scorpidsting's demise, this might be just the thing to finally push those squatters off of Gadgetzan's water wells!\n\nBy the authority of the Gadgetzan Water Company, I gladly award you with this bounty.  You've done a great service for us all.",
      "times": 1
     }
    ],
@@ -15745,14 +16184,14 @@
    "progress": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:7407": 1
+      "npc:7407": 2
      },
      "text": "Yes $c, I am an official of the Gadgetzan Water Company.  What can I assist you with?",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -15828,6 +16267,19 @@
      "times": 4
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7876": 1
+     },
+     "text": "Hello!\n\nOh, you spoke to my cousin Krazek?  How is he?  I hope Booty Bay is treating him well...\n\nScarab shells, you say?  Well... let me tell you a story...",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -15841,6 +16293,36 @@
      "template": "questCache",
      "text": "Speak with Tran'rek in Gadgetzan.",
      "times": 4
+    }
+   ]
+  },
+  "2865": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7876": 1
+     },
+     "template": "questCache",
+     "text": "The scarabs of Tanaris have very hard shells!  Hard enough to use as a building material for lots of things.  So many things!$B$BIn fact, those shells are so useful... the scarabs were hunted all to near extinction!$B$BI know where there are more scarabs, and if you promise to bring me their shells then I'll tell you where they are.  Promise?$B$BOk, the scarabs have a colony in Zul'Farrak.  I guess the trolls don't hunt them for their shells.$B$BBut you can!  Go to Zul'Farrak and get me uncracked shells!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7876": 1
+     },
+     "template": "questCache",
+     "text": "Bring 5 Uncracked Scarab Shells to Tran'rek in Gadgetzan.",
+     "times": 1
     }
    ]
   },
@@ -15878,15 +16360,16 @@
    "accept": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "none": 1
+      "none": 1,
+      "npc:7881": 1
      },
      "template": "questCache",
      "text": "I owe \"Sea Wolf\" MacKinley in Booty Bay some rum, to settle a bet, but I'm all out of rum!  Captain Cuergo stole my last shipment, and he has it stowed in that walled pirate town to the south.$B$BIf you can find my shipment of rum and return it to me, then I can prove to MacKinley that Kalimdor's booze beats the dirt out of Booty Bay!",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
@@ -15905,15 +16388,16 @@
    "objectives": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "none": 1
+      "none": 1,
+      "npc:7881": 1
      },
      "template": "questCache",
      "text": "Bring Stoley's Shipment to Stoley in Steamwheedle Port.",
-     "times": 1
+     "times": 2
     }
    ],
    "progress": [
@@ -16029,6 +16513,19 @@
      "text": "Gather Witherbark Skulls and place on Nimboya's Pike.  Place Nimboya's Laden Pike at one of the Witherbark Villages in the Hinterlands, then return to Nimboya in Stranglethorn.",
      "times": 12
     }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:2497": 1
+     },
+     "text": "You have not completed my task, $N.",
+     "times": 1
+    }
    ]
   },
   "2933": {
@@ -16143,6 +16640,36 @@
      },
      "template": "questCache",
      "text": "Oran Snakewrithe in Undercity wants you to travel to the Hinterlands and burn the Highvale Records, Highvale Report, and Highvale Notes.",
+     "times": 1
+    }
+   ]
+  },
+  "3042": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7804": 1
+     },
+     "template": "questCache",
+     "text": "The Sandfury trolls of Zul'Farrak make a tempering agent from sandstones, and I can use that to temper the goods I craft, yes I can!  It is highly prized by connoisseurs, so if you bring me a good supply of the temper, then I'll reward you well.$B$BZul'Farrak is northwest of Gadgetzan.  Good luck.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7804": 1
+     },
+     "template": "questCache",
+     "text": "Bring 20 Vials of Troll Temper to Trenton Lighthammer in Gadgetzan.",
      "times": 1
     }
    ]
@@ -16492,6 +17019,20 @@
    ]
   },
   "3362": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7876": 1
+     },
+     "template": "questCache",
+     "text": "Have you ever seen Thistleshrub Valley? It's a mighty dangerous place, $n.$B$BThose strange beasts there, I don't trust them for a minute! Gnarled thistleshrubs and thistleshrub rootshapers, that's what I think they were called...$B$BAnyhow, I want to get into the valley, but with so many of those thistleshrubs around, there's no way I'm going back there. But here's where you come in -- if you clear some of them out, I just might think about going back. What do you think, $n? Help me out?",
+     "times": 1
+    }
+   ],
    "complete": [
     {
      "sexes": {
@@ -16502,6 +17043,20 @@
       "npc:7876": 1
      },
      "text": "They're that big? I might have to rethink my plan...\n\nBut you did hold up your end of the bargain, so here's what I promised.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7876": 1
+     },
+     "template": "questCache",
+     "text": "Tran'rek in Gadgetzan wants you to kill 8 Gnarled Thistleshrubs and 8 Thistleshrub Rootshapers.",
      "times": 1
     }
    ]
@@ -17725,6 +18280,20 @@
    ]
   },
   "5863": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:11758": 1
+     },
+     "template": "questCache",
+     "text": "Just recently, a large bank of nomadic ogres arrived in Tanaris. South of here, they have taken over a large area of the desert and formed a compound. Several smaller bands are currently wandering the desert, some of which have invaded the old troll ruins.$B$BThe Dunemaul Compound must be destroyed! We cannot allow these ogres to build up a force.$B$BThe leader of this band is named Gor'marok the Ravager; I believe that putting an end to his leadership will be the beginning of the end for the ogres.",
+     "times": 1
+    }
+   ],
    "complete": [
     {
      "sexes": {
@@ -17741,15 +18310,15 @@
    "objectives": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:11758": 1
+      "npc:11758": 2
      },
      "template": "questCache",
      "text": "Andi Lynn in Gadgetzan wants you to destroy the Dunemaul Compound by killing 10 Dunemaul Brutes, 10 Dunemaul Enforcers, and Gor'marok the Ravager.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -19544,15 +20113,16 @@
    "accept": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "none": 1
+      "none": 1,
+      "npc:7882": 1
      },
      "template": "questCache",
      "text": "Argh! They want the impossible from me!$B$BThe Steamwheedle Cartel wants me to teach the Southsea pirates a lesson.  The problem is that I can't be in two places at once; I need to stay here to keep the peace.$B$BOf late, the pirates have been disregarding the protection money that the cartel regularly forks over. So I'd like to temporarily deputize you to go down there and show them what for.$B$BYou'll find them at Lost Rigger Cove, which is not too far to the south.  Thanks $n, I'll owe you one!",
-     "times": 1
+     "times": 2
     }
    ],
    "complete": [
@@ -19571,15 +20141,16 @@
    "objectives": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "none": 1
+      "none": 1,
+      "npc:7882": 1
      },
      "template": "questCache",
      "text": "Security Chief Bilgewhizzle of Steamwheedle Port in Tanaris wants you to kill 10 Southsea Pirates, 10 Southsea Freebooters, 10 Southsea Dock Workers and 10 Southsea Swashbucklers.",
-     "times": 1
+     "times": 2
     }
    ]
   },
@@ -25218,6 +25789,36 @@
     }
    ]
   },
+  "95144": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7733": 1
+     },
+     "template": "questCache",
+     "text": "Hey, bub. Got a package that needs to go to an old friend of mine. Whatever you do--\r\n\r\nDO NOT OPEN THE PACKAGE!\r\n\r\nTake this--carefully--to Friz Frazzlespark across the seas over to our sister port in the Riverglades. And before you ask, no I would not suggest swimming. Didn't work out so well for the last guy. Oh, and don't tilt it, shake it, or make any sudden movements.\r\n\r\nI recommend heading east to Steamwheedle Port. The ship from there usually provides safe passage.\r\n\r\nBest of luck to ya!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:7733": 1
+     },
+     "template": "questCache",
+     "text": "Deliver Fizzgrimble's Mysterious Crate to Friz Frazzlespark at Powderfuse Port in the Riverglades.",
+     "times": 1
+    }
+   ]
+  },
   "95162": {
    "accept": [
     {
@@ -25855,6 +26456,19 @@
      "times": 2
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:260405": 1
+     },
+     "text": "There's no way I'm lettin' you into my town without me checkin' your cargo first.\r\n\r\n<The wharfmaster clears his throat deliberately as he maintains eye contact with you.>\r\n\r\nNo. Way.",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -25867,6 +26481,92 @@
      "template": "questCache",
      "text": "Speak with Wharfmaster Steamfizzle at Steamwheedle Port in Tanaris.",
      "times": 2
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:260405": 1
+     },
+     "text": "Shipment from Powderfuse Port, huh? And from Friz no less. Good luck with that, buddy. You gotta wake up pretty early in the mornin' to pull that one over me!",
+     "times": 1
+    }
+   ]
+  },
+  "95312": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:260857": 1
+     },
+     "template": "questCache",
+     "text": "I don't have Friz's money. Well, I had her money, but I bet it all on ol' Slugjaw here in Fizbuz's arena in Gadgetzan.\r\n\r\nDon't gimme that look. It was a sound investment. I won big! I just haven't had a chance to collect my winnin's yet. If you're Friz's new errand $Gboy:girl;, why don't you go get it for me? I got a bad back, you know.\r\n\r\nHey, you don't want to go back to your boss empty handed, do ya? Gadgetzan is just west of here. You can't miss it.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:260857": 1
+     },
+     "template": "questCache",
+     "text": "Speak with Fizbuz Mithril in Gadgetzan.",
+     "times": 1
+    }
+   ]
+  },
+  "95321": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:220984": 1
+     },
+     "template": "questCache",
+     "text": "Tazzik sent you to collect his winnings? That's a joke, right? His slackjaw champion didn't even last two minutes in the arena! That loser didn't earn a single copper.\r\n\r\nIt's none of my business, pal, but if I were you I'd skedaddle back to Steamwheedle Port. While you're standin' here talkin' to me, that little rat Tazzik is probably tryin' to hop the next ship outta here.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:260857": 1
+     },
+     "text": "Okay you win! I bet everythin' I had on those fights to pay off Friz and I lost it all!\r\n\r\nBut I can't give back her stuff. You gotta help me out here!",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:220984": 1
+     },
+     "template": "questCache",
+     "text": "Confront Tazzik in Steamwheedle Port in Tanaris.",
+     "times": 1
     }
    ]
   },
@@ -25928,6 +26628,19 @@
      "times": 1
     }
    ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:630887": 1
+     },
+     "text": "<A grease covered tome filled with notes of business deals between the Venture Co. and its associates.>",
+     "times": 1
+    }
+   ],
    "objectives": [
     {
      "sexes": {
@@ -25939,6 +26652,148 @@
      },
      "template": "questCache",
      "text": "Find the Venture Co. Ledger in the Venture Co. Camp near Lake Nezferiti in Stranglethorn.",
+     "times": 1
+    }
+   ]
+  },
+  "95326": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:630887": 1
+     },
+     "template": "questCache",
+     "text": "<The ledger contains a log of each of Ruzzgot's deliveries. The final note marks the heist a success and Ruzzgot's valuables collected by a nearby Venture Co. agent. The goods must still be with him.>",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3945": 1
+     },
+     "text": "That's more like it! If a caravaneer can't be trusted with a delivery, what else does he have? \r\n\r\nSay, you don't need help shipping this to Powderfuse Port, do ya?",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "object:630887": 1
+     },
+     "template": "questCache",
+     "text": "Kill the Venture Co. Agent and take back Ruzzgot's Shipment for him in Booty Bay.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3945": 1
+     },
+     "text": "Well? You find out who took my stuff?",
+     "times": 1
+    }
+   ]
+  },
+  "95327": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3945": 1
+     },
+     "template": "questCache",
+     "text": "Looks like a deal's a deal. The Venture Co. got their comeuppance, Friz gets her loot, and everybody's happy. Overall a pretty smooth transaction if I do say so myself.\r\n\r\nNow scram, I got another shipment comin' in soon from some Southsea Pirates.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:3945": 1
+     },
+     "template": "questCache",
+     "text": "Return to Friz Frazzlespark at Powderfuse Port in the Riverglades.",
+     "times": 1
+    }
+   ]
+  },
+  "95383": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:260405": 1
+     },
+     "template": "questCache",
+     "text": "<Wharfmaster Steamfizzle inspects the coin you offered him.>\r\n\r\nWhoa-ho! Ol' Friz sure is training the new generation right. Apologies for the delay, $Gsir:ma'am;. You're here to deliver a crate to someone in town, right? I don't know anythin' about that, but if I did, I'd go talk with Tazzik on the dock. He seems to be interested in things like that.\r\n\r\nBut be quick about it though, yeah? Don't need folks gettin' the wrong idea, ya know.",
+     "times": 1
+    }
+   ],
+   "complete": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:260857": 1
+     },
+     "text": "Hello beautiful! Friz sure delivers, doesn't she? And look at the quality of these.\r\n\r\nWhat? Hey don't look at me. I didn't tell you to spend all your gold breaking the law. Far as I'm concerned, this shipment's been cleared by customs. Friz's money on the other hand... that might be a problem.",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:260405": 1
+     },
+     "template": "questCache",
+     "text": "Deliver Friz's Secret Stash to Tazzik in Steamwheedle Port.",
+     "times": 1
+    }
+   ],
+   "progress": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:260857": 1
+     },
+     "text": "Uck, you don't have to tell me where you're from. I can smell Powderfuse Port all over you.",
      "times": 1
     }
    ]
@@ -26506,6 +27361,36 @@
      },
      "text": "Crag'rog say you join him in fight. What you bring mighty Clugfist?",
      "times": 2
+    }
+   ]
+  },
+  "95472": {
+   "accept": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:260857": 1
+     },
+     "template": "questCache",
+     "text": "I'm tellin' ya, I can't pay Friz back! I got nothin' left but the shirt off my back!\r\n\r\nWhy are you lookin' at me like that...",
+     "times": 1
+    }
+   ],
+   "objectives": [
+    {
+     "sexes": {
+      "male": 1
+     },
+     "sources": 1,
+     "speakers": {
+      "npc:260857": 1
+     },
+     "template": "questCache",
+     "text": "Bring Tazzik's Sweaty Shirt to Friz Frazzlespark in Powderfuse Port.",
+     "times": 1
     }
    ]
   },
@@ -28941,29 +29826,29 @@
    "accept": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:7882": 1
+      "npc:7882": 2
      },
      "template": "questCache",
      "text": "A merchant caravan took a wrong turn through the desert and got jumped by the Dunemaul ogres. Only reason they made it out alive is 'cause they tossed some cargo overboard to distract the brutes.\r\n\r\nMust be this merchant's got friends with the nobs runnin' ships and zeppelins, 'cause now they want ME pickin' up what got lost.\r\n\r\nI'm stuck here working. But if YOU see a nice shiny bangle while you're beatin' on ogres, I'll make it worth ya while.",
-     "times": 1
+     "times": 2
     }
    ],
    "objectives": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:7882": 1
+      "npc:7882": 2
      },
      "template": "questCache",
      "text": "Security Chief Bilgewhizzle of Steamwheedle Port in Tanaris wants you to recover a particularly shiny bangle bracelet lost near the Dunemaul ogre compound.",
-     "times": 1
+     "times": 2
     }
    ],
    "progress": [
@@ -29012,14 +29897,14 @@
    "progress": [
     {
      "sexes": {
-      "male": 1
+      "male": 2
      },
-     "sources": 1,
+     "sources": 2,
      "speakers": {
-      "npc:11756": 1
+      "npc:11756": 2
      },
      "text": "Don't worry about any labels that say hazardous or toxic... I'll shred those up and they'll be none the wiser!",
-     "times": 1
+     "times": 2
     }
    ]
   },

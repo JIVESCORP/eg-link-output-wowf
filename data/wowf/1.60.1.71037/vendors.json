@@ -3,16 +3,179 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.71037",
   "collectedOn": {
-   "first": "2026-11-22",
-   "last": "2026-11-23"
+   "first": "2026-11-23",
+   "last": "2026-11-24"
   },
   "dataset": "vendors",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 6
+  "sources": 10
  },
  "vendors": {
+  "227": {
+   "entries": {
+    "item:11291": {
+     "costs": {
+      "6": 4050
+     },
+     "itemId": 11291,
+     "name": "Star Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1179": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 1179,
+     "name": "Ice Cold Milk",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1205": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:159": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2515": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2515,
+     "name": "Sharp Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2519": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2519,
+     "name": "Heavy Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3030": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 3030,
+     "name": "Razor Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3033": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 3033,
+     "name": "Solid Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3107": {
+     "costs": {
+      "6": 1647
+     },
+     "itemId": 3107,
+     "name": "Keen Throwing Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3108": {
+     "costs": {
+      "6": 6834
+     },
+     "itemId": 3108,
+     "name": "Heavy Throwing Dagger",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3135": {
+     "costs": {
+      "6": 1647
+     },
+     "itemId": 3135,
+     "name": "Sharp Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3137": {
+     "costs": {
+      "6": 6834
+     },
+     "itemId": 3137,
+     "name": "Deadly Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4470": {
+     "costs": {
+      "6": 35
+     },
+     "itemId": 4470,
+     "name": "Simple Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4471": {
+     "costs": {
+      "6": 122
+     },
+     "itemId": 4471,
+     "name": "Flint and Tinder",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4497": {
+     "costs": {
+      "6": 18000
+     },
+     "itemId": 4497,
+     "name": "Heavy Brown Bag",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4498": {
+     "costs": {
+      "6": 2250
+     },
+     "itemId": 4498,
+     "name": "Brown Leather Satchel",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Mabel Solaj",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7412,
+     "mapY": 0.4487,
+     "uiMap": 1431,
+     "worldX": -10524.4,
+     "worldY": -1168
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 3
+  },
   "734": {
    "entries": {
     "item:11284": {
@@ -295,21 +458,21 @@
      "stack": 5
     }
    },
-   "lastSeen": "2026-11-21",
+   "lastSeen": "2026-11-24",
    "name": "Corporal Bluth",
    "positions": [
     {
      "instance": 0,
-     "mapX": 0.3797,
-     "mapY": 0.0308,
+     "mapX": 0.3799,
+     "mapY": 0.0309,
      "uiMap": 1434,
-     "worldX": -11299.8,
-     "worldY": -201.9
+     "worldX": -11300.1,
+     "worldY": -203.1
     }
    ],
    "repairs": false,
    "sources": 1,
-   "visits": 1
+   "visits": 4
   },
   "982": {
    "entries": {
@@ -832,7 +995,7 @@
      },
      "itemId": 12164,
      "name": "Plans: Massive Iron Axe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2520": {
@@ -841,7 +1004,7 @@
      },
      "itemId": 2520,
      "name": "Broadsword",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2521": {
@@ -850,7 +1013,7 @@
      },
      "itemId": 2521,
      "name": "Flamberge",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2522": {
@@ -859,7 +1022,7 @@
      },
      "itemId": 2522,
      "name": "Crescent Axe",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2523": {
@@ -868,7 +1031,7 @@
      },
      "itemId": 2523,
      "name": "Bullova",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2524": {
@@ -877,7 +1040,7 @@
      },
      "itemId": 2524,
      "name": "Truncheon",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2525": {
@@ -886,7 +1049,7 @@
      },
      "itemId": 2525,
      "name": "War Hammer",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2526": {
@@ -895,7 +1058,7 @@
      },
      "itemId": 2526,
      "name": "Main Gauche",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     },
     "item:2527": {
@@ -904,7 +1067,7 @@
      },
      "itemId": 2527,
      "name": "Battle Staff",
-     "sources": 1,
+     "sources": 2,
      "stack": 1
     }
    },
@@ -914,15 +1077,15 @@
     {
      "instance": 0,
      "mapX": 0.3233,
-     "mapY": 0.2796,
+     "mapY": 0.2804,
      "uiMap": 1434,
-     "worldX": -12358.3,
-     "worldY": 157.8
+     "worldX": -12361.4,
+     "worldY": 158
     }
    ],
    "repairs": true,
-   "sources": 1,
-   "visits": 4
+   "sources": 2,
+   "visits": 5
   },
   "1286": {
    "entries": {
@@ -1260,7 +1423,7 @@
      "stack": 5
     }
    },
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-24",
    "name": "Edna Mullby",
    "positions": [
     {
@@ -1274,7 +1437,323 @@
    ],
    "repairs": false,
    "sources": 1,
-   "visits": 12
+   "visits": 15
+  },
+  "1287": {
+   "entries": {
+    "item:11362": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 11362,
+     "name": "Medium Quiver",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1196": {
+     "costs": {
+      "6": 1993
+     },
+     "itemId": 1196,
+     "name": "Tabar",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1197": {
+     "costs": {
+      "6": 2400
+     },
+     "itemId": 1197,
+     "name": "Giant Mace",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1198": {
+     "costs": {
+      "6": 2409
+     },
+     "itemId": 1198,
+     "name": "Claymore",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:15807": {
+     "costs": {
+      "6": 265
+     },
+     "itemId": 15807,
+     "name": "Light Crossbow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:15808": {
+     "costs": {
+      "6": 3276
+     },
+     "itemId": 15808,
+     "name": "Fine Light Crossbow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:15809": {
+     "costs": {
+      "6": 13222
+     },
+     "itemId": 15809,
+     "name": "Heavy Crossbow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2024": {
+     "costs": {
+      "6": 5471
+     },
+     "itemId": 2024,
+     "name": "Espadon",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2025": {
+     "costs": {
+      "6": 4774
+     },
+     "itemId": 2025,
+     "name": "Bearded Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2026": {
+     "costs": {
+      "6": 5658
+     },
+     "itemId": 2026,
+     "name": "Rock Hammer",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2027": {
+     "costs": {
+      "6": 3434
+     },
+     "itemId": 2027,
+     "name": "Scimitar",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2028": {
+     "costs": {
+      "6": 4559
+     },
+     "itemId": 2028,
+     "name": "Hammer",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2029": {
+     "costs": {
+      "6": 3978
+     },
+     "itemId": 2029,
+     "name": "Cleaver",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2030": {
+     "costs": {
+      "6": 4990
+     },
+     "itemId": 2030,
+     "name": "Gnarled Staff",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2101": {
+     "costs": {
+      "6": 4
+     },
+     "itemId": 2101,
+     "name": "Light Quiver",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2207": {
+     "costs": {
+      "6": 2151
+     },
+     "itemId": 2207,
+     "name": "Jambiya",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2208": {
+     "costs": {
+      "6": 3285
+     },
+     "itemId": 2208,
+     "name": "Poniard",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2209": {
+     "costs": {
+      "6": 6404
+     },
+     "itemId": 2209,
+     "name": "Kris",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2512": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 2512,
+     "name": "Rough Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2515": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2515,
+     "name": "Sharp Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3030": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 3030,
+     "name": "Razor Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:7371": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 7371,
+     "name": "Heavy Quiver",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:851": {
+     "costs": {
+      "6": 1821
+     },
+     "itemId": 851,
+     "name": "Cutlass",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:852": {
+     "costs": {
+      "6": 1566
+     },
+     "itemId": 852,
+     "name": "Mace",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:853": {
+     "costs": {
+      "6": 2169
+     },
+     "itemId": 853,
+     "name": "Hatchet",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:854": {
+     "costs": {
+      "6": 2720
+     },
+     "itemId": 854,
+     "name": "Quarter Staff",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:922": {
+     "costs": {
+      "6": 10835
+     },
+     "itemId": 922,
+     "name": "Dacian Falx",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:923": {
+     "costs": {
+      "6": 7869
+     },
+     "itemId": 923,
+     "name": "Longsword",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:924": {
+     "costs": {
+      "6": 9875
+     },
+     "itemId": 924,
+     "name": "Maul",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:925": {
+     "costs": {
+      "6": 7018
+     },
+     "itemId": 925,
+     "name": "Flail",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:926": {
+     "costs": {
+      "6": 8806
+     },
+     "itemId": 926,
+     "name": "Battle Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:927": {
+     "costs": {
+      "6": 6258
+     },
+     "itemId": 927,
+     "name": "Double Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:928": {
+     "costs": {
+      "6": 8874
+     },
+     "itemId": 928,
+     "name": "Long Staff",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Marda Weller",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6391,
+     "mapY": 0.6866,
+     "uiMap": 1453,
+     "worldX": -8791.1,
+     "worldY": 612.5
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
   },
   "1289": {
    "entries": {
@@ -1539,21 +2018,428 @@
      "stack": 1
     }
    },
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-24",
    "name": "Gunther Weller",
    "positions": [
     {
      "instance": 0,
      "mapX": 0.6419,
-     "mapY": 0.6885,
+     "mapY": 0.689,
      "uiMap": 1453,
-     "worldX": -8793.4,
+     "worldX": -8793.9,
      "worldY": 607.6
     }
    ],
    "repairs": true,
    "sources": 1,
-   "visits": 3
+   "visits": 5
+  },
+  "1291": {
+   "entries": {
+    "item:16059": {
+     "costs": {
+      "5": 400
+     },
+     "itemId": 16059,
+     "name": "Common Brown Shirt",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:16060": {
+     "costs": {
+      "5": 400
+     },
+     "itemId": 16060,
+     "name": "Common White Shirt",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:200": {
+     "costs": {
+      "5": 2270
+     },
+     "itemId": 200,
+     "name": "Thick Cloth Vest",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:201": {
+     "costs": {
+      "5": 2278
+     },
+     "itemId": 201,
+     "name": "Thick Cloth Pants",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:202": {
+     "costs": {
+      "5": 1714
+     },
+     "itemId": 202,
+     "name": "Thick Cloth Shoes",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:203": {
+     "costs": {
+      "5": 1147
+     },
+     "itemId": 203,
+     "name": "Thick Cloth Gloves",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3428": {
+     "costs": {
+      "5": 400
+     },
+     "itemId": 3428,
+     "name": "Common Gray Shirt",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3589": {
+     "costs": {
+      "5": 576
+     },
+     "itemId": 3589,
+     "name": "Heavy Weave Belt",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3590": {
+     "costs": {
+      "5": 578
+     },
+     "itemId": 3590,
+     "name": "Heavy Weave Bracers",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3597": {
+     "costs": {
+      "5": 1081
+     },
+     "itemId": 3597,
+     "name": "Thick Cloth Belt",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3598": {
+     "costs": {
+      "5": 1085
+     },
+     "itemId": 3598,
+     "name": "Thick Cloth Bracers",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3602": {
+     "costs": {
+      "5": 145
+     },
+     "itemId": 3602,
+     "name": "Knitted Belt",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3603": {
+     "costs": {
+      "5": 145
+     },
+     "itemId": 3603,
+     "name": "Knitted Bracers",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:792": {
+     "costs": {
+      "5": 207
+     },
+     "itemId": 792,
+     "name": "Knitted Sandals",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:793": {
+     "costs": {
+      "5": 139
+     },
+     "itemId": 793,
+     "name": "Knitted Gloves",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:794": {
+     "costs": {
+      "5": 279
+     },
+     "itemId": 794,
+     "name": "Knitted Pants",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:795": {
+     "costs": {
+      "5": 280
+     },
+     "itemId": 795,
+     "name": "Knitted Tunic",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:837": {
+     "costs": {
+      "5": 1124
+     },
+     "itemId": 837,
+     "name": "Heavy Weave Armor",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:838": {
+     "costs": {
+      "5": 1128
+     },
+     "itemId": 838,
+     "name": "Heavy Weave Pants",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:839": {
+     "costs": {
+      "5": 566
+     },
+     "itemId": 839,
+     "name": "Heavy Weave Gloves",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:840": {
+     "costs": {
+      "5": 853
+     },
+     "itemId": 840,
+     "name": "Heavy Weave Shoes",
+     "sources": 2,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Carla Granger",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6227,
+     "mapY": 0.6788,
+     "uiMap": 1453,
+     "worldX": -8782.1,
+     "worldY": 641
+    }
+   ],
+   "repairs": true,
+   "sources": 2,
+   "visits": 28
+  },
+  "1297": {
+   "entries": {
+    "item:11284": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 11284,
+     "name": "Accurate Slugs",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:11362": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 11362,
+     "name": "Medium Quiver",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2504": {
+     "costs": {
+      "6": 27
+     },
+     "itemId": 2504,
+     "name": "Worn Shortbow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2505": {
+     "costs": {
+      "6": 54
+     },
+     "itemId": 2505,
+     "name": "Polished Shortbow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2506": {
+     "costs": {
+      "6": 257
+     },
+     "itemId": 2506,
+     "name": "Hornwood Recurve Bow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2507": {
+     "costs": {
+      "6": 1576
+     },
+     "itemId": 2507,
+     "name": "Laminated Recurve Bow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2509": {
+     "costs": {
+      "6": 373
+     },
+     "itemId": 2509,
+     "name": "Ornate Blunderbuss",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2511": {
+     "costs": {
+      "6": 1192
+     },
+     "itemId": 2511,
+     "name": "Hunter's Boomstick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2512": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 2512,
+     "name": "Rough Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2515": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2515,
+     "name": "Sharp Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2516": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 2516,
+     "name": "Light Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2519": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2519,
+     "name": "Heavy Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3023": {
+     "costs": {
+      "6": 3394
+     },
+     "itemId": 3023,
+     "name": "Large Bore Blunderbuss",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3024": {
+     "costs": {
+      "6": 6389
+     },
+     "itemId": 3024,
+     "name": "BKP 2700 \"Enforcer\"",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3026": {
+     "costs": {
+      "6": 3431
+     },
+     "itemId": 3026,
+     "name": "Reinforced Bow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3027": {
+     "costs": {
+      "6": 5715
+     },
+     "itemId": 3027,
+     "name": "Heavy Recurve Bow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3030": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 3030,
+     "name": "Razor Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3033": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 3033,
+     "name": "Solid Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:5439": {
+     "costs": {
+      "6": 90
+     },
+     "itemId": 5439,
+     "name": "Small Quiver",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:5441": {
+     "costs": {
+      "6": 90
+     },
+     "itemId": 5441,
+     "name": "Small Shot Pouch",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Lina Stover",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5874,
+     "mapY": 0.6909,
+     "uiMap": 1453,
+     "worldX": -8796.1,
+     "worldY": 702.3
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
   },
   "1407": {
    "entries": {
@@ -3267,7 +4153,7 @@
      },
      "itemId": 12164,
      "name": "Plans: Massive Iron Axe",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:2522": {
@@ -3276,7 +4162,7 @@
      },
      "itemId": 2522,
      "name": "Crescent Axe",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:2523": {
@@ -3285,7 +4171,7 @@
      },
      "itemId": 2523,
      "name": "Bullova",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:2530": {
@@ -3294,7 +4180,7 @@
      },
      "itemId": 2530,
      "name": "Francisca",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     },
     "item:2531": {
@@ -3303,11 +4189,11 @@
      },
      "itemId": 2531,
      "name": "Great Axe",
-     "sources": 2,
+     "sources": 3,
      "stack": 1
     }
    },
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-24",
    "name": "Jaquilina Dramet",
    "positions": [
     {
@@ -3320,8 +4206,8 @@
     }
    ],
    "repairs": true,
-   "sources": 2,
-   "visits": 2
+   "sources": 3,
+   "visits": 4
   },
   "2626": {
    "entries": {
@@ -3401,6 +4287,52 @@
    "repairs": false,
    "sources": 2,
    "visits": 2
+  },
+  "2663": {
+   "entries": {
+    "item:10728": {
+     "costs": {
+      "4": 1500
+     },
+     "itemId": 10728,
+     "name": "Pattern: Black Swashbuckler's Shirt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8495": {
+     "costs": {
+      "4": 4000
+     },
+     "itemId": 8495,
+     "name": "Parrot Cage (Senegal)",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8496": {
+     "costs": {
+      "4": 4000
+     },
+     "itemId": 8496,
+     "name": "Parrot Cage (Cockatiel)",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Narkk",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2818,
+     "mapY": 0.7451,
+     "uiMap": 1434,
+     "worldX": -14338.4,
+     "worldY": 422.6
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
   },
   "2679": {
    "entries": {
@@ -4303,6 +5235,97 @@
    "sources": 1,
    "visits": 1
   },
+  "2839": {
+   "entries": {
+    "item:11285": {
+     "costs": {
+      "4": 1000
+     },
+     "itemId": 11285,
+     "name": "Jagged Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:11362": {
+     "costs": {
+      "4": 1000
+     },
+     "itemId": 11362,
+     "name": "Medium Quiver",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2512": {
+     "costs": {
+      "4": 10
+     },
+     "itemId": 2512,
+     "name": "Rough Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2515": {
+     "costs": {
+      "4": 50
+     },
+     "itemId": 2515,
+     "name": "Sharp Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3026": {
+     "costs": {
+      "4": 3812
+     },
+     "itemId": 3026,
+     "name": "Reinforced Bow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3027": {
+     "costs": {
+      "4": 6349
+     },
+     "itemId": 3027,
+     "name": "Heavy Recurve Bow",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3030": {
+     "costs": {
+      "4": 300
+     },
+     "itemId": 3030,
+     "name": "Razor Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:5439": {
+     "costs": {
+      "4": 100
+     },
+     "itemId": 5439,
+     "name": "Small Quiver",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Haren Kanmae",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2829,
+     "mapY": 0.7466,
+     "uiMap": 1434,
+     "worldX": -14344.8,
+     "worldY": 415.5
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
+  },
   "2847": {
    "entries": {
     "item:18567": {
@@ -4756,7 +5779,7 @@
      },
      "itemId": 4540,
      "name": "Tough Hunk of Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4541": {
@@ -4766,7 +5789,7 @@
      },
      "itemId": 4541,
      "name": "Freshly Baked Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4542": {
@@ -4776,7 +5799,7 @@
      },
      "itemId": 4542,
      "name": "Moist Cornbread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4544": {
@@ -4786,7 +5809,7 @@
      },
      "itemId": 4544,
      "name": "Mulgore Spice Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:4601": {
@@ -4796,7 +5819,7 @@
      },
      "itemId": 4601,
      "name": "Soft Banana Bread",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     },
     "item:8950": {
@@ -4806,7 +5829,7 @@
      },
      "itemId": 8950,
      "name": "Homemade Cherry Pie",
-     "sources": 1,
+     "sources": 2,
      "stack": 5
     }
    },
@@ -4831,8 +5854,8 @@
     }
    ],
    "repairs": false,
-   "sources": 1,
-   "visits": 7
+   "sources": 2,
+   "visits": 8
   },
   "3020": {
    "entries": {
@@ -5049,97 +6072,151 @@
   "3322": {
    "entries": {
     "item:11284": {
+     "bartered": {
+      "2": {
+       "6": 810
+      }
+     },
      "costs": {
       "4": 1000,
+      "5": 1000,
       "6": 900
      },
      "itemId": 11284,
      "name": "Accurate Slugs",
-     "sources": 2,
+     "sources": 4,
      "stack": 200
     },
     "item:2509": {
+     "bartered": {
+      "2": {
+       "6": 336
+      }
+     },
      "costs": {
       "4": 414,
+      "5": 414,
       "6": 373
      },
      "itemId": 2509,
      "name": "Ornate Blunderbuss",
-     "sources": 2,
+     "sources": 4,
      "stack": 1
     },
     "item:2511": {
+     "bartered": {
+      "2": {
+       "6": 1073
+      }
+     },
      "costs": {
       "4": 1324,
+      "5": 1324,
       "6": 1192
      },
      "itemId": 2511,
      "name": "Hunter's Boomstick",
-     "sources": 2,
+     "sources": 4,
      "stack": 1
     },
     "item:2516": {
+     "bartered": {
+      "2": {
+       "6": 9
+      }
+     },
      "costs": {
       "4": 10,
+      "5": 10,
       "6": 9
      },
      "itemId": 2516,
      "name": "Light Shot",
-     "sources": 2,
+     "sources": 4,
      "stack": 200
     },
     "item:2519": {
+     "bartered": {
+      "2": {
+       "6": 41
+      }
+     },
      "costs": {
       "4": 50,
+      "5": 50,
       "6": 45
      },
      "itemId": 2519,
      "name": "Heavy Shot",
-     "sources": 2,
+     "sources": 4,
      "stack": 200
     },
     "item:3023": {
+     "bartered": {
+      "2": {
+       "6": 3055
+      }
+     },
      "costs": {
       "4": 3771,
+      "5": 3771,
       "6": 3394
      },
      "itemId": 3023,
      "name": "Large Bore Blunderbuss",
-     "sources": 2,
+     "sources": 4,
      "stack": 1
     },
     "item:3024": {
+     "bartered": {
+      "2": {
+       "6": 5750
+      }
+     },
      "costs": {
       "4": 7098,
+      "5": 7098,
       "6": 6389
      },
      "itemId": 3024,
      "name": "BKP 2700 \"Enforcer\"",
-     "sources": 2,
+     "sources": 4,
      "stack": 1
     },
     "item:3033": {
+     "bartered": {
+      "2": {
+       "6": 243
+      }
+     },
      "costs": {
       "4": 300,
+      "5": 300,
       "6": 270
      },
      "itemId": 3033,
      "name": "Solid Shot",
-     "sources": 2,
+     "sources": 4,
      "stack": 200
     },
     "item:5441": {
+     "bartered": {
+      "2": {
+       "6": 81
+      }
+     },
      "costs": {
       "4": 100,
+      "5": 100,
       "6": 90
      },
      "itemId": 5441,
      "name": "Small Shot Pouch",
-     "sources": 2,
+     "sources": 4,
      "stack": 1
     }
    },
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "name": "Kaja",
    "positions": [
     {
@@ -5152,8 +6229,8 @@
     }
    ],
    "repairs": true,
-   "sources": 2,
-   "visits": 14
+   "sources": 4,
+   "visits": 29
   },
   "3323": {
    "entries": {
@@ -5673,19 +6750,199 @@
      "stack": 1
     }
    },
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-24",
    "name": "Robert Aebischer",
    "positions": [
     {
      "instance": 0,
      "mapX": 0.5128,
-     "mapY": 0.57,
+     "mapY": 0.5709,
      "uiMap": 1424,
-     "worldX": -816.1,
-     "worldY": -574.4
+     "worldX": -817.9,
+     "worldY": -574.3
     }
    ],
    "repairs": true,
+   "sources": 1,
+   "visits": 4
+  },
+  "3562": {
+   "entries": {
+    "item:16583": {
+     "costs": {
+      "6": 9000
+     },
+     "itemId": 16583,
+     "name": "악마의 구슬",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17020": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 17020,
+     "name": "불가사의한 가루",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17021": {
+     "costs": {
+      "6": 630
+     },
+     "itemId": 17021,
+     "name": "야생 가지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17026": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 17026,
+     "name": "야생 가시뿌리",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17028": {
+     "costs": {
+      "6": 630
+     },
+     "itemId": 17028,
+     "name": "신성한 양초",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17029": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 17029,
+     "name": "성스러운 양초",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17030": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 17030,
+     "name": "십자가",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17031": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 17031,
+     "name": "순간이동의 룬",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17032": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 17032,
+     "name": "차원이동의 룬",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17033": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 17033,
+     "name": "신앙의 징표",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17034": {
+     "costs": {
+      "6": 180
+     },
+     "itemId": 17034,
+     "name": "단풍나무 씨앗",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17035": {
+     "costs": {
+      "6": 360
+     },
+     "itemId": 17035,
+     "name": "가시덩굴 씨앗",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17036": {
+     "costs": {
+      "6": 720
+     },
+     "itemId": 17036,
+     "name": "잿빛나무 씨앗",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17037": {
+     "costs": {
+      "6": 1260
+     },
+     "itemId": 17037,
+     "name": "자작나무 씨앗",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:17038": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 17038,
+     "name": "강철나무 씨앗",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:21177": {
+     "costs": {
+      "6": 2700
+     },
+     "itemId": 21177,
+     "name": "왕의 징표",
+     "sources": 1,
+     "stack": 20
+    },
+    "item:5565": {
+     "costs": {
+      "6": 4500
+     },
+     "itemId": 5565,
+     "name": "지옥의 돌",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "알라인디아",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3882,
+     "mapY": 0.6872,
+     "uiMap": 1457,
+     "worldX": 9753.3,
+     "worldY": 2527.5
+    },
+    {
+     "instance": 1,
+     "mapX": 0.3859,
+     "mapY": 0.4499,
+     "uiMap": 1457,
+     "worldX": 9920.8,
+     "worldY": 2530
+    }
+   ],
+   "repairs": false,
    "sources": 1,
    "visits": 2
   },
@@ -6000,7 +7257,7 @@
      "stack": 5
     }
    },
-   "lastSeen": "2026-11-21",
+   "lastSeen": "2026-11-24",
    "name": "Innkeeper Boorand Plainswind",
    "positions": [
     {
@@ -6010,6 +7267,494 @@
      "uiMap": 1413,
      "worldX": -410.6,
      "worldY": -2646.3
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 2
+  },
+  "4164": {
+   "entries": {
+    "item:1839": {
+     "costs": {
+      "6": 166
+     },
+     "itemId": 1839,
+     "name": "조잡한 가죽 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1840": {
+     "costs": {
+      "6": 167
+     },
+     "itemId": 1840,
+     "name": "조잡한 가죽 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1843": {
+     "costs": {
+      "6": 653
+     },
+     "itemId": 1843,
+     "name": "무두질한 가죽 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1844": {
+     "costs": {
+      "6": 656
+     },
+     "itemId": 1844,
+     "name": "무두질한 가죽 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1845": {
+     "costs": {
+      "6": 790
+     },
+     "itemId": 1845,
+     "name": "쇠사슬 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1846": {
+     "costs": {
+      "6": 792
+     },
+     "itemId": 1846,
+     "name": "쇠사슬 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2392": {
+     "costs": {
+      "6": 372
+     },
+     "itemId": 2392,
+     "name": "가벼운 쇠사슬 갑옷",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2393": {
+     "costs": {
+      "6": 186
+     },
+     "itemId": 2393,
+     "name": "가벼운 쇠사슬 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2394": {
+     "costs": {
+      "6": 375
+     },
+     "itemId": 2394,
+     "name": "가벼운 쇠사슬 다리보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2395": {
+     "costs": {
+      "6": 290
+     },
+     "itemId": 2395,
+     "name": "가벼운 쇠사슬 장화",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2396": {
+     "costs": {
+      "6": 194
+     },
+     "itemId": 2396,
+     "name": "가벼운 쇠사슬 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2397": {
+     "costs": {
+      "6": 194
+     },
+     "itemId": 2397,
+     "name": "가벼운 쇠사슬 장갑",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3589": {
+     "costs": {
+      "6": 519
+     },
+     "itemId": 3589,
+     "name": "두꺼운 편물 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3590": {
+     "costs": {
+      "6": 521
+     },
+     "itemId": 3590,
+     "name": "두꺼운 편물 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3602": {
+     "costs": {
+      "6": 131
+     },
+     "itemId": 3602,
+     "name": "뜨개질한 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3603": {
+     "costs": {
+      "6": 131
+     },
+     "itemId": 3603,
+     "name": "뜨개질한 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:792": {
+     "costs": {
+      "6": 187
+     },
+     "itemId": 792,
+     "name": "뜨개질한 샌들",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:793": {
+     "costs": {
+      "6": 126
+     },
+     "itemId": 793,
+     "name": "뜨개질한 장갑",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:794": {
+     "costs": {
+      "6": 252
+     },
+     "itemId": 794,
+     "name": "뜨개질한 바지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:795": {
+     "costs": {
+      "6": 252
+     },
+     "itemId": 795,
+     "name": "뜨개질한 튜닉",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:796": {
+     "costs": {
+      "6": 238
+     },
+     "itemId": 796,
+     "name": "조잡한 가죽 장화",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:797": {
+     "costs": {
+      "6": 159
+     },
+     "itemId": 797,
+     "name": "조잡한 가죽 장갑",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:798": {
+     "costs": {
+      "6": 319
+     },
+     "itemId": 798,
+     "name": "조잡한 가죽 바지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:799": {
+     "costs": {
+      "6": 320
+     },
+     "itemId": 799,
+     "name": "조잡한 가죽 조끼",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:837": {
+     "costs": {
+      "6": 1012
+     },
+     "itemId": 837,
+     "name": "두꺼운 편물 갑옷",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:838": {
+     "costs": {
+      "6": 1016
+     },
+     "itemId": 838,
+     "name": "두꺼운 편물 바지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:839": {
+     "costs": {
+      "6": 510
+     },
+     "itemId": 839,
+     "name": "두꺼운 편물 장갑",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:840": {
+     "costs": {
+      "6": 768
+     },
+     "itemId": 840,
+     "name": "두꺼운 편물 신발",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:843": {
+     "costs": {
+      "6": 970
+     },
+     "itemId": 843,
+     "name": "무두질한 가죽 장화",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:844": {
+     "costs": {
+      "6": 648
+     },
+     "itemId": 844,
+     "name": "무두질한 가죽 장갑",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:845": {
+     "costs": {
+      "6": 1303
+     },
+     "itemId": 845,
+     "name": "무두질한 가죽 바지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:846": {
+     "costs": {
+      "6": 1307
+     },
+     "itemId": 846,
+     "name": "무두질한 가죽 웃옷",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:847": {
+     "costs": {
+      "6": 1575
+     },
+     "itemId": 847,
+     "name": "쇠사슬 갑옷",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:848": {
+     "costs": {
+      "6": 1580
+     },
+     "itemId": 848,
+     "name": "쇠사슬 바지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:849": {
+     "costs": {
+      "6": 1194
+     },
+     "itemId": 849,
+     "name": "쇠사슬 장화",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:850": {
+     "costs": {
+      "6": 795
+     },
+     "itemId": 850,
+     "name": "쇠사슬 장갑",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "키라니아",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5898,
+     "mapY": 0.4604,
+     "uiMap": 1457,
+     "worldX": 9913.4,
+     "worldY": 2314.1
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
+  },
+  "4167": {
+   "entries": {
+    "item:1179": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 1179,
+     "name": "시원한 우유",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1205": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 1205,
+     "name": "멜론 주스",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:159": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 159,
+     "name": "맑은 샘물",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:16166": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 16166,
+     "name": "텔드랏실정통 팥죽",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:16167": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 16167,
+     "name": "아롱다롱 경단",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:16168": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 16168,
+     "name": "천도 복숭아",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:16169": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 16169,
+     "name": "야생 철쭉 떡",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:16170": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 16170,
+     "name": "초승달 만두",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 1645,
+     "name": "달딸기 주스",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 1708,
+     "name": "달콤한 과즙",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:21030": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 21030,
+     "name": "다르나서스 김치전",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:21031": {
+     "costs": {
+      "6": 3600
+     },
+     "itemId": 21031,
+     "name": "배추김치",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:21033": {
+     "costs": {
+      "6": 3600
+     },
+     "itemId": 21033,
+     "name": "깍두기",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8766": {
+     "costs": {
+      "6": 3600
+     },
+     "itemId": 8766,
+     "name": "아침 이슬",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "덴드리시스",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.445,
+     "mapY": 0.1904,
+     "uiMap": 1457,
+     "worldX": 10104,
+     "worldY": 2467.4
     }
    ],
    "repairs": false,
@@ -6222,8 +7967,8 @@
       "6": 4050
      },
      "itemId": 11291,
-     "name": "Star Wood",
-     "sources": 1,
+     "name": "별나무",
+     "sources": 2,
      "stack": 1
     },
     "item:1179": {
@@ -6231,8 +7976,8 @@
       "6": 113
      },
      "itemId": 1179,
-     "name": "Ice Cold Milk",
-     "sources": 1,
+     "name": "시원한 우유",
+     "sources": 2,
      "stack": 5
     },
     "item:1205": {
@@ -6240,8 +7985,8 @@
       "6": 450
      },
      "itemId": 1205,
-     "name": "Melon Juice",
-     "sources": 1,
+     "name": "멜론 주스",
+     "sources": 2,
      "stack": 5
     },
     "item:159": {
@@ -6249,8 +7994,8 @@
       "6": 23
      },
      "itemId": 159,
-     "name": "Refreshing Spring Water",
-     "sources": 1,
+     "name": "맑은 샘물",
+     "sources": 2,
      "stack": 5
     },
     "item:2512": {
@@ -6258,8 +8003,8 @@
       "6": 9
      },
      "itemId": 2512,
-     "name": "Rough Arrow",
-     "sources": 1,
+     "name": "조잡한 화살",
+     "sources": 2,
      "stack": 200
     },
     "item:2515": {
@@ -6267,8 +8012,8 @@
       "6": 45
      },
      "itemId": 2515,
-     "name": "Sharp Arrow",
-     "sources": 1,
+     "name": "뾰족한 화살",
+     "sources": 2,
      "stack": 200
     },
     "item:2516": {
@@ -6276,8 +8021,8 @@
       "6": 9
      },
      "itemId": 2516,
-     "name": "Light Shot",
-     "sources": 1,
+     "name": "소형 탄환",
+     "sources": 2,
      "stack": 200
     },
     "item:2519": {
@@ -6285,8 +8030,8 @@
       "6": 45
      },
      "itemId": 2519,
-     "name": "Heavy Shot",
-     "sources": 1,
+     "name": "중형 탄환",
+     "sources": 2,
      "stack": 200
     },
     "item:2946": {
@@ -6294,8 +8039,8 @@
       "6": 270
      },
      "itemId": 2946,
-     "name": "Balanced Throwing Dagger",
-     "sources": 1,
+     "name": "소형 투척용 단검",
+     "sources": 2,
      "stack": 1
     },
     "item:2947": {
@@ -6303,8 +8048,8 @@
       "6": 38
      },
      "itemId": 2947,
-     "name": "Small Throwing Knife",
-     "sources": 1,
+     "name": "소형 투척용 나이프",
+     "sources": 2,
      "stack": 1
     },
     "item:3030": {
@@ -6312,8 +8057,8 @@
       "6": 270
      },
      "itemId": 3030,
-     "name": "Razor Arrow",
-     "sources": 1,
+     "name": "날카로운 화살",
+     "sources": 2,
      "stack": 200
     },
     "item:3033": {
@@ -6321,8 +8066,8 @@
       "6": 270
      },
      "itemId": 3033,
-     "name": "Solid Shot",
-     "sources": 1,
+     "name": "합금 탄환",
+     "sources": 2,
      "stack": 200
     },
     "item:3107": {
@@ -6330,8 +8075,8 @@
       "6": 1647
      },
      "itemId": 3107,
-     "name": "Keen Throwing Knife",
-     "sources": 1,
+     "name": "예리한 투척용 나이프",
+     "sources": 2,
      "stack": 1
     },
     "item:3108": {
@@ -6339,8 +8084,8 @@
       "6": 6834
      },
      "itemId": 3108,
-     "name": "Heavy Throwing Dagger",
-     "sources": 1,
+     "name": "중형 투척용 단검",
+     "sources": 2,
      "stack": 1
     },
     "item:3111": {
@@ -6348,8 +8093,8 @@
       "6": 38
      },
      "itemId": 3111,
-     "name": "Crude Throwing Axe",
-     "sources": 1,
+     "name": "소형 투척용 도끼",
+     "sources": 2,
      "stack": 1
     },
     "item:3131": {
@@ -6357,8 +8102,8 @@
       "6": 270
      },
      "itemId": 3131,
-     "name": "Weighted Throwing Axe",
-     "sources": 1,
+     "name": "중형 투척용 도끼",
+     "sources": 2,
      "stack": 1
     },
     "item:3135": {
@@ -6366,8 +8111,8 @@
       "6": 1647
      },
      "itemId": 3135,
-     "name": "Sharp Throwing Axe",
-     "sources": 1,
+     "name": "예리한 투척용 도끼",
+     "sources": 2,
      "stack": 1
     },
     "item:3137": {
@@ -6375,8 +8120,8 @@
       "6": 6834
      },
      "itemId": 3137,
-     "name": "Deadly Throwing Axe",
-     "sources": 1,
+     "name": "날카로운 투척용 도끼",
+     "sources": 2,
      "stack": 1
     },
     "item:4470": {
@@ -6384,8 +8129,8 @@
       "6": 35
      },
      "itemId": 4470,
-     "name": "Simple Wood",
-     "sources": 1,
+     "name": "장작나무",
+     "sources": 2,
      "stack": 1
     },
     "item:4471": {
@@ -6393,8 +8138,8 @@
       "6": 122
      },
      "itemId": 4471,
-     "name": "Flint and Tinder",
-     "sources": 1,
+     "name": "부싯돌과 불쏘시개",
+     "sources": 2,
      "stack": 1
     },
     "item:4496": {
@@ -6402,8 +8147,8 @@
       "6": 450
      },
      "itemId": 4496,
-     "name": "Small Brown Pouch",
-     "sources": 1,
+     "name": "작은 갈색 가방",
+     "sources": 2,
      "stack": 1
     },
     "item:4497": {
@@ -6411,8 +8156,8 @@
       "6": 18000
      },
      "itemId": 4497,
-     "name": "Heavy Brown Bag",
-     "sources": 1,
+     "name": "큰 갈색 자루",
+     "sources": 2,
      "stack": 1
     },
     "item:4498": {
@@ -6420,8 +8165,8 @@
       "6": 2250
      },
      "itemId": 4498,
-     "name": "Brown Leather Satchel",
-     "sources": 1,
+     "name": "갈색 가죽 가방",
+     "sources": 2,
      "stack": 1
     },
     "item:5042": {
@@ -6429,8 +8174,8 @@
       "6": 45
      },
      "itemId": 5042,
-     "name": "Red Ribboned Wrapping Paper",
-     "sources": 1,
+     "name": "빨간 리본달린 포장지",
+     "sources": 2,
      "stack": 1
     },
     "item:5048": {
@@ -6438,24 +8183,532 @@
       "6": 45
      },
      "itemId": 5048,
-     "name": "Blue Ribboned Wrapping Paper",
+     "name": "파란 리본달린 포장지",
+     "sources": 2,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "엘란드리어스",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6448,
+     "mapY": 0.5301,
+     "uiMap": 1457,
+     "worldX": 9864.2,
+     "worldY": 2256
+    }
+   ],
+   "repairs": false,
+   "sources": 2,
+   "visits": 3
+  },
+  "4172": {
+   "entries": {
+    "item:2612": {
+     "costs": {
+      "6": 147
+     },
+     "itemId": 2612,
+     "name": "수수한 로브",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2613": {
+     "costs": {
+      "6": 547
+     },
+     "itemId": 2613,
+     "name": "이중 박음질한 로브",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2614": {
+     "costs": {
+      "6": 1045
+     },
+     "itemId": 2614,
+     "name": "견습공의 로브",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2615": {
+     "costs": {
+      "6": 4582
+     },
+     "itemId": 2615,
+     "name": "천연염색 로브",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2616": {
+     "costs": {
+      "6": 2394
+     },
+     "itemId": 2616,
+     "name": "빛나는 비단 로브",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2617": {
+     "costs": {
+      "6": 9892
+     },
+     "itemId": 2617,
+     "name": "불타는 로브",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2618": {
+     "costs": {
+      "6": 23976
+     },
+     "itemId": 2618,
+     "name": "은빛 비단 로브",
      "sources": 1,
      "stack": 1
     }
    },
-   "lastSeen": "2026-11-21",
-   "name": "Ellandrieth",
+   "lastSeen": "2026-11-24",
+   "name": "아나디야",
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.6452,
-     "mapY": 0.5278,
+     "mapX": 0.5556,
+     "mapY": 0.8959,
      "uiMap": 1457,
-     "worldX": 9865.9,
-     "worldY": 2255.5
+     "worldX": 9606.1,
+     "worldY": 2350.4
     }
    ],
-   "repairs": false,
+   "repairs": true,
+   "sources": 1,
+   "visits": 2
+  },
+  "4175": {
+   "entries": {
+    "item:12256": {
+     "costs": {
+      "6": 39446
+     },
+     "itemId": 12256,
+     "limited": true,
+     "name": "불매듭 다리보호구",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 1
+    },
+    "item:200": {
+     "costs": {
+      "6": 2043
+     },
+     "itemId": 200,
+     "name": "두꺼운 헝겊 조끼",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:201": {
+     "costs": {
+      "6": 2051
+     },
+     "itemId": 201,
+     "name": "두꺼운 헝겊 바지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:202": {
+     "costs": {
+      "6": 1543
+     },
+     "itemId": 202,
+     "name": "두꺼운 헝겊 신발",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:203": {
+     "costs": {
+      "6": 1033
+     },
+     "itemId": 203,
+     "name": "두꺼운 헝겊 장갑",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2117": {
+     "costs": {
+      "6": 33
+     },
+     "itemId": 2117,
+     "name": "얇은 헝겊 신발",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2119": {
+     "costs": {
+      "6": 22
+     },
+     "itemId": 2119,
+     "name": "얇은 헝겊 장갑",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2120": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2120,
+     "name": "얇은 헝겊 바지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2121": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2121,
+     "name": "얇은 헝겊 방어구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2156": {
+     "costs": {
+      "6": 2770
+     },
+     "itemId": 2156,
+     "name": "솜댄 장화",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2158": {
+     "costs": {
+      "6": 1860
+     },
+     "itemId": 2158,
+     "name": "솜댄 장갑",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2159": {
+     "costs": {
+      "6": 3734
+     },
+     "itemId": 2159,
+     "name": "솜댄 바지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2160": {
+     "costs": {
+      "6": 3747
+     },
+     "itemId": 2160,
+     "name": "솜댄 갑옷",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2429": {
+     "costs": {
+      "6": 9125
+     },
+     "itemId": 2429,
+     "name": "황갈색 조끼",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2431": {
+     "costs": {
+      "6": 9194
+     },
+     "itemId": 2431,
+     "name": "황갈색 바지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2432": {
+     "costs": {
+      "6": 6921
+     },
+     "itemId": 2432,
+     "name": "황갈색 장화",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2434": {
+     "costs": {
+      "6": 4649
+     },
+     "itemId": 2434,
+     "name": "황갈색 장갑",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2435": {
+     "costs": {
+      "6": 24915
+     },
+     "itemId": 2435,
+     "name": "수놓은 갑옷",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2437": {
+     "costs": {
+      "6": 25101
+     },
+     "itemId": 2437,
+     "name": "수놓은 바지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2438": {
+     "costs": {
+      "6": 18897
+     },
+     "itemId": 2438,
+     "name": "수놓은 장화",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2440": {
+     "costs": {
+      "6": 12690
+     },
+     "itemId": 2440,
+     "name": "수놓은 장갑",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3587": {
+     "costs": {
+      "6": 12883
+     },
+     "itemId": 3587,
+     "name": "수놓은 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3588": {
+     "costs": {
+      "6": 12929
+     },
+     "itemId": 3588,
+     "name": "수놓은 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3589": {
+     "costs": {
+      "6": 519
+     },
+     "itemId": 3589,
+     "name": "두꺼운 편물 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3590": {
+     "costs": {
+      "6": 521
+     },
+     "itemId": 3590,
+     "name": "두꺼운 편물 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3591": {
+     "costs": {
+      "6": 1888
+     },
+     "itemId": 3591,
+     "name": "솜댄 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3592": {
+     "costs": {
+      "6": 1894
+     },
+     "itemId": 3592,
+     "name": "솜댄 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3593": {
+     "costs": {
+      "6": 4930
+     },
+     "itemId": 3593,
+     "name": "황갈색 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3594": {
+     "costs": {
+      "6": 4948
+     },
+     "itemId": 3594,
+     "name": "황갈색 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3597": {
+     "costs": {
+      "6": 973
+     },
+     "itemId": 3597,
+     "name": "두꺼운 헝겊 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3598": {
+     "costs": {
+      "6": 977
+     },
+     "itemId": 3598,
+     "name": "두꺼운 헝겊 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3599": {
+     "costs": {
+      "6": 22
+     },
+     "itemId": 3599,
+     "name": "얇은 헝겊 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3600": {
+     "costs": {
+      "6": 22
+     },
+     "itemId": 3600,
+     "name": "얇은 헝겊 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3602": {
+     "costs": {
+      "6": 131
+     },
+     "itemId": 3602,
+     "name": "뜨개질한 허리띠",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3603": {
+     "costs": {
+      "6": 131
+     },
+     "itemId": 3603,
+     "name": "뜨개질한 팔보호구",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3889": {
+     "costs": {
+      "6": 7130
+     },
+     "itemId": 3889,
+     "name": "황갈색 모자",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3892": {
+     "costs": {
+      "6": 19746
+     },
+     "itemId": 3892,
+     "name": "수놓은 모자",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:792": {
+     "costs": {
+      "6": 187
+     },
+     "itemId": 792,
+     "name": "뜨개질한 샌들",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:793": {
+     "costs": {
+      "6": 126
+     },
+     "itemId": 793,
+     "name": "뜨개질한 장갑",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:794": {
+     "costs": {
+      "6": 252
+     },
+     "itemId": 794,
+     "name": "뜨개질한 바지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:795": {
+     "costs": {
+      "6": 252
+     },
+     "itemId": 795,
+     "name": "뜨개질한 튜닉",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:837": {
+     "costs": {
+      "6": 1012
+     },
+     "itemId": 837,
+     "name": "두꺼운 편물 갑옷",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:838": {
+     "costs": {
+      "6": 1016
+     },
+     "itemId": 838,
+     "name": "두꺼운 편물 바지",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:839": {
+     "costs": {
+      "6": 510
+     },
+     "itemId": 839,
+     "name": "두꺼운 편물 장갑",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:840": {
+     "costs": {
+      "6": 768
+     },
+     "itemId": 840,
+     "name": "두꺼운 편물 신발",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "비나시아",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6044,
+     "mapY": 0.723,
+     "uiMap": 1457,
+     "worldX": 9728.1,
+     "worldY": 2298.7
+    }
+   ],
+   "repairs": true,
    "sources": 1,
    "visits": 1
   },
@@ -6597,21 +8850,21 @@
      "stack": 1
     }
    },
-   "lastSeen": "2026-11-21",
+   "lastSeen": "2026-11-24",
    "name": "달몬드",
    "positions": [
     {
      "instance": 1,
-     "mapX": 0.3752,
-     "mapY": 0.405,
+     "mapX": 0.375,
+     "mapY": 0.4055,
      "uiMap": 1439,
-     "worldX": 6564.7,
-     "worldY": 483.8
+     "worldX": 6562.7,
+     "worldY": 485.7
     }
    ],
    "repairs": false,
    "sources": 1,
-   "visits": 1
+   "visits": 4
   },
   "4185": {
    "entries": {
@@ -7068,6 +9321,225 @@
    "sources": 1,
    "visits": 2
   },
+  "4216": {
+   "entries": {
+    "item:22250": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 22250,
+     "name": "약초 주머니",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3371": {
+     "costs": {
+      "6": 18
+     },
+     "itemId": 3371,
+     "name": "유리 약병",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3372": {
+     "costs": {
+      "6": 180
+     },
+     "itemId": 3372,
+     "name": "가연 약병",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8925": {
+     "costs": {
+      "6": 2250
+     },
+     "itemId": 8925,
+     "name": "수정 약병",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "차르드린",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4833,
+     "mapY": 0.6924,
+     "uiMap": 1457,
+     "worldX": 9749.6,
+     "worldY": 2426.9
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "4223": {
+   "entries": {
+    "item:10284": {
+     "costs": {
+      "6": 180
+     },
+     "itemId": 10284,
+     "name": "밀가루 포대",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:11291": {
+     "costs": {
+      "6": 4050
+     },
+     "itemId": 11291,
+     "name": "별나무",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:159": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 159,
+     "name": "맑은 샘물",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:21099": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 21099,
+     "name": "조리법: 훈제 총명어",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:21219": {
+     "costs": {
+      "6": 4500
+     },
+     "itemId": 21219,
+     "name": "조리법: 총명어 별미",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2678": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 2678,
+     "name": "부드러운 양념",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2692": {
+     "costs": {
+      "6": 36
+     },
+     "itemId": 2692,
+     "name": "매운 양념",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272941": {
+     "costs": {
+      "6": 180000
+     },
+     "itemId": 272941,
+     "name": "두꺼운 통나무",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3713": {
+     "costs": {
+      "6": 144
+     },
+     "itemId": 3713,
+     "name": "독특한 양념",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4470": {
+     "costs": {
+      "6": 35
+     },
+     "itemId": 4470,
+     "name": "장작나무",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4471": {
+     "costs": {
+      "6": 122
+     },
+     "itemId": 4471,
+     "name": "부싯돌과 불쏘시개",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4536": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 4536,
+     "name": "윤기나는 빨간 사과",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "필단",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.4881,
+     "mapY": 0.2128,
+     "uiMap": 1457,
+     "worldX": 10088.1,
+     "worldY": 2421.8
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "4234": {
+   "entries": {
+    "item:2527": {
+     "costs": {
+      "6": 26421
+     },
+     "itemId": 2527,
+     "name": "단단한 지팡이",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2535": {
+     "costs": {
+      "6": 55401
+     },
+     "itemId": 2535,
+     "name": "전투 지팡이",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "안드루스",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5572,
+     "mapY": 0.8874,
+     "uiMap": 1457,
+     "worldX": 9612,
+     "worldY": 2348.6
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
+  },
   "4265": {
    "entries": {
     "item:10284": {
@@ -7328,6 +9800,179 @@
      "uiMap": 1439,
      "worldX": 5870.2,
      "worldY": 520.9
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "4553": {
+   "entries": {
+    "item:10284": {
+     "bartered": {
+      "2": {
+       "5": 180
+      }
+     },
+     "itemId": 10284,
+     "name": "Simple Flour",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:11291": {
+     "bartered": {
+      "2": {
+       "5": 4050
+      }
+     },
+     "itemId": 11291,
+     "name": "Star Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:159": {
+     "bartered": {
+      "2": {
+       "5": 23
+      }
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:21099": {
+     "bartered": {
+      "2": {
+       "5": 450
+      }
+     },
+     "itemId": 21099,
+     "name": "Recipe: Smoked Sagefish",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:21219": {
+     "bartered": {
+      "2": {
+       "5": 4500
+      }
+     },
+     "itemId": 21219,
+     "name": "Recipe: Sagefish Delight",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2678": {
+     "bartered": {
+      "2": {
+       "5": 9
+      }
+     },
+     "itemId": 2678,
+     "name": "Mild Spices",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2692": {
+     "bartered": {
+      "2": {
+       "5": 36
+      }
+     },
+     "itemId": 2692,
+     "name": "Hot Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272941": {
+     "bartered": {
+      "2": {
+       "5": 180000
+      }
+     },
+     "itemId": 272941,
+     "name": "Thick Logs",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3713": {
+     "bartered": {
+      "2": {
+       "5": 144
+      }
+     },
+     "itemId": 3713,
+     "name": "Soothing Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4470": {
+     "bartered": {
+      "2": {
+       "5": 35
+      }
+     },
+     "itemId": 4470,
+     "name": "Simple Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4471": {
+     "bartered": {
+      "2": {
+       "5": 122
+      }
+     },
+     "itemId": 4471,
+     "name": "Flint and Tinder",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4536": {
+     "bartered": {
+      "2": {
+       "5": 23
+      }
+     },
+     "itemId": 4536,
+     "name": "Shiny Red Apple",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:6330": {
+     "bartered": {
+      "2": {
+       "5": 1080
+      }
+     },
+     "itemId": 6330,
+     "name": "Recipe: Bristle Whisker Catfish",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6368": {
+     "bartered": {
+      "2": {
+       "5": 360
+      }
+     },
+     "itemId": 6368,
+     "name": "Recipe: Rainbow Fin Albacore",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Ronald Burch",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6249,
+     "mapY": 0.4345,
+     "uiMap": 1458,
+     "worldX": 1599.8,
+     "worldY": 273.7
     }
    ],
    "repairs": false,
@@ -8010,6 +10655,88 @@
    "sources": 1,
    "visits": 1
   },
+  "5411": {
+   "entries": {
+    "item:18567": {
+     "costs": {
+      "5": 150000
+     },
+     "itemId": 18567,
+     "name": "Elemental Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2880": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 2880,
+     "name": "Weak Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2901": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2901,
+     "name": "Mining Pick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3466": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 3466,
+     "name": "Strong Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3857": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 3857,
+     "name": "Coal",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:5956": {
+     "costs": {
+      "5": 18
+     },
+     "itemId": 5956,
+     "name": "Blacksmith Hammer",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6047": {
+     "costs": {
+      "5": 4400
+     },
+     "itemId": 6047,
+     "name": "Plans: Golden Scale Coif",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-23",
+   "name": "Krinkle Goodsteel",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5151,
+     "mapY": 0.2872,
+     "uiMap": 1446,
+     "worldX": -7196.3,
+     "worldY": -3773.1
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 2
+  },
   "5565": {
    "entries": {
     "item:10290": {
@@ -8654,7 +11381,7 @@
      "stack": 1
     }
    },
-   "lastSeen": "2026-11-21",
+   "lastSeen": "2026-11-24",
    "name": "골볼트 스틸핸드",
    "positions": [
     {
@@ -8664,6 +11391,34 @@
      "uiMap": 1439,
      "worldX": 6533.1,
      "worldY": 445.7
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 4
+  },
+  "6496": {
+   "entries": {
+    "item:7228": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 7228,
+     "name": "Tigule's Strawberry Ice Cream",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-23",
+   "name": "Brivelthwerp",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.7738,
+     "mapY": 0.77,
+     "uiMap": 1441,
+     "worldX": -6225.5,
+     "worldY": -3838.1
     }
    ],
    "repairs": false,
@@ -8792,6 +11547,137 @@
      "uiMap": 1433,
      "worldX": -9226.2,
      "worldY": -2155.3
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "6730": {
+   "entries": {
+    "item:10647": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 10647,
+     "name": "Engineer's Ink",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:10648": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 10648,
+     "name": "Blank Parchment",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:13309": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 13309,
+     "name": "Schematic: Lovingly Crafted Boomstick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2880": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 2880,
+     "name": "Weak Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2901": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2901,
+     "name": "Mining Pick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3466": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 3466,
+     "name": "Strong Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4357": {
+     "costs": {
+      "5": 16
+     },
+     "itemId": 4357,
+     "limited": true,
+     "name": "Rough Blasting Powder",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 4
+    },
+    "item:4364": {
+     "costs": {
+      "5": 48
+     },
+     "itemId": 4364,
+     "limited": true,
+     "name": "Coarse Blasting Powder",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 3
+    },
+    "item:4399": {
+     "costs": {
+      "5": 200
+     },
+     "itemId": 4399,
+     "name": "Wooden Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4400": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 4400,
+     "name": "Heavy Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:5956": {
+     "costs": {
+      "5": 18
+     },
+     "itemId": 5956,
+     "name": "Blacksmith Hammer",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:7560": {
+     "costs": {
+      "5": 1200
+     },
+     "itemId": 7560,
+     "name": "Schematic: Gnomish Universal Remote",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-23",
+   "name": "Jinky Twizzlefixxit",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.7773,
+     "mapY": 0.7781,
+     "uiMap": 1441,
+     "worldX": -6249.2,
+     "worldY": -3853.3
     }
    ],
    "repairs": false,
@@ -9048,7 +11934,7 @@
      "stack": 5
     }
    },
-   "lastSeen": "2026-11-21",
+   "lastSeen": "2026-11-24",
    "name": "Innkeeper Allison",
    "positions": [
     {
@@ -9062,7 +11948,134 @@
    ],
    "repairs": false,
    "sources": 1,
-   "visits": 3
+   "visits": 4
+  },
+  "6790": {
+   "entries": {
+    "item:1179": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 1179,
+     "name": "Ice Cold Milk",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1205": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:159": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1707": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 1707,
+     "name": "Stormwind Brie",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2070": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 2070,
+     "name": "Darnassian Bleu",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3927": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 3927,
+     "name": "Fine Aged Cheddar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:414": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 414,
+     "name": "Dalaran Sharp",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:422": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 422,
+     "name": "Dwarven Mild",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8766": {
+     "costs": {
+      "6": 3600
+     },
+     "itemId": 8766,
+     "name": "Morning Glory Dew",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8932": {
+     "costs": {
+      "6": 3600
+     },
+     "itemId": 8932,
+     "name": "Alterac Swiss",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Innkeeper Trelayne",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7398,
+     "mapY": 0.4441,
+     "uiMap": 1431,
+     "worldX": -10516.1,
+     "worldY": -1164.2
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
   },
   "6929": {
    "entries": {
@@ -9199,7 +12212,7 @@
      },
      "itemId": 117,
      "name": "Tough Jerky",
-     "sources": 1,
+     "sources": 3,
      "stack": 5
     },
     "item:1179": {
@@ -9208,7 +12221,7 @@
      },
      "itemId": 1179,
      "name": "Ice Cold Milk",
-     "sources": 1,
+     "sources": 3,
      "stack": 5
     },
     "item:1205": {
@@ -9217,7 +12230,7 @@
      },
      "itemId": 1205,
      "name": "Melon Juice",
-     "sources": 1,
+     "sources": 3,
      "stack": 5
     },
     "item:159": {
@@ -9226,7 +12239,7 @@
      },
      "itemId": 159,
      "name": "Refreshing Spring Water",
-     "sources": 1,
+     "sources": 3,
      "stack": 5
     },
     "item:1645": {
@@ -9235,7 +12248,7 @@
      },
      "itemId": 1645,
      "name": "Moonberry Juice",
-     "sources": 1,
+     "sources": 3,
      "stack": 5
     },
     "item:1708": {
@@ -9244,7 +12257,7 @@
      },
      "itemId": 1708,
      "name": "Sweet Nectar",
-     "sources": 1,
+     "sources": 3,
      "stack": 5
     },
     "item:18046": {
@@ -9253,7 +12266,7 @@
      },
      "itemId": 18046,
      "name": "Recipe: Tender Wolf Steak",
-     "sources": 1,
+     "sources": 3,
      "stack": 1
     },
     "item:2287": {
@@ -9262,7 +12275,7 @@
      },
      "itemId": 2287,
      "name": "Haunch of Meat",
-     "sources": 1,
+     "sources": 3,
      "stack": 5
     },
     "item:3770": {
@@ -9271,7 +12284,7 @@
      },
      "itemId": 3770,
      "name": "Mutton Chop",
-     "sources": 1,
+     "sources": 3,
      "stack": 5
     },
     "item:3771": {
@@ -9280,7 +12293,7 @@
      },
      "itemId": 3771,
      "name": "Wild Hog Shank",
-     "sources": 1,
+     "sources": 3,
      "stack": 5
     },
     "item:4599": {
@@ -9289,7 +12302,7 @@
      },
      "itemId": 4599,
      "name": "Cured Ham Steak",
-     "sources": 1,
+     "sources": 3,
      "stack": 5
     },
     "item:8766": {
@@ -9298,7 +12311,7 @@
      },
      "itemId": 8766,
      "name": "Morning Glory Dew",
-     "sources": 1,
+     "sources": 3,
      "stack": 5
     },
     "item:8952": {
@@ -9307,11 +12320,11 @@
      },
      "itemId": 8952,
      "name": "Roasted Quail",
-     "sources": 1,
+     "sources": 3,
      "stack": 5
     }
    },
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-24",
    "name": "Innkeeper Fizzgrimble",
    "positions": [
     {
@@ -9324,8 +12337,468 @@
     }
    ],
    "repairs": false,
+   "sources": 3,
+   "visits": 7
+  },
+  "8143": {
+   "entries": {
+    "item:1179": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 1179,
+     "name": "Ice Cold Milk",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1205": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:159": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4540": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 4540,
+     "name": "Tough Hunk of Bread",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4541": {
+     "costs": {
+      "6": 113
+     },
+     "itemId": 4541,
+     "name": "Freshly Baked Bread",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4542": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 4542,
+     "name": "Moist Cornbread",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4544": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 4544,
+     "name": "Mulgore Spice Bread",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4601": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 4601,
+     "name": "Soft Banana Bread",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8766": {
+     "costs": {
+      "6": 3600
+     },
+     "itemId": 8766,
+     "name": "Morning Glory Dew",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8950": {
+     "costs": {
+      "6": 3600
+     },
+     "itemId": 8950,
+     "name": "Homemade Cherry Pie",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-23",
+   "name": "Loorana",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.7553,
+     "mapY": 0.4388,
+     "uiMap": 1444,
+     "worldX": -4399.7,
+     "worldY": 192.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.7545,
+     "mapY": 0.4387,
+     "uiMap": 1444,
+     "worldX": -4399.2,
+     "worldY": 197.8
+    }
+   ],
+   "repairs": false,
    "sources": 1,
-   "visits": 2
+   "visits": 4
+  },
+  "8145": {
+   "entries": {
+    "item:12229": {
+     "costs": {
+      "6": 4500
+     },
+     "itemId": 12229,
+     "name": "Recipe: Hot Wolf Ribs",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:13947": {
+     "costs": {
+      "6": 18000
+     },
+     "itemId": 13947,
+     "name": "Recipe: Lobster Stew",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:13948": {
+     "costs": {
+      "6": 18000
+     },
+     "itemId": 13948,
+     "name": "Recipe: Mightfish Steak",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:13949": {
+     "costs": {
+      "6": 18000
+     },
+     "itemId": 13949,
+     "name": "Recipe: Baked Salmon",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2320": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 2320,
+     "name": "Coarse Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2321": {
+     "costs": {
+      "6": 90
+     },
+     "itemId": 2321,
+     "name": "Fine Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2324": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 2324,
+     "name": "Bleach",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2325": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 2325,
+     "name": "Black Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2604": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2604,
+     "name": "Red Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2678": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 2678,
+     "name": "Mild Spices",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2692": {
+     "costs": {
+      "6": 36
+     },
+     "itemId": 2692,
+     "name": "Hot Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2880": {
+     "costs": {
+      "6": 90
+     },
+     "itemId": 2880,
+     "name": "Weak Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2901": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 2901,
+     "name": "Mining Pick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2928": {
+     "costs": {
+      "6": 18
+     },
+     "itemId": 2928,
+     "name": "Dust of Decay",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3371": {
+     "costs": {
+      "6": 18
+     },
+     "itemId": 3371,
+     "name": "Empty Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3372": {
+     "costs": {
+      "6": 180
+     },
+     "itemId": 3372,
+     "name": "Leaded Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3466": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 3466,
+     "name": "Strong Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3713": {
+     "costs": {
+      "6": 144
+     },
+     "itemId": 3713,
+     "name": "Soothing Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3857": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 3857,
+     "name": "Coal",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4289": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 4289,
+     "name": "Salt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4291": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 4291,
+     "name": "Silken Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4340": {
+     "costs": {
+      "6": 315
+     },
+     "itemId": 4340,
+     "name": "Gray Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4341": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 4341,
+     "name": "Yellow Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4342": {
+     "costs": {
+      "6": 2250
+     },
+     "itemId": 4342,
+     "name": "Purple Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4399": {
+     "costs": {
+      "6": 180
+     },
+     "itemId": 4399,
+     "name": "Wooden Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4400": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 4400,
+     "name": "Heavy Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:5956": {
+     "costs": {
+      "6": 17
+     },
+     "itemId": 5956,
+     "name": "Blacksmith Hammer",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6217": {
+     "costs": {
+      "6": 112
+     },
+     "itemId": 6217,
+     "name": "Copper Rod",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6256": {
+     "costs": {
+      "6": 21
+     },
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6530": {
+     "costs": {
+      "6": 90
+     },
+     "itemId": 6530,
+     "name": "Nightcrawlers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6532": {
+     "costs": {
+      "6": 225
+     },
+     "itemId": 6532,
+     "name": "Bright Baubles",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:7005": {
+     "costs": {
+      "6": 9
+     },
+     "itemId": 7005,
+     "name": "Skinning Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8343": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 8343,
+     "name": "Heavy Silken Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8925": {
+     "costs": {
+      "6": 2250
+     },
+     "itemId": 8925,
+     "name": "Crystal Vial",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-23",
+   "name": "Sheendra Tallgrass",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.7451,
+     "mapY": 0.4283,
+     "uiMap": 1444,
+     "worldX": -4351.3,
+     "worldY": 263.5
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
   },
   "8398": {
    "entries": {
@@ -9397,6 +12870,61 @@
     }
    ],
    "repairs": true,
+   "sources": 1,
+   "visits": 1
+  },
+  "8404": {
+   "entries": {
+    "item:10360": {
+     "costs": {
+      "6": 4500
+     },
+     "itemId": 10360,
+     "name": "Black Kingsnake",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:10361": {
+     "costs": {
+      "6": 4500
+     },
+     "itemId": 10361,
+     "name": "Brown Snake",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:10392": {
+     "costs": {
+      "6": 4500
+     },
+     "itemId": 10392,
+     "name": "Crimson Snake",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:280703": {
+     "costs": {
+      "6": 4500
+     },
+     "itemId": 280703,
+     "name": "Jungle Boa",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Xan'tish",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3827,
+     "mapY": 0.8114,
+     "uiMap": 1454,
+     "worldX": 1514.9,
+     "worldY": -4217.3
+    }
+   ],
+   "repairs": false,
    "sources": 1,
    "visits": 1
   },
@@ -9516,6 +13044,144 @@
     }
    ],
    "repairs": true,
+   "sources": 1,
+   "visits": 2
+  },
+  "10118": {
+   "entries": {
+    "item:273636": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 273636,
+     "name": "요리사의 칼",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6256": {
+     "costs": {
+      "6": 21
+     },
+     "itemId": 6256,
+     "name": "낚싯대",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6326": {
+     "costs": {
+      "6": 36
+     },
+     "itemId": 6326,
+     "name": "조리법: 줄무늬고등어 구이",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6368": {
+     "costs": {
+      "6": 360
+     },
+     "itemId": 6368,
+     "name": "조리법: 무지개날개다랑어 구이",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6529": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 6529,
+     "name": "반짝이는 미끼",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6530": {
+     "costs": {
+      "6": 90
+     },
+     "itemId": 6530,
+     "name": "큰지렁이",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6532": {
+     "costs": {
+      "6": 225
+     },
+     "itemId": 6532,
+     "name": "화려한 미끼",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6533": {
+     "costs": {
+      "6": 225
+     },
+     "itemId": 6533,
+     "limited": true,
+     "name": "액체역학 물고기 유인기",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 2
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "네사 섀도송",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5631,
+     "mapY": 0.9243,
+     "uiMap": 1438,
+     "worldX": 8694.3,
+     "worldY": 947.5
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "10216": {
+   "entries": {
+    "item:6256": {
+     "costs": {
+      "5": 23
+     },
+     "itemId": 6256,
+     "name": "낚싯대",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6529": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 6529,
+     "name": "반짝이는 미끼",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "구버 블럼프",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3612,
+     "mapY": 0.4503,
+     "uiMap": 1439,
+     "worldX": 6367.2,
+     "worldY": 575.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.3613,
+     "mapY": 0.4489,
+     "uiMap": 1439,
+     "worldX": 6373.2,
+     "worldY": 575.5
+    }
+   ],
+   "repairs": false,
    "sources": 1,
    "visits": 2
   },
@@ -11646,6 +15312,354 @@
    "sources": 1,
    "visits": 1
   },
+  "214954": {
+   "lastSeen": "2026-11-24",
+   "name": "Rix Xizzix",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2848,
+     "mapY": 0.7573,
+     "uiMap": 1434,
+     "worldX": -14390.6,
+     "worldY": 403.8
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
+  },
+  "227853": {
+   "entries": {
+    "item:272151": {
+     "costItems": [
+      {
+       "amount": 5,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272151,
+     "name": "Damaged Undermine Supply Crate",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272397": {
+     "costItems": [
+      {
+       "amount": 100,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272397,
+     "name": "Ranger's Belt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272406": {
+     "costItems": [
+      {
+       "amount": 75,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272406,
+     "name": "Channeler's Ring",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272407": {
+     "costItems": [
+      {
+       "amount": 75,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272407,
+     "name": "Blessed Band of Light",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272408": {
+     "costItems": [
+      {
+       "amount": 75,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272408,
+     "name": "Cutthroat's Signet",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272409": {
+     "costItems": [
+      {
+       "amount": 75,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272409,
+     "name": "Ring of Awareness",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272411": {
+     "costItems": [
+      {
+       "amount": 75,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272411,
+     "name": "Arcanoweave Cloak",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272413": {
+     "costItems": [
+      {
+       "amount": 75,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272413,
+     "name": "Drape of Recovery",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272414": {
+     "costItems": [
+      {
+       "amount": 75,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272414,
+     "name": "Howler's Furs",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272415": {
+     "costItems": [
+      {
+       "amount": 75,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272415,
+     "name": "Stalwart Cloak",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272427": {
+     "costItems": [
+      {
+       "amount": 50,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272427,
+     "name": "Howling Idol",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272428": {
+     "costItems": [
+      {
+       "amount": 50,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272428,
+     "name": "Enraged Idol",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272429": {
+     "costItems": [
+      {
+       "amount": 50,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272429,
+     "name": "Idol of Synthesis",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272430": {
+     "costItems": [
+      {
+       "amount": 50,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272430,
+     "name": "Swarming Idol",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272431": {
+     "costItems": [
+      {
+       "amount": 50,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272431,
+     "name": "Tidal Totem",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272432": {
+     "costItems": [
+      {
+       "amount": 50,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272432,
+     "name": "Totem of the Maelstrom",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272433": {
+     "costItems": [
+      {
+       "amount": 50,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272433,
+     "name": "Burning Totem",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272434": {
+     "costItems": [
+      {
+       "amount": 50,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272434,
+     "name": "Sentinel's Libram",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272435": {
+     "costItems": [
+      {
+       "amount": 50,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272435,
+     "name": "Libram of Law",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272436": {
+     "costItems": [
+      {
+       "amount": 50,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272436,
+     "name": "Libram of Economy",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272437": {
+     "costItems": [
+      {
+       "amount": 125,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272437,
+     "name": "Adaptive Combat Assistant",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272438": {
+     "costItems": [
+      {
+       "amount": 125,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272438,
+     "name": "Weakness Analyzer",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272439": {
+     "costItems": [
+      {
+       "amount": 125,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272439,
+     "name": "Serenity Field",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:272440": {
+     "costItems": [
+      {
+       "amount": 125,
+       "currencyId": 3469,
+       "name": "Tarnished Undermine Real"
+      }
+     ],
+     "itemId": 272440,
+     "name": "Defender's Grip Stabilizer",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Pix Xizzix",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.285,
+     "mapY": 0.7583,
+     "uiMap": 1434,
+     "worldX": -14394.5,
+     "worldY": 402.2
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
+  },
   "248197": {
    "entries": {
     "item:251355": {
@@ -12510,6 +16524,574 @@
    "sources": 1,
    "visits": 1
   },
+  "255894": {
+   "entries": {
+    "item:117": {
+     "costs": {
+      "4": 25
+     },
+     "itemId": 117,
+     "name": "Tough Jerky",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1179": {
+     "costs": {
+      "4": 125
+     },
+     "itemId": 1179,
+     "name": "Ice Cold Milk",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1205": {
+     "costs": {
+      "4": 500
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:159": {
+     "costs": {
+      "4": 25
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "4": 2000
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "4": 1000
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:18046": {
+     "costs": {
+      "4": 12000
+     },
+     "itemId": 18046,
+     "name": "Recipe: Tender Wolf Steak",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2287": {
+     "costs": {
+      "4": 125
+     },
+     "itemId": 2287,
+     "name": "Haunch of Meat",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3770": {
+     "costs": {
+      "4": 500
+     },
+     "itemId": 3770,
+     "name": "Mutton Chop",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3771": {
+     "costs": {
+      "4": 1000
+     },
+     "itemId": 3771,
+     "name": "Wild Hog Shank",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4599": {
+     "costs": {
+      "4": 2000
+     },
+     "itemId": 4599,
+     "name": "Cured Ham Steak",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8766": {
+     "costs": {
+      "4": 4000
+     },
+     "itemId": 8766,
+     "name": "Morning Glory Dew",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8952": {
+     "costs": {
+      "4": 4000
+     },
+     "itemId": 8952,
+     "name": "Roasted Quail",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-23",
+   "name": "Innkeeper Zizplink",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7876,
+     "mapY": 0.5402,
+     "uiMap": 2548,
+     "worldX": -8213.2,
+     "worldY": -5711.5
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "255897": {
+   "entries": {
+    "item:11284": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 11284,
+     "name": "Accurate Slugs",
+     "sources": 2,
+     "stack": 200
+    },
+    "item:11285": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 11285,
+     "name": "Jagged Arrow",
+     "sources": 2,
+     "stack": 200
+    },
+    "item:11291": {
+     "costs": {
+      "5": 4500
+     },
+     "itemId": 11291,
+     "name": "Star Wood",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:1205": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:15326": {
+     "costs": {
+      "5": 24811
+     },
+     "itemId": 15326,
+     "name": "Gleaming Throwing Axe",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:15327": {
+     "costs": {
+      "5": 24811
+     },
+     "itemId": 15327,
+     "name": "Wicked Throwing Dagger",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:159": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:2515": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 2515,
+     "name": "Sharp Arrow",
+     "sources": 2,
+     "stack": 200
+    },
+    "item:2519": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 2519,
+     "name": "Heavy Shot",
+     "sources": 2,
+     "stack": 200
+    },
+    "item:2520": {
+     "costs": {
+      "5": 24628
+     },
+     "itemId": 2520,
+     "name": "Broadsword",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2521": {
+     "costs": {
+      "5": 30896
+     },
+     "itemId": 2521,
+     "name": "Flamberge",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2522": {
+     "costs": {
+      "5": 22548
+     },
+     "itemId": 2522,
+     "name": "Crescent Axe",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2523": {
+     "costs": {
+      "5": 28285
+     },
+     "itemId": 2523,
+     "name": "Bullova",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2524": {
+     "costs": {
+      "5": 19192
+     },
+     "itemId": 2524,
+     "name": "Truncheon",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2525": {
+     "costs": {
+      "5": 26489
+     },
+     "itemId": 2525,
+     "name": "War Hammer",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2526": {
+     "costs": {
+      "5": 19336
+     },
+     "itemId": 2526,
+     "name": "Main Gauche",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2527": {
+     "costs": {
+      "5": 29356
+     },
+     "itemId": 2527,
+     "name": "Battle Staff",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:276199": {
+     "costs": {
+      "5": 100000
+     },
+     "itemId": 276199,
+     "name": "Haughty Fellow's Monocle",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:276200": {
+     "costs": {
+      "5": 27547
+     },
+     "itemId": 276200,
+     "name": "Crawler's Clackers",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:276201": {
+     "costs": {
+      "5": 47136
+     },
+     "itemId": 276201,
+     "name": "Misplaced Pantaloons",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:276202": {
+     "costs": {
+      "5": 31544
+     },
+     "itemId": 276202,
+     "name": "Disengagement Ring",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:276203": {
+     "costs": {
+      "5": 118729
+     },
+     "itemId": 276203,
+     "name": "Primitive Fishing Pole",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:276204": {
+     "costs": {
+      "5": 61019
+     },
+     "itemId": 276204,
+     "name": "Thrash's Trash",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2928": {
+     "costs": {
+      "5": 20
+     },
+     "itemId": 2928,
+     "name": "Dust of Decay",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2930": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 2930,
+     "name": "Essence of Pain",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3030": {
+     "costs": {
+      "5": 300
+     },
+     "itemId": 3030,
+     "name": "Razor Arrow",
+     "sources": 2,
+     "stack": 200
+    },
+    "item:3033": {
+     "costs": {
+      "5": 300
+     },
+     "itemId": 3033,
+     "name": "Solid Shot",
+     "sources": 2,
+     "stack": 200
+    },
+    "item:3107": {
+     "costs": {
+      "5": 1830
+     },
+     "itemId": 3107,
+     "name": "Keen Throwing Knife",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3108": {
+     "costs": {
+      "5": 7593
+     },
+     "itemId": 3108,
+     "name": "Heavy Throwing Dagger",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3135": {
+     "costs": {
+      "5": 1830
+     },
+     "itemId": 3135,
+     "name": "Sharp Throwing Axe",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3137": {
+     "costs": {
+      "5": 7593
+     },
+     "itemId": 3137,
+     "name": "Deadly Throwing Axe",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3371": {
+     "costs": {
+      "5": 20
+     },
+     "itemId": 3371,
+     "name": "Empty Vial",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:3372": {
+     "costs": {
+      "5": 200
+     },
+     "itemId": 3372,
+     "name": "Leaded Vial",
+     "sources": 2,
+     "stack": 5
+    },
+    "item:4470": {
+     "costs": {
+      "5": 38
+     },
+     "itemId": 4470,
+     "name": "Simple Wood",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:4471": {
+     "costs": {
+      "5": 135
+     },
+     "itemId": 4471,
+     "name": "Flint and Tinder",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:4497": {
+     "costs": {
+      "5": 20000
+     },
+     "itemId": 4497,
+     "name": "Heavy Brown Bag",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:4498": {
+     "costs": {
+      "5": 2500
+     },
+     "itemId": 4498,
+     "name": "Brown Leather Satchel",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:5060": {
+     "costs": {
+      "5": 1500
+     },
+     "itemId": 5060,
+     "name": "Thieves' Tools",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:5140": {
+     "costs": {
+      "5": 25
+     },
+     "itemId": 5140,
+     "name": "Flash Powder",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:5173": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 5173,
+     "name": "Deathweed",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:8923": {
+     "costs": {
+      "5": 200
+     },
+     "itemId": 8923,
+     "name": "Essence of Agony",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:8924": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 8924,
+     "name": "Dust of Deterioration",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:8925": {
+     "costs": {
+      "5": 2500
+     },
+     "itemId": 8925,
+     "name": "Crystal Vial",
+     "sources": 2,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-23",
+   "name": "Friz Frazzlespark",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7707,
+     "mapY": 0.5297,
+     "uiMap": 2548,
+     "worldX": -8179.5,
+     "worldY": -5629.7
+    },
+    {
+     "instance": 0,
+     "mapX": 0.7719,
+     "mapY": 0.529,
+     "uiMap": 2548,
+     "worldX": -8177.1,
+     "worldY": -5635.5
+    }
+   ],
+   "repairs": false,
+   "sources": 2,
+   "visits": 2
+  },
   "255940": {
    "entries": {
     "item:117": {
@@ -12735,6 +17317,304 @@
    "repairs": false,
    "sources": 1,
    "visits": 1
+  },
+  "256657": {
+   "entries": {
+    "item:17189": {
+     "costs": {
+      "6": 10839
+     },
+     "itemId": 17189,
+     "name": "Metal Buckler",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2417": {
+     "costs": {
+      "6": 14106
+     },
+     "itemId": 2417,
+     "name": "Augmented Chain Vest",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2418": {
+     "costs": {
+      "6": 14158
+     },
+     "itemId": 2418,
+     "name": "Augmented Chain Leggings",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2419": {
+     "costs": {
+      "6": 7105
+     },
+     "itemId": 2419,
+     "name": "Augmented Chain Belt",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2420": {
+     "costs": {
+      "6": 10744
+     },
+     "itemId": 2420,
+     "name": "Augmented Chain Boots",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2421": {
+     "costs": {
+      "6": 7157
+     },
+     "itemId": 2421,
+     "name": "Augmented Chain Bracers",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2422": {
+     "costs": {
+      "6": 7183
+     },
+     "itemId": 2422,
+     "name": "Augmented Chain Gloves",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2429": {
+     "costs": {
+      "6": 9125
+     },
+     "itemId": 2429,
+     "name": "Russet Vest",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2431": {
+     "costs": {
+      "6": 9194
+     },
+     "itemId": 2431,
+     "name": "Russet Pants",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2432": {
+     "costs": {
+      "6": 6921
+     },
+     "itemId": 2432,
+     "name": "Russet Boots",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2434": {
+     "costs": {
+      "6": 4649
+     },
+     "itemId": 2434,
+     "name": "Russet Gloves",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2448": {
+     "costs": {
+      "6": 14543
+     },
+     "itemId": 2448,
+     "name": "Heavy Pavise",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2463": {
+     "costs": {
+      "6": 12326
+     },
+     "itemId": 2463,
+     "name": "Studded Doublet",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2464": {
+     "costs": {
+      "6": 6184
+     },
+     "itemId": 2464,
+     "name": "Studded Belt",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2465": {
+     "costs": {
+      "6": 11230
+     },
+     "itemId": 2465,
+     "name": "Studded Pants",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2467": {
+     "costs": {
+      "6": 8487
+     },
+     "itemId": 2467,
+     "name": "Studded Boots",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2468": {
+     "costs": {
+      "6": 5679
+     },
+     "itemId": 2468,
+     "name": "Studded Bracers",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2469": {
+     "costs": {
+      "6": 5701
+     },
+     "itemId": 2469,
+     "name": "Studded Gloves",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2520": {
+     "costs": {
+      "6": 22166
+     },
+     "itemId": 2520,
+     "name": "Broadsword",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2521": {
+     "costs": {
+      "6": 27807
+     },
+     "itemId": 2521,
+     "name": "Flamberge",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2522": {
+     "costs": {
+      "6": 20294
+     },
+     "itemId": 2522,
+     "name": "Crescent Axe",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2523": {
+     "costs": {
+      "6": 25457
+     },
+     "itemId": 2523,
+     "name": "Bullova",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2524": {
+     "costs": {
+      "6": 17273
+     },
+     "itemId": 2524,
+     "name": "Truncheon",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2525": {
+     "costs": {
+      "6": 23841
+     },
+     "itemId": 2525,
+     "name": "War Hammer",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2526": {
+     "costs": {
+      "6": 17403
+     },
+     "itemId": 2526,
+     "name": "Main Gauche",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:2527": {
+     "costs": {
+      "6": 26421
+     },
+     "itemId": 2527,
+     "name": "Battle Staff",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3593": {
+     "costs": {
+      "6": 4930
+     },
+     "itemId": 3593,
+     "name": "Russet Belt",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3594": {
+     "costs": {
+      "6": 4948
+     },
+     "itemId": 3594,
+     "name": "Russet Bracers",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3889": {
+     "costs": {
+      "6": 7130
+     },
+     "itemId": 3889,
+     "name": "Russet Hat",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3890": {
+     "costs": {
+      "6": 9181
+     },
+     "itemId": 3890,
+     "name": "Studded Hat",
+     "sources": 2,
+     "stack": 1
+    },
+    "item:3891": {
+     "costs": {
+      "6": 11056
+     },
+     "itemId": 3891,
+     "name": "Augmented Chain Helm",
+     "sources": 2,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Kreza Darkthorn",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5987,
+     "mapY": 0.4606,
+     "uiMap": 2548,
+     "worldX": -7955.8,
+     "worldY": -4795.2
+    }
+   ],
+   "repairs": true,
+   "sources": 2,
+   "visits": 4
   },
   "256734": {
    "entries": {
@@ -13821,6 +18701,873 @@
    "sources": 1,
    "visits": 3
   },
+  "257057": {
+   "entries": {
+    "item:117": {
+     "costs": {
+      "4": 25,
+      "5": 25
+     },
+     "itemId": 117,
+     "name": "Tough Jerky",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2287": {
+     "costs": {
+      "4": 125,
+      "5": 125
+     },
+     "itemId": 2287,
+     "name": "Haunch of Meat",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3770": {
+     "costs": {
+      "4": 500,
+      "5": 500
+     },
+     "itemId": 3770,
+     "name": "Mutton Chop",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3771": {
+     "costs": {
+      "4": 1000,
+      "5": 1000
+     },
+     "itemId": 3771,
+     "name": "Wild Hog Shank",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:4599": {
+     "costs": {
+      "4": 2000,
+      "5": 2000
+     },
+     "itemId": 4599,
+     "name": "Cured Ham Steak",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:8952": {
+     "costs": {
+      "4": 4000,
+      "5": 4000
+     },
+     "itemId": 8952,
+     "name": "Roasted Quail",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Glop",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6745,
+     "mapY": 0.1942,
+     "uiMap": 2548,
+     "worldX": -7094.7,
+     "worldY": -5163.1
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 3
+  },
+  "258572": {
+   "entries": {
+    "item:253665": {
+     "costs": {
+      "6": 135
+     },
+     "itemId": 253665,
+     "name": "도안: 리넨 재료 가방",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:253668": {
+     "costs": {
+      "6": 225
+     },
+     "itemId": 253668,
+     "name": "도안: 양모 재료 가방",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "다니일",
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.6392,
+     "mapY": 0.2132,
+     "uiMap": 1457,
+     "worldX": 10087.8,
+     "worldY": 2261.9
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "260343": {
+   "entries": {
+    "item:11284": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 11284,
+     "name": "Accurate Slugs",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:11285": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 11285,
+     "name": "Jagged Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:11291": {
+     "costs": {
+      "6": 4050
+     },
+     "itemId": 11291,
+     "name": "Star Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:1205": {
+     "costs": {
+      "6": 450
+     },
+     "itemId": 1205,
+     "name": "Melon Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:15326": {
+     "costs": {
+      "6": 22330
+     },
+     "itemId": 15326,
+     "name": "Gleaming Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:15327": {
+     "costs": {
+      "6": 22330
+     },
+     "itemId": 15327,
+     "name": "Wicked Throwing Dagger",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:159": {
+     "costs": {
+      "6": 23
+     },
+     "itemId": 159,
+     "name": "Refreshing Spring Water",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1645": {
+     "costs": {
+      "6": 1800
+     },
+     "itemId": 1645,
+     "name": "Moonberry Juice",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:1708": {
+     "costs": {
+      "6": 900
+     },
+     "itemId": 1708,
+     "name": "Sweet Nectar",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2515": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2515,
+     "name": "Sharp Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2519": {
+     "costs": {
+      "6": 45
+     },
+     "itemId": 2519,
+     "name": "Heavy Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3030": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 3030,
+     "name": "Razor Arrow",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3033": {
+     "costs": {
+      "6": 270
+     },
+     "itemId": 3033,
+     "name": "Solid Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3107": {
+     "costs": {
+      "6": 1647
+     },
+     "itemId": 3107,
+     "name": "Keen Throwing Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3108": {
+     "costs": {
+      "6": 6834
+     },
+     "itemId": 3108,
+     "name": "Heavy Throwing Dagger",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3135": {
+     "costs": {
+      "6": 1647
+     },
+     "itemId": 3135,
+     "name": "Sharp Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3137": {
+     "costs": {
+      "6": 6834
+     },
+     "itemId": 3137,
+     "name": "Deadly Throwing Axe",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4470": {
+     "costs": {
+      "6": 35
+     },
+     "itemId": 4470,
+     "name": "Simple Wood",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4471": {
+     "costs": {
+      "6": 122
+     },
+     "itemId": 4471,
+     "name": "Flint and Tinder",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4497": {
+     "costs": {
+      "6": 18000
+     },
+     "itemId": 4497,
+     "name": "Heavy Brown Bag",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4498": {
+     "costs": {
+      "6": 2250
+     },
+     "itemId": 4498,
+     "name": "Brown Leather Satchel",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Maka",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.5814,
+     "mapY": 0.4591,
+     "uiMap": 2548,
+     "worldX": -7951.2,
+     "worldY": -4711.6
+    },
+    {
+     "instance": 0,
+     "mapX": 0.5824,
+     "mapY": 0.4587,
+     "uiMap": 2548,
+     "worldX": -7949.8,
+     "worldY": -4716.5
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 2
+  },
+  "260487": {
+   "entries": {
+    "item:271657": {
+     "costs": {
+      "5": 8000
+     },
+     "itemId": 271657,
+     "name": "Fresh Chum",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:273636": {
+     "costs": {
+      "5": 300
+     },
+     "itemId": 273636,
+     "name": "Chef's Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4603": {
+     "costs": {
+      "5": 80
+     },
+     "itemId": 4603,
+     "limited": true,
+     "name": "Raw Spotted Yellowtail",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6256": {
+     "costs": {
+      "5": 23
+     },
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6289": {
+     "costs": {
+      "5": 20
+     },
+     "itemId": 6289,
+     "limited": true,
+     "name": "Raw Longjaw Mud Snapper",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6303": {
+     "costs": {
+      "5": 20
+     },
+     "itemId": 6303,
+     "limited": true,
+     "name": "Raw Slitherskin Mackerel",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6308": {
+     "costs": {
+      "5": 40
+     },
+     "itemId": 6308,
+     "limited": true,
+     "name": "Raw Bristle Whisker Catfish",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6330": {
+     "costs": {
+      "5": 1200
+     },
+     "itemId": 6330,
+     "name": "Recipe: Bristle Whisker Catfish",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6362": {
+     "costs": {
+      "5": 80
+     },
+     "itemId": 6362,
+     "limited": true,
+     "name": "Raw Rockscale Cod",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    },
+    "item:6368": {
+     "costs": {
+      "5": 400
+     },
+     "itemId": 6368,
+     "name": "Recipe: Rainbow Fin Albacore",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6529": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 6529,
+     "name": "Shiny Bauble",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6530": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 6530,
+     "name": "Nightcrawlers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6532": {
+     "costs": {
+      "5": 250
+     },
+     "itemId": 6532,
+     "name": "Bright Baubles",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8959": {
+     "costs": {
+      "5": 3200
+     },
+     "itemId": 8959,
+     "limited": true,
+     "name": "Raw Spinefin Halibut",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 5
+    }
+   },
+   "lastSeen": "2026-11-23",
+   "name": "Gritta Chumwater",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7838,
+     "mapY": 0.5495,
+     "uiMap": 2548,
+     "worldX": -8243.4,
+     "worldY": -5692.9
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 2
+  },
+  "260559": {
+   "entries": {
+    "item:2320": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2320,
+     "name": "Coarse Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2321": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 2321,
+     "name": "Fine Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2325": {
+     "costs": {
+      "5": 1000
+     },
+     "itemId": 2325,
+     "name": "Black Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2604": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 2604,
+     "name": "Red Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2678": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2678,
+     "name": "Mild Spices",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:2692": {
+     "costs": {
+      "5": 40
+     },
+     "itemId": 2692,
+     "name": "Hot Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2880": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 2880,
+     "name": "Weak Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2901": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 2901,
+     "name": "Mining Pick",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2928": {
+     "costs": {
+      "5": 20
+     },
+     "itemId": 2928,
+     "name": "Dust of Decay",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3371": {
+     "costs": {
+      "5": 20
+     },
+     "itemId": 3371,
+     "name": "Empty Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3372": {
+     "costs": {
+      "5": 200
+     },
+     "itemId": 3372,
+     "name": "Leaded Vial",
+     "sources": 1,
+     "stack": 5
+    },
+    "item:3466": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 3466,
+     "name": "Strong Flux",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3713": {
+     "costs": {
+      "5": 160
+     },
+     "itemId": 3713,
+     "name": "Soothing Spices",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3857": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 3857,
+     "name": "Coal",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4289": {
+     "costs": {
+      "5": 50
+     },
+     "itemId": 4289,
+     "name": "Salt",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4291": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 4291,
+     "name": "Silken Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4340": {
+     "costs": {
+      "5": 350
+     },
+     "itemId": 4340,
+     "name": "Gray Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4341": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 4341,
+     "name": "Yellow Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4342": {
+     "costs": {
+      "5": 2500
+     },
+     "itemId": 4342,
+     "name": "Purple Dye",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4399": {
+     "costs": {
+      "5": 200
+     },
+     "itemId": 4399,
+     "name": "Wooden Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:4400": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 4400,
+     "name": "Heavy Stock",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6217": {
+     "costs": {
+      "5": 124
+     },
+     "itemId": 6217,
+     "name": "Copper Rod",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6256": {
+     "costs": {
+      "5": 23
+     },
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6530": {
+     "costs": {
+      "5": 100
+     },
+     "itemId": 6530,
+     "name": "Nightcrawlers",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:6532": {
+     "costs": {
+      "5": 250
+     },
+     "itemId": 6532,
+     "name": "Bright Baubles",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:7005": {
+     "costs": {
+      "5": 10
+     },
+     "itemId": 7005,
+     "name": "Skinning Knife",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8343": {
+     "costs": {
+      "5": 2000
+     },
+     "itemId": 8343,
+     "name": "Heavy Silken Thread",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:8925": {
+     "costs": {
+      "5": 2500
+     },
+     "itemId": 8925,
+     "name": "Crystal Vial",
+     "sources": 1,
+     "stack": 5
+    }
+   },
+   "lastSeen": "2026-11-23",
+   "name": "Gilliwigs",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7936,
+     "mapY": 0.5459,
+     "uiMap": 2548,
+     "worldX": -8231.8,
+     "worldY": -5740.8
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "260566": {
+   "entries": {
+    "item:11284": {
+     "costs": {
+      "4": 1000,
+      "5": 1000
+     },
+     "itemId": 11284,
+     "name": "Accurate Slugs",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:18650": {
+     "costs": {
+      "4": 5000,
+      "5": 5000
+     },
+     "itemId": 18650,
+     "name": "Schematic: EZ-Thro Dynamite II",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2516": {
+     "costs": {
+      "4": 10,
+      "5": 10
+     },
+     "itemId": 2516,
+     "name": "Light Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:2519": {
+     "costs": {
+      "4": 50,
+      "5": 50
+     },
+     "itemId": 2519,
+     "name": "Heavy Shot",
+     "sources": 1,
+     "stack": 200
+    },
+    "item:3023": {
+     "costs": {
+      "4": 3771,
+      "5": 3771
+     },
+     "itemId": 3023,
+     "name": "Large Bore Blunderbuss",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3024": {
+     "costs": {
+      "4": 7098,
+      "5": 7098
+     },
+     "itemId": 3024,
+     "name": "BKP 2700 \"Enforcer\"",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3025": {
+     "costs": {
+      "4": 18478,
+      "5": 18478
+     },
+     "itemId": 3025,
+     "name": "BKP 42 \"Ultra\"",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:3033": {
+     "costs": {
+      "4": 300,
+      "5": 300
+     },
+     "itemId": 3033,
+     "name": "Solid Shot",
+     "sources": 1,
+     "stack": 200
+    }
+   },
+   "lastSeen": "2026-11-23",
+   "name": "Fizzix Boomshot",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.7858,
+     "mapY": 0.5367,
+     "uiMap": 2548,
+     "worldX": -8202.1,
+     "worldY": -5702.6
+    },
+    {
+     "instance": 0,
+     "mapX": 0.7867,
+     "mapY": 0.5351,
+     "uiMap": 2548,
+     "worldX": -8196.8,
+     "worldY": -5707.2
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 2
+  },
   "261313": {
    "entries": {
     "item:117": {
@@ -13956,6 +19703,113 @@
    "repairs": false,
    "sources": 1,
    "visits": 3
+  },
+  "263230": {
+   "entries": {
+    "item:1710": {
+     "costs": {
+      "5": 500
+     },
+     "itemId": 1710,
+     "name": "Greater Healing Potion",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:271647": {
+     "costs": {
+      "5": 30
+     },
+     "itemId": 271647,
+     "limited": true,
+     "name": "Once Used Shoe",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 1
+    },
+    "item:271648": {
+     "costs": {
+      "5": 30
+     },
+     "itemId": 271648,
+     "limited": true,
+     "name": "Ogre Tooth Cleaner",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 1
+    },
+    "item:3827": {
+     "costs": {
+      "5": 480
+     },
+     "itemId": 3827,
+     "limited": true,
+     "name": "Mana Potion",
+     "sources": 1,
+     "stack": 1,
+     "stockMax": 3
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Dorb",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6385,
+     "mapY": 0.1703,
+     "uiMap": 2548,
+     "worldX": -7017.4,
+     "worldY": -4988.2
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 1
+  },
+  "263440": {
+   "entries": {
+    "item:2524": {
+     "costs": {
+      "4": 19192
+     },
+     "itemId": 2524,
+     "name": "Truncheon",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2525": {
+     "costs": {
+      "4": 26489
+     },
+     "itemId": 2525,
+     "name": "War Hammer",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:2527": {
+     "costs": {
+      "4": 29356
+     },
+     "itemId": 2527,
+     "name": "Battle Staff",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-23",
+   "name": "Hamur",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6716,
+     "mapY": 0.2176,
+     "uiMap": 2548,
+     "worldX": -7170.4,
+     "worldY": -5148.8
+    }
+   ],
+   "repairs": true,
+   "sources": 1,
+   "visits": 1
   },
   "264078": {
    "entries": {
@@ -14120,6 +19974,79 @@
    "repairs": false,
    "sources": 1,
    "visits": 1
+  },
+  "265575": {
+   "entries": {
+    "item:274022": {
+     "costs": {
+      "4": 50000
+     },
+     "itemId": 274022,
+     "name": "Tough Guy's Eyepatch",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:274745": {
+     "costs": {
+      "4": 11042
+     },
+     "itemId": 274745,
+     "name": "Deckswabber's Mitts",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:274746": {
+     "costs": {
+      "4": 14775
+     },
+     "itemId": 274746,
+     "name": "Sea Giant's Toe Ring",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:274747": {
+     "costs": {
+      "4": 10322
+     },
+     "itemId": 274747,
+     "name": "Soggy Boots",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:274748": {
+     "costs": {
+      "4": 31088
+     },
+     "itemId": 274748,
+     "name": "Booty Bay Bruiser's Buckshot",
+     "sources": 1,
+     "stack": 1
+    },
+    "item:274749": {
+     "costs": {
+      "4": 16643
+     },
+     "itemId": 274749,
+     "name": "Souvenir Sea Shell",
+     "sources": 1,
+     "stack": 1
+    }
+   },
+   "lastSeen": "2026-11-24",
+   "name": "Gezzy Gunkgear",
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.2835,
+     "mapY": 0.7485,
+     "uiMap": 1434,
+     "worldX": -14352.9,
+     "worldY": 411.6
+    }
+   ],
+   "repairs": false,
+   "sources": 1,
+   "visits": 2
   }
  }
 }

@@ -28,6 +28,10 @@
    "sources": 1,
    "times": 1
   },
+  "2278": {
+   "sources": 2,
+   "times": 2
+  },
   "2520": {
    "positions": [
     {
@@ -143,9 +147,112 @@
    ],
    "sources": 1,
    "times": 1
+  },
+  "94556": {
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6453,
+     "mapY": 0.149,
+     "uiMap": 2548,
+     "worldX": -6948.3,
+     "worldY": -5021.1
+    }
+   ],
+   "sources": 1,
+   "times": 1
+  },
+  "94670": {
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6541,
+     "mapY": 0.1998,
+     "uiMap": 2548,
+     "worldX": -7112.6,
+     "worldY": -5064
+    }
+   ],
+   "sources": 1,
+   "times": 1
+  },
+  "94739": {
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6535,
+     "mapY": 0.2004,
+     "uiMap": 2548,
+     "worldX": -7114.5,
+     "worldY": -5061.3
+    }
+   ],
+   "sources": 1,
+   "times": 1
+  },
+  "94962": {
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6542,
+     "mapY": 0.2001,
+     "uiMap": 2548,
+     "worldX": -7113.6,
+     "worldY": -5064.5
+    }
+   ],
+   "sources": 1,
+   "times": 1
+  },
+  "94964": {
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6544,
+     "mapY": 0.1986,
+     "uiMap": 2548,
+     "worldX": -7108.7,
+     "worldY": -5065.3
+    }
+   ],
+   "sources": 1,
+   "times": 1
+  },
+  "94965": {
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.6546,
+     "mapY": 0.202,
+     "uiMap": 2548,
+     "worldX": -7119.9,
+     "worldY": -5066.3
+    }
+   ],
+   "sources": 1,
+   "times": 1
+  },
+  "95063": {
+   "positions": [
+    {
+     "instance": 0,
+     "mapX": 0.656,
+     "mapY": 0.2062,
+     "uiMap": 2548,
+     "worldX": -7133.3,
+     "worldY": -5073.2
+    }
+   ],
+   "sources": 1,
+   "times": 1
   }
  },
- "failed": {},
+ "failed": {
+  "94670": {
+   "sources": 1,
+   "times": 1
+  }
+ },
  "gossip": {
   "4287": {
    "object:164957|option:96122": {
@@ -170,20 +277,86 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.71037",
   "collectedOn": {
-   "first": "2026-11-22",
-   "last": "2026-11-23"
+   "first": "2026-11-23",
+   "last": "2026-11-24"
   },
   "dataset": "objectives",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 6
+  "sources": 10
  },
  "quests": {
+  "188": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.3207,
+      "mapY": 0.1757,
+      "uiMap": 1434,
+      "worldX": -11916.2,
+      "worldY": 174.4
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
   "195": {
    "1": {
-    "gains": 2,
+    "gains": 10,
     "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.3068,
+      "mapY": 0.2256,
+      "uiMap": 1434,
+      "worldX": -12128.3,
+      "worldY": 263.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.3059,
+      "mapY": 0.224,
+      "uiMap": 1434,
+      "worldX": -12121.8,
+      "worldY": 268.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.3001,
+      "mapY": 0.2208,
+      "uiMap": 1434,
+      "worldX": -12108.1,
+      "worldY": 305.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.3044,
+      "mapY": 0.2172,
+      "uiMap": 1434,
+      "worldX": -12092.9,
+      "worldY": 278.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.302,
+      "mapY": 0.2168,
+      "uiMap": 1434,
+      "worldX": -12091.1,
+      "worldY": 293.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.3182,
+      "mapY": 0.2108,
+      "uiMap": 1434,
+      "worldX": -12065.4,
+      "worldY": 190.1
+     },
      {
       "instance": 0,
       "mapX": 0.3889,
@@ -191,6 +364,14 @@
       "uiMap": 1434,
       "worldX": -12062.6,
       "worldY": -261
+     },
+     {
+      "instance": 0,
+      "mapX": 0.3251,
+      "mapY": 0.205,
+      "uiMap": 1434,
+      "worldX": -12040.7,
+      "worldY": 146.5
      },
      {
       "instance": 0,
@@ -1078,7 +1259,7 @@
   },
   "339": {
    "3": {
-    "gains": 1,
+    "gains": 3,
     "positions": [
      {
       "instance": 0,
@@ -1087,14 +1268,30 @@
       "uiMap": 1434,
       "worldX": -14425.7,
       "worldY": 524.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4608,
+      "mapY": 0.0822,
+      "uiMap": 1434,
+      "worldX": -11518.4,
+      "worldY": -719.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6332,
+      "mapY": 0.8115,
+      "uiMap": 1453,
+      "worldX": -8935.8,
+      "worldY": 622.8
      }
     ],
     "required": 1,
-    "sources": 1,
+    "sources": 2,
     "type": "item"
    },
    "4": {
-    "gains": 1,
+    "gains": 3,
     "positions": [
      {
       "instance": 0,
@@ -1103,16 +1300,32 @@
       "uiMap": 1434,
       "worldX": -14425.7,
       "worldY": 524.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4935,
+      "mapY": 0.0768,
+      "uiMap": 1434,
+      "worldX": -11495.6,
+      "worldY": -928.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6332,
+      "mapY": 0.8115,
+      "uiMap": 1453,
+      "worldX": -8935.8,
+      "worldY": 622.8
      }
     ],
     "required": 1,
-    "sources": 1,
+    "sources": 2,
     "type": "item"
    }
   },
   "340": {
    "1": {
-    "gains": 2,
+    "gains": 3,
     "positions": [
      {
       "instance": 0,
@@ -1129,10 +1342,42 @@
       "uiMap": 1434,
       "worldX": -11652.8,
       "worldY": -618
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6332,
+      "mapY": 0.8115,
+      "uiMap": 1453,
+      "worldX": -8935.8,
+      "worldY": 622.8
      }
     ],
     "required": 1,
     "sources": 2,
+    "type": "item"
+   },
+   "3": {
+    "gains": 2,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.3059,
+      "mapY": 0.2077,
+      "uiMap": 1434,
+      "worldX": -12052.4,
+      "worldY": 268.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6332,
+      "mapY": 0.8115,
+      "uiMap": 1453,
+      "worldX": -8935.8,
+      "worldY": 622.8
+     }
+    ],
+    "required": 1,
+    "sources": 1,
     "type": "item"
    },
    "4": {
@@ -1153,6 +1398,30 @@
    }
   },
   "341": {
+   "1": {
+    "gains": 2,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.3399,
+      "mapY": 0.2154,
+      "uiMap": 1434,
+      "worldX": -12085.2,
+      "worldY": 51.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6332,
+      "mapY": 0.8115,
+      "uiMap": 1453,
+      "worldX": -8935.8,
+      "worldY": 622.8
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   },
    "3": {
     "gains": 1,
     "positions": [
@@ -1188,7 +1457,7 @@
   },
   "342": {
    "2": {
-    "gains": 1,
+    "gains": 2,
     "positions": [
      {
       "instance": 0,
@@ -1197,6 +1466,14 @@
       "uiMap": 1434,
       "worldX": -11620.3,
       "worldY": -567.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6332,
+      "mapY": 0.8115,
+      "uiMap": 1453,
+      "worldX": -8935.8,
+      "worldY": 622.8
      }
     ],
     "required": 1,
@@ -1204,7 +1481,7 @@
     "type": "item"
    },
    "3": {
-    "gains": 2,
+    "gains": 3,
     "positions": [
      {
       "instance": 0,
@@ -1221,6 +1498,14 @@
       "uiMap": 1434,
       "worldX": -11598.6,
       "worldY": -626.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6332,
+      "mapY": 0.8115,
+      "uiMap": 1453,
+      "worldX": -8935.8,
+      "worldY": 622.8
      }
     ],
     "required": 1,
@@ -1684,8 +1969,40 @@
   },
   "379": {
    "1": {
-    "gains": 5,
+    "gains": 13,
     "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.6425,
+      "mapY": 0.399,
+      "uiMap": 1446,
+      "worldX": -7710.2,
+      "worldY": -4651.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6409,
+      "mapY": 0.3957,
+      "uiMap": 1446,
+      "worldX": -7695.2,
+      "worldY": -4640.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6075,
+      "mapY": 0.3945,
+      "uiMap": 1446,
+      "worldX": -7689.8,
+      "worldY": -4410.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5836,
+      "mapY": 0.3687,
+      "uiMap": 1446,
+      "worldX": -7570.9,
+      "worldY": -4245.4
+     },
      {
       "instance": 1,
       "mapX": 0.6361,
@@ -1720,15 +2037,47 @@
      },
      {
       "instance": 1,
+      "mapX": 0.6019,
+      "mapY": 0.2473,
+      "uiMap": 1446,
+      "worldX": -7012.6,
+      "worldY": -4371.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5983,
+      "mapY": 0.2408,
+      "uiMap": 1446,
+      "worldX": -6982.9,
+      "worldY": -4346.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6048,
+      "mapY": 0.2345,
+      "uiMap": 1446,
+      "worldX": -6953.6,
+      "worldY": -4391.8
+     },
+     {
+      "instance": 1,
       "mapX": 0.6038,
       "mapY": 0.2314,
       "uiMap": 1446,
       "worldX": -6939.3,
       "worldY": -4384.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6078,
+      "mapY": 0.2271,
+      "uiMap": 1446,
+      "worldX": -6919.9,
+      "worldY": -4412.8
      }
     ],
     "required": 5,
-    "sources": 1,
+    "sources": 2,
     "type": "item"
    }
   },
@@ -2688,6 +3037,144 @@
     "type": "item"
    }
   },
+  "574": {
+   "1": {
+    "gains": 10,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.4568,
+      "mapY": 0.0891,
+      "uiMap": 1434,
+      "worldX": -11547.9,
+      "worldY": -693.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4604,
+      "mapY": 0.0832,
+      "uiMap": 1434,
+      "worldX": -11522.7,
+      "worldY": -717.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4632,
+      "mapY": 0.0788,
+      "uiMap": 1434,
+      "worldX": -11503.9,
+      "worldY": -734.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4777,
+      "mapY": 0.0774,
+      "uiMap": 1434,
+      "worldX": -11497.9,
+      "worldY": -827.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4785,
+      "mapY": 0.0742,
+      "uiMap": 1434,
+      "worldX": -11484.5,
+      "worldY": -832.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4685,
+      "mapY": 0.0719,
+      "uiMap": 1434,
+      "worldX": -11474.5,
+      "worldY": -769
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4633,
+      "mapY": 0.0693,
+      "uiMap": 1434,
+      "worldX": -11463.6,
+      "worldY": -735.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4647,
+      "mapY": 0.0692,
+      "uiMap": 1434,
+      "worldX": -11463.1,
+      "worldY": -744.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.464,
+      "mapY": 0.0674,
+      "uiMap": 1434,
+      "worldX": -11455.6,
+      "worldY": -740
+     }
+    ],
+    "required": 10,
+    "sources": 1,
+    "type": "monster"
+   },
+   "2": {
+    "gains": 6,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.4739,
+      "mapY": 0.0777,
+      "uiMap": 1434,
+      "worldX": -11499.4,
+      "worldY": -803.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4774,
+      "mapY": 0.0773,
+      "uiMap": 1434,
+      "worldX": -11497.4,
+      "worldY": -825.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4633,
+      "mapY": 0.0751,
+      "uiMap": 1434,
+      "worldX": -11488.2,
+      "worldY": -735.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4808,
+      "mapY": 0.0731,
+      "uiMap": 1434,
+      "worldX": -11479.7,
+      "worldY": -847.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4636,
+      "mapY": 0.0724,
+      "uiMap": 1434,
+      "worldX": -11476.6,
+      "worldY": -737.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4652,
+      "mapY": 0.0697,
+      "uiMap": 1434,
+      "worldX": -11465.1,
+      "worldY": -747.9
+     }
+    ],
+    "required": 6,
+    "sources": 1,
+    "type": "monster"
+   }
+  },
   "576": {
    "1": {
     "gains": 1,
@@ -3498,7 +3985,7 @@
   },
   "605": {
    "1": {
-    "gains": 3,
+    "gains": 4,
     "positions": [
      {
       "instance": 0,
@@ -3515,6 +4002,14 @@
       "uiMap": 1434,
       "worldX": -11893.1,
       "worldY": 689.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4859,
+      "mapY": 0.0992,
+      "uiMap": 1434,
+      "worldX": -11590.7,
+      "worldY": -879.7
      }
     ],
     "required": 10,
@@ -3878,6 +4373,360 @@
     "required": 1,
     "sources": 1,
     "type": "object"
+   }
+  },
+  "654": {
+   "1": {
+    "gains": 16,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.3969,
+      "mapY": 0.492,
+      "uiMap": 1446,
+      "worldX": -8138,
+      "worldY": -2957.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.41,
+      "mapY": 0.4891,
+      "uiMap": 1446,
+      "worldX": -8124.9,
+      "worldY": -3047.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.455,
+      "mapY": 0.485,
+      "uiMap": 1446,
+      "worldX": -8106.1,
+      "worldY": -3358.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4286,
+      "mapY": 0.4753,
+      "uiMap": 1446,
+      "worldX": -8061.2,
+      "worldY": -3176
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4575,
+      "mapY": 0.4678,
+      "uiMap": 1446,
+      "worldX": -8027,
+      "worldY": -3375.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4572,
+      "mapY": 0.4638,
+      "uiMap": 1446,
+      "worldX": -8008.6,
+      "worldY": -3373.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4574,
+      "mapY": 0.4432,
+      "uiMap": 1446,
+      "worldX": -7913.6,
+      "worldY": -3374.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4576,
+      "mapY": 0.434,
+      "uiMap": 1446,
+      "worldX": -7871.3,
+      "worldY": -3376.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4648,
+      "mapY": 0.4272,
+      "uiMap": 1446,
+      "worldX": -7840,
+      "worldY": -3426.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4506,
+      "mapY": 0.417,
+      "uiMap": 1446,
+      "worldX": -7793.1,
+      "worldY": -3328
+     },
+     {
+      "instance": 1,
+      "mapX": 0.454,
+      "mapY": 0.403,
+      "uiMap": 1446,
+      "worldX": -7728.9,
+      "worldY": -3351.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4737,
+      "mapY": 0.3778,
+      "uiMap": 1446,
+      "worldX": -7613.1,
+      "worldY": -3487.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4621,
+      "mapY": 0.358,
+      "uiMap": 1446,
+      "worldX": -7521.9,
+      "worldY": -3407.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5125,
+      "mapY": 0.3559,
+      "uiMap": 1446,
+      "worldX": -7512.3,
+      "worldY": -3755.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4845,
+      "mapY": 0.3229,
+      "uiMap": 1446,
+      "worldX": -7360.4,
+      "worldY": -3561.5
+     }
+    ],
+    "required": 8,
+    "sources": 2,
+    "type": "item"
+   },
+   "2": {
+    "gains": 16,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.4289,
+      "mapY": 0.5117,
+      "uiMap": 1446,
+      "worldX": -8228.9,
+      "worldY": -3177.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4298,
+      "mapY": 0.5112,
+      "uiMap": 1446,
+      "worldX": -8226.7,
+      "worldY": -3184
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3806,
+      "mapY": 0.4991,
+      "uiMap": 1446,
+      "worldX": -8170.9,
+      "worldY": -2844.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4399,
+      "mapY": 0.4984,
+      "uiMap": 1446,
+      "worldX": -8167.8,
+      "worldY": -3254
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4406,
+      "mapY": 0.4979,
+      "uiMap": 1446,
+      "worldX": -8165.2,
+      "worldY": -3259.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3804,
+      "mapY": 0.4975,
+      "uiMap": 1446,
+      "worldX": -8163.4,
+      "worldY": -2843.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4128,
+      "mapY": 0.4665,
+      "uiMap": 1446,
+      "worldX": -8021,
+      "worldY": -3067
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4624,
+      "mapY": 0.4126,
+      "uiMap": 1446,
+      "worldX": -7773,
+      "worldY": -3409.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4509,
+      "mapY": 0.4087,
+      "uiMap": 1446,
+      "worldX": -7755.1,
+      "worldY": -3330.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.459,
+      "mapY": 0.4058,
+      "uiMap": 1446,
+      "worldX": -7741.9,
+      "worldY": -3385.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4936,
+      "mapY": 0.3921,
+      "uiMap": 1446,
+      "worldX": -7678.5,
+      "worldY": -3624.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4952,
+      "mapY": 0.3527,
+      "uiMap": 1446,
+      "worldX": -7497.6,
+      "worldY": -3635.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4634,
+      "mapY": 0.3386,
+      "uiMap": 1446,
+      "worldX": -7432.5,
+      "worldY": -3416
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4914,
+      "mapY": 0.3301,
+      "uiMap": 1446,
+      "worldX": -7393.5,
+      "worldY": -3609.2
+     }
+    ],
+    "required": 8,
+    "sources": 2,
+    "type": "item"
+   },
+   "3": {
+    "gains": 16,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.3986,
+      "mapY": 0.4911,
+      "uiMap": 1446,
+      "worldX": -8134.2,
+      "worldY": -2969.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3882,
+      "mapY": 0.4852,
+      "uiMap": 1446,
+      "worldX": -8106.9,
+      "worldY": -2897.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4543,
+      "mapY": 0.4837,
+      "uiMap": 1446,
+      "worldX": -8100.2,
+      "worldY": -3353.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4434,
+      "mapY": 0.4257,
+      "uiMap": 1446,
+      "worldX": -7833.3,
+      "worldY": -3278.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4324,
+      "mapY": 0.4248,
+      "uiMap": 1446,
+      "worldX": -7829.3,
+      "worldY": -3202.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4652,
+      "mapY": 0.4198,
+      "uiMap": 1446,
+      "worldX": -7806.3,
+      "worldY": -3428.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4501,
+      "mapY": 0.4172,
+      "uiMap": 1446,
+      "worldX": -7794.1,
+      "worldY": -3324.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4643,
+      "mapY": 0.4131,
+      "uiMap": 1446,
+      "worldX": -7775.2,
+      "worldY": -3422.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.465,
+      "mapY": 0.3738,
+      "uiMap": 1446,
+      "worldX": -7594.6,
+      "worldY": -3427.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4723,
+      "mapY": 0.37,
+      "uiMap": 1446,
+      "worldX": -7577.1,
+      "worldY": -3477.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.518,
+      "mapY": 0.3634,
+      "uiMap": 1446,
+      "worldX": -7546.4,
+      "worldY": -3792.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.4943,
+      "mapY": 0.3398,
+      "uiMap": 1446,
+      "worldX": -7438.1,
+      "worldY": -3629.1
+     }
+    ],
+    "required": 8,
+    "sources": 2,
+    "type": "item"
    }
   },
   "681": {
@@ -4330,6 +5179,24 @@
     "type": "item"
    }
   },
+  "709": {
+   "1": {
+    "gains": 2,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.3956,
+      "mapY": 0.1881,
+      "uiMap": 1418,
+      "worldX": -6201.6,
+      "worldY": -3063.2
+     }
+    ],
+    "required": 1,
+    "sources": 2,
+    "type": "item"
+   }
+  },
   "953": {
    "1": {
     "gains": 1,
@@ -4616,6 +5483,138 @@
     "type": "item"
    }
   },
+  "984": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.4036,
+      "mapY": 0.5345,
+      "uiMap": 1439,
+      "worldX": 5999.5,
+      "worldY": 298.2
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "monster"
+   }
+  },
+  "985": {
+   "2": {
+    "gains": 2,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.4039,
+      "mapY": 0.5364,
+      "uiMap": 1439,
+      "worldX": 5991,
+      "worldY": 295.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3924,
+      "mapY": 0.5213,
+      "uiMap": 1439,
+      "worldX": 6057.2,
+      "worldY": 371.3
+     }
+    ],
+    "required": 5,
+    "sources": 1,
+    "type": "monster"
+   }
+  },
+  "992": {
+   "1": {
+    "gains": 2,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.3918,
+      "mapY": 0.2928,
+      "uiMap": 1446,
+      "worldX": -7222.1,
+      "worldY": -2922.2
+     }
+    ],
+    "required": 1,
+    "sources": 2,
+    "type": "item"
+   }
+  },
+  "1001": {
+   "1": {
+    "gains": 3,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.3189,
+      "mapY": 0.5473,
+      "uiMap": 1439,
+      "worldX": 5943.3,
+      "worldY": 852.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.348,
+      "mapY": 0.5289,
+      "uiMap": 1439,
+      "worldX": 6023.6,
+      "worldY": 662.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3399,
+      "mapY": 0.5158,
+      "uiMap": 1439,
+      "worldX": 6081,
+      "worldY": 715.2
+     }
+    ],
+    "required": 3,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "1002": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.4545,
+      "mapY": 0.2417,
+      "uiMap": 1439,
+      "worldX": 7277.9,
+      "worldY": -35.3
+     }
+    ],
+    "required": 6,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "1141": {
+   "1": {
+    "gains": 6,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.3602,
+      "mapY": 0.4475,
+      "uiMap": 1439,
+      "worldX": 6379.3,
+      "worldY": 582.1
+     }
+    ],
+    "required": 6,
+    "sources": 1,
+    "type": "item"
+   }
+  },
   "1199": {
    "1": {
     "gains": 10,
@@ -4870,6 +5869,400 @@
     "type": "monster"
    }
   },
+  "1691": {
+   "1": {
+    "gains": 16,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.641,
+      "mapY": 0.3952,
+      "uiMap": 1446,
+      "worldX": -7692.8,
+      "worldY": -4641.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6069,
+      "mapY": 0.3951,
+      "uiMap": 1446,
+      "worldX": -7692.7,
+      "worldY": -4406.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6072,
+      "mapY": 0.388,
+      "uiMap": 1446,
+      "worldX": -7659.9,
+      "worldY": -4408.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6327,
+      "mapY": 0.3736,
+      "uiMap": 1446,
+      "worldX": -7593.4,
+      "worldY": -4584.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6358,
+      "mapY": 0.3735,
+      "uiMap": 1446,
+      "worldX": -7593,
+      "worldY": -4605.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6343,
+      "mapY": 0.3716,
+      "uiMap": 1446,
+      "worldX": -7584.5,
+      "worldY": -4595.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5838,
+      "mapY": 0.3682,
+      "uiMap": 1446,
+      "worldX": -7568.8,
+      "worldY": -4246.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5885,
+      "mapY": 0.366,
+      "uiMap": 1446,
+      "worldX": -7558.7,
+      "worldY": -4279.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6226,
+      "mapY": 0.3622,
+      "uiMap": 1446,
+      "worldX": -7540.9,
+      "worldY": -4514.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6192,
+      "mapY": 0.3542,
+      "uiMap": 1446,
+      "worldX": -7504.4,
+      "worldY": -4491.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6162,
+      "mapY": 0.3514,
+      "uiMap": 1446,
+      "worldX": -7491.5,
+      "worldY": -4470.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6178,
+      "mapY": 0.3505,
+      "uiMap": 1446,
+      "worldX": -7487.3,
+      "worldY": -4481.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6096,
+      "mapY": 0.3431,
+      "uiMap": 1446,
+      "worldX": -7453.1,
+      "worldY": -4424.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6077,
+      "mapY": 0.3383,
+      "uiMap": 1446,
+      "worldX": -7431.2,
+      "worldY": -4412
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6096,
+      "mapY": 0.3374,
+      "uiMap": 1446,
+      "worldX": -7427,
+      "worldY": -4424.7
+     }
+    ],
+    "required": 8,
+    "sources": 2,
+    "type": "monster"
+   },
+   "2": {
+    "gains": 12,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.6493,
+      "mapY": 0.3973,
+      "uiMap": 1446,
+      "worldX": -7702.6,
+      "worldY": -4698.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6403,
+      "mapY": 0.3951,
+      "uiMap": 1446,
+      "worldX": -7692.7,
+      "worldY": -4637.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6381,
+      "mapY": 0.3941,
+      "uiMap": 1446,
+      "worldX": -7687.7,
+      "worldY": -4621.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6072,
+      "mapY": 0.388,
+      "uiMap": 1446,
+      "worldX": -7659.9,
+      "worldY": -4408.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6264,
+      "mapY": 0.3807,
+      "uiMap": 1446,
+      "worldX": -7626.2,
+      "worldY": -4540.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6369,
+      "mapY": 0.378,
+      "uiMap": 1446,
+      "worldX": -7613.7,
+      "worldY": -4613.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6329,
+      "mapY": 0.3777,
+      "uiMap": 1446,
+      "worldX": -7612.5,
+      "worldY": -4585.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6012,
+      "mapY": 0.3751,
+      "uiMap": 1446,
+      "worldX": -7600.3,
+      "worldY": -4366.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5977,
+      "mapY": 0.3703,
+      "uiMap": 1446,
+      "worldX": -7578.3,
+      "worldY": -4343.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6525,
+      "mapY": 0.3639,
+      "uiMap": 1446,
+      "worldX": -7548.8,
+      "worldY": -4720.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6552,
+      "mapY": 0.3633,
+      "uiMap": 1446,
+      "worldX": -7546.4,
+      "worldY": -4739.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6226,
+      "mapY": 0.3622,
+      "uiMap": 1446,
+      "worldX": -7540.9,
+      "worldY": -4514.7
+     }
+    ],
+    "required": 6,
+    "sources": 2,
+    "type": "monster"
+   },
+   "3": {
+    "gains": 20,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.6374,
+      "mapY": 0.3986,
+      "uiMap": 1446,
+      "worldX": -7708.5,
+      "worldY": -4616.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6441,
+      "mapY": 0.3967,
+      "uiMap": 1446,
+      "worldX": -7699.6,
+      "worldY": -4663.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6306,
+      "mapY": 0.3964,
+      "uiMap": 1446,
+      "worldX": -7698.5,
+      "worldY": -4570
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5931,
+      "mapY": 0.3924,
+      "uiMap": 1446,
+      "worldX": -7679.9,
+      "worldY": -4311.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6375,
+      "mapY": 0.3912,
+      "uiMap": 1446,
+      "worldX": -7674.4,
+      "worldY": -4617.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5929,
+      "mapY": 0.3846,
+      "uiMap": 1446,
+      "worldX": -7644,
+      "worldY": -4309.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6023,
+      "mapY": 0.3773,
+      "uiMap": 1446,
+      "worldX": -7610.7,
+      "worldY": -4374.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5983,
+      "mapY": 0.3717,
+      "uiMap": 1446,
+      "worldX": -7584.7,
+      "worldY": -4347.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6004,
+      "mapY": 0.3704,
+      "uiMap": 1446,
+      "worldX": -7578.6,
+      "worldY": -4361.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5979,
+      "mapY": 0.3702,
+      "uiMap": 1446,
+      "worldX": -7577.7,
+      "worldY": -4344.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5888,
+      "mapY": 0.37,
+      "uiMap": 1446,
+      "worldX": -7577,
+      "worldY": -4281.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5852,
+      "mapY": 0.3695,
+      "uiMap": 1446,
+      "worldX": -7574.6,
+      "worldY": -4256.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5839,
+      "mapY": 0.3685,
+      "uiMap": 1446,
+      "worldX": -7570.2,
+      "worldY": -4247.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6124,
+      "mapY": 0.3676,
+      "uiMap": 1446,
+      "worldX": -7566.1,
+      "worldY": -4444.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5893,
+      "mapY": 0.3644,
+      "uiMap": 1446,
+      "worldX": -7551.1,
+      "worldY": -4284.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5904,
+      "mapY": 0.3638,
+      "uiMap": 1446,
+      "worldX": -7548.6,
+      "worldY": -4292.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5901,
+      "mapY": 0.3611,
+      "uiMap": 1446,
+      "worldX": -7535.9,
+      "worldY": -4290.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5924,
+      "mapY": 0.2481,
+      "uiMap": 1446,
+      "worldX": -7016.3,
+      "worldY": -4306.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5883,
+      "mapY": 0.2358,
+      "uiMap": 1446,
+      "worldX": -6959.6,
+      "worldY": -4277.8
+     }
+    ],
+    "required": 10,
+    "sources": 2,
+    "type": "monster"
+   }
+  },
   "1707": {
    "1": {
     "gains": 5,
@@ -4956,6 +6349,66 @@
     "type": "monster"
    }
   },
+  "2138": {
+   "1": {
+    "gains": 2,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.4526,
+      "mapY": 0.2503,
+      "uiMap": 1439,
+      "worldX": 7240.2,
+      "worldY": -23
+     },
+     {
+      "instance": 1,
+      "mapX": 0.446,
+      "mapY": 0.2337,
+      "uiMap": 1439,
+      "worldX": 7312.8,
+      "worldY": 20.2
+     }
+    ],
+    "required": 20,
+    "sources": 1,
+    "type": "monster"
+   }
+  },
+  "2202": {
+   "1": {
+    "gains": 24,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.4082,
+      "mapY": 0.1503,
+      "uiMap": 1418,
+      "worldX": -6138.8,
+      "worldY": -3094.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.3341,
+      "mapY": 0.1391,
+      "uiMap": 1418,
+      "worldX": -6120.2,
+      "worldY": -2910.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.3602,
+      "mapY": 0.1258,
+      "uiMap": 1418,
+      "worldX": -6098.3,
+      "worldY": -2975.3
+     }
+    ],
+    "required": 12,
+    "sources": 2,
+    "type": "item"
+   }
+  },
   "2258": {
    "1": {
     "gains": 3,
@@ -4987,6 +6440,130 @@
     ],
     "required": 5,
     "sources": 1,
+    "type": "item"
+   }
+  },
+  "2283": {
+   "1": {
+    "gains": 1,
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "2342": {
+   "1": {
+    "gains": 2,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.3427,
+      "mapY": 0.1839,
+      "uiMap": 1418,
+      "worldX": -6194.5,
+      "worldY": -2931.5
+     }
+    ],
+    "required": 1,
+    "sources": 2,
+    "type": "item"
+   }
+  },
+  "2418": {
+   "1": {
+    "gains": 7,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.3965,
+      "mapY": 0.1914,
+      "uiMap": 1418,
+      "worldX": -6207.1,
+      "worldY": -3065.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.3965,
+      "mapY": 0.1883,
+      "uiMap": 1418,
+      "worldX": -6201.9,
+      "worldY": -3065.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.3969,
+      "mapY": 0.179,
+      "uiMap": 1418,
+      "worldX": -6186.4,
+      "worldY": -3066.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.3869,
+      "mapY": 0.157,
+      "uiMap": 1418,
+      "worldX": -6149.9,
+      "worldY": -3041.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.3783,
+      "mapY": 0.1454,
+      "uiMap": 1418,
+      "worldX": -6130.6,
+      "worldY": -3020.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4668,
+      "mapY": 0.1234,
+      "uiMap": 1418,
+      "worldX": -6094.2,
+      "worldY": -3240.3
+     }
+    ],
+    "required": 8,
+    "sources": 2,
+    "type": "item"
+   },
+   "2": {
+    "gains": 5,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.4044,
+      "mapY": 0.1531,
+      "uiMap": 1418,
+      "worldX": -6143.4,
+      "worldY": -3085.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4081,
+      "mapY": 0.1297,
+      "uiMap": 1418,
+      "worldX": -6104.6,
+      "worldY": -3094.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4147,
+      "mapY": 0.1211,
+      "uiMap": 1418,
+      "worldX": -6090.5,
+      "worldY": -3110.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.4199,
+      "mapY": 0.1186,
+      "uiMap": 1418,
+      "worldX": -6086.2,
+      "worldY": -3123.6
+     }
+    ],
+    "required": 8,
+    "sources": 2,
     "type": "item"
    }
   },
@@ -5065,6 +6642,1238 @@
     ],
     "required": 1,
     "sources": 1,
+    "type": "item"
+   }
+  },
+  "2862": {
+   "1": {
+    "gains": 20,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.7269,
+      "mapY": 0.3986,
+      "uiMap": 1444,
+      "worldX": -4213.5,
+      "worldY": 389.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7232,
+      "mapY": 0.3978,
+      "uiMap": 1444,
+      "worldX": -4209.7,
+      "worldY": 415.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7262,
+      "mapY": 0.3929,
+      "uiMap": 1444,
+      "worldX": -4187.2,
+      "worldY": 394.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7275,
+      "mapY": 0.39,
+      "uiMap": 1444,
+      "worldX": -4173.7,
+      "worldY": 385.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7257,
+      "mapY": 0.3888,
+      "uiMap": 1444,
+      "worldX": -4168.2,
+      "worldY": 397.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7271,
+      "mapY": 0.3877,
+      "uiMap": 1444,
+      "worldX": -4163.2,
+      "worldY": 388.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7239,
+      "mapY": 0.3795,
+      "uiMap": 1444,
+      "worldX": -4125.2,
+      "worldY": 410.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.719,
+      "mapY": 0.3753,
+      "uiMap": 1444,
+      "worldX": -4105.6,
+      "worldY": 444.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7359,
+      "mapY": 0.3752,
+      "uiMap": 1444,
+      "worldX": -4105.1,
+      "worldY": 327.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7197,
+      "mapY": 0.3749,
+      "uiMap": 1444,
+      "worldX": -4103.8,
+      "worldY": 439.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7338,
+      "mapY": 0.3719,
+      "uiMap": 1444,
+      "worldX": -4089.7,
+      "worldY": 341.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7228,
+      "mapY": 0.371,
+      "uiMap": 1444,
+      "worldX": -4085.6,
+      "worldY": 418.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7308,
+      "mapY": 0.3706,
+      "uiMap": 1444,
+      "worldX": -4083.6,
+      "worldY": 362.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7308,
+      "mapY": 0.3682,
+      "uiMap": 1444,
+      "worldX": -4072.7,
+      "worldY": 363
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7204,
+      "mapY": 0.367,
+      "uiMap": 1444,
+      "worldX": -4067,
+      "worldY": 434.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7281,
+      "mapY": 0.3578,
+      "uiMap": 1444,
+      "worldX": -4024.3,
+      "worldY": 381.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7273,
+      "mapY": 0.3564,
+      "uiMap": 1444,
+      "worldX": -4017.9,
+      "worldY": 386.6
+     }
+    ],
+    "required": 10,
+    "sources": 2,
+    "type": "item"
+   }
+  },
+  "2863": {
+   "1": {
+    "gains": 10,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.7234,
+      "mapY": 0.5764,
+      "uiMap": 1444,
+      "worldX": -5037.5,
+      "worldY": 413.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.723,
+      "mapY": 0.5752,
+      "uiMap": 1444,
+      "worldX": -5031.9,
+      "worldY": 417.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7197,
+      "mapY": 0.5699,
+      "uiMap": 1444,
+      "worldX": -5007.1,
+      "worldY": 439.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6987,
+      "mapY": 0.5642,
+      "uiMap": 1444,
+      "worldX": -4980.8,
+      "worldY": 585.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7145,
+      "mapY": 0.5635,
+      "uiMap": 1444,
+      "worldX": -4977.7,
+      "worldY": 476.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7359,
+      "mapY": 0.5556,
+      "uiMap": 1444,
+      "worldX": -4941,
+      "worldY": 327
+     },
+     {
+      "instance": 1,
+      "mapX": 0.74,
+      "mapY": 0.5479,
+      "uiMap": 1444,
+      "worldX": -4905.5,
+      "worldY": 298.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6869,
+      "mapY": 0.5424,
+      "uiMap": 1444,
+      "worldX": -4879.6,
+      "worldY": 667.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6878,
+      "mapY": 0.5421,
+      "uiMap": 1444,
+      "worldX": -4878.4,
+      "worldY": 661.8
+     }
+    ],
+    "required": 5,
+    "sources": 2,
+    "type": "monster"
+   }
+  },
+  "2973": {
+   "1": {
+    "gains": 20,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.6912,
+      "mapY": 0.491,
+      "uiMap": 1444,
+      "worldX": -4641.5,
+      "worldY": 637.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6433,
+      "mapY": 0.4852,
+      "uiMap": 1444,
+      "worldX": -4614.8,
+      "worldY": 970.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6496,
+      "mapY": 0.4813,
+      "uiMap": 1444,
+      "worldX": -4596.7,
+      "worldY": 927.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6765,
+      "mapY": 0.4808,
+      "uiMap": 1444,
+      "worldX": -4594.5,
+      "worldY": 740.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6845,
+      "mapY": 0.4805,
+      "uiMap": 1444,
+      "worldX": -4593,
+      "worldY": 684.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6853,
+      "mapY": 0.4803,
+      "uiMap": 1444,
+      "worldX": -4592.2,
+      "worldY": 678.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6771,
+      "mapY": 0.4803,
+      "uiMap": 1444,
+      "worldX": -4592,
+      "worldY": 735.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6659,
+      "mapY": 0.4782,
+      "uiMap": 1444,
+      "worldX": -4582.1,
+      "worldY": 813.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6941,
+      "mapY": 0.4686,
+      "uiMap": 1444,
+      "worldX": -4537.8,
+      "worldY": 618
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6981,
+      "mapY": 0.4651,
+      "uiMap": 1444,
+      "worldX": -4521.4,
+      "worldY": 589.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6921,
+      "mapY": 0.4526,
+      "uiMap": 1444,
+      "worldX": -4463.7,
+      "worldY": 631.8
+     }
+    ],
+    "required": 10,
+    "sources": 2,
+    "type": "item"
+   }
+  },
+  "2974": {
+   "1": {
+    "gains": 40,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.6691,
+      "mapY": 0.4653,
+      "uiMap": 1444,
+      "worldX": -4522.8,
+      "worldY": 791.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6941,
+      "mapY": 0.4112,
+      "uiMap": 1444,
+      "worldX": -4271.8,
+      "worldY": 617.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6895,
+      "mapY": 0.4013,
+      "uiMap": 1444,
+      "worldX": -4226,
+      "worldY": 650
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6878,
+      "mapY": 0.3989,
+      "uiMap": 1444,
+      "worldX": -4214.8,
+      "worldY": 661.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6879,
+      "mapY": 0.3973,
+      "uiMap": 1444,
+      "worldX": -4207.6,
+      "worldY": 660.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6955,
+      "mapY": 0.395,
+      "uiMap": 1444,
+      "worldX": -4196.9,
+      "worldY": 608
+     },
+     {
+      "instance": 1,
+      "mapX": 0.695,
+      "mapY": 0.3938,
+      "uiMap": 1444,
+      "worldX": -4191.1,
+      "worldY": 611.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6902,
+      "mapY": 0.3917,
+      "uiMap": 1444,
+      "worldX": -4181.4,
+      "worldY": 644.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6968,
+      "mapY": 0.3911,
+      "uiMap": 1444,
+      "worldX": -4178.9,
+      "worldY": 599.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6981,
+      "mapY": 0.3911,
+      "uiMap": 1444,
+      "worldX": -4178.6,
+      "worldY": 590.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6956,
+      "mapY": 0.3911,
+      "uiMap": 1444,
+      "worldX": -4178.6,
+      "worldY": 607.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6918,
+      "mapY": 0.3909,
+      "uiMap": 1444,
+      "worldX": -4177.9,
+      "worldY": 633.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6888,
+      "mapY": 0.3906,
+      "uiMap": 1444,
+      "worldX": -4176.7,
+      "worldY": 654.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6703,
+      "mapY": 0.3894,
+      "uiMap": 1444,
+      "worldX": -4171.1,
+      "worldY": 783.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6656,
+      "mapY": 0.3894,
+      "uiMap": 1444,
+      "worldX": -4170.8,
+      "worldY": 816.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6681,
+      "mapY": 0.3886,
+      "uiMap": 1444,
+      "worldX": -4167.4,
+      "worldY": 798.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6673,
+      "mapY": 0.3875,
+      "uiMap": 1444,
+      "worldX": -4162,
+      "worldY": 804.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6706,
+      "mapY": 0.3866,
+      "uiMap": 1444,
+      "worldX": -4158.1,
+      "worldY": 781.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6675,
+      "mapY": 0.3864,
+      "uiMap": 1444,
+      "worldX": -4157.1,
+      "worldY": 802.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7002,
+      "mapY": 0.3821,
+      "uiMap": 1444,
+      "worldX": -4137.3,
+      "worldY": 575.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6998,
+      "mapY": 0.3786,
+      "uiMap": 1444,
+      "worldX": -4120.7,
+      "worldY": 577.9
+     }
+    ],
+    "required": 20,
+    "sources": 2,
+    "type": "item"
+   }
+  },
+  "2975": {
+   "1": {
+    "gains": 20,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.7586,
+      "mapY": 0.3386,
+      "uiMap": 1444,
+      "worldX": -3935.6,
+      "worldY": 169.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7542,
+      "mapY": 0.3386,
+      "uiMap": 1444,
+      "worldX": -3935.4,
+      "worldY": 200.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7534,
+      "mapY": 0.3386,
+      "uiMap": 1444,
+      "worldX": -3935.3,
+      "worldY": 205.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.758,
+      "mapY": 0.3378,
+      "uiMap": 1444,
+      "worldX": -3931.9,
+      "worldY": 173.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7658,
+      "mapY": 0.3078,
+      "uiMap": 1444,
+      "worldX": -3792.6,
+      "worldY": 119.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7667,
+      "mapY": 0.3069,
+      "uiMap": 1444,
+      "worldX": -3788.6,
+      "worldY": 112.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7449,
+      "mapY": 0.2867,
+      "uiMap": 1444,
+      "worldX": -3694.9,
+      "worldY": 264.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7475,
+      "mapY": 0.2813,
+      "uiMap": 1444,
+      "worldX": -3670.2,
+      "worldY": 246.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7484,
+      "mapY": 0.2792,
+      "uiMap": 1444,
+      "worldX": -3660.3,
+      "worldY": 240.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7478,
+      "mapY": 0.2785,
+      "uiMap": 1444,
+      "worldX": -3657.1,
+      "worldY": 244.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7471,
+      "mapY": 0.2661,
+      "uiMap": 1444,
+      "worldX": -3599.4,
+      "worldY": 249.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7482,
+      "mapY": 0.2655,
+      "uiMap": 1444,
+      "worldX": -3597,
+      "worldY": 241.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7542,
+      "mapY": 0.2634,
+      "uiMap": 1444,
+      "worldX": -3587.2,
+      "worldY": 200.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7523,
+      "mapY": 0.2626,
+      "uiMap": 1444,
+      "worldX": -3583.6,
+      "worldY": 213.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7508,
+      "mapY": 0.2522,
+      "uiMap": 1444,
+      "worldX": -3535,
+      "worldY": 223.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7497,
+      "mapY": 0.2519,
+      "uiMap": 1444,
+      "worldX": -3533.8,
+      "worldY": 231
+     }
+    ],
+    "required": 10,
+    "sources": 2,
+    "type": "monster"
+   },
+   "2": {
+    "gains": 20,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.7586,
+      "mapY": 0.3386,
+      "uiMap": 1444,
+      "worldX": -3935.6,
+      "worldY": 169.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7542,
+      "mapY": 0.3386,
+      "uiMap": 1444,
+      "worldX": -3935.4,
+      "worldY": 200.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7534,
+      "mapY": 0.3386,
+      "uiMap": 1444,
+      "worldX": -3935.3,
+      "worldY": 205.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7581,
+      "mapY": 0.3376,
+      "uiMap": 1444,
+      "worldX": -3931,
+      "worldY": 172.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7538,
+      "mapY": 0.3305,
+      "uiMap": 1444,
+      "worldX": -3897.9,
+      "worldY": 202.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7513,
+      "mapY": 0.3252,
+      "uiMap": 1444,
+      "worldX": -3873.6,
+      "worldY": 219.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7482,
+      "mapY": 0.2931,
+      "uiMap": 1444,
+      "worldX": -3724.8,
+      "worldY": 241.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7526,
+      "mapY": 0.2836,
+      "uiMap": 1444,
+      "worldX": -3680.6,
+      "worldY": 210.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7526,
+      "mapY": 0.2818,
+      "uiMap": 1444,
+      "worldX": -3672.3,
+      "worldY": 211.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.747,
+      "mapY": 0.2795,
+      "uiMap": 1444,
+      "worldX": -3661.5,
+      "worldY": 249.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7463,
+      "mapY": 0.2793,
+      "uiMap": 1444,
+      "worldX": -3660.8,
+      "worldY": 255
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7447,
+      "mapY": 0.2687,
+      "uiMap": 1444,
+      "worldX": -3611.6,
+      "worldY": 266
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7516,
+      "mapY": 0.2568,
+      "uiMap": 1444,
+      "worldX": -3556.7,
+      "worldY": 218.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7503,
+      "mapY": 0.2567,
+      "uiMap": 1444,
+      "worldX": -3556.1,
+      "worldY": 227.2
+     }
+    ],
+    "required": 10,
+    "sources": 2,
+    "type": "monster"
+   },
+   "3": {
+    "gains": 10,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.751,
+      "mapY": 0.3251,
+      "uiMap": 1444,
+      "worldX": -3873,
+      "worldY": 222.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7511,
+      "mapY": 0.324,
+      "uiMap": 1444,
+      "worldX": -3867.8,
+      "worldY": 221.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.747,
+      "mapY": 0.2795,
+      "uiMap": 1444,
+      "worldX": -3661.5,
+      "worldY": 249.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7463,
+      "mapY": 0.2793,
+      "uiMap": 1444,
+      "worldX": -3660.8,
+      "worldY": 255
+     },
+     {
+      "instance": 1,
+      "mapX": 0.748,
+      "mapY": 0.2661,
+      "uiMap": 1444,
+      "worldX": -3599.4,
+      "worldY": 243
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7535,
+      "mapY": 0.2639,
+      "uiMap": 1444,
+      "worldX": -3589.4,
+      "worldY": 204.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7523,
+      "mapY": 0.2628,
+      "uiMap": 1444,
+      "worldX": -3584.4,
+      "worldY": 213.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7507,
+      "mapY": 0.2519,
+      "uiMap": 1444,
+      "worldX": -3533.8,
+      "worldY": 224.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7499,
+      "mapY": 0.2516,
+      "uiMap": 1444,
+      "worldX": -3532.3,
+      "worldY": 230.2
+     }
+    ],
+    "required": 5,
+    "sources": 2,
+    "type": "monster"
+   }
+  },
+  "2979": {
+   "1": {
+    "gains": 2,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.5771,
+      "mapY": 0.6999,
+      "uiMap": 1444,
+      "worldX": -5609.8,
+      "worldY": 1431.1
+     }
+    ],
+    "required": 1,
+    "sources": 2,
+    "type": "item"
+   }
+  },
+  "2980": {
+   "1": {
+    "gains": 20,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.6106,
+      "mapY": 0.7126,
+      "uiMap": 1444,
+      "worldX": -5668.3,
+      "worldY": 1198.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5791,
+      "mapY": 0.6997,
+      "uiMap": 1444,
+      "worldX": -5608.5,
+      "worldY": 1417
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5873,
+      "mapY": 0.699,
+      "uiMap": 1444,
+      "worldX": -5605.6,
+      "worldY": 1360
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6148,
+      "mapY": 0.6931,
+      "uiMap": 1444,
+      "worldX": -5578.3,
+      "worldY": 1169.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6272,
+      "mapY": 0.6929,
+      "uiMap": 1444,
+      "worldX": -5577.3,
+      "worldY": 1082.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6283,
+      "mapY": 0.6928,
+      "uiMap": 1444,
+      "worldX": -5576.6,
+      "worldY": 1075.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6082,
+      "mapY": 0.6898,
+      "uiMap": 1444,
+      "worldX": -5562.7,
+      "worldY": 1214.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6215,
+      "mapY": 0.6892,
+      "uiMap": 1444,
+      "worldX": -5559.9,
+      "worldY": 1122.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6213,
+      "mapY": 0.6877,
+      "uiMap": 1444,
+      "worldX": -5552.8,
+      "worldY": 1123.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6026,
+      "mapY": 0.6766,
+      "uiMap": 1444,
+      "worldX": -5501.8,
+      "worldY": 1253.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6035,
+      "mapY": 0.6757,
+      "uiMap": 1444,
+      "worldX": -5497.2,
+      "worldY": 1247.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6026,
+      "mapY": 0.6754,
+      "uiMap": 1444,
+      "worldX": -5495.9,
+      "worldY": 1253.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6077,
+      "mapY": 0.6604,
+      "uiMap": 1444,
+      "worldX": -5426.7,
+      "worldY": 1218.3
+     }
+    ],
+    "required": 10,
+    "sources": 2,
+    "type": "monster"
+   },
+   "2": {
+    "gains": 20,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.5948,
+      "mapY": 0.6821,
+      "uiMap": 1444,
+      "worldX": -5527,
+      "worldY": 1307.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5993,
+      "mapY": 0.6662,
+      "uiMap": 1444,
+      "worldX": -5453.2,
+      "worldY": 1276.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5847,
+      "mapY": 0.6656,
+      "uiMap": 1444,
+      "worldX": -5450.6,
+      "worldY": 1378.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6015,
+      "mapY": 0.6641,
+      "uiMap": 1444,
+      "worldX": -5443.7,
+      "worldY": 1261.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6016,
+      "mapY": 0.6631,
+      "uiMap": 1444,
+      "worldX": -5438.8,
+      "worldY": 1260.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5937,
+      "mapY": 0.6443,
+      "uiMap": 1444,
+      "worldX": -5352.1,
+      "worldY": 1315.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5895,
+      "mapY": 0.6426,
+      "uiMap": 1444,
+      "worldX": -5344,
+      "worldY": 1344.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5996,
+      "mapY": 0.6329,
+      "uiMap": 1444,
+      "worldX": -5299,
+      "worldY": 1274.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5973,
+      "mapY": 0.6281,
+      "uiMap": 1444,
+      "worldX": -5276.7,
+      "worldY": 1290.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.611,
+      "mapY": 0.5569,
+      "uiMap": 1444,
+      "worldX": -4946.9,
+      "worldY": 1195
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6123,
+      "mapY": 0.5528,
+      "uiMap": 1444,
+      "worldX": -4927.8,
+      "worldY": 1186.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6123,
+      "mapY": 0.5514,
+      "uiMap": 1444,
+      "worldX": -4921.6,
+      "worldY": 1186.2
+     }
+    ],
+    "required": 10,
+    "sources": 2,
+    "type": "monster"
+   },
+   "3": {
+    "gains": 10,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.5857,
+      "mapY": 0.6525,
+      "uiMap": 1444,
+      "worldX": -5390.1,
+      "worldY": 1371.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5866,
+      "mapY": 0.6523,
+      "uiMap": 1444,
+      "worldX": -5389.1,
+      "worldY": 1364.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5905,
+      "mapY": 0.6478,
+      "uiMap": 1444,
+      "worldX": -5368.3,
+      "worldY": 1337.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5909,
+      "mapY": 0.6468,
+      "uiMap": 1444,
+      "worldX": -5363.6,
+      "worldY": 1335.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5944,
+      "mapY": 0.6379,
+      "uiMap": 1444,
+      "worldX": -5322.5,
+      "worldY": 1310.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5953,
+      "mapY": 0.6374,
+      "uiMap": 1444,
+      "worldX": -5320,
+      "worldY": 1304.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.5978,
+      "mapY": 0.6341,
+      "uiMap": 1444,
+      "worldX": -5304.7,
+      "worldY": 1286.7
+     }
+    ],
+    "required": 5,
+    "sources": 2,
+    "type": "monster"
+   }
+  },
+  "2987": {
+   "1": {
+    "gains": 24,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.7435,
+      "mapY": 0.29,
+      "uiMap": 1444,
+      "worldX": -3710.6,
+      "worldY": 274.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7538,
+      "mapY": 0.2822,
+      "uiMap": 1444,
+      "worldX": -3674.2,
+      "worldY": 202.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7526,
+      "mapY": 0.2818,
+      "uiMap": 1444,
+      "worldX": -3672.3,
+      "worldY": 211.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7482,
+      "mapY": 0.2655,
+      "uiMap": 1444,
+      "worldX": -3597,
+      "worldY": 241.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7529,
+      "mapY": 0.2646,
+      "uiMap": 1444,
+      "worldX": -3592.6,
+      "worldY": 209
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7547,
+      "mapY": 0.2638,
+      "uiMap": 1444,
+      "worldX": -3588.9,
+      "worldY": 196.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7541,
+      "mapY": 0.2633,
+      "uiMap": 1444,
+      "worldX": -3586.6,
+      "worldY": 201
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7505,
+      "mapY": 0.2521,
+      "uiMap": 1444,
+      "worldX": -3534.5,
+      "worldY": 225.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7499,
+      "mapY": 0.2511,
+      "uiMap": 1444,
+      "worldX": -3530.1,
+      "worldY": 230
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7486,
+      "mapY": 0.25,
+      "uiMap": 1444,
+      "worldX": -3525.1,
+      "worldY": 239.2
+     }
+    ],
+    "required": 12,
+    "sources": 2,
     "type": "item"
    }
   },
@@ -6786,6 +9595,60 @@
     "type": "monster"
    }
   },
+  "4681": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.3183,
+      "mapY": 0.4623,
+      "uiMap": 1439,
+      "worldX": 6314.4,
+      "worldY": 856.5
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "4811": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.4743,
+      "mapY": 0.4853,
+      "uiMap": 1439,
+      "worldX": 6214.2,
+      "worldY": -165
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "event"
+   }
+  },
+  "4812": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.3776,
+      "mapY": 0.4388,
+      "uiMap": 1439,
+      "worldX": 6417.1,
+      "worldY": 468.5
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
   "5054": {
    "1": {
     "gains": 1,
@@ -7078,6 +9941,268 @@
     "required": 1,
     "sources": 1,
     "type": "object"
+   }
+  },
+  "5726": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.55,
+      "mapY": 0.0986,
+      "uiMap": 1411,
+      "worldX": 1460.9,
+      "worldY": -4870.7
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "7730": {
+   "1": {
+    "gains": 40,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.7321,
+      "mapY": 0.6515,
+      "uiMap": 1444,
+      "worldX": -5385.4,
+      "worldY": 353.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7457,
+      "mapY": 0.6496,
+      "uiMap": 1444,
+      "worldX": -5376.3,
+      "worldY": 258.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7416,
+      "mapY": 0.6468,
+      "uiMap": 1444,
+      "worldX": -5363.6,
+      "worldY": 287.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7381,
+      "mapY": 0.6455,
+      "uiMap": 1444,
+      "worldX": -5357.6,
+      "worldY": 312.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7332,
+      "mapY": 0.6383,
+      "uiMap": 1444,
+      "worldX": -5324.3,
+      "worldY": 345.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7189,
+      "mapY": 0.6383,
+      "uiMap": 1444,
+      "worldX": -5324.2,
+      "worldY": 445.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7218,
+      "mapY": 0.6382,
+      "uiMap": 1444,
+      "worldX": -5323.9,
+      "worldY": 424.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7334,
+      "mapY": 0.6371,
+      "uiMap": 1444,
+      "worldX": -5318.4,
+      "worldY": 344.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7216,
+      "mapY": 0.6367,
+      "uiMap": 1444,
+      "worldX": -5316.9,
+      "worldY": 426.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7352,
+      "mapY": 0.6346,
+      "uiMap": 1444,
+      "worldX": -5307.1,
+      "worldY": 332
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7364,
+      "mapY": 0.6343,
+      "uiMap": 1444,
+      "worldX": -5305.5,
+      "worldY": 323.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7362,
+      "mapY": 0.6332,
+      "uiMap": 1444,
+      "worldX": -5300.4,
+      "worldY": 325.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7437,
+      "mapY": 0.6317,
+      "uiMap": 1444,
+      "worldX": -5293.5,
+      "worldY": 273
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7421,
+      "mapY": 0.6316,
+      "uiMap": 1444,
+      "worldX": -5292.9,
+      "worldY": 284.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7363,
+      "mapY": 0.6313,
+      "uiMap": 1444,
+      "worldX": -5291.9,
+      "worldY": 324.7
+     },
+     {
+      "instance": 1,
+      "mapX": 0.737,
+      "mapY": 0.6291,
+      "uiMap": 1444,
+      "worldX": -5281.3,
+      "worldY": 319.8
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7426,
+      "mapY": 0.629,
+      "uiMap": 1444,
+      "worldX": -5281,
+      "worldY": 280.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.748,
+      "mapY": 0.6284,
+      "uiMap": 1444,
+      "worldX": -5278.1,
+      "worldY": 243.1
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7508,
+      "mapY": 0.6272,
+      "uiMap": 1444,
+      "worldX": -5272.8,
+      "worldY": 223.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7409,
+      "mapY": 0.6265,
+      "uiMap": 1444,
+      "worldX": -5269.4,
+      "worldY": 292.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7396,
+      "mapY": 0.626,
+      "uiMap": 1444,
+      "worldX": -5267.2,
+      "worldY": 301.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.743,
+      "mapY": 0.6246,
+      "uiMap": 1444,
+      "worldX": -5260.8,
+      "worldY": 277.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.733,
+      "mapY": 0.6233,
+      "uiMap": 1444,
+      "worldX": -5254.6,
+      "worldY": 347.3
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7418,
+      "mapY": 0.6196,
+      "uiMap": 1444,
+      "worldX": -5237.6,
+      "worldY": 285.9
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7449,
+      "mapY": 0.6195,
+      "uiMap": 1444,
+      "worldX": -5236.8,
+      "worldY": 264.6
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7425,
+      "mapY": 0.619,
+      "uiMap": 1444,
+      "worldX": -5234.6,
+      "worldY": 281.2
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7341,
+      "mapY": 0.6158,
+      "uiMap": 1444,
+      "worldX": -5219.7,
+      "worldY": 339.5
+     }
+    ],
+    "required": 20,
+    "sources": 2,
+    "type": "item"
+   }
+  },
+  "7731": {
+   "1": {
+    "gains": 2,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.7365,
+      "mapY": 0.6338,
+      "uiMap": 1444,
+      "worldX": -5303.1,
+      "worldY": 323.3
+     }
+    ],
+    "required": 1,
+    "sources": 2,
+    "type": "item"
    }
   },
   "8253": {
@@ -7479,6 +10604,24 @@
       "uiMap": 1434,
       "worldX": -14134.2,
       "worldY": -87.5
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "78830": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.223,
+      "mapY": 0.6776,
+      "uiMap": 1418,
+      "worldX": -7013.3,
+      "worldY": -2633.9
      }
     ],
     "required": 1,
@@ -8298,6 +11441,24 @@
     "type": "monster"
    }
   },
+  "92878": {
+   "1": {
+    "gains": 2,
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.6675,
+      "mapY": 0.3872,
+      "uiMap": 1444,
+      "worldX": -4160.8,
+      "worldY": 802.5
+     }
+    ],
+    "required": 1,
+    "sources": 2,
+    "type": "item"
+   }
+  },
   "92947": {
    "1": {
     "gains": 7,
@@ -8800,9 +11961,613 @@
     "type": "monster"
    }
   },
-  "95119": {
+  "94734": {
+   "1": {
+    "gains": 8,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.7904,
+      "mapY": 0.381,
+      "uiMap": 2548,
+      "worldX": -7698.6,
+      "worldY": -5725.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7882,
+      "mapY": 0.3787,
+      "uiMap": 2548,
+      "worldX": -7691.1,
+      "worldY": -5714.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7903,
+      "mapY": 0.3748,
+      "uiMap": 2548,
+      "worldX": -7678.5,
+      "worldY": -5724.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8,
+      "mapY": 0.3744,
+      "uiMap": 2548,
+      "worldX": -7677.4,
+      "worldY": -5771.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7925,
+      "mapY": 0.3709,
+      "uiMap": 2548,
+      "worldX": -7666,
+      "worldY": -5735.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7867,
+      "mapY": 0.3707,
+      "uiMap": 2548,
+      "worldX": -7665.2,
+      "worldY": -5707
+     }
+    ],
+    "required": 8,
+    "sources": 1,
+    "type": "item"
+   },
+   "2": {
+    "gains": 12,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.5485,
+      "mapY": 0.5039,
+      "uiMap": 2548,
+      "worldX": -8096,
+      "worldY": -4551.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.5512,
+      "mapY": 0.486,
+      "uiMap": 2548,
+      "worldX": -8038.1,
+      "worldY": -4565.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.5569,
+      "mapY": 0.4657,
+      "uiMap": 2548,
+      "worldX": -7972.5,
+      "worldY": -4592.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.5658,
+      "mapY": 0.4301,
+      "uiMap": 2548,
+      "worldX": -7857.4,
+      "worldY": -4636
+     },
+     {
+      "instance": 0,
+      "mapX": 0.5691,
+      "mapY": 0.4267,
+      "uiMap": 2548,
+      "worldX": -7846.5,
+      "worldY": -4651.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.5849,
+      "mapY": 0.4243,
+      "uiMap": 2548,
+      "worldX": -7838.6,
+      "worldY": -4728.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6299,
+      "mapY": 0.3755,
+      "uiMap": 2548,
+      "worldX": -7680.9,
+      "worldY": -4946.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6046,
+      "mapY": 0.3696,
+      "uiMap": 2548,
+      "worldX": -7661.8,
+      "worldY": -4823.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.5889,
+      "mapY": 0.3663,
+      "uiMap": 2548,
+      "worldX": -7651.1,
+      "worldY": -4747.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6478,
+      "mapY": 0.3585,
+      "uiMap": 2548,
+      "worldX": -7625.9,
+      "worldY": -5033.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.584,
+      "mapY": 0.3443,
+      "uiMap": 2548,
+      "worldX": -7579.8,
+      "worldY": -4724.2
+     }
+    ],
+    "required": 12,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "94745": {
+   "1": {
+    "gains": 8,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.281,
+      "mapY": 0.4315,
+      "uiMap": 2548,
+      "worldX": -7861.9,
+      "worldY": -3254.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2801,
+      "mapY": 0.4305,
+      "uiMap": 2548,
+      "worldX": -7858.7,
+      "worldY": -3250
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2864,
+      "mapY": 0.4229,
+      "uiMap": 2548,
+      "worldX": -7834.1,
+      "worldY": -3280.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2962,
+      "mapY": 0.4191,
+      "uiMap": 2548,
+      "worldX": -7821.7,
+      "worldY": -3328.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2935,
+      "mapY": 0.4119,
+      "uiMap": 2548,
+      "worldX": -7798.5,
+      "worldY": -3315.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2828,
+      "mapY": 0.4116,
+      "uiMap": 2548,
+      "worldX": -7797.6,
+      "worldY": -3263.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.282,
+      "mapY": 0.3983,
+      "uiMap": 2548,
+      "worldX": -7754.5,
+      "worldY": -3259.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2898,
+      "mapY": 0.3963,
+      "uiMap": 2548,
+      "worldX": -7748,
+      "worldY": -3297.3
+     }
+    ],
+    "required": 8,
+    "sources": 1,
+    "type": "monster"
+   },
+   "2": {
+    "gains": 8,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.2875,
+      "mapY": 0.4175,
+      "uiMap": 2548,
+      "worldX": -7816.6,
+      "worldY": -3286
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2852,
+      "mapY": 0.4128,
+      "uiMap": 2548,
+      "worldX": -7801.5,
+      "worldY": -3274.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2942,
+      "mapY": 0.4117,
+      "uiMap": 2548,
+      "worldX": -7797.7,
+      "worldY": -3318.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2812,
+      "mapY": 0.3975,
+      "uiMap": 2548,
+      "worldX": -7752,
+      "worldY": -3255.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2845,
+      "mapY": 0.3898,
+      "uiMap": 2548,
+      "worldX": -7727,
+      "worldY": -3271.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2765,
+      "mapY": 0.387,
+      "uiMap": 2548,
+      "worldX": -7718.1,
+      "worldY": -3232.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2796,
+      "mapY": 0.3769,
+      "uiMap": 2548,
+      "worldX": -7685.3,
+      "worldY": -3247.9
+     }
+    ],
+    "required": 8,
+    "sources": 1,
+    "type": "monster"
+   },
+   "3": {
+    "gains": 8,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.2939,
+      "mapY": 0.4121,
+      "uiMap": 2548,
+      "worldX": -7799.1,
+      "worldY": -3317.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2967,
+      "mapY": 0.4088,
+      "uiMap": 2548,
+      "worldX": -7788.4,
+      "worldY": -3330.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2892,
+      "mapY": 0.4079,
+      "uiMap": 2548,
+      "worldX": -7785.4,
+      "worldY": -3294.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2769,
+      "mapY": 0.4,
+      "uiMap": 2548,
+      "worldX": -7760.1,
+      "worldY": -3234.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2823,
+      "mapY": 0.3986,
+      "uiMap": 2548,
+      "worldX": -7755.6,
+      "worldY": -3260.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2823,
+      "mapY": 0.3904,
+      "uiMap": 2548,
+      "worldX": -7729.1,
+      "worldY": -3261
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2815,
+      "mapY": 0.3892,
+      "uiMap": 2548,
+      "worldX": -7724.9,
+      "worldY": -3256.8
+     }
+    ],
+    "required": 8,
+    "sources": 1,
+    "type": "monster"
+   }
+  },
+  "94748": {
+   "1": {
+    "gains": 5,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.2769,
+      "mapY": 0.3983,
+      "uiMap": 2548,
+      "worldX": -7754.4,
+      "worldY": -3234.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2758,
+      "mapY": 0.3982,
+      "uiMap": 2548,
+      "worldX": -7754.1,
+      "worldY": -3229.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2881,
+      "mapY": 0.3923,
+      "uiMap": 2548,
+      "worldX": -7735,
+      "worldY": -3289.2
+     }
+    ],
+    "required": 5,
+    "sources": 1,
+    "type": "monster"
+   }
+  },
+  "94768": {
    "1": {
     "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.2662,
+      "mapY": 0.4498,
+      "uiMap": 2548,
+      "worldX": -7921,
+      "worldY": -3182.7
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "94968": {
+   "1": {
+    "gains": 1,
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "94972": {
+   "1": {
+    "gains": 1,
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "94974": {
+   "1": {
+    "gains": 3,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.5876,
+      "mapY": 0.4555,
+      "uiMap": 2548,
+      "worldX": -7939.4,
+      "worldY": -4741.7
+     }
+    ],
+    "required": 4,
+    "sources": 1,
+    "type": "item"
+   },
+   "2": {
+    "gains": 12,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.5866,
+      "mapY": 0.4547,
+      "uiMap": 2548,
+      "worldX": -7936.9,
+      "worldY": -4736.7
+     }
+    ],
+    "required": 12,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "94975": {
+   "1": {
+    "gains": 15,
+    "required": 15,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "95118": {
+   "1": {
+    "gains": 8,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.7419,
+      "mapY": 0.674,
+      "uiMap": 2548,
+      "worldX": -8646,
+      "worldY": -5490.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.743,
+      "mapY": 0.6726,
+      "uiMap": 2548,
+      "worldX": -8641.6,
+      "worldY": -5495.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7467,
+      "mapY": 0.6619,
+      "uiMap": 2548,
+      "worldX": -8606.8,
+      "worldY": -5513.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7454,
+      "mapY": 0.6617,
+      "uiMap": 2548,
+      "worldX": -8606.2,
+      "worldY": -5506.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7482,
+      "mapY": 0.6581,
+      "uiMap": 2548,
+      "worldX": -8594.6,
+      "worldY": -5520.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7569,
+      "mapY": 0.6165,
+      "uiMap": 2548,
+      "worldX": -8460.1,
+      "worldY": -5562.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7598,
+      "mapY": 0.6155,
+      "uiMap": 2548,
+      "worldX": -8456.9,
+      "worldY": -5576.8
+     }
+    ],
+    "required": 8,
+    "sources": 1,
+    "type": "monster"
+   },
+   "2": {
+    "gains": 8,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.7379,
+      "mapY": 0.7733,
+      "uiMap": 2548,
+      "worldX": -8967,
+      "worldY": -5470.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7407,
+      "mapY": 0.7586,
+      "uiMap": 2548,
+      "worldX": -8919.5,
+      "worldY": -5484.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7574,
+      "mapY": 0.7532,
+      "uiMap": 2548,
+      "worldX": -8902.1,
+      "worldY": -5565
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7432,
+      "mapY": 0.7513,
+      "uiMap": 2548,
+      "worldX": -8895.8,
+      "worldY": -5496.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7532,
+      "mapY": 0.7478,
+      "uiMap": 2548,
+      "worldX": -8884.6,
+      "worldY": -5544.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7417,
+      "mapY": 0.6739,
+      "uiMap": 2548,
+      "worldX": -8645.7,
+      "worldY": -5489
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7431,
+      "mapY": 0.673,
+      "uiMap": 2548,
+      "worldX": -8642.7,
+      "worldY": -5495.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.749,
+      "mapY": 0.6592,
+      "uiMap": 2548,
+      "worldX": -8598,
+      "worldY": -5524.4
+     }
+    ],
+    "required": 8,
+    "sources": 1,
+    "type": "monster"
+   }
+  },
+  "95119": {
+   "1": {
+    "gains": 10,
     "positions": [
      {
       "instance": 0,
@@ -8811,6 +12576,158 @@
       "uiMap": 2548,
       "worldX": -7927.9,
       "worldY": -5919.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8302,
+      "mapY": 0.4456,
+      "uiMap": 2548,
+      "worldX": -7907.3,
+      "worldY": -5918.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8346,
+      "mapY": 0.4399,
+      "uiMap": 2548,
+      "worldX": -7889.1,
+      "worldY": -5939.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8424,
+      "mapY": 0.4296,
+      "uiMap": 2548,
+      "worldX": -7855.7,
+      "worldY": -5977.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8353,
+      "mapY": 0.4104,
+      "uiMap": 2548,
+      "worldX": -7793.5,
+      "worldY": -5943.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8411,
+      "mapY": 0.4063,
+      "uiMap": 2548,
+      "worldX": -7780.5,
+      "worldY": -5970.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8474,
+      "mapY": 0.3887,
+      "uiMap": 2548,
+      "worldX": -7723.4,
+      "worldY": -6001.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8552,
+      "mapY": 0.3881,
+      "uiMap": 2548,
+      "worldX": -7721.6,
+      "worldY": -6039.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8676,
+      "mapY": 0.3786,
+      "uiMap": 2548,
+      "worldX": -7690.8,
+      "worldY": -6099.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8655,
+      "mapY": 0.3772,
+      "uiMap": 2548,
+      "worldX": -7686.4,
+      "worldY": -6089.5
+     }
+    ],
+    "required": 10,
+    "sources": 1,
+    "type": "monster"
+   },
+   "2": {
+    "gains": 10,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.8309,
+      "mapY": 0.4468,
+      "uiMap": 2548,
+      "worldX": -7911.4,
+      "worldY": -5921.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8289,
+      "mapY": 0.4234,
+      "uiMap": 2548,
+      "worldX": -7835.7,
+      "worldY": -5912
+     },
+     {
+      "instance": 0,
+      "mapX": 0.836,
+      "mapY": 0.4163,
+      "uiMap": 2548,
+      "worldX": -7812.8,
+      "worldY": -5946.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8334,
+      "mapY": 0.4103,
+      "uiMap": 2548,
+      "worldX": -7793.3,
+      "worldY": -5933.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8864,
+      "mapY": 0.4081,
+      "uiMap": 2548,
+      "worldX": -7786.2,
+      "worldY": -6190.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8412,
+      "mapY": 0.4077,
+      "uiMap": 2548,
+      "worldX": -7784.8,
+      "worldY": -5971.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8525,
+      "mapY": 0.3987,
+      "uiMap": 2548,
+      "worldX": -7755.7,
+      "worldY": -6026.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8474,
+      "mapY": 0.3897,
+      "uiMap": 2548,
+      "worldX": -7726.6,
+      "worldY": -6001.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8784,
+      "mapY": 0.3742,
+      "uiMap": 2548,
+      "worldX": -7676.5,
+      "worldY": -6151.8
      }
     ],
     "required": 10,
@@ -8818,9 +12735,75 @@
     "type": "monster"
    }
   },
+  "95120": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.7711,
+      "mapY": 0.729,
+      "uiMap": 2548,
+      "worldX": -8823.9,
+      "worldY": -5631.5
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
   "95121": {
+   "1": {
+    "gains": 12,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.7404,
+      "mapY": 0.758,
+      "uiMap": 2548,
+      "worldX": -8917.4,
+      "worldY": -5482.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7418,
+      "mapY": 0.6742,
+      "uiMap": 2548,
+      "worldX": -8646.7,
+      "worldY": -5489.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.743,
+      "mapY": 0.6726,
+      "uiMap": 2548,
+      "worldX": -8641.6,
+      "worldY": -5495.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7454,
+      "mapY": 0.6617,
+      "uiMap": 2548,
+      "worldX": -8606.2,
+      "worldY": -5506.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.749,
+      "mapY": 0.6592,
+      "uiMap": 2548,
+      "worldX": -8598,
+      "worldY": -5524.4
+     }
+    ],
+    "required": 12,
+    "sources": 1,
+    "type": "item"
+   },
    "2": {
-    "gains": 4,
+    "gains": 6,
     "positions": [
      {
       "instance": 0,
@@ -8853,9 +12836,627 @@
       "uiMap": 2548,
       "worldX": -8056.3,
       "worldY": -5733.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7967,
+      "mapY": 0.4904,
+      "uiMap": 2548,
+      "worldX": -8052.3,
+      "worldY": -5755.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.827,
+      "mapY": 0.4832,
+      "uiMap": 2548,
+      "worldX": -8029.2,
+      "worldY": -5902.7
      }
     ],
     "required": 6,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "95122": {
+   "1": {
+    "gains": 8,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.7778,
+      "mapY": 0.3384,
+      "uiMap": 2548,
+      "worldX": -7560.8,
+      "worldY": -5663.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7949,
+      "mapY": 0.3261,
+      "uiMap": 2548,
+      "worldX": -7521.1,
+      "worldY": -5747.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7977,
+      "mapY": 0.3134,
+      "uiMap": 2548,
+      "worldX": -7480.1,
+      "worldY": -5760.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.9033,
+      "mapY": 0.2885,
+      "uiMap": 2548,
+      "worldX": -7399.6,
+      "worldY": -6272.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.9021,
+      "mapY": 0.2883,
+      "uiMap": 2548,
+      "worldX": -7398.9,
+      "worldY": -6267.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8802,
+      "mapY": 0.264,
+      "uiMap": 2548,
+      "worldX": -7320.1,
+      "worldY": -6160.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8806,
+      "mapY": 0.2616,
+      "uiMap": 2548,
+      "worldX": -7312.4,
+      "worldY": -6162.4
+     }
+    ],
+    "required": 8,
+    "sources": 1,
+    "type": "monster"
+   },
+   "2": {
+    "gains": 8,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.7823,
+      "mapY": 0.3473,
+      "uiMap": 2548,
+      "worldX": -7589.5,
+      "worldY": -5685.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7768,
+      "mapY": 0.3371,
+      "uiMap": 2548,
+      "worldX": -7556.5,
+      "worldY": -5659.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7892,
+      "mapY": 0.3107,
+      "uiMap": 2548,
+      "worldX": -7471.3,
+      "worldY": -5719.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7936,
+      "mapY": 0.3102,
+      "uiMap": 2548,
+      "worldX": -7469.6,
+      "worldY": -5740.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7884,
+      "mapY": 0.2902,
+      "uiMap": 2548,
+      "worldX": -7405,
+      "worldY": -5715.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.9028,
+      "mapY": 0.2889,
+      "uiMap": 2548,
+      "worldX": -7400.8,
+      "worldY": -6270.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8824,
+      "mapY": 0.2604,
+      "uiMap": 2548,
+      "worldX": -7308.5,
+      "worldY": -6171.4
+     }
+    ],
+    "required": 8,
+    "sources": 1,
+    "type": "monster"
+   }
+  },
+  "95123": {
+   "1": {
+    "gains": 5,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.7821,
+      "mapY": 0.3482,
+      "uiMap": 2548,
+      "worldX": -7592.6,
+      "worldY": -5684.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7931,
+      "mapY": 0.3196,
+      "uiMap": 2548,
+      "worldX": -7499.9,
+      "worldY": -5738.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.795,
+      "mapY": 0.3094,
+      "uiMap": 2548,
+      "worldX": -7467,
+      "worldY": -5747.4
+     }
+    ],
+    "required": 5,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "95124": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.9041,
+      "mapY": 0.2889,
+      "uiMap": 2548,
+      "worldX": -7400.8,
+      "worldY": -6276.6
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "monster"
+   },
+   "2": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.9055,
+      "mapY": 0.2916,
+      "uiMap": 2548,
+      "worldX": -7409.5,
+      "worldY": -6283.2
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "95162": {
+   "1": {
+    "gains": 10,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.72,
+      "mapY": 0.3332,
+      "uiMap": 2548,
+      "worldX": -7543.9,
+      "worldY": -5383.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7128,
+      "mapY": 0.3122,
+      "uiMap": 2548,
+      "worldX": -7476.1,
+      "worldY": -5348.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6984,
+      "mapY": 0.2987,
+      "uiMap": 2548,
+      "worldX": -7432.6,
+      "worldY": -5279.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6978,
+      "mapY": 0.2952,
+      "uiMap": 2548,
+      "worldX": -7421,
+      "worldY": -5275.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6879,
+      "mapY": 0.2798,
+      "uiMap": 2548,
+      "worldX": -7371.4,
+      "worldY": -5228.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6706,
+      "mapY": 0.2748,
+      "uiMap": 2548,
+      "worldX": -7355.3,
+      "worldY": -5143.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6491,
+      "mapY": 0.2652,
+      "uiMap": 2548,
+      "worldX": -7324.1,
+      "worldY": -5039.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6802,
+      "mapY": 0.2644,
+      "uiMap": 2548,
+      "worldX": -7321.5,
+      "worldY": -5190.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6785,
+      "mapY": 0.2622,
+      "uiMap": 2548,
+      "worldX": -7314.4,
+      "worldY": -5182.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.657,
+      "mapY": 0.2596,
+      "uiMap": 2548,
+      "worldX": -7306.1,
+      "worldY": -5078.2
+     }
+    ],
+    "required": 10,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "95163": {
+   "1": {
+    "gains": 10,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.7707,
+      "mapY": 0.4133,
+      "uiMap": 2548,
+      "worldX": -7803.1,
+      "worldY": -5629.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7436,
+      "mapY": 0.4093,
+      "uiMap": 2548,
+      "worldX": -7790.1,
+      "worldY": -5498
+     },
+     {
+      "instance": 0,
+      "mapX": 0.724,
+      "mapY": 0.4048,
+      "uiMap": 2548,
+      "worldX": -7775.4,
+      "worldY": -5403.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7685,
+      "mapY": 0.3966,
+      "uiMap": 2548,
+      "worldX": -7749.1,
+      "worldY": -5619.1
+     },
+     {
+      "instance": 0,
+      "mapX": 0.794,
+      "mapY": 0.3965,
+      "uiMap": 2548,
+      "worldX": -7748.8,
+      "worldY": -5742.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7668,
+      "mapY": 0.3945,
+      "uiMap": 2548,
+      "worldX": -7742.3,
+      "worldY": -5610.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7246,
+      "mapY": 0.3935,
+      "uiMap": 2548,
+      "worldX": -7738.8,
+      "worldY": -5406.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7819,
+      "mapY": 0.3899,
+      "uiMap": 2548,
+      "worldX": -7727.4,
+      "worldY": -5683.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7263,
+      "mapY": 0.3734,
+      "uiMap": 2548,
+      "worldX": -7674,
+      "worldY": -5414.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7159,
+      "mapY": 0.3548,
+      "uiMap": 2548,
+      "worldX": -7613.9,
+      "worldY": -5363.7
+     }
+    ],
+    "required": 10,
+    "sources": 1,
+    "type": "monster"
+   }
+  },
+  "95165": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.8838,
+      "mapY": 0.2578,
+      "uiMap": 2548,
+      "worldX": -7300.3,
+      "worldY": -6178.1
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "object"
+   },
+   "2": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.9054,
+      "mapY": 0.296,
+      "uiMap": 2548,
+      "worldX": -7423.8,
+      "worldY": -6283
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "object"
+   },
+   "3": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.9092,
+      "mapY": 0.3951,
+      "uiMap": 2548,
+      "worldX": -7744.2,
+      "worldY": -6301.3
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "object"
+   }
+  },
+  "95183": {
+   "1": {
+    "gains": 10,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.6958,
+      "mapY": 0.3505,
+      "uiMap": 2548,
+      "worldX": -7600,
+      "worldY": -5266.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6872,
+      "mapY": 0.3502,
+      "uiMap": 2548,
+      "worldX": -7599.1,
+      "worldY": -5224.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7148,
+      "mapY": 0.3466,
+      "uiMap": 2548,
+      "worldX": -7587.3,
+      "worldY": -5358.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7148,
+      "mapY": 0.3441,
+      "uiMap": 2548,
+      "worldX": -7579.4,
+      "worldY": -5358.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6952,
+      "mapY": 0.3413,
+      "uiMap": 2548,
+      "worldX": -7570.1,
+      "worldY": -5263.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6583,
+      "mapY": 0.3138,
+      "uiMap": 2548,
+      "worldX": -7481.2,
+      "worldY": -5084.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.661,
+      "mapY": 0.3053,
+      "uiMap": 2548,
+      "worldX": -7453.9,
+      "worldY": -5097.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6634,
+      "mapY": 0.3026,
+      "uiMap": 2548,
+      "worldX": -7445.1,
+      "worldY": -5109.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6701,
+      "mapY": 0.2861,
+      "uiMap": 2548,
+      "worldX": -7391.6,
+      "worldY": -5141.6
+     }
+    ],
+    "required": 10,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "95254": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.826,
+      "mapY": 0.5069,
+      "uiMap": 2548,
+      "worldX": -8105.6,
+      "worldY": -5897.9
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "95288": {
+   "1": {
+    "gains": 8,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.8344,
+      "mapY": 0.4396,
+      "uiMap": 2548,
+      "worldX": -7887.9,
+      "worldY": -5938.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8425,
+      "mapY": 0.4292,
+      "uiMap": 2548,
+      "worldX": -7854.4,
+      "worldY": -5977.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8361,
+      "mapY": 0.4164,
+      "uiMap": 2548,
+      "worldX": -7813.1,
+      "worldY": -5946.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8339,
+      "mapY": 0.4109,
+      "uiMap": 2548,
+      "worldX": -7795.3,
+      "worldY": -5935.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8412,
+      "mapY": 0.4077,
+      "uiMap": 2548,
+      "worldX": -7784.8,
+      "worldY": -5971.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8525,
+      "mapY": 0.3987,
+      "uiMap": 2548,
+      "worldX": -7755.7,
+      "worldY": -6026.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8475,
+      "mapY": 0.388,
+      "uiMap": 2548,
+      "worldX": -7721.3,
+      "worldY": -6002.2
+     },
+     {
+      "instance": 0,
+      "mapX": 0.8662,
+      "mapY": 0.3696,
+      "uiMap": 2548,
+      "worldX": -7661.6,
+      "worldY": -6092.5
+     }
+    ],
+    "required": 8,
     "sources": 1,
     "type": "item"
    }
@@ -8944,19 +13545,19 @@
   },
   "95321": {
    "1": {
-    "gains": 1,
+    "gains": 2,
     "positions": [
      {
       "instance": 1,
-      "mapX": 0.6742,
-      "mapY": 0.239,
+      "mapX": 0.6739,
+      "mapY": 0.2395,
       "uiMap": 1446,
-      "worldX": -6974.6,
-      "worldY": -4870.4
+      "worldX": -6976.5,
+      "worldY": -4868.6
      }
     ],
     "required": 1,
-    "sources": 1,
+    "sources": 2,
     "type": "monster"
    }
   },
@@ -8996,6 +13597,146 @@
     "type": "item"
    }
   },
+  "95424": {
+   "1": {
+    "gains": 7,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.761,
+      "mapY": 0.3043,
+      "uiMap": 2548,
+      "worldX": -7450.7,
+      "worldY": -5582.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7667,
+      "mapY": 0.2893,
+      "uiMap": 2548,
+      "worldX": -7402,
+      "worldY": -5610.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7721,
+      "mapY": 0.2831,
+      "uiMap": 2548,
+      "worldX": -7382,
+      "worldY": -5636.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7754,
+      "mapY": 0.279,
+      "uiMap": 2548,
+      "worldX": -7368.9,
+      "worldY": -5652.3
+     },
+     {
+      "instance": 0,
+      "mapX": 0.751,
+      "mapY": 0.2756,
+      "uiMap": 2548,
+      "worldX": -7357.9,
+      "worldY": -5533.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.734,
+      "mapY": 0.2468,
+      "uiMap": 2548,
+      "worldX": -7264.6,
+      "worldY": -5451.4
+     }
+    ],
+    "required": 7,
+    "sources": 1,
+    "type": "monster"
+   },
+   "2": {
+    "gains": 7,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.7577,
+      "mapY": 0.3046,
+      "uiMap": 2548,
+      "worldX": -7451.5,
+      "worldY": -5566.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7644,
+      "mapY": 0.2786,
+      "uiMap": 2548,
+      "worldX": -7367.5,
+      "worldY": -5598.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7654,
+      "mapY": 0.2727,
+      "uiMap": 2548,
+      "worldX": -7348.5,
+      "worldY": -5603.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7695,
+      "mapY": 0.2727,
+      "uiMap": 2548,
+      "worldX": -7348.4,
+      "worldY": -5623.8
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7649,
+      "mapY": 0.271,
+      "uiMap": 2548,
+      "worldX": -7342.9,
+      "worldY": -5601.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7421,
+      "mapY": 0.2706,
+      "uiMap": 2548,
+      "worldX": -7341.7,
+      "worldY": -5490.7
+     },
+     {
+      "instance": 0,
+      "mapX": 0.7638,
+      "mapY": 0.2652,
+      "uiMap": 2548,
+      "worldX": -7324.3,
+      "worldY": -5596
+     }
+    ],
+    "required": 7,
+    "sources": 1,
+    "type": "monster"
+   }
+  },
+  "95425": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.7416,
+      "mapY": 0.2684,
+      "uiMap": 2548,
+      "worldX": -7334.5,
+      "worldY": -5488.2
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
   "95427": {
    "1": {
     "gains": 1,
@@ -9023,6 +13764,74 @@
       "uiMap": 2548,
       "worldX": -8123.9,
       "worldY": -4068.2
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "95432": {
+   "1": {
+    "gains": 5,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.2732,
+      "mapY": 0.3593,
+      "uiMap": 2548,
+      "worldX": -7628.4,
+      "worldY": -3216.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2649,
+      "mapY": 0.3553,
+      "uiMap": 2548,
+      "worldX": -7615.6,
+      "worldY": -3176.4
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2645,
+      "mapY": 0.3534,
+      "uiMap": 2548,
+      "worldX": -7609.4,
+      "worldY": -3174.6
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2697,
+      "mapY": 0.3499,
+      "uiMap": 2548,
+      "worldX": -7597.9,
+      "worldY": -3199.5
+     },
+     {
+      "instance": 0,
+      "mapX": 0.2685,
+      "mapY": 0.3472,
+      "uiMap": 2548,
+      "worldX": -7589.4,
+      "worldY": -3193.9
+     }
+    ],
+    "required": 5,
+    "sources": 1,
+    "type": "monster"
+   }
+  },
+  "95433": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.2975,
+      "mapY": 0.4146,
+      "uiMap": 2548,
+      "worldX": -7807.2,
+      "worldY": -3334.7
      }
     ],
     "required": 1,
@@ -9222,6 +14031,24 @@
     "required": 5,
     "sources": 1,
     "type": "monster"
+   }
+  },
+  "95882": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.7562,
+      "mapY": 0.3426,
+      "uiMap": 2548,
+      "worldX": -7574.4,
+      "worldY": -5559
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
    }
   },
   "96332": {
@@ -9518,6 +14345,40 @@
      }
     ],
     "required": 12,
+    "sources": 1,
+    "type": "item"
+   }
+  },
+  "97047": {
+   "1": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.4934,
+      "mapY": 0.075,
+      "uiMap": 1434,
+      "worldX": -11487.8,
+      "worldY": -927.7
+     }
+    ],
+    "required": 1,
+    "sources": 1,
+    "type": "item"
+   },
+   "2": {
+    "gains": 1,
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.4956,
+      "mapY": 0.0776,
+      "uiMap": 1434,
+      "worldX": -11498.9,
+      "worldY": -941.8
+     }
+    ],
+    "required": 1,
     "sources": 1,
     "type": "item"
    }
