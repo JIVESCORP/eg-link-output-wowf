@@ -4,7 +4,7 @@
   "clientBuild": "1.60.1.71091",
   "collectedOn": {
    "first": "2026-11-25",
-   "last": "2026-11-25"
+   "last": "2026-11-26"
   },
   "dataset": "item_uses",
   "license": "CC BY 4.0",
@@ -377,6 +377,36 @@
     "uses": 2
    }
   },
+  "96018": {
+   "271882": {
+    "objectives": {
+     "2": 1,
+     "3": 1
+    },
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.4388,
+      "mapY": 0.3561,
+      "uiMap": 2652,
+      "worldX": -2386.7,
+      "worldY": 1125.5
+     },
+     {
+      "instance": 1,
+      "mapX": 0.7384,
+      "mapY": 0.2209,
+      "uiMap": 2652,
+      "worldX": -2201.9,
+      "worldY": 511.2
+     }
+    ],
+    "progressed": 2,
+    "sources": 1,
+    "spellId": 1289727,
+    "uses": 2
+   }
+  },
   "96302": {
    "273801": {
     "objectives": {
@@ -513,7 +543,65 @@
     "spellId": 1298707,
     "uses": 1
    }
+  },
+  "99258": {
+   "286648": {
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.4289,
+      "mapY": 0.6022,
+      "uiMap": 2652,
+      "worldX": -2723,
+      "worldY": 1145.8
+     }
+    ],
+    "progressed": 0,
+    "sources": 1,
+    "spellId": 1320898,
+    "targets": {
+     "npc:264149": 1
+    },
+    "uses": 1
+   }
   }
  },
- "untied": {}
+ "untied": {
+  "17757": {
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3851,
+     "mapY": 0.5771,
+     "uiMap": 1414,
+     "worldX": -1357.1,
+     "worldY": 2894.6
+    },
+    {
+     "instance": 1,
+     "mapX": 0.3916,
+     "mapY": 0.5768,
+     "uiMap": 1414,
+     "worldX": -1350.8,
+     "worldY": 2654.3
+    },
+    {
+     "instance": 1,
+     "mapX": 0.3842,
+     "mapY": 0.5724,
+     "uiMap": 1414,
+     "worldX": -1242.5,
+     "worldY": 2927.5
+    }
+   ],
+   "sources": 1,
+   "spellId": 21960,
+   "targets": {
+    "npc:12239": 1,
+    "npc:12240": 1,
+    "npc:12241": 1
+   },
+   "uses": 3
+  }
+ }
 }

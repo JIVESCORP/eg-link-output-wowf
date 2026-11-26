@@ -1,12 +1,12 @@
 {
  "meta": {
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
-  "cacheFiles": 63,
+  "cacheFiles": 122,
   "cachesLeftOut": 0,
   "clientBuild": "1.60.1.71091",
   "collectedOn": {
    "first": "2026-11-24",
-   "last": "2026-11-25"
+   "last": "2026-11-26"
   },
   "dataset": "quests",
   "license": "CC BY 4.0",
@@ -170,6 +170,40 @@
    "startItemId": 7628,
    "title": "A Rogue's Deal",
    "zoneAreaId": 154
+  },
+  "10": {
+   "description": "Oh, this is just terrible!  I sent out my top assistant, Junior Surveyor Scrimshank, into the desert southeast of here.  That's an area we call the Gaping Chasm.  Well, he's gone missing, and his last report had more of those weird bugs where he was.  Could it be that they've infested two major regions of the desert now?$B$BI need you to head into the Gaping Chasm and look for Scrimshank, please!  That... or at least find his surveying equipment.  I fear that may be all that is left of the poor sod.",
+   "flags": 8,
+   "level": 48,
+   "minLevel": 39,
+   "nextQuestId": 110,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380049,
+     "objectId": 8593,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Discover the fate of Junior Surveyor Scrimshank, and bring either him or his surveying equipment to Senior Surveyor Fizzledowser in Gadgetzan.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 6600,
+    "reputation": [
+     {
+      "factionId": 369,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Scrimshank Redemption",
+   "zoneAreaId": 440
   },
   "16": {
    "flags": 8,
@@ -1244,7 +1278,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "A Sticky Situation",
    "zoneAreaId": 47
   },
@@ -1345,7 +1379,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Noxious Lair Investigation",
    "zoneAreaId": 440
   },
@@ -3262,6 +3296,39 @@
    "title": "Raptor Mastery",
    "zoneAreaId": 33
   },
+  "197": {
+   "description": "Because you proved yourself to be such a go-getter in the jungle, let me tell you about a ferocious raptor that even I have failed to kill.  Ajeck here calls this wily raptor Tethis.$b$bIf you want to prove yourself a true master, kill Tethis and bring me his talon.  It would be a feat that no other big game hunter has accomplished.",
+   "flags": 8,
+   "level": 43,
+   "minLevel": 28,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 379992,
+     "objectId": 3877,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Hemet Nesingwary wants you to kill Tethis, an elusive, dangerous raptor in Stranglethorn.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 4119
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Raptor Mastery",
+   "zoneAreaId": 33
+  },
   "198": {
    "description": "Hmm. Yes, I do have something you could do, actually. Lieutenant Doren and his followers up in the north need their regular supplies from us.$b$bThey haven't been delivered, and with the trolls attacking, I'll need someone to do it. Doren's camp lies northwest of the road at the entrance to Stranglethorn from Duskwood. Give the supplies to Private Thorsen, if he's not in the camp, then he'll be patrolling south of it. He'll take care of them.$b$bMind you, if you fail, you'll owe me restitution.",
    "flags": 0,
@@ -3666,7 +3733,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Big Game Hunter",
    "zoneAreaId": 33
   },
@@ -3703,7 +3770,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Skullsplitter Tusks",
    "zoneAreaId": 33
   },
@@ -6014,7 +6081,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Stranglethorn Fever",
    "zoneAreaId": 33
   },
@@ -6069,10 +6136,52 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 8623,
    "title": "Find OOX-17/TN!",
    "zoneAreaId": 440
+  },
+  "356": {
+   "description": "The defenders on The Bulwark protecting Tirisfal from the Plaguelands are on constant alert. But sometimes Scourge will slip past them.$B$BOur success at the Bulwark depends on a one-front battle - we cannot allow an attack from the rear, nor can we allow our defenders' supply line to be cut.$B$BAssist the Bulwark. Patrol east and slay any Scourge you find. Spend particular effort at the Balnir Farmstead to the east. It has become a haven for interloping Scourge.",
+   "flags": 8,
+   "level": 11,
+   "minLevel": 6,
+   "nextQuestId": 99156,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380054,
+     "objectId": 1529,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 8,
+     "id": 380055,
+     "objectId": 1532,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Kill 8 Bleeding Horrors and 8 Wandering Spirits, then report back to Linnea at her camp.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 300,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Rear Guard Patrol",
+   "zoneAreaId": 85
   },
   "357": {
    "description": "There is a lich who dwells on the island in Brightwater Lake to the north.  Although he is a free-willed Forsaken, he believes all other Undead are Scourge slaves and has his minions attack anyone who approaches him.$B$BBut because he is Forsaken, the Queen will want him.  And if he is skilled in Necromancy, then his knowledge would be...quite useful to us.$B$BTo discover his identity and his talents, I must see his spellbook.  Steal into his camp and acquire it, then return to me.",
@@ -10131,7 +10240,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Mok'thardin's Enchantment",
    "zoneAreaId": 33
   },
@@ -10162,6 +10271,52 @@
      }
     ],
     "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Mok'thardin's Enchantment",
+   "zoneAreaId": 33
+  },
+  "573": {
+   "description": "There is but one final reagent needed to complete the enchantment.$b$bIn the south, towards the western coast, high above the bluffs, lies a Holy Spring.  This spring is the subject of great conflict amongst religious and mystical scholars.  Every race in Azeroth claims that the spring waters were made divine for their people.$b$bMy final request of you: bring to me Holy Spring Water.  Be warned.  An expedition of naga explorers have advanced upon the spring.  They will need to be dealt with as well.",
+   "flags": 8,
+   "level": 44,
+   "minLevel": 33,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 380460,
+     "objectId": 1907,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 1,
+     "id": 380461,
+     "objectId": 737,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Far Seer Mok'thardin of Grom'gol needs Holy Spring Water.  He also wants you to kill 10 Naga Explorers.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 4112
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
    "sources": 1,
@@ -10243,7 +10398,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Keep An Eye Out",
    "zoneAreaId": 33
   },
@@ -10397,7 +10552,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Whiskey Slim's Lost Grog",
    "zoneAreaId": 33
   },
@@ -10461,7 +10616,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Speaking with Nezzliok",
    "zoneAreaId": 33
   },
@@ -10517,8 +10672,77 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Speaking with Gan'zulah",
+   "zoneAreaId": 33
+  },
+  "587": {
+   "description": "Ah, the sea life.  I ain't gonna say it's the good life, but it's my life.$b$bWhen I get into port I like to find me a good bottle of grog and some high quality snuff.  Nasty habits but what's a pirate without his vices, right?$b$bSo you can imagine how heartbroken I was to find out the herbalist here in town has gone and sold out of the stuff.  Says his shipment got hijacked by those damned Bloodsail Raiders.$b$bI bet a fearless $c like you could convince 'em to share the goods, eh?",
+   "flags": 8,
+   "level": 41,
+   "minLevel": 37,
+   "objectives": [
+    {
+     "amount": 15,
+     "id": 381086,
+     "objectId": 3910,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Deeg in Booty Bay wants you to bring him 15 shares of Snuff.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 21,
+      "tier": 5
+     },
+     {
+      "factionId": 87,
+      "tier": -5
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Up to Snuff",
+   "zoneAreaId": 33
+  },
+  "589": {
+   "description": "Legends tell of a jewel, hidden deep in the heart of Stranglethorn.  We call it the Mind's Eye, and it has great powers.  If you gain this Eye then, perhaps, we can use it to bring lost Yenniku back from the darkness.$B$BI will consult with the spirits of the jungle to find the Mind's Eye.  While I do this, you enter the Crystalvein Mine, southeast of here, and gather Pulsing Blue Shards from Ironjaw Basilisks.  The shards are rare, but we will need their magic to bend the Mind's Eye to our will.",
+   "flags": 8,
+   "level": 45,
+   "minLevel": 30,
+   "nextQuestId": 591,
+   "objectives": [
+    {
+     "amount": 3,
+     "id": 380674,
+     "objectId": 3911,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 3 Pulsing Blue Shards to Kin'weelay at the Grom'gol Base Camp.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 530,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Singing Crystals",
    "zoneAreaId": 33
   },
   "591": {
@@ -10550,7 +10774,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Mind's Eye",
    "zoneAreaId": 33
   },
@@ -10685,7 +10909,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Split Bone Necklace",
    "zoneAreaId": 33
   },
@@ -10762,7 +10986,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Venture Company Mining",
    "zoneAreaId": 33
   },
@@ -10913,7 +11137,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Bloodsail Buccaneers",
    "zoneAreaId": 33
   },
@@ -10988,7 +11212,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Scaring Shaky",
    "zoneAreaId": 33
   },
@@ -11054,7 +11278,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Bloodsail Buccaneers",
    "zoneAreaId": 33
   },
@@ -11107,7 +11331,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Voodoo Dues",
    "zoneAreaId": 33
   },
@@ -11218,7 +11442,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Cracking Maury's Foot",
    "zoneAreaId": 33
   },
@@ -11342,7 +11566,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Akiris by the Bundle",
    "zoneAreaId": 33
   },
@@ -11454,7 +11678,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Zanzil's Secret",
    "zoneAreaId": 33
   },
@@ -11541,6 +11765,23 @@
    "level": 43,
    "minLevel": 35,
    "nextQuestId": 625,
+   "objectivesText": "Solve the riddle!",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 2,
+   "title": "Cortello's Riddle",
+   "zoneAreaId": 33
+  },
+  "625": {
+   "description": "A far off land in Kalimdor awaits$bWhere peril has dashed hopes and fates$bEast of Barrens the weather is harsh$bGloom and danger pock Dustwallow Marsh$bBut there lies a clue for those up to the test$bWaiting to be found in a cave in the southwest",
+   "flags": 8,
+   "level": 43,
+   "minLevel": 35,
+   "nextQuestId": 626,
    "objectivesText": "Solve the riddle!",
    "questType": 2,
    "raceMask": "ffffffffffffffff",
@@ -11692,7 +11933,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Message in a Bottle",
    "zoneAreaId": 33
   },
@@ -11987,7 +12228,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Rescue OOX-17/TN!",
    "zoneAreaId": 440
   },
@@ -12028,7 +12269,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Ripple Recovery",
    "zoneAreaId": 1637
   },
@@ -12055,7 +12296,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Breaking the Keystone",
    "zoneAreaId": 45
   },
@@ -12112,7 +12353,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "startItemId": 4472,
    "title": "Summoning the Princess",
    "zoneAreaId": 45
@@ -13050,7 +13291,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Guile of the Raptor",
    "zoneAreaId": 45
   },
@@ -13150,7 +13391,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Pearl Diving",
    "zoneAreaId": 3
   },
@@ -13233,6 +13474,32 @@
    "sources": 3,
    "title": "Solution to Doom",
    "zoneAreaId": 1517
+  },
+  "712": {
+   "description": "$n, there's one more part I need from the elementals here in the Badlands: the bracers of rock binding from the greater rock elementals. By my calculations, those bracers should be enough to gauge the strength of my own shackles.$B$BMy attempts at scrying the greater rock elementals showed a group of them southwest of here, near some ogres if I recall.$B$BBring me 5 of their bracers just so I have extras. Servo's notorious for misplacing my reagents and research.",
+   "flags": 8,
+   "level": 42,
+   "minLevel": 35,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 380204,
+     "objectId": 4628,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring 5 Bracers of Rock Binding to Lotwil Veriatus in the Badlands.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Study of the Elements: Rock",
+   "zoneAreaId": 3
   },
   "714": {
    "description": "$n, you've done your job well beyond all standards.$B$B<Lotwil's obviously distracted by his work.>$B$BIf we ever meet in Kharanos, feel free to come apply for work.$B$BWhoops! Quick, grab the... yes, that. Thanks.$B$BNow I just need one more thing. It's a small part, but rather crucial, I'm afraid: a gyrochronatom.$B$BIf you could just go grab one and bring it to me, I should be ready to complete this.",
@@ -13544,7 +13811,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 4650,
    "title": "The Star, the Hand and the Heart",
    "zoneAreaId": 1497
@@ -14170,7 +14437,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Broken Alliances",
    "zoneAreaId": 3
   },
@@ -14554,7 +14821,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Minshina's Skull",
    "zoneAreaId": 14
   },
@@ -14706,7 +14973,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Report to Orgnil",
    "zoneAreaId": 14
   },
@@ -14768,7 +15035,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Zalazane",
    "zoneAreaId": 14
   },
@@ -15042,7 +15309,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Another Power Source?",
    "zoneAreaId": 440
   },
@@ -15280,7 +15547,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Hezrul Bloodmark",
    "zoneAreaId": 17
   },
@@ -15451,7 +15718,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 8527,
    "title": "Return to Apothecary Zinge",
    "zoneAreaId": 1497
@@ -16186,7 +16453,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Assisting Arch Druid Runetotem",
    "zoneAreaId": 1637
   },
@@ -16821,7 +17088,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 8584,
    "title": "Gadgetzan Water Survey",
    "zoneAreaId": 440
@@ -17076,7 +17343,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.675
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Book of Ur",
    "zoneAreaId": 209
   },
@@ -17116,7 +17383,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 2.675
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Arugal Must Die",
    "zoneAreaId": 209
   },
@@ -18766,7 +19033,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.675
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Deathstalkers in Shadowfang",
    "zoneAreaId": 209
   },
@@ -19142,7 +19409,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Dream Dust in the Swamp",
    "zoneAreaId": 400
   },
@@ -19223,7 +19490,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 5806,
    "timeLimitSeconds": 7200,
    "title": "Zanzil's Mixture and a Fool's Stout",
@@ -19251,7 +19518,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 5806,
    "timeLimitSeconds": 7200,
    "title": "Get the Gnomes Drunk",
@@ -19283,6 +19550,33 @@
    "startItemId": 5806,
    "timeLimitSeconds": 7200,
    "title": "Get the Goblins Drunk",
+   "zoneAreaId": 400
+  },
+  "1122": {
+   "description": "That Fool's Stout worked great!  I placed a bet on the next race, and... let's hope the crew you got drunk did a number on their car!$B$BThere's only one more task for you -- take this note back to Crank Fizzlebub in Booty Bay.  He'll want to know of the successful test.$B$BAnd hopefully we can get more of that Fool's Stout for future races!",
+   "flags": 0,
+   "level": 44,
+   "minLevel": 35,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381431,
+     "objectId": 5807,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bring the Fool's Stout report to Crank Fizzlebub in Booty Bay.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 5807,
+   "title": "Report Back to Fizzlebub",
    "zoneAreaId": 400
   },
   "1123": {
@@ -19877,7 +20171,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Test of Lore",
    "zoneAreaId": 400
   },
@@ -19950,7 +20244,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 2.375
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Test of Lore",
    "zoneAreaId": 796
   },
@@ -20077,6 +20371,48 @@
    },
    "sources": 1,
    "title": "Identifying the Brood",
+   "zoneAreaId": 15
+  },
+  "1172": {
+   "description": "Onyxia's brood has been scattered across the Dragonmurk. It is imperative that no more whelps be permitted to hatch.$b$bMake haste to Wyrmbog in the south of Dustwallow Marsh. Surely, she has made her lair there. Track down the evil dragon's eggs and destroy them.$b$bWe will never reclaim Stonemaul Village if the surrounding area remains a breeding ground.$b$bAs for Mok'Morokk... I have other plans for the sod.",
+   "flags": 8,
+   "level": 45,
+   "minLevel": 38,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 381035,
+     "objectId": 20359,
+     "storageIndex": 0,
+     "text": "Egg of Onyxia destroyed",
+     "type": "gameObject",
+     "typeId": 2
+    }
+   ],
+   "objectivesText": "Draz'Zilb in Brackenwall Village wants you to destroy 5 Eggs of Onyxia.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 10700
+     },
+     {
+      "count": 1,
+      "itemId": 10701
+     },
+     {
+      "count": 1,
+      "itemId": 270094
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Brood of Onyxia",
    "zoneAreaId": 15
   },
   "1175": {
@@ -20417,7 +20753,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Razzeric's Tweaking",
    "zoneAreaId": 400
   },
@@ -20450,8 +20786,51 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 5862,
+   "title": "Safety First",
+   "zoneAreaId": 400
+  },
+  "1189": {
+   "description": "There, I did what Razzeric wanted. Just tell him to be careful when he sets this off. If he makes the slightest mistake, he won't be moving forward, he'll just be a burnt spot on the track.$b$bWould be a shame, too, if that happened. Who knows if our nineteenth driver would be any good?",
+   "flags": 0,
+   "level": 41,
+   "minLevel": 29,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381083,
+     "objectId": 5865,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Return the Modified Seaforium Booster to Razzeric on the Shimmering Flats.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6726
+     },
+     {
+      "count": 1,
+      "itemId": 6727
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 470,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 5865,
    "title": "Safety First",
    "zoneAreaId": 400
   },
@@ -20761,7 +21140,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Deadmire",
    "zoneAreaId": 15
   },
@@ -21966,10 +22345,45 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 6167,
    "title": "Report to Helgrum",
    "zoneAreaId": 3
+  },
+  "1424": {
+   "description": "The Warchief sent us to investigate strange happenings at The Temple of Atal'Hakkar.$b$bThe Atal'ai trolls are a tribe of dark casters, known for practicing forbidden magic. You can imagine how astonished we were when we arrived here to discover the temple had been sunk.$b$bThe green dragons now guard the site, claiming to be protectors of Azeroth.$b$bWe need to discover what happened. Explore around the Pool of Tears and gather Atal'ai artifacts. From those I can begin to piece together this puzzle.",
+   "flags": 8,
+   "level": 43,
+   "minLevel": 38,
+   "nextQuestId": 1429,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 381541,
+     "objectId": 6175,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Fel'zerul in Stonard wants you to gather 10 Atal'ai Artifacts.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 12000,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Pool of Tears",
+   "zoneAreaId": 8
   },
   "1427": {
    "description": "Before you take rest, speak to Tok'Kar again. While you were gone I believe he finished a few weapons. For your help here, he would offer one of them to you. You would do well to test its strength against the fish men when you are ready... but only to please me further.",
@@ -22078,7 +22492,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 6193,
    "title": "The Atal'ai Exile",
    "zoneAreaId": 8
@@ -22121,7 +22535,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Fresh Meat",
    "zoneAreaId": 8
   },
@@ -22166,7 +22580,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Alliance Relations",
    "zoneAreaId": 1637
   },
@@ -22333,7 +22747,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.8
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Temple of Atal'Hakkar",
    "zoneAreaId": 1417
   },
@@ -23363,7 +23777,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "timeLimitSeconds": 1800,
    "title": "Tooga's Quest",
    "zoneAreaId": 440
@@ -26127,7 +26541,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 6064,
    "title": "The Platinum Discs",
    "zoneAreaId": 1517
@@ -26162,7 +26576,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.95
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Necklace Recovery",
    "zoneAreaId": 1517
   },
@@ -26235,7 +26649,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.95
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 7668,
    "title": "Find the Gems and Power Source",
    "zoneAreaId": 1517
@@ -26270,7 +26684,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.95
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Reclaimed Treasures",
    "zoneAreaId": 1517
   },
@@ -27009,9 +27423,26 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Thirsty Goblin",
    "zoneAreaId": 440
+  },
+  "2621": {
+   "description": "Regret. It is all I have now. One bad decision resulting in several horrible outcomes. If only I had waited for those orders. Maybe they would have detailed the horrors that awaited us in those cursed lands! Maybe they were to redirect us to another detail? Ultimately, it was my fault. All of it was my fault.$B$BSo here I stand, awaiting orders. I must know. I must have those orders.$B$BDispatch Commander Ruag resides in Stonard. Find him and find out what became of the orders.\r\n",
+   "flags": 8,
+   "level": 50,
+   "minLevel": 45,
+   "nextQuestId": 2622,
+   "objectivesText": "Speak to Dispatch Commander Ruag in Stonard.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Disgraced One",
+   "zoneAreaId": 4
   },
   "2622": {
    "description": "The orders? What could you possibly want with the orders?$B$BWhat are you implying, $n? Of course I relayed those orders! The soldiers I sent the orders with were ambushed and brutally beaten by murlocs. Only one survived, if you can call that surviving. He can hardly speak, cannot walk, and must be fed through a tube. If you want to know what happened to those orders, speak with Bengor. I'm sure he is around here somewhere... and, $n, be mindful of what you stick your nose into - it may get bitten off.",
@@ -27026,8 +27457,35 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Missing Orders",
+   "zoneAreaId": 8
+  },
+  "2623": {
+   "description": "Orders were given by the dispatch commander. We took... took orders. On way to Blasted Lands, ambushed.$B$BMurlocs... Many murlocs... One named Swamp Talker. Took orders from my hands as spear thrust into my skull. East... cave....$B$B<Bengor passes out.>\r\n",
+   "flags": 8,
+   "level": 55,
+   "minLevel": 45,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 382026,
+     "objectId": 8463,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Retrieve the Warchief's Orders and return them to the Fallen Hero of the Horde.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 13419,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Swamp Talker",
    "zoneAreaId": 8
   },
   "2641": {
@@ -27465,7 +27923,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Smelt On, Smelt Off"
   },
   "2762": {
@@ -27505,7 +27963,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Great Silver Deceiver"
   },
   "2763": {
@@ -27545,7 +28003,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Art of the Imbue"
   },
   "2766": {
@@ -27619,7 +28077,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Rescue OOX-22/FE!",
    "zoneAreaId": 357
   },
@@ -27796,6 +28254,24 @@
    "title": "Rin'ji's Secret",
    "zoneAreaId": 47
   },
+  "2784": {
+   "areaDescription": "The Tale of Sorrow",
+   "description": "Hear my story, $r.",
+   "flags": 10,
+   "level": 50,
+   "minLevel": 45,
+   "nextQuestId": 2621,
+   "objectivesText": "Listen to the Fallen Hero of the Horde tell his story.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Fall From Grace",
+   "zoneAreaId": 4
+  },
   "2822": {
    "description": "I take pride in my leather work, and I feel it shows; quality should never be compromised.  Anyone who says that quality doesn't matter would also have you believe that the earth does not keep secrets!$B$BIn my latest pursuit of high-quality materials, I have discovered thick yeti hides.  Yetis are native to Feralas, often found west of here in Feral Scar Vale.  I'll give you a choice of one of my leather goods for a stack of ten.  If that is agreeable to you, then we are set!",
    "flags": 8,
@@ -27834,7 +28310,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Mark of Quality",
    "zoneAreaId": 357
   },
@@ -28115,7 +28591,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Wild Leather Armor"
   },
   "2856": {
@@ -28243,7 +28719,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 9236,
    "title": "Master of the Wild Leather"
   },
@@ -28549,7 +29025,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Stoley's Shipment",
    "zoneAreaId": 440
   },
@@ -28582,7 +29058,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "WANTED: Andre Firebeard",
    "zoneAreaId": 440
   },
@@ -28615,7 +29091,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 9250,
    "title": "Ship Schedules",
    "zoneAreaId": 440
@@ -29045,7 +29521,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 15002,
    "title": "Grim Message",
    "zoneAreaId": 47
@@ -29137,7 +29613,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Consult Master Gadrin",
    "zoneAreaId": 47
   },
@@ -29162,7 +29638,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Spider God",
    "zoneAreaId": 1176
   },
@@ -29817,7 +30293,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Grim Discovery",
    "zoneAreaId": 357
   },
@@ -29867,7 +30343,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Ogres of Feralas",
    "zoneAreaId": 357
   },
@@ -30104,7 +30580,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 9466,
    "title": "Gordunni Cobalt",
    "zoneAreaId": 357
@@ -30395,7 +30871,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Dark Heart",
    "zoneAreaId": 357
   },
@@ -30452,7 +30928,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Vengeance on the Northspring",
    "zoneAreaId": 357
   },
@@ -30848,7 +31324,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 9629,
    "title": "A Strange Request",
    "zoneAreaId": 357
@@ -30881,7 +31357,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 9628,
    "title": "Return to Witch Doctor Uzer'i",
    "zoneAreaId": 357
@@ -30923,7 +31399,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 9618,
    "title": "Testing the Vessel",
    "zoneAreaId": 357
@@ -31024,7 +31500,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Natural Materials",
    "zoneAreaId": 357
   },
@@ -31114,7 +31590,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 9978,
    "title": "Gahz'ridian",
    "zoneAreaId": 440
@@ -31271,7 +31747,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Thistleshrub Valley",
    "zoneAreaId": 440
   },
@@ -31533,7 +32009,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.8
    },
-   "sources": 3,
+   "sources": 4,
    "title": "The Sunken Temple",
    "zoneAreaId": 1417
   },
@@ -31716,7 +32192,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Stone Circle",
    "zoneAreaId": 440
   },
@@ -32098,7 +32574,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 10699,
    "title": "Screecher Spirits",
    "zoneAreaId": 440
@@ -33496,7 +33972,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Disharmony of Flame",
    "zoneAreaId": 25
   },
@@ -33556,7 +34032,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.85
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Disharmony of Fire",
    "zoneAreaId": 1584
   },
@@ -33765,7 +34241,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.85
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Commander Gor'shak",
    "zoneAreaId": 1584
   },
@@ -33838,7 +34314,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Royal Rescue",
    "zoneAreaId": 1584
   },
@@ -33969,7 +34445,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Rise of the Machines",
    "zoneAreaId": 1584
   },
@@ -34019,7 +34495,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.95
    },
-   "sources": 2,
+   "sources": 3,
    "title": "KILL ON SIGHT: Dark Iron Dwarves",
    "zoneAreaId": 1584
   },
@@ -34069,7 +34545,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.95
    },
-   "sources": 2,
+   "sources": 3,
    "title": "KILL ON SIGHT: High Ranking Dark Iron Officials",
    "zoneAreaId": 1584
   },
@@ -34206,7 +34682,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Strength of Corruption",
    "zoneAreaId": 357
   },
@@ -34413,7 +34889,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Operation: Death to Angerforge",
    "zoneAreaId": 1584
   },
@@ -34465,7 +34941,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Lost Thunderbrew Recipe",
    "zoneAreaId": 1584
   },
@@ -34676,7 +35152,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.8
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 11319,
    "title": "Zapper Fuel",
    "zoneAreaId": 490
@@ -35590,7 +36066,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Super Sticky",
    "zoneAreaId": 440
   },
@@ -35825,7 +36301,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.85
    },
-   "sources": 2,
+   "sources": 3,
    "title": "The Pack Mistress",
    "zoneAreaId": 1583
   },
@@ -36355,7 +36831,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.675
    },
-   "sources": 3,
+   "sources": 4,
    "title": "The Darkstone Tablet",
    "zoneAreaId": 1583
   },
@@ -36497,7 +36973,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "The Ancient Egg",
    "zoneAreaId": 47
   },
@@ -36888,7 +37364,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.85
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Warlord's Command",
    "zoneAreaId": 1583
   },
@@ -37062,7 +37538,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 2.675
    },
-   "sources": 2,
+   "sources": 3,
    "title": "For The Horde!",
    "zoneAreaId": 1583
   },
@@ -37091,7 +37567,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.85
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Operative Bijou",
    "zoneAreaId": 1583
   },
@@ -37120,7 +37596,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.85
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Bijou's Belongings",
    "zoneAreaId": 1583
   },
@@ -38843,6 +39319,53 @@
    "title": "Target: Dalson's Tears",
    "zoneAreaId": 28
   },
+  "5235": {
+   "description": "The last cauldron that remains is located on a farm now called Gahrron's Withering.  It is guarded by some of the Scourge's tougher minions - specifically, wraiths and ghosts.  They are not to be trifled with, $n.$B$BGahrron's Withering is far to the east of the Bulwark, close to where the Eastern Plaguelands begin; again, eliminate the cauldron lord present there for its key.  Here is your empty sample bottle; bring it to me filled.  May the shadows cloak you in safety for this dangerous mission, $c.",
+   "flags": 0,
+   "level": 58,
+   "minLevel": 50,
+   "nextQuestId": 5236,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 382490,
+     "objectId": 13196,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 382491,
+     "objectId": 13189,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Go to Gahrron's Withering in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.  You must have the Empty Gahrron's Withering Bottle with you to secure a sample of the poisons used inside the cauldron.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 17050,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     },
+     {
+      "factionId": 529,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 13189,
+   "title": "Target: Gahrron's Withering",
+   "zoneAreaId": 28
+  },
   "5236": {
    "description": "You carefully close the spigot in the control panel, watching the cauldron's putrid ichors drip into the empty bottle.$B$BWith the poison in hand, it is time to return to Shadow Priestess Vandis at the Bulwark to complete the mission.",
    "flags": 0,
@@ -39442,7 +39965,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.375
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Barov Family Fortune",
    "zoneAreaId": 2057
   },
@@ -41343,6 +41866,35 @@
    "title": "Find Myranda",
    "zoneAreaId": 28
   },
+  "5862": {
+   "description": "I am what you would call, an illusionist. Though I may be able to create an illusion to allow you entry into Hearthglen, be warned; my powers have their limitations.$B$BShould you travel too far from these lands, the effects of the illusion will cease. The spell itself takes a great amount of concentration and power from me, and thus, I can only sustain the effect for a short time.$B$BSpeak to me again when you are ready.",
+   "flags": 0,
+   "level": 60,
+   "minLevel": 52,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383617,
+     "objectId": 14872,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Speak to Myranda to gain the Scarlet Illusion. Travel to Hearthglen while under the Scarlet Illusion and deliver Tirion's Gift to Highlord Taelan Fordring.$B$BHearthglen is to the north, Taelan should be inside of Mardenholde Keep.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 19800,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 14872,
+   "title": "Scarlet Subterfuge",
+   "zoneAreaId": 28
+  },
   "5863": {
    "description": "Just recently, a large bank of nomadic ogres arrived in Tanaris. South of here, they have taken over a large area of the desert and formed a compound. Several smaller bands are currently wandering the desert, some of which have invaded the old troll ruins.$B$BThe Dunemaul Compound must be destroyed! We cannot allow these ogres to build up a force.$B$BThe leader of this band is named Gor'marok the Ravager; I believe that putting an end to his leadership will be the beginning of the end for the ogres.",
    "flags": 8,
@@ -41397,7 +41949,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Dunemaul Compound",
    "zoneAreaId": 440
   },
@@ -42572,6 +43124,50 @@
    "title": "The Ranger Lord's Behest",
    "zoneAreaId": 139
   },
+  "6135": {
+   "description": "Up until now, you have completed the missions I have assigned; even if not in the most timely manner.$B$BI suppose you think that you are ready for a challenge. Yes... Yes, imbecile, perhaps you are ready for a more involved set of missions.$B$BThe albino demon bat, Duskwing, roams the countryside just north of here. Track him down and destroy him. Return to me with a patch of his white fur and you shall be rewarded.\r\n",
+   "flags": 8,
+   "level": 60,
+   "minLevel": 56,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383449,
+     "objectId": 15850,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Find Duskwing and slay him. From the corpse, recover a Patch of Duskwing's Fur and return it to Nathanos Blightcaller.$B$BIt is said that Duskwing roams the countryside to the north of Marris Stead.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 16994
+     },
+     {
+      "count": 1,
+      "itemId": 16995
+     }
+    ],
+    "money": 9000,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Duskwing, Oh How I Hate Thee...",
+   "zoneAreaId": 139
+  },
   "6141": {
    "description": "My brother in arms, Brother Anton, heard rumors of an undead infestation in distant Kalimdor, in a land known as Desolace.  Anton immediately booked passage to that place, to seek and destroy the undead menace!$B$BHe is looking for those with the bravery and resolve to aid him.  If your heart is true, then speak with Anton.  He is in Desolace, in the Alliance town of Nijel's Point. ",
    "flags": 8,
@@ -42588,6 +43184,41 @@
    "sources": 1,
    "title": "Brother Anton",
    "zoneAreaId": 405
+  },
+  "6145": {
+   "description": "Just as the body cannot survive without the head, the head cannot survive without the body. The defenses of the Scarlet Crusade's command inside Stratholme are almost impenetrable. We must, instead, cut the body out from under the head.$B$BMy Deathstalkers have been collecting data on the activity of the Crusade outside of Stratholme. Each day, a report is sent from their central command to Tyr's Hand. This report is the key, $r! Find the Crimson Courier and recover that report. Return it to Nathanos.",
+   "flags": 8,
+   "level": 60,
+   "minLevel": 56,
+   "nextQuestId": 6146,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383700,
+     "objectId": 15868,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Return to Eastern Plaguelands and track down the Crimson Courier. Kill the Courier and recover the Grand Crusader's Command.$B$BTake the command to Nathanos Blightcaller for further instruction.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 19800,
+    "reputation": [
+     {
+      "factionId": 68,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "The Crimson Courier",
+   "zoneAreaId": 139
   },
   "6148": {
    "description": "Demetria is chief advisor to the Grand Crusader. She is called the Oracle due to her 'otherworldly' senses. She has successfully assisted the Crusade in several of their victories against the Scourge.$B$BWhile this ruse was successful in exposing her, if she truly does possess psychic powers, she will undoubtedly be expecting some sort of trouble. You are going to provide that 'trouble.'$B$BTrack down the Oracle and terminate her. They should be moving out of Tyr's Hand as we speak. Make me proud, worm.\r\n",
@@ -42710,7 +43341,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.5
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Ramstein",
    "zoneAreaId": 2017
   },
@@ -43490,7 +44121,7 @@
     "xpDifficulty": 1,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Report to Kadrak",
    "zoneAreaId": 17
   },
@@ -43818,7 +44449,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Oculus Illusions",
    "zoneAreaId": 1583
   },
@@ -43983,7 +44614,7 @@
     "xpDifficulty": 7,
     "xpMultiplier": 2.675
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Blood of the Black Dragon Champion",
    "zoneAreaId": 1583
   },
@@ -44693,7 +45324,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 18904,
    "title": "Zapped Giants",
    "zoneAreaId": 357
@@ -44805,7 +45436,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.95
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 17693,
    "title": "Vyletongue Corruption",
    "zoneAreaId": 2100
@@ -44913,7 +45544,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.95
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Corruption of Earth and Seed",
    "zoneAreaId": 2100
   },
@@ -45032,7 +45663,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.95
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Shadowshard Fragments",
    "zoneAreaId": 2100
   },
@@ -45704,7 +46335,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.85
    },
-   "sources": 3,
+   "sources": 4,
    "title": "The Last Element",
    "zoneAreaId": 1584
   },
@@ -45918,7 +46549,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.375
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Elven Legends",
    "zoneAreaId": 2557
   },
@@ -46232,7 +46863,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.675
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Lethtendris's Web",
    "zoneAreaId": 2557
   },
@@ -46461,7 +47092,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.375
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 18361,
    "title": "The Greatest Race of Hunters",
    "zoneAreaId": 2557
@@ -47255,7 +47886,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Fuel for the Zapping",
    "zoneAreaId": 357
   },
@@ -47516,7 +48147,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Improved Quality",
    "zoneAreaId": 357
   },
@@ -49981,7 +50612,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.95
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Green Drake"
   },
   "8233": {
@@ -50863,7 +51494,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Pirate Hats Ahoy!",
    "zoneAreaId": 440
   },
@@ -50930,7 +51561,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Southsea Shakedown",
    "zoneAreaId": 440
   },
@@ -52257,7 +52888,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Captain's Chest",
    "zoneAreaId": 33
   },
@@ -54976,7 +55607,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.95
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Better Ingredient"
   },
   "9065": {
@@ -56282,7 +56913,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "startItemId": 211272,
    "title": "Terror of the Desert Skies",
    "zoneAreaId": 3
@@ -56745,7 +57376,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "startItemId": 283389,
    "title": "A Quick Grocery Run",
    "zoneAreaId": 45
@@ -57045,7 +57676,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Wet Job",
    "zoneAreaId": 406
   },
@@ -58058,7 +58689,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Wisdom of the Guardians"
   },
   "81952": {
@@ -62552,7 +63183,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Get to the Roots of It",
    "zoneAreaId": 16554
   },
@@ -65337,7 +65968,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "A Cleansing Cry",
    "zoneAreaId": 405
   },
@@ -65828,7 +66459,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Carved Centaur Totems",
    "zoneAreaId": 405
   },
@@ -66287,7 +66918,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Notes on Draenethyst",
    "zoneAreaId": 405
   },
@@ -68019,7 +68650,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Craftsman's Writ: Shadow Oil",
    "treasurePickerIds": [
     4818
@@ -69396,7 +70027,7 @@
     "xpDifficulty": 0,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Craftsman's Writ: Earthen Silk Belt",
    "treasurePickerIds": [
     4818
@@ -73453,7 +74084,7 @@
     "xpDifficulty": 3,
     "xpMultiplier": 1.75
    },
-   "sources": 3,
+   "sources": 4,
    "title": "A Moon-Kissed Blade"
   },
   "95059": {
@@ -74755,7 +75386,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Get the Goods",
    "zoneAreaId": 16591
   },
@@ -75103,7 +75734,7 @@
     "xpDifficulty": 2,
     "xpMultiplier": 1.85
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Thrall Needs to Know",
    "zoneAreaId": 16620
   },
@@ -76796,7 +77427,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.675
    },
-   "sources": 3,
+   "sources": 4,
    "title": "The Dark Crystal",
    "zoneAreaId": 16985
   },
@@ -76867,7 +77498,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.675
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Crystalline Elements",
    "zoneAreaId": 16985
   },
@@ -77041,7 +77672,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Not My Circus",
    "zoneAreaId": 16591
   },
@@ -77190,7 +77821,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Fragments of the Pylons",
    "zoneAreaId": 16651
   },
@@ -77274,7 +77905,7 @@
     "xpDifficulty": 4,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Step Two: More Rock",
    "zoneAreaId": 16591
   },
@@ -78070,7 +78701,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "Khan Hratha",
    "zoneAreaId": 405
   },
@@ -78302,7 +78933,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.85
    },
-   "sources": 2,
+   "sources": 3,
    "title": "A Little Payback",
    "zoneAreaId": 16620
   },
@@ -78345,7 +78976,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.85
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Blood Red Bandanas",
    "zoneAreaId": 16620
   },
@@ -78490,7 +79121,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 3,
+   "sources": 4,
    "title": "State Secrets",
    "zoneAreaId": 16620
   },
@@ -79423,7 +80054,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.25
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Ancient Gurubashi Idol",
    "zoneAreaId": 16550
   },
@@ -79462,7 +80093,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Zum'rah's Head",
    "zoneAreaId": 1176
   },
@@ -79501,7 +80132,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.95
    },
-   "sources": 2,
+   "sources": 3,
    "title": "An'she's Radiance",
    "zoneAreaId": 2100
   },
@@ -79687,6 +80318,38 @@
    "sources": 1,
    "title": "Thicker Than Water",
    "zoneAreaId": 16560
+  },
+  "96825": {
+   "description": "Our hunters and fishers bring back plenty of savory food for our troops - but it's rare that they get a sweet treat.\r\n\r\nI've seen a cactus that produces a prickly, tasty fruit. But it only grows in the hills to the west, where the wretched quilboars make their camps. Make your way past the quilboars and bring me some of those fruits. And be careful - the fruits are as spiny as the quilboars!",
+   "flags": 33554440,
+   "level": 6,
+   "minLevel": 3,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 474461,
+     "objectId": 275718,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Cook Torka in Razor Hill wants you to collect 8 Prickly Pear Fruit from the Razormane Grounds west of town.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "This Fruit Could Bite Back",
+   "zoneAreaId": 14
   },
   "96830": {
    "description": "My axe still bled demon gore when I heard a human screaming high above.\r\n\r\nI looked up and saw this man dangling in the claws of a great chimaera. He fought back fiercly causing the beast to lose its grip and drop him. \r\n\r\nFrom that height, no warrior walks away. Even enemies deserve dignity, so I dragged him into the shade to pass in peace.\r\n\r\nFor my part, I track the farseers' visions--friends remain in Hyjal, far northwest.\r\n\r\nFind the remaining Horde in my stead. Honor requires me here.",
@@ -80762,7 +81425,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 2.675
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Essence of Seeping Slimes",
    "zoneAreaId": 16985
   },
@@ -81249,7 +81912,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.1
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Fragment of the Firelands",
    "zoneAreaId": 1584
   },
@@ -81288,7 +81951,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 2.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Blackmaw Magic",
    "zoneAreaId": 16554
   },
@@ -81947,7 +82610,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Mirrorscale",
    "zoneAreaId": 357
   },
@@ -82018,7 +82681,7 @@
     "xpDifficulty": 6,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "The Offense of Grom'gol",
    "zoneAreaId": 33
   },
@@ -82336,7 +82999,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 1,
+   "sources": 2,
    "title": "Dunemaul Dues",
    "zoneAreaId": 440
   },
@@ -82410,6 +83073,40 @@
    "startItemId": 278194,
    "title": "Gnomish Garbage",
    "zoneAreaId": 440
+  },
+  "97539": {
+   "description": "This encampment is being left to rot. The siege damage stands, unrepaired, as if neglect were policy. I won't permit that same decay here. The infirmary answers to me, and I intend to keep it functional.\r\n\r\nWe are nearly out of supplies. I'm going to need more equipment--enough to keep the workers and guards on their feet.\r\n\r\nUnder pressure, we can make quite an effective field suture using twisted spider silk.\r\n\r\n$C, bring me some from the spiders that stalk these highlands.",
+   "flags": 8,
+   "level": 36,
+   "minLevel": 30,
+   "nextQuestId": 92519,
+   "objectives": [
+    {
+     "amount": 12,
+     "id": 476080,
+     "objectId": 278225,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Return 12 Surgical Spidersilk to Doctor Gregory Victor in Hammerfall, Arathi Highlands.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "money": 4000,
+    "reputation": [
+     {
+      "factionId": 76,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Silky Sutures",
+   "zoneAreaId": 45
   },
   "97663": {
    "description": "I noticed a few rocks that seemed unusual in the Dustbowl. Upon closer inspection, I saw that they had carvings! I could not resist making rubbings of them to study later.\r\n\r\nThe nearby ogres took notice of my presence and before I could even react, I woke up under the care of the innkeeper, and with a terrible headache.\r\n\r\nNow, I am down all of my supplies and without any study material while I heal. Can you venture to the east in search of my pack, and take rubbings of the etchings yourself?",
@@ -82565,7 +83262,7 @@
     "xpDifficulty": 5,
     "xpMultiplier": 1.0
    },
-   "sources": 2,
+   "sources": 3,
    "title": "Armory of Sunnyglade",
    "zoneAreaId": 16591
   },
