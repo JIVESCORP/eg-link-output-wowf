@@ -1,13 +1,13 @@
 {
  "levelCap": {
   "maxLevelForLatestExpansion": {
-   "60": 3
+   "60": 8
   },
   "maxLevelForPlayerExpansion": {
-   "60": 3
+   "60": 8
   },
   "maxPlayerLevel": {
-   "60": 3
+   "60": 8
   }
  },
  "meta": {
@@ -15,18 +15,21 @@
   "clientBuild": "1.60.1.71139",
   "collectedOn": {
    "first": "2026-11-26",
-   "last": "2026-11-26"
+   "last": "2026-11-27"
   },
   "dataset": "game_rules",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 3
+  "sources": 8
  },
  "professionCaps": {
   "129": {
    "1": {
     "75": 1
+   },
+   "3": {
+    "225": 1
    },
    "4": {
     "300": 2
@@ -43,35 +46,69 @@
    },
    "3": {
     "225": 1
-   }
-  },
-  "171": {
+   },
    "4": {
     "300": 1
    }
   },
-  "185": {
-   "1": {
-    "75": 1
+  "171": {
+   "2": {
+    "150": 2
    },
    "3": {
     "225": 1
+   },
+   "4": {
+    "300": 1
+   }
+  },
+  "182": {
+   "2": {
+    "150": 1
+   }
+  },
+  "185": {
+   "1": {
+    "75": 2
+   },
+   "3": {
+    "225": 2
    },
    "4": {
     "300": 2
    }
   },
   "186": {
+   "1": {
+    "75": 1
+   },
+   "2": {
+    "150": 2
+   },
+   "3": {
+    "225": 1
+   },
    "4": {
     "300": 1
    }
   },
   "197": {
    "2": {
-    "150": 1
+    "150": 2
+   },
+   "3": {
+    "225": 1
    },
    "4": {
     "300": 1
+   }
+  },
+  "202": {
+   "2": {
+    "150": 3
+   },
+   "3": {
+    "225": 1
    }
   },
   "333": {
@@ -80,38 +117,181 @@
    },
    "2": {
     "150": 1
-   }
-  },
-  "356": {
-   "2": {
-    "150": 1
    },
    "3": {
     "225": 1
    }
   },
+  "356": {
+   "1": {
+    "75": 1
+   },
+   "2": {
+    "150": 1
+   },
+   "3": {
+    "225": 2
+   }
+  },
   "393": {
    "4": {
-    "300": 1
+    "300": 2
    }
   }
  },
  "questDifficulty": {
   "10": {
    "6": {
-    "1": 1
+    "1": 5
    },
    "7": {
-    "1": 1
+    "1": 5
+   },
+   "8": {
+    "2": 3
    },
    "9": {
-    "2": 1
+    "2": 4
    },
    "10": {
+    "2": 6
+   },
+   "11": {
     "2": 2
    },
    "12": {
+    "2": 3
+   }
+  },
+  "16": {
+   "12": {
+    "1": 1
+   },
+   "14": {
     "2": 1
+   },
+   "16": {
+    "2": 1
+   },
+   "17": {
+    "2": 1
+   },
+   "18": {
+    "2": 1
+   },
+   "19": {
+    "3": 1
+   },
+   "20": {
+    "3": 1
+   }
+  },
+  "21": {
+   "16": {
+    "1": 1
+   },
+   "17": {
+    "1": 1
+   },
+   "18": {
+    "1": 1
+   },
+   "19": {
+    "2": 1
+   },
+   "20": {
+    "2": 1
+   },
+   "21": {
+    "2": 1
+   },
+   "22": {
+    "2": 1
+   },
+   "24": {
+    "3": 1
+   },
+   "25": {
+    "3": 1
+   },
+   "27": {
+    "4": 1
+   }
+  },
+  "22": {
+   "15": {
+    "0": 1
+   },
+   "16": {
+    "1": 1
+   },
+   "17": {
+    "1": 1
+   },
+   "18": {
+    "1": 1
+   },
+   "19": {
+    "1": 1
+   },
+   "20": {
+    "2": 1
+   },
+   "21": {
+    "2": 1
+   },
+   "22": {
+    "2": 1
+   },
+   "23": {
+    "2": 1
+   },
+   "24": {
+    "2": 1
+   },
+   "26": {
+    "3": 1
+   },
+   "27": {
+    "4": 1
+   },
+   "30": {
+    "4": 1
+   }
+  },
+  "28": {
+   "6": {
+    "0": 1
+   },
+   "22": {
+    "1": 1
+   },
+   "23": {
+    "1": 1
+   },
+   "24": {
+    "1": 1
+   },
+   "25": {
+    "1": 1
+   },
+   "26": {
+    "2": 1
+   },
+   "27": {
+    "2": 1
+   },
+   "28": {
+    "2": 1
+   },
+   "29": {
+    "2": 1
+   },
+   "30": {
+    "2": 1
+   },
+   "33": {
+    "4": 1
    }
   },
   "36": {
@@ -258,6 +438,62 @@
     "4": 1
    }
   },
+  "39": {
+   "22": {
+    "0": 1
+   },
+   "24": {
+    "0": 1
+   },
+   "27": {
+    "0": 1
+   },
+   "28": {
+    "0": 1
+   },
+   "30": {
+    "0": 1
+   },
+   "31": {
+    "0": 1
+   },
+   "33": {
+    "1": 1
+   },
+   "35": {
+    "1": 1
+   },
+   "36": {
+    "1": 1
+   },
+   "37": {
+    "2": 1
+   },
+   "38": {
+    "2": 1
+   },
+   "39": {
+    "2": 1
+   },
+   "40": {
+    "2": 1
+   },
+   "41": {
+    "2": 1
+   },
+   "42": {
+    "3": 1
+   },
+   "43": {
+    "3": 1
+   },
+   "44": {
+    "4": 1
+   },
+   "47": {
+    "4": 1
+   }
+  },
   "50": {
    "30": {
     "0": 1
@@ -356,6 +592,91 @@
    },
    "60": {
     "4": 1
+   }
+  },
+  "52": {
+   "36": {
+    "0": 1
+   },
+   "40": {
+    "0": 1
+   },
+   "41": {
+    "0": 1
+   },
+   "42": {
+    "1": 1
+   },
+   "47": {
+    "1": 1
+   },
+   "48": {
+    "1": 1
+   },
+   "49": {
+    "1": 1
+   },
+   "50": {
+    "2": 1
+   },
+   "51": {
+    "2": 1
+   },
+   "52": {
+    "2": 1
+   },
+   "53": {
+    "2": 1
+   },
+   "54": {
+    "2": 1
+   },
+   "55": {
+    "3": 1
+   }
+  },
+  "53": {
+   "36": {
+    "0": 1
+   },
+   "40": {
+    "0": 1
+   },
+   "41": {
+    "0": 1
+   },
+   "42": {
+    "0": 1
+   },
+   "45": {
+    "1": 1
+   },
+   "47": {
+    "1": 1
+   },
+   "48": {
+    "1": 1
+   },
+   "49": {
+    "1": 1
+   },
+   "50": {
+    "1": 1
+   },
+   "51": {
+    "2": 1
+   },
+   "52": {
+    "2": 1
+   },
+   "53": {
+    "2": 1
+   },
+   "54": {
+    "2": 1
+   },
+   "55": {
+    "2": 1
    }
   },
   "60": {
@@ -398,11 +719,20 @@
        "isAccountUnlock": false,
        "name": "Rank 1 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "진영 휘장",
+       "icon": 135026,
+       "isAccountUnlock": false,
+       "name": "1 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 750
     },
     "2": {
@@ -413,11 +743,20 @@
        "isAccountUnlock": false,
        "name": "Rank 2 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "계급장 장신구",
+       "icon": 133453,
+       "isAccountUnlock": false,
+       "name": "2 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 1650
     },
     "3": {
@@ -428,11 +767,20 @@
        "isAccountUnlock": false,
        "name": "Rank 3 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "진영 망토",
+       "icon": 461814,
+       "isAccountUnlock": false,
+       "name": "3 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 2700
     },
     "4": {
@@ -443,11 +791,20 @@
        "isAccountUnlock": false,
        "name": "Rank 4 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "진영 목걸이",
+       "icon": 133303,
+       "isAccountUnlock": false,
+       "name": "4 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 3900
     },
     "5": {
@@ -458,11 +815,20 @@
        "isAccountUnlock": false,
        "name": "Rank 5 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "전투 물약",
+       "icon": 134715,
+       "isAccountUnlock": false,
+       "name": "5 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 5250
     },
     "6": {
@@ -473,11 +839,20 @@
        "isAccountUnlock": false,
        "name": "Rank 6 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "정예 진영 휘장",
+       "icon": 514261,
+       "isAccountUnlock": false,
+       "name": "6 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 6750
     },
     "7": {
@@ -488,11 +863,20 @@
        "isAccountUnlock": false,
        "name": "Rank 7 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "전투 깃발",
+       "icon": 132484,
+       "isAccountUnlock": false,
+       "name": "7 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 8400
     },
     "8": {
@@ -503,7 +887,16 @@
        "isAccountUnlock": false,
        "name": "Rank 8 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "정예 허리보호구 강화",
+       "icon": 132501,
+       "isAccountUnlock": false,
+       "name": "8 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       },
       {
@@ -512,11 +905,20 @@
        "isAccountUnlock": false,
        "name": "Rank 8 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "정예 손목보호구 강화",
+       "icon": 236972,
+       "isAccountUnlock": false,
+       "name": "8 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 10200
     },
     "9": {
@@ -527,11 +929,20 @@
        "isAccountUnlock": false,
        "name": "Rank 9 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "정예 발보호구 강화",
+       "icon": 795709,
+       "isAccountUnlock": false,
+       "name": "9 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 12150
     },
     "10": {
@@ -542,11 +953,20 @@
        "isAccountUnlock": false,
        "name": "Rank 10 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "정예 손보호구 강화",
+       "icon": 133832,
+       "isAccountUnlock": false,
+       "name": "10 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 14250
     },
     "11": {
@@ -557,7 +977,7 @@
        "isAccountUnlock": false,
        "name": "Rank 11 Rewards",
        "renownRewardID": 0,
-       "sources": 2,
+       "sources": 4,
        "uiOrder": 0
       },
       {
@@ -566,11 +986,20 @@
        "isAccountUnlock": false,
        "name": "Rank 11 Rewards",
        "renownRewardID": 0,
+       "sources": 3,
+       "uiOrder": 0
+      },
+      {
+       "description": "검은색 전쟁 탈것",
+       "icon": 132251,
+       "isAccountUnlock": false,
+       "name": "11 등급 보상",
+       "renownRewardID": 0,
        "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 16600
     },
     "12": {
@@ -581,7 +1010,16 @@
        "isAccountUnlock": false,
        "name": "Rank 12 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "정예 다리보호구 강화",
+       "icon": 134628,
+       "isAccountUnlock": false,
+       "name": "12 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       },
       {
@@ -590,11 +1028,20 @@
        "isAccountUnlock": false,
        "name": "Rank 12 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "정예 어깨보호구 강화",
+       "icon": 135055,
+       "isAccountUnlock": false,
+       "name": "12 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 19100
     },
     "13": {
@@ -605,7 +1052,16 @@
        "isAccountUnlock": false,
        "name": "Rank 13 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "정예 가슴보호구 강화",
+       "icon": 132717,
+       "isAccountUnlock": false,
+       "name": "13 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       },
       {
@@ -614,11 +1070,20 @@
        "isAccountUnlock": false,
        "name": "Rank 13 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "정예 머리보호구 강화",
+       "icon": 133074,
+       "isAccountUnlock": false,
+       "name": "13 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 21750
     },
     "14": {
@@ -629,18 +1094,27 @@
        "isAccountUnlock": false,
        "name": "Rank 14 Rewards",
        "renownRewardID": 0,
-       "sources": 3,
+       "sources": 7,
+       "uiOrder": 0
+      },
+      {
+       "description": "무기고",
+       "icon": 135979,
+       "isAccountUnlock": false,
+       "name": "14 등급 보상",
+       "renownRewardID": 0,
+       "sources": 1,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 24750
     }
    },
    "maxLevel": 14,
    "name": "PvP Rank Points",
    "renownLevelThreshold": 750,
-   "sources": 3
+   "sources": 8
   },
   "2802": {
    "expansionID": 0,
@@ -655,11 +1129,11 @@
        "itemID": 276236,
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 3,
+       "sources": 8,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 15
     },
     "25": {
@@ -672,11 +1146,11 @@
        "name": "Spectral Bear Cub",
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 3,
+       "sources": 8,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 25
     },
     "40": {
@@ -689,11 +1163,11 @@
        "name": "Spectral Bear Tabard",
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 3,
+       "sources": 8,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 40
     },
     "55": {
@@ -706,18 +1180,18 @@
        "name": "Reins of the Spectral Bear",
        "renownRewardID": 0,
        "rewardType": 1,
-       "sources": 3,
+       "sources": 8,
        "uiOrder": 0
       }
      ],
-     "sources": 3,
+     "sources": 8,
      "totalReputation": 55
     }
    },
    "maxLevel": 90,
    "name": "Legacy Track",
    "renownLevelThreshold": 1,
-   "sources": 3
+   "sources": 8
   }
  },
  "rewardSpells": {
@@ -735,29 +1209,66 @@
  },
  "standings": {
   "1": {
-   "-42000..-6000": 3
+   "-42000..-6000": 4
   },
   "3": {
    "-3000..0": 1
   },
   "4": {
-   "0..3000": 3
+   "0..3000": 5
   },
   "5": {
-   "3000..9000": 3
+   "3000..9000": 8
   },
   "6": {
-   "9000..21000": 3
+   "9000..21000": 5
   },
   "7": {
    "21000..42000": 1
   }
  },
  "starts": {},
- "teleports": {},
+ "teleports": {
+  "18960": {
+   "count": 1,
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.5627,
+     "mapY": 0.3241,
+     "uiMap": 1450,
+     "worldX": 7992.6,
+     "worldY": -2680
+    }
+   ],
+   "sources": 1,
+   "subZones": {
+    "enUS": {
+     "Nighthaven": 1
+    }
+   },
+   "zones": {
+    "enUS": {
+     "Moonglade": 1
+    }
+   }
+  }
+ },
  "trivialRange": {
   "10": {
-   "5": 2
+   "5": 6
+  },
+  "16": {
+   "5": 1
+  },
+  "21": {
+   "5": 1
+  },
+  "22": {
+   "5": 1
+  },
+  "28": {
+   "5": 1
   },
   "36": {
    "5": 1
@@ -768,10 +1279,19 @@
   "38": {
    "5": 1
   },
+  "39": {
+   "5": 1
+  },
   "50": {
    "5": 1
   },
   "51": {
+   "5": 1
+  },
+  "52": {
+   "5": 1
+  },
+  "53": {
    "5": 1
   },
   "60": {

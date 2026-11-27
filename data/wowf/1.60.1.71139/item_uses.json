@@ -4,13 +4,13 @@
   "clientBuild": "1.60.1.71139",
   "collectedOn": {
    "first": "2026-11-26",
-   "last": "2026-11-26"
+   "last": "2026-11-27"
   },
   "dataset": "item_uses",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 3
+  "sources": 8
  },
  "quests": {
   "7029": {
@@ -32,6 +32,64 @@
     "sources": 1,
     "spellId": 21884,
     "uses": 1
+   }
+  },
+  "7067": {
+   "17761": {
+    "objectives": {
+     "1": 2
+    },
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.3835,
+      "mapY": 0.5735,
+      "uiMap": 1414,
+      "worldX": -1269.4,
+      "worldY": 2953
+     },
+     {
+      "instance": 1,
+      "mapX": 0.3849,
+      "mapY": 0.5731,
+      "uiMap": 1414,
+      "worldX": -1261,
+      "worldY": 2903.5
+     }
+    ],
+    "progressed": 2,
+    "sources": 2,
+    "spellId": 21957,
+    "uses": 2
+   }
+  },
+  "93404": {
+   "258296": {
+    "objectives": {
+     "2": 2
+    },
+    "positions": [
+     {
+      "instance": 1,
+      "mapX": 0.69,
+      "mapY": 0.7084,
+      "uiMap": 2652,
+      "worldX": -2868.1,
+      "worldY": 610.4
+     },
+     {
+      "instance": 1,
+      "mapX": 0.6872,
+      "mapY": 0.7033,
+      "uiMap": 2652,
+      "worldX": -2861.2,
+      "worldY": 616.2
+     }
+    ],
+    "progressed": 2,
+    "sources": 2,
+    "spellId": 1265776,
+    "uses": 2
    }
   },
   "94843": {
@@ -155,10 +213,72 @@
    "spellId": 11438,
    "uses": 1
   },
-  "17757": {
+  "17191": {
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3845,
+     "mapY": 0.578,
+     "uiMap": 1414,
+     "worldX": -1381,
+     "worldY": 2918.3
+    }
+   ],
    "sources": 1,
+   "spellId": 21127,
+   "uses": 1
+  },
+  "17757": {
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.3851,
+     "mapY": 0.577,
+     "uiMap": 1414,
+     "worldX": -1356.6,
+     "worldY": 2896.7
+    },
+    {
+     "instance": 1,
+     "mapX": 0.3921,
+     "mapY": 0.5769,
+     "uiMap": 1414,
+     "worldX": -1352.4,
+     "worldY": 2637.4
+    },
+    {
+     "instance": 1,
+     "mapX": 0.3851,
+     "mapY": 0.5764,
+     "uiMap": 1414,
+     "worldX": -1340.6,
+     "worldY": 2895.4
+    },
+    {
+     "instance": 1,
+     "mapX": 0.3836,
+     "mapY": 0.5739,
+     "uiMap": 1414,
+     "worldX": -1280.4,
+     "worldY": 2951.2
+    },
+    {
+     "instance": 1,
+     "mapX": 0.3849,
+     "mapY": 0.5731,
+     "uiMap": 1414,
+     "worldX": -1260.4,
+     "worldY": 2902.9
+    }
+   ],
+   "sources": 2,
    "spellId": 21960,
-   "uses": 2
+   "targets": {
+    "npc:12239": 2,
+    "npc:12240": 2,
+    "npc:12241": 2
+   },
+   "uses": 8
   }
  }
 }
