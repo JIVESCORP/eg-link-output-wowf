@@ -3,16 +3,34 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.71139",
   "collectedOn": {
-   "first": "2026-11-26",
-   "last": "2026-11-27"
+   "first": "2026-11-27",
+   "last": "2026-11-28"
   },
   "dataset": "item_uses",
   "license": "CC BY 4.0",
   "product": "wowf",
   "schemaVersion": 1,
-  "sources": 8
+  "sources": 9
  },
  "quests": {
+  "2937": {
+   "9323": {
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.3421,
+      "mapY": 0.7294,
+      "uiMap": 1425,
+      "worldX": -405.5,
+      "worldY": -2892.1
+     }
+    ],
+    "progressed": 0,
+    "sources": 1,
+    "spellId": 11548,
+    "uses": 1
+   }
+  },
   "7029": {
    "17693": {
     "objectives": {
@@ -195,6 +213,67 @@
     "spellId": 1289727,
     "uses": 2
    }
+  },
+  "96082": {
+   "272126": {
+    "objectives": {
+     "1": 3
+    },
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.6531,
+      "mapY": 0.7941,
+      "uiMap": 2548,
+      "worldX": -9034.1,
+      "worldY": -5059
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6551,
+      "mapY": 0.7912,
+      "uiMap": 2548,
+      "worldX": -9024.8,
+      "worldY": -5068.9
+     },
+     {
+      "instance": 0,
+      "mapX": 0.6534,
+      "mapY": 0.7887,
+      "uiMap": 2548,
+      "worldX": -9017,
+      "worldY": -5060.5
+     }
+    ],
+    "progressed": 3,
+    "sources": 1,
+    "spellId": 1290242,
+    "targets": {
+     "other": 2
+    },
+    "uses": 3
+   }
+  },
+  "96084": {
+   "281229": {
+    "objectives": {
+     "1": 1
+    },
+    "positions": [
+     {
+      "instance": 0,
+      "mapX": 0.6198,
+      "mapY": 0.5627,
+      "uiMap": 2548,
+      "worldX": -8286.1,
+      "worldY": -4897.9
+     }
+    ],
+    "progressed": 1,
+    "sources": 1,
+    "spellId": 1310594,
+    "uses": 1
+   }
   }
  },
  "untied": {
@@ -211,6 +290,21 @@
    ],
    "sources": 1,
    "spellId": 11438,
+   "uses": 1
+  },
+  "12347": {
+   "positions": [
+    {
+     "instance": 1,
+     "mapX": 0.525,
+     "mapY": 0.3339,
+     "uiMap": 1439,
+     "worldX": 6875.4,
+     "worldY": -496.8
+    }
+   ],
+   "sources": 1,
+   "spellId": 16072,
    "uses": 1
   },
   "17191": {

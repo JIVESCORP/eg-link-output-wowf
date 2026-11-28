@@ -1,6 +1,36 @@
 {
- "books": {},
+ "books": {
+  "item:8383": {
+   "1": {
+    "texts": [
+     {
+      "sexes": {
+       "female": 1
+      },
+      "sources": 1,
+      "text": "안녕하세요. 구버 블럼프예요. 절 기억하실 거라 믿어요.\r\n\r\n잘 지내고 계시죠? 이왕이면 낚시도 잘하고 계셨으면 좋겠네요. 전 낚시가 정말 좋아요. 일단 블럼프가 하면 낚시로 알아주잖아요. 낚시 실력을 닦는데 도움 좀 되라고 미끼를 조금 동봉했어요. 제가 정말 좋아하는 미끼죠. 행운을 빌어요. 참, 일전에 농어 잡아다준 일은 두고두고 고맙게 생각할게요.\r\n\r\n그럼 전 이만 적고 다시 낚시하러 가야겠어요!\r\n\r\n구버 블럼프",
+      "times": 1
+     }
+    ],
+    "title": "일반 편지"
+   }
+  }
+ },
  "gossip": {
+  "npc:277042": [
+   {
+    "broadcastTextIds": [
+     328198
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "제 미용실을 찾아주셔서 감사합니다! 저희는 머리를 자르고 염색하는 것 말고도 여러 가지를 해 드릴 수 있습니다.\r\n\r\n수염도 다듬고, 귀도 뚫고, 나이트 엘프 문신에 색도 넣고, 필요한 건 뭐든지 해 드리죠.\r\n\r\n여기 앉으시면 바로 전문가의 손길을 느끼게 해 드릴게요.",
+    "times": 1
+   }
+  ],
   "npc:3616": [
    {
     "broadcastTextIds": [
@@ -21,12 +51,12 @@
      8099
     ],
     "sexes": {
-     "female": 1
+     "female": 2
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "육지와 연결하기 위해 저희는 루테란 마을과 어둠의 해안 사이를 왕복하는 히포그리프를 두고 있습니다.",
-    "times": 1
+    "times": 2
    }
   ],
   "npc:3841": [
@@ -35,12 +65,12 @@
      8098
     ],
     "sexes": {
-     "female": 1
+     "female": 2
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "히포그리프는 긍지를 알고 고결하며 재빠른 짐승으로서 명예를 위해 훈련을 받아왔습니다. 그대를 아주 먼 곳까지 빠르게 데려다 줄 수 있지요.",
-    "times": 1
+    "times": 2
    }
   ],
   "npc:4156": [
@@ -71,6 +101,20 @@
     "times": 1
    }
   ],
+  "npc:6300": [
+   {
+    "broadcastTextIds": [
+     325028
+    ],
+    "sexes": {
+     "female": 1
+    },
+    "sources": 1,
+    "template": "broadcastText",
+    "text": "뭘 도와드릴까요?",
+    "times": 1
+   }
+  ],
   "npc:6301": [
    {
     "broadcastTextIds": [
@@ -91,12 +135,12 @@
      2827
     ],
     "sexes": {
-     "female": 1
+     "female": 3
     },
     "sources": 1,
     "template": "broadcastText",
     "text": "손님의 얼굴과 영혼은 지치고 힘들어 보이는군요. 저희 여관에서 지친 몸을 편히 뉘이시고 꿈 속에서 엘룬께 조언을 구하시기 바랍니다.",
-    "times": 1
+    "times": 3
    }
   ]
  },
@@ -105,8 +149,8 @@
   "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
   "clientBuild": "1.60.1.71139",
   "collectedOn": {
-   "first": "2026-11-27",
-   "last": "2026-11-27"
+   "first": "2026-11-28",
+   "last": "2026-11-28"
   },
   "dataset": "texts",
   "license": "CC BY 4.0",

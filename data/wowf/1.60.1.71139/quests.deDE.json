@@ -1,0 +1,4425 @@
+{
+ "meta": {
+  "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
+  "cacheFiles": 1,
+  "cachesLeftOut": 0,
+  "clientBuild": "1.60.1.71139",
+  "collectedOn": {
+   "first": "2026-11-26",
+   "last": "2026-11-26"
+  },
+  "dataset": "quests",
+  "license": "CC BY 4.0",
+  "locale": "deDE",
+  "product": "wowf",
+  "schemaVersion": 1,
+  "sources": 1
+ },
+ "quests": {
+  "6": {
+   "description": "Garrick Padfoot, ein Dieb und Halsabschneider, der schon seit Wochen unseren Bauern und Händlern das Leben schwer macht, ist bei einem Schuppen in der Nähe der Weinberge gesehen worden. Die Weinberge liegen im Osten der Abtei, auf der anderen Seite der Brücke. Bringt mir den Kopf des Schurken und verdient Euch das Kopfgeld, das auf ihn ausgesetzt ist!$B$BDoch seht Euch vor, $n. Garrick hat eine Bande von Rohlingen um sich versammelt, also werdet Ihr nicht leicht an ihn herankommen.",
+   "flags": 8,
+   "level": 5,
+   "minLevel": 2,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380121,
+     "objectId": 182,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Tötet Garrick Padfoot und bringt seinen Kopf zu Deputy Willem in der Nähe der Abtei von Nordhain.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6076
+     },
+     {
+      "count": 1,
+      "itemId": 60
+     },
+     {
+      "count": 1,
+      "itemId": 3070
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Kopfgeld auf Garrick Padfoot",
+   "zoneAreaId": 9
+  },
+  "7": {
+   "description": "Eure erste Aufgabe ist eine Säuberung, $n. Ein Koboldklan hat sich in den Wäldern im Norden eingenistet. Begebt Euch dorthin und bekämpft das Koboldgezücht, das Ihr dort finden werdet. Dezimiert es, damit wir die Kobolde eines Tages gänzlich aus Nordhain vertreiben können.",
+   "flags": 8,
+   "level": 2,
+   "minLevel": 1,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 380079,
+     "objectId": 6,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Tötet 10 von dem Koboldgezücht und kehrt dann zu Marshal McBride zurück.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 25,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Säuberung im Koboldlager",
+   "zoneAreaId": 9
+  },
+  "9": {
+   "description": "Jetzt seht Euch nur an, was aus diesem Ort geworden ist! In dieser Gegend lebten einst ehrbare Bauersleute. Die verdammten Diebe haben sie alle vertrieben. Aber mich nicht! Jetzt sieht es allerdings so aus, als hätten einige Erntebehüter sich in den Feldern breit gemacht.$b$bWenn Ihr Euch dem gewachsen fühlt, dann geht hinaus und tötet dort draußen 20 von ihnen. Wenn Ihr fertig seid, kommt zurück und holt Euch Eure Bezahlung ab. Und wenn Ihr alle in meinem Feld erwischt habt, dann räumt auch in den angrenzenden Feldern auf.",
+   "flags": 8,
+   "level": 15,
+   "minLevel": 8,
+   "objectives": [
+    {
+     "amount": 20,
+     "id": 381068,
+     "objectId": 114,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Bauer Saldean möchte, dass Ihr 20 Erntebehüter tötet.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 3578
+     },
+     {
+      "count": 1,
+      "itemId": 1561
+     },
+     {
+      "count": 1,
+      "itemId": 276695
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Tod auf den Feldern",
+   "zoneAreaId": 40
+  },
+  "11": {
+   "description": "Gnolle, brutale Wesen, die in dieser Gegend nichts zu suchen haben, sind entlang der Grenzen des Waldes von Elwynn gesehen worden. Ein großes Rudel, viel zu viele, als dass wir allein mit ihnen fertig werden könnten, hat sich in den Wäldern südlich von jenem Wachturm dort eingenistet. Eine weitere Gruppe hat sich im Gebiet nahe des Steinhügelsees im Osten eingenistet.$B$BDie Armee von Stormwind wird jeden belobigen, der dabei hilft, die Gnolle zu töten. Bringt mir ihre bemalten Gnoll-Armbinden als Beweis für Eure Tat.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 6,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380027,
+     "objectId": 782,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt Deputy Rainer in der Kaserne 8 bemalte Gnoll-Armbinden.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 2249
+     },
+     {
+      "count": 1,
+      "itemId": 2238
+     },
+     {
+      "count": 1,
+      "itemId": 287059
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Kopfgeld auf die Flusspfotengnolle",
+   "zoneAreaId": 12
+  },
+  "12": {
+   "description": "Die Volksmiliz hat nur ein einziges Ziel: Westfall zu verteidigen und den Frieden in dieses Land zurückzubringen. Doch leider muss der Frieden nur allzu oft mit Blut bezahlt werden. $b$bEiner meiner Späher hat uns Kunde davon gebracht, dass eine Fallenstellerbande der Defias hier in der Nähe verheerende Schäden anrichtet. Mir liegen Berichte vor, dass einige Fallensteller der Defias in der Nähe des Jangoschachts im Nordwesten gesichtet wurden, ebenso bei Molsens Hof und bei Furlbrows Kürbishof. Wenn Ihr unseren Reihen beizutreten wünscht, dann erschlagt 15 Fallensteller der Defias und 15 Schmuggler der Defias und kehrt zu mir zurück.",
+   "flags": 8,
+   "level": 12,
+   "minLevel": 9,
+   "nextQuestId": 13,
+   "objectives": [
+    {
+     "amount": 15,
+     "id": 379993,
+     "objectId": 504,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 15,
+     "id": 379994,
+     "objectId": 95,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Gryan Stoutmantle möchte, dass Ihr 15 Fallensteller der Defias und 15 Schmuggler der Defias tötet und zu ihm auf die Späherkuppe zurückkehrt.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 500,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die Volksmiliz",
+   "zoneAreaId": 40
+  },
+  "13": {
+   "description": "Eine Bande heimtückischer Plünderer der Defias ist dabei gesehen worden, wie sie den Goldküstensteinbruch, Moonbrook und Alexstons Bauernhof ausplünderten. Die Volksmiliz kann ein solches Verhalten nicht hinnehmen. Macht Euch unverzüglich auf den Weg, $N, und zeigt, dass das Licht in Westfall zugegen ist.$b$bDer Goldküstensteinbruch befindet sich in der Nähe der Küste, westlich vom Turm. Im nächsten Schritt Eurer Ausbildung müsst Ihr 15 dieser üblen Plünderer der Defias und 15 Ausplünderer der Defias töten.",
+   "flags": 8,
+   "level": 14,
+   "minLevel": 9,
+   "nextQuestId": 14,
+   "objectives": [
+    {
+     "amount": 15,
+     "id": 380900,
+     "objectId": 589,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 15,
+     "id": 380901,
+     "objectId": 590,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Gryan Stoutmantle möchte, dass Ihr 15 Plünderer der Defias und 15 Ausplünderer der Defias tötet und zu ihm auf die Späherkuppe zurückkehrt.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 600,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die Volksmiliz",
+   "zoneAreaId": 40
+  },
+  "14": {
+   "description": "Einige Defias konnten wir bislang nicht erwischen. Mein bester Späher berichtet, dass diese Defias in der ganzen Gegend auf Raubzug gehen und schon bis Süd-Westfall gekommen sind. Wir glauben, dass sie sich in den Dolchhügeln versteckt halten und dort ihren nächsten Schachzug planen. Schaltet diese Verbrecher im Namen der Volksmiliz aus.",
+   "flags": 8,
+   "level": 17,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 15,
+     "id": 379978,
+     "objectId": 122,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 5,
+     "id": 379979,
+     "objectId": 121,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 5,
+     "id": 379980,
+     "objectId": 449,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Gryan Stoutmantle möchte, dass Ihr 15 Straßenräuber der Defias, 5 Pfadpirscher der Defias und 5 Knöchelhauer der Defias tötet und zu ihm auf die Späherkuppe zurückkehrt.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 1566
+     },
+     {
+      "count": 1,
+      "itemId": 1480
+     },
+     {
+      "count": 1,
+      "itemId": 12296
+     },
+     {
+      "count": 1,
+      "itemId": 270006
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die Volksmiliz",
+   "zoneAreaId": 40
+  },
+  "15": {
+   "description": "Wie mir meine Späher mitteilen, ist das Koboldproblem größer als wir dachten, $n. Eine Gruppe Koboldtagelöhner hat ihr Lager in der Nähe der Echokammmine im Norden aufgeschlagen.$B$BBegebt Euch zu der Mine und entfernt die Kobolde. Wir wissen, dass sich mindestens 10 von ihnen dort aufhalten. Tötet sie, seht nach, ob dort noch mehr von ihnen sind, kommt dann zu mir zurück und erstattet Bericht.",
+   "flags": 8,
+   "level": 3,
+   "minLevel": 1,
+   "nextQuestId": 21,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 380062,
+     "objectId": 257,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Tötet 10 Koboldtagelöhner und erstattet dann Marshal McBride Euren Bericht.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 40,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Überprüfung der Echokammmine",
+   "zoneAreaId": 9
+  },
+  "18": {
+   "description": "Seit kurzem treibt sich eine neue Diebesbande in Nordhain herum. Sie nennen sich die \"Bruderschaft der Defias\" und sind auf der anderen Seite des Flusses im Osten gesehen worden.$B$BIch weiß nicht genau, was sie vorhaben, aber ich bin mir sicher, es ist nichts Gutes! Bringt mir die Kopftücher, die sie tragen, und ich werde Euch mit einer Waffe belohnen.",
+   "flags": 8,
+   "level": 4,
+   "minLevel": 2,
+   "objectives": [
+    {
+     "amount": 12,
+     "id": 381191,
+     "objectId": 752,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt 12 rote Sackleinenkopftücher zu Deputy Willem in der Nähe der Abtei von Nordhain.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 2224
+     },
+     {
+      "count": 1,
+      "itemId": 5580
+     },
+     {
+      "count": 1,
+      "itemId": 1161
+     },
+     {
+      "count": 1,
+      "itemId": 5579
+     },
+     {
+      "count": 1,
+      "itemId": 1159
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Bruderschaft der Diebe",
+   "zoneAreaId": 9
+  },
+  "21": {
+   "description": "Eure Untersuchungen beweisen, dass die Echokammmine gesäubert werden muss. Kehrt in die Mine zurück und helft dabei, sie von den Kobolden zu befreien.$B$BIhr dürft keine Zeit verlieren, $n. Je länger die Kobolde sich ungehindert in der Mine aufhalten können, umso festere Wurzeln fassen sie in Nordhain.",
+   "flags": 8,
+   "level": 5,
+   "minLevel": 1,
+   "objectives": [
+    {
+     "amount": 12,
+     "id": 380028,
+     "objectId": 80,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Tötet 12 Koboldhilfsarbeiter und kehrt dann zu Marshal McBride in der Abtei von Nordhain zurück.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 2186
+     },
+     {
+      "count": 1,
+      "itemId": 2691
+     },
+     {
+      "count": 1,
+      "itemId": 11192
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Scharmützel in der Echokammmine",
+   "zoneAreaId": 9
+  },
+  "22": {
+   "description": "Die Zwiebeln sind geschält, der Knoblauch ist gehackt, der Rosmarin ist zerstoßen, die Kruste ist gebacken, das Dillkraut ist gewiegt und die Sauce steht auf dem Herd. Jetzt brauche ich für meine berühmte Fleischpastete nur noch 8 Geiferzahnlebern!",
+   "flags": 8,
+   "level": 12,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380107,
+     "objectId": 723,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Salma Saldean braucht 8 Geiferzahnlebern für ihre Pastete aus Geiferzahnleber.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 3,
+      "itemId": 724
+     },
+     {
+      "count": 1,
+      "itemId": 2697
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Pastete aus Geiferzahnleber",
+   "zoneAreaId": 40
+  },
+  "33": {
+   "description": "Ich hasse diese grässlichen Waldwölfe! Aber Wolfsteaks esse ich für mein Leben gern. Bringt mir zähes Wolfsfleisch, dann gebe ich Euch etwas dafür, das Euch von Nutzen sein wird.$B$BZähes Wolfsfleisch bekommt Ihr, wenn Ihr die Waldwölfe und jungen Wölfe jagt, die in Nordhain durch das Land streifen.",
+   "flags": 8,
+   "level": 2,
+   "minLevel": 1,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380016,
+     "objectId": 750,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt Eagan Peltskinner, den Ihr vor der Abtei von Nordshire findet, 8 Stücke zähes Wolfsfleisch.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 80
+     },
+     {
+      "count": 1,
+      "itemId": 6070
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Wölfe an der Grenze",
+   "zoneAreaId": 9
+  },
+  "35": {
+   "description": "Falls Ihr befürchtet, dass die Gerüchte über das Auftauchen von Murlocs wahr sein könnten, dann tut das Folgende: Begebt Euch zur östlichen Elwynn-Brücke und sprecht mit Wache Thomas. Er ist seit einer Woche an der Brücke stationiert und wird deswegen wissen, wie es in der Gegend aussieht.$B$BBringt mir seinen Bericht.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "nextQuestId": 37,
+   "objectivesText": "Marshal Dughan möchte, dass Ihr mit Wache Thomas sprecht.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Weitere Sorgen",
+   "zoneAreaId": 12
+  },
+  "36": {
+   "description": "Ich hätte nie gedacht, dass jemals der Tag kommen würde, an dem ich den Hof verlasse. Aber in den Feldern wimmelt es nur so von Dieben und es ist hier für uns viel zu gefährlich geworden. Sobald Bauer Furlbrow den Wagen repariert hat, machen wir uns auf den Weg. $b $bKönntet Ihr mir vielleicht einen Gefallen tun? Ich schreibe Euch schnell mein Rezept für Westfall-Eintopf auf. Seid so nett und bringt es Salma Saldean; sie wohnt auf dem Hof dort hinten. Ihr findet den Hof der Saldeans gleich hinter der Gabelung der Straße.",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381192,
+     "objectId": 2832,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Verna Furlbrow möchte, dass Ihr ihr Rezept für Westfall-Eintopf bei Salma Saldean abliefert.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 2832,
+   "title": "Westfall-Eintopf",
+   "zoneAreaId": 40
+  },
+  "37": {
+   "description": "Vor ein paar Tagen haben wir zwei Wachen, Rolf und Malakai, losgeschickt, damit sie entlang des Flusses Nachforschungen anstellen, aber bisher sind sie noch nicht zurückgekehrt. Damit ich meinen Bericht fertig schreiben kann, muss ich wissen, was den beiden Männern zugestoßen ist.$B$BSucht den Fluss in Richtung Norden ab und seht zu, dass Ihr die Wachen findet... oder ihre Überreste...",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "nextQuestId": 45,
+   "objectivesText": "Wache Thomas möchte, dass Ihr den Fluss in Richtung Norden nach Rolf und Malakai, den beiden vermissten Wachen, absucht.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Suche nach den vermissten Wachen",
+   "zoneAreaId": 12
+  },
+  "38": {
+   "description": "Wollt Ihr mir dabei helfen, Westfall-Eintopf zu kochen? Dann bringt mir die folgenden Zutaten: $b $b 3 Stücke sehniges Geierfleisch $b 3 Geiferzahnschnauzen $b 3 Murlocaugen $b 3 Okraschoten",
+   "flags": 8,
+   "level": 13,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 3,
+     "id": 380058,
+     "objectId": 729,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 3,
+     "id": 380059,
+     "objectId": 730,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 3,
+     "id": 380060,
+     "objectId": 731,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 3,
+     "id": 380061,
+     "objectId": 732,
+     "storageIndex": 3,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Salma Saldean möchte 3 Stücke sehniges Geierfleisch, 3 Geiferzahnschnauzen, 3 Murlocaugen und 3 Okraschoten.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 3,
+      "itemId": 733
+     },
+     {
+      "count": 1,
+      "itemId": 728
+     },
+     {
+      "count": 1,
+      "itemId": 1479
+     },
+     {
+      "count": 1,
+      "itemId": 2225
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Westfall-Eintopf",
+   "zoneAreaId": 40
+  },
+  "39": {
+   "description": "Berichtet Marshal Dughan, dass Malakai und Rolf ums Leben gekommen sind, und teilt ihm auch mit, dass wir die Murlocs in Ost-Elwynn mit unserer derzeitigen Truppenstärke hier nicht unter Kontrolle halten können.$B$BIch weiß, dass wir nicht viele überzählige Männer haben, aber vielleicht findet Dughan ja doch jemanden.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "nextQuestId": 59,
+   "objectivesText": "Erstattet Marshal Dughan in Goldhain Bericht.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 700,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Zustellung von Thomas' Bericht",
+   "zoneAreaId": 12
+  },
+  "40": {
+   "description": "Eine neue Gefahr bedroht den Wald von Elwynn, $n! Murlocs kommen die Bäche und Flüsse im östlichen Elwynn hinaufgeschwommen, vertreiben die Fische und greifen einfache Leute an!$B$BIch habe Marshal Dughan bereits gewarnt, aber der macht sich größere Sorgen wegen der Gnolle und der Banditen. Er ist nicht überzeugt davon, dass die Murlocs eine Gefahr darstellen.$B$BBitte sprecht mit Dughan, $n, und bringt ihn dazu, dass er Verstärkung in den Osten schickt!",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "nextQuestId": 35,
+   "objectivesText": "Remy \"Zweifach\" möchte, dass Ihr in Goldhain mit Marshal Dughan sprecht.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 1
+     }
+    ],
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Gefahr aus dem Wasser",
+   "zoneAreaId": 12
+  },
+  "45": {
+   "description": "Als Ihr die Gegend weiter absucht, findet Ihr die Abdrücke von Füßen mit Schwimmhäuten, die entlang dem Ufer des Steinhügelsees nach Osten führen. In der Ferne könnt Ihr im Osten gerade noch so ein Murlocdorf ausmachen.$B$BVielleicht fand Rolfs Leben dort sein Ende...",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "nextQuestId": 71,
+   "objectivesText": "Durchsucht das Murlocdorf nach Rolf - oder nach Anzeichen für seinen Tod.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Rolfs Schicksal",
+   "zoneAreaId": 12
+  },
+  "46": {
+   "description": "Die Armee von Stormwind hat ein Kopfgeld auf die Murloclauerer und Murlocfutterwühler ausgesetzt, die sich in Elwynn herumtreiben. Erlegt sie und bringt mir ihre zerrissenen Murlocflossen, dann wird die Armee von Stormwind Euch ansehnlich belohnen$B$BDie Murlocs haben am Steinhügelsee nördlich von hier ein Dorf errichtet und ein weiteres ihrer Dörfer befindet sich im Süden, wo der Fluss sich teilt.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 381283,
+     "objectId": 780,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt 8 zerrissene Murlocflossen zu Wache Thomas, den ihr an der östlichen Elwynn-Brücke findet.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 4840
+     },
+     {
+      "count": 1,
+      "itemId": 1158
+     },
+     {
+      "count": 1,
+      "itemId": 1008
+     },
+     {
+      "count": 1,
+      "itemId": 276686
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Kopfgeld auf die Murlocs",
+   "zoneAreaId": 12
+  },
+  "47": {
+   "description": "Manchmal haben die Kobolde in dieser Gegend Goldstaub dabei. Das Zeug könnte ich wirklich gut gebrauchen. Bringt mir etwas davon und ich mache Euch den besten Preis in der Stadt... den besten Preis in der Stadt!$B$BDie Kobolde halten sich in der Tiefenschachtmine im Süden und im Bereich der Jaspismine im Nordosten auf.",
+   "flags": 8,
+   "level": 7,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 380018,
+     "objectId": 773,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt 10 Einheiten Goldstaub nach Goldhain zu Remy \"Zweifach\". Goldstaub findet Ihr bei den Kobolden im Wald von Elwynn.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 1191
+     }
+    ],
+    "money": 175,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Tauschhandel mit Goldstaub",
+   "zoneAreaId": 12
+  },
+  "52": {
+   "description": "Seid gegrüßt, $n. Je weiter wir uns von Goldhain entfernen, umso reizbarer sind die wilden Tiere. Und das Holzfällerlager des Osttals wird beinahe ständig von Wölfen und Bären angegriffen.$B$BWir könnten hier draußen wirklich Eure Hilfe gebrauchen.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 379963,
+     "objectId": 118,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 5,
+     "id": 379964,
+     "objectId": 822,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Tötet 8 Streuner und 5 junge Waldbären und kehrt dann zu Wache Thomas an der östlichen Elwynn-Brücke zurück.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 2,
+      "itemId": 858
+     }
+    ],
+    "money": 250,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grenzschutz",
+   "zoneAreaId": 12
+  },
+  "54": {
+   "description": "$n, Ihr habt bewiesen, dass Ihr Euch um die Sicherheit von Nordhain sorgt. Nun erhaltet Ihr die Aufgabe, Euch auch dem Schutz des umliegenden Waldes von Elwynn zu widmen.$B$BWenn Ihr Euch dieser Aufgabe stellen wollt, dann nehmt diese Papiere, die bei Marschall Dughan in Goldhain abgeliefert werden müssen. Goldhain liegt an der südlichen Straße, hinter den Grenztoren.",
+   "flags": 0,
+   "level": 5,
+   "minLevel": 1,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 379970,
+     "objectId": 745,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Liefert Marshal McBrides Unterlagen bei Marshal Dughan in Goldhain ab.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 6078
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 745,
+   "title": "Meldung in Goldhain",
+   "zoneAreaId": 9
+  },
+  "59": {
+   "description": "Als Dank für Eure Gewitztheit und Euren Mut gebe ich Euch hier einen Gutschein, den Ihr gegen ein Rüstungsteil eintauschen könnt. Bringt den Gutschein ins Holzfällerlager des Osttals zu Sara Timberlain. Wenn Ihr ihr den Gutschein gebt, dann stellt sie die Rüstung für Euch her. Und wenn Ihr sie habt, tragt sie zur Verteidigung von Elwynn, $n.$B$BIhr findet das Holzfällerlager des Osttals im Osten jenseits von Wache Thomas' Posten.",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381006,
+     "objectId": 748,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Gebt Sara Timberlain den Rüstungsgutschein der Armee von Stormwind.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 1171
+     },
+     {
+      "count": 1,
+      "itemId": 2237
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 748,
+   "title": "Rüstung aus Tuch und aus Leder",
+   "zoneAreaId": 12
+  },
+  "60": {
+   "description": "Guten Tag, $gwerter Herr:werte Dame;! Hättet Ihr einen Moment Zeit für mich?$B$BMein Bruder und ich führen in Stormwind eine Apotheke und ich bin hier, weil ich große Kerzen suche, ihres Wachses wegen. Könnt Ihr mir vielleicht helfen?$B$BGroße Kerzen könnt Ihr von Kobolden bekommen - und ich habe Gerüchte gehört, dass Kobolde sich in den Minen von Elwynn eingenistet haben: in der Tiefenschachtmine im Süden und in der Jaspismine im Osten. Ich schlage vor, dass Ihr Euch an einem dieser Orte auf die Suche nach Kerzen begebt.",
+   "flags": 8,
+   "level": 7,
+   "minLevel": 3,
+   "nextQuestId": 61,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380129,
+     "objectId": 772,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt 8 große Kerzen nach Goldhain zu William Pestle.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 5,
+      "itemId": 1434
+     }
+    ],
+    "money": 125,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Koboldkerzen",
+   "zoneAreaId": 12
+  },
+  "61": {
+   "description": "In Stormwind wartet mein Bruder Morgan auf die Lieferung der Kerzen. Ich habe selbst nicht die Zeit, um mich auf die Reise zu begeben, aber wenn Ihr ihm die Lieferung überbringen wollt, so wird er Euch gut bezahlen.$B$BIch habe die Kerzen schon fertig verpackt. Ihr findet Morgan in unserem Geschäft im Handelsdistrikt von Stormwind. Es heißt Pestles Apotheke.",
+   "flags": 0,
+   "level": 7,
+   "minLevel": 3,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380048,
+     "objectId": 957,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt Williams Lieferung in den Handelsdistrikt von Stormwind zu Morgan Pestle.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 15,
+      "itemId": 1178
+     },
+     {
+      "count": 5,
+      "itemId": 1177
+     },
+     {
+      "count": 2,
+      "itemId": 2454
+     }
+    ],
+    "money": 350,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 957,
+   "title": "Lieferung nach Stormwind",
+   "zoneAreaId": 12
+  },
+  "62": {
+   "areaDescription": "Ausspähen der Tiefenschachtmine",
+   "description": "Die Mine in Nordhain ist nicht die einzige, mit der es Probleme gibt. Berichten zufolge ist auch die Tiefenschachtmine im Wald von Elwynn zu einem Tummelplatz für Kobolde geworden.$B$BErforscht die Mine, bestätigt diese Berichte und kehrt dann zu mir zurück. Die Mine liegt fast genau südlich von Goldhain, zwischen den Höfen der Stonefields und der Maclures.",
+   "flags": 8,
+   "level": 7,
+   "minLevel": 4,
+   "nextQuestId": 76,
+   "objectives": [
+    {
+     "amount": 0,
+     "id": 385474,
+     "objectId": 44590,
+     "storageIndex": 0,
+     "type": "areaTriggerEnter",
+     "typeId": 19
+    }
+   ],
+   "objectivesText": "Erforscht die Tiefenschachtmine und kehrt dann nach Goldhain zu Marshal Dughan zurück.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 125,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die Tiefenschachtmine",
+   "zoneAreaId": 12
+  },
+  "64": {
+   "description": "Es war fürchterlich! Verna hat mich aufgeweckt, als sie draußen auf dem Feld so einen Radau gehört hat. Das ganze Feld war voller Rowdys! Wir sind in solcher Eile aufgebrochen und da hab ich vergessen, meine Taschenuhr einzupacken. Die Uhr hat mir Vernas Vater an unserem Hochzeitstag geschenkt und es wird mir fast schlecht, wenn ich dran denke, dass diese Diebe sie jetzt haben. Ich hab die Taschenuhr im Kleiderschrank in unserem Haus liegen lassen. Haltet nach dem Kürbisfeld im Westen Ausschau, dann kommt Ihr zu unserem Hof - Ihr könnt ihn gar nicht verfehlen. Wenn Ihr mir meine Uhr wiederbringen würdet, wäre ich Euch sehr dankbar.",
+   "flags": 8,
+   "level": 12,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 379995,
+     "objectId": 841,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bauer Furlbrow möchte, dass Ihr seine Taschenuhr holt. Sie befindet sich im Kleiderschrank des Bauernhauses auf der Kürbisfarm im Westen.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 10,
+      "itemId": 4541
+     },
+     {
+      "count": 10,
+      "itemId": 1179
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Das vergessene Erbstück",
+   "zoneAreaId": 40
+  },
+  "65": {
+   "description": "Die Bruderschaft der Defias nennt sich die Bande von Schuften, von der die braven Leute von Westfall aus dem Land vertrieben werden. Ihr müsst für mich diese Bande bespitzeln. Wir müssen erfahren, wer der Kopf der Gruppe ist und wo sie ihr Versteck hat. In Seenhain findet Ihr im Gasthaus einen Schurken namens Wiley, der mir noch einen Gefallen schuldet.$b$bBegebt Euch nach Seenhain im Rotkammgebirge, östlich von Elwynn, und findet heraus, was Ihr könnt.",
+   "flags": 8,
+   "level": 18,
+   "minLevel": 14,
+   "nextQuestId": 132,
+   "objectivesText": "Gryan Stoutmantle möchte, dass Ihr in Seenhain mit Wiley sprecht.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die Bruderschaft der Defias",
+   "zoneAreaId": 40
+  },
+  "71": {
+   "description": "Nun habt Ihr beide Medaillons. Bringt sie an die Brücke zu Wache Thomas, damit er erfährt, welches Schicksal seine beiden Kameraden erlitten haben.",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 7,
+   "nextQuestId": 39,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 379968,
+     "objectId": 735,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt die Medaillons von Rolf und Malakai zu Wache Thomas an die östliche Elwynn-Brücke.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 735,
+   "title": "Meldung an Thomas",
+   "zoneAreaId": 12
+  },
+  "76": {
+   "areaDescription": "Ausspähen der Jaspismine",
+   "description": "Dank Euch wissen wir jetzt, dass Kobolde sich in der Tiefenschachtmine eingenistet haben. Jetzt brauchen wir noch einen Späher, der die weiter entfernte Jaspismine untersucht.$B$BErforscht die Jaspismine und bestätigt mir, ob sich dort tatsächlich Kobolde aufhalten. Die Mine erreicht Ihr, indem Ihr der Straße nach Osten folgt, bis Ihr zum Turm von Azora kommt. Wenn Ihr Euch am Turm nach Norden wendet, dann findet Ihr die Mine im Vorgebirge.",
+   "flags": 12,
+   "level": 10,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 385473,
+     "objectId": 87,
+     "storageIndex": 0,
+     "type": "areaTrigger",
+     "typeId": 10
+    }
+   ],
+   "objectivesText": "Erforscht die Jaspismine und kehrt dann nach Goldhain zu Marshal Dughan zurück, um ihm Bericht zu erstatten.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 350,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die Jaspismine",
+   "zoneAreaId": 12
+  },
+  "83": {
+   "description": "Die Mitglieder der Defias in Nordhain tragen Masken aus Sackleinen, die Masken der Defias in Elwynn dagegen sind aus gutem Leinen, aus dem ich Qualitätsleinenwaren herstellen kann.$B$BBringt mir rote Leinenkopftücher, dann stelle ich daraus etwas für Euch her.$B$BDie Mitglieder der Defias haben Lager, die sich über ganz Elwynn verteilen.",
+   "flags": 8,
+   "level": 9,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 6,
+     "id": 379953,
+     "objectId": 1019,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt 6 rote Leinenkopftücher ins Holzfällerlager des Osttals zu Sara Timberlain.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 2575
+     },
+     {
+      "count": 1,
+      "itemId": 983
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Rote Leinenwaren",
+   "zoneAreaId": 12
+  },
+  "84": {
+   "description": "Hier, bitte schön. Und wenn Ihr Billy die Pastete gebt, dann sagt ihm, ich hoffe, er erstickt daran!",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 5,
+   "nextQuestId": 87,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380030,
+     "objectId": 962,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt die Schweinebauchpastete zu Billy Maclure in den Weinbergen der Maclures.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 962,
+   "title": "Zurück zu Billy",
+   "zoneAreaId": 12
+  },
+  "85": {
+   "description": "Ich habe meine Halskette verloren und ich glaube, dieser Tunichtgut Billy Maclure hat sie genommen! Normalerweise treibt er sich immer wie eine kleine Ratte in den Weinbergen der Maclures östlich von hier herum. $B$BBringt mir meine Halskette zurück, wenn Ihr das Herz einer alten Witwe erfreuen wollt.",
+   "flags": 8,
+   "level": 6,
+   "minLevel": 5,
+   "nextQuestId": 86,
+   "objectivesText": "Sprecht mit Billy Maclure.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die verlorene Halskette",
+   "zoneAreaId": 12
+  },
+  "86": {
+   "description": "Wenn ich 'ne Pastete kriegen würde, dann könnte ich Euch vielleicht sagen, wer die Kette hat. Ach, und wisst Ihr was? Diese alte Dame Bernice auf dem anderen Hof da macht ganz tolle Schweinebauchpasteten. $B$BWenn Ihr ihr ein paar Brocken Eberfleisch von den Ebern bringt, die immer um unsere Höfe herumstromern, und ihr sagt, dass es für einen guten Zweck ist, dann backt sie Euch vielleicht eine Pastete.",
+   "flags": 8,
+   "level": 6,
+   "minLevel": 5,
+   "nextQuestId": 84,
+   "objectives": [
+    {
+     "amount": 4,
+     "id": 380127,
+     "objectId": 769,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt 4 Brocken Eberfleisch zu Tantchen Bernice Stonefield auf den Hof der Stonefields.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Pastete für Billy",
+   "zoneAreaId": 12
+  },
+  "87": {
+   "description": "Ich hab in der Nähe von der Tiefenschachtmine gespielt und da hab ich, glaub ich, die Kette von der alten Dame fallen ge... äääh, gesehen. Fragt mich nicht, wie die dahin gekommen ist, ich war's nicht!$B$BNa egal, jedenfalls hab ich diesen großen Kobold gesehen, der hatte einen Goldzahn und der hat die Kette aufgehoben und ist in die Mine gerannt. Wenn Ihr diesen Kobold findet, dann findet Ihr auch die Halskette, ehrlich! Ich schwör's!",
+   "flags": 8,
+   "level": 8,
+   "minLevel": 5,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380146,
+     "objectId": 981,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt Berenices Halskette auf den Hof der Stonefields zu \"Tantchen\" Berenice Stonefield.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 1359
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Goldzahn",
+   "zoneAreaId": 12
+  },
+  "88": {
+   "description": "Die Brackwells haben ein Schwein, eine Sau namens Prinzessin, die schon viele Preise gewonnen hat. Dass dieses Tier so riesig geworden ist, das kommt nur daher, dass es immer hier herübergeschlichen kommt und mein Gemüse frisst!$B$BUnd deswegen muss Prinzessin sterben, bevor sie wieder unsere Felder heimsucht! Bringt mir ihr Halsband zum Beweis, dass Ihr die Sau abgestochen habt, dann gebe ich Euch etwas, das Euch für Euren Aufwand entschädigt.$B$BIhr findet Prinzessin normalerweise bei Brackwells Kürbisbeet, noch hinter dem Hof der Maclures und von dort aus im Osten gesehen. Ich hoffe, Ihr erwischt die Sau, bevor sie wieder hungrig wird und hierher kommt!",
+   "flags": 8,
+   "level": 9,
+   "minLevel": 6,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380912,
+     "objectId": 1006,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Tötet Prinzessin, nehmt ihr Halsband an Euch und bringt es zu Mutter Stonefield auf den Hof der Stonefields.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 1173
+     },
+     {
+      "count": 1,
+      "itemId": 1182
+     },
+     {
+      "count": 1,
+      "itemId": 11191
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Prinzessin muss sterben!",
+   "zoneAreaId": 12
+  },
+  "102": {
+   "description": "Stormwind hat uns im Stich gelassen. Der üble Gestank der Verderbtheit weht über die Ebenen von Westfall. Dies war und ist mein Heimatland und ich werde die Bürger, die sich zum Bleiben entschlossen haben, nicht verlassen. Wir, die wir früher Bauern waren, werden Widerstand leisten.$b$bEure Aufgabe, so Ihr sie denn annehmt, wird es sein, im Grasland von Westfall auf Patrouille zu gehen. Spürt die widerwärtigen Gnolle auf, die augenscheinlich mit den Dieben aus den Todesminen zusammenarbeiten, und tötet sie. Bringt mir 8 Gnolltatzen und ich werde Euren Mut zu belohnen wissen.",
+   "flags": 8,
+   "level": 14,
+   "minLevel": 8,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 380088,
+     "objectId": 725,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt 8 Gnolltatzen auf die Späherkuppe zu Captain Danuvin.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 1154
+     },
+     {
+      "count": 1,
+      "itemId": 710
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Auf Patrouille durch Westfall",
+   "zoneAreaId": 40
+  },
+  "106": {
+   "description": "Oh, ein Fluch lastet auf mir! Mein Herz gehört Tommy Joe Stonefield, aber unsere Familien sind aufs Ärgste miteinander verfeindet. Daher kann ich mich nicht mit ihm treffen, obwohl ich mich doch so sehr danach sehne, sein geliebtes Gesicht zu sehen!$B$BBitte nehmt diesen Brief und gebt ihn Tommy Joe. Normalerweise hält er sich am Fluss im Westen des Hofs der Stonefields auf, das ist auch von hier aus genau westlich.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 5,
+   "nextQuestId": 111,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380057,
+     "objectId": 1208,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Gebt Tommy Joe Stonefield Maybells Liebesbrief.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 1208,
+   "title": "Junge Liebende",
+   "zoneAreaId": 12
+  },
+  "107": {
+   "description": "Ich möchte wetten, William Pestle hat einen Trank, der unsere beiden Liebenden zusammenbringen kann.$B$BHier, bringt William diese Nachricht. Er wohnt im Gasthaus Zur Höhle des Löwen in Goldhain.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 5,
+   "nextQuestId": 112,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 379947,
+     "objectId": 1252,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt Oma Stonefields Nachricht zu William Pestle.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 1252,
+   "title": "Nachricht an William",
+   "zoneAreaId": 12
+  },
+  "109": {
+   "description": "Es scheint mir, $C, als hättet Ihr schon etliche Kämpfe überstanden. Falls Ihr das noch nicht getan habt, solltet Ihr Euch bei Gryan Stoutmantle melden. Er ist der Anführer der Volksmiliz, die es sich zur Aufgabe gemacht hat, das Ackerland von Westfall zu beschützen. Ich möchte wetten, er könnte Eure Hilfe gebrauchen. Normalerweise findet man ihn im Steinturm auf der Späherkuppe, ein kleines Stückchen von der Straße weg, mitten in Westfall.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 9,
+   "objectivesText": "Sprecht mit Gryan Stoutmantle. Normalerweise findet man ihn im Steinturm auf der Späherkuppe, ein kleines Stückchen von der Straße weg, mitten in Westfall.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 250,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Meldung bei Gryan Stoutmantle",
+   "zoneAreaId": 12
+  },
+  "111": {
+   "description": "Bitte sprecht mit meiner Großmutter, $n. Wenn irgendjemand einen Weg weiß, wie ich mit Maybell zusammen sein kann, dann ist sie das.$B$BIhr findet sie in unserem Haus, östlich von hier.",
+   "flags": 8,
+   "level": 6,
+   "minLevel": 5,
+   "nextQuestId": 107,
+   "objectivesText": "Sprecht mit Oma Stonefield.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Gespräch mit Oma",
+   "zoneAreaId": 12
+  },
+  "112": {
+   "description": "Ich könnte einen Unsichtbarkeitsschnaps für Maybell brauen, damit sie sich aus den Weinbergen der Maclures fortstehlen und Tommy Joe sehen kann. Aber um den Schnaps herzustellen, brauche ich etwas Kristalltang.$B$BDieser Tang wächst zwar normalerweise im Meer, aber manchmal wird er auch von den Murlocs gesammelt. Geht und schaut, ob die Murlocs am Kristallsee welchen haben. Der Kristallsee liegt ein kleines Stück östlich von Goldhain.",
+   "flags": 8,
+   "level": 7,
+   "minLevel": 5,
+   "objectives": [
+    {
+     "amount": 4,
+     "id": 380094,
+     "objectId": 1256,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt 4 Kristalltangwedel nach Goldhain zu William Pestle.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die Suche nach dem Tang",
+   "zoneAreaId": 12
+  },
+  "114": {
+   "description": "Bringt der jungen Maybell diesen Unsichtbarkeitsschnaps. Seine Wirkung sollte so lange anhalten, dass sie Tommy Joe besuchen kann.",
+   "flags": 0,
+   "level": 7,
+   "minLevel": 5,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380333,
+     "objectId": 1257,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt Maybell Maclure den Unsichtbarkeitsschnaps.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 5,
+      "itemId": 118
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 1257,
+   "title": "Die Flucht",
+   "zoneAreaId": 12
+  },
+  "123": {
+   "description": "Bei der Notiz handelt es sich um eine Tabelle mit Daten und Zeiten, zu denen jemand, der in der Notiz nur als \"der Sammler\" bezeichnet wird, je eine Lieferung Gold aus den Minen des Waldes von Elwynn erhalten soll.$B$BAus dem Plan geht hervor, dass sich der Sammler anscheinend in der Nähe vom Brackwell-Kürbisbeet in Ost-Elwynn aufhält.$B$BDas klingt, als sei es wichtig. Ihr solltet Marshal Dughan in Goldhain davon berichten.",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381046,
+     "objectId": 2223,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Begebt Euch zu Marshal Dughan nach Goldhain und gebt ihm den Zeitplan des Sammlers.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "money": 85,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 2223,
+   "title": "Der Sammler",
+   "zoneAreaId": 12
+  },
+  "147": {
+   "description": "Wenn der \"Sammler\" Gold aus unseren Minen entnimmt, dann bestiehlt er das Königreich! Führt den Sammler seiner gerechten Strafe zu und bringt mir den Ring, der in dem Abholplan, den Ihr mir gegeben habt, erwähnt wurde.$B$BIm Abholplan steht, dass der Sammler sich am Brackwell-Kürbisbeet versteckt hält. Dort solltet Ihr nach ihm suchen.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381064,
+     "objectId": 2239,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Findet den \"Sammler\" und tötet ihn, dann kehrt mit dem Ring des Sammlers zu Marshal Dughan zurück.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 1360
+     },
+     {
+      "count": 1,
+      "itemId": 1183
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Menschenjagd",
+   "zoneAreaId": 12
+  },
+  "151": {
+   "description": "Die arme Graumähne! Das arme Pferd ist völlig entkräftet nach all der Arbeit, die wir ihm aufgebürdet haben. Ich habe es gefüttert, ehe wir den Hof verließen, aber wir haben natürlich nicht damit gerechnet, dass uns der Wagen kaputtgehen würde. Wenn Ihr der Stute ein paar Hände voll Hafer vom Feld bringen könntet, wäre ich Euch dankbar.$B$BIch wette, es lässt sich rund um die Höfe in Westfall etwas Hafer finden; Ihr müsst nur diesen entsetzlichen Maschinen aus dem Weg gehen, die hier alles übernommen haben. Es gibt einige Höfe südwestlich von hier.",
+   "flags": 8,
+   "level": 14,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 381110,
+     "objectId": 1528,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Verna Furlbrow in Westfall möchte, dass Ihr ihr 8 Hände voll Hafer bringt.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 2165
+     },
+     {
+      "count": 1,
+      "itemId": 1537
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die arme Graumähne",
+   "zoneAreaId": 40
+  },
+  "153": {
+   "description": "Die Defias sind ständig in Bewegung. Ich überwache ihre Aktivitäten jetzt schon seit einiger Zeit. Und dabei habe ich festgestellt, dass viele Bandenmitglieder an den roten Lederkopftüchern zu erkennen sind, die sie tragen.$b$bBringt mir 15 dieser Kopftücher, dann werde ich dafür sorgen, dass Ihr belohnt werdet.",
+   "flags": 8,
+   "level": 15,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 15,
+     "id": 380111,
+     "objectId": 829,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt 15 rote Lederkopftücher auf die Späherkuppe zu Späher Galiaan.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 3511
+     },
+     {
+      "count": 1,
+      "itemId": 5944
+     },
+     {
+      "count": 1,
+      "itemId": 12295
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Rote Lederkopftücher",
+   "zoneAreaId": 40
+  },
+  "176": {
+   "description": "Gesucht: Hogger$B$BEin riesiger Gnoll, Hogger, streunt im südwestlichen Elwynn durch den Wald. Er hat bislang alle Versuche, ihn zu fangen, vereiteln können.$B$BDie Armee von Stormwind hat ein großzügiges Kopfgeld auf den Gnoll ausgesetzt. Kopfgeldjäger, die sich die Belohnung verdienen möchten, sollten einen Beweis für Hoggers Tod bei Marshal Dughan in Goldhain vorlegen.",
+   "flags": 8,
+   "level": 11,
+   "minLevel": 5,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380006,
+     "objectId": 1931,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Erschlagt den Gnoll Hogger und bringt seine gewaltige Gnoll-Klaue zu Marshal Dughan.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 6085
+     },
+     {
+      "count": 1,
+      "itemId": 6084
+     },
+     {
+      "count": 1,
+      "itemId": 6215
+     },
+     {
+      "count": 1,
+      "itemId": 270000
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "GESUCHT: \"Hogger\"",
+   "zoneAreaId": 12
+  },
+  "184": {
+   "description": "Dies ist eine Besitzurkunde für ein Stück Ackerland in Westfall. Es ist von einem gewissen Theodore Furlbrow und seiner Frau Verna unterzeichnet. Auf der Rückseite der Besitzurkunde stehen ein paar hastig hingekritzelte Worte:$B$B\"Wir haben Furlbrow etwas bearbeitet und ihm seine Besitzurkunde abgeluchst. Wäre vielleicht ganz nützlich, wenn Ihr Euch auch so eine fälschen wolltet.$B$BUm die Furlbrows müssen wir uns jedenfalls keine Sorgen machen. Zuletzt sah ich sie kurz hinter Westfall in einem Wagen mit gebrochener Achse.\"$B$BIhr denkt, die Furlbrows hätten ihre Besitzurkunde vielleicht gern zurück ...",
+   "flags": 0,
+   "level": 9,
+   "minLevel": 8,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381471,
+     "objectId": 1971,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt Furlbrows Besitzurkunde zu Bauer Furlbrow.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "items": [
+     {
+      "count": 5,
+      "itemId": 5057
+     },
+     {
+      "count": 5,
+      "itemId": 4656
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 1971,
+   "title": "Furlbrows Urkunde",
+   "zoneAreaId": 40
+  },
+  "239": {
+   "description": "Die Garnison an unserer westlichen Grenze berichtet von steigenden Aktivitäten der Gnolle und der Diebe. Sie bitten uns um die Entsendung weiterer Soldaten aus Stormwind... aber wir können einfach keine entbehren!$B$BWenn Ihr helfen könntet - wir könnten die Hilfe wirklich gebrauchen. Geht, sprecht mit Deputy Rainer in der Weststromgarnison und fragt ihn, was getan werden muss.$B$BDie Garnison liegt an der Straße im Westen. Wenn Ihr die Brücke über den kleinen Bach überquert habt, liegt sie auf der rechten Seite.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 6,
+   "nextQuestId": 11,
+   "objectivesText": "Begebt Euch zur Weststromgarnison und sprecht mit Deputy Rainer.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Hilfe für die Weststromgarnison",
+   "zoneAreaId": 12
+  },
+  "353": {
+   "description": "Die Stormpikes sind ein geachteter Zwergenklan und bekannt für ihren feinen und kritischen Geschmack. Daher ist es nicht verwunderlich, dass Gringer Stormpike, ein Gebirgsjäger aus Ironforge, mich beauftragte, ihm eine Waffe zu schmieden.$B$BDie Waffe ist fertig, aber... Gebirgsjäger Stormpike ist weit weg, am fernen Loch Modan. Wenn Ihr ohnehin vorhabt, nordwärts zu reisen, könntet Ihr ihm dieses Päckchen überbringen?$B$BMeine letzte Nachricht von Gebirgsjäger Stormpike besagte, dass er im nördlichen Wachturm des Loch Modan stationiert ist.",
+   "flags": 0,
+   "level": 15,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 380236,
+     "objectId": 2806,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt das Päckchen für Stormpike zu Gebirgsjäger Stormpike am Loch Modan.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 700,
+    "reputation": [
+     {
+      "factionId": 47,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 2806,
+   "title": "Stormpikes Lieferung",
+   "zoneAreaId": 1519
+  },
+  "399": {
+   "description": "Es kommt mir so vor, als wäre es ewig her, dass ich als Junge in Westfall auf dem Hof gearbeitet habe. Man sagt ja, man kann niemals in der Zeit zurückgehen, und es stimmt wohl. In meinem Fall trifft das sogar gleich doppelt zu, denn das Heim meiner Familie wurde niedergebrannt und von Dieben besetzt.$b$bIch habe mit meinem Vater über den Verbleib einiger meiner Habseligkeiten gesprochen, darunter mein erster Kompass. Er konnte sie nicht retten. Allerdings meint er auch, dass sie auf dem Hof versteckt sein müssten.$b$bIhr findet den Alexstons Bauernhof westlich der Späherkuppe. Könntet Ihr vielleicht dorthin gehen und mir meinen Kompass wiederbringen?",
+   "flags": 8,
+   "level": 15,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381061,
+     "objectId": 2998,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Begebt Euch zu Baros Alexstons Haus in Westfall und sucht nach seinem Kompass. Übergebt ihm diesen dann am Kathedralenplatz von Stormwind.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 700,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Ein bescheidener Anfang",
+   "zoneAreaId": 1519
+  },
+  "783": {
+   "description": "Ich hoffe, Ihr habt Euren Gürtel festgezurrt, $C, denn es gibt hier in Nordhain viel Arbeit.$B$BUnd ich meine damit nicht Landarbeit.$B$BDie Wachen von Stormwind haben alle Hände voll zu tun, um den Frieden zu bewahren; viele von uns weilen in fernen Ländern und viele Bedrohungen rücken immer näher. Deshalb rekrutieren wir jeden, der gewillt ist, seine Heimat zu verteidigen. Und die Allianz.$B$BFalls Ihr hier seid, um dem Aufruf zu folgen, sprecht mit meinem Vorgesetzten, Marshal McBride. Er ist in der Abtei hinter mir.",
+   "flags": 8,
+   "level": 1,
+   "minLevel": 1,
+   "nextQuestId": 7,
+   "objectivesText": "Sprecht mit Marshal McBride.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die Bedrohung von innen",
+   "zoneAreaId": 9
+  },
+  "1097": {
+   "description": "In Stormwind gibt es einen Zwergen-Waffenschmied namens Grimand Elmore, der mal angedeutet hat, dass er Hilfe bei einer Lieferung bräuchte. Ich glaube, er möchte ein Paket in seine Heimat im Norden schicken.$B$BIhr habt da ein paar schöne kräftige Beine! Falls Ihr also an ein wenig Beinarbeit interessiert seid, sprecht mit Grimand. Wir könnten Euch hier unten brauchen, aber wir müssen auch unsere Bande mit den Zwergen stärken.$B$BIhr findet Grimand Elmore im Waffenladen im Zwergendistrikt von Stormwind, im nordöstlichen Teil der Stadt.",
+   "flags": 8,
+   "level": 15,
+   "minLevel": 9,
+   "objectivesText": "Sprecht mit Grimand Elmore.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Elmores Aufgabe",
+   "zoneAreaId": 1519
+  },
+  "1860": {
+   "categoryId": 161,
+   "description": "Wir Magier haben eine Aufgabe, die erledigt werden muss. Sie ist für die Sicherheit von Stormwind und dem Wald von Elwynn von entscheidender Bedeutung.$B$BJennea Cannon kennt die Einzelheiten. Sie studiert im Magiersanktum im Magierviertel von Stormwind. Ihr solltet Euch eiligst zu ihr begeben.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 10,
+   "nextQuestId": 1861,
+   "objectivesText": "Sprecht in Stormwind mit Jennea Cannon.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Gespräch mit Jennea"
+  },
+  "1861": {
+   "categoryId": 161,
+   "description": "Diese Welt ist gewaltigen mystischen Kämpfen zum Opfer gefallen, die magische Ströme aus ihren einst stabilen Kanälen rissen. Wir haben Mühe, die Auswirkungen dieser Veränderungen herauszufinden. Einige von uns fürchten das Schlimmste.$B$BAber davon werde ich Euch später mehr erzählen. Im Augenblick müsst Ihr Informationen für uns sammeln.$B$BHier, nehmt dieses Fläschchen. Geht zum Wasserfall des Spiegelsees, südwestlich der Tore von Stormwind, und holt dort eine Probe des Wassers. Bringt sie mir, damit ich die magische Besudelung messen kann.",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381655,
+     "objectId": 7206,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt eine Probe des Spiegelsee-Wassers zu Jennea Cannon in Stormwind.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 7508
+     },
+     {
+      "count": 1,
+      "itemId": 9513
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 7207,
+   "title": "Spiegelsee"
+  },
+  "1880": {
+   "categoryId": 161,
+   "description": "Wir Magier machen mehr als nur mit den Fingern schnippen und hübsche Funken regnen lassen. Wir kontrollieren die Magie, die Grundsubstanz unserer Welt! Das erfordert große Umsicht und Entschlossenheit. Und Wissen... viel, viel Wissen!$B$BEines meiner Geräte, der magitastische Gizmonitor, sammelt und speichert dieses Wissen in riesigen Mengen! Aber ich verlor ihn! Als wir aus unserer Heimat Gnomeregan flohen, ließ ich ihn in einer Truhe in einer unserer Hütten vor der Stadt, und jetzt wimmelt es dort von Lepragnomen!$B$BBitte, $n, findet meinen Gizmonitor wieder!",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 381924,
+     "objectId": 7226,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt Bink ihren magitastischen Gizmonitor.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 7507
+     },
+     {
+      "count": 1,
+      "itemId": 9514
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Magitastischer Gizmonitor"
+  },
+  "1920": {
+   "categoryId": 161,
+   "description": "Es wurde von einer Störung in der Taverne 'Zum blauen Eremiten' im Magierviertel berichtet. Jetzt wandern seltsame unsichtbare Kreaturen durch die Taverne. Ich fürchte, dort hat sich ein Manariss gebildet.$B$BIch möchte, dass Ihr die Taverne untersucht und diese Kreaturen fangt. Benutzt die Inkantation der Manifestation, um die Kreaturen in der Taverne sichtbar zu machen, überwältigt sie und fangt sie dann mit einem Verwahrungskasten ein. Wenn Ihr genug habt, kommt mit den gefüllten Kästen, den leeren Kästen und der Anrufung zu mir zurück.",
+   "flags": 0,
+   "level": 16,
+   "minLevel": 15,
+   "nextQuestId": 1921,
+   "objectives": [
+    {
+     "amount": 3,
+     "id": 381960,
+     "objectId": 7292,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381961,
+     "objectId": 7247,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 381962,
+     "objectId": 7308,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Nehmt Euch die Inkantation der Manifestation und die Truhe mit Verwahrungskästen vom Tisch, hinter Jennea Cannon. Bringt 3 gefüllte Verwahrungskästen zu Jennea im Magiersanktum.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Untersuchungen im Blauen Eremiten"
+  },
+  "1921": {
+   "categoryId": 161,
+   "description": "Ihr habt Euren Magierkollegen gut gedient, jetzt wird es Zeit, die Hexerrobe anzuziehen. Wynne Larson kann Eure Robe nähen, aber Ihr müsst ihr die erforderlichen Materialien bringen. $B$BEure Robe wird aus Leinen bestehen, das leicht zu beschaffen ist, aber Ihr müsst auch aufgeladene Rissedelsteine finden, die nur in der Silberbachmine vom Loch Modan zu finden sind, wo die Minenarbeiterliga der Zwerge sie in Kisten zurückgelassen hat.$B$BBeschafft das Leinen und die Edelsteine und bringt sie zu Wynne Larson in das Konfektionsgeschäft Larson im Magierviertel.",
+   "flags": 8,
+   "level": 15,
+   "minLevel": 15,
+   "objectives": [
+    {
+     "amount": 10,
+     "id": 381769,
+     "objectId": 2589,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 6,
+     "id": 381770,
+     "objectId": 7249,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt 10 Leinentücher und 6 aufgeladene Rissedelsteine zu Wynne Larson in Stormwind.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Materialsammlung"
+  },
+  "2158": {
+   "description": "Jeder Abenteurer sollte ausruhen, wenn ihn die Erschöpfung überkommt - und es gibt keinen besseren Platz für Ruhe und Entspannung als das Gasthaus Zur Höhle des Löwen!$B$BGastwirt Farley, der Inhaber der 'Höhle des Löwen', ist mein bester Freund. Wenn Ihr ihm sagt, dass ich Euch geschickt habe, dann gewährt er Euch vielleicht einen Spezialrabatt auf Essen und Trinken.$B$BDas Gasthaus Zur Höhle des Löwen findet Ihr, wenn Ihr auf der Straße nach Süden reist - Ihr könnt es nicht verfehlen!",
+   "flags": 8,
+   "level": 5,
+   "minLevel": 1,
+   "objectivesText": "Sprecht im Gasthaus Zur Höhle des Löwen mit Gastwirt Farley.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 5,
+      "itemId": 4656
+     },
+     {
+      "count": 5,
+      "itemId": 159
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Ruhe und Entspannung",
+   "zoneAreaId": 12
+  },
+  "3104": {
+   "categoryId": 161,
+   "description": "Ich wurde darum gebeten, Euch hierauf aufmerksam zu machen, sobald Ihr von den Koboldlagern zurückgekehrt seid, $n. Es scheint sich um einen versiegelten Brief mit den Insignien von Kheldon, unserem örtlichen Magierlehrer, zu handeln. Ich würde nicht zögern, ihn zu lesen, bevor Ihr irgendwelchen anderen Geschäften hier in der Abtei nachgeht.",
+   "flags": 16777216,
+   "level": 1,
+   "minLevel": 1,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 382104,
+     "objectId": 9571,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Lest den mit Glyphen versehenen Brief und sprecht mit Kheldon Bremen in der Abtei von Nordhain.",
+   "questType": 2,
+   "raceMask": "0000000000000001",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 9571,
+   "title": "Glyphen-Brief"
+  },
+  "3903": {
+   "description": "Ihr habt Euch als verlässlich erwiesen, $n. Verlässlich und ohne Angst, Euch auch mal die Hände schmutzig zu machen, wie?$B$BTja, eine Freundin von mir, Milly Osworth, hat ein paar Probleme. Sie ist mit ihrem Wagen auf der anderen Seite der Abtei, in der Nähe des Stalls. Ich bin mir sicher, sie könnte Eure Hilfe gut gebrauchen.",
+   "flags": 8,
+   "level": 4,
+   "minLevel": 2,
+   "nextQuestId": 3904,
+   "objectivesText": "Sprecht mit Milly Osworth.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 1
+     }
+    ],
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Milly Osworth",
+   "zoneAreaId": 9
+  },
+  "3904": {
+   "description": "Eine Bande von Briganten, die Defias, sind in die Weinberge von Nordhain eingedrungen, als ich gerade bei der Weinlese war! Ich habe es den Wachen von Nordhain gemeldet und sie haben mir auch versprochen, dass sie sich darum kümmern würden, aber... Ich habe Angst um meine Traubenernte! Selbst wenn die Defias sie nicht stehlen, befürchte ich, dass unsere Wachen beim Vertreiben der Rohlinge alles zertrampeln.$B$BBitte, Ihr müsst mir helfen! Die meisten Trauben sind schon in Eimern gesammelt, aber ich habe sie in den Weinbergen im Südosten zurückgelassen.$B$BBringt mir diese Kisten! Rettet meine Ernte!",
+   "flags": 8,
+   "level": 4,
+   "minLevel": 2,
+   "nextQuestId": 3905,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 382933,
+     "objectId": 11119,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt 8 Kisten mit Millys Ernte zu Milly Osworth in der Nähe der Abtei von Nordhain.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Millys Ernte",
+   "zoneAreaId": 9
+  },
+  "3905": {
+   "description": "Jetzt, wo meine Ernte in Sicherheit ist, bringt diese Traubenliste zu Bruder Neals. Er ist verantwortlich für die Essens- und Getränkevorräte von Nordhain und ich bin mir sicher, er wird hoch erfreut sein zu hören, dass er frische Trauben bekommt.$B$BIhr findet Bruder Neals im Glockenturm der Abtei... wo er gern seinen Wein probiert.",
+   "flags": 0,
+   "level": 4,
+   "minLevel": 2,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383284,
+     "objectId": 11125,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt die Traubenliste zu Bruder Neals in der Abtei von Nordhain.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 11475
+     },
+     {
+      "count": 1,
+      "itemId": 2690
+     }
+    ],
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 11125,
+   "title": "Traubenliste",
+   "zoneAreaId": 9
+  },
+  "5545": {
+   "description": "Ich habe hier ein echtes Problem. Ich habe einen Liefertermin für eine Bestellung Holz und mir läuft die Zeit davon. Die Wölfe und Bären nördlich von hier haben meine Arbeiter von den Holzbündeln verjagt, die sie bereits gefällt hatten.$B$BIch habe bereits mit Deputy Rainer darüber gesprochen, dass die Tiere entfernt werden müssen, aber ich brauche jemanden, der das Holz für mich holt. Wenn Ihr acht Holzbündel für mich holen würdet, könnte ich den Termin vielleicht noch einhalten.",
+   "flags": 8,
+   "level": 9,
+   "minLevel": 5,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 383405,
+     "objectId": 13872,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt 8 Holzbündel zu Raelen beim Holzfällerlager des Osttals.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 300,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Ein Bündel Probleme",
+   "zoneAreaId": 12
+  },
+  "6181": {
+   "description": "Wir bekommen zwar nicht viel Unterstützung von Stormwind direkt, aber ich habe einen Kontaktmann in der Stadt, der uns mit Rüstungen versorgt. Sein Name ist Osric Strang. Sein Geschäft, Begrenzte Immunität, liegt in der Altstadt von Stormwind.$B$BUnser Vorrat an Rüstung schwindet, ich muss bei Osric mehr bestellen. Könnt Ihr ihm diese Notiz bringen?$B$BDer schnellste Weg nach Stormwind führt über Thor, unseren Greifenmeister. Er ist unten am Hügel; bringt ihm meine Notiz und nehmt dann einen Greifen nach Stormwind.",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 10,
+   "nextQuestId": 6281,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383606,
+     "objectId": 15998,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt Lewis' Notiz zu Thor dem Greifenmeister.",
+   "questType": 2,
+   "raceMask": "0000000000000001",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 15998,
+   "title": "Eine eilige Nachricht",
+   "zoneAreaId": 40
+  },
+  "6261": {
+   "description": "$n, ich habe alles, worum Lewis gebeten hat, in diese Kiste gepackt. Würdet Ihr sie ihm bringen?$B$BWenn Ihr bereits mit Thor in Westfall gesprochen habt, dann könnt Ihr einen Greif zurück zu ihm nehmen. Dungar Longdrink ist unser Greifenmeister drüben im Handelsdistrikt.$B$BSprecht mit Dungar, dann bringt diese Kiste auf dem schnellsten Weg zu Lewis. Wir möchten nicht, dass unsere kämpfenden Männer und Frauen in Westfall ohne neue Ausrüstung sind!",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 10,
+   "nextQuestId": 6285,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383523,
+     "objectId": 16115,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt Osrics Kiste zu Dungar Longdrink dem Greifenmeister.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 2
+     }
+    ],
+    "xpDifficulty": 2,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 16115,
+   "title": "Dungar Longdrink",
+   "zoneAreaId": 40
+  },
+  "6281": {
+   "description": "Gegen eine geringe Gebühr könnt Ihr einen Greifen nach Stormwind nehmen und so Lewis' Notiz zu Osric bringen. Einen schnelleren Weg gibt es nicht.$B$BWenn Euch das akzeptabel erscheint, sprecht mich wieder an, sobald Ihr bereit seid für den Flug. Das kostet eine Kleinigkeit, aber glaubt mir, es lohnt sich!",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 10,
+   "nextQuestId": 6261,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383529,
+     "objectId": 15998,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bucht einen Greifenritt bei Greifenmeister Thor, dann bringt Lewis' Notiz zu Osric Strang, im Laden Begrenzte Immunität, in Stormwind.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 175,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 15998,
+   "title": "Weiter nach Stormwind",
+   "zoneAreaId": 40
+  },
+  "6285": {
+   "description": "Der Greifenmeister in Westfall heißt Thor. Falls Ihr schon mit ihm gesprochen habt, dann könnt Ihr einen meiner Greifen zu ihm bringen.$B$BDas hier sollte man unbedingt wissen: Greifen sind stets so ausgebildet, dass sie in ihre Hauptstadt fliegen, aber sie bringen Euch nur zu einem außerörtlichen Greifenmeister, wenn Ihr schon einmal dort gewesen seid.$B$BIhr seid bereits bei Thor gewesen, sprecht daher einfach wieder mit mir, wenn Ihr bereit seid, einen Greifen nach Westfall zu nehmen. Dort könnt Ihr Osrics Kiste bei Rüstmeister Lewis abliefern.",
+   "flags": 0,
+   "level": 10,
+   "minLevel": 10,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 383832,
+     "objectId": 16115,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bucht einen Greifenritt zur Späherkuppe bei Greifenmeister Dungar Longdrink, dann bringt Osrics Kiste zu Lewis an der Späherkuppe.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 350,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 6
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 16115,
+   "title": "Zurück zu Lewis",
+   "zoneAreaId": 40
+  },
+  "79008": {
+   "description": "<Ihr stolpert über die noch frischen Überreste eines Feuers, dessen schwaches Leuchten der Glut weiter nachlässt.\r\n\r\nInmitten der verstreuten Vorräte entdeckt Ihr eine fast verbrannte Notiz.>\r\n\r\n\"Nicht alles, was brennt, ist verloren. Findet das Zwillingsland, findet den Ort.\"",
+   "flags": 34603520,
+   "level": 22,
+   "minLevel": 14,
+   "nextQuestId": 79192,
+   "objectivesText": "Die verkohlten Überreste der Notiz dienen Euch als einziger Wegweiser.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "... und diese Notiz, die Ihr gefunden habt.",
+   "zoneAreaId": 40
+  },
+  "91723": {
+   "description": "Verflixt nochmal! Jedes Mal, wenn ich versuche, diese empfindlichen arkanen Instrumente zu kalibrieren, werden meine Bemühungen durch einen Energiestoß zunichte gemacht.\r\nDie Energiestöße scheinen aus dem Norden zu kommen, wo diese ungehobelten Kobolde ihre primitive Magie praktizieren. Könntet Ihr ein paar von ihnen aus dem Weg räumen, sodass ich meine Arbeit fortsetzen kann?",
+   "flags": 8,
+   "level": 8,
+   "minLevel": 6,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 463305,
+     "objectId": 476,
+     "storageIndex": 2,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Tötet 8 Koboldgeomanten in der Jaspismine und kehrt anschließend zu Hamish Bergwort im Turm von Azora zurück.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Empfindliche Instrumente",
+   "zoneAreaId": 12
+  },
+  "91724": {
+   "description": "Fast geschafft, und... beim Nether! Irgendwas stört immer noch meine Instrumente.\r\n\r\nDas ist äußerst frustrierend, $n. Ich habe gehört, dass die hiesigen Banditen in der Nähe des Steinhügelsees Zauber üben. Wenn Ihr sie davon abhaltet, gehören diese Störungen hoffentlich endlich der Vergangenheit an und ich kann meine Arbeit machen.",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 6,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 463306,
+     "objectId": 474,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Tötet $1oa abtrünnige Hexer der Defias beim Steinhügelsee und kehrt dann zu Hamish Bergwort beim Turm von Azora zurück.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 175,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Empfindliche Instrumente",
+   "zoneAreaId": 12
+  },
+  "91725": {
+   "description": "Meister Theocritus hat mich geschickt, um Verzauberkunstbedarf vom Handelsposten abzuholen, aber auf dem Weg zurück wurde ich von einer Gruppe Gnolle überfallen.\r\n\r\nIch habe das Paket fallen gelassen und konnte entkommen, aber wenn ich ohne es zurückkehre, werde ich als Bestrafung wochenlang nach den Verwandlungsexperimenten saubermachen müssen! Könnt Ihr den Verzauberkunstbedarf für mich finden?",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 5,
+     "id": 463308,
+     "objectId": 247805,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Sammelt 5 gestohlene Verzauberkunstmaterialien in Gnoll-Lagern um den Steinhügelsee und kehrt anschließend zu Blixie Fitzwink in der Nähe des Turms von Azora zurück.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 85,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Gestohlene Verzauberkunstmaterialien",
+   "zoneAreaId": 12
+  },
+  "91732": {
+   "description": "Guter Stahl ist seit dem Krieg Mangelware, und unsere Werkzeuge haben darunter gelitten. Die Minenarbeiter in der Jaspismine verwendeten die feinsten Spitzhacken und ich vermute, dass einige von ihnen noch in den Tiefen der Mine sind. Könntet Ihr ein paar für mich bergen? Ich werde anschließend untersuchen, ob ich den Stahl wiederverwerten kann.",
+   "flags": 8,
+   "level": 7,
+   "minLevel": 6,
+   "objectives": [
+    {
+     "amount": 4,
+     "id": 463347,
+     "objectId": 247816,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Sammelt 4 Bergbauwerkzeuge in der Jaspismine und kehrt damit zu Hagar Lowe im Holzfällerlager des Osttals zurück.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Guter Stahl",
+   "zoneAreaId": 12
+  },
+  "91733": {
+   "description": "Ich habe eine Lieferung Vorräte vom Handelsposten zurückgebracht, aber mein Wagen ist umgestürzt und die Vorräte sind in den Fluss gefallen! Bevor ich sie erwischen konnte, wurden sie schon weggespült.\r\n\r\nFlussabwärts gibt es so viele Murlocs und Wölfe, dass ich allein keine Chance habe, die Vorräte zurück zu holen. Ihr kommt mir aber recht abgehärtet vor. Könntet Ihr sie vielleicht für mich suchen?",
+   "flags": 8,
+   "level": 10,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 463348,
+     "objectId": 247817,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 463349,
+     "objectId": 247813,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 463350,
+     "objectId": 247818,
+     "storageIndex": 3,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Sammelt die durchnässte Axt, durchnässte Säge und den durchnässten Werkzeugkasten, die vom Holzfällerlager des Osttals flussabwärts gespült wurden, und kehrt damit zu Ormin Pelford zurück.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 4
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Flussabwärts",
+   "zoneAreaId": 12
+  },
+  "91740": {
+   "description": "Dieser Murloc versetzt die örtlichen Straßen zweifellos seit einer ganzen Weil in Angst und Schrecken. Ihr vermutet, dass die Wächter in der Nähe von seinem Ableben erfahren möchten.",
+   "flags": 0,
+   "level": 11,
+   "minLevel": 7,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 463357,
+     "objectId": 247826,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt Quakis Kopf zu Merell Ross in der Kammwacht.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "money": 400,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 247826,
+   "title": "Quakis Kopf",
+   "zoneAreaId": 12
+  },
+  "91741": {
+   "description": "<Einer der Kobolde hat dieses Buch fallen lassen. Es scheint so, als hätte der Kobold versucht, es zu essen.\r\n\r\nBruder Paxton kümmert sich in der Abtei um eine kleine Bibliothek. Von dort muss das Buch stammen.>",
+   "flags": 0,
+   "level": 2,
+   "minLevel": 1,
+   "nextQuestId": 91743,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 463358,
+     "objectId": 247857,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt das Buch zu Bruder Paxton zurück.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 8,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 247857,
+   "title": "Angeknabbertes Buch",
+   "zoneAreaId": 24
+  },
+  "91743": {
+   "description": "Diese vermaledeiten Kobolde essen meine Bücher! Ihr müsst sie zurückholen, bevor sie meine ganze Bibliothek verschlingen!",
+   "flags": 0,
+   "level": 2,
+   "minLevel": 1,
+   "nextQuestId": 91745,
+   "objectives": [
+    {
+     "amount": 8,
+     "id": 463359,
+     "objectId": 247839,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bergt $1oa gestohlene Bücher von den Kobolden im Nordhaintal und bringt sie zurück zu Bruder Paxton.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 247846
+     },
+     {
+      "count": 1,
+      "itemId": 247841
+     },
+     {
+      "count": 1,
+      "itemId": 247840
+     }
+    ],
+    "money": 17,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Nervige Nager",
+   "zoneAreaId": 9
+  },
+  "91745": {
+   "description": "Sprecht mit dem neuen Bergbaulehrling Kelsey Fargo. Sie arbeitet direkt außerhalb der Mine und hat höchstwahrscheinlich gesehen, was die Kobolde treiben. Vielleicht kann sie Euch dabei gleich das ein oder andere über den Bergbau beibringen.",
+   "flags": 0,
+   "level": 3,
+   "minLevel": 1,
+   "nextQuestId": 91752,
+   "objectivesText": "Sprecht mit Kelsey Fargo außerhalb der Echokammmine im Nordhaintal.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 1
+     }
+    ],
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Bergbauberater",
+   "zoneAreaId": 9
+  },
+  "91752": {
+   "description": "Immer mal wieder kommt hier ein Kobold durch und ruft \"Ein Bild für Narf!\". Ich weiß nicht, wer dieser Narf ist. Vielleicht einer der Koboldanführer im hinteren Teil der Mine? Ich wette, er besitzt mittlerweile einen ganzen Sack voller Bücher.\r\n\r\nHolt diese Bücher und bringt sie zu unserem örtlichen Gesetzeshüter Marshal McBride. Holt Euch einen Freund zu Hilfe. Diese Kobolde in der Mine sind deutlich fieser.",
+   "flags": 0,
+   "level": 3,
+   "minLevel": 1,
+   "nextQuestId": 91758,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 463373,
+     "objectId": 247886,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bergt einen Sack voller \"Bilderbücher\" von Glitzerfinder Narf. Bringt den Sack zu Marshal McBride in der Abtei von Nordhain.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 100,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Das große Ganze",
+   "zoneAreaId": 9
+  },
+  "91758": {
+   "description": "Ihr seid mit diesen Kobolden noch nicht fertig. Wir haben gerade von Kelsey erfahren, dass ein Kobold die Mine mit einem großen Sack voller Bücher verlassen hat. Ich möchte, dass Ihr diesen Kobold ausfindig macht, damit wir die Bücher für Bruder Paxton zurückholen können.\r\n\r\nSprecht mit Tordrin Sternblade. Er ist der neue Jägerlehrer, der gerade erst aus Ironforge eingetroffen ist. Ihr findet ihn hinter der Abtei, in der Nähe des Stalls. Er kann Euch helfen, diesen Kobolddieb ausfindig zu machen.",
+   "flags": 0,
+   "level": 4,
+   "minLevel": 1,
+   "nextQuestId": 91772,
+   "objectivesText": "Sprecht mit Tordrin Sternblade in der Nähe des Stalls hinter der Abtei von Nordhain.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 1
+     }
+    ],
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Folgt diesem Kobold!",
+   "zoneAreaId": 9
+  },
+  "91772": {
+   "description": "Na schön. Nehmt dieses Kobold-Fährtenleseset. Damit könnt Ihr den Kobold verfolgen, um den es Marshal McBride geht.\r\n\r\nFolgt den Spuren und bringt Eure Funde zu Marshal Dughan in Goldhain.\r\n\r\nMich beschleicht das Gefühl, diese kleinen Racker planen irgendetwas außerhalb von Nordhain. Ihr braucht also Dughans Hilfe.",
+   "flags": 0,
+   "level": 4,
+   "minLevel": 1,
+   "nextQuestId": 91775,
+   "objectives": [
+    {
+     "amount": 6,
+     "id": 463417,
+     "objectId": 563442,
+     "storageIndex": 1,
+     "text": "Koboldspuren gefolgt",
+     "type": "gameObject",
+     "typeId": 2
+    },
+    {
+     "amount": 1,
+     "id": 463416,
+     "objectId": 247970,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Folgt den Koboldspuren und meldet Euch bei Marshal Dughan in Goldhain mit Euren Erkenntnissen und dem Kobold-Fährtenleseset.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "money": 55,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 247970,
+   "title": "Pssst! Wir jagen Kobolde",
+   "zoneAreaId": 9
+  },
+  "91775": {
+   "description": "Seht, ob Ihr während der Untersuchung der Tiefenschachtmine Bruder Paxtons Bücher findet, um sie zurückzubringen. Vor allem ist er sehr besorgt über ein Buch namens \"Spaß mit Elementaren\". Er denkt, sogar ein Kobold könnte es nutzen, um einen Elementardiener zu beschwören. Doch seid gewarnt: Die Tiefen der Mine sind ziemlich gefährlich. Ihr solltet Freunde mitbringen.\r\n\r\nNehmt diese Büchertasche, um die Bücher zu schützen, wenn Ihr welche findet!",
+   "flags": 33554432,
+   "itemDrops": [
+    {
+     "count": 1,
+     "itemId": 279935
+    }
+   ],
+   "level": 6,
+   "minLevel": 1,
+   "nextQuestId": 91777,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 463425,
+     "objectId": 248002,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 6,
+     "id": 463426,
+     "objectId": 248001,
+     "storageIndex": 3,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Findet 6 verlorene Bücher sowie \"Spaß mit Elementaren\" und bringt sie zu Marshal Dughan zurück.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 279936
+     }
+    ],
+    "money": 250,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 279935,
+   "title": "Buchrückgabe",
+   "zoneAreaId": 12
+  },
+  "91777": {
+   "description": "Es fehlen nur noch zwei Bücher von Bruder Paxtons Liste: \"Geomantie für neugierige kleine Zauberer\" und \"Arkane Erläuterungen: Magisches in einfachen Worten\".\r\n\r\nDie Kobolde müssen sie zur Jaspismine gebracht haben. Bitte findet diese zwei Bücher und bringt sie zu Bruder Paxton zurück.\r\n\r\nAber ich befürchte, dass es ziemlich gefährlich sein wird. Wenn der \"Koboldlehrling\" einen Elementar beschwören kann, will ich mir gar nicht ausmalen, wozu der Meister imstande ist. Ich an Eurer Stelle würde ein paar Freunde mitbringen.",
+   "flags": 0,
+   "level": 7,
+   "minLevel": 1,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 463429,
+     "objectId": 248003,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 463430,
+     "objectId": 248004,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Findet \"Geomantie für neugierige kleine Zauberer\" und \"Arkane Erläuterungen: Magisches in einfachen Worten\" und bringt sie zu Bruder Paxton in der Abtei von Nordhain zurück.",
+   "questInfoId": 1,
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "choices": [
+     {
+      "count": 1,
+      "itemId": 248008
+     },
+     {
+      "count": 1,
+      "itemId": 248007
+     },
+     {
+      "count": 1,
+      "itemId": 248006
+     },
+     {
+      "count": 1,
+      "itemId": 248005
+     },
+     {
+      "count": 1,
+      "itemId": 276685
+     }
+    ],
+    "money": 350,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 5
+     }
+    ],
+    "xpDifficulty": 6,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Seltene Bücher",
+   "zoneAreaId": 12
+  },
+  "92124": {
+   "description": "Wir müssen herausfinden, wie viele Bücher fehlen!\r\n\r\nSprecht mit meinem nutzlosen Assistenten Daniel. Er kann eine schnelle Bestandsaufnahme machen und herausfinden, wie gravierend das Problem ist.\r\n\r\nEr ist besessen von den verschiedenen Handelsberufen im Wald von Elwynn. Der Junge konzentriert sich lieber darauf, anstatt mir zu helfen.\r\n\r\nWürgt ihn ab, wenn er anfängt, von Berufsfertigkeiten zu schwadronieren, und findet heraus, was mit meinen Büchern geschehen ist!",
+   "flags": 0,
+   "level": 2,
+   "minLevel": 1,
+   "objectivesText": "Sprecht in der Bibliothek mit Daniel, Bruder Paxtons Gehilfe.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 1
+     }
+    ],
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Bücherliste",
+   "zoneAreaId": 9
+  },
+  "92742": {
+   "description": "Wir müssen die Quelle und Natur des Gifts, das dieses Land verdirbt, bestimmen. Lasst uns mit dem Grundwasser unter den Höfen in diesem Gebiet beginnen.\r\n\r\nGeht zu Jansens Hof Richtung Norden und Molsens Hof nordwestlich von hier, und sammelt Proben von den Brunnen dort.",
+   "flags": 33554432,
+   "level": 12,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 465707,
+     "objectId": 254546,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 465708,
+     "objectId": 254547,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 1,
+     "id": 465709,
+     "objectId": 254545,
+     "storageIndex": 2,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Nutzt das Set für Brunnenwasserproben, um Proben aus den Brunnen auf Jansens Hof und Molsens Hof zu sammeln.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "money": 250,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 254545,
+   "title": "Test der Brunnen",
+   "zoneAreaId": 40
+  },
+  "92744": {
+   "description": "Die Verderbnis, die die Pflanzen von Westfall befallen hat, ist möglicherweise auch ins Meer gesickert. Wenn auch die örtlichen Fische betroffen sind, könnte es Stormwind zu einer Hungersnot verdammen.\r\nSammelt Kiemen von den Murlocs an der Küste und bringt sie zu mir. Murlocs sind ziemlich zäh, aber ihre Physiologie ist extrem empfindlich gegenüber Schadstoffen. Jegliche Giftstoffe im Meerwasser werden in den Kiemen, die Ihr findet, offensichtlich zu finden sein.",
+   "flags": 33554440,
+   "level": 12,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 7,
+     "id": 465710,
+     "objectId": 254548,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Alba Fairmoon möchtet, dass Ihr 7 Murlockiemen von Longshore an der Küste von Westfall sammelt.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "money": 250,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Murlochkiemen",
+   "zoneAreaId": 40
+  },
+  "92745": {
+   "description": "Die Brunnenproben, die Ihr gesammelt habt, enthalten giftige Metalle! Wenn wir dieser Verderbnis nicht schnell ein Ende bereiten, wird es Jahrzehnte dauern, bis wir etwas in diesem Boden anpflanzen können.\r\nDie Defias haben die Minen von Westfall beschlagnahmt und nutzen Kreaturen als Arbeitskräfte, um Ressourcen abzubauen. Stört sie, indem Ihre ihre Minenarbeiter im Jangoschacht im Norden und im Goldküstensteinbruch im Westen tötet.",
+   "flags": 8,
+   "level": 14,
+   "minLevel": 9,
+   "objectives": [
+    {
+     "amount": 4,
+     "id": 465711,
+     "objectId": 1236,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 6,
+     "id": 465712,
+     "objectId": 1426,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Tötet 4 Koboldbuddler im Jangoschacht und 6 Minenarbeiter der Flusspfoten im Goldküstensteinbruch.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "money": 300,
+    "reputation": [
+     {
+      "factionId": 72,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Der Status der Minen",
+   "zoneAreaId": 40
+  },
+  "92909": {
+   "description": "Oh nein... Jetzt stecke ich in der Klemme!\r\n\r\nIch habe von den Erntern gehört, die die Felder von Westfall heimsuchen, also bin ich den ganzen Weg von Ironforge hierher gereist, um zu sehen, ob ich sie rekalibrieren kann. Aber sie sind viel aggressiver, als es meine Berechnungen vorhergesehen haben, und sie haben mich in diesen Stall gejagt!\r\n\r\nWenn ich ein paar Isofedern und Gyrostabilisatoren von den Erntern hätte, könnte ich ein Gerät bauen, um meine Flucht zu vertuschen. Könnt Ihr die Teile für mich besorgen?",
+   "flags": 8,
+   "flagsEx": 1,
+   "level": 15,
+   "minLevel": 8,
+   "objectives": [
+    {
+     "amount": 14,
+     "id": 465794,
+     "objectId": 255007,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 5,
+     "id": 465795,
+     "objectId": 255010,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Ozwin Ironsprocket auf Saldeans Hof möchte, dass Ihr ihm 14 Golemisofedern und 5 Gyrostabilisatoren für Erntearbeiter bringt.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "money": 500,
+    "reputation": [
+     {
+      "factionId": 54,
+      "tier": 3
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die Ernter ernten",
+   "zoneAreaId": 40
+  },
+  "95998": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Hallöchen, $C. Ich sehe, dass Ihr den Geist des Abenteuers in Euch tragt. Schön für Euch. Die Welt braucht mehr rastlose Seelen wie uns, die nach Ruhm und Reichtum streben.\r\n\r\nEs ist eine große weite Welt da draußen und Ihr werdet lernen müssen, Euch in der Wildnis wohlzufühlen, wenn Ihr erfolgreich sein wollt. Ich weiß nicht, wie es um Eure Überlebenskünste bestellt ist, aber ich kann Euch vermutlich das eine oder andere beibringen, wenn Ihr gewillt seid, zu lernen.\r\n\r\nSetzt Euch neben das Feuer, macht es Euch gemütlich. Ich werde Euch alles erklären.",
+   "flags": 1048584,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 471841,
+     "objectId": 225069,
+     "storageIndex": 0,
+     "text": "Setzt Euch in die Nähe des Lagerfeuers",
+     "type": "criteriaTree",
+     "typeId": 14
+    },
+    {
+     "amount": 1,
+     "id": 471934,
+     "objectId": 225134,
+     "storageIndex": 1,
+     "text": "Erhaltet den verbesserten Ruhebonus",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Setzt Euch an Sams einfaches Lagerfeuer und wartet, bis Ihr den verbesserten Ruhebonus erhalten habt.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die große weite Welt"
+  },
+  "96055": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Sieht aus, als hättet Ihr Euch etwas Wissen in Kräuterkunde angeeignet. Blumen pflücken ist nicht bloß ein Zeitvertreib, es kann auch sehr nützlich sein... und profitabel.\r\n\r\nIch glaube, ich kenne da jemanden, der Euch zeigen kann, wie Ihr eine Räucherkerze für Euer Lager herstellen könnt. Gute Laune ist wichtig, um Heiler und Zauberwirker bei der Stange zu halten, und eine Räucherkerze kann allen, die Magie einsetzen, einen Schub geben.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473728,
+     "objectId": 227812,
+     "storageIndex": 0,
+     "text": "Erhöht Eure Kräuterkundefertigkeit auf 20",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Geht nach Ironforge und sprecht mit Reyna Stonebranch, um zu lernen, wie Ihr einen Lagergegenstand für Euren Beruf herstellt, nachdem Ihr Euer Geschick in Eurer Fertigkeit unter Beweis gestellt habt.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 1229705,
+      "type": 2
+     }
+    ],
+    "spellId": 1255251,
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kräuterkunde"
+  },
+  "96101": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Seid gegrüßt, $C. Ich sehe, dass Ihr den Geist des Abenteuers in Euch tragt. Das ist gut. Die Welt braucht mehr rastlose Seelen wie uns, die nach Ruhm und Reichtum streben.\r\n\r\nIhr werdet lernen müssen, Euch in der Wildnis wohl zu fühlen, wenn Ihr erfolgreich sein wollt. Ich weiß nicht, wie es um Eure Überlebenskünste bestellt ist, aber ich kann Euch vermutlich das eine oder andere beibringen, wenn Ihr gewillt seid, zu lernen.\r\n\r\nSetzt Euch neben das Feuer und macht es Euch gemütlich. Ich werde Euch alles erklären.",
+   "flags": 8,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 472272,
+     "objectId": 225212,
+     "storageIndex": 0,
+     "text": "Setzt Euch in die Nähe des Lagerfeuers",
+     "type": "criteriaTree",
+     "typeId": 14
+    },
+    {
+     "amount": 1,
+     "id": 472273,
+     "objectId": 225215,
+     "storageIndex": 1,
+     "text": "Erhaltet den verbesserten Ruhebonus",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Setzt Euch an Raans einfaches Lagerfeuer und wartet, bis Ihr den verbesserten Ruhebonus erhalten habt.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die große weite Welt"
+  },
+  "96604": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Lok-tar, $C. Ich sehe, dass Ihr den Geist des Abenteuers in Euch tragt. Das ist gut. Die Welt braucht mehr rastlose Seelen wie uns, die nach Ruhm und Reichtum streben.\r\n\r\nIhr werdet lernen müssen, Euch in der Wildnis wohlzufühlen, wenn Ihr erfolgreich sein wollt. Ich weiß nicht, wie es um Eure Überlebenskünste bestellt ist, aber ich kann Euch vermutlich das eine oder andere beibringen, wenn Ihr gewillt seid, zu lernen.\r\n\r\nSetzt Euch neben das Feuer und macht es Euch gemütlich. Ich werde Euch alles erklären.",
+   "flags": 1048584,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473689,
+     "objectId": 227678,
+     "storageIndex": 2,
+     "text": "Setzt Euch in die Nähe des Lagerfeuers",
+     "type": "criteriaTree",
+     "typeId": 14
+    },
+    {
+     "amount": 1,
+     "id": 473690,
+     "objectId": 227681,
+     "storageIndex": 3,
+     "text": "Erhaltet den verbesserten Ruhebonus",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Setzt Euch an Brakks einfaches Lagerfeuer und wartet, bis Ihr den verbesserten Ruhebonus erhalten habt.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die große weite Welt"
+  },
+  "96605": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Seid gegrüßt, $C. Ich sehe, dass Ihr den Geist des Abenteuers in Euch tragt. Das ist gut. Die Welt braucht mehr rastlose Seelen wie uns, die nach Ruhm und Reichtum streben.\r\n\r\nIhr werdet lernen müssen, Euch in der Wildnis wohlzufühlen, wenn Ihr erfolgreich sein wollt. Ich weiß nicht, wie es um Eure Überlebenskünste bestellt ist, aber ich kann Euch vermutlich das eine oder andere beibringen, wenn Ihr gewillt seid, zu lernen.\r\n\r\nSetzt Euch neben das Feuer und macht es Euch gemütlich. Ich werde Euch alles erklären.",
+   "flags": 1048584,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473693,
+     "objectId": 227683,
+     "storageIndex": 2,
+     "text": "Setzt Euch in die Nähe des Lagerfeuers",
+     "type": "criteriaTree",
+     "typeId": 14
+    },
+    {
+     "amount": 1,
+     "id": 473694,
+     "objectId": 227686,
+     "storageIndex": 3,
+     "text": "Erhaltet den verbesserten Ruhebonus",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Setzt Euch an Kagas einfaches Lagerfeuer und wartet, bis Ihr den verbesserten Ruhebonus erhalten habt.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die große weite Welt"
+  },
+  "96606": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Seid gegrüßt, $C. Ich sehe, dass Ihr den Geist des Abenteuers in Euch tragt. Das ist gut. Die Welt braucht mehr rastlose Seelen wie uns, die nach Ruhm und Reichtum streben.\r\n\r\nIhr werdet lernen müssen, Euch in der Wildnis wohlzufühlen, wenn Ihr erfolgreich sein wollt. Ich weiß nicht, wie es um Eure Überlebenskünste bestellt ist, aber ich kann Euch vermutlich das eine oder andere beibringen, wenn Ihr gewillt seid, zu lernen.\r\n\r\nSetzt Euch neben das Feuer und macht es Euch gemütlich. Ich werde Euch alles erklären.",
+   "flags": 1048584,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473697,
+     "objectId": 227688,
+     "storageIndex": 2,
+     "text": "Setzt Euch in die Nähe des Lagerfeuers",
+     "type": "criteriaTree",
+     "typeId": 14
+    },
+    {
+     "amount": 1,
+     "id": 473698,
+     "objectId": 227691,
+     "storageIndex": 3,
+     "text": "Erhaltet den verbesserten Ruhebonus",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Setzt Euch an Lyreenas einfaches Lagerfeuer und wartet, bis Ihr den verbesserten Ruhebonus erhalten habt.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die große weite Welt"
+  },
+  "96607": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Seid gegrüßt, $C. Ich sehe, dass Ihr den Geist des Abenteuers in Euch tragt. Das ist gut. Die Welt braucht mehr rastlose Seelen wie uns, die nach Ruhm und Reichtum streben.\r\n\r\nIhr werdet lernen müssen, Euch in der Wildnis wohlzufühlen, wenn Ihr erfolgreich sein wollt. Ich weiß nicht, wie es um Eure Überlebenskünste bestellt ist, aber ich kann Euch vermutlich das eine oder andere beibringen, wenn Ihr gewillt seid, zu lernen.\r\n\r\nSetzt Euch neben das Feuer und macht es Euch gemütlich. Ich werde Euch alles erklären.",
+   "flags": 1048584,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473701,
+     "objectId": 227693,
+     "storageIndex": 2,
+     "text": "Setzt Euch in die Nähe des Lagerfeuers",
+     "type": "criteriaTree",
+     "typeId": 14
+    },
+    {
+     "amount": 1,
+     "id": 473702,
+     "objectId": 227696,
+     "storageIndex": 3,
+     "text": "Erhaltet den verbesserten Ruhebonus",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Setzt Euch an Eleanors einfaches Lagerfeuer und wartet, bis Ihr den verbesserten Ruhebonus erhalten habt.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die große weite Welt"
+  },
+  "96608": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Seid gegrüßt, $C. Ich sehe, dass Ihr den Geist des Abenteuers in Euch tragt. Das ist gut. Die Welt braucht mehr rastlose Seelen wie uns, die nach Ruhm und Reichtum streben.\r\n\r\nIhr werdet lernen müssen, Euch in der Wildnis wohlzufühlen, wenn Ihr erfolgreich sein wollt. Ich weiß nicht, wie es um Eure Überlebenskünste bestellt ist, aber ich kann Euch vermutlich das eine oder andere beibringen, wenn Ihr gewillt seid, zu lernen.\r\n\r\nSetzt Euch neben das Feuer und macht es Euch gemütlich. Ich werde Euch alles erklären.",
+   "flags": 1048584,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473705,
+     "objectId": 227698,
+     "storageIndex": 2,
+     "text": "Setzt Euch in die Nähe des Lagerfeuers",
+     "type": "criteriaTree",
+     "typeId": 14
+    },
+    {
+     "amount": 1,
+     "id": 473706,
+     "objectId": 227701,
+     "storageIndex": 3,
+     "text": "Erhaltet den verbesserten Ruhebonus",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Setzt Euch an Erics einfaches Lagerfeuer und wartet, bis Ihr den verbesserten Ruhebonus erhalten habt.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Die große weite Welt"
+  },
+  "96626": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Ihr möchtet also mehr über das Zelten erfahren, hm? Gute Idee, $C. Der erste Schritt in jedes Abenteuer besteht darin, kochen zu lernen und herauszufinden, wie man ein Lagerfeuer macht.\r\n\r\nBeim Kochen geht es nicht nur darum, leckeres Essen zuzubereiten. Es ist auch das Fundament, auf dem Ihr Euer Lager aufbaut.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473779,
+     "objectId": 227802,
+     "storageIndex": 1,
+     "text": "Lasst Euch bei Tomas in Goldhain im Kochen ausbilden",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Sprecht mit Tomas in Goldhain, um das Kochen zu erlernen.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kochen"
+  },
+  "96627": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "$n, Ihr habt bisher Eure Eignung als Beschützer unter Beweis gestellt. Daher beauftrage ich Euch nun mit einer ungewöhnlichen Aufgabe.\r\n\r\nIch habe von einem neuen Abenteurer gehört, der sich die Straße runter in Goldhain befindet. Begebt Euch dorthin und findet heraus, was er tut.",
+   "flags": 16777216,
+   "level": 6,
+   "minLevel": 4,
+   "objectivesText": "Sprecht mit Sam Sarsparilla in der Nähe von Goldhain.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Der Abenteurer"
+  },
+  "96628": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Wartet, $n. Ich habe eine weitere Bitte an Euch, bevor Ihr Euch in den Tunnel wagt.\r\n\r\nMeine Gebirgsjäger haben von einem Abenteurer berichtet, der gleich vor Kharanos aufgetaucht ist. Würdet Ihr ihm diese Vorräte bringen?",
+   "flags": 16777216,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473780,
+     "objectId": 275019,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt das Vorratsbündel zu Eric Brighthammer in der Nähe von Kharanos.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 275019,
+   "title": "Der Abenteurer"
+  },
+  "96629": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Ihr möchtet also mehr über das Zelten erfahren, hm? Gute Idee, $C. Der erste Schritt in jedes Abenteuer besteht darin, kochen zu lernen und herauszufinden, wie man ein Lagerfeuer macht.\r\n\r\nBeim Kochen geht es nicht nur darum, leckeres Essen zuzubereiten. Es ist auch das Fundament, auf dem Ihr Euer Lager aufbaut.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473781,
+     "objectId": 227854,
+     "storageIndex": 0,
+     "text": "Lasst Euch bei Gremlock Pilsnor in Kharanos im Kochen ausbilden",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Sprecht mit Gremlock Pilsnor in Kharanos, um das Kochen zu erlernen.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kochen"
+  },
+  "96630": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "<Das schlichte Tagebuch enthält Aufzeichnungen über das Leben und die Abenteuer von jemandem, von dem Ihr noch nie gehört habt.\r\n\r\nViele Einträge handeln vom Zelten. Es klingt ziemlich... spaßig.>",
+   "flags": 16777216,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473783,
+     "objectId": 275022,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt das Tagebuch zu Lyreena Duskblade in der Nähe von Dolanaar.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 275022,
+   "title": "Die Abenteurerin"
+  },
+  "96634": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Ihr möchtet also mehr über das Zelten erfahren, hm? Gute Idee, $C. Der erste Schritt in jedes Abenteuer besteht darin, kochen zu lernen und herauszufinden, wie man ein Lagerfeuer macht.\r\n\r\nBeim Kochen geht es nicht nur darum, leckeres Essen zuzubereiten. Es ist auch das Fundament, auf dem Ihr Euer Lager aufbaut.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473804,
+     "objectId": 227868,
+     "storageIndex": 1,
+     "text": "Lasst Euch bei Zarrin in Dolanaar im Kochen ausbilden",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Sprecht mit Zarrin in Dolanaar, um das Kochen zu erlernen.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kochen"
+  },
+  "96638": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Mehr und mehr Abenteurer wie Ihr haben nach Ruhm und Reichtum außerhalb der Sicherheit des Thendalhains gesucht. Einer dieser Abenteurer hat sein Lager außerhalb von Shen'dar aufgeschlagen, entlang der Straße, die südwestlich aus dem Thendalhain hinausführt.\r\n\r\nSucht ihn auf und seht, welche nützlichen Dinge Ihr von ihm lernen könnt, die Euch auf Euren Reisen behilflich sein könnten.",
+   "flags": 16777216,
+   "level": 6,
+   "minLevel": 4,
+   "nextQuestId": 96101,
+   "objectivesText": "Sprecht mit Raan Wildwind in der Nähe von Shen'dar.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Der Abenteurer"
+  },
+  "96646": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Ihr möchtet also mehr über das Zelten erfahren, hm? Gute Idee, $C. Der erste Schritt in jedes Abenteuer besteht darin, kochen zu lernen und herauszufinden, wie man ein Lagerfeuer macht.\r\n\r\nBeim Kochen geht es nicht nur darum, leckeres Essen zuzubereiten. Es ist auch das Fundament, auf dem Ihr Euer Lager aufbaut.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473818,
+     "objectId": 227877,
+     "storageIndex": 0,
+     "text": "Lasst Euch bei Zerril Softbreeze in Shen'dar im Kochen ausbilden",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Sprecht mit Zerril Softbreeze in Shen'dar, um das Kochen zu erlernen.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kochen"
+  },
+  "96652": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "<Das schlichte Tagebuch enthält Aufzeichnungen über das Leben und die Abenteuer von jemandem, von dem Ihr noch nie gehört habt.\r\n\r\nViele Einträge handeln vom Zelten. Es klingt ziemlich... spaßig.>",
+   "flags": 16777216,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473833,
+     "objectId": 275022,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt das Tagebuch zu Brakk in Klingenhügel.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 275022,
+   "title": "Der Abenteurer"
+  },
+  "96655": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Ihr möchtet also mehr über das Zelten erfahren, hm? Gute Idee, $C. Der erste Schritt in jedes Abenteuer besteht darin, kochen zu lernen und herauszufinden, wie man ein Lagerfeuer macht.\r\n\r\nBeim Kochen geht es nicht nur darum, leckeres Essen zuzubereiten. Es ist auch das Fundament, auf dem Ihr Euer Lager aufbaut.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473835,
+     "objectId": 227879,
+     "storageIndex": 0,
+     "text": "Lasst Euch bei Koch Torka in Klingenhügel im Kochen ausbilden",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Sprecht mit Koch Torka in Klingenhügel, um das Kochen zu erlernen.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kochen"
+  },
+  "96656": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "$n, Ihr habt Euch bei Euren bisherigen Anstrengungen gegen den Scharlachroten Kreuzzug als zuverlässig erwiesen. Daher beauftrage ich Euch nun mit einer ungewöhnlichen Aufgabe.\r\n\r\nIch habe von einer neuen Abenteurerin gehört, die sich die Straße runter in der Nähe von Brill rumtreibt. Begebt Euch dorthin und findet heraus, was sie da tut.",
+   "flags": 16777216,
+   "level": 6,
+   "minLevel": 4,
+   "objectivesText": "Sprecht mit Eleanor Shackleton in der Nähe von Brill.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Der Abenteurer"
+  },
+  "96658": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Ihr möchtet also mehr über das Zelten erfahren, hm? Gute Idee, $C. Der erste Schritt in jedes Abenteuer besteht darin, kochen zu lernen und herauszufinden, wie man ein Lagerfeuer macht.\r\n\r\nBeim Kochen geht es nicht nur darum, leckeres Essen zuzubereiten. Es ist auch das Fundament, auf dem Ihr Euer Lager aufbaut.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473843,
+     "objectId": 227884,
+     "storageIndex": 1,
+     "text": "Lasst Euch bei William Pickman in Brill im Kochen ausbilden",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Sprecht mit William Pickman in Brill, um das Kochen zu erlernen.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kochen"
+  },
+  "96659": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Wartet, $n. Ich habe eine weitere Bitte an Euch, bevor Ihr uns verlasst.\r\n\r\nEs gibt eine Abenteurerin namens Kaga Wildhoof, die ihr Lager außerhalb des Dorfs der Bloodhoof aufgeschlagen hat. Sie hat mir in der Vergangenheit sehr geholfen und jetzt kann ich mich endlich dafür revanchieren. Könnt Ihr ihr bitte diese Vorräte bringen?",
+   "flags": 16777216,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473846,
+     "objectId": 275019,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Bringt das Vorratsbündel zu Kaga Wildhoof in der Nähe des Dorfs der Bloodhoof.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "startItemId": 275019,
+   "title": "Der Abenteurer"
+  },
+  "96661": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Ihr möchtet also mehr über das Zelten erfahren, hm? Gute Idee, $C. Der erste Schritt in jedes Abenteuer besteht darin, kochen zu lernen und herauszufinden, wie man ein Lagerfeuer macht.\r\n\r\nBeim Kochen geht es nicht nur darum, leckeres Essen zuzubereiten. Es ist auch das Fundament, auf dem Ihr Euer Lager aufbaut.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 473847,
+     "objectId": 227886,
+     "storageIndex": 0,
+     "text": "Lasst Euch bei Pyall Silentstride im Dorf der Bloodhoof im Kochen ausbilden",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Sprecht mit Pyall Silentstride im Dorf der Bloodhoof, um das Kochen zu erlernen.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kochen"
+  },
+  "97905": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Sieht aus, als hättet Ihr Euch etwas Wissen in Kräuterkunde angeeignet. Blumen pflücken ist nicht bloß ein Zeitvertreib, es kann auch sehr nützlich sein... und profitabel.\r\n\r\nIch glaube, ich kenne da jemanden, der Euch zeigen kann, wie Ihr eine Räucherkerze für Euer Lager herstellen könnt. Gute Laune ist wichtig, um Heiler und Zauberwirker bei der Stange zu halten, und eine Räucherkerze kann allen, die Magie einsetzen, einen Schub geben.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 476494,
+     "objectId": 231035,
+     "storageIndex": 0,
+     "text": "Erhöht Eure Kräuterkundefertigkeit auf 20",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Geht nach Orgrimmar und sprecht mit Jandi, um zu lernen, wie Ihr einen Lagergegenstand für Euren Beruf herstellt, nachdem Ihr Euer Geschick in Eurer Fertigkeit unter Beweis gestellt habt.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 1229705,
+      "type": 2
+     }
+    ],
+    "spellId": 1255251,
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kräuterkunde"
+  },
+  "97919": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Ihr habt Euch also für Erste Hilfe entschieden? Als $C ist das eine ehrbare Wahl... und auch eine pragmatische.\r\n\r\nIch glaube, ich kenne da jemanden, der Euch zeigen kann, wie Ihr eine Verbandtasche für Euer Lager herstellen könnt. Bei Abenteurern stehen Verletzungen an der Tagesordnung, und wenn Ihr in Eurem Lager Heilung anbietet, könntet Ihr damit sogar Leben retten.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 476521,
+     "objectId": 231074,
+     "storageIndex": 0,
+     "text": "Erhöht Eure Erste-Hilfe-Fertigkeit auf 20",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Geht nach Goldhain und sprecht mit Michelle Belle, um zu lernen, wie Ihr einen Lagergegenstand für Euren Beruf herstellt, nachdem Ihr Euer Geschick in Eurer Fertigkeit unter Beweis gestellt habt.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 1230117,
+      "type": 2
+     }
+    ],
+    "spellId": 1255255,
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Erste Hilfe"
+  },
+  "97920": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Ob Ihr es glaubt oder nicht, Eure Fähigkeiten als $gAngler:Anglerin; können für Euer Lager durchaus nützlich sein.\r\n\r\nIch glaube, ich kenne da jemanden, der Euch zeigen kann, wie Ihr ein Fischglas für Euer Lager herstellen könnt. Mit diesem Schmuckstück könnt Ihr Euch selbst und anderen Abenteurern ein wenig Freude bereiten. Denn fröhliche Abenteurer sind starke Abenteurer und ich bin mir sicher, dass sich das auch in Euren Kampffähigkeiten niederschlagen wird.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 476523,
+     "objectId": 231076,
+     "storageIndex": 0,
+     "text": "Erhöht Eure Angelfertigkeit auf 20",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Sprecht mit Lee Brown in der Nähe von Goldhain, um zu lernen, wie Ihr einen Lagergegenstand für Euren Beruf herstellt, nachdem Ihr Euer Geschick in Eurer Fertigkeit unter Beweis gestellt habt.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 1229745,
+      "type": 2
+     }
+    ],
+    "spellId": 1255254,
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Angeln"
+  },
+  "97921": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Sieht aus, als hättet Ihr Euch etwas Wissen in Kräuterkunde angeeignet. Blumen pflücken ist nicht bloß ein Zeitvertreib, es kann auch sehr nützlich sein... und profitabel.\r\n\r\nIch glaube, ich kenne da jemanden, der Euch zeigen kann, wie Ihr eine Räucherkerze für Euer Lager herstellen könnt. Gute Laune ist wichtig, um Heiler und Zauberwirker bei der Stange zu halten, und eine Räucherkerze kann allen, die Magie einsetzen, einen Schub geben.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 476525,
+     "objectId": 231078,
+     "storageIndex": 0,
+     "text": "Erhöht Eure Kräuterkundefertigkeit auf 20",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Sprecht mit der Kräuterkundigen Pomeroy im Wald von Elwynn, um zu lernen, wie Ihr einen Lagergegenstand für Euren Beruf herstellt, nachdem Ihr Euer Geschick in Eurer Fertigkeit unter Beweis gestellt habt.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 1229705,
+      "type": 2
+     }
+    ],
+    "spellId": 1255251,
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kräuterkunde"
+  },
+  "97933": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Sieht aus, als hättet Ihr Euch etwas Wissen in Kräuterkunde angeeignet. Blumen pflücken ist nicht bloß ein Zeitvertreib, es kann auch sehr nützlich sein... und profitabel.\r\n\r\nIch glaube, ich kenne da jemanden, der Euch zeigen kann, wie Ihr eine Räucherkerze für Euer Lager herstellen könnt. Gute Laune ist wichtig, um Heiler und Zauberwirker bei der Stange zu halten, und eine Räucherkerze kann allen, die Magie einsetzen, einen Schub geben.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 476550,
+     "objectId": 231100,
+     "storageIndex": 0,
+     "text": "Erhöht Eure Kräuterkundefertigkeit auf 20",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Sprecht mit Komin Winterhoof in Thunder Bluff, um zu lernen, wie Ihr einen Lagergegenstand für Euren Beruf herstellt, nachdem Ihr Euer Geschick in Eurer Fertigkeit unter Beweis gestellt habt.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 1229705,
+      "type": 2
+     }
+    ],
+    "spellId": 1255251,
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kräuterkunde"
+  },
+  "97944": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Sieht aus, als hättet Ihr Euch etwas Wissen in Kräuterkunde angeeignet. Blumen pflücken ist nicht bloß ein Zeitvertreib, es kann auch sehr nützlich sein... und profitabel.\r\n\r\nIch glaube, ich kenne da jemanden, der Euch zeigen kann, wie Ihr eine Räucherkerze für Euer Lager herstellen könnt. Gute Laune ist wichtig, um Heiler und Zauberwirker bei der Stange zu halten, und eine Räucherkerze kann allen, die Magie einsetzen, einen Schub geben.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 476580,
+     "objectId": 231122,
+     "storageIndex": 0,
+     "text": "Erhöht Eure Kräuterkundefertigkeit auf 20",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Sprecht mit Malorne Bladeleaf in Dolanaar, um zu lernen, wie Ihr einen Lagergegenstand für Euren Beruf herstellt, nachdem Ihr Euer Geschick in Eurer Fertigkeit unter Beweis gestellt habt.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 1229705,
+      "type": 2
+     }
+    ],
+    "spellId": 1255251,
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kräuterkunde"
+  },
+  "97957": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Sieht aus, als hättet Ihr Euch etwas Wissen in Kräuterkunde angeeignet. Blumen pflücken ist nicht bloß ein Zeitvertreib, es kann auch sehr nützlich sein... und profitabel.\r\n\r\nIch glaube, ich kenne da jemanden, der Euch zeigen kann, wie Ihr eine Räucherkerze für Euer Lager herstellen könnt. Gute Laune ist wichtig, um Heiler und Zauberwirker bei der Stange zu halten, und eine Räucherkerze kann allen, die Magie einsetzen, einen Schub geben.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 476605,
+     "objectId": 231146,
+     "storageIndex": 0,
+     "text": "Erhöht Eure Kräuterkundefertigkeit auf 20",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Geht nach Brill und sprecht mit Faruza, um zu lernen, wie Ihr einen Lagergegenstand für Euren Beruf herstellt, nachdem Ihr Euer Geschick in Eurer Fertigkeit unter Beweis gestellt habt.",
+   "questType": 2,
+   "raceMask": "aa2aaaaa4e0ab3b2",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 1229705,
+      "type": 2
+     }
+    ],
+    "spellId": 1255251,
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kräuterkunde"
+  },
+  "97968": {
+   "areaDescription": "Suche nach dem Jägerlager",
+   "categoryId": 666,
+   "description": "Sieht aus, als hättet Ihr Euch etwas Wissen in Kräuterkunde angeeignet. Blumen pflücken ist nicht bloß ein Zeitvertreib, es kann auch sehr nützlich sein... und profitabel.\r\n\r\nIch glaube, ich kenne da jemanden, der Euch zeigen kann, wie Ihr eine Räucherkerze für Euer Lager herstellen könnt. Gute Laune ist wichtig, um Heiler und Zauberwirker bei der Stange zu halten, und eine Räucherkerze kann allen, die Magie einsetzen, einen Schub geben.",
+   "flags": 0,
+   "level": 6,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 1,
+     "id": 476630,
+     "objectId": 231166,
+     "storageIndex": 0,
+     "text": "Erhöht Eure Kräuterkundefertigkeit auf 20",
+     "type": "criteriaTree",
+     "typeId": 14
+    }
+   ],
+   "objectivesText": "Geht nach Valanaar und sprecht mit Syriel Nightrain, um zu lernen, wie Ihr einen Lagergegenstand für Euren Beruf herstellt, nachdem Ihr Euer Geschick in Eurer Fertigkeit unter Beweis gestellt habt.",
+   "questType": 2,
+   "raceMask": "ffffffffffffffff",
+   "rewards": {
+    "displaySpells": [
+     {
+      "spellId": 1229705,
+      "type": 2
+     }
+    ],
+    "spellId": 1255251,
+    "xpDifficulty": 3,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Grundlagen des Zeltens: Kräuterkunde"
+  },
+  "99127": {
+   "description": "Die Fische wollen heute einfach nicht beißen. Irgendetwas stimmt nicht mit ihnen. Es sind nicht nur die Haken, die leer bleiben. Ich hab hier auch noch keine einzige Sardine schwimmen sehen.\r\n\r\nLee hier hat über Nacht ein paar Fallen aufgestellt. Schaut bitte nach, ob wir wenigstens dort etwas fangen konnten. Und lasst mich wissen, wenn Ihr irgendetwas merkwürdiges seht.",
+   "flags": 36700168,
+   "level": 7,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 7,
+     "id": 479441,
+     "objectId": 286205,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Überprüft die Fischfallen im Kristallsee.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Schlechtes Netz",
+   "zoneAreaId": 12
+  },
+  "99128": {
+   "description": "Das kann nur das Werk von diesen Murlocs auf der anderen Seite des Sees sein. Diese ekelhaften kleinen Viecher haben ein grauenhaftes Temperament und die passenden Zähne noch dazu.\r\n\r\nWenn wir nichts dagegen tun, gibt es in diesem See bald gar keine Fische mehr. Ihr würdet mir einen riesigen Gefallen tun, wenn Ihr sie etwas ausmerzen könntet.",
+   "flags": 36700168,
+   "level": 7,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 7,
+     "id": 479405,
+     "objectId": 285,
+     "storageIndex": 1,
+     "type": "monster",
+     "typeId": 0
+    },
+    {
+     "amount": 4,
+     "id": 479404,
+     "objectId": 735,
+     "storageIndex": 0,
+     "type": "monster",
+     "typeId": 0
+    }
+   ],
+   "objectivesText": "Tötet $1oa Murlocs und $2oa Murlocbachläufer am Kristallsee und kehrt dann zu Jason Mathers zurück.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "money": 85,
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Eine schleimige Bedrohung",
+   "zoneAreaId": 12
+  },
+  "99129": {
+   "description": "Remy hat letztens von Murlocs gesprochen... Ich bin mir ziemlich sicher, dass er die kleinen Plagegeister genauso hasst wie ich.\r\n\r\nVielleicht hat er ein paar Ideen, wie wir die Viecher in Zukunft von meinen Fischen fernhalten können. Ich möchte Euch darum bitten, ihm einen Besuch abzustatten und mit ihm zu reden. Fragt ihn, ob ihm etwas zu der Sache einfällt.",
+   "flags": 36700168,
+   "level": 7,
+   "minLevel": 4,
+   "objectivesText": "Sprecht mit Remy \"Zweifach\" über Jasons Murlocprobleme.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Ein Problem, ein Mann, eine Lösung",
+   "zoneAreaId": 12
+  },
+  "99130": {
+   "description": "Ich habe da ein paar Ideen, wie wir gegen die Murlocs vorgehen können. Und eine dieser Ideen hilft im gleichen Zug sogar noch anderen.\r\n\r\nEs gibt da ein Kraut, dass sich oft auf Bauernhöfen finden lässt. Es heißt Dämmerkraut und seine Blüten sind in hohen Dosen für die meisten Tiere giftig. Wenn wir aus der Pflanze einen Köder für die Murlocs herstellen, können wir diesen Kreaturen vielleicht beibringen, Abstand zu halten.\r\n\r\nUnd im gleichen Zug werden die Felder einiger Bauern gejätet. Es gibt nur Gewinner... nur Gewinner.",
+   "flags": 36700168,
+   "level": 7,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 6,
+     "id": 479454,
+     "objectId": 286215,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    },
+    {
+     "amount": 18,
+     "id": 479453,
+     "objectId": 286214,
+     "storageIndex": 0,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Sammelt $1oa Phiolen Tierblut und $2oa Dämmerkrautblüten als Murloc-Köder und kehrt dann zu Remy \"Zweifach\" in Goldhain zurück.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 286733
+     }
+    ],
+    "xpDifficulty": 5,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Ein verlockendes Angebot",
+   "zoneAreaId": 12
+  },
+  "99131": {
+   "description": "Sagt Mathers, dass er den Köder später bei mir abholen kann. Ich gebe ihm dann einen Abriss darüber, wie man ihn richtig einsetzt.\r\n\r\nHoffentlich kann er bald wieder Fisch verkaufen. Und hoffentlich haben wir bald weniger Murlocs auf dieser Welt.",
+   "flags": 36700168,
+   "level": 7,
+   "minLevel": 4,
+   "objectivesText": "Kehrt zu Jason Mathers zurück.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "xpDifficulty": 1,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Ein Köder für Erfolg",
+   "zoneAreaId": 12
+  },
+  "99143": {
+   "description": "Diese Fischmenschen müssen wie echte Fische denken, oder? Was bedeutet, dass sie auch mögen, was Fische mögen!\r\n\r\nWenn Ihr ihren Plunder durchwühlt und mir alles bringt, was einen guten Köder abgeben könnte, werde ich Euch dafür entlohnen.",
+   "flags": 36700168,
+   "level": 7,
+   "minLevel": 4,
+   "objectives": [
+    {
+     "amount": 6,
+     "id": 479442,
+     "objectId": 286209,
+     "storageIndex": 1,
+     "type": "item",
+     "typeId": 1
+    }
+   ],
+   "objectivesText": "Sammelt $1oa Stücke glänzenden Plunder von dem Murloclager in der Nähe.",
+   "questType": 2,
+   "raceMask": "55155555b1354c4d",
+   "rewards": {
+    "items": [
+     {
+      "count": 1,
+      "itemId": 286732
+     }
+    ],
+    "xpDifficulty": 4,
+    "xpMultiplier": 1.0
+   },
+   "sources": 1,
+   "title": "Glitschiger Glitzerkram",
+   "zoneAreaId": 12
+  }
+ }
+}
